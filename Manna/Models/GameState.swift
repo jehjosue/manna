@@ -563,3 +563,13 @@ struct WidgetSnapshot: Codable {
     let userName: String
     let updatedAt: Date
 }
+
+/// Modo de uma sessão de exercícios (usado por `LessonView(lesson:mode:onFinish:onQuit:)`).
+enum LessonMode: String, Hashable {
+    /// Lição normal da trilha.
+    case normal
+    /// Revisão / treino (exercícios de lições já feitas). Não gasta óleo.
+    case practice
+    /// Nível lendário de uma unidade concluída: exercícios mais difíceis, no máximo 2 erros.
+    case legendary
+}
