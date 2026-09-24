@@ -10,7 +10,6 @@ struct MannaApp: App {
             RootView()
                 .environment(game)
                 .environment(content)
-                .preferredColorScheme(.light)
                 .tint(Theme.wheat)
         }
     }
@@ -28,7 +27,13 @@ struct RootView: View {
                 OnboardingView()
             }
         }
-        .onAppear { game.refreshForToday() }
+        .onAppear {
+            game.refreshForToday()
+            SoundFX.isEnabled = game.soundEnabled
+            Haptics.isEnabled = game.hapticsEnabled
+        }
+        .onChange(of: game.soundEnabled) { _, on in SoundFX.isEnabled = on }
+        .onChange(of: game.hapticsEnabled) { _, on in Haptics.isEnabled = on }
         .onChange(of: scenePhase) { _, phase in
             if phase == .active { game.refreshForToday() }
         }

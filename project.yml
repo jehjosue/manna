@@ -16,6 +16,16 @@ targets:
     platform: iOS
     sources:
       - path: Manna
+    entitlements:
+      path: Manna/Manna.entitlements
+      properties:
+        com.apple.developer.game-center: true
+        com.apple.security.application-groups:
+          - group.app.manna.ios
+        com.apple.developer.icloud-container-identifiers:
+          - iCloud.app.manna.ios
+        com.apple.developer.icloud-services:
+          - CloudKit
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: app.manna.ios
@@ -23,8 +33,10 @@ targets:
         INFOPLIST_KEY_CFBundleDisplayName: Manna
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
-        INFOPLIST_KEY_UIUserInterfaceStyle: Light
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.education
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: "O Manna usa o microfone para você ler versículos em voz alta nos exercícios de fala."
+        INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: "O Manna reconhece sua voz para conferir a leitura dos versículos."
+        INFOPLIST_KEY_GKGameCenterBadgingDisabled: YES
         TARGETED_DEVICE_FAMILY: "1"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor

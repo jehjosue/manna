@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 /// Paleta e tipografia do Manna. Nada de verde-limão/azul Duolingo:
 /// base dourado-trigo, verde-oliva para acerto, terracota para erro, fundo creme.
@@ -8,20 +9,20 @@ enum Theme {
     static let wheatDark = Color(hex: 0xB97A1E)      // sombra 3D da primária
     static let olive = Color(hex: 0x7A9A3A)          // acerto
     static let oliveDark = Color(hex: 0x5A7526)
-    static let oliveLight = Color(hex: 0xEEF3DF)     // fundo da faixa de acerto
+    static let oliveLight = Color(light: 0xEEF3DF, dark: 0x2C3520)     // fundo da faixa de acerto
     static let terracotta = Color(hex: 0xD0643F)     // erro
     static let terracottaDark = Color(hex: 0xA2482A)
-    static let terracottaLight = Color(hex: 0xFBE6DD) // fundo da faixa de erro
+    static let terracottaLight = Color(light: 0xFBE6DD, dark: 0x3F2720) // fundo da faixa de erro
     static let night = Color(hex: 0x3B5BA9)          // azul-noite (secundária, info)
     static let nightDark = Color(hex: 0x2A4380)
 
     // Neutros
-    static let cream = Color(hex: 0xFFF9EF)          // fundo do app
-    static let card = Color.white
-    static let ink = Color(hex: 0x3D3326)            // texto principal
-    static let inkMuted = Color(hex: 0x8C8170)       // texto secundário
-    static let line = Color(hex: 0xE6DED0)           // bordas / trilha bloqueada
-    static let lineDark = Color(hex: 0xCFC4B1)       // sombra 3D de itens neutros
+    static let cream = Color(light: 0xFFF9EF, dark: 0x1C1813)          // fundo do app
+    static let card = Color(light: 0xFFFFFF, dark: 0x28231D)
+    static let ink = Color(light: 0x3D3326, dark: 0xF3EBDD)            // texto principal
+    static let inkMuted = Color(light: 0x8C8170, dark: 0xA99D8A)       // texto secundário
+    static let line = Color(light: 0xE6DED0, dark: 0x3B342B)           // bordas / trilha bloqueada
+    static let lineDark = Color(light: 0xCFC4B1, dark: 0x4D453A)       // sombra 3D de itens neutros
 
     // Ícones de gamificação
     static let bread = Color(hex: 0xD98E3A)          // pão diário (sequência)
@@ -39,6 +40,13 @@ enum Theme {
 }
 
 extension Color {
+    /// Cor que muda sozinha entre o modo claro e o escuro.
+    init(light: UInt32, dark: UInt32) {
+        self.init(uiColor: UIColor { traits in
+            UIColor(Color(hex: traits.userInterfaceStyle == .dark ? dark : light))
+        })
+    }
+
     init(hex: UInt32, opacity: Double = 1) {
         self.init(
             .sRGB,

@@ -17,6 +17,8 @@ final class LessonViewModel {
     // Fila: o exercício atual é sempre o primeiro.
     private(set) var queue: [Exercise]
     private var retried: Set<String> = []
+    private var wrongIds: [String] = []
+    private var rightIds: [String] = []
 
     // Contagem
     private(set) var finishedCount = 0          // exercícios resolvidos (para a barra de progresso)
@@ -73,7 +75,10 @@ final class LessonViewModel {
     }
 
     var outcome: LessonOutcome {
-        LessonOutcome(lessonId: lesson.id, correctCount: firstTryCorrect, totalCount: totalCount, mistakes: mistakes)
+        LessonOutcome(
+            lessonId: lesson.id, correctCount: firstTryCorrect, totalCount: totalCount, mistakes: mistakes,
+            wrongExerciseIds: wrongIds, correctExerciseIds: rightIds.filter { !wrongIds.contains($0) }
+        )
     }
 
     // MARK: Montar versículo
@@ -152,9 +157,11 @@ final class LessonViewModel {
         if isCorrect {
             if !retried.contains(exercise.id) { firstTryCorrect += 1 }
             streak += 1
+            rightIds.append(exercise.id)
         } else {
             mistakes += 1
             streak = 0
+            if !wrongIds.contains(exercise.id) { wrongIds.append(exercise.id) }
             game.loseOil()
         }
 
