@@ -7,7 +7,7 @@ struct CharacterDetailView: View {
 
     @State private var isSpeak = false
     @State private var showBio = false
-    @StateObject private var narratorState = Narrator.state
+    private let narratorState = Narrator.state
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {

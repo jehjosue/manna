@@ -14,7 +14,7 @@ struct ConversationDetailView: View {
     @State private var wasAnswerCorrect = false
     @State private var animateContent = false
     @State private var characterMood: CharacterMood = .happy
-    @StateObject private var narratorState = Narrator.state
+    private let narratorState = Narrator.state
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private var currentTurn: ConversationTurn? {

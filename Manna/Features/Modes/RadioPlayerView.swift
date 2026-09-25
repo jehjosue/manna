@@ -17,7 +17,7 @@ struct RadioPlayerView: View {
     @State private var showCelebration = false
     @State private var celebrationResult: LessonResult?
     @State private var animateContent = false
-    @StateObject private var narratorState = Narrator.state
+    private let narratorState = Narrator.state
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private var currentStep: RadioStep? {

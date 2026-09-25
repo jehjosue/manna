@@ -153,7 +153,7 @@ struct StoryLineView: View {
     @State private var isSpeaking = false
     @State private var showBubble = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    @StateObject private var narratorState = Narrator.state
+    private let narratorState = Narrator.state
 
     var body: some View {
         VStack(spacing: 16) {
