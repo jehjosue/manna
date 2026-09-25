@@ -6,7 +6,7 @@ struct FeedbackBanner: View {
     let title: String
     let explanation: String?
     let correctAnswer: String?
-    let exercise: Exercise?
+    var exercise: Exercise? = nil
     let onContinue: () -> Void
 
     @State private var showExplainSheet = false

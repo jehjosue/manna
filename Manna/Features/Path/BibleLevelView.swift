@@ -201,19 +201,6 @@ struct BibleLevelView: View {
     }
 }
 
-// Store simplificado para verificar lendários (pode estar em outro lugar)
-enum PathRewardsStore {
-    static func isUnitLegendary(_ unitId: String) -> Bool {
-        let key = "manna.legendary.\(unitId)"
-        return UserDefaults.standard.bool(forKey: key)
-    }
-
-    static func markUnitLegendary(_ unitId: String) {
-        let key = "manna.legendary.\(unitId)"
-        UserDefaults.standard.set(true, forKey: key)
-    }
-}
-
 #Preview {
     BibleLevelView()
         .environment(GameState())
