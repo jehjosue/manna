@@ -63,7 +63,10 @@ struct JourneyManageCard: View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(spacing: 12) {
                 // Ícone da jornada
-                GameIconView(icon: journey.icon, size: 48)
+                Image(systemName: journey.icon ?? "book.fill")
+                    .font(.system(size: 28, weight: .bold))
+                    .foregroundStyle(Theme.wheat)
+                    .frame(width: 48, height: 48)
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text(journey.title)
