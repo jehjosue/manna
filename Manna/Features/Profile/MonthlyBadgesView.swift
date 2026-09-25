@@ -73,12 +73,12 @@ struct MonthlyBadgeItem: View {
     var monthLabel: String {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM"
-        formatter.locale = Locale(identifier: "pt_BR")
+        formatter.locale = Locale.current
 
         if let date = formatter.date(from: monthKey) {
             let monthFormatter = DateFormatter()
             monthFormatter.dateFormat = "MMMM"
-            monthFormatter.locale = Locale(identifier: "pt_BR")
+            monthFormatter.locale = Locale.current
             let month = monthFormatter.string(from: date).capitalized
 
             let yearFormatter = DateFormatter()

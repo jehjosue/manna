@@ -224,14 +224,22 @@ struct LeagueLeaderboardView: View {
 struct LeaderboardRow: View {
     let player: GameCenterPlayer
     let isCurrentPlayer: Bool
+    @State private var animateEntry = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         HStack(spacing: 12) {
             if let rank = player.rank {
-                Text("\(rank)")
-                    .font(Theme.font(14, .bold))
-                    .foregroundStyle(Theme.inkMuted)
-                    .frame(width: 30)
+                ZStack {
+                    Circle()
+                        .fill(getMedalColor(for: rank))
+                        .frame(width: 32, height: 32)
+
+                    Text("\(rank)")
+                        .font(Theme.font(13, .bold))
+                        .foregroundStyle(.white)
+                }
+                .frame(width: 30)
             }
 
             VStack(alignment: .leading, spacing: 2) {
@@ -264,35 +272,83 @@ struct LeaderboardRow: View {
             RoundedRectangle(cornerRadius: 10)
                 .strokeBorder(isCurrentPlayer ? Theme.wheat : Theme.line, lineWidth: isCurrentPlayer ? 2 : 1)
         )
+        .opacity(animateEntry ? 1 : 0)
+        .offset(x: animateEntry ? 0 : -20)
+        .animation(
+            reduceMotion ? .none : .easeOut(duration: 0.3),
+            value: animateEntry
+        )
+        .onAppear {
+            if !reduceMotion {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                    withAnimation {
+                        animateEntry = true
+                    }
+                }
+            } else {
+                animateEntry = true
+            }
+        }
+    }
+
+    private func getMedalColor(for rank: Int) -> Color {
+        switch rank {
+        case 1: Color(hex: 0xFFD700) // Ouro
+        case 2: Color(hex: 0xC0C0C0) // Prata
+        case 3: Color(hex: 0xCD7F32) // Bronze
+        default: Theme.wheat
+        }
     }
 }
 
 struct LeaguePromotionSheet: View {
     let division: LeagueDivision
     @Environment(\.dismiss) var dismiss
+    @State private var isCelebrating = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         VStack(spacing: 24) {
             Spacer()
 
             VStack(spacing: 12) {
+                // Estrela girando e pulsando
                 Image(systemName: "star.burst.fill")
                     .font(.system(size: 48))
                     .foregroundStyle(division.color)
+                    .scaleEffect(isCelebrating ? 1.2 : 1)
+                    .rotationEffect(.degrees(isCelebrating ? 360 : 0))
+                    .animation(
+                        reduceMotion ? .none : .easeInOut(duration: 0.6).repeatForever(autoreverses: false),
+                        value: isCelebrating
+                    )
 
                 Text("Parabéns!")
                     .font(Theme.font(24, .bold))
                     .foregroundStyle(Theme.ink)
+                    .opacity(isCelebrating ? 1 : 0)
+                    .offset(y: isCelebrating ? 0 : -10)
 
                 Text("Você subiu para \(division.displayName)")
                     .font(Theme.font(16, .bold))
                     .foregroundStyle(division.color)
+                    .opacity(isCelebrating ? 1 : 0)
+                    .offset(y: isCelebrating ? 0 : -10)
 
                 Text("Continue estudando para manter sua posição!")
                     .font(Theme.font(13, .semibold))
                     .foregroundStyle(Theme.inkMuted)
                     .multilineTextAlignment(.center)
+                    .opacity(isCelebrating ? 1 : 0)
+                    .offset(y: isCelebrating ? 0 : -10)
             }
+
+            // Personagem comemorando
+            CharacterView(character: .bee, mood: .cheering, size: 120)
+                .characterBreathing(size: 120)
+                .characterReaction(.cheering)
+                .opacity(isCelebrating ? 1 : 0)
+                .scale(isCelebrating ? 1 : 0.8, anchor: .center)
 
             Spacer()
 
@@ -305,6 +361,17 @@ struct LeaguePromotionSheet: View {
         }
         .presentationDetents([.medium])
         .presentationDragIndicator(.visible)
+        .onAppear {
+            if !reduceMotion {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                    withAnimation {
+                        isCelebrating = true
+                    }
+                }
+            } else {
+                isCelebrating = true
+            }
+        }
     }
 }
 

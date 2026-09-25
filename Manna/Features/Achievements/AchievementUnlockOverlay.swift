@@ -49,6 +49,10 @@ struct AchievementUnlockPopup: View {
 
     @Environment(GameState.self) var game
     @Environment(AchievementStore.self) var store
+    @State private var medalScale: CGFloat = 0
+    @State private var medalRotation: Double = 0
+    @State private var textOpacity = 0.0
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         ZStack {
@@ -57,13 +61,14 @@ struct AchievementUnlockPopup: View {
             VStack(spacing: 24) {
                 Spacer()
 
-                // Medalha animada
+                // Medalha girando com brilho
                 ZStack {
+                    // Brilho pulsante
                     Circle()
                         .fill(
                             LinearGradient(
                                 gradient: Gradient(colors: [
-                                    unlock.tier.color.opacity(0.3),
+                                    unlock.tier.color.opacity(0.4),
                                     unlock.tier.color.opacity(0.1)
                                 ]),
                                 startPoint: .topLeading,
@@ -82,7 +87,9 @@ struct AchievementUnlockPopup: View {
                     }
                 }
                 .frame(width: 140, height: 140)
-                .scaleEffect(1)
+                .scaleEffect(medalScale)
+                .rotationEffect(.degrees(medalRotation))
+                .shadow(color: unlock.tier.color.opacity(0.5), radius: 20, x: 0, y: 10)
 
                 VStack(spacing: 8) {
                     Text("Conquista Desbloqueada!")
@@ -98,6 +105,14 @@ struct AchievementUnlockPopup: View {
                         .foregroundStyle(Theme.inkMuted)
                         .multilineTextAlignment(.center)
                 }
+                .opacity(textOpacity)
+                .offset(y: textOpacity < 1 ? 10 : 0)
+
+                // Personagem comemorando
+                CharacterView(character: .bee, mood: .cheering, size: 110)
+                    .characterBreathing(size: 110)
+                    .characterReaction(.cheering)
+                    .opacity(textOpacity)
 
                 // Recompensa
                 HStack(spacing: 8) {
@@ -115,6 +130,7 @@ struct AchievementUnlockPopup: View {
                     RoundedRectangle(cornerRadius: 12)
                         .strokeBorder(Theme.manna, lineWidth: 2)
                 )
+                .opacity(textOpacity)
 
                 Spacer()
 
@@ -132,8 +148,27 @@ struct AchievementUnlockPopup: View {
                 .padding(.bottom, 20)
             }
         }
-        .presentationDetents([.medium])
+        .presentationDetents([.large])
         .presentationDragIndicator(.visible)
+        .onAppear {
+            if !reduceMotion {
+                // Medalha entra girando
+                withAnimation(.easeOut(duration: 0.6)) {
+                    medalScale = 1
+                    medalRotation = 360
+                }
+
+                // Texto entra após medalha
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
+                    withAnimation(.easeOut(duration: 0.4)) {
+                        textOpacity = 1
+                    }
+                }
+            } else {
+                medalScale = 1
+                textOpacity = 1
+            }
+        }
     }
 }
 

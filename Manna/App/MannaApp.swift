@@ -8,6 +8,7 @@ struct MannaApp: App {
     init() {
         // Aparelho novo: traz o progresso do iCloud antes de carregar o estado.
         CloudProgressSync.restoreIfFreshInstall()
+        Narrator.voiceLanguage = ContentLanguage.current.voiceCode
         _game = State(initialValue: GameState.load())
     }
 

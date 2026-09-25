@@ -5,7 +5,7 @@ import Observation
 /// Serviço de reconhecimento de fala em tempo real (pt-BR).
 @Observable
 final class SpeechRecognizer {
-    private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "pt-BR"))
+    private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: ContentLanguage.current.voiceCode))
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private let audioEngine = AVAudioEngine()
 

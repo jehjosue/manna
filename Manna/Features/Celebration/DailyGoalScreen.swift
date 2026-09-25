@@ -3,16 +3,20 @@ import SwiftUI
 /// Tela 3: Meta diária atingida.
 struct DailyGoalScreen: View {
     let result: LessonResult
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         VStack(spacing: 24) {
-            SheepView(mood: .cheering, size: 120)
+            CharacterView(character: .juda, mood: .cheering, size: 120)
+                .characterReaction(.cheering)
+                .transition(.scale.combined(with: .opacity))
 
             VStack(spacing: 12) {
                 HStack(spacing: 8) {
                     Image(systemName: "target")
                         .font(.system(size: 28, weight: .bold))
                         .foregroundStyle(Theme.wheat)
+                        .scaleEffect(1.2)
 
                     Text("Meta do dia cumprida!")
                         .font(Theme.font(22, .heavy))
@@ -23,11 +27,14 @@ struct DailyGoalScreen: View {
                     .font(Theme.font(16, .semibold))
                     .foregroundStyle(Theme.inkMuted)
             }
+            .transition(.opacity)
 
             VStack(spacing: 12) {
                 HStack(spacing: 12) {
                     StatCard(icon: .xp, label: "XP ganho", finalValue: result.xpEarned, unit: "XP")
+                        .transition(.scale.combined(with: .opacity))
                     StatCard(icon: .manna, label: "Recompensa", finalValue: result.mannaEarned, unit: "")
+                        .transition(.scale.combined(with: .opacity))
                 }
             }
 

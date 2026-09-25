@@ -1,0 +1,2513 @@
+{
+  "id": "herois-da-fe",
+  "title": "Heroes of Faith",
+  "subtitle": "Men and women of the Old Testament",
+  "icon": "shield.fill",
+  "order": 3,
+  "units": [
+    {
+      "id": "herois-u1",
+      "title": "Unit 1",
+      "subtitle": "The Patriarchs",
+      "guide": {
+        "summary": "The patriarchs Noah, Abraham, Isaac, Jacob, and Joseph are examples of persevering faith. Despite their fears and weaknesses, they trusted in God's calling. Their lives reveal how God works through generations, fulfilling His promises even when everything seemed impossible.",
+        "keyVerses": [
+          {
+            "reference": "Hebrews 11:8-9",
+            "text": "By faith Abraham, when he was called, obeyed by going out to a place which he was to receive for an inheritance; and he went out, not knowing where he was going. By faith he lived as an alien in the land of promise, as in a foreign land."
+          },
+          {
+            "reference": "Genesis 12:1-2",
+            "text": "Now the Lord said to Abram, 'Get out of your country, away from your relatives, and away from your father's house, to a land that I will show you. I will make you into a great nation.'"
+          },
+          {
+            "reference": "Genesis 37:28",
+            "text": "Then some Midianite traders passed by, so they pulled Joseph up and lifted him out of the pit, and sold him to the Ishmaelites for twenty pieces of silver."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "herois-u1-l1",
+          "title": "Noah and the Ark",
+          "icon": "star.fill",
+          "exercises": [
+            {
+              "id": "herois-u1-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "What did God ask Noah to build?",
+              "text": "God commanded Noah to build an ___.",
+              "speaker": "Narrator",
+              "options": [
+                "ark",
+                "house",
+                "temple",
+                "ship"
+              ],
+              "answer": "ark",
+              "reference": "Genesis 6:14"
+            },
+            {
+              "id": "herois-u1-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Noah needed to save two of each ___ of living creature.",
+              "answer": "kind",
+              "options": [
+                "kind",
+                "type",
+                "species",
+                "class"
+              ],
+              "reference": "Genesis 6:19"
+            },
+            {
+              "id": "herois-u1-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Noah obeyed completely",
+              "tokens": [
+                "So Noah did",
+                "according to all",
+                "that God had commanded him"
+              ],
+              "distractors": [
+                "considered",
+                "argued",
+                "discussed",
+                "thought"
+              ],
+              "reference": "Genesis 6:22"
+            },
+            {
+              "id": "herois-u1-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the story in order",
+              "text": "Sequence of Noah's life.",
+              "tokens": [
+                "God chooses Noah",
+                "Noah builds the ark",
+                "Animals enter",
+                "Flood destroys the earth"
+              ],
+              "reference": "Genesis 6-8"
+            },
+            {
+              "id": "herois-u1-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the elements",
+              "pairs": [
+                {
+                  "left": "Noah",
+                  "right": "Righteous and blameless"
+                },
+                {
+                  "left": "Ark",
+                  "right": "Salvation"
+                },
+                {
+                  "left": "Flood",
+                  "right": "Judgment"
+                },
+                {
+                  "left": "Faith",
+                  "right": "Obedience"
+                }
+              ],
+              "reference": "Genesis 6-9"
+            },
+            {
+              "id": "herois-u1-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Noah was the only righteous man in his generation.",
+              "isTrue": true,
+              "reference": "Genesis 6:9",
+              "explanation": "Noah was righteous, blameless, and perfect in his generation, and he walked with God."
+            },
+            {
+              "id": "herois-u1-l1-e7",
+              "kind": "listen",
+              "prompt": "What did God ask?",
+              "text": "Listen: God asked Noah to build an ark.",
+              "options": [
+                "Build an ark",
+                "Leave the land",
+                "Preach repentance",
+                "Prepare sacrifices"
+              ],
+              "answer": "Build an ark",
+              "reference": "Genesis 6:14"
+            },
+            {
+              "id": "herois-u1-l1-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Noah did all that God commanded him.",
+              "reference": "Genesis 6:22"
+            }
+          ]
+        },
+        {
+          "id": "herois-u1-l2",
+          "title": "Abraham: The Father of Faith",
+          "icon": "book.fill",
+          "exercises": [
+            {
+              "id": "herois-u1-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Where did God call Abraham?",
+              "text": "God said to Abraham: 'Leave your land and go to the land I will ___ you.'",
+              "options": [
+                "show",
+                "promise",
+                "prepare",
+                "give"
+              ],
+              "answer": "show",
+              "reference": "Genesis 12:1"
+            },
+            {
+              "id": "herois-u1-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Abraham believed the Lord and the Lord ___ it to him as righteousness.",
+              "answer": "credited",
+              "options": [
+                "credited",
+                "counted",
+                "computed",
+                "considered"
+              ],
+              "reference": "Genesis 15:6"
+            },
+            {
+              "id": "herois-u1-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "The promise to Abraham",
+              "tokens": [
+                "I will make",
+                "you into",
+                "a great nation"
+              ],
+              "distractors": [
+                "you a people",
+                "you a king",
+                "you rich",
+                "you a ruler"
+              ],
+              "reference": "Genesis 12:2"
+            },
+            {
+              "id": "herois-u1-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of Abraham.",
+              "tokens": [
+                "Called to Canaan",
+                "Abraham believes God",
+                "Isaac is born",
+                "Test of sacrifice"
+              ],
+              "reference": "Genesis 12-22"
+            },
+            {
+              "id": "herois-u1-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the characteristics",
+              "pairs": [
+                {
+                  "left": "Abraham",
+                  "right": "Father of faith"
+                },
+                {
+                  "left": "Promise",
+                  "right": "Great nation"
+                },
+                {
+                  "left": "Seed",
+                  "right": "Isaac"
+                },
+                {
+                  "left": "Test",
+                  "right": "Sacrifice"
+                }
+              ],
+              "reference": "Genesis 12-22"
+            },
+            {
+              "id": "herois-u1-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Abraham was old when God promised him a son.",
+              "isTrue": true,
+              "reference": "Genesis 17:1-3",
+              "explanation": "Abraham was 75 years old when God called him, and 99 when God promised him a son."
+            },
+            {
+              "id": "herois-u1-l2-e7",
+              "kind": "listen",
+              "prompt": "Where did Abraham go?",
+              "text": "Abraham went to an unknown land.",
+              "options": [
+                "Unknown land",
+                "Egypt",
+                "Mesopotamia",
+                "Judea"
+              ],
+              "answer": "Unknown land",
+              "reference": "Hebrews 11:8"
+            },
+            {
+              "id": "herois-u1-l2-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Abraham believed God and it was credited to him as righteousness.",
+              "reference": "Genesis 15:6"
+            }
+          ]
+        },
+        {
+          "id": "herois-u1-l3",
+          "title": "Isaac: The Son of Promise",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "herois-u1-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "How was Isaac born?",
+              "text": "Isaac was born in a ___ way, when his parents were old.",
+              "options": [
+                "miraculous",
+                "natural",
+                "ordinary",
+                "common"
+              ],
+              "answer": "miraculous",
+              "reference": "Genesis 21:1-2"
+            },
+            {
+              "id": "herois-u1-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Abraham was willing to ___ his only son Isaac.",
+              "answer": "sacrifice",
+              "options": [
+                "sacrifice",
+                "offer",
+                "give",
+                "surrender"
+              ],
+              "reference": "Genesis 22:10"
+            },
+            {
+              "id": "herois-u1-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "God saves Isaac",
+              "tokens": [
+                "Do not lay",
+                "your hand",
+                "on the boy"
+              ],
+              "distractors": [
+                "do not kill him",
+                "do not sacrifice him",
+                "let him go",
+                "keep him safe"
+              ],
+              "reference": "Genesis 22:12"
+            },
+            {
+              "id": "herois-u1-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of Isaac.",
+              "tokens": [
+                "Isaac is born",
+                "Abraham is tested",
+                "God saves him",
+                "Isaac gets married"
+              ],
+              "reference": "Genesis 21-26"
+            },
+            {
+              "id": "herois-u1-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the elements",
+              "pairs": [
+                {
+                  "left": "Isaac",
+                  "right": "Miraculous son"
+                },
+                {
+                  "left": "Abraham",
+                  "right": "Faithful father"
+                },
+                {
+                  "left": "Test",
+                  "right": "Sacrifice required"
+                },
+                {
+                  "left": "Ram",
+                  "right": "Substitute"
+                }
+              ],
+              "reference": "Genesis 21-22"
+            },
+            {
+              "id": "herois-u1-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Isaac was actually sacrificed on the altar.",
+              "isTrue": false,
+              "reference": "Genesis 22:12-13",
+              "explanation": "God stopped Abraham and placed a ram as a substitute to be sacrificed in place of Isaac."
+            },
+            {
+              "id": "herois-u1-l3-e7",
+              "kind": "listen",
+              "prompt": "How was Isaac born?",
+              "text": "Isaac was born in a miraculous way.",
+              "options": [
+                "Miraculous way",
+                "Naturally",
+                "By adoption",
+                "By human help"
+              ],
+              "answer": "Miraculous way",
+              "reference": "Genesis 21:1-2"
+            },
+            {
+              "id": "herois-u1-l3-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "God will provide the lamb for the sacrifice.",
+              "reference": "Genesis 22:8"
+            }
+          ]
+        },
+        {
+          "id": "herois-u1-l4",
+          "title": "Jacob: Wrestler with God",
+          "icon": "person.2.fill",
+          "exercises": [
+            {
+              "id": "herois-u1-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "How is Jacob also known?",
+              "text": "Jacob was called ___ in Hebrew.",
+              "options": [
+                "Israel",
+                "Isaac",
+                "Judah",
+                "Benjamin"
+              ],
+              "answer": "Israel",
+              "reference": "Genesis 32:28"
+            },
+            {
+              "id": "herois-u1-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Jacob saw a ladder that stretched to the ___.",
+              "answer": "heaven",
+              "options": [
+                "heaven",
+                "cloud",
+                "infinity",
+                "sky"
+              ],
+              "reference": "Genesis 28:12"
+            },
+            {
+              "id": "herois-u1-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Jacob's struggle",
+              "tokens": [
+                "I have seen God",
+                "face to face",
+                "and my life",
+                "has been preserved"
+              ],
+              "distractors": [
+                "and I died",
+                "and I fled",
+                "and I suffered",
+                "and I perished"
+              ],
+              "reference": "Genesis 32:30"
+            },
+            {
+              "id": "herois-u1-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of Jacob.",
+              "tokens": [
+                "Flees from Esau",
+                "Sees the ladder",
+                "Wrestles with angel",
+                "His name changes"
+              ],
+              "reference": "Genesis 28-32"
+            },
+            {
+              "id": "herois-u1-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the moments",
+              "pairs": [
+                {
+                  "left": "Ladder",
+                  "right": "Heaven-earth connection"
+                },
+                {
+                  "left": "Angel",
+                  "right": "Spiritual struggle"
+                },
+                {
+                  "left": "New name",
+                  "right": "Israel"
+                },
+                {
+                  "left": "Reconciliation",
+                  "right": "With Esau"
+                }
+              ],
+              "reference": "Genesis 28-32"
+            },
+            {
+              "id": "herois-u1-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jacob and Esau reconciled later.",
+              "isTrue": true,
+              "reference": "Genesis 33",
+              "explanation": "Despite their separation, Jacob and Esau met and embraced, showing reconciliation."
+            },
+            {
+              "id": "herois-u1-l4-e7",
+              "kind": "listen",
+              "prompt": "What did Jacob see?",
+              "text": "Jacob saw angels going up and down.",
+              "options": [
+                "Angels going up",
+                "God on the ladder",
+                "Heaven opened",
+                "A vision"
+              ],
+              "answer": "Angels going up",
+              "reference": "Genesis 28:12"
+            },
+            {
+              "id": "herois-u1-l4-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "From now on you will be called Israel.",
+              "reference": "Genesis 32:28"
+            }
+          ]
+        },
+        {
+          "id": "herois-u1-l5",
+          "title": "Joseph: From Slave to Governor",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "herois-u1-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Why was Joseph sold?",
+              "text": "Joseph's brothers sold him because they were ___.",
+              "options": [
+                "jealous",
+                "angry",
+                "envious",
+                "hateful"
+              ],
+              "answer": "jealous",
+              "reference": "Genesis 37:11"
+            },
+            {
+              "id": "herois-u1-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "God was with Joseph and ___ him in all he did.",
+              "answer": "blessed",
+              "options": [
+                "blessed",
+                "helped",
+                "watched",
+                "protected"
+              ],
+              "reference": "Genesis 39:2"
+            },
+            {
+              "id": "herois-u1-l5-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Joseph's message to his brothers",
+              "tokens": [
+                "Do not be sad",
+                "that you sold me",
+                "because God sent me",
+                "to preserve life"
+              ],
+              "distractors": [
+                "to condemn",
+                "to punish",
+                "to destroy",
+                "to judge"
+              ],
+              "reference": "Genesis 45:5"
+            },
+            {
+              "id": "herois-u1-l5-e4",
+              "kind": "orderEvents",
+              "prompt": "Put Joseph's journey in order",
+              "text": "Sequence of Joseph.",
+              "tokens": [
+                "Joseph is sold",
+                "Works for Potiphar",
+                "Interprets dreams",
+                "Governs Egypt"
+              ],
+              "reference": "Genesis 37-41"
+            },
+            {
+              "id": "herois-u1-l5-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the roles",
+              "pairs": [
+                {
+                  "left": "Joseph",
+                  "right": "Governor"
+                },
+                {
+                  "left": "Brothers",
+                  "right": "Jealous"
+                },
+                {
+                  "left": "Pharaoh",
+                  "right": "Favored him"
+                },
+                {
+                  "left": "God",
+                  "right": "Providence"
+                }
+              ],
+              "reference": "Genesis 37-45"
+            },
+            {
+              "id": "herois-u1-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Joseph truly forgave his brothers.",
+              "isTrue": true,
+              "reference": "Genesis 45:5-8",
+              "explanation": "Joseph recognized that God had worked through that evil, and he sincerely forgave his brothers."
+            },
+            {
+              "id": "herois-u1-l5-e7",
+              "kind": "listen",
+              "prompt": "What did God do for Joseph?",
+              "text": "God blessed Joseph in everything he did.",
+              "options": [
+                "Blessed everything",
+                "Protected him",
+                "Freed him",
+                "Exalted him"
+              ],
+              "answer": "Blessed everything",
+              "reference": "Genesis 39:2"
+            },
+            {
+              "id": "herois-u1-l5-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "You meant evil against me, but God meant it for good.",
+              "reference": "Genesis 50:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "herois-u2",
+      "title": "Unit 2",
+      "subtitle": "Liberation and Leadership",
+      "guide": {
+        "summary": "Moses and Joshua led God's people in critical moments. Moses was chosen to free Israel from Egypt through powerful miracles; Joshua conquered the promised land. Both trust in God against impossible odds, revealing that our limitations do not limit God.",
+        "keyVerses": [
+          {
+            "reference": "Exodus 3:10",
+            "text": "Come now therefore, and I will send you to Pharaoh, that you may bring my people the children of Israel out of Egypt."
+          },
+          {
+            "reference": "Exodus 14:13-14",
+            "text": "Moses said to the people, 'Don't be afraid. Stand still and see the salvation of the Lord, which he will work for you today. For the Egyptians whom you see today, you will never see them again. The Lord will fight for you, and you shall be still.'"
+          },
+          {
+            "reference": "Joshua 6:20",
+            "text": "So the people shouted, and the priests blew the trumpets. It happened, when the people heard the sound of the trumpet, that the people shouted with a great shout, and the wall fell down flat."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "herois-u2-l1",
+          "title": "Moses and the Burning Bush",
+          "icon": "leaf.fill",
+          "exercises": [
+            {
+              "id": "herois-u2-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "What did Moses see in the desert?",
+              "text": "Moses saw a ___ that was burning but was not consumed.",
+              "options": [
+                "bush",
+                "tree",
+                "forest",
+                "flame"
+              ],
+              "answer": "bush",
+              "reference": "Exodus 3:2"
+            },
+            {
+              "id": "herois-u2-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "God chose Moses to ___ Israel from Egypt.",
+              "answer": "free",
+              "options": [
+                "free",
+                "save",
+                "bring out",
+                "deliver"
+              ],
+              "reference": "Exodus 3:10"
+            },
+            {
+              "id": "herois-u2-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "God's identity",
+              "tokens": [
+                "I am",
+                "the God of Abraham",
+                "the God of Isaac",
+                "the God of Jacob"
+              ],
+              "distractors": [
+                "of the patriarchs",
+                "of Israel",
+                "of your fathers",
+                "of the Hebrews"
+              ],
+              "reference": "Exodus 3:6"
+            },
+            {
+              "id": "herois-u2-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of the calling.",
+              "tokens": [
+                "Moses sees the bush",
+                "God speaks to him",
+                "Moses is afraid",
+                "God sends him"
+              ],
+              "reference": "Exodus 3"
+            },
+            {
+              "id": "herois-u2-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the elements",
+              "pairs": [
+                {
+                  "left": "Bush",
+                  "right": "Divine presence"
+                },
+                {
+                  "left": "Moses",
+                  "right": "Chosen"
+                },
+                {
+                  "left": "Egypt",
+                  "right": "Slavery"
+                },
+                {
+                  "left": "Liberation",
+                  "right": "Miracle"
+                }
+              ],
+              "reference": "Exodus 3-4"
+            },
+            {
+              "id": "herois-u2-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Moses accepted God's calling immediately without doubt.",
+              "isTrue": false,
+              "reference": "Exodus 3:11,4:1",
+              "explanation": "Moses questioned God many times, being afraid and insecure, but God encouraged him and equipped him."
+            },
+            {
+              "id": "herois-u2-l1-e7",
+              "kind": "listen",
+              "prompt": "What did God command?",
+              "text": "God commanded Moses to go to Pharaoh.",
+              "options": [
+                "Go to Pharaoh",
+                "Flee Egypt",
+                "Build a temple",
+                "Prepare sacrifices"
+              ],
+              "answer": "Go to Pharaoh",
+              "reference": "Exodus 3:10"
+            },
+            {
+              "id": "herois-u2-l1-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Surely I will be with you, and this shall be a sign to you.",
+              "reference": "Exodus 3:12"
+            }
+          ]
+        },
+        {
+          "id": "herois-u2-l2",
+          "title": "The Ten Plagues",
+          "icon": "drop.fill",
+          "exercises": [
+            {
+              "id": "herois-u2-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "How many plagues did God send?",
+              "text": "God sent ___ plagues on Egypt.",
+              "options": [
+                "ten",
+                "seven",
+                "nine",
+                "twelve"
+              ],
+              "answer": "ten",
+              "reference": "Exodus 7-12"
+            },
+            {
+              "id": "herois-u2-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The first plague turned the ___ into blood.",
+              "answer": "water",
+              "options": [
+                "water",
+                "river",
+                "Nile",
+                "stream"
+              ],
+              "reference": "Exodus 7:20"
+            },
+            {
+              "id": "herois-u2-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "God's call to Pharaoh",
+              "tokens": [
+                "Let go",
+                "my people",
+                "so they can serve me"
+              ],
+              "distractors": [
+                "in the desert",
+                "Me",
+                "in freedom",
+                "to worship"
+              ],
+              "reference": "Exodus 5:1"
+            },
+            {
+              "id": "herois-u2-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Put some plagues in order",
+              "text": "Some of the ten plagues.",
+              "tokens": [
+                "Water becomes blood",
+                "Frogs cover the land",
+                "Total darkness",
+                "Death of firstborn"
+              ],
+              "reference": "Exodus 7-12"
+            },
+            {
+              "id": "herois-u2-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the consequences",
+              "pairs": [
+                {
+                  "left": "Blood",
+                  "right": "Polluted water"
+                },
+                {
+                  "left": "Frogs",
+                  "right": "Invasion"
+                },
+                {
+                  "left": "Darkness",
+                  "right": "No light"
+                },
+                {
+                  "left": "Death",
+                  "right": "Firstborn"
+                }
+              ],
+              "reference": "Exodus 7-12"
+            },
+            {
+              "id": "herois-u2-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Pharaoh freed Israel after the first plague.",
+              "isTrue": false,
+              "reference": "Exodus 7-11",
+              "explanation": "Pharaoh hardened his heart through several plagues until the last one, which forced him to let them go."
+            },
+            {
+              "id": "herois-u2-l2-e7",
+              "kind": "listen",
+              "prompt": "What was the last plague?",
+              "text": "The death of the firstborn was the last plague.",
+              "options": [
+                "Death of firstborn",
+                "Darkness",
+                "Hail",
+                "Locusts"
+              ],
+              "answer": "Death of firstborn",
+              "reference": "Exodus 12:29"
+            },
+            {
+              "id": "herois-u2-l2-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Let my people go so they can serve me in the desert.",
+              "reference": "Exodus 7:16"
+            }
+          ]
+        },
+        {
+          "id": "herois-u2-l3",
+          "title": "The Red Sea Opened",
+          "icon": "water.waves",
+          "exercises": [
+            {
+              "id": "herois-u2-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "How did the people cross the Red Sea?",
+              "text": "Moses stretched out his hand and the sea ___ in two.",
+              "options": [
+                "parted",
+                "divided",
+                "separated",
+                "split"
+              ],
+              "answer": "parted",
+              "reference": "Exodus 14:21"
+            },
+            {
+              "id": "herois-u2-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The Israelites crossed on ___ ground.",
+              "answer": "dry",
+              "options": [
+                "dry",
+                "solid",
+                "firm",
+                "hard"
+              ],
+              "reference": "Exodus 14:22"
+            },
+            {
+              "id": "herois-u2-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Moses' exhortation",
+              "tokens": [
+                "Don't be afraid",
+                "stand still",
+                "and see the salvation"
+              ],
+              "distractors": [
+                "run",
+                "flee",
+                "wait",
+                "cry out"
+              ],
+              "reference": "Exodus 14:13"
+            },
+            {
+              "id": "herois-u2-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of the crossing.",
+              "tokens": [
+                "Egyptians pursue",
+                "People are afraid",
+                "Moses stretches his hand",
+                "Sea opens"
+              ],
+              "reference": "Exodus 14"
+            },
+            {
+              "id": "herois-u2-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the events",
+              "pairs": [
+                {
+                  "left": "Moses",
+                  "right": "Stretches his hand"
+                },
+                {
+                  "left": "Sea",
+                  "right": "Opens"
+                },
+                {
+                  "left": "Israelites",
+                  "right": "Cross"
+                },
+                {
+                  "left": "Egyptians",
+                  "right": "Drown"
+                }
+              ],
+              "reference": "Exodus 14"
+            },
+            {
+              "id": "herois-u2-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The Egyptians were saved along with Israel.",
+              "isTrue": false,
+              "reference": "Exodus 14:26-28",
+              "explanation": "The sea closed again and drowned the Egyptians who were pursuing Israel, completing the liberation."
+            },
+            {
+              "id": "herois-u2-l3-e7",
+              "kind": "listen",
+              "prompt": "How did they cross?",
+              "text": "They crossed the sea on dry ground.",
+              "options": [
+                "On dry ground",
+                "Swimming",
+                "In boats",
+                "In a ship"
+              ],
+              "answer": "On dry ground",
+              "reference": "Exodus 14:22"
+            },
+            {
+              "id": "herois-u2-l3-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "The Lord will fight for you, and you shall be still.",
+              "reference": "Exodus 14:14"
+            }
+          ]
+        },
+        {
+          "id": "herois-u2-l4",
+          "title": "Joshua and Jericho",
+          "icon": "cross.fill",
+          "exercises": [
+            {
+              "id": "herois-u2-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "What did Joshua have to do at Jericho?",
+              "text": "Joshua and the people marched around the city ___ times.",
+              "options": [
+                "seven",
+                "thirteen",
+                "ten",
+                "forty"
+              ],
+              "answer": "seven",
+              "reference": "Joshua 6:15"
+            },
+            {
+              "id": "herois-u2-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The priests blew the ___ as they marched.",
+              "answer": "trumpets",
+              "options": [
+                "trumpets",
+                "flutes",
+                "harps",
+                "lyres"
+              ],
+              "reference": "Joshua 6:4"
+            },
+            {
+              "id": "herois-u2-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "The fall of Jericho",
+              "tokens": [
+                "The wall fell",
+                "and the people went up",
+                "into the city"
+              ],
+              "distractors": [
+                "and conquered",
+                "and invaded",
+                "and entered",
+                "and attacked"
+              ],
+              "reference": "Joshua 6:20"
+            },
+            {
+              "id": "herois-u2-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the siege in order",
+              "text": "Sequence of the taking of Jericho.",
+              "tokens": [
+                "Joshua receives instructions",
+                "People march",
+                "Trumpets sound",
+                "Wall collapses"
+              ],
+              "reference": "Joshua 6"
+            },
+            {
+              "id": "herois-u2-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the elements",
+              "pairs": [
+                {
+                  "left": "Joshua",
+                  "right": "Leader of Israel"
+                },
+                {
+                  "left": "Jericho",
+                  "right": "Fortified city"
+                },
+                {
+                  "left": "Trumpets",
+                  "right": "God's instrument"
+                },
+                {
+                  "left": "Wall",
+                  "right": "Fell supernaturally"
+                }
+              ],
+              "reference": "Joshua 6"
+            },
+            {
+              "id": "herois-u2-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The wall of Jericho was conquered by weapons and force.",
+              "isTrue": false,
+              "reference": "Joshua 6:15-20",
+              "explanation": "The wall fell by the sound of trumpets and the shout of the people, a supernatural miracle."
+            },
+            {
+              "id": "herois-u2-l4-e7",
+              "kind": "listen",
+              "prompt": "How did the wall fall?",
+              "text": "The wall fell when they shouted.",
+              "options": [
+                "When they shouted",
+                "With weapons",
+                "With fire",
+                "With dynamite"
+              ],
+              "answer": "When they shouted",
+              "reference": "Joshua 6:20"
+            },
+            {
+              "id": "herois-u2-l4-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Only God can make a wall fall.",
+              "reference": "Joshua 6:20"
+            }
+          ]
+        },
+        {
+          "id": "herois-u2-l5",
+          "title": "Review: Liberation",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "herois-u2-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the theme of this unit?",
+              "text": "Moses and Joshua showed ___ and leadership.",
+              "options": [
+                "faith",
+                "courage",
+                "wisdom",
+                "strength"
+              ],
+              "answer": "faith",
+              "reference": "Exodus-Joshua"
+            },
+            {
+              "id": "herois-u2-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The greatest enemy was not Pharaoh, but Israel's ___.",
+              "answer": "slavery",
+              "options": [
+                "slavery",
+                "oppression",
+                "bondage",
+                "captivity"
+              ],
+              "reference": "Exodus 1-14"
+            },
+            {
+              "id": "herois-u2-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Put the phases in order",
+              "text": "Sequence of liberation.",
+              "tokens": [
+                "Moses called",
+                "Plagues sent",
+                "Sea opens",
+                "Promised land conquered"
+              ],
+              "reference": "Exodus-Joshua"
+            },
+            {
+              "id": "herois-u2-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Match each leader",
+              "pairs": [
+                {
+                  "left": "Moses",
+                  "right": "Liberation"
+                },
+                {
+                  "left": "Joshua",
+                  "right": "Conquest"
+                },
+                {
+                  "left": "Faith",
+                  "right": "Essence"
+                },
+                {
+                  "left": "God",
+                  "right": "Real power"
+                }
+              ],
+              "reference": "Exodus-Joshua"
+            },
+            {
+              "id": "herois-u2-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Assemble the key verse",
+              "text": "Theme of liberation",
+              "tokens": [
+                "Let",
+                "my people go",
+                "now"
+              ],
+              "distractors": [
+                "to worship",
+                "to serve",
+                "in the desert",
+                "to God"
+              ],
+              "reference": "Exodus 5:1"
+            },
+            {
+              "id": "herois-u2-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Moses and Joshua conquered through force, not faith.",
+              "isTrue": false,
+              "reference": "Exodus-Joshua",
+              "explanation": "Both won through faith in God, recognizing that only He could fulfill the impossibilities."
+            },
+            {
+              "id": "herois-u2-l5-e7",
+              "kind": "listen",
+              "prompt": "What is the lesson?",
+              "text": "God liberates those who believe in Him.",
+              "options": [
+                "Liberates those who believe",
+                "Always punishes",
+                "Denies help",
+                "Ignores prayer"
+              ],
+              "answer": "Liberates those who believe",
+              "reference": "Exodus-Joshua"
+            },
+            {
+              "id": "herois-u2-l5-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "With God, there is no wall that won't fall.",
+              "reference": "Joshua 6:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "herois-u3",
+      "title": "Unit 3",
+      "subtitle": "Judges and Kings",
+      "guide": {
+        "summary": "Deborah, Gideon, Ruth, Samuel, and David exemplify diverse leadership in the period of judges and kings. Each responded to the calling in unique ways: as a warrior prophetess, reluctant warrior, loyal widow, intercessor prophet, and king after God's own heart. Their confrontations with physical enemies reveal greater spiritual battles.",
+        "keyVerses": [
+          {
+            "reference": "Judges 4:8-9",
+            "text": "Barak said to her, 'If you will go with me, then I will go; but if you will not go with me, I will not go.' She said, 'I will surely go with you; however, the road you are taking will not lead to your glory. For the Lord will hand Sisera over to a woman.'"
+          },
+          {
+            "reference": "Judges 6:14",
+            "text": "The Lord turned to him and said, 'Go in this might of yours and save Israel from the hand of Midian. Haven't I sent you?'"
+          },
+          {
+            "reference": "1 Samuel 17:45",
+            "text": "Then David said to the Philistine, 'You come to me with a sword, a spear, and a javelin; but I come to you in the name of the Lord of Armies, the God of the armies of Israel, whom you have taunted.'"
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "herois-u3-l1",
+          "title": "Deborah: The Warrior Prophetess",
+          "icon": "mountain.2.fill",
+          "exercises": [
+            {
+              "id": "herois-u3-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "What was Deborah's role?",
+              "text": "Deborah was a ___ and judge of Israel.",
+              "options": [
+                "prophetess",
+                "queen",
+                "priestess",
+                "general"
+              ],
+              "answer": "prophetess",
+              "reference": "Judges 4:4"
+            },
+            {
+              "id": "herois-u3-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Deborah called for ___ to lead the army.",
+              "answer": "Barak",
+              "options": [
+                "Barak",
+                "Sisera",
+                "Gideon",
+                "Abimelech"
+              ],
+              "reference": "Judges 4:6"
+            },
+            {
+              "id": "herois-u3-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Deborah's word to Barak",
+              "tokens": [
+                "Go,",
+                "because God",
+                "has delivered to you",
+                "victory"
+              ],
+              "distractors": [
+                "will bless you",
+                "will guard you",
+                "will protect you",
+                "will strengthen you"
+              ],
+              "reference": "Judges 4:7"
+            },
+            {
+              "id": "herois-u3-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of liberation by Deborah.",
+              "tokens": [
+                "Deborah prophesies",
+                "Barak summons troops",
+                "Battle against Sisera",
+                "Israel is freed"
+              ],
+              "reference": "Judges 4"
+            },
+            {
+              "id": "herois-u3-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the characters",
+              "pairs": [
+                {
+                  "left": "Deborah",
+                  "right": "Prophetess"
+                },
+                {
+                  "left": "Barak",
+                  "right": "General"
+                },
+                {
+                  "left": "Sisera",
+                  "right": "Enemy"
+                },
+                {
+                  "left": "Jael",
+                  "right": "Heroine"
+                }
+              ],
+              "reference": "Judges 4-5"
+            },
+            {
+              "id": "herois-u3-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Barak refused to go to battle without Deborah.",
+              "isTrue": true,
+              "reference": "Judges 4:8",
+              "explanation": "Barak said he would only go if Deborah went with him; she agreed but warned that the glory would not be his."
+            },
+            {
+              "id": "herois-u3-l1-e7",
+              "kind": "listen",
+              "prompt": "Who killed Sisera?",
+              "text": "Jael killed the general Sisera.",
+              "options": [
+                "Jael",
+                "Barak",
+                "Deborah",
+                "A soldier"
+              ],
+              "answer": "Jael",
+              "reference": "Judges 4:21"
+            },
+            {
+              "id": "herois-u3-l1-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "A wise woman builds her house with words of prophecy.",
+              "reference": "Judges 4-5"
+            }
+          ]
+        },
+        {
+          "id": "herois-u3-l2",
+          "title": "Gideon: The Reluctant Warrior",
+          "icon": "house.fill",
+          "exercises": [
+            {
+              "id": "herois-u3-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "What was Gideon doing when he was called?",
+              "text": "Gideon was ___ wheat when the angel called him.",
+              "options": [
+                "threshing",
+                "sowing",
+                "harvesting",
+                "selling"
+              ],
+              "answer": "threshing",
+              "reference": "Judges 6:11"
+            },
+            {
+              "id": "herois-u3-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "God reduced Gideon's army to just ___ men.",
+              "answer": "three hundred",
+              "options": [
+                "three hundred",
+                "three thousand",
+                "thirty",
+                "three"
+              ],
+              "reference": "Judges 7:6-7"
+            },
+            {
+              "id": "herois-u3-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Calling to Gideon",
+              "tokens": [
+                "Go in this",
+                "strength of yours",
+                "and save Israel"
+              ],
+              "distractors": [
+                "from the hand of Midian",
+                "but I send you",
+                "by my strength",
+                "from their enemies"
+              ],
+              "reference": "Judges 6:14"
+            },
+            {
+              "id": "herois-u3-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the story in order",
+              "text": "Sequence of Gideon.",
+              "tokens": [
+                "Gideon is called",
+                "Army is reduced",
+                "Torches are distributed",
+                "Midianites are defeated"
+              ],
+              "reference": "Judges 6-7"
+            },
+            {
+              "id": "herois-u3-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the details",
+              "pairs": [
+                {
+                  "left": "Gideon",
+                  "right": "Hesitant warrior"
+                },
+                {
+                  "left": "Three hundred",
+                  "right": "Chosen soldiers"
+                },
+                {
+                  "left": "Torches",
+                  "right": "Weapon of victory"
+                },
+                {
+                  "left": "God",
+                  "right": "True strength"
+                }
+              ],
+              "reference": "Judges 6-7"
+            },
+            {
+              "id": "herois-u3-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Gideon wanted to increase his army for a better chance of victory.",
+              "isTrue": false,
+              "reference": "Judges 7:2-7",
+              "explanation": "God reduced the army from 32,000 to 300 to make clear that victory was only His."
+            },
+            {
+              "id": "herois-u3-l2-e7",
+              "kind": "listen",
+              "prompt": "What did Gideon do?",
+              "text": "Gideon attacked at night with torches and trumpets.",
+              "options": [
+                "At night with torches",
+                "By day with weapons",
+                "Alone and secretly",
+                "With a large army"
+              ],
+              "answer": "At night with torches",
+              "reference": "Judges 7:20"
+            },
+            {
+              "id": "herois-u3-l2-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "God is stronger than any army.",
+              "reference": "Judges 7:2"
+            }
+          ]
+        },
+        {
+          "id": "herois-u3-l3",
+          "title": "Ruth: The Loyal Widow",
+          "icon": "gift.fill",
+          "exercises": [
+            {
+              "id": "herois-u3-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Where was Ruth from?",
+              "text": "Ruth was from ___.",
+              "options": [
+                "Moab",
+                "Judah",
+                "Canaan",
+                "Egypt"
+              ],
+              "answer": "Moab",
+              "reference": "Ruth 1:4"
+            },
+            {
+              "id": "herois-u3-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Ruth followed her mother-in-law ___ to Judah.",
+              "answer": "Naomi",
+              "options": [
+                "Naomi",
+                "Noemah",
+                "Naomis",
+                "Noemis"
+              ],
+              "reference": "Ruth 1:16"
+            },
+            {
+              "id": "herois-u3-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Ruth's commitment",
+              "tokens": [
+                "Wherever you go,",
+                "I will go;",
+                "and wherever you live,",
+                "I will live"
+              ],
+              "distractors": [
+                "your people will be",
+                "your God will be",
+                "always with you",
+                "my God"
+              ],
+              "reference": "Ruth 1:16"
+            },
+            {
+              "id": "herois-u3-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the story in order",
+              "text": "Sequence of Ruth.",
+              "tokens": [
+                "Ruth becomes a widow",
+                "Goes with Naomi",
+                "Works in the fields",
+                "Marries Boaz"
+              ],
+              "reference": "Ruth 1-4"
+            },
+            {
+              "id": "herois-u3-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the characters",
+              "pairs": [
+                {
+                  "left": "Ruth",
+                  "right": "Loyal widow"
+                },
+                {
+                  "left": "Naomi",
+                  "right": "Beloved mother-in-law"
+                },
+                {
+                  "left": "Boaz",
+                  "right": "Redeemer"
+                },
+                {
+                  "left": "Obed",
+                  "right": "Blessed son"
+                }
+              ],
+              "reference": "Ruth"
+            },
+            {
+              "id": "herois-u3-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Ruth was a Moabite who married a Jew.",
+              "isTrue": true,
+              "reference": "Ruth 1:4-5",
+              "explanation": "Ruth married Elimelech, an Israelite, and after his death, she married Boaz, his relative."
+            },
+            {
+              "id": "herois-u3-l3-e7",
+              "kind": "listen",
+              "prompt": "What did Ruth do?",
+              "text": "Ruth worked in the fields gathering grain.",
+              "options": [
+                "Gathered grain",
+                "Sold cloth",
+                "Made bread",
+                "Tended sheep"
+              ],
+              "answer": "Gathered grain",
+              "reference": "Ruth 2:3"
+            },
+            {
+              "id": "herois-u3-l3-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Your people will be my people and your God my God.",
+              "reference": "Ruth 1:16"
+            }
+          ]
+        },
+        {
+          "id": "herois-u3-l4",
+          "title": "David: The King After God's Own Heart",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "herois-u3-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "How old was David when he was anointed?",
+              "text": "David was just a ___ when Samuel anointed him.",
+              "options": [
+                "youth",
+                "man",
+                "old man",
+                "prince"
+              ],
+              "answer": "youth",
+              "reference": "1 Samuel 16:11-13"
+            },
+            {
+              "id": "herois-u3-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "David defeated Goliath with a ___ and a stone.",
+              "answer": "sling",
+              "options": [
+                "sling",
+                "spear",
+                "sword",
+                "bow"
+              ],
+              "reference": "1 Samuel 17:50"
+            },
+            {
+              "id": "herois-u3-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "David's confidence",
+              "tokens": [
+                "You come against me",
+                "in the name",
+                "of the Lord",
+                "of Armies"
+              ],
+              "distractors": [
+                "with weapons",
+                "with strength",
+                "with power",
+                "with riches"
+              ],
+              "reference": "1 Samuel 17:45"
+            },
+            {
+              "id": "herois-u3-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the rise in order",
+              "text": "Sequence of David.",
+              "tokens": [
+                "David is anointed",
+                "Faces Goliath",
+                "Becomes king",
+                "Establishes kingdom"
+              ],
+              "reference": "1 Samuel 16-2 Samuel"
+            },
+            {
+              "id": "herois-u3-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the elements",
+              "pairs": [
+                {
+                  "left": "David",
+                  "right": "Chosen king"
+                },
+                {
+                  "left": "Goliath",
+                  "right": "Defeated giant"
+                },
+                {
+                  "left": "Stone",
+                  "right": "Weapon of faith"
+                },
+                {
+                  "left": "Heart",
+                  "right": "God's purpose"
+                }
+              ],
+              "reference": "1 Samuel"
+            },
+            {
+              "id": "herois-u3-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "David was chosen because he was the eldest son.",
+              "isTrue": false,
+              "reference": "1 Samuel 16:6-12",
+              "explanation": "Samuel looked at the older sons, but God chose David, the youngest, for his heart."
+            },
+            {
+              "id": "herois-u3-l4-e7",
+              "kind": "listen",
+              "prompt": "How did David win?",
+              "text": "David won with faith in God.",
+              "options": [
+                "With faith in God",
+                "With strength",
+                "With weapons",
+                "With help"
+              ],
+              "answer": "With faith in God",
+              "reference": "1 Samuel 17:45-49"
+            },
+            {
+              "id": "herois-u3-l4-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "The Lord will save Israel by David's hands.",
+              "reference": "1 Samuel 17:37"
+            }
+          ]
+        },
+        {
+          "id": "herois-u3-l5",
+          "title": "Review: Judges and Kings",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "herois-u3-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the theme of this unit?",
+              "text": "Diverse leadership aimed at ___.",
+              "options": [
+                "serving God",
+                "gaining power",
+                "conquering land",
+                "accumulating wealth"
+              ],
+              "answer": "serving God",
+              "reference": "Judges-1 Samuel"
+            },
+            {
+              "id": "herois-u3-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Each leader responded with personal ___ to the calling.",
+              "answer": "faith",
+              "options": [
+                "faith",
+                "courage",
+                "strength",
+                "wisdom"
+              ],
+              "reference": "Judges-1 Samuel"
+            },
+            {
+              "id": "herois-u3-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Put the leaders in order",
+              "text": "Sequence of leaders.",
+              "tokens": [
+                "Deborah leads",
+                "Gideon wins",
+                "Ruth shows loyalty",
+                "David reigns"
+              ],
+              "reference": "Judges-1 Samuel"
+            },
+            {
+              "id": "herois-u3-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Match each leader",
+              "pairs": [
+                {
+                  "left": "Deborah",
+                  "right": "Warrior-prophetess"
+                },
+                {
+                  "left": "Gideon",
+                  "right": "Reluctant warrior"
+                },
+                {
+                  "left": "Ruth",
+                  "right": "Loyal widow"
+                },
+                {
+                  "left": "David",
+                  "right": "King of heart"
+                }
+              ],
+              "reference": "Judges-1 Samuel"
+            },
+            {
+              "id": "herois-u3-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Assemble the key verse",
+              "text": "Essence of leadership",
+              "tokens": [
+                "Go",
+                "with this your",
+                "strength now"
+              ],
+              "distractors": [
+                "and win",
+                "and save",
+                "and reign",
+                "and prosper"
+              ],
+              "reference": "Judges 6:14"
+            },
+            {
+              "id": "herois-u3-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "All leaders trusted completely in God from the beginning.",
+              "isTrue": false,
+              "reference": "Judges-1 Samuel",
+              "explanation": "Some like Gideon had doubts and would ask for signs; but all completed the journey with faith."
+            },
+            {
+              "id": "herois-u3-l5-e7",
+              "kind": "listen",
+              "prompt": "What is the common lesson?",
+              "text": "The lesson is to trust God completely.",
+              "options": [
+                "Trust God",
+                "Use own strength",
+                "Follow instinct",
+                "Accumulate power"
+              ],
+              "answer": "Trust God",
+              "reference": "Judges-1 Samuel"
+            },
+            {
+              "id": "herois-u3-l5-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "With God, any weak man defeats giants.",
+              "reference": "1 Samuel 17:45-50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "herois-u4",
+      "title": "Unit 4",
+      "subtitle": "Prophets and Faithfulness",
+      "guide": {
+        "summary": "Elijah, Esther, Daniel, and Jonah demonstrate how God honors faithfulness even in the most extreme situations. Elijah confronted kings; Esther saved her people from genocide; Daniel refused compromise with idolatry; Jonah preached repentance even against his will. Their lives testify that no circumstance is so adverse that faithfulness to God cannot transform it.",
+        "keyVerses": [
+          {
+            "reference": "1 Kings 18:21",
+            "text": "Elijah came near to all the people and said, 'How long are you going to hesitate between two opinions? If the Lord is God, follow him. If Baal is god, follow him.'"
+          },
+          {
+            "reference": "Esther 4:16",
+            "text": "Go, gather together all the Jews who are present in Susa, and fast for me. Don't eat or drink for three days, night or day. I and my young women will fast the same way. After that I will go in to the king, even though it is against the law; and if I perish, I perish."
+          },
+          {
+            "reference": "Daniel 3:17-18",
+            "text": "If it is so, our God whom we serve is able to deliver us from the burning fiery furnace. He will deliver us out of your hand, O king. But even if he doesn't, let it be known to you, O king, that we will not serve your gods or worship the golden image that you have set up."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "herois-u4-l1",
+          "title": "Elijah: The Courageous Prophet",
+          "icon": "mountain.2.fill",
+          "exercises": [
+            {
+              "id": "herois-u4-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Which king did Elijah confront?",
+              "text": "Elijah confronted king ___.",
+              "options": [
+                "Ahab",
+                "Solomon",
+                "David",
+                "Jehoshaphat"
+              ],
+              "answer": "Ahab",
+              "reference": "1 Kings 17:1"
+            },
+            {
+              "id": "herois-u4-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Elijah was fed by ___ in the desert.",
+              "answer": "ravens",
+              "options": [
+                "ravens",
+                "angels",
+                "people",
+                "servants"
+              ],
+              "reference": "1 Kings 17:4-5"
+            },
+            {
+              "id": "herois-u4-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Elijah's decisive question",
+              "tokens": [
+                "If the Lord is God",
+                "follow him",
+                "if Baal is god",
+                "follow him"
+              ],
+              "distractors": [
+                "worship him",
+                "believe in him",
+                "praise him",
+                "fear him"
+              ],
+              "reference": "1 Kings 18:21"
+            },
+            {
+              "id": "herois-u4-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of Elijah.",
+              "tokens": [
+                "Elijah confronts Ahab",
+                "Challenges Baal's prophets",
+                "Fire comes down",
+                "Prophets are destroyed"
+              ],
+              "reference": "1 Kings 17-18"
+            },
+            {
+              "id": "herois-u4-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the moments",
+              "pairs": [
+                {
+                  "left": "Elijah",
+                  "right": "Courageous prophet"
+                },
+                {
+                  "left": "Ahab",
+                  "right": "Idolatrous king"
+                },
+                {
+                  "left": "Baal",
+                  "right": "False god"
+                },
+                {
+                  "left": "Fire",
+                  "right": "God's power"
+                }
+              ],
+              "reference": "1 Kings 18"
+            },
+            {
+              "id": "herois-u4-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Baal's prophets were able to make fire come down.",
+              "isTrue": false,
+              "reference": "1 Kings 18:24-29",
+              "explanation": "Only Elijah's God answered with fire, proving that He alone was the true God."
+            },
+            {
+              "id": "herois-u4-l1-e7",
+              "kind": "listen",
+              "prompt": "What did Elijah ask?",
+              "text": "Elijah asked the people to choose between God and Baal.",
+              "options": [
+                "Choose between God",
+                "Worship Baal",
+                "Follow Ahab",
+                "Abandon faith"
+              ],
+              "answer": "Choose between God",
+              "reference": "1 Kings 18:21"
+            },
+            {
+              "id": "herois-u4-l1-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "There is no God like the God of Israel.",
+              "reference": "1 Kings 18:39"
+            }
+          ]
+        },
+        {
+          "id": "herois-u4-l2",
+          "title": "Esther: The Queen Deliverer",
+          "icon": "gift.fill",
+          "exercises": [
+            {
+              "id": "herois-u4-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Why was Esther chosen to be queen?",
+              "text": "Esther pleased the king more than all the other ___.",
+              "options": [
+                "maidens",
+                "queens",
+                "women",
+                "princesses"
+              ],
+              "answer": "maidens",
+              "reference": "Esther 2:17"
+            },
+            {
+              "id": "herois-u4-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Haman planned to ___ all the Jews in the kingdom.",
+              "answer": "destroy",
+              "options": [
+                "destroy",
+                "exile",
+                "enslave",
+                "banish"
+              ],
+              "reference": "Esther 3:6"
+            },
+            {
+              "id": "herois-u4-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Esther's decision",
+              "tokens": [
+                "If I perish,",
+                "I perish",
+                "I will go to the king"
+              ],
+              "distractors": [
+                "flee",
+                "hide myself",
+                "surrender",
+                "give up"
+              ],
+              "reference": "Esther 4:16"
+            },
+            {
+              "id": "herois-u4-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of Esther.",
+              "tokens": [
+                "Esther is chosen",
+                "Haman plans death",
+                "Esther intercedes",
+                "Jews are saved"
+              ],
+              "reference": "Esther"
+            },
+            {
+              "id": "herois-u4-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the characters",
+              "pairs": [
+                {
+                  "left": "Esther",
+                  "right": "Courageous queen"
+                },
+                {
+                  "left": "Haman",
+                  "right": "Enemy of Jews"
+                },
+                {
+                  "left": "Mordecai",
+                  "right": "Protective cousin"
+                },
+                {
+                  "left": "Fasting",
+                  "right": "Weapon of prayer"
+                }
+              ],
+              "reference": "Esther"
+            },
+            {
+              "id": "herois-u4-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Esther was open about her Jewish identity from the beginning.",
+              "isTrue": false,
+              "reference": "Esther 2:10",
+              "explanation": "Mordecai asked Esther not to reveal her nationality and her family."
+            },
+            {
+              "id": "herois-u4-l2-e7",
+              "kind": "listen",
+              "prompt": "What did Esther do?",
+              "text": "Esther fasted and interceded for the Jews.",
+              "options": [
+                "Fasted and interceded",
+                "Fled the kingdom",
+                "Betrayed her people",
+                "Asked forgiveness"
+              ],
+              "answer": "Fasted and interceded",
+              "reference": "Esther 4:16"
+            },
+            {
+              "id": "herois-u4-l2-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "If I perish, I perish for the salvation of my people.",
+              "reference": "Esther 4:16"
+            }
+          ]
+        },
+        {
+          "id": "herois-u4-l3",
+          "title": "Daniel in the Lion's Den",
+          "icon": "cross.fill",
+          "exercises": [
+            {
+              "id": "herois-u4-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Why was Daniel condemned?",
+              "text": "Daniel was condemned because he ___ to deny God.",
+              "options": [
+                "refused",
+                "denied",
+                "forgot",
+                "abandoned"
+              ],
+              "answer": "refused",
+              "reference": "Daniel 6:10-13"
+            },
+            {
+              "id": "herois-u4-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Daniel was thrown into the den of ___.",
+              "answer": "lions",
+              "options": [
+                "lions",
+                "tigers",
+                "bears",
+                "snakes"
+              ],
+              "reference": "Daniel 6:16"
+            },
+            {
+              "id": "herois-u4-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Faith of the companions",
+              "tokens": [
+                "Even if he does not",
+                "deliver us",
+                "we will not serve your gods"
+              ],
+              "distractors": [
+                "even if we die",
+                "nor worship",
+                "nor bless",
+                "nor glorify"
+              ],
+              "reference": "Daniel 3:18"
+            },
+            {
+              "id": "herois-u4-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of Daniel.",
+              "tokens": [
+                "Daniel refuses idolatry",
+                "Is condemned to death",
+                "Thrown to the lions",
+                "God delivers him"
+              ],
+              "reference": "Daniel 6"
+            },
+            {
+              "id": "herois-u4-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the elements",
+              "pairs": [
+                {
+                  "left": "Daniel",
+                  "right": "Faithful even threatened"
+                },
+                {
+                  "left": "Lions",
+                  "right": "Supreme test"
+                },
+                {
+                  "left": "Darius",
+                  "right": "Impressed king"
+                },
+                {
+                  "left": "Prayer",
+                  "right": "Weapon of resistance"
+                }
+              ],
+              "reference": "Daniel 6"
+            },
+            {
+              "id": "herois-u4-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Daniel was killed by the lions.",
+              "isTrue": false,
+              "reference": "Daniel 6:22-23",
+              "explanation": "God protected Daniel and shut the lions' mouths; he was unharmed and freed the next morning."
+            },
+            {
+              "id": "herois-u4-l3-e7",
+              "kind": "listen",
+              "prompt": "Why was Daniel saved?",
+              "text": "God protected Daniel because of his faithfulness.",
+              "options": [
+                "Because of faithfulness",
+                "Because of strength",
+                "Because of magic",
+                "Because of luck"
+              ],
+              "answer": "Because of faithfulness",
+              "reference": "Daniel 6:22"
+            },
+            {
+              "id": "herois-u4-l3-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "No one can separate us from faithfulness to God.",
+              "reference": "Daniel 6:22-23"
+            }
+          ]
+        },
+        {
+          "id": "herois-u4-l4",
+          "title": "Jonah: The Reluctant Prophet",
+          "icon": "tent.fill",
+          "exercises": [
+            {
+              "id": "herois-u4-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Where did God send Jonah?",
+              "text": "God sent Jonah to preach in ___.",
+              "options": [
+                "Nineveh",
+                "Tyre",
+                "Sidon",
+                "Babylon"
+              ],
+              "answer": "Nineveh",
+              "reference": "Jonah 1:2"
+            },
+            {
+              "id": "herois-u4-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "Jonah fled in a ___ on the sea.",
+              "answer": "ship",
+              "options": [
+                "ship",
+                "boat",
+                "dinghy",
+                "vessel"
+              ],
+              "reference": "Jonah 1:3"
+            },
+            {
+              "id": "herois-u4-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Assemble the verse",
+              "text": "Divine order to Jonah",
+              "tokens": [
+                "Arise,",
+                "go to Nineveh",
+                "and cry out against it"
+              ],
+              "distractors": [
+                "and preach",
+                "and judge",
+                "and condemn",
+                "and announce"
+              ],
+              "reference": "Jonah 1:2"
+            },
+            {
+              "id": "herois-u4-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the story in order",
+              "text": "Sequence of Jonah.",
+              "tokens": [
+                "Jonah flees",
+                "Storm arises",
+                "Jonah in the whale",
+                "Preaches in Nineveh"
+              ],
+              "reference": "Jonah 1-3"
+            },
+            {
+              "id": "herois-u4-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the elements",
+              "pairs": [
+                {
+                  "left": "Jonah",
+                  "right": "Reluctant prophet"
+                },
+                {
+                  "left": "Nineveh",
+                  "right": "City of enemies"
+                },
+                {
+                  "left": "Whale",
+                  "right": "God's instrument"
+                },
+                {
+                  "left": "Repentance",
+                  "right": "Of the city"
+                }
+              ],
+              "reference": "Jonah"
+            },
+            {
+              "id": "herois-u4-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jonah immediately accepted God's calling.",
+              "isTrue": false,
+              "reference": "Jonah 1:3",
+              "explanation": "Jonah fled, refusing the calling, but God brought him back through the whale."
+            },
+            {
+              "id": "herois-u4-l4-e7",
+              "kind": "listen",
+              "prompt": "What happened?",
+              "text": "Nineveh repented when Jonah preached.",
+              "options": [
+                "Repented",
+                "Rejected",
+                "Attacked him",
+                "Killed him"
+              ],
+              "answer": "Repented",
+              "reference": "Jonah 3:5-10"
+            },
+            {
+              "id": "herois-u4-l4-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "God keeps calling even when we flee.",
+              "reference": "Jonah 1-3"
+            }
+          ]
+        },
+        {
+          "id": "herois-u4-l5",
+          "title": "Review: Prophets and Faithfulness",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "herois-u4-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the theme of this unit?",
+              "text": "All heroes showed ___ in extreme situations.",
+              "options": [
+                "faithfulness",
+                "courage",
+                "intelligence",
+                "strength"
+              ],
+              "answer": "faithfulness",
+              "reference": "1 Kings-Jonah"
+            },
+            {
+              "id": "herois-u4-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "God always ___ those who remain faithful.",
+              "answer": "honors",
+              "options": [
+                "honors",
+                "rewards",
+                "exalts",
+                "protects"
+              ],
+              "reference": "1 Kings-Jonah"
+            },
+            {
+              "id": "herois-u4-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Put the prophets in order",
+              "text": "Sequence of prophets.",
+              "tokens": [
+                "Elijah confronts Ahab",
+                "Esther saves Jews",
+                "Daniel faces lions",
+                "Jonah preaches repentance"
+              ],
+              "reference": "1 Kings-Jonah"
+            },
+            {
+              "id": "herois-u4-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Match each hero",
+              "pairs": [
+                {
+                  "left": "Elijah",
+                  "right": "Daring prophet"
+                },
+                {
+                  "left": "Esther",
+                  "right": "Queen deliverer"
+                },
+                {
+                  "left": "Daniel",
+                  "right": "Steadfast faithful"
+                },
+                {
+                  "left": "Jonah",
+                  "right": "Reluctant messenger"
+                }
+              ],
+              "reference": "1 Kings-Jonah"
+            },
+            {
+              "id": "herois-u4-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Assemble the key verse",
+              "text": "Essence of faithfulness",
+              "tokens": [
+                "If I perish",
+                "even so",
+                "I perish in faith"
+              ],
+              "distractors": [
+                "if I survive",
+                "if I succeed",
+                "if I flee",
+                "if I surrender"
+              ],
+              "reference": "Esther 4:16"
+            },
+            {
+              "id": "herois-u4-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "All four heroes faced circumstances that seemed impossible.",
+              "isTrue": true,
+              "reference": "1 Kings-Jonah",
+              "explanation": "From divine confrontation to planned genocide to lions to fleeing, all faced the impossible with faithfulness."
+            },
+            {
+              "id": "herois-u4-l5-e7",
+              "kind": "listen",
+              "prompt": "What is the common lesson?",
+              "text": "The lesson is to never abandon God under any circumstance.",
+              "options": [
+                "Never abandon God",
+                "Abandon when hard",
+                "Trust in men",
+                "Follow your instincts"
+              ],
+              "answer": "Never abandon God",
+              "reference": "1 Kings-Jonah"
+            },
+            {
+              "id": "herois-u4-l5-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Faithfulness to God never goes without reward.",
+              "reference": "1 Kings-Jonah"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

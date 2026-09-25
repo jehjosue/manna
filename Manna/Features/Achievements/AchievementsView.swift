@@ -3,6 +3,8 @@ import SwiftUI
 struct AchievementsView: View {
     @Environment(GameState.self) var game
     @Environment(AchievementStore.self) var store
+    @State private var animateCards = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private let columns = [GridItem(.flexible()), GridItem(.flexible())]
 
@@ -14,9 +16,15 @@ struct AchievementsView: View {
                 ScrollView {
                     VStack(spacing: 20) {
                         LazyVGrid(columns: columns, spacing: 16) {
-                            ForEach(store.achievements) { achievement in
+                            ForEach(Array(store.achievements.enumerated()), id: \.element.id) { index, achievement in
                                 NavigationLink(destination: AchievementDetailView(achievement: achievement)) {
                                     AchievementCard(achievement: achievement)
+                                        .opacity(animateCards ? 1 : 0)
+                                        .offset(y: animateCards ? 0 : 20)
+                                        .animation(
+                                            reduceMotion ? .none : .easeOut(duration: 0.4).delay(Double(index) * 0.05),
+                                            value: animateCards
+                                        )
                                 }
                             }
                         }
@@ -27,6 +35,17 @@ struct AchievementsView: View {
             }
             .navigationTitle("Conquistas")
             .navigationBarTitleDisplayMode(.inline)
+            .onAppear {
+                if !reduceMotion {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                        withAnimation {
+                            animateCards = true
+                        }
+                    }
+                } else {
+                    animateCards = true
+                }
+            }
         }
     }
 }

@@ -2,10 +2,18 @@ import SwiftUI
 
 /// Exercício: ordenar acontecimentos tocando em cartões para montar a sequência correta.
 /// Tocar em um cartão da lista embaralhada move para "Sua ordem" numerada; tocar de novo devolve.
+/// Personagem reage conforme ordena.
 struct OrderEventsExerciseView: View {
     let exercise: Exercise
     @Bindable var vm: LessonViewModel
     @State private var shuffledIndices: [Int] = []
+    @State private var selectedCharacter: MannaCharacter
+
+    init(exercise: Exercise, vm: LessonViewModel) {
+        self.exercise = exercise
+        self.vm = vm
+        _selectedCharacter = State(initialValue: characterForExercise(exercise.id))
+    }
 
     private var availableTokens: [(Int, String)] {
         // Retorna os tokens que ainda não foram selecionados, em ordem embaralhada
@@ -14,14 +22,13 @@ struct OrderEventsExerciseView: View {
     }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            VStack(alignment: .center, spacing: 12) {
-                SheepView(mood: .thinking, size: 100)
-                Text("Coloque os eventos em ordem")
-                    .font(Theme.font(17, .semibold))
-                    .foregroundStyle(Theme.ink)
-            }
-            .frame(maxWidth: .infinity)
+        VStack(alignment: .center, spacing: 20) {
+            // Personagem com instrução
+            CharacterDisplay(
+                character: selectedCharacter,
+                mood: vm.orderSelectedIndices.isEmpty ? .happy : .thinking,
+                text: "Coloque os eventos em ordem"
+            )
 
             if let reference = exercise.reference {
                 Text(reference)

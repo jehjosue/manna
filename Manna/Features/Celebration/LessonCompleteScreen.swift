@@ -3,26 +3,34 @@ import SwiftUI
 /// Tela 1: Lição concluída com cartões de estatísticas animadas.
 struct LessonCompleteScreen: View {
     let result: LessonResult
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         VStack(spacing: 24) {
-            SheepView(mood: .cheering, size: 120)
+            CharacterView(character: .bee, mood: .cheering, size: 120)
+                .characterReaction(.cheering)
+                .transition(.scale.combined(with: .opacity))
 
             VStack(spacing: 8) {
                 Text(result.isPerfect ? "Perfeito! Nenhum erro!" : "Lição concluída!")
                     .font(Theme.font(24, .heavy))
                     .foregroundStyle(Theme.ink)
+                    .transition(.opacity)
 
                 Text(String(format: "Acerto: %.0f%%", result.accuracy * 100))
                     .font(Theme.font(16, .semibold))
                     .foregroundStyle(Theme.inkMuted)
+                    .transition(.opacity)
             }
 
             VStack(spacing: 12) {
                 StatCard(icon: .xp, label: "Pontos", finalValue: result.xpEarned, unit: "XP")
+                    .transition(.scale.combined(with: .opacity))
 
                 HStack(spacing: 12) {
                     StatCard(icon: .manna, label: "Maná", finalValue: result.mannaEarned, unit: "")
+                        .transition(.scale.combined(with: .opacity))
+
                     VStack(spacing: 8) {
                         Image(systemName: "target")
                             .font(.system(size: 24, weight: .bold))
@@ -31,6 +39,7 @@ struct LessonCompleteScreen: View {
                         Text(String(format: "%.0f%%", result.accuracy * 100))
                             .font(Theme.font(20, .heavy))
                             .foregroundStyle(Theme.wheat)
+                            .contentTransition(.numericText())
 
                         Text("Precisão")
                             .font(Theme.font(13, .semibold))
@@ -44,6 +53,7 @@ struct LessonCompleteScreen: View {
                         RoundedRectangle(cornerRadius: Theme.corner)
                             .strokeBorder(Theme.line, lineWidth: 2)
                     )
+                    .transition(.scale.combined(with: .opacity))
                 }
             }
 

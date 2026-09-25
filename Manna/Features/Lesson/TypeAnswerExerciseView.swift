@@ -2,24 +2,28 @@ import SwiftUI
 
 /// Exercício: digitar a palavra/trecho que falta na lacuna.
 /// O texto mostra "___" destacado; comparação normalizada contra `answer` e `options`.
+/// Personagem reage enquanto digita.
 struct TypeAnswerExerciseView: View {
     let exercise: Exercise
     @Bindable var vm: LessonViewModel
     @State private var userInput: String = ""
+    @State private var selectedCharacter: MannaCharacter
     @FocusState private var isInputFocused: Bool
 
+    init(exercise: Exercise, vm: LessonViewModel) {
+        self.exercise = exercise
+        self.vm = vm
+        _selectedCharacter = State(initialValue: characterForExercise(exercise.id))
+    }
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            if let speaker = exercise.speaker, let text = exercise.text {
-                SpeakerLine(speaker: speaker, text: text)
-            } else if let text = exercise.text {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text(text)
-                        .font(Theme.font(20, .semibold))
-                        .foregroundStyle(Theme.ink)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-            }
+        VStack(alignment: .center, spacing: 20) {
+            // Personagem com pergunta
+            CharacterDisplay(
+                character: selectedCharacter,
+                mood: !userInput.isEmpty ? .thinking : .happy,
+                text: exercise.text
+            )
 
             if let reference = exercise.reference {
                 Text(reference)

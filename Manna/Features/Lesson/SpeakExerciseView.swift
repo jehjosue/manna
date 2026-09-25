@@ -6,6 +6,7 @@ import AVFoundation
 
 /// Exercício: ler o versículo em voz alta e usar reconhecimento de fala para validar.
 /// Ao parar, acerto se >= 70% das palavras aparecerem na transcrição.
+/// Personagem reage ao gravar.
 struct SpeakExerciseView: View {
     let exercise: Exercise
     @Bindable var vm: LessonViewModel
@@ -13,16 +14,23 @@ struct SpeakExerciseView: View {
     @State private var recordingStartTime: Date?
     @State private var showPermissionError = false
     @State private var wasChecked = false
+    @State private var selectedCharacter: MannaCharacter
+
+    init(exercise: Exercise, vm: LessonViewModel) {
+        self.exercise = exercise
+        self.vm = vm
+        self._speechRecognizer = State(initialValue: SpeechRecognizer())
+        _selectedCharacter = State(initialValue: characterForExercise(exercise.id))
+    }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            VStack(alignment: .center, spacing: 12) {
-                SheepView(mood: .thinking, size: 100)
-                Text("Leia em voz alta o versículo")
-                    .font(Theme.font(17, .semibold))
-                    .foregroundStyle(Theme.ink)
-            }
-            .frame(maxWidth: .infinity)
+        VStack(alignment: .center, spacing: 20) {
+            // Personagem com instrução
+            CharacterDisplay(
+                character: selectedCharacter,
+                mood: speechRecognizer.isListening ? .thinking : .happy,
+                text: "Leia em voz alta o versículo"
+            )
 
             // Exibir o versículo
             if let text = exercise.text {

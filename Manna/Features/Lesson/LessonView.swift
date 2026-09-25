@@ -81,7 +81,7 @@ struct LessonView: View {
             }
 
             if vm.showIncentive {
-                IncentiveOverlay { vm.showIncentive = false }
+                IncentiveScreen { vm.showIncentive = false }
                     .transition(.opacity)
             }
 
@@ -185,26 +185,6 @@ private struct ExerciseBody: View {
         case .orderEvents: OrderEventsExerciseView(exercise: exercise, vm: vm)
         case .speak: SpeakExerciseView(exercise: exercise, vm: vm)
         }
-    }
-}
-
-/// Pausa de incentivo no meio da lição.
-private struct IncentiveOverlay: View {
-    let onContinue: () -> Void
-
-    var body: some View {
-        VStack(spacing: 24) {
-            Spacer()
-            SpeechBubble(text: "Você está indo muito bem! Continue assim 🐑")
-            SheepView(mood: .cheering, size: 160)
-            Spacer()
-            Button("Continuar", action: onContinue)
-                .buttonStyle(.chunky)
-                .padding(.horizontal, 16)
-                .padding(.bottom, 12)
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Theme.card.ignoresSafeArea())
     }
 }
 

@@ -12,6 +12,9 @@ struct PhoneCallDetailView: View {
     @State private var feedback: String?
     @State private var correctTurns = 0
     @State private var totalTurns = 0
+    @State private var showCallRings = true
+    @State private var callRingScale: CGFloat = 1
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private var currentTurn: PhoneTurn? {
         guard currentTurnIndex < call.turns.count else { return nil }
@@ -51,8 +54,44 @@ struct PhoneCallDetailView: View {
                     VStack(spacing: 24) {
                         Spacer()
 
-                        // Ávatah grande
-                        SheepView(mood: .happy, size: 180)
+                        // Anéis de chamada (antes de atender)
+                        if showCallRings && currentTurnIndex == 0 {
+                            ZStack {
+                                ForEach(0..<3, id: \.self) { index in
+                                    Circle()
+                                        .strokeBorder(Theme.wheat, lineWidth: 2)
+                                        .frame(width: 120 + CGFloat(index) * 30, height: 120 + CGFloat(index) * 30)
+                                        .opacity(Double(1 - index) * 0.3)
+                                        .scaleEffect(callRingScale)
+                                }
+                            }
+                            .onAppear {
+                                if !reduceMotion {
+                                    withAnimation(.easeInOut(duration: 1.5).repeatForever(autoreverses: false)) {
+                                        callRingScale = 1.4
+                                    }
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                                        withAnimation(.easeInOut(duration: 0.6)) {
+                                            showCallRings = false
+                                        }
+                                    }
+                                } else {
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                                        showCallRings = false
+                                    }
+                                }
+                            }
+                        }
+
+                        // Avatar de Béé com sincronização de fala
+                        CharacterView(
+                            character: .bee,
+                            mood: currentTurn?.isUserTurn ?? false ? .thinking : .happy,
+                            size: 180,
+                            isTalking: Narrator.state.isSpeaking && !(currentTurn?.isUserTurn ?? false)
+                        )
+                        .characterBreathing(size: 180)
+                        .characterReaction(currentTurn?.isUserTurn ?? false ? .thinking : .happy)
 
                         // Nome e status
                         VStack(spacing: 4) {

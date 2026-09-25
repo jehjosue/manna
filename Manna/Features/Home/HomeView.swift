@@ -151,27 +151,48 @@ struct UnitSection: View {
     var body: some View {
         VStack(spacing: 22) {
             unitCard
+                .transition(.asymmetric(insertion: .opacity.combined(with: .scale(scale: 0.95)), removal: .opacity))
 
             VStack(spacing: 18) {
                 ForEach(Array(unit.lessons.enumerated()), id: \.element.id) { index, lesson in
                     let offset = Self.zigzag[index % Self.zigzag.count]
+                    let isCompleted = game.isCompleted(lesson.id)
+                    let isCurrent = game.currentLessonId(in: journey) == lesson.id
+
                     ZStack {
                         LessonCircle(
                             lesson: lesson,
                             color: unitColor,
                             shadow: unitShadow,
-                            isCompleted: game.isCompleted(lesson.id),
-                            isCurrent: game.currentLessonId(in: journey) == lesson.id,
+                            isCompleted: isCompleted,
+                            isCurrent: isCurrent,
                             isLocked: !game.isUnlocked(lesson.id, in: journey),
                             onTap: { onLessonTap(lesson) }
                         )
                         .offset(x: offset)
+                        .scaleEffect(isCompleted ? 1.0 : 1.0, anchor: .center)
+                        .onAppear {
+                            if isCompleted && index > 0 && !game.isCompleted(unit.lessons[index - 1].id) {
+                                // Animação de desbloqueio quando a lição anterior foi concluída
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                                    withAnimation(.spring(response: 0.5, dampingFraction: 0.6)) {
+                                        // Scale animation trigger
+                                    }
+                                }
+                            }
+                        }
 
-                        // Ovelhinha no lado oposto do zigue-zague, uma por unidade
+                        // Personagem variado por unidade (não só Béé)
                         if index == 2 {
-                            SheepView(mood: game.studiedToday ? .happy : .sleepy, size: 70)
-                                .offset(x: offset <= 0 ? 110 : -110)
-                                .allowsHitTesting(false)
+                            let character = selectCharacterForUnit(unitIndex)
+                            CharacterView(
+                                character: character,
+                                mood: game.studiedToday ? .happy : .sleepy,
+                                size: 70
+                            )
+                            .offset(x: offset <= 0 ? 110 : -110)
+                            .allowsHitTesting(false)
+                            .transition(.scale.combined(with: .opacity))
                         }
                     }
                     .frame(maxWidth: .infinity)
@@ -181,6 +202,7 @@ struct UnitSection: View {
                     if index == 2 && shouldShowTreasure {
                         TreasureChestNode(onTap: { showTreasure = true })
                             .frame(maxWidth: .infinity)
+                            .transition(.scale.combined(with: .opacity))
                     }
                 }
 
@@ -188,6 +210,7 @@ struct UnitSection: View {
                 if allLessonsCompleted && !PathRewardsStore.shared.isUnitLegendary(unit.id) {
                     LegendaryLevelNode(unitIndex: unitIndex, onTap: { showLegendary = true })
                         .frame(maxWidth: .infinity)
+                        .transition(.scale.combined(with: .opacity))
                 }
             }
         }
@@ -226,6 +249,12 @@ struct UnitSection: View {
                 }
             }
         }
+    }
+
+    private func selectCharacterForUnit(_ index: Int) -> MannaCharacter {
+        // Varia o personagem por unidade, mas Béé aparece ocasionalmente
+        let characters: [MannaCharacter] = [.paz, .tito, .juda, .vovoEster, .pastorDavi, .mirela, .tobias, .tioSamuel, .ana, .noemi, .bee]
+        return characters[index % characters.count]
     }
 
     private func createLegendaryLesson() -> Lesson? {
@@ -307,6 +336,8 @@ struct UnitSection: View {
 
 struct TreasureChestNode: View {
     let onTap: () -> Void
+    @State private var isShaking = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         Button(action: onTap) {
@@ -326,6 +357,7 @@ struct TreasureChestNode: View {
                         .font(.system(size: 20, weight: .bold))
                         .foregroundStyle(Color(hex: 0xFFD700))
                 }
+                .offset(x: isShaking && !reduceMotion ? ([-2, 2, -2, 2].randomElement() ?? 0) : 0)
 
                 Text("Baú da Unidade")
                     .font(Theme.font(12, .heavy))
@@ -339,6 +371,25 @@ struct TreasureChestNode: View {
                 RoundedRectangle(cornerRadius: 12, style: .continuous)
                     .strokeBorder(Theme.line, lineWidth: 1)
             )
+            .onAppear {
+                if !reduceMotion {
+                    startShaking()
+                }
+            }
+        }
+    }
+
+    private func startShaking() {
+        let timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
+            if !reduceMotion {
+                withAnimation(.linear(duration: 0.05)) {
+                    isShaking.toggle()
+                }
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            timer.invalidate()
+            isShaking = false
         }
     }
 }

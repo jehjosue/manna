@@ -209,6 +209,8 @@ struct PowerCardView: View {
     let game: GameState
     var isDisabled: Bool = false
     var onTap: () -> Void
+    @State private var floatOffset: CGFloat = 0
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -257,6 +259,15 @@ struct PowerCardView: View {
             RoundedRectangle(cornerRadius: 14, style: .continuous)
                 .fill(Theme.card)
         )
+        .offset(y: floatOffset)
+        .transition(.scale.combined(with: .opacity))
+        .onAppear {
+            if !reduceMotion {
+                withAnimation(.easeInOut(duration: 2.5).repeatForever(autoreverses: true)) {
+                    floatOffset = 4
+                }
+            }
+        }
     }
 
     private var buttonLabel: String {
@@ -323,7 +334,9 @@ struct DailyTreasureView: View {
     @Binding var lastDate: String?
     @State private var showReward = false
     @State private var rewardText = ""
+    @State private var chestShake = false
     let game: GameState
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var canOpenToday: Bool {
         lastDate != GameState.dayKey(Date())
@@ -337,6 +350,7 @@ struct DailyTreasureView: View {
                     VStack(spacing: 8) {
                         TreasureChestView(opened: false)
                             .frame(height: 100)
+                            .offset(x: chestShake && !reduceMotion ? ([-2, 2, -2, 2].randomElement() ?? 0) : 0)
 
                         Text("1 baú por dia")
                             .font(Theme.font(12, .semibold))
@@ -361,6 +375,11 @@ struct DailyTreasureView: View {
                     .onTapGesture {
                         if canOpenToday {
                             openTreasure()
+                        }
+                    }
+                    .onAppear {
+                        if canOpenToday && !reduceMotion {
+                            startShaking()
                         }
                     }
                 } else {
@@ -425,10 +444,25 @@ struct DailyTreasureView: View {
         SoundFX.play(.reward)
         Haptics.success()
     }
+
+    private func startShaking() {
+        let timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
+            if !reduceMotion {
+                withAnimation(.linear(duration: 0.05)) {
+                    chestShake.toggle()
+                }
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            timer.invalidate()
+            chestShake = false
+        }
+    }
 }
 
 struct TreasureChestView: View {
     let opened: Bool
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         ZStack {
@@ -448,7 +482,7 @@ struct TreasureChestView: View {
                     Spacer()
                 }
             } else {
-                // Tampa aberta (rotacionada)
+                // Tampa aberta (rotacionada com animação)
                 VStack {
                     RoundedRectangle(cornerRadius: 4, style: .continuous)
                         .fill(Color(hex: 0xA0791C))
@@ -458,6 +492,7 @@ struct TreasureChestView: View {
 
                     Spacer()
                 }
+                .transition(.scale.combined(with: .opacity))
             }
 
             // Brilho dentro (quando aberto)
@@ -465,6 +500,12 @@ struct TreasureChestView: View {
                 Circle()
                     .fill(Theme.manna.opacity(0.5))
                     .frame(width: 40, height: 40)
+                    .scaleEffect(!reduceMotion ? 1.0 : 1.0)
+                    .onAppear {
+                        if !reduceMotion {
+                            // Mantém o brilho pulsando
+                        }
+                    }
             }
         }
     }

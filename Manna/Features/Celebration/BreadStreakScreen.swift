@@ -3,6 +3,8 @@ import SwiftUI
 /// Tela 2: Exibe a sequência do pão diário com os últimos 7 dias.
 struct BreadStreakScreen: View {
     let result: LessonResult
+    @State private var iconGlow = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     /// Iniciais dos últimos 7 dias (o último é hoje).
     private var dayLabels: [String] {
@@ -21,7 +23,24 @@ struct BreadStreakScreen: View {
                     .fill(Theme.bread.opacity(0.15))
 
                 VStack(spacing: 16) {
-                    GameIconView(icon: .bread, size: 56)
+                    ZStack {
+                        GameIconView(icon: .bread, size: 56)
+
+                        if !reduceMotion {
+                            Circle()
+                                .strokeBorder(Theme.bread.opacity(0.3), lineWidth: 2)
+                                .frame(width: 80, height: 80)
+                                .opacity(iconGlow ? 0 : 1)
+                                .scaleEffect(iconGlow ? 1.3 : 1.0)
+                        }
+                    }
+                    .onAppear {
+                        if !reduceMotion {
+                            withAnimation(.easeOut(duration: 1.5).repeatForever(autoreverses: false)) {
+                                iconGlow = true
+                            }
+                        }
+                    }
 
                     // Número animado da sequência
                     HStack(spacing: 0) {
@@ -30,6 +49,7 @@ struct BreadStreakScreen: View {
                             .foregroundStyle(Theme.bread)
                             .contentTransition(.numericText())
                     }
+                    .scaleEffect(1.0)
 
                     Text("dias de pão diário")
                         .font(Theme.font(16, .semibold))
@@ -76,6 +96,7 @@ struct BreadStreakScreen: View {
                                 }
                             }
                             .frame(width: 32, height: 32)
+                            .transition(.scale.combined(with: .opacity))
 
                             Text(dayLabels[index])
                                 .font(Theme.font(12, .semibold))
@@ -91,6 +112,7 @@ struct BreadStreakScreen: View {
                 RoundedRectangle(cornerRadius: Theme.corner)
                     .strokeBorder(Theme.line, lineWidth: 2)
             )
+            .transition(.scale.combined(with: .opacity))
 
             Spacer()
         }

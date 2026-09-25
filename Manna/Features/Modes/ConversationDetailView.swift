@@ -12,6 +12,10 @@ struct ConversationDetailView: View {
     @State private var correctCount = 0
     @State private var totalTurns = 0
     @State private var wasAnswerCorrect = false
+    @State private var animateContent = false
+    @State private var characterMood: CharacterMood = .happy
+    @StateObject private var narratorState = Narrator.state
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private var currentTurn: ConversationTurn? {
         guard currentTurnIndex < conversation.turns.count else { return nil }
@@ -44,6 +48,16 @@ struct ConversationDetailView: View {
                     VStack(spacing: 24) {
                         Spacer(minLength: 20)
 
+                        // Personagem grande falando
+                        CharacterView(
+                            character: findCharacterForConversation(),
+                            mood: characterMood,
+                            size: 160,
+                            isTalking: narratorState.isSpeaking && !(currentTurn?.isUserTurn ?? false)
+                        )
+                        .characterBreathing(size: 160)
+                        .characterReaction(characterMood)
+
                         // Título
                         VStack(spacing: 8) {
                             Text(conversation.title)
@@ -58,7 +72,7 @@ struct ConversationDetailView: View {
 
                         Spacer(minLength: 12)
 
-                        // Balão de diálogo
+                        // Balão de diálogo com animação
                         if let turn = currentTurn {
                             VStack(alignment: .leading, spacing: 8) {
                                 HStack {
@@ -76,14 +90,21 @@ struct ConversationDetailView: View {
                             .padding(16)
                             .background(Theme.card)
                             .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                            .opacity(animateContent ? 1 : 0)
+                            .scale(animateContent ? 1 : 0.8, anchor: .center)
+                            .animation(
+                                reduceMotion ? .none : .easeOut(duration: 0.4),
+                                value: animateContent
+                            )
 
-                            // Opções (se for turno do usuário)
+                            // Opções (se for turno do usuário) com animação escalonada
                             if turn.isUserTurn, let options = turn.options {
                                 VStack(spacing: 8) {
-                                    ForEach(options, id: \.self) { option in
+                                    ForEach(Array(options.enumerated()), id: \.element) { index, option in
                                         Button {
                                             selectedAnswer = option
                                             showFeedback = "Ótimo!"
+                                            characterMood = .cheering
                                             markAnswerCorrect()
                                         } label: {
                                             Text(option)
@@ -98,11 +119,17 @@ struct ConversationDetailView: View {
                                                 )
                                                 .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
                                         }
+                                        .opacity(animateContent ? 1 : 0)
+                                        .offset(y: animateContent ? 0 : 10)
+                                        .animation(
+                                            reduceMotion ? .none : .easeOut(duration: 0.4).delay(Double(index + 1) * 0.08),
+                                            value: animateContent
+                                        )
                                     }
                                 }
                             }
 
-                            // Feedback
+                            // Feedback com animação
                             if let feedback = showFeedback {
                                 VStack(spacing: 8) {
                                     Image(systemName: "checkmark.circle.fill")
@@ -117,6 +144,7 @@ struct ConversationDetailView: View {
                                 .padding(12)
                                 .background(Theme.oliveLight)
                                 .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                                .transition(.scale.combined(with: .opacity))
                             }
                         }
 
@@ -151,12 +179,44 @@ struct ConversationDetailView: View {
                 .background(Theme.cream)
             }
         }
+        .onChange(of: currentTurnIndex) { _, _ in
+            animateContent = false
+            characterMood = .happy
+            if !reduceMotion {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                    withAnimation(.easeOut(duration: 0.4)) {
+                        animateContent = true
+                    }
+                }
+            } else {
+                animateContent = true
+            }
+        }
         .onAppear {
-            // Falar a fala do personagem
+            if !reduceMotion {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                    withAnimation(.easeOut(duration: 0.4)) {
+                        animateContent = true
+                    }
+                }
+            } else {
+                animateContent = true
+            }
+
             if let turn = currentTurn, !turn.isUserTurn {
                 Narrator.speak(turn.text, slow: false)
             }
         }
+    }
+
+    private func findCharacterForConversation() -> MannaCharacter {
+        // Tenta encontrar um personagem por nome na conversa
+        for character in MannaCharacter.cast {
+            if conversation.title.lowercased().contains(character.displayName.lowercased()) {
+                return character
+            }
+        }
+        return .bee // Fallback
     }
 
     private func goNext() {
