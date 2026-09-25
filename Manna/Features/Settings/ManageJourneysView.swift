@@ -74,7 +74,7 @@ struct JourneyManageCard: View {
                         .foregroundStyle(Theme.ink)
                         .opacity(isHidden ? 0.5 : 1.0)
 
-                    Text(journey.description)
+                    Text(journey.subtitle ?? "")
                         .font(Theme.font(12, .semibold))
                         .foregroundStyle(Theme.inkMuted)
                         .lineLimit(1)
