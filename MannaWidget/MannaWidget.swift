@@ -1,7 +1,7 @@
 import WidgetKit
 import SwiftUI
 
-struct MannaWidgetProvider: AppIntentTimelineProvider {
+struct MannaWidgetProvider: TimelineProvider {
     func placeholder(in context: Context) -> MannaWidgetEntry {
         MannaWidgetEntry(
             date: Date(),
@@ -17,12 +17,11 @@ struct MannaWidgetProvider: AppIntentTimelineProvider {
         )
     }
 
-    func content(for intent: ConfigurationAppIntent, in context: Context) -> MannaWidgetEntry {
-        let snapshot = loadSnapshot()
-        return MannaWidgetEntry(date: Date(), snapshot: snapshot)
+    func getSnapshot(in context: Context, completion: @escaping (MannaWidgetEntry) -> Void) {
+        completion(MannaWidgetEntry(date: Date(), snapshot: loadSnapshot()))
     }
 
-    func timeline(for intent: ConfigurationAppIntent, in context: Context) -> Timeline<MannaWidgetEntry> {
+    func getTimeline(in context: Context, completion: @escaping (Timeline<MannaWidgetEntry>) -> Void) {
         var entries: [MannaWidgetEntry] = []
         let currentDate = Date()
 
@@ -41,8 +40,7 @@ struct MannaWidgetProvider: AppIntentTimelineProvider {
             entries.append(MannaWidgetEntry(date: midnight, snapshot: snapshot))
         }
 
-        let timeline = Timeline(entries: entries, policy: .default)
-        return timeline
+        completion(Timeline(entries: entries, policy: .atEnd))
     }
 
     private func loadSnapshot() -> WidgetSnapshot {
@@ -238,29 +236,17 @@ struct SimpleSheepView: View {
     }
 }
 
-@main
 struct MannaWidget: Widget {
     let kind: String = "MannaWidget"
 
     var body: some WidgetConfiguration {
-        AppIntentConfiguration(kind: kind, intent: ConfigurationAppIntent.self, provider: MannaWidgetProvider()) { entry in
+        StaticConfiguration(kind: kind, provider: MannaWidgetProvider()) { entry in
             MannaWidgetEntryView(entry: entry)
                 .containerBackground(.fill, for: .widget)
         }
         .configurationDisplayName("Manna")
         .description("Seu progresso diário")
         .supportedFamilies([.systemSmall, .systemMedium])
-    }
-}
-
-// MARK: - App Intent (requerido para AppIntentTimelineProvider)
-
-struct ConfigurationAppIntent: AppIntent {
-    static var title: LocalizedStringResource = "Manna"
-    static var openAppWhenRun: Bool = true
-
-    func perform() async throws -> some IntentResult {
-        return .result()
     }
 }
 
