@@ -7,6 +7,7 @@ struct SettingsView: View {
     @Environment(GameState.self) private var game
     @Environment(\.dismiss) private var dismiss
     @State private var showNameEditor = false
+    @State private var showPaywall = false
     @State private var editedName = ""
     @State private var showDailyGoalPicker = false
     @State private var showReminder = false
