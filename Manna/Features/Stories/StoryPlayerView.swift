@@ -176,7 +176,7 @@ struct StoryLineView: View {
                 Text(speaker)
                     .font(Theme.font(14, .semibold))
                     .foregroundStyle(Theme.inkMuted)
-                    .uppercase()
+                    .textCase(.uppercase)
             }
 
             // Balão de fala

@@ -193,12 +193,10 @@ struct PracticeHubView: View {
         guard let journey = content.journey else { return }
 
         // Pegar até 10 exercícios aleatórios de lições concluídas
-        let completedExercises = journey.allLessons
-            .filter { game.isCompleted($0.id) }
-            .flatMap { $0.exercises }
-            .filter { $0.kind == .buildVerse || $0.kind == .typeAnswer || $0.kind == .listen || $0.kind == .speak }
-            .shuffled()
-            .prefix(10)
+        let verseKinds: Set<ExerciseKind> = [.buildVerse, .typeAnswer, .listen, .speak]
+        let completedLessons = journey.allLessons.filter { game.isCompleted($0.id) }
+        let verseExercises: [Exercise] = completedLessons.flatMap { $0.exercises }.filter { verseKinds.contains($0.kind) }
+        let completedExercises = verseExercises.shuffled().prefix(10)
 
         guard !completedExercises.isEmpty else { return }
 
@@ -239,7 +237,7 @@ struct PracticeHubView: View {
 /// Cartão de uma opção de prática.
 struct CardButton<Icon: View>: View {
     let isEnabled: Bool
-    @ViewBuilder let icon: Icon
+    let icon: Icon
     let title: String
     let subtitle: String
     let onTap: () -> Void

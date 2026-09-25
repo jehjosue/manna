@@ -115,7 +115,7 @@ struct KeyVerseCard: View {
                 Text(verse.reference)
                     .font(Theme.font(13, .heavy))
                     .foregroundStyle(Theme.wheat)
-                    .uppercase()
+                    .textCase(.uppercase)
 
                 Spacer()
 

@@ -39,7 +39,7 @@ struct SettingsView: View {
 
                     // MARK: - Seção Meta Diária
                     Section(header: Text("Meta Diária").font(Theme.font(14, .heavy))) {
-                        Picker("Meta XP", selection: $game.dailyGoalXP) {
+                        Picker("Meta XP", selection: Binding(get: { game.dailyGoalXP }, set: { game.dailyGoalXP = $0 })) {
                             Text("Leve (10 XP)").tag(10)
                             Text("Regular (20 XP)").tag(20)
                             Text("Firme (30 XP)").tag(30)
