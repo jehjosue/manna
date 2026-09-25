@@ -1,8 +1,9 @@
 import Foundation
 import Observation
 
-/// Sincroniza progresso com iCloud via NSUbiquitousKeyValueStore.
-/// Espelha a chave principal "manna.gameState.v1" + outras chaves de stores.
+/// Guarda uma cópia do progresso no iCloud (NSUbiquitousKeyValueStore, até 1 MB).
+/// Espelha todas as chaves "manna.*" do UserDefaults. Num aparelho novo, o progresso volta sozinho
+/// na primeira abertura (`restoreIfFreshInstall`); em Configurações dá para restaurar manualmente.
 @Observable
 final class CloudProgressSync {
     static let shared = CloudProgressSync()
@@ -11,79 +12,75 @@ final class CloudProgressSync {
     private(set) var lastSyncDate: Date?
     private(set) var hasPendingChanges = false
 
-    private let kvStore = NSUbiquitousKeyValueStore.default
-    private let syncInterval: TimeInterval = 300  // 5 min
-    private var syncTask: Task<Void, Never>?
+    @ObservationIgnored private let kvStore = NSUbiquitousKeyValueStore.default
 
-    init() {
-        isAvailable = kvStore.synchronize()
-        startSync()
+    private static let prefix = "manna."
+    private static let syncDateKey = "cloud.syncDate"
+    private static let xpKey = "cloud.xpTotal"
+    /// Chave principal do GameState (se não existir localmente, é instalação nova).
+    private static let gameStateKey = "manna.gameState.v1"
+
+    private init() {
+        isAvailable = FileManager.default.ubiquityIdentityToken != nil
+        kvStore.synchronize()
+        lastSyncDate = kvStore.object(forKey: Self.syncDateKey) as? Date
     }
 
-    deinit {
-        syncTask?.cancel()
+    /// Chamado antes de carregar o GameState: se o aparelho não tem progresso e o iCloud tem, restaura.
+    static func restoreIfFreshInstall() {
+        guard UserDefaults.standard.object(forKey: gameStateKey) == nil else { return }
+        let store = NSUbiquitousKeyValueStore.default
+        store.synchronize()
+        guard store.object(forKey: gameStateKey) != nil else { return }
+        copyCloudToLocal(store)
     }
 
-    /// Inicia sincronização periódica com iCloud.
-    private func startSync() {
-        syncTask = Task {
-            while !Task.isCancelled {
-                try? await Task.sleep(nanoseconds: UInt64(syncInterval * 1_000_000_000))
-                if !Task.isCancelled {
-                    syncToCloud()
-                }
-            }
-        }
-    }
-
-    /// Envia estado do GameState para iCloud.
+    /// Envia todas as chaves "manna.*" para o iCloud.
     func syncToCloud(gameState: GameState? = nil) {
         guard isAvailable else { return }
-
-        if let gameState = gameState {
-            if let encoded = try? JSONEncoder().encode(gameState.debugDescription) {
-                kvStore.set(encoded, forKey: "manna.gameState.v1")
-            }
+        let local = UserDefaults.standard.dictionaryRepresentation()
+        for (key, value) in local where key.hasPrefix(Self.prefix) {
+            kvStore.set(value, forKey: key)
         }
-
-        let _ = kvStore.synchronize()
-        lastSyncDate = Date()
+        let now = Date()
+        kvStore.set(now, forKey: Self.syncDateKey)
+        if let gameState {
+            kvStore.set(Int64(gameState.xpTotal), forKey: Self.xpKey)
+        }
+        kvStore.synchronize()
+        lastSyncDate = now
         hasPendingChanges = false
     }
 
-    /// Verifica se há progresso mais novo no iCloud e oferece restaurar.
+    /// Informa se o iCloud tem um progresso com mais XP do que o aparelho (e a data da cópia).
     func checkForRemoteProgress(completion: @escaping (Bool, Date?) -> Void) {
         guard isAvailable else {
             completion(false, nil)
             return
         }
-
-        if let remoteData = kvStore.data(forKey: "manna.gameState.v1") {
-            if let remoteDate = kvStore.dictionary(forKey: nil)?["manna.gameState.syncDate"] as? Date {
-                if remoteDate > (lastSyncDate ?? .distantPast) {
-                    completion(true, remoteDate)
-                    return
-                }
-            }
-        }
-
-        completion(false, nil)
+        kvStore.synchronize()
+        let remoteDate = kvStore.object(forKey: Self.syncDateKey) as? Date
+        let remoteXP = kvStore.longLong(forKey: Self.xpKey)
+        let localXP = Int64(GameState.load().xpTotal)
+        completion(remoteDate != nil && remoteXP > localXP, remoteDate)
     }
 
-    /// Restaura progresso do iCloud.
+    /// Copia o progresso do iCloud para o aparelho. O app mostra o progresso restaurado na próxima abertura.
     func restoreFromCloud(gameState: GameState) {
         guard isAvailable else { return }
-
-        if let remoteData = kvStore.data(forKey: "manna.gameState.v1") {
-            // Decodificar e restaurar — implementação específica do GameState
-            // Por enquanto, apenas marca como sincronizado
-            lastSyncDate = Date()
-            hasPendingChanges = false
-        }
+        kvStore.synchronize()
+        Self.copyCloudToLocal(kvStore)
+        lastSyncDate = kvStore.object(forKey: Self.syncDateKey) as? Date
+        hasPendingChanges = false
     }
 
-    /// Marca que há mudanças pendentes.
     func markPendingChanges() {
         hasPendingChanges = true
+    }
+
+    private static func copyCloudToLocal(_ store: NSUbiquitousKeyValueStore) {
+        for (key, value) in store.dictionaryRepresentation where key.hasPrefix(prefix) {
+            UserDefaults.standard.set(value, forKey: key)
+        }
     }
 }

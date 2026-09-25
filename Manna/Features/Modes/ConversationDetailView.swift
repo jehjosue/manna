@@ -128,7 +128,7 @@ struct ConversationDetailView: View {
                 VStack(spacing: 0) {
                     Divider()
 
-                    if !currentTurn?.isUserTurn ?? false, showFeedback == nil {
+                    if !(currentTurn?.isUserTurn ?? false), showFeedback == nil {
                         Button(action: goNext) {
                             Text("CONTINUAR")
                                 .font(Theme.font(17, .heavy))

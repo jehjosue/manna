@@ -2,8 +2,14 @@ import SwiftUI
 
 @main
 struct MannaApp: App {
-    @State private var game = GameState.load()
+    @State private var game: GameState
     @State private var content = ContentStore.shared
+
+    init() {
+        // Aparelho novo: traz o progresso do iCloud antes de carregar o estado.
+        CloudProgressSync.restoreIfFreshInstall()
+        _game = State(initialValue: GameState.load())
+    }
 
     var body: some Scene {
         WindowGroup {

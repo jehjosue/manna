@@ -143,7 +143,7 @@ struct CloudSyncView: View {
                 Button("Cancelar", role: .cancel) { }
             } message: {
                 if let date = remoteDate {
-                    Text("Encontramos um progresso mais recente de \(date.formatted(date: .abbreviated, time: .shortened)). Deseja restaurar?")
+                    Text("Encontramos um progresso mais recente de \(date.formatted(date: .abbreviated, time: .shortened)). Deseja restaurar? Depois, feche e abra o app para ver o progresso.")
                 } else {
                     Text("Seu progresso está atualizado.")
                 }
@@ -155,7 +155,7 @@ struct CloudSyncView: View {
         isRestoring = true
 
         cloudSync.checkForRemoteProgress { hasNewer, date in
-            remoteDate = date
+            remoteDate = hasNewer ? date : nil
             showRestoreAlert = true
             isRestoring = false
 
