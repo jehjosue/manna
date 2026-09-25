@@ -143,7 +143,7 @@ struct PhoneCallDetailView: View {
                 }
 
                 // Botão continuar (se turno do bot ou feedback)
-                if feedback != nil || (!currentTurn?.isUserTurn ?? false) {
+                if feedback != nil || !(currentTurn?.isUserTurn ?? false) {
                     VStack(spacing: 0) {
                         Divider()
                         Button(action: goNext) {
@@ -188,7 +188,6 @@ struct PhoneCallDetailView: View {
     private func goNext() {
         if currentTurnIndex < call.turns.count - 1 {
             feedback = nil
-            speechRecognizer.transcription = ""
             currentTurnIndex += 1
 
             if let turn = currentTurn, !turn.isUserTurn {

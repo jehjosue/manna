@@ -2,6 +2,7 @@ import SwiftUI
 
 /// ShareCardRenderer cria cartões visuais para compartilhamento de conquistas e retrospectiva.
 /// Usa ImageRenderer para converter SwiftUI em UIImage (iOS 16+).
+@MainActor
 struct ShareCardRenderer {
     /// Gera um cartão de conquista pronto para compartilhar.
     static func achievementCard(

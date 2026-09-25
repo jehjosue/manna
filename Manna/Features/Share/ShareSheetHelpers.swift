@@ -12,6 +12,7 @@ struct ShareSheet: UIViewControllerRepresentable {
 
 extension Image {
     /// Converte uma Image SwiftUI em UIImage para compartilhamento.
+    @MainActor
     func asUIImage() -> UIImage? {
         // Usar ImageRenderer (iOS 16+)
         let renderer = ImageRenderer(content: self)
