@@ -150,7 +150,7 @@ struct LevelRow: View {
 
             if isUnlocked && !isFullyClaimed {
                 Button(action: {
-                    let manna = store.claimReward(achievement.id, tier: level.tier, game: game)
+                    let manna = store.claimReward(achievementId: achievement.id, tier: level.tier, game: game)
                     SoundFX.play(.levelUp)
                     Haptics.success()
                 }) {
