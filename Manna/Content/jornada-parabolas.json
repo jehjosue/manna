@@ -1,0 +1,2515 @@
+{
+  "id": "parabolas",
+  "title": "Parábolas de Jesus",
+  "subtitle": "Histórias que ensinam o Reino",
+  "icon": "leaf.fill",
+  "order": 2,
+  "units": [
+    {
+      "id": "parabolas-u1",
+      "title": "Unidade 1",
+      "subtitle": "O Reino de Deus",
+      "guide": {
+        "summary": "Jesus ensinou sobre a natureza do Reino através de parábolas sobre crescimento, pequenez inicial e grande valor. O Reino começa pequeno como uma semente, cresce imperceptivelmente, e é de valor incalculável para quem o descobre.",
+        "keyVerses": [
+          {
+            "reference": "Mateus 13:31-32",
+            "text": "O Reino dos céus é semelhante a um grão de mostarda, que alguém toma e semeia no seu campo; e é, de fato, a menor das sementes, mas, depois de crescido, é a maior das hortaliças e se torna árvore."
+          },
+          {
+            "reference": "Mateus 13:44",
+            "text": "O Reino dos céus é semelhante a um tesouro escondido no campo, que alguém acha e esconde de novo; e, na sua alegria, vai vender tudo o que possui e compra aquele campo."
+          },
+          {
+            "reference": "Mateus 13:45-46",
+            "text": "O Reino dos céus é também semelhante a um negociante que busca boas pérolas; tendo achado uma pérola de grande valor, vai vender tudo o que possui e a compra."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "parabolas-u1-l1",
+          "title": "O Semeador",
+          "icon": "star.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u1-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é a semente na parábola do semeador?",
+              "text": "Na parábola do semeador, a semente representa a ___ de Deus.",
+              "speaker": "Jesus",
+              "options": [
+                "Palavra",
+                "vontade",
+                "criação",
+                "ação"
+              ],
+              "answer": "Palavra",
+              "reference": "Mateus 13:19",
+              "explanation": "A semente na parábola representa a Palavra do Reino, que o semeador planta nos corações."
+            },
+            {
+              "id": "parabolas-u1-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "\"Aquele que semeou a boa semente é o ___.\"",
+              "answer": "Filho",
+              "options": [
+                "Filho",
+                "filho",
+                "Filho do Homem",
+                "Salvador"
+              ],
+              "reference": "Mateus 13:37",
+              "explanation": "Jesus explicou que quem semeou a boa semente é o Filho do Homem, referindo-se a si mesmo."
+            },
+            {
+              "id": "parabolas-u1-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Os diferentes tipos de solo na parábola",
+              "tokens": [
+                "Quem tem ouvidos",
+                "para ouvir",
+                "ouça"
+              ],
+              "distractors": [
+                "para entender",
+                "leia",
+                "compreenda",
+                "veja"
+              ],
+              "reference": "Mateus 13:9"
+            },
+            {
+              "id": "parabolas-u1-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque os tipos de solo em ordem",
+              "text": "Na parábola do semeador, Jesus descreve quatro tipos de solo onde a semente cai.",
+              "tokens": [
+                "Semente cai à beira do caminho",
+                "Semente cai em solo rochoso",
+                "Semente cai entre espinhos",
+                "Semente cai em solo fértil"
+              ],
+              "reference": "Mateus 13:4-8"
+            },
+            {
+              "id": "parabolas-u1-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os tipos de solo",
+              "pairs": [
+                {
+                  "left": "Beira do caminho",
+                  "right": "Palavra roubada"
+                },
+                {
+                  "left": "Solo rochoso",
+                  "right": "Fé superficial"
+                },
+                {
+                  "left": "Espinhos",
+                  "right": "Preocupações mundanas"
+                },
+                {
+                  "left": "Solo fértil",
+                  "right": "Coração receptivo"
+                }
+              ],
+              "reference": "Mateus 13:19-23"
+            },
+            {
+              "id": "parabolas-u1-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Na parábola do semeador, toda semente que cai produz muita colheita.",
+              "isTrue": false,
+              "reference": "Mateus 13:4-9",
+              "explanation": "Nem toda semente produz colheita. Apenas a que cai em solo fértil produz fruto abundante."
+            },
+            {
+              "id": "parabolas-u1-l1-e7",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Ouça o que Jesus disse: A semente é a palavra de Deus.",
+              "options": [
+                "A semente é a palavra de Deus",
+                "A semente é a sabedoria",
+                "A semente é o amor",
+                "A semente é o perdão"
+              ],
+              "answer": "A semente é a palavra de Deus",
+              "reference": "Lucas 8:11"
+            },
+            {
+              "id": "parabolas-u1-l1-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Quem tem ouvidos para ouvir, ouça.",
+              "reference": "Mateus 13:9"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u1-l2",
+          "title": "O Grão de Mostarda",
+          "icon": "book.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u1-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é a semente mais pequena?",
+              "text": "O grão de mostarda é ___ das sementes.",
+              "options": [
+                "a menor",
+                "a mais dura",
+                "a mais rara",
+                "a mais clara"
+              ],
+              "answer": "a menor",
+              "reference": "Mateus 13:32"
+            },
+            {
+              "id": "parabolas-u1-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "\"Depois de crescido, é a maior das hortaliças e se torna uma ___.\"",
+              "answer": "árvore",
+              "options": [
+                "árvore",
+                "planta",
+                "muda",
+                "fronde"
+              ],
+              "reference": "Mateus 13:32"
+            },
+            {
+              "id": "parabolas-u1-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "O crescimento do grão de mostarda",
+              "tokens": [
+                "É a menor",
+                "das sementes",
+                "mas depois crescido",
+                "é a maior"
+              ],
+              "distractors": [
+                "das árvores",
+                "do mundo",
+                "do campo",
+                "das plantas"
+              ],
+              "reference": "Mateus 13:32"
+            },
+            {
+              "id": "parabolas-u1-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem de tamanho",
+              "text": "Evolução do grão de mostarda na parábola.",
+              "tokens": [
+                "Semente muito pequena",
+                "Cresce lentamente",
+                "Fica maior que horta",
+                "Torna-se árvore"
+              ],
+              "reference": "Mateus 13:31-32"
+            },
+            {
+              "id": "parabolas-u1-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os conceitos",
+              "pairs": [
+                {
+                  "left": "Grão de mostarda",
+                  "right": "Símbolo do Reino"
+                },
+                {
+                  "left": "Pequeno início",
+                  "right": "Crescimento marcante"
+                },
+                {
+                  "left": "Aves do céu",
+                  "right": "Pousam nos ramos"
+                },
+                {
+                  "left": "Fé pequena",
+                  "right": "Grandes resultados"
+                }
+              ],
+              "reference": "Mateus 13:31-32"
+            },
+            {
+              "id": "parabolas-u1-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Na parábola, o grão de mostarda cresce rapidamente até se tornar uma árvore.",
+              "isTrue": false,
+              "reference": "Mateus 13:31-32",
+              "explanation": "A parábola não menciona rapidez; apenas que de um grão pequeno, cresce até ser uma árvore grande onde os pássaros descansam."
+            },
+            {
+              "id": "parabolas-u1-l2-e7",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Ouça: O Reino é como uma semente pequena.",
+              "options": [
+                "O Reino é como uma semente pequena",
+                "O Reino é como um tesouro",
+                "O Reino é como uma pérola",
+                "O Reino é como um banquete"
+              ],
+              "answer": "O Reino é como uma semente pequena",
+              "reference": "Mateus 13:31"
+            },
+            {
+              "id": "parabolas-u1-l2-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "O Reino dos céus é semelhante a um grão.",
+              "reference": "Mateus 13:31"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u1-l3",
+          "title": "O Fermento na Massa",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "parabolas-u1-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "O que a mulher misturou com a farinha?",
+              "text": "Uma mulher tomou ___ e misturou com três medidas de farinha.",
+              "options": [
+                "fermento",
+                "sal",
+                "óleo",
+                "água"
+              ],
+              "answer": "fermento",
+              "reference": "Mateus 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "\"O Reino é como fermento que uma mulher toma e mistura na ___.\"",
+              "answer": "massa",
+              "options": [
+                "massa",
+                "farinha",
+                "receita",
+                "panela"
+              ],
+              "reference": "Mateus 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "O efeito do fermento na massa",
+              "tokens": [
+                "Uma mulher",
+                "tomou fermento",
+                "até tudo fermentado"
+              ],
+              "distractors": [
+                "inchou",
+                "cresceu",
+                "elevou",
+                "transformou"
+              ],
+              "reference": "Mateus 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem o processo",
+              "text": "Sequência da parábola do fermento.",
+              "tokens": [
+                "Mulher pega fermento",
+                "Mistura com farinha",
+                "Coloca na massa",
+                "Tudo fermenta"
+              ],
+              "reference": "Mateus 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos",
+              "pairs": [
+                {
+                  "left": "Fermento",
+                  "right": "Agente de mudança"
+                },
+                {
+                  "left": "Mulher",
+                  "right": "Mistura tudo"
+                },
+                {
+                  "left": "Massa",
+                  "right": "Mundo transformado"
+                },
+                {
+                  "left": "Fermentação",
+                  "right": "Mudança invisível"
+                }
+              ],
+              "reference": "Mateus 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Na parábola, o fermento transforma toda a massa de dentro para fora.",
+              "isTrue": true,
+              "reference": "Mateus 13:33",
+              "explanation": "O fermento trabalha invisível e gradualmente, transformando toda a massa até que tudo fique fermentado."
+            },
+            {
+              "id": "parabolas-u1-l3-e7",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "O Reino trabalha como fermento na massa.",
+              "options": [
+                "O Reino trabalha como fermento",
+                "O Reino é uma árvore",
+                "O Reino é um tesouro",
+                "O Reino é uma semente"
+              ],
+              "answer": "O Reino trabalha como fermento",
+              "reference": "Mateus 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "O fermento transforma a massa invisível e completamente.",
+              "reference": "Mateus 13:33"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u1-l4",
+          "title": "O Tesouro e a Pérola",
+          "icon": "person.2.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u1-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "O que a pessoa vendeu para comprar o tesouro?",
+              "text": "O homem vendeu tudo que possuía para comprar o ___.",
+              "options": [
+                "campo",
+                "ouro",
+                "reino",
+                "palácio"
+              ],
+              "answer": "campo",
+              "reference": "Mateus 13:44"
+            },
+            {
+              "id": "parabolas-u1-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "\"Na sua ___, vai vender tudo o que possui.\"",
+              "answer": "alegria",
+              "options": [
+                "alegria",
+                "pressa",
+                "ganância",
+                "urgência"
+              ],
+              "reference": "Mateus 13:44"
+            },
+            {
+              "id": "parabolas-u1-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo sobre a pérola",
+              "text": "Ação do negociante ao achar a pérola",
+              "tokens": [
+                "Vai vender",
+                "tudo o que possui",
+                "e a compra"
+              ],
+              "distractors": [
+                "a guarda",
+                "a esconde",
+                "a examina",
+                "a oferece"
+              ],
+              "reference": "Mateus 13:46"
+            },
+            {
+              "id": "parabolas-u1-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a descoberta",
+              "text": "Sequência das duas parábolas do valor.",
+              "tokens": [
+                "Homem acha tesouro",
+                "Esconde novamente",
+                "Vende tudo",
+                "Compra o campo"
+              ],
+              "reference": "Mateus 13:44"
+            },
+            {
+              "id": "parabolas-u1-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os personagens",
+              "pairs": [
+                {
+                  "left": "Tesouro escondido",
+                  "right": "Encontrado por acaso"
+                },
+                {
+                  "left": "Negociante",
+                  "right": "Procura pérolas"
+                },
+                {
+                  "left": "Pérola de grande valor",
+                  "right": "Valia tudo"
+                },
+                {
+                  "left": "Venda de tudo",
+                  "right": "Prioridade verdadeira"
+                }
+              ],
+              "reference": "Mateus 13:44-46"
+            },
+            {
+              "id": "parabolas-u1-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Tanto no tesouro como na pérola, a pessoa abriu mão de tudo para obtê-los.",
+              "isTrue": true,
+              "reference": "Mateus 13:44,46",
+              "explanation": "Ambas as parábolas mostram pessoas dispostas a vender tudo que possuem para adquirir o que tem verdadeiro valor."
+            },
+            {
+              "id": "parabolas-u1-l4-e7",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "O Reino é como um negociante que procura pérolas.",
+              "options": [
+                "Um negociante procura pérolas",
+                "Um homem acha tesouro",
+                "A pérola é rara",
+                "O campo tem valor"
+              ],
+              "answer": "Um negociante procura pérolas",
+              "reference": "Mateus 13:45"
+            },
+            {
+              "id": "parabolas-u1-l4-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Vale a pena vender tudo para o Reino.",
+              "reference": "Mateus 13:44-46"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u1-l5",
+          "title": "Revisão: O Reino",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u1-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "O que representa a semente na parábola do semeador?",
+              "text": "A semente representa a ___ de Deus.",
+              "options": [
+                "Palavra",
+                "vontade",
+                "sabedoria",
+                "força"
+              ],
+              "answer": "Palavra",
+              "reference": "Mateus 13:19"
+            },
+            {
+              "id": "parabolas-u1-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "O Reino é como um grão de ___ muito pequeno.",
+              "answer": "mostarda",
+              "options": [
+                "mostarda",
+                "sal",
+                "trigo",
+                "cevada"
+              ],
+              "reference": "Mateus 13:31"
+            },
+            {
+              "id": "parabolas-u1-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem as parábolas",
+              "text": "Ordem das 5 parábolas do Reino.",
+              "tokens": [
+                "Semeador planta a palavra",
+                "Grão cresce invisível",
+                "Fermento transforma",
+                "Tesouro espera ser descoberto"
+              ],
+              "reference": "Mateus 13:1-46"
+            },
+            {
+              "id": "parabolas-u1-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Associe os ensinamentos",
+              "pairs": [
+                {
+                  "left": "Semeador",
+                  "right": "Acolhe a palavra"
+                },
+                {
+                  "left": "Mostarda",
+                  "right": "Pequeno cresce"
+                },
+                {
+                  "left": "Fermento",
+                  "right": "Transforma tudo"
+                },
+                {
+                  "left": "Tesouro",
+                  "right": "Vale tudo"
+                }
+              ],
+              "reference": "Mateus 13"
+            },
+            {
+              "id": "parabolas-u1-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo de revisão",
+              "text": "Tema central das parábolas do Reino",
+              "tokens": [
+                "O Reino",
+                "dos céus é",
+                "semelhante a"
+              ],
+              "distractors": [
+                "O reino é",
+                "O Reino será",
+                "O Reino chegará",
+                "O Reino parecia"
+              ],
+              "reference": "Mateus 13"
+            },
+            {
+              "id": "parabolas-u1-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Todas as parábolas do Reino falam sobre algo que cresce ou se transforma gradualmente.",
+              "isTrue": true,
+              "reference": "Mateus 13:1-46",
+              "explanation": "Desde o semeador até o tesouro, as parábolas mostram processos de transformação, crescimento ou revelação."
+            },
+            {
+              "id": "parabolas-u1-l5-e7",
+              "kind": "listen",
+              "prompt": "Qual é o tema das parábolas?",
+              "text": "Todas as parábolas ensinam sobre o Reino de Deus.",
+              "options": [
+                "Sobre o Reino de Deus",
+                "Sobre o julgamento",
+                "Sobre a morte",
+                "Sobre o pecado"
+              ],
+              "answer": "Sobre o Reino de Deus",
+              "reference": "Mateus 13"
+            },
+            {
+              "id": "parabolas-u1-l5-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "O Reino de Deus é mais valioso que qualquer coisa.",
+              "reference": "Mateus 13:44-46"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u2",
+      "title": "Unidade 2",
+      "subtitle": "Perdão e Graça",
+      "guide": {
+        "summary": "Jesus revelou a profundidade da graça de Deus através de parábolas sobre o perdão. Ele mostrou que Deus perdoa infinitamente, celebra o retorno de pecadores, e convida o coração endurecido a se render ao seu amor incomensurável.",
+        "keyVerses": [
+          {
+            "reference": "Lucas 15:20-24",
+            "text": "E, levantando-se, foi para seu pai. Quando ainda estava longe, seu pai o viu, compadeceu-se dele, lançou-se-lhe ao pescoço, e o beijou. O filho lhe disse: Pai, pequei contra o céu e diante de ti; já não sou digno de ser chamado teu filho. Mas o pai disse aos seus servos: Trazei depressa o melhor vestido, e vesti-o; ponde-lhe um anel no dedo e sandálias nos pés."
+          },
+          {
+            "reference": "Lucas 15:32",
+            "text": "Mas era necessário que nos alegrássemos e rejubilássemos, porque este teu irmão estava morto e tornou a viver, e estava perdido e foi achado."
+          },
+          {
+            "reference": "Mateus 18:21-22",
+            "text": "Senhor, quantas vezes meu irmão cometerá falta contra mim e o perdoarei? Até sete vezes? Disse-lhe Jesus: Não apenas até sete, mas até setenta vezes sete."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "parabolas-u2-l1",
+          "title": "O Filho Pródigo",
+          "icon": "heart.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u2-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "O que o filho pródigo pediu ao pai?",
+              "text": "\"Pai, dá-me a minha parte da ___\".",
+              "speaker": "Filho pródigo",
+              "options": [
+                "herança",
+                "casa",
+                "propriedade",
+                "riqueza"
+              ],
+              "answer": "herança",
+              "reference": "Lucas 15:12"
+            },
+            {
+              "id": "parabolas-u2-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "O filho pródigo foi viver numa terra ___ e perdeu tudo.",
+              "answer": "distante",
+              "options": [
+                "distante",
+                "afastada",
+                "longínqua",
+                "estranha"
+              ],
+              "reference": "Lucas 15:13"
+            },
+            {
+              "id": "parabolas-u2-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo da decisão",
+              "text": "Quando o filho retorna",
+              "tokens": [
+                "Levantando-se",
+                "foi para",
+                "seu pai"
+              ],
+              "distractors": [
+                "saiu do caminho",
+                "correu embora",
+                "seguiu adiante",
+                "partiu para longe"
+              ],
+              "reference": "Lucas 15:20"
+            },
+            {
+              "id": "parabolas-u2-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a história",
+              "text": "Sequência da parábola do filho pródigo.",
+              "tokens": [
+                "Filho pede herança",
+                "Desperdiça em vícios",
+                "Arrependido retorna",
+                "Pai celebra seu retorno"
+              ],
+              "reference": "Lucas 15:11-32"
+            },
+            {
+              "id": "parabolas-u2-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos",
+              "pairs": [
+                {
+                  "left": "Filho pródigo",
+                  "right": "Volta arrependido"
+                },
+                {
+                  "left": "Pai amoroso",
+                  "right": "Recebe com graça"
+                },
+                {
+                  "left": "Filho mais velho",
+                  "right": "Ressentimento"
+                },
+                {
+                  "left": "Festa",
+                  "right": "Celebração do perdão"
+                }
+              ],
+              "reference": "Lucas 15:11-32"
+            },
+            {
+              "id": "parabolas-u2-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O pai rejeitou o filho pródigo por seus pecados.",
+              "isTrue": false,
+              "reference": "Lucas 15:20-24",
+              "explanation": "O pai correu ao seu encontro, beijou-o e celebrou seu retorno com uma grande festa."
+            },
+            {
+              "id": "parabolas-u2-l1-e7",
+              "kind": "listen",
+              "prompt": "O que o pai fez?",
+              "text": "Ouça: O pai celebrou o retorno do filho com alegria.",
+              "options": [
+                "Celebrou com alegria",
+                "Rejeitou o filho",
+                "Exigiu explicações",
+                "Pediu desculpas"
+              ],
+              "answer": "Celebrou com alegria",
+              "reference": "Lucas 15:23-24"
+            },
+            {
+              "id": "parabolas-u2-l1-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Este meu filho estava morto e tornou a viver.",
+              "reference": "Lucas 15:24"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u2-l2",
+          "title": "A Ovelha Perdida",
+          "icon": "leaf.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u2-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quantas ovelhas o pastor deixou?",
+              "text": "O pastor deixou ___ ovelhas para procurar a perdida.",
+              "options": [
+                "noventa e nove",
+                "cem",
+                "noventa",
+                "oitenta"
+              ],
+              "answer": "noventa e nove",
+              "reference": "Lucas 15:4"
+            },
+            {
+              "id": "parabolas-u2-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "\"Se encontrar a ovelha, alegra-se mais com ela do que com as noventa e ___\".",
+              "answer": "nove",
+              "options": [
+                "nove",
+                "nove que",
+                "que não se perdi",
+                "restantes"
+              ],
+              "reference": "Mateus 18:13"
+            },
+            {
+              "id": "parabolas-u2-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "A alegria do pastor ao encontrar",
+              "tokens": [
+                "Há mais alegria",
+                "no céu",
+                "por um pecador",
+                "que se arrepende"
+              ],
+              "distractors": [
+                "pela ovelha encontrada",
+                "nos campos",
+                "entre os homens",
+                "para sempre"
+              ],
+              "reference": "Lucas 15:7"
+            },
+            {
+              "id": "parabolas-u2-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a busca",
+              "text": "Sequência da ovelha perdida.",
+              "tokens": [
+                "Pastor nota uma falta",
+                "Deixa as noventa e nove",
+                "Procura até achar",
+                "Carrega nos ombros"
+              ],
+              "reference": "Lucas 15:4-6"
+            },
+            {
+              "id": "parabolas-u2-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os significados",
+              "pairs": [
+                {
+                  "left": "Pastor",
+                  "right": "Deus procurando"
+                },
+                {
+                  "left": "Ovelha perdida",
+                  "right": "Pecador afastado"
+                },
+                {
+                  "left": "Busca diligente",
+                  "right": "Graça ativa"
+                },
+                {
+                  "left": "Alegria celeste",
+                  "right": "Arrependimento"
+                }
+              ],
+              "reference": "Lucas 15:3-7"
+            },
+            {
+              "id": "parabolas-u2-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O pastor estava feliz apenas por ter achado a ovelha perdida.",
+              "isTrue": false,
+              "reference": "Lucas 15:6-7",
+              "explanation": "Havia alegria especial no céu pelos anjos quando a ovelha se arrependia, não apenas por encontrá-la."
+            },
+            {
+              "id": "parabolas-u2-l2-e7",
+              "kind": "listen",
+              "prompt": "O que o pastor fez?",
+              "text": "Ouça: O pastor procura a ovelha até encontrá-la.",
+              "options": [
+                "Procura até encontrar",
+                "Espera ela voltar",
+                "Esquece dela",
+                "A vende"
+              ],
+              "answer": "Procura até encontrar",
+              "reference": "Lucas 15:4"
+            },
+            {
+              "id": "parabolas-u2-l2-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Há alegria no céu quando um pecador se arrepende.",
+              "reference": "Lucas 15:7"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u2-l3",
+          "title": "A Moeda Perdida",
+          "icon": "drop.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u2-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quantas moedas a mulher tinha?",
+              "text": "A mulher tinha ___ moedas de prata.",
+              "options": [
+                "dez",
+                "cinco",
+                "sete",
+                "doze"
+              ],
+              "answer": "dez",
+              "reference": "Lucas 15:8"
+            },
+            {
+              "id": "parabolas-u2-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "A mulher ___ a casa para procurar a moeda.",
+              "answer": "varre",
+              "options": [
+                "varre",
+                "procura",
+                "limpa",
+                "ilumina"
+              ],
+              "reference": "Lucas 15:8"
+            },
+            {
+              "id": "parabolas-u2-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "A reação da mulher ao encontrar",
+              "tokens": [
+                "Chamou suas amigas",
+                "e vizinhas",
+                "dizendo: Alegrai-vos comigo"
+              ],
+              "distractors": [
+                "Celebrou em segredo",
+                "Guardou para si",
+                "Chorou de alegria",
+                "Ofereceu aos pobres"
+              ],
+              "reference": "Lucas 15:9"
+            },
+            {
+              "id": "parabolas-u2-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a busca",
+              "text": "Sequência da moeda perdida.",
+              "tokens": [
+                "Mulher perde uma moeda",
+                "Procura diligentemente",
+                "Encontra a moeda",
+                "Celebra com amigos"
+              ],
+              "reference": "Lucas 15:8-9"
+            },
+            {
+              "id": "parabolas-u2-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os significados",
+              "pairs": [
+                {
+                  "left": "Mulher",
+                  "right": "Deus buscando"
+                },
+                {
+                  "left": "Moeda perdida",
+                  "right": "Pessoa afastada"
+                },
+                {
+                  "left": "Busca cuidadosa",
+                  "right": "Determinação"
+                },
+                {
+                  "left": "Alegria compartilhada",
+                  "right": "Céu celebra"
+                }
+              ],
+              "reference": "Lucas 15:8-10"
+            },
+            {
+              "id": "parabolas-u2-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A mulher desistiu de procurar a moeda e comprou outra.",
+              "isTrue": false,
+              "reference": "Lucas 15:8",
+              "explanation": "A mulher procurou diligentemente até encontrar a moeda perdida e celebrou seu achado."
+            },
+            {
+              "id": "parabolas-u2-l3-e7",
+              "kind": "listen",
+              "prompt": "O que a mulher fez?",
+              "text": "Ouça: A mulher procurou a moeda perdida com determinação.",
+              "options": [
+                "Procurou com determinação",
+                "Esqueceu dela",
+                "Deu por perdida",
+                "Pediu ajuda"
+              ],
+              "answer": "Procurou com determinação",
+              "reference": "Lucas 15:8"
+            },
+            {
+              "id": "parabolas-u2-l3-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Encontrei a moeda que eu havia perdido.",
+              "reference": "Lucas 15:9"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u2-l4",
+          "title": "O Servo Que Não Perdoou",
+          "icon": "flame.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u2-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quanto o servo devia ao rei?",
+              "text": "O servo devia ao rei dez mil ___.",
+              "options": [
+                "talentos",
+                "moedas",
+                "denários",
+                "ouro"
+              ],
+              "answer": "talentos",
+              "reference": "Mateus 18:24"
+            },
+            {
+              "id": "parabolas-u2-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "O rei se compadeceu e ___ a dívida do servo.",
+              "answer": "perdoou",
+              "options": [
+                "perdoou",
+                "anulou",
+                "cancelou",
+                "apagou"
+              ],
+              "reference": "Mateus 18:27"
+            },
+            {
+              "id": "parabolas-u2-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo sobre falta de perdão",
+              "text": "Comportamento do servo ingrato",
+              "tokens": [
+                "Achando um servo",
+                "que devia",
+                "cem denários",
+                "tomou-o pela garganta"
+              ],
+              "distractors": [
+                "o beijou",
+                "o perdoou",
+                "o libertou",
+                "o enforcou"
+              ],
+              "reference": "Mateus 18:28"
+            },
+            {
+              "id": "parabolas-u2-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência da parábola do servo.",
+              "tokens": [
+                "Servo deve muito",
+                "Rei perdoa a dívida",
+                "Servo não perdoa pouco",
+                "Rei o castiga"
+              ],
+              "reference": "Mateus 18:23-35"
+            },
+            {
+              "id": "parabolas-u2-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os detalhes",
+              "pairs": [
+                {
+                  "left": "Dez mil talentos",
+                  "right": "Dívida do servo ao rei"
+                },
+                {
+                  "left": "Cem denários",
+                  "right": "Dívida menor"
+                },
+                {
+                  "left": "Rei compassivo",
+                  "right": "Oferece graça"
+                },
+                {
+                  "left": "Servo sem piedade",
+                  "right": "Não perdoa"
+                }
+              ],
+              "reference": "Mateus 18:23-35"
+            },
+            {
+              "id": "parabolas-u2-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O servo perdoou seu companheiro assim como foi perdoado.",
+              "isTrue": false,
+              "reference": "Mateus 18:28-30",
+              "explanation": "O servo, apesar de ser perdoado de uma dívida enorme, não perdoou uma dívida pequena de seu companheiro."
+            },
+            {
+              "id": "parabolas-u2-l4-e7",
+              "kind": "listen",
+              "prompt": "O que o rei fez?",
+              "text": "Ouça: O rei perdoou completamente a dívida.",
+              "options": [
+                "Perdoou completamente",
+                "Reduziu a dívida",
+                "Aumentou a dívida",
+                "Enforcou o servo"
+              ],
+              "answer": "Perdoou completamente",
+              "reference": "Mateus 18:27"
+            },
+            {
+              "id": "parabolas-u2-l4-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Perdoar como fomos perdoados por Deus.",
+              "reference": "Mateus 18:35"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u2-l5",
+          "title": "Revisão: Perdão e Graça",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u2-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o tema comum destas parábolas?",
+              "text": "Todas falam sobre o ___ de Deus.",
+              "options": [
+                "perdão",
+                "poder",
+                "julgamento",
+                "reinado"
+              ],
+              "answer": "perdão",
+              "reference": "Lucas 15"
+            },
+            {
+              "id": "parabolas-u2-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Devemos perdoar setenta vezes ___.",
+              "answer": "sete",
+              "options": [
+                "sete",
+                "setenta",
+                "sete vezes",
+                "sempre"
+              ],
+              "reference": "Mateus 18:22"
+            },
+            {
+              "id": "parabolas-u2-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem as parábolas",
+              "text": "Sequência das 5 parábolas.",
+              "tokens": [
+                "Filho pródigo retorna",
+                "Ovelha perdida é achada",
+                "Moeda perdida é encontrada",
+                "Servo não perdoa"
+              ],
+              "reference": "Lucas 15 e Mateus 18"
+            },
+            {
+              "id": "parabolas-u2-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Associe cada parábola",
+              "pairs": [
+                {
+                  "left": "Filho pródigo",
+                  "right": "Volta ao lar"
+                },
+                {
+                  "left": "Ovelha",
+                  "right": "Pastor procura"
+                },
+                {
+                  "left": "Moeda",
+                  "right": "Mulher busca"
+                },
+                {
+                  "left": "Servo",
+                  "right": "Não perdoa"
+                }
+              ],
+              "reference": "Lucas 15 e Mateus 18"
+            },
+            {
+              "id": "parabolas-u2-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo-chave",
+              "text": "Tema do perdão",
+              "tokens": [
+                "Assim também",
+                "vos fará",
+                "meu Pai celeste"
+              ],
+              "distractors": [
+                "fará a todos",
+                "fará sempre",
+                "fará em segredo",
+                "fará depois"
+              ],
+              "reference": "Mateus 18:35"
+            },
+            {
+              "id": "parabolas-u2-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "As parábolas mostram que Deus sempre procura e recebe quem se arrepende.",
+              "isTrue": true,
+              "reference": "Lucas 15 e Mateus 18:35",
+              "explanation": "Cada parábola demonstra a atividade graciosa de Deus em buscar o perdido e oferecer perdão infinito."
+            },
+            {
+              "id": "parabolas-u2-l5-e7",
+              "kind": "listen",
+              "prompt": "Qual é a mensagem?",
+              "text": "Deus perdoa infinitamente quem se arrepende.",
+              "options": [
+                "Perdoa infinitamente",
+                "Condena sempre",
+                "Julgará severamente",
+                "Exigirá pagamento"
+              ],
+              "answer": "Perdoa infinitamente",
+              "reference": "Mateus 18:21-22"
+            },
+            {
+              "id": "parabolas-u2-l5-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Devemos perdoar sempre assim como Deus nos perdoou.",
+              "reference": "Mateus 18:35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u3",
+      "title": "Unidade 3",
+      "subtitle": "Amor ao Próximo e Mordomia",
+      "guide": {
+        "summary": "Jesus ensinou a importância de amar o próximo e administrar bem os dons recebidos de Deus. Através de parábolas, ele revelou que verdadeira fé se expressa em ações concretas de compaixão, generosidade e responsabilidade diante daquilo que nos é confiado.",
+        "keyVerses": [
+          {
+            "reference": "Lucas 10:36-37",
+            "text": "Qual, pois, destes três te parece ter sido o próximo daquele que caiu nas mãos dos salteadores? E ele disse: O que usou de misericórdia para com ele. Disse-lhe Jesus: Vai, e faz tu o mesmo."
+          },
+          {
+            "reference": "Mateus 25:31-40",
+            "text": "Quando o Filho do Homem vier em sua glória, e todos os anjos com ele, então se assentará no trono da sua glória; e todas as nações serão reunidas diante dele, e separará uns dos outros, como o pastor separa as ovelhas dos bodes."
+          },
+          {
+            "reference": "Mateus 25:14-30",
+            "text": "Porque o reino dos céus é como um homem que, partindo para longe, chamou seus servos e lhes entregou seus bens. E a um deu cinco talentos, a outro dois, e a outro um, a cada um segundo a sua capacidade."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "parabolas-u3-l1",
+          "title": "O Bom Samaritano",
+          "icon": "sun.max.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u3-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quem passou primeiro e não ajudou?",
+              "text": "Um ___ subiu aquele caminho e viu o homem ferido.",
+              "options": [
+                "sacerdote",
+                "levita",
+                "escriba",
+                "fariseu"
+              ],
+              "answer": "sacerdote",
+              "reference": "Lucas 10:31"
+            },
+            {
+              "id": "parabolas-u3-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "O samaritano vendeu sua ___ para pagar pelos cuidados.",
+              "answer": "montaria",
+              "options": [
+                "montaria",
+                "bolsa",
+                "roupa",
+                "propriedade"
+              ],
+              "reference": "Lucas 10:34"
+            },
+            {
+              "id": "parabolas-u3-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Instrução de Jesus ao final",
+              "tokens": [
+                "Vai",
+                "e faz",
+                "tu o mesmo"
+              ],
+              "distractors": [
+                "Vai e espera",
+                "Vai e prega",
+                "Vai e julgue",
+                "Vai e anuncia"
+              ],
+              "reference": "Lucas 10:37"
+            },
+            {
+              "id": "parabolas-u3-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência da parábola.",
+              "tokens": [
+                "Homem é assaltado",
+                "Sacerdote passa",
+                "Levita passa",
+                "Samaritano ajuda"
+              ],
+              "reference": "Lucas 10:30-35"
+            },
+            {
+              "id": "parabolas-u3-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe as ações",
+              "pairs": [
+                {
+                  "left": "Sacerdote",
+                  "right": "Passou de lado"
+                },
+                {
+                  "left": "Levita",
+                  "right": "Não parou"
+                },
+                {
+                  "left": "Samaritano",
+                  "right": "Ajudou o ferido"
+                },
+                {
+                  "left": "Próximo",
+                  "right": "Quem age com amor"
+                }
+              ],
+              "reference": "Lucas 10:31-37"
+            },
+            {
+              "id": "parabolas-u3-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Um samaritano demonstrou mais compaixão que os religiosos judeus.",
+              "isTrue": true,
+              "reference": "Lucas 10:33-35",
+              "explanation": "Enquanto sacerdote e levita ignoraram o ferido, o samaritano cuidou dele com unguentos, vinho e hospedagem."
+            },
+            {
+              "id": "parabolas-u3-l1-e7",
+              "kind": "listen",
+              "prompt": "Quem foi o próximo?",
+              "text": "O samaritano foi quem agiu com misericórdia.",
+              "options": [
+                "O samaritano",
+                "O sacerdote",
+                "O levita",
+                "O robô"
+              ],
+              "answer": "O samaritano",
+              "reference": "Lucas 10:37"
+            },
+            {
+              "id": "parabolas-u3-l1-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "O próximo é quem age com compaixão.",
+              "reference": "Lucas 10:37"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u3-l2",
+          "title": "Os Talentos",
+          "icon": "moon.stars.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u3-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quanto o primeiro servo recebeu?",
+              "text": "Um servo recebeu ___ talentos.",
+              "options": [
+                "cinco",
+                "dois",
+                "um",
+                "dez"
+              ],
+              "answer": "cinco",
+              "reference": "Mateus 25:15"
+            },
+            {
+              "id": "parabolas-u3-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "O servo fiel ganhou mais ___ negociando.",
+              "answer": "talentos",
+              "options": [
+                "talentos",
+                "moedas",
+                "ouro",
+                "dinheiro"
+              ],
+              "reference": "Mateus 25:16-17"
+            },
+            {
+              "id": "parabolas-u3-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Elogio do senhor",
+              "tokens": [
+                "Bem, servo bom",
+                "e fiel",
+                "entra",
+                "no gozo do teu senhor"
+              ],
+              "distractors": [
+                "na casa",
+                "no reino",
+                "na glória",
+                "no paraíso"
+              ],
+              "reference": "Mateus 25:21"
+            },
+            {
+              "id": "parabolas-u3-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem as distribuições",
+              "text": "Sequência de recebimentos e acertos.",
+              "tokens": [
+                "Senhor distribui talentos",
+                "Servos usam seus dons",
+                "Senhor retorna",
+                "Avalia como usaram"
+              ],
+              "reference": "Mateus 25:14-30"
+            },
+            {
+              "id": "parabolas-u3-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os servos",
+              "pairs": [
+                {
+                  "left": "Primeiro servo",
+                  "right": "Cinco talentos"
+                },
+                {
+                  "left": "Segundo servo",
+                  "right": "Dois talentos"
+                },
+                {
+                  "left": "Terceiro servo",
+                  "right": "Um talento (enterrou)"
+                },
+                {
+                  "left": "Mordomia fiel",
+                  "right": "Premiada"
+                }
+              ],
+              "reference": "Mateus 25:14-30"
+            },
+            {
+              "id": "parabolas-u3-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O servo que enterrou seu talento foi elogiado como fiel.",
+              "isTrue": false,
+              "reference": "Mateus 25:24-30",
+              "explanation": "O servo foi chamado de malvado e indolente por não usar seu talento; foi castigado enquanto os fiéis foram recompensados."
+            },
+            {
+              "id": "parabolas-u3-l2-e7",
+              "kind": "listen",
+              "prompt": "O que o servo fiel fez?",
+              "text": "Ouça: Os servos fiéis multiplicaram seus talentos.",
+              "options": [
+                "Multiplicaram talentos",
+                "Esconderam talentos",
+                "Perderam talentos",
+                "Doaram talentos"
+              ],
+              "answer": "Multiplicaram talentos",
+              "reference": "Mateus 25:16-17"
+            },
+            {
+              "id": "parabolas-u3-l2-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Ao pequeno, foi dado muito; do pequeno será tirado.",
+              "reference": "Mateus 25:29"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u3-l3",
+          "title": "O Rico Insensato",
+          "icon": "hands.sparkles.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u3-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Por que a colheita do rico foi abundante?",
+              "text": "A colheita foi tão grande que suas ___ não podiam conter.",
+              "options": [
+                "colheitas",
+                "safras",
+                "depósitos",
+                "armazéns"
+              ],
+              "answer": "colheitas",
+              "reference": "Lucas 12:17"
+            },
+            {
+              "id": "parabolas-u3-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "O rico planejou se ___ e gozar dos bens.",
+              "answer": "aposenta",
+              "options": [
+                "aposenta",
+                "retira",
+                "descansa",
+                "afasta"
+              ],
+              "reference": "Lucas 12:18-19"
+            },
+            {
+              "id": "parabolas-u3-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Reflexão sobre ganância",
+              "tokens": [
+                "A vida",
+                "não consiste",
+                "na abundância",
+                "de bens"
+              ],
+              "distractors": [
+                "no gozo",
+                "no dinheiro",
+                "na riqueza",
+                "no prazer"
+              ],
+              "reference": "Lucas 12:15"
+            },
+            {
+              "id": "parabolas-u3-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a história",
+              "text": "Sequência da parábola do rico.",
+              "tokens": [
+                "Grande colheita é colhida",
+                "Rico planeja construir",
+                "Prepara-se para descansar",
+                "Morre naquela noite"
+              ],
+              "reference": "Lucas 12:16-20"
+            },
+            {
+              "id": "parabolas-u3-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os significados",
+              "pairs": [
+                {
+                  "left": "Colheita abundante",
+                  "right": "Bênção de Deus"
+                },
+                {
+                  "left": "Ganância",
+                  "right": "Vazio espiritual"
+                },
+                {
+                  "left": "Morte repentina",
+                  "right": "Levará nada"
+                },
+                {
+                  "left": "Generosidade",
+                  "right": "Riqueza verdadeira"
+                }
+              ],
+              "reference": "Lucas 12:16-21"
+            },
+            {
+              "id": "parabolas-u3-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O rico insensato compartilhou sua colheita com os necessitados.",
+              "isTrue": false,
+              "reference": "Lucas 12:18-19",
+              "explanation": "Ele pensava apenas em si mesmo: guardar tudo e aproveitar para si, sem pensar em Deus ou no próximo."
+            },
+            {
+              "id": "parabolas-u3-l3-e7",
+              "kind": "listen",
+              "prompt": "Qual foi o plano do rico?",
+              "text": "O rico planeja descansar e gozar de seus bens.",
+              "options": [
+                "Descansar e gozar",
+                "Trabalhar mais",
+                "Ajudar pobres",
+                "Orar a Deus"
+              ],
+              "answer": "Descansar e gozar",
+              "reference": "Lucas 12:18-19"
+            },
+            {
+              "id": "parabolas-u3-l3-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Ninguém pode levar suas riquezas quando morre.",
+              "reference": "Lucas 12:15-21"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u3-l4",
+          "title": "Ovelhas e Bodes (Ovelhas e Bodes)",
+          "icon": "bird.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u3-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quem está à mão direita do Filho do Homem?",
+              "text": "À direita estão as ___.",
+              "options": [
+                "ovelhas",
+                "bodes",
+                "pessoas",
+                "nações"
+              ],
+              "answer": "ovelhas",
+              "reference": "Mateus 25:31-33"
+            },
+            {
+              "id": "parabolas-u3-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "\"Tive fome e me ___, tive sede e me destes de beber.\"",
+              "answer": "destes",
+              "options": [
+                "destes",
+                "alimentastes",
+                "matou",
+                "oferecestes"
+              ],
+              "reference": "Mateus 25:35"
+            },
+            {
+              "id": "parabolas-u3-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Promessa às ovelhas fiéis",
+              "tokens": [
+                "Vinde, benditos",
+                "de meu Pai",
+                "possuí o reino",
+                "desde a origem"
+              ],
+              "distractors": [
+                "dos céus",
+                "do mundo",
+                "eternamente",
+                "da glória"
+              ],
+              "reference": "Mateus 25:34"
+            },
+            {
+              "id": "parabolas-u3-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem o julgamento",
+              "text": "Sequência do julgamento final.",
+              "tokens": [
+                "Filho do Homem se assenta",
+                "Separa ovelhas de bodes",
+                "Julga os corações",
+                "Dá sua sentença"
+              ],
+              "reference": "Mateus 25:31-46"
+            },
+            {
+              "id": "parabolas-u3-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe as ações",
+              "pairs": [
+                {
+                  "left": "Tive fome",
+                  "right": "Me alimentastes"
+                },
+                {
+                  "left": "Fui estrangeiro",
+                  "right": "Me recolhestes"
+                },
+                {
+                  "left": "Fui preso",
+                  "right": "Me visitastes"
+                },
+                {
+                  "left": "Ovelhas",
+                  "right": "Herdam o reino"
+                }
+              ],
+              "reference": "Mateus 25:35-40"
+            },
+            {
+              "id": "parabolas-u3-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Ajudar o próximo é o mesmo que ajudar Jesus.",
+              "isTrue": true,
+              "reference": "Mateus 25:40",
+              "explanation": "Jesus disse: 'Sempre que fizestes isso a um destes meus pequeninos irmãos, a mim o fizestes.'"
+            },
+            {
+              "id": "parabolas-u3-l4-e7",
+              "kind": "listen",
+              "prompt": "Quem será separado?",
+              "text": "O Filho do Homem separará ovelhas de bodes.",
+              "options": [
+                "Ovelhas de bodes",
+                "Bons de maus",
+                "Ricos de pobres",
+                "Justos de injustos"
+              ],
+              "answer": "Ovelhas de bodes",
+              "reference": "Mateus 25:32-33"
+            },
+            {
+              "id": "parabolas-u3-l4-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Ao menor desses meus filhos, a mim o fizestes.",
+              "reference": "Mateus 25:40"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u3-l5",
+          "title": "Revisão: Amor e Mordomia",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u3-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o tema central destas parábolas?",
+              "text": "Todas ensinam sobre ___ ao próximo.",
+              "options": [
+                "amor",
+                "julgamento",
+                "riqueza",
+                "morte"
+              ],
+              "answer": "amor",
+              "reference": "Lucas 10 e Mateus 25"
+            },
+            {
+              "id": "parabolas-u3-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "O bom samaritano agiu com ___.",
+              "answer": "compaixão",
+              "options": [
+                "compaixão",
+                "misericórdia",
+                "amor",
+                "caridade"
+              ],
+              "reference": "Lucas 10:33"
+            },
+            {
+              "id": "parabolas-u3-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem as lições",
+              "text": "Sequência das 5 parábolas.",
+              "tokens": [
+                "Amar o próximo",
+                "Usar bem nossos dons",
+                "Evitar ganância",
+                "Servir ao necessitado"
+              ],
+              "reference": "Lucas 10 e Mateus 25"
+            },
+            {
+              "id": "parabolas-u3-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Associe cada lição",
+              "pairs": [
+                {
+                  "left": "Bom samaritano",
+                  "right": "Compaixão ativa"
+                },
+                {
+                  "left": "Talentos",
+                  "right": "Mordomia fiel"
+                },
+                {
+                  "left": "Rico insensato",
+                  "right": "Ganância vazia"
+                },
+                {
+                  "left": "Ovelhas e bodes",
+                  "right": "Julgamento por atos"
+                }
+              ],
+              "reference": "Lucas 10 e Mateus 25"
+            },
+            {
+              "id": "parabolas-u3-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo-chave",
+              "text": "Essência do ensinamento",
+              "tokens": [
+                "Vai",
+                "e faz bem",
+                "tu o mesmo"
+              ],
+              "distractors": [
+                "Vai e prega",
+                "Vai e julga",
+                "Vai e reza",
+                "Vai e espera"
+              ],
+              "reference": "Lucas 10:37"
+            },
+            {
+              "id": "parabolas-u3-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A fé verdadeira se expressa em ações concretas de amor.",
+              "isTrue": true,
+              "reference": "Lucas 10 e Mateus 25",
+              "explanation": "Todas as parábolas mostram que verdadeira fé resulta em compaixão, generosidade e mordomia responsável."
+            },
+            {
+              "id": "parabolas-u3-l5-e7",
+              "kind": "listen",
+              "prompt": "O que significa ser próximo?",
+              "text": "Ser próximo significa agir com compaixão.",
+              "options": [
+                "Agir com compaixão",
+                "Conhecer a pessoa",
+                "Estar perto",
+                "Ser parente"
+              ],
+              "answer": "Agir com compaixão",
+              "reference": "Lucas 10:36-37"
+            },
+            {
+              "id": "parabolas-u3-l5-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "O amor ao próximo é tão importante quanto amar a Deus.",
+              "reference": "Lucas 10:27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u4",
+      "title": "Unidade 4",
+      "subtitle": "Vigilância e o Fim",
+      "guide": {
+        "summary": "Jesus advertiu seus discípulos a permanecerem vigilantes e preparados para seu retorno. Através de parábolas, ele ensinou que o Reino será completado no fim dos tempos, que há separação final entre justos e injustos, e que a fidelidade diante da incerteza do tempo é virtude suprema.",
+        "keyVerses": [
+          {
+            "reference": "Mateus 25:1-13",
+            "text": "Então o reino dos céus será semelhante a dez virgens que, tomando as suas lâmpadas, saíram ao encontro do noivo. Cinco delas eram insensatas e cinco prudentes."
+          },
+          {
+            "reference": "Mateus 13:24-30",
+            "text": "O reino dos céus é semelhante a um homem que semeou boa semente no seu campo; mas, enquanto os homens dormiam, veio o inimigo, semeou joio entre o trigo, e se foi."
+          },
+          {
+            "reference": "Mateus 13:47-50",
+            "text": "O reino dos céus é também semelhante a uma rede lançada ao mar, que apanha toda sorte de peixes; estando cheia, os pescadores a puxam para a praia e, sentando-se, escolhem os bons para os cestos, mas lançam fora os ruins."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "parabolas-u4-l1",
+          "title": "As Dez Virgens",
+          "icon": "tent.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u4-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quantas virgens eram prudentes?",
+              "text": "Das dez virgens, ___ eram prudentes.",
+              "options": [
+                "cinco",
+                "dez",
+                "três",
+                "sete"
+              ],
+              "answer": "cinco",
+              "reference": "Mateus 25:2"
+            },
+            {
+              "id": "parabolas-u4-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "As virgens prudentes levaram ___ em seus vasos.",
+              "answer": "óleo",
+              "options": [
+                "óleo",
+                "água",
+                "vinho",
+                "perfume"
+              ],
+              "reference": "Mateus 25:4"
+            },
+            {
+              "id": "parabolas-u4-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Advertência às virgens insensatas",
+              "tokens": [
+                "Não vos conheço",
+                "velai pois",
+                "não dormais"
+              ],
+              "distractors": [
+                "descansai",
+                "durmi",
+                "esperai",
+                "repousal"
+              ],
+              "reference": "Mateus 25:12-13"
+            },
+            {
+              "id": "parabolas-u4-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência da parábola das virgens.",
+              "tokens": [
+                "Dez virgens esperam",
+                "Noivo demora",
+                "Despertam à noite",
+                "Prudentes entram, insensatas ficam"
+              ],
+              "reference": "Mateus 25:1-12"
+            },
+            {
+              "id": "parabolas-u4-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe as características",
+              "pairs": [
+                {
+                  "left": "Virgens prudentes",
+                  "right": "Óleo preparado"
+                },
+                {
+                  "left": "Virgens insensatas",
+                  "right": "Sem preparação"
+                },
+                {
+                  "left": "Noivo",
+                  "right": "Jesus"
+                },
+                {
+                  "left": "Bodas",
+                  "right": "Reino consumado"
+                }
+              ],
+              "reference": "Mateus 25:1-13"
+            },
+            {
+              "id": "parabolas-u4-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "As virgens insensatas pediram óleo emprestado das prudentes.",
+              "isTrue": true,
+              "reference": "Mateus 25:8-9",
+              "explanation": "As insensatas pediram óleo, mas as prudentes responderam que não havia o suficiente para todas."
+            },
+            {
+              "id": "parabolas-u4-l1-e7",
+              "kind": "listen",
+              "prompt": "O que o noivo disse?",
+              "text": "Ouça: O noivo disse não conhecer as virgens insensatas.",
+              "options": [
+                "Não as conhecia",
+                "As recebeu",
+                "As perdoou",
+                "As abençoou"
+              ],
+              "answer": "Não as conhecia",
+              "reference": "Mateus 25:12"
+            },
+            {
+              "id": "parabolas-u4-l1-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Vigiai, pois não sabeis em que dia vem o noivo.",
+              "reference": "Mateus 25:13"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u4-l2",
+          "title": "O Grande Banquete",
+          "icon": "scroll.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u4-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quem foi convidado ao banquete primeiro?",
+              "text": "O ___ convidou os convivas para o grande banquete.",
+              "options": [
+                "rei",
+                "servo",
+                "grande homem",
+                "senhor"
+              ],
+              "answer": "rei",
+              "reference": "Mateus 22:2"
+            },
+            {
+              "id": "parabolas-u4-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Os convidados se ___ e foram seus caminhos.",
+              "answer": "desculparam",
+              "options": [
+                "desculparam",
+                "recusaram",
+                "afastaram",
+                "afastaram"
+              ],
+              "reference": "Mateus 22:5"
+            },
+            {
+              "id": "parabolas-u4-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Chamada do rei aos pobres",
+              "tokens": [
+                "Vou chamar",
+                "os pobres",
+                "os aleijados"
+              ],
+              "distractors": [
+                "os ricos",
+                "os saudáveis",
+                "os instruídos",
+                "os nobres"
+              ],
+              "reference": "Mateus 22:8-9"
+            },
+            {
+              "id": "parabolas-u4-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os convites",
+              "text": "Sequência do grande banquete.",
+              "tokens": [
+                "Rei convida notáveis",
+                "Todos se recusam",
+                "Convida pobres",
+                "Casa fica cheia"
+              ],
+              "reference": "Mateus 22:1-14"
+            },
+            {
+              "id": "parabolas-u4-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe as reações",
+              "pairs": [
+                {
+                  "left": "Primeiros convidados",
+                  "right": "Recusam"
+                },
+                {
+                  "left": "Pobres e aleijados",
+                  "right": "Aceitam"
+                },
+                {
+                  "left": "Casa cheia",
+                  "right": "Cumprimento"
+                },
+                {
+                  "left": "Banquete",
+                  "right": "Reino oferecido"
+                }
+              ],
+              "reference": "Mateus 22:1-14"
+            },
+            {
+              "id": "parabolas-u4-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Todas as pessoas convidadas ao banquete foram bem-vindas.",
+              "isTrue": false,
+              "reference": "Mateus 22:11-14",
+              "explanation": "Um homem sem traje de bodas foi expulso, pois não se preparou adequadamente para o reino."
+            },
+            {
+              "id": "parabolas-u4-l2-e7",
+              "kind": "listen",
+              "prompt": "Quem foi convidado depois?",
+              "text": "Os pobres e necessitados foram convidados.",
+              "options": [
+                "Pobres e necessitados",
+                "Ricos e poderosos",
+                "Escribas e fariseus",
+                "Sacerdotes e levitas"
+              ],
+              "answer": "Pobres e necessitados",
+              "reference": "Mateus 22:9"
+            },
+            {
+              "id": "parabolas-u4-l2-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Muitos são chamados, mas poucos escolhidos.",
+              "reference": "Mateus 22:14"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u4-l3",
+          "title": "O Joio e o Trigo",
+          "icon": "key.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u4-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quem semeou o joio?",
+              "text": "O ___ veio e semeou joio entre o trigo.",
+              "options": [
+                "inimigo",
+                "servo",
+                "diabo",
+                "adversário"
+              ],
+              "answer": "inimigo",
+              "reference": "Mateus 13:25"
+            },
+            {
+              "id": "parabolas-u4-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "O ___ explicou aos discípulos o significado da parábola.",
+              "answer": "Jesus",
+              "options": [
+                "Jesus",
+                "Senhor",
+                "Mestre",
+                "Profeta"
+              ],
+              "reference": "Mateus 13:37-43"
+            },
+            {
+              "id": "parabolas-u4-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Instrução sobre colheita",
+              "tokens": [
+                "Deixai crescer",
+                "ambos juntos",
+                "até a colheita"
+              ],
+              "distractors": [
+                "para sempre",
+                "sem separar",
+                "misturados",
+                "até o fim"
+              ],
+              "reference": "Mateus 13:30"
+            },
+            {
+              "id": "parabolas-u4-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os acontecimentos",
+              "text": "Sequência do joio e trigo.",
+              "tokens": [
+                "Semeador planta trigo",
+                "Inimigo semeou joio",
+                "Ambos crescem juntos",
+                "Na colheita, são separados"
+              ],
+              "reference": "Mateus 13:24-30"
+            },
+            {
+              "id": "parabolas-u4-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os significados",
+              "pairs": [
+                {
+                  "left": "Trigo",
+                  "right": "Filhos do Reino"
+                },
+                {
+                  "left": "Joio",
+                  "right": "Filhos do maligno"
+                },
+                {
+                  "left": "Colheita",
+                  "right": "Fim do mundo"
+                },
+                {
+                  "left": "Ceifadores",
+                  "right": "Anjos"
+                }
+              ],
+              "reference": "Mateus 13:37-42"
+            },
+            {
+              "id": "parabolas-u4-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Jesus mandou arrancar o joio imediatamente após semear.",
+              "isTrue": false,
+              "reference": "Mateus 13:28-30",
+              "explanation": "Jesus disse para deixar crescer juntos até a colheita, para não arrancar o trigo por engano."
+            },
+            {
+              "id": "parabolas-u4-l3-e7",
+              "kind": "listen",
+              "prompt": "Quando o joio será separado?",
+              "text": "Ouça: O joio será separado na colheita.",
+              "options": [
+                "Na colheita",
+                "Imediatamente",
+                "Depois de dias",
+                "Nunca"
+              ],
+              "answer": "Na colheita",
+              "reference": "Mateus 13:30"
+            },
+            {
+              "id": "parabolas-u4-l3-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "O trigo reunido em pé, o joio em feixes para queimar.",
+              "reference": "Mateus 13:30"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u4-l4",
+          "title": "A Rede e o Julgamento",
+          "icon": "lightbulb.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u4-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "O que apanha a rede?",
+              "text": "A rede apanha ___ espécie de peixe.",
+              "options": [
+                "toda",
+                "boa",
+                "grande",
+                "pequena"
+              ],
+              "answer": "toda",
+              "reference": "Mateus 13:47"
+            },
+            {
+              "id": "parabolas-u4-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Os pescadores escolhem os ___ para os cestos.",
+              "answer": "bons",
+              "options": [
+                "bons",
+                "peixes",
+                "grandes",
+                "pequenos"
+              ],
+              "reference": "Mateus 13:48"
+            },
+            {
+              "id": "parabolas-u4-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "O que acontece aos ruins",
+              "tokens": [
+                "Os ruins",
+                "lançam fora",
+                "completamente"
+              ],
+              "distractors": [
+                "guardam",
+                "vendem",
+                "comem",
+                "devolvem"
+              ],
+              "reference": "Mateus 13:48"
+            },
+            {
+              "id": "parabolas-u4-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a pesca",
+              "text": "Sequência da rede de pesca.",
+              "tokens": [
+                "Rede lançada ao mar",
+                "Apanha toda espécie",
+                "Rede fica cheia",
+                "Separam bons de ruins"
+              ],
+              "reference": "Mateus 13:47-49"
+            },
+            {
+              "id": "parabolas-u4-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos",
+              "pairs": [
+                {
+                  "left": "Rede",
+                  "right": "O Reino"
+                },
+                {
+                  "left": "Peixes bons",
+                  "right": "Os justos"
+                },
+                {
+                  "left": "Peixes ruins",
+                  "right": "Os injustos"
+                },
+                {
+                  "left": "Fornalha",
+                  "right": "Julgamento final"
+                }
+              ],
+              "reference": "Mateus 13:47-50"
+            },
+            {
+              "id": "parabolas-u4-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A rede só pega peixes bons.",
+              "isTrue": false,
+              "reference": "Mateus 13:47-48",
+              "explanation": "A rede apanha toda sorte de peixe; somente na separação final escolhem os bons e lançam fora os ruins."
+            },
+            {
+              "id": "parabolas-u4-l4-e7",
+              "kind": "listen",
+              "prompt": "O que acontece aos ruins?",
+              "text": "Os peixes ruins são lançados fora.",
+              "options": [
+                "Lançados fora",
+                "Comidos",
+                "Vendidos",
+                "Guardados"
+              ],
+              "answer": "Lançados fora",
+              "reference": "Mateus 13:48"
+            },
+            {
+              "id": "parabolas-u4-l4-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Na fornalha de fogo haverá choro e ranger de dentes.",
+              "reference": "Mateus 13:50"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u4-l5",
+          "title": "Revisão: Vigilância e o Fim",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u4-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o tema central desta unidade?",
+              "text": "As parábolas falam sobre ___ até o retorno de Jesus.",
+              "options": [
+                "vigilância",
+                "espera",
+                "arrependimento",
+                "oração"
+              ],
+              "answer": "vigilância",
+              "reference": "Mateus 25 e 13"
+            },
+            {
+              "id": "parabolas-u4-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "No fim dos tempos, haverá ___ entre justos e injustos.",
+              "answer": "separação",
+              "options": [
+                "separação",
+                "julgamento",
+                "condenação",
+                "recompensa"
+              ],
+              "reference": "Mateus 13:47-49"
+            },
+            {
+              "id": "parabolas-u4-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os temas",
+              "text": "Sequência das 5 parábolas.",
+              "tokens": [
+                "Dez virgens esperam",
+                "Banquete é oferecido",
+                "Joio será separado",
+                "Justos e injustos divididos"
+              ],
+              "reference": "Mateus 25 e 13"
+            },
+            {
+              "id": "parabolas-u4-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Associe cada parábola",
+              "pairs": [
+                {
+                  "left": "Dez virgens",
+                  "right": "Preparação constante"
+                },
+                {
+                  "left": "Grande banquete",
+                  "right": "Convite a todos"
+                },
+                {
+                  "left": "Joio e trigo",
+                  "right": "Paciência divina"
+                },
+                {
+                  "left": "Rede de pesca",
+                  "right": "Julgamento final"
+                }
+              ],
+              "reference": "Mateus 25 e 13"
+            },
+            {
+              "id": "parabolas-u4-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo-chave",
+              "text": "Essência do ensino",
+              "tokens": [
+                "Velai pois",
+                "não sabeis",
+                "em que dia"
+              ],
+              "distractors": [
+                "quando virá",
+                "como virá",
+                "de que jeito",
+                "por que virá"
+              ],
+              "reference": "Mateus 25:13"
+            },
+            {
+              "id": "parabolas-u4-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Jesus ensinou claramente quando seria o fim dos tempos.",
+              "isTrue": false,
+              "reference": "Mateus 25:13",
+              "explanation": "Jesus advertiu que ninguém sabe o dia nem a hora, por isso devemos estar sempre preparados."
+            },
+            {
+              "id": "parabolas-u4-l5-e7",
+              "kind": "listen",
+              "prompt": "Qual é o maior conselho?",
+              "text": "O maior conselho é estar sempre preparado.",
+              "options": [
+                "Estar preparado",
+                "Ter medo",
+                "Fugir",
+                "Contar o tempo"
+              ],
+              "answer": "Estar preparado",
+              "reference": "Mateus 25:13"
+            },
+            {
+              "id": "parabolas-u4-l5-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Bem-aventurado o servo que o Senhor encontrar atento.",
+              "reference": "Mateus 24:46"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

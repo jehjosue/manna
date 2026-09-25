@@ -1,0 +1,2513 @@
+{
+  "id": "herois-da-fe",
+  "title": "Heróis da Fé",
+  "subtitle": "Homens e mulheres do Antigo Testamento",
+  "icon": "shield.fill",
+  "order": 3,
+  "units": [
+    {
+      "id": "herois-u1",
+      "title": "Unidade 1",
+      "subtitle": "Os Patriarcas",
+      "guide": {
+        "summary": "Os patriarcas Noé, Abraão, Isaque, Jacó e José são exemplos de fé perseverante. Apesar de seus medos e fraquezas, confiaram no chamado de Deus. Suas vidas revelam como Deus trabalha através de gerações, cumprindo suas promessas mesmo quando tudo parecia impossível.",
+        "keyVerses": [
+          {
+            "reference": "Hebreus 11:8-9",
+            "text": "Pela fé Abraão, sendo chamado, obedeceu, a ir para um lugar que havia de receber por herança; e partiu sem saber para onde ia. Pela fé, peregrinou na terra da promessa como em terra alheia."
+          },
+          {
+            "reference": "Gênesis 12:1-2",
+            "text": "Ora, o Senhor disse a Abrão: Sai-te da tua terra, da tua parentela e da casa de teu pai, e vai para a terra que te mostrarei; far-te-ei uma grande nação."
+          },
+          {
+            "reference": "Gênesis 37:28",
+            "text": "Então passaram por ali uns midianitas, mercadores; e levaram a José e o venderam por vinte moedas de prata aos ismaelitas."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "herois-u1-l1",
+          "title": "Noé e a Arca",
+          "icon": "star.fill",
+          "exercises": [
+            {
+              "id": "herois-u1-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "O que Deus pediu a Noé que construísse?",
+              "text": "Deus mandou Noé construir uma ___.",
+              "speaker": "Narrador",
+              "options": [
+                "arca",
+                "casa",
+                "templo",
+                "navio"
+              ],
+              "answer": "arca",
+              "reference": "Gênesis 6:14"
+            },
+            {
+              "id": "herois-u1-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Noé precisava salvar dois de cada ___ criatura viva.",
+              "answer": "espécie",
+              "options": [
+                "espécie",
+                "tipo",
+                "gênero",
+                "classe"
+              ],
+              "reference": "Gênesis 6:19"
+            },
+            {
+              "id": "herois-u1-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Noé obedeceu completamente",
+              "tokens": [
+                "Assim fez Noé",
+                "conforme tudo",
+                "que Deus lhe mandou"
+              ],
+              "distractors": [
+                "considerou",
+                "argumentou",
+                "discutiu",
+                "pensou"
+              ],
+              "reference": "Gênesis 6:22"
+            },
+            {
+              "id": "herois-u1-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a história",
+              "text": "Sequência da vida de Noé.",
+              "tokens": [
+                "Deus escolhe Noé",
+                "Noé constrói a arca",
+                "Animais entram",
+                "Dilúvio destrói a terra"
+              ],
+              "reference": "Gênesis 6-8"
+            },
+            {
+              "id": "herois-u1-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos",
+              "pairs": [
+                {
+                  "left": "Noé",
+                  "right": "Justo e íntegro"
+                },
+                {
+                  "left": "Arca",
+                  "right": "Salvação"
+                },
+                {
+                  "left": "Dilúvio",
+                  "right": "Julgamento"
+                },
+                {
+                  "left": "Fé",
+                  "right": "Obediência"
+                }
+              ],
+              "reference": "Gênesis 6-9"
+            },
+            {
+              "id": "herois-u1-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Noé foi o único homem justo em sua geração.",
+              "isTrue": true,
+              "reference": "Gênesis 6:9",
+              "explanation": "Noé era justo, íntegro e perfeito em sua geração, e andava com Deus."
+            },
+            {
+              "id": "herois-u1-l1-e7",
+              "kind": "listen",
+              "prompt": "O que Deus pediu?",
+              "text": "Ouça: Deus pediu a Noé que construísse uma arca.",
+              "options": [
+                "Construir uma arca",
+                "Deixar a terra",
+                "Pregar arrependimento",
+                "Preparar sacrifícios"
+              ],
+              "answer": "Construir uma arca",
+              "reference": "Gênesis 6:14"
+            },
+            {
+              "id": "herois-u1-l1-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Noé cumpriu tudo que Deus lhe mandou.",
+              "reference": "Gênesis 6:22"
+            }
+          ]
+        },
+        {
+          "id": "herois-u1-l2",
+          "title": "Abraão: O Pai da Fé",
+          "icon": "book.fill",
+          "exercises": [
+            {
+              "id": "herois-u1-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Para onde Deus chamou Abraão?",
+              "text": "Deus disse a Abraão: \"Sai-te da tua terra e vai para a terra que te ___\".",
+              "options": [
+                "mostrarei",
+                "prometi",
+                "preparei",
+                "dei"
+              ],
+              "answer": "mostrarei",
+              "reference": "Gênesis 12:1"
+            },
+            {
+              "id": "herois-u1-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Abraão creu no Senhor e o Senhor lhe ___ como justiça.",
+              "answer": "imputou",
+              "options": [
+                "imputou",
+                "contou",
+                "computou",
+                "considerou"
+              ],
+              "reference": "Gênesis 15:6"
+            },
+            {
+              "id": "herois-u1-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "A promessa a Abraão",
+              "tokens": [
+                "Farei",
+                "de ti",
+                "uma grande nação"
+              ],
+              "distractors": [
+                "farás um povo",
+                "serás rei",
+                "terás riquezas",
+                "dominarás"
+              ],
+              "reference": "Gênesis 12:2"
+            },
+            {
+              "id": "herois-u1-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência de Abraão.",
+              "tokens": [
+                "Chamada para Canaã",
+                "Abraão crê em Deus",
+                "Isaque nasce",
+                "Teste do sacrifício"
+              ],
+              "reference": "Gênesis 12-22"
+            },
+            {
+              "id": "herois-u1-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe as características",
+              "pairs": [
+                {
+                  "left": "Abraão",
+                  "right": "Pai da fé"
+                },
+                {
+                  "left": "Promessa",
+                  "right": "Nação grande"
+                },
+                {
+                  "left": "Semente",
+                  "right": "Isaque"
+                },
+                {
+                  "left": "Teste",
+                  "right": "Sacrifício"
+                }
+              ],
+              "reference": "Gênesis 12-22"
+            },
+            {
+              "id": "herois-u1-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Abraão era velho quando Deus lhe prometeu um filho.",
+              "isTrue": true,
+              "reference": "Gênesis 17:1-3",
+              "explanation": "Abraão tinha 75 anos quando Deus lhe chamou, e 99 quando lhe fez a promessa de um filho."
+            },
+            {
+              "id": "herois-u1-l2-e7",
+              "kind": "listen",
+              "prompt": "Para onde Abraão foi?",
+              "text": "Abraão foi para uma terra desconhecida.",
+              "options": [
+                "Terra desconhecida",
+                "Egito",
+                "Mesopotâmia",
+                "Judeia"
+              ],
+              "answer": "Terra desconhecida",
+              "reference": "Hebreus 11:8"
+            },
+            {
+              "id": "herois-u1-l2-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Abraão creu em Deus e foi contado como justo.",
+              "reference": "Gênesis 15:6"
+            }
+          ]
+        },
+        {
+          "id": "herois-u1-l3",
+          "title": "Isaque: O Filho da Promessa",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "herois-u1-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Como nasceu Isaque?",
+              "text": "Isaque nasceu de maneira ___, quando seus pais eram velhos.",
+              "options": [
+                "miraculosa",
+                "natural",
+                "ordinária",
+                "comum"
+              ],
+              "answer": "miraculosa",
+              "reference": "Gênesis 21:1-2"
+            },
+            {
+              "id": "herois-u1-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Abraão estava disposto a ___ seu único filho Isaque.",
+              "answer": "sacrificar",
+              "options": [
+                "sacrificar",
+                "oferecer",
+                "entregar",
+                "dar"
+              ],
+              "reference": "Gênesis 22:10"
+            },
+            {
+              "id": "herois-u1-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Deus salva Isaque",
+              "tokens": [
+                "Não estendas",
+                "tua mão",
+                "sobre o moço"
+              ],
+              "distractors": [
+                "não o matem",
+                "não o sacrifiques",
+                "deixa-o ir",
+                "guarda-o bem"
+              ],
+              "reference": "Gênesis 22:12"
+            },
+            {
+              "id": "herois-u1-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência de Isaque.",
+              "tokens": [
+                "Isaque nasce",
+                "Abraão é testado",
+                "Deus o salva",
+                "Isaque se casa"
+              ],
+              "reference": "Gênesis 21-26"
+            },
+            {
+              "id": "herois-u1-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos",
+              "pairs": [
+                {
+                  "left": "Isaque",
+                  "right": "Filho milagroso"
+                },
+                {
+                  "left": "Abraão",
+                  "right": "Pai fiel"
+                },
+                {
+                  "left": "Teste",
+                  "right": "Sacrifício exigido"
+                },
+                {
+                  "left": "Cordeiro",
+                  "right": "Substituto"
+                }
+              ],
+              "reference": "Gênesis 21-22"
+            },
+            {
+              "id": "herois-u1-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Isaque foi de fato sacrificado no altar.",
+              "isTrue": false,
+              "reference": "Gênesis 22:12-13",
+              "explanation": "Deus parou Abraão e colocou um cordeiro como substituto para ser sacrificado em lugar de Isaque."
+            },
+            {
+              "id": "herois-u1-l3-e7",
+              "kind": "listen",
+              "prompt": "Como Isaque nasceu?",
+              "text": "Isaque nasceu de forma miraculosa.",
+              "options": [
+                "Forma miraculosa",
+                "Naturalmente",
+                "Por adoção",
+                "Por ajuda humana"
+              ],
+              "answer": "Forma miraculosa",
+              "reference": "Gênesis 21:1-2"
+            },
+            {
+              "id": "herois-u1-l3-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Deus providenciará o cordeiro para o sacrifício.",
+              "reference": "Gênesis 22:8"
+            }
+          ]
+        },
+        {
+          "id": "herois-u1-l4",
+          "title": "Jacó: Lutador com Deus",
+          "icon": "person.2.fill",
+          "exercises": [
+            {
+              "id": "herois-u1-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Como Jacó é também conhecido?",
+              "text": "Jacó foi chamado de ___ em hebraico.",
+              "options": [
+                "Israel",
+                "Isaque",
+                "Judá",
+                "Banjamim"
+              ],
+              "answer": "Israel",
+              "reference": "Gênesis 32:28"
+            },
+            {
+              "id": "herois-u1-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Jacó viu uma escada que se estendia até o ___.",
+              "answer": "céu",
+              "options": [
+                "céu",
+                "nuvem",
+                "infinito",
+                "alto"
+              ],
+              "reference": "Gênesis 28:12"
+            },
+            {
+              "id": "herois-u1-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "A luta de Jacó",
+              "tokens": [
+                "Vi a Deus",
+                "face a face",
+                "e foi salva",
+                "a minha vida"
+              ],
+              "distractors": [
+                "e morri",
+                "e fugi",
+                "e sofri",
+                "e pereci"
+              ],
+              "reference": "Gênesis 32:30"
+            },
+            {
+              "id": "herois-u1-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência de Jacó.",
+              "tokens": [
+                "Foge de Esaú",
+                "Vê a escada",
+                "Luta com anjo",
+                "Seu nome muda"
+              ],
+              "reference": "Gênesis 28-32"
+            },
+            {
+              "id": "herois-u1-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os momentos",
+              "pairs": [
+                {
+                  "left": "Escada",
+                  "right": "Conexão céu-terra"
+                },
+                {
+                  "left": "Anjo",
+                  "right": "Luta espiritual"
+                },
+                {
+                  "left": "Nome novo",
+                  "right": "Israel"
+                },
+                {
+                  "left": "Reconciliação",
+                  "right": "Com Esaú"
+                }
+              ],
+              "reference": "Gênesis 28-32"
+            },
+            {
+              "id": "herois-u1-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Jacó e Esaú se reconciliaram depois.",
+              "isTrue": true,
+              "reference": "Gênesis 33",
+              "explanation": "Apesar da separação, Jacó e Esaú se encontraram e abraçaram, mostrando reconciliação."
+            },
+            {
+              "id": "herois-u1-l4-e7",
+              "kind": "listen",
+              "prompt": "O que Jacó viu?",
+              "text": "Jacó viu anjos subindo e descendo.",
+              "options": [
+                "Anjos subindo",
+                "Deus na escada",
+                "Céu aberto",
+                "Uma visão"
+              ],
+              "answer": "Anjos subindo",
+              "reference": "Gênesis 28:12"
+            },
+            {
+              "id": "herois-u1-l4-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "De agora em diante serás chamado Israel.",
+              "reference": "Gênesis 32:28"
+            }
+          ]
+        },
+        {
+          "id": "herois-u1-l5",
+          "title": "José: De Escravo a Governador",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "herois-u1-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Por que José foi vendido?",
+              "text": "Os irmãos de José o venderam porque tinham ___.",
+              "options": [
+                "ciúmes",
+                "raiva",
+                "inveja",
+                "ódio"
+              ],
+              "answer": "ciúmes",
+              "reference": "Gênesis 37:11"
+            },
+            {
+              "id": "herois-u1-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Deus estava com José e o ___ em tudo.",
+              "answer": "abençoava",
+              "options": [
+                "abençoava",
+                "ajudava",
+                "guardava",
+                "protegia"
+              ],
+              "reference": "Gênesis 39:2"
+            },
+            {
+              "id": "herois-u1-l5-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Mensagem de José aos irmãos",
+              "tokens": [
+                "Não vos entristeçais",
+                "porque me vendestes",
+                "pois para conservação",
+                "de vidas"
+              ],
+              "distractors": [
+                "para condenação",
+                "para castigo",
+                "para morte",
+                "para punição"
+              ],
+              "reference": "Gênesis 45:5"
+            },
+            {
+              "id": "herois-u1-l5-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a jornada",
+              "text": "Sequência de José.",
+              "tokens": [
+                "José é vendido",
+                "Trabalha para Potifar",
+                "Interpreta sonhos",
+                "Governa o Egito"
+              ],
+              "reference": "Gênesis 37-41"
+            },
+            {
+              "id": "herois-u1-l5-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os papéis",
+              "pairs": [
+                {
+                  "left": "José",
+                  "right": "Governador"
+                },
+                {
+                  "left": "Irmãos",
+                  "right": "Invejosos"
+                },
+                {
+                  "left": "Faraó",
+                  "right": "Favoreceu"
+                },
+                {
+                  "left": "Deus",
+                  "right": "Providência"
+                }
+              ],
+              "reference": "Gênesis 37-45"
+            },
+            {
+              "id": "herois-u1-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "José perdoou seus irmãos de verdade.",
+              "isTrue": true,
+              "reference": "Gênesis 45:5-8",
+              "explanation": "José reconheceu que Deus havia trabalhado através daquele mal, e perdoou seus irmãos sinceramente."
+            },
+            {
+              "id": "herois-u1-l5-e7",
+              "kind": "listen",
+              "prompt": "O que Deus fez por José?",
+              "text": "Deus abençoou José em tudo que fez.",
+              "options": [
+                "Abençoou tudo",
+                "O protegeu",
+                "O libertou",
+                "O elevou"
+              ],
+              "answer": "Abençoou tudo",
+              "reference": "Gênesis 39:2"
+            },
+            {
+              "id": "herois-u1-l5-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Vós intentastes mal contra mim, mas Deus o fez bem.",
+              "reference": "Gênesis 50:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "herois-u2",
+      "title": "Unidade 2",
+      "subtitle": "Libertação e Liderança",
+      "guide": {
+        "summary": "Moisés e Josué lideraram o povo de Deus em momentos críticos. Moisés foi escolhido para libertar Israel do Egito através de milagres poderosos; Josué conquistou a terra prometida. Ambos confiam em Deus contra probabilidades impossíveis, revelando que nossas limitações não limitam a Deus.",
+        "keyVerses": [
+          {
+            "reference": "Êxodo 3:10",
+            "text": "Vem, pois, e enviar-te-ei a Faraó, para que tires do Egito o meu povo."
+          },
+          {
+            "reference": "Êxodo 14:13-14",
+            "text": "Respondeu-lhes Moisés: Não tenhais medo; aquietai-vos e vede a salvação do Senhor que hoje vos há de fazer; porque aos egípcios que vedes hoje nunca mais os tornareis a ver. O Senhor pelejará por vós, e vós vos aquietareis."
+          },
+          {
+            "reference": "Josué 6:20",
+            "text": "Então o povo gritou, e os sacerdotes tocaram as trombetas; ouvindo o povo o sonido das trombetas, gritou em grande voz; e a muralha caiu, e o povo subiu à cidade."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "herois-u2-l1",
+          "title": "Moisés e a Sarça Ardente",
+          "icon": "leaf.fill",
+          "exercises": [
+            {
+              "id": "herois-u2-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "O que viu Moisés no deserto?",
+              "text": "Moisés viu uma ___ que ardia, mas não se consumia.",
+              "options": [
+                "sarça",
+                "árvore",
+                "floresta",
+                "chama"
+              ],
+              "answer": "sarça",
+              "reference": "Êxodo 3:2"
+            },
+            {
+              "id": "herois-u2-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Deus escolheu Moisés para ___ Israel do Egito.",
+              "answer": "libertar",
+              "options": [
+                "libertar",
+                "salvar",
+                "tirar",
+                "resgatar"
+              ],
+              "reference": "Êxodo 3:10"
+            },
+            {
+              "id": "herois-u2-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Identidade de Deus",
+              "tokens": [
+                "Eu sou",
+                "o Deus de Abraão",
+                "o Deus de Isaque",
+                "o Deus de Jacó"
+              ],
+              "distractors": [
+                "dos patriarcas",
+                "de Israel",
+                "de teus pais",
+                "dos hebreus"
+              ],
+              "reference": "Êxodo 3:6"
+            },
+            {
+              "id": "herois-u2-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência do chamado.",
+              "tokens": [
+                "Moisés vê a sarça",
+                "Deus fala com ele",
+                "Moisés tem medo",
+                "Deus o envia"
+              ],
+              "reference": "Êxodo 3"
+            },
+            {
+              "id": "herois-u2-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos",
+              "pairs": [
+                {
+                  "left": "Sarça",
+                  "right": "Presença divina"
+                },
+                {
+                  "left": "Moisés",
+                  "right": "Escolhido"
+                },
+                {
+                  "left": "Egito",
+                  "right": "Escravidão"
+                },
+                {
+                  "left": "Libertação",
+                  "right": "Milagre"
+                }
+              ],
+              "reference": "Êxodo 3-4"
+            },
+            {
+              "id": "herois-u2-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Moisés aceitou o chamado de Deus imediatamente sem dúvida.",
+              "isTrue": false,
+              "reference": "Êxodo 3:11,4:1",
+              "explanation": "Moisés questionou Deus várias vezes, tendo medo e insegurança, mas Deus o encorajou e o equipou."
+            },
+            {
+              "id": "herois-u2-l1-e7",
+              "kind": "listen",
+              "prompt": "O que Deus mandou?",
+              "text": "Deus mandou Moisés ir ao Faraó.",
+              "options": [
+                "Ir ao Faraó",
+                "Fugir do Egito",
+                "Construir templo",
+                "Preparar sacrifícios"
+              ],
+              "answer": "Ir ao Faraó",
+              "reference": "Êxodo 3:10"
+            },
+            {
+              "id": "herois-u2-l1-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Eu estarei contigo, e este é o sinal.",
+              "reference": "Êxodo 3:12"
+            }
+          ]
+        },
+        {
+          "id": "herois-u2-l2",
+          "title": "As Dez Pragas",
+          "icon": "drop.fill",
+          "exercises": [
+            {
+              "id": "herois-u2-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quantas pragas Deus enviou?",
+              "text": "Deus enviou ___ pragas sobre o Egito.",
+              "options": [
+                "dez",
+                "sete",
+                "nove",
+                "doze"
+              ],
+              "answer": "dez",
+              "reference": "Êxodo 7-12"
+            },
+            {
+              "id": "herois-u2-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "A primeira praga transformou a ___ em sangue.",
+              "answer": "água",
+              "options": [
+                "água",
+                "rio",
+                "Nilo",
+                "corrente"
+              ],
+              "reference": "Êxodo 7:20"
+            },
+            {
+              "id": "herois-u2-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Chamado de Deus ao Faraó",
+              "tokens": [
+                "Deixa ir",
+                "o meu povo",
+                "para que me sirva"
+              ],
+              "distractors": [
+                "no deserto",
+                "a Mim",
+                "em liberdade",
+                "para adorar"
+              ],
+              "reference": "Êxodo 5:1"
+            },
+            {
+              "id": "herois-u2-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque algumas pragas em ordem",
+              "text": "Algumas das dez pragas.",
+              "tokens": [
+                "Água em sangue",
+                "Rãs cobrem terra",
+                "Escuridão total",
+                "Morte dos primogênitos"
+              ],
+              "reference": "Êxodo 7-12"
+            },
+            {
+              "id": "herois-u2-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe as consequências",
+              "pairs": [
+                {
+                  "left": "Sangue",
+                  "right": "Água poluída"
+                },
+                {
+                  "left": "Rãs",
+                  "right": "Invasão"
+                },
+                {
+                  "left": "Escuridão",
+                  "right": "Sem luz"
+                },
+                {
+                  "left": "Morte",
+                  "right": "Primogênitos"
+                }
+              ],
+              "reference": "Êxodo 7-12"
+            },
+            {
+              "id": "herois-u2-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Faraó liberou Israel após a primeira praga.",
+              "isTrue": false,
+              "reference": "Êxodo 7-11",
+              "explanation": "O Faraó endureceu seu coração durante várias pragas até a última, que o forçou a deixar ir."
+            },
+            {
+              "id": "herois-u2-l2-e7",
+              "kind": "listen",
+              "prompt": "Qual foi a última praga?",
+              "text": "A morte dos primogênitos foi a última praga.",
+              "options": [
+                "Morte dos primogênitos",
+                "Escuridão",
+                "Saraiva",
+                "Gafanhotos"
+              ],
+              "answer": "Morte dos primogênitos",
+              "reference": "Êxodo 12:29"
+            },
+            {
+              "id": "herois-u2-l2-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Deixa ir meu povo para que me sirva no deserto.",
+              "reference": "Êxodo 7:16"
+            }
+          ]
+        },
+        {
+          "id": "herois-u2-l3",
+          "title": "O Mar Vermelho Aberto",
+          "icon": "water.waves",
+          "exercises": [
+            {
+              "id": "herois-u2-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Como o povo atravessou o Mar Vermelho?",
+              "text": "Moisés estendeu a mão e o mar se ___ em dois.",
+              "options": [
+                "abriu",
+                "dividiu",
+                "separou",
+                "rasgou"
+              ],
+              "answer": "abriu",
+              "reference": "Êxodo 14:21"
+            },
+            {
+              "id": "herois-u2-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Os israelitas atravessaram em ___ seco.",
+              "answer": "terra",
+              "options": [
+                "terra",
+                "terreno",
+                "solo",
+                "chão"
+              ],
+              "reference": "Êxodo 14:22"
+            },
+            {
+              "id": "herois-u2-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Exortação de Moisés",
+              "tokens": [
+                "Não tenhais medo",
+                "aquietai-vos",
+                "e vede a salvação"
+              ],
+              "distractors": [
+                "correi",
+                "fugi",
+                "esperai",
+                "gritai"
+              ],
+              "reference": "Êxodo 14:13"
+            },
+            {
+              "id": "herois-u2-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência da travessia.",
+              "tokens": [
+                "Egípcios perseguem",
+                "Povo tem medo",
+                "Moisés estende a mão",
+                "Mar se abre"
+              ],
+              "reference": "Êxodo 14"
+            },
+            {
+              "id": "herois-u2-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os eventos",
+              "pairs": [
+                {
+                  "left": "Moisés",
+                  "right": "Estende a mão"
+                },
+                {
+                  "left": "Mar",
+                  "right": "Se abre"
+                },
+                {
+                  "left": "Israelitas",
+                  "right": "Atravessam"
+                },
+                {
+                  "left": "Egípcios",
+                  "right": "Afundam"
+                }
+              ],
+              "reference": "Êxodo 14"
+            },
+            {
+              "id": "herois-u2-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Os egípcios foram salvos junto com Israel.",
+              "isTrue": false,
+              "reference": "Êxodo 14:26-28",
+              "explanation": "O mar se fechou novamente e afundou os egípcios que perseguiam Israel, completando a libertação."
+            },
+            {
+              "id": "herois-u2-l3-e7",
+              "kind": "listen",
+              "prompt": "Como atravessaram?",
+              "text": "Atravessaram o mar em terra seca.",
+              "options": [
+                "Em terra seca",
+                "Nadando",
+                "Com barcos",
+                "Em um navio"
+              ],
+              "answer": "Em terra seca",
+              "reference": "Êxodo 14:22"
+            },
+            {
+              "id": "herois-u2-l3-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "O Senhor pelejará por vós, e vós vos aquietareis.",
+              "reference": "Êxodo 14:14"
+            }
+          ]
+        },
+        {
+          "id": "herois-u2-l4",
+          "title": "Josué e Jericó",
+          "icon": "cross.fill",
+          "exercises": [
+            {
+              "id": "herois-u2-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "O que Josué teve que fazer em Jericó?",
+              "text": "Josué e o povo marcharam ao redor da cidade ___ vezes.",
+              "options": [
+                "sete",
+                "treze",
+                "dez",
+                "quarenta"
+              ],
+              "answer": "sete",
+              "reference": "Josué 6:15"
+            },
+            {
+              "id": "herois-u2-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Os sacerdotes tocavam as ___ enquanto marchavam.",
+              "answer": "trombetas",
+              "options": [
+                "trombetas",
+                "flautas",
+                "harpas",
+                "liras"
+              ],
+              "reference": "Josué 6:4"
+            },
+            {
+              "id": "herois-u2-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "A queda de Jericó",
+              "tokens": [
+                "A muralha caiu",
+                "e o povo subiu",
+                "à cidade"
+              ],
+              "distractors": [
+                "e conquistou",
+                "e invadiu",
+                "e entrou",
+                "e atacou"
+              ],
+              "reference": "Josué 6:20"
+            },
+            {
+              "id": "herois-u2-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem o cerco",
+              "text": "Sequência da tomada de Jericó.",
+              "tokens": [
+                "Josué recebe instruções",
+                "Povo marcha",
+                "Tocam trombetas",
+                "Muralha desaba"
+              ],
+              "reference": "Josué 6"
+            },
+            {
+              "id": "herois-u2-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos",
+              "pairs": [
+                {
+                  "left": "Josué",
+                  "right": "Líder de Israel"
+                },
+                {
+                  "left": "Jericó",
+                  "right": "Fortaleza cercada"
+                },
+                {
+                  "left": "Trombetas",
+                  "right": "Instrumento de Deus"
+                },
+                {
+                  "left": "Muralha",
+                  "right": "Caiu sobrenaturalmente"
+                }
+              ],
+              "reference": "Josué 6"
+            },
+            {
+              "id": "herois-u2-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A muralha de Jericó foi conquistada com armas e força.",
+              "isTrue": false,
+              "reference": "Josué 6:15-20",
+              "explanation": "A muralha caiu pelo som das trombetas e pelo clamor do povo, um milagre sobrenatural."
+            },
+            {
+              "id": "herois-u2-l4-e7",
+              "kind": "listen",
+              "prompt": "Como a muralha caiu?",
+              "text": "A muralha caiu quando gritaram.",
+              "options": [
+                "Quando gritaram",
+                "Com armas",
+                "Com fogo",
+                "Com dinamite"
+              ],
+              "answer": "Quando gritaram",
+              "reference": "Josué 6:20"
+            },
+            {
+              "id": "herois-u2-l4-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Somente Deus pode fazer descer uma muralha.",
+              "reference": "Josué 6:20"
+            }
+          ]
+        },
+        {
+          "id": "herois-u2-l5",
+          "title": "Revisão: Libertação",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "herois-u2-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o tema desta unidade?",
+              "text": "Moisés e Josué mostraram ___ e liderança.",
+              "options": [
+                "fé",
+                "coragem",
+                "sabedoria",
+                "força"
+              ],
+              "answer": "fé",
+              "reference": "Êxodo-Josué"
+            },
+            {
+              "id": "herois-u2-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "O maior inimigo não foi o Faraó, mas a ___ de Israel.",
+              "answer": "escravidão",
+              "options": [
+                "escravidão",
+                "opressão",
+                "servidão",
+                "cativeiro"
+              ],
+              "reference": "Êxodo 1-14"
+            },
+            {
+              "id": "herois-u2-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem as fases",
+              "text": "Sequência de libertação.",
+              "tokens": [
+                "Moisés chamado",
+                "Pragas enviadas",
+                "Mar se abre",
+                "Terra prometida conquistada"
+              ],
+              "reference": "Êxodo-Josué"
+            },
+            {
+              "id": "herois-u2-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Associe cada líder",
+              "pairs": [
+                {
+                  "left": "Moisés",
+                  "right": "Libertação"
+                },
+                {
+                  "left": "Josué",
+                  "right": "Conquista"
+                },
+                {
+                  "left": "Fé",
+                  "right": "Essência"
+                },
+                {
+                  "left": "Deus",
+                  "right": "Poder real"
+                }
+              ],
+              "reference": "Êxodo-Josué"
+            },
+            {
+              "id": "herois-u2-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo-chave",
+              "text": "Tema da libertação",
+              "tokens": [
+                "Deixa",
+                "ir meu povo",
+                "agora"
+              ],
+              "distractors": [
+                "para adorar",
+                "para servir",
+                "no deserto",
+                "a Deus"
+              ],
+              "reference": "Êxodo 5:1"
+            },
+            {
+              "id": "herois-u2-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Moisés e Josué conquistaram com força, não com fé.",
+              "isTrue": false,
+              "reference": "Êxodo-Josué",
+              "explanation": "Ambos venceram pela fé em Deus, reconhecendo que somente Ele podia cumprir as impossibilidades."
+            },
+            {
+              "id": "herois-u2-l5-e7",
+              "kind": "listen",
+              "prompt": "Qual é a lição?",
+              "text": "Deus liberta quem crê nele.",
+              "options": [
+                "Liberta quem crê",
+                "Castiga sempre",
+                "Nega ajuda",
+                "Ignora oração"
+              ],
+              "answer": "Liberta quem crê",
+              "reference": "Êxodo-Josué"
+            },
+            {
+              "id": "herois-u2-l5-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Com Deus, não há muro que não caia.",
+              "reference": "Josué 6:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "herois-u3",
+      "title": "Unidade 3",
+      "subtitle": "Juízes e Reis",
+      "guide": {
+        "summary": "Débora, Gideão, Rute, Samuel e Davi exemplificam liderança diversa no período dos juízes e reis. Cada um respondeu ao chamado de maneiras únicas: como profetisa guerreira, guerreiro relutante, viúva leal, profeta intercessor, e rei segundo o coração. Seus confrontos com inimigos físicos revelam batalhas espirituais maiores.",
+        "keyVerses": [
+          {
+            "reference": "Juízes 4:8-9",
+            "text": "Então Baraque lhe disse: Se tu fores comigo, irei; porém se tu não fores comigo, não irei. E ela disse: Certamente irei contigo; porém será que a glória da jornada em que vais não será tua; porque o Senhor venderá a Sisera a uma mulher."
+          },
+          {
+            "reference": "Juízes 6:14",
+            "text": "Voltando-se o Senhor para Gideão, disse: Vai com essa tua força, e salva a Israel da mão de Midião; porventura não te enviei eu?"
+          },
+          {
+            "reference": "1 Samuel 17:45",
+            "text": "Disse Davi ao filisteu: Tu vens contra mim com espada, lança e azagaia; porém eu vou contra ti em nome do Senhor dos Exércitos, o Deus das tropas de Israel, a quem insultas."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "herois-u3-l1",
+          "title": "Débora: A Profetisa Guerreira",
+          "icon": "mountain.2.fill",
+          "exercises": [
+            {
+              "id": "herois-u3-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual era o papel de Débora?",
+              "text": "Débora era ___ e juíza de Israel.",
+              "options": [
+                "profetisa",
+                "rainha",
+                "sacerdotisa",
+                "general"
+              ],
+              "answer": "profetisa",
+              "reference": "Juízes 4:4"
+            },
+            {
+              "id": "herois-u3-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Débora mandou chamar ___ para liderar o exército.",
+              "answer": "Baraque",
+              "options": [
+                "Baraque",
+                "Sísera",
+                "Gideão",
+                "Abimeleque"
+              ],
+              "reference": "Juízes 4:6"
+            },
+            {
+              "id": "herois-u3-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Palavra de Débora a Baraque",
+              "tokens": [
+                "Vai,",
+                "porque Deus",
+                "entregou a ti",
+                "a vitória"
+              ],
+              "distractors": [
+                "te abençoará",
+                "te guardará",
+                "te protegerá",
+                "te fortalecerá"
+              ],
+              "reference": "Juízes 4:7"
+            },
+            {
+              "id": "herois-u3-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência da libertação por Débora.",
+              "tokens": [
+                "Débora profetiza",
+                "Baraque convoca tropas",
+                "Batalha contra Sísera",
+                "Israel é libertado"
+              ],
+              "reference": "Juízes 4"
+            },
+            {
+              "id": "herois-u3-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os personagens",
+              "pairs": [
+                {
+                  "left": "Débora",
+                  "right": "Profetisa"
+                },
+                {
+                  "left": "Baraque",
+                  "right": "General"
+                },
+                {
+                  "left": "Sísera",
+                  "right": "Inimigo"
+                },
+                {
+                  "left": "Jael",
+                  "right": "Herona"
+                }
+              ],
+              "reference": "Juízes 4-5"
+            },
+            {
+              "id": "herois-u3-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Baraque recusou ir à batalha sem Débora.",
+              "isTrue": true,
+              "reference": "Juízes 4:8",
+              "explanation": "Baraque disse que só iria se Débora fosse com ele; ela concordou mas avisou que a glória não seria sua."
+            },
+            {
+              "id": "herois-u3-l1-e7",
+              "kind": "listen",
+              "prompt": "Quem matou Sísera?",
+              "text": "Jael matou o general Sísera.",
+              "options": [
+                "Jael",
+                "Baraque",
+                "Débora",
+                "Um soldado"
+              ],
+              "answer": "Jael",
+              "reference": "Juízes 4:21"
+            },
+            {
+              "id": "herois-u3-l1-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Mulher sábia constrói sua casa com palavras de profecia.",
+              "reference": "Juízes 4-5"
+            }
+          ]
+        },
+        {
+          "id": "herois-u3-l2",
+          "title": "Gideão: O Guerreiro Relutante",
+          "icon": "house.fill",
+          "exercises": [
+            {
+              "id": "herois-u3-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "O que Gideão estava fazendo quando foi chamado?",
+              "text": "Gideão estava ___ trigo quando o anjo o chamou.",
+              "options": [
+                "batendo",
+                "semeando",
+                "colhendo",
+                "vendendo"
+              ],
+              "answer": "batendo",
+              "reference": "Juízes 6:11"
+            },
+            {
+              "id": "herois-u3-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Deus reduziu o exército de Gideão para apenas ___ homens.",
+              "answer": "trezentos",
+              "options": [
+                "trezentos",
+                "três mil",
+                "trinta",
+                "três"
+              ],
+              "reference": "Juízes 7:6-7"
+            },
+            {
+              "id": "herois-u3-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Chamada a Gideão",
+              "tokens": [
+                "Vai com essa",
+                "tua força",
+                "e salva a Israel"
+              ],
+              "distractors": [
+                "da mão de Midião",
+                "porém eu te envio",
+                "pela minha força",
+                "de seus inimigos"
+              ],
+              "reference": "Juízes 6:14"
+            },
+            {
+              "id": "herois-u3-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a história",
+              "text": "Sequência de Gideão.",
+              "tokens": [
+                "Gideão é chamado",
+                "Exército reduzido",
+                "Distribuem tochas",
+                "Midianitas são derrotados"
+              ],
+              "reference": "Juízes 6-7"
+            },
+            {
+              "id": "herois-u3-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os detalhes",
+              "pairs": [
+                {
+                  "left": "Gideão",
+                  "right": "Guerreiro hesitante"
+                },
+                {
+                  "left": "Trezentos",
+                  "right": "Soldados escolhidos"
+                },
+                {
+                  "left": "Tochas",
+                  "right": "Arma da vitória"
+                },
+                {
+                  "left": "Deus",
+                  "right": "Verdadeira força"
+                }
+              ],
+              "reference": "Juízes 6-7"
+            },
+            {
+              "id": "herois-u3-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Gideão quis aumentar seu exército para maior chance de vitória.",
+              "isTrue": false,
+              "reference": "Juízes 7:2-7",
+              "explanation": "Deus reduziu o exército de 32 mil para 300 para deixar claro que a vitória era apenas dele."
+            },
+            {
+              "id": "herois-u3-l2-e7",
+              "kind": "listen",
+              "prompt": "O que Gideão fez?",
+              "text": "Gideão atacou à noite com tochas e trombetas.",
+              "options": [
+                "À noite com tochas",
+                "De dia com armas",
+                "Sozinho e furtivo",
+                "Com grande exército"
+              ],
+              "answer": "À noite com tochas",
+              "reference": "Juízes 7:20"
+            },
+            {
+              "id": "herois-u3-l2-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Deus é mais forte do que qualquer exército.",
+              "reference": "Juízes 7:2"
+            }
+          ]
+        },
+        {
+          "id": "herois-u3-l3",
+          "title": "Rute: A Viúva Leal",
+          "icon": "gift.fill",
+          "exercises": [
+            {
+              "id": "herois-u3-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "De onde era Rute?",
+              "text": "Rute era de ___.",
+              "options": [
+                "Moabe",
+                "Judá",
+                "Canaã",
+                "Egito"
+              ],
+              "answer": "Moabe",
+              "reference": "Rute 1:4"
+            },
+            {
+              "id": "herois-u3-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Rute seguiu sua sogra ___ para Judá.",
+              "answer": "Noemi",
+              "options": [
+                "Noemi",
+                "Noemã",
+                "Noemi",
+                "Noemis"
+              ],
+              "reference": "Rute 1:16"
+            },
+            {
+              "id": "herois-u3-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Compromisso de Rute",
+              "tokens": [
+                "Para onde ires,",
+                "irei eu;",
+                "e onde quer que mores,",
+                "morarei"
+              ],
+              "distractors": [
+                "teu povo será",
+                "teu Deus será",
+                "sempre contigo",
+                "meu Deus"
+              ],
+              "reference": "Rute 1:16"
+            },
+            {
+              "id": "herois-u3-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a história",
+              "text": "Sequência de Rute.",
+              "tokens": [
+                "Rute fica viúva",
+                "Vai com Noemi",
+                "Trabalha nos campos",
+                "Casa com Boaz"
+              ],
+              "reference": "Rute 1-4"
+            },
+            {
+              "id": "herois-u3-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os personagens",
+              "pairs": [
+                {
+                  "left": "Rute",
+                  "right": "Viúva leal"
+                },
+                {
+                  "left": "Noemi",
+                  "right": "Sogra amada"
+                },
+                {
+                  "left": "Boaz",
+                  "right": "Redentor"
+                },
+                {
+                  "left": "Obed",
+                  "right": "Filho abençoado"
+                }
+              ],
+              "reference": "Rute"
+            },
+            {
+              "id": "herois-u3-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Rute era uma moabita que se casou com um judeu.",
+              "isTrue": true,
+              "reference": "Rute 1:4-5",
+              "explanation": "Rute casou-se com Elimeleque, um israelita, e após sua morte, se casou com Boaz, seu parente."
+            },
+            {
+              "id": "herois-u3-l3-e7",
+              "kind": "listen",
+              "prompt": "O que Rute fez?",
+              "text": "Rute trabalhou nos campos colhendo espiguelhos.",
+              "options": [
+                "Colheu espiguelhos",
+                "Vendeu tecidos",
+                "Fez pão",
+                "Pastoreava ovelhas"
+              ],
+              "answer": "Colheu espiguelhos",
+              "reference": "Rute 2:3"
+            },
+            {
+              "id": "herois-u3-l3-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Teu povo será meu povo e teu Deus meu Deus.",
+              "reference": "Rute 1:16"
+            }
+          ]
+        },
+        {
+          "id": "herois-u3-l4",
+          "title": "Davi: O Rei Segundo o Coração",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "herois-u3-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quantos anos Davi tinha quando ungido?",
+              "text": "Davi era apenas um ___ quando Samuel o ungiu.",
+              "options": [
+                "rapaz",
+                "homem",
+                "velho",
+                "príncipe"
+              ],
+              "answer": "rapaz",
+              "reference": "1 Samuel 16:11-13"
+            },
+            {
+              "id": "herois-u3-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Davi venceu Golias com uma ___ e uma pedra.",
+              "answer": "funda",
+              "options": [
+                "funda",
+                "lança",
+                "espada",
+                "arco"
+              ],
+              "reference": "1 Samuel 17:50"
+            },
+            {
+              "id": "herois-u3-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Confiança de Davi",
+              "tokens": [
+                "Tu vens contra mim",
+                "em nome",
+                "do Senhor",
+                "dos Exércitos"
+              ],
+              "distractors": [
+                "com armas",
+                "em força",
+                "com poder",
+                "em riquezas"
+              ],
+              "reference": "1 Samuel 17:45"
+            },
+            {
+              "id": "herois-u3-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a ascensão",
+              "text": "Sequência de Davi.",
+              "tokens": [
+                "Davi é ungido",
+                "Enfrenta Golias",
+                "Se torna rei",
+                "Estabelece reino"
+              ],
+              "reference": "1 Samuel 16-2 Samuel"
+            },
+            {
+              "id": "herois-u3-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos",
+              "pairs": [
+                {
+                  "left": "Davi",
+                  "right": "Rei escolhido"
+                },
+                {
+                  "left": "Golias",
+                  "right": "Gigante derrotado"
+                },
+                {
+                  "left": "Pedra",
+                  "right": "Arma de fé"
+                },
+                {
+                  "left": "Coração",
+                  "right": "Propósito de Deus"
+                }
+              ],
+              "reference": "1 Samuel"
+            },
+            {
+              "id": "herois-u3-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Davi foi escolhido por ser o filho mais velho.",
+              "isTrue": false,
+              "reference": "1 Samuel 16:6-12",
+              "explanation": "Samuel procurou os filhos mais velhos, mas Deus escolheu Davi, o caçula, pelo seu coração."
+            },
+            {
+              "id": "herois-u3-l4-e7",
+              "kind": "listen",
+              "prompt": "Como Davi venceu?",
+              "text": "Davi venceu com fé em Deus.",
+              "options": [
+                "Com fé em Deus",
+                "Com força",
+                "Com armas",
+                "Com ajuda"
+              ],
+              "answer": "Com fé em Deus",
+              "reference": "1 Samuel 17:45-49"
+            },
+            {
+              "id": "herois-u3-l4-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "O Senhor salvará Israel pelas mãos de Davi.",
+              "reference": "1 Samuel 17:37"
+            }
+          ]
+        },
+        {
+          "id": "herois-u3-l5",
+          "title": "Revisão: Juízes e Reis",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "herois-u3-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o tema desta unidade?",
+              "text": "Liderança diversa voltada para ___.",
+              "options": [
+                "servir a Deus",
+                "ganhar poder",
+                "conquistar terra",
+                "acumular riqueza"
+              ],
+              "answer": "servir a Deus",
+              "reference": "Juízes-1 Samuel"
+            },
+            {
+              "id": "herois-u3-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Cada líder respondeu com ___ pessoal ao chamado.",
+              "answer": "fé",
+              "options": [
+                "fé",
+                "coragem",
+                "força",
+                "sabedoria"
+              ],
+              "reference": "Juízes-1 Samuel"
+            },
+            {
+              "id": "herois-u3-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os líderes",
+              "text": "Sequência de líderes.",
+              "tokens": [
+                "Débora lidera",
+                "Gideão vence",
+                "Rute mostra lealdade",
+                "Davi reina"
+              ],
+              "reference": "Juízes-1 Samuel"
+            },
+            {
+              "id": "herois-u3-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Associe cada líder",
+              "pairs": [
+                {
+                  "left": "Débora",
+                  "right": "Profetisa-guerreira"
+                },
+                {
+                  "left": "Gideão",
+                  "right": "Guerreiro relutante"
+                },
+                {
+                  "left": "Rute",
+                  "right": "Viúva leal"
+                },
+                {
+                  "left": "Davi",
+                  "right": "Rei do coração"
+                }
+              ],
+              "reference": "Juízes-1 Samuel"
+            },
+            {
+              "id": "herois-u3-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo-chave",
+              "text": "Essência da liderança",
+              "tokens": [
+                "Vai",
+                "com essa tua",
+                "força agora"
+              ],
+              "distractors": [
+                "e vence",
+                "e salva",
+                "e reine",
+                "e prospera"
+              ],
+              "reference": "Juízes 6:14"
+            },
+            {
+              "id": "herois-u3-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Todos os líderes confiaram completamente em Deus desde o início.",
+              "isTrue": false,
+              "reference": "Juízes-1 Samuel",
+              "explanation": "Alguns como Gideão tiveram dúvidas e pediriam sinais; mas todos completaram a jornada com fé."
+            },
+            {
+              "id": "herois-u3-l5-e7",
+              "kind": "listen",
+              "prompt": "Qual é a lição comum?",
+              "text": "A lição é confiar em Deus completamente.",
+              "options": [
+                "Confiar em Deus",
+                "Usar força própria",
+                "Seguir instinto",
+                "Acumular poder"
+              ],
+              "answer": "Confiar em Deus",
+              "reference": "Juízes-1 Samuel"
+            },
+            {
+              "id": "herois-u3-l5-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Com Deus, qualquer homem fraco vence gigantes.",
+              "reference": "1 Samuel 17:45-50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "herois-u4",
+      "title": "Unidade 4",
+      "subtitle": "Profetas e Fidelidade",
+      "guide": {
+        "summary": "Elias, Ester, Daniel e Jonas demonstram como Deus honra a fidelidade mesmo nas situações mais extremas. Elias confrontou reis; Ester salvou seu povo do genocídio; Daniel recusou compromiso com idolatria; Jonas pregou arrependimento mesmo contrariando sua vontade. Suas vidas testificam que não há circunstância tão adversa que a fidelidade a Deus não possa transformar.",
+        "keyVerses": [
+          {
+            "reference": "1 Reis 18:21",
+            "text": "Então Elias se aproximou de todo o povo, e disse: Até quando coxeareis de um e outro lado? Se o Senhor é Deus, segui-o; se é Baal, segui-o."
+          },
+          {
+            "reference": "Ester 4:16",
+            "text": "Vai, ajunta todos os judeus que se acharem em Susã, e jejuai por mim; não comais, nem bebais por três dias, noite e dia; eu também com as minhas donzelas jejuarei assim, e desse modo irei ter com o rei, ainda que é contra a lei; se perecer, pereço."
+          },
+          {
+            "reference": "Daniel 3:17-18",
+            "text": "Se é assim, o nosso Deus, a quem servimos, pode nos livrar da fornalha de fogo ardente; e ele nos livrará das tuas mãos, ó rei. Porém, ainda que não nos livrasse, fica-te sabendo, ó rei, que não serviremos aos teus deuses, nem adoraremos a imagem de ouro que levantaste."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "herois-u4-l1",
+          "title": "Elias: O Profeta Corajoso",
+          "icon": "mountain.2.fill",
+          "exercises": [
+            {
+              "id": "herois-u4-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual rei Elias confrontou?",
+              "text": "Elias confrontou o rei ___.",
+              "options": [
+                "Acabe",
+                "Salomão",
+                "Davi",
+                "Josafá"
+              ],
+              "answer": "Acabe",
+              "reference": "1 Reis 17:1"
+            },
+            {
+              "id": "herois-u4-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Elias foi alimentado por ___ no deserto.",
+              "answer": "corvos",
+              "options": [
+                "corvos",
+                "anjos",
+                "povo",
+                "servos"
+              ],
+              "reference": "1 Reis 17:4-5"
+            },
+            {
+              "id": "herois-u4-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Pergunta decisiva de Elias",
+              "tokens": [
+                "Se o Senhor é Deus",
+                "segui-o",
+                "se é Baal",
+                "segui-o"
+              ],
+              "distractors": [
+                "adorai-o",
+                "crede nele",
+                "louvai-o",
+                "temei-o"
+              ],
+              "reference": "1 Reis 18:21"
+            },
+            {
+              "id": "herois-u4-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência de Elias.",
+              "tokens": [
+                "Elias confronta Acabe",
+                "Desafia profetas de Baal",
+                "Fogo desce",
+                "Profetas são destruídos"
+              ],
+              "reference": "1 Reis 17-18"
+            },
+            {
+              "id": "herois-u4-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os momentos",
+              "pairs": [
+                {
+                  "left": "Elias",
+                  "right": "Profeta corajoso"
+                },
+                {
+                  "left": "Acabe",
+                  "right": "Rei idólatra"
+                },
+                {
+                  "left": "Baal",
+                  "right": "Falso deus"
+                },
+                {
+                  "left": "Fogo",
+                  "right": "Poder de Deus"
+                }
+              ],
+              "reference": "1 Reis 18"
+            },
+            {
+              "id": "herois-u4-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Os profetas de Baal conseguiram fazer fogo descer.",
+              "isTrue": false,
+              "reference": "1 Reis 18:24-29",
+              "explanation": "Apenas o Deus de Elias respondeu com fogo, provando que era o único Deus verdadeiro."
+            },
+            {
+              "id": "herois-u4-l1-e7",
+              "kind": "listen",
+              "prompt": "O que Elias pediu?",
+              "text": "Elias pediu que o povo escolhesse entre Deus e Baal.",
+              "options": [
+                "Escolher entre Deus",
+                "Adorar Baal",
+                "Segui Acabe",
+                "Abandonar fé"
+              ],
+              "answer": "Escolher entre Deus",
+              "reference": "1 Reis 18:21"
+            },
+            {
+              "id": "herois-u4-l1-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Não há Deus como o Deus de Israel.",
+              "reference": "1 Reis 18:39"
+            }
+          ]
+        },
+        {
+          "id": "herois-u4-l2",
+          "title": "Ester: A Rainha Libertadora",
+          "icon": "gift.fill",
+          "exercises": [
+            {
+              "id": "herois-u4-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Por que Ester foi escolhida rainha?",
+              "text": "Ester agradou ao rei mais que todas as outras ___.",
+              "options": [
+                "donzelas",
+                "rainhas",
+                "mulheres",
+                "princesas"
+              ],
+              "answer": "donzelas",
+              "reference": "Ester 2:17"
+            },
+            {
+              "id": "herois-u4-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Hamã planejava ___ todos os judeus do reino.",
+              "answer": "destruir",
+              "options": [
+                "destruir",
+                "exilar",
+                "escravizar",
+                "banir"
+              ],
+              "reference": "Ester 3:6"
+            },
+            {
+              "id": "herois-u4-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Decisão de Ester",
+              "tokens": [
+                "Se perecer,",
+                "pereço",
+                "irei ter com o rei"
+              ],
+              "distractors": [
+                "fugir",
+                "esconder-me",
+                "render-me",
+                "desistir"
+              ],
+              "reference": "Ester 4:16"
+            },
+            {
+              "id": "herois-u4-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência de Ester.",
+              "tokens": [
+                "Ester é escolhida",
+                "Hamã planeja morte",
+                "Ester intercede",
+                "Judeus são salvos"
+              ],
+              "reference": "Ester"
+            },
+            {
+              "id": "herois-u4-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os personagens",
+              "pairs": [
+                {
+                  "left": "Ester",
+                  "right": "Rainha corajosa"
+                },
+                {
+                  "left": "Hamã",
+                  "right": "Inimigo dos judeus"
+                },
+                {
+                  "left": "Mardoqueu",
+                  "right": "Primo protetor"
+                },
+                {
+                  "left": "Jejum",
+                  "right": "Arma de oração"
+                }
+              ],
+              "reference": "Ester"
+            },
+            {
+              "id": "herois-u4-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Ester foi aberta sobre sua identidade judaica desde o início.",
+              "isTrue": false,
+              "reference": "Ester 2:10",
+              "explanation": "Mardoqueu pediu a Ester que não revelasse sua nacionalidade e sua família."
+            },
+            {
+              "id": "herois-u4-l2-e7",
+              "kind": "listen",
+              "prompt": "O que Ester fez?",
+              "text": "Ester jejuou e intercedeu pelos judeus.",
+              "options": [
+                "Jejuou e intercedeu",
+                "Fugiu do reino",
+                "Traiu seu povo",
+                "Pediu perdão"
+              ],
+              "answer": "Jejuou e intercedeu",
+              "reference": "Ester 4:16"
+            },
+            {
+              "id": "herois-u4-l2-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Se perecer, pereço pela salvação do meu povo.",
+              "reference": "Ester 4:16"
+            }
+          ]
+        },
+        {
+          "id": "herois-u4-l3",
+          "title": "Daniel na Cova dos Leões",
+          "icon": "cross.fill",
+          "exercises": [
+            {
+              "id": "herois-u4-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Por que Daniel foi condenado?",
+              "text": "Daniel foi condenado porque se ___ a Deus.",
+              "options": [
+                "recusou a renegar",
+                "negou",
+                "esqueceu",
+                "abandonou"
+              ],
+              "answer": "recusou a renegar",
+              "reference": "Daniel 6:10-13"
+            },
+            {
+              "id": "herois-u4-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Daniel foi lançado na cova dos ___.",
+              "answer": "leões",
+              "options": [
+                "leões",
+                "tigres",
+                "ursos",
+                "serpentes"
+              ],
+              "reference": "Daniel 6:16"
+            },
+            {
+              "id": "herois-u4-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Fé dos companheiros",
+              "tokens": [
+                "Porém, ainda que não",
+                "nos livrasse",
+                "não serviremos aos teus deuses"
+              ],
+              "distractors": [
+                "ainda que morra",
+                "nem adoraremos",
+                "nem bendiremos",
+                "nem glorificaremos"
+              ],
+              "reference": "Daniel 3:18"
+            },
+            {
+              "id": "herois-u4-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os eventos",
+              "text": "Sequência de Daniel.",
+              "tokens": [
+                "Daniel recusa idolatria",
+                "É condenado a morte",
+                "Lançado aos leões",
+                "Deus o livra"
+              ],
+              "reference": "Daniel 6"
+            },
+            {
+              "id": "herois-u4-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos",
+              "pairs": [
+                {
+                  "left": "Daniel",
+                  "right": "Fiel mesmo ameaçado"
+                },
+                {
+                  "left": "Leões",
+                  "right": "Teste supremo"
+                },
+                {
+                  "left": "Dário",
+                  "right": "Rei impressionado"
+                },
+                {
+                  "left": "Oração",
+                  "right": "Arma de resistência"
+                }
+              ],
+              "reference": "Daniel 6"
+            },
+            {
+              "id": "herois-u4-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Daniel foi morto pelos leões.",
+              "isTrue": false,
+              "reference": "Daniel 6:22-23",
+              "explanation": "Deus protegeu Daniel e fechou a boca dos leões; ele foi ileso e libertado na manhã seguinte."
+            },
+            {
+              "id": "herois-u4-l3-e7",
+              "kind": "listen",
+              "prompt": "Por que Daniel foi salvo?",
+              "text": "Deus protegeu Daniel por sua fidelidade.",
+              "options": [
+                "Por fidelidade",
+                "Por força",
+                "Por magia",
+                "Por sorte"
+              ],
+              "answer": "Por fidelidade",
+              "reference": "Daniel 6:22"
+            },
+            {
+              "id": "herois-u4-l3-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Ninguém pode nos separar da fidelidade a Deus.",
+              "reference": "Daniel 6:22-23"
+            }
+          ]
+        },
+        {
+          "id": "herois-u4-l4",
+          "title": "Jonas: O Profeta Relutante",
+          "icon": "tent.fill",
+          "exercises": [
+            {
+              "id": "herois-u4-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Para onde Deus mandou Jonas ir?",
+              "text": "Deus mandou Jonas pregar em ___.",
+              "options": [
+                "Nínive",
+                "Tiro",
+                "Sidon",
+                "Babilônia"
+              ],
+              "answer": "Nínive",
+              "reference": "Jonas 1:2"
+            },
+            {
+              "id": "herois-u4-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Jonas fugiu em um ___ no mar.",
+              "answer": "navio",
+              "options": [
+                "navio",
+                "barco",
+                "bote",
+                "nau"
+              ],
+              "reference": "Jonas 1:3"
+            },
+            {
+              "id": "herois-u4-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Ordem divina a Jonas",
+              "tokens": [
+                "Levanta-te,",
+                "vai à Nínive",
+                "e clama contra ela"
+              ],
+              "distractors": [
+                "e predia",
+                "e julgue",
+                "e condene",
+                "e anuncia"
+              ],
+              "reference": "Jonas 1:2"
+            },
+            {
+              "id": "herois-u4-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem a história",
+              "text": "Sequência de Jonas.",
+              "tokens": [
+                "Jonas foge",
+                "Tempestade surge",
+                "Jonas na baleia",
+                "Prega em Nínive"
+              ],
+              "reference": "Jonas 1-3"
+            },
+            {
+              "id": "herois-u4-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos",
+              "pairs": [
+                {
+                  "left": "Jonas",
+                  "right": "Profeta relutante"
+                },
+                {
+                  "left": "Nínive",
+                  "right": "Cidade de inimigos"
+                },
+                {
+                  "left": "Baleia",
+                  "right": "Instrumento de Deus"
+                },
+                {
+                  "left": "Arrependimento",
+                  "right": "Da cidade"
+                }
+              ],
+              "reference": "Jonas"
+            },
+            {
+              "id": "herois-u4-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Jonas aceitou imediatamente o chamado de Deus.",
+              "isTrue": false,
+              "reference": "Jonas 1:3",
+              "explanation": "Jonas fugiu, recusando o chamado, mas Deus o trouxe de volta através da baleia."
+            },
+            {
+              "id": "herois-u4-l4-e7",
+              "kind": "listen",
+              "prompt": "O que aconteceu?",
+              "text": "Nínive se arrependeu quando Jonas pregou.",
+              "options": [
+                "Se arrependeu",
+                "Rejeitou",
+                "O atacou",
+                "O matou"
+              ],
+              "answer": "Se arrependeu",
+              "reference": "Jonas 3:5-10"
+            },
+            {
+              "id": "herois-u4-l4-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "Deus continua chamando mesmo quando fugimos.",
+              "reference": "Jonas 1-3"
+            }
+          ]
+        },
+        {
+          "id": "herois-u4-l5",
+          "title": "Revisão: Profetas e Fidelidade",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "herois-u4-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o tema desta unidade?",
+              "text": "Todos os heróis mostraram ___ em situações extremas.",
+              "options": [
+                "fidelidade",
+                "coragem",
+                "inteligência",
+                "força"
+              ],
+              "answer": "fidelidade",
+              "reference": "1 Reis-Jonas"
+            },
+            {
+              "id": "herois-u4-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Digite a palavra que falta",
+              "text": "Deus sempre ___ quem permanece fiel.",
+              "answer": "honra",
+              "options": [
+                "honra",
+                "recompensa",
+                "exalta",
+                "protege"
+              ],
+              "reference": "1 Reis-Jonas"
+            },
+            {
+              "id": "herois-u4-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem os profetas",
+              "text": "Sequência de profetas.",
+              "tokens": [
+                "Elias confronta Acabe",
+                "Ester salva judeus",
+                "Daniel enfrenta leões",
+                "Jonas prega conversão"
+              ],
+              "reference": "1 Reis-Jonas"
+            },
+            {
+              "id": "herois-u4-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Associe cada herói",
+              "pairs": [
+                {
+                  "left": "Elias",
+                  "right": "Profeta ousado"
+                },
+                {
+                  "left": "Ester",
+                  "right": "Rainha libertadora"
+                },
+                {
+                  "left": "Daniel",
+                  "right": "Fiel inabalável"
+                },
+                {
+                  "left": "Jonas",
+                  "right": "Mensageiro relutante"
+                }
+              ],
+              "reference": "1 Reis-Jonas"
+            },
+            {
+              "id": "herois-u4-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo-chave",
+              "text": "Essência da fidelidade",
+              "tokens": [
+                "Se perecer",
+                "ainda assim",
+                "pereço em fé"
+              ],
+              "distractors": [
+                "se sobreviver",
+                "se conseguir",
+                "se fugir",
+                "se render"
+              ],
+              "reference": "Ester 4:16"
+            },
+            {
+              "id": "herois-u4-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Todos os quatro heróis enfrentaram circunstâncias que pareciam impossíveis.",
+              "isTrue": true,
+              "reference": "1 Reis-Jonas",
+              "explanation": "De confronto de deuses a genocídio planejado a leões a fuga, todos enfrentaram o impossível com fidelidade."
+            },
+            {
+              "id": "herois-u4-l5-e7",
+              "kind": "listen",
+              "prompt": "Qual é a lição comum?",
+              "text": "A lição é não abandonar Deus em nenhuma circunstância.",
+              "options": [
+                "Nunca abandonar Deus",
+                "Abandonar quando difícil",
+                "Confiar nos homens",
+                "Seguir seus instintos"
+              ],
+              "answer": "Nunca abandonar Deus",
+              "reference": "1 Reis-Jonas"
+            },
+            {
+              "id": "herois-u4-l5-e8",
+              "kind": "speak",
+              "prompt": "Leia em voz alta",
+              "text": "A fidelidade a Deus nunca fica sem recompensa.",
+              "reference": "1 Reis-Jonas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -16,6 +16,9 @@ targets:
     platform: iOS
     sources:
       - path: Manna
+    dependencies:
+      - target: MannaWidget
+        embed: true
     entitlements:
       path: Manna/Manna.entitlements
       properties:
@@ -41,8 +44,30 @@ targets:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         CODE_SIGN_STYLE: Automatic
+  MannaWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: MannaWidget
+    entitlements:
+      path: MannaWidget/MannaWidget.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.app.manna.ios
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.manna.ios.widget
+        INFOPLIST_FILE: MannaWidget/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        SKIP_INSTALL: YES
+        CODE_SIGN_STYLE: Automatic
 schemes:
   Manna:
     build:
       targets:
         Manna: all
+        MannaWidget: all
+    run:
+      config: Debug
+      storeKitConfiguration: Manna/Resources/Manna.storekit

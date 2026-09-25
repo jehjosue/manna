@@ -1,37 +1,91 @@
 import SwiftUI
 
-/// Barra do topo mostrando: pão diário, maná e óleo.
-/// Tocar no óleo abre sheet com explicação sobre a lamparina e opção de encher.
+/// Barra do topo mostrando: seletor de curso, pão diário, maná/XP dobro, óleo, e Plus.
 struct TopStatsBar: View {
     @Environment(GameState.self) private var game
+    @Environment(ContentStore.self) private var content
+    @Environment(\.selectAppTab) private var selectTab
+    @State private var showCourseSheet = false
     @State private var showOilSheet = false
 
     var body: some View {
-        HStack(spacing: 16) {
-            // Pão diário
+        HStack(spacing: 12) {
+            // MARK: - Seletor de curso (à esquerda)
+            Button(action: { showCourseSheet = true }) {
+                HStack(spacing: 6) {
+                    if let journey = content.journey, let icon = journey.icon {
+                        Image(systemName: icon)
+                            .font(.system(size: 16, weight: .bold))
+                    }
+                    Text(content.journey?.title ?? "Curso")
+                        .font(Theme.font(12, .heavy))
+                        .lineLimit(1)
+                }
+                .foregroundStyle(Theme.ink)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 6)
+                .background(Theme.cream)
+                .cornerRadius(8)
+            }
+
+            Spacer(minLength: 8)
+
+            // MARK: - Pão diário
             StatBadge(
                 icon: .bread,
                 value: "\(game.bread)",
                 dimmed: !game.studiedToday
             )
 
-            Spacer()
+            Spacer(minLength: 8)
 
-            // Maná
-            StatBadge(icon: .manna, value: "\(game.manna)")
+            // MARK: - Maná ou XP dobro (tocável)
+            Button(action: { selectTab(.shop) }) {
+                if game.isXPBoostActive {
+                    HStack(spacing: 4) {
+                        GameIconView(icon: .xp, size: 20)
+                        VStack(spacing: 0) {
+                            Text("2x")
+                                .font(Theme.font(12, .heavy))
+                            Text("XP")
+                                .font(Theme.font(10, .semibold))
+                        }
+                        .foregroundStyle(Theme.wheat)
+                    }
+                } else {
+                    StatBadge(icon: .manna, value: "\(game.manna)")
+                }
+            }
 
-            Spacer()
+            Spacer(minLength: 8)
 
-            // Óleo (tocável)
+            // MARK: - Óleo (tocável)
             Button(action: { showOilSheet = true }) {
                 StatBadge(icon: .oil, value: "\(game.oil)")
             }
+
+            // MARK: - Badge Plus (se ativo)
+            if game.isPlus {
+                VStack(spacing: 1) {
+                    Text("Plus")
+                        .font(Theme.font(10, .heavy))
+                    Image(systemName: "star.fill")
+                        .font(.system(size: 8, weight: .bold))
+                }
+                .foregroundStyle(Color(hex: 0xFFD700))
+                .padding(4)
+                .background(Color(hex: 0xFFD700).opacity(0.1))
+                .cornerRadius(4)
+            }
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 12)
+        .padding(.horizontal, 12)
+        .padding(.vertical, 10)
         .background(Theme.card)
         .cornerRadius(12)
         .shadow(color: Theme.line.opacity(0.3), radius: 4, y: 2)
+        .sheet(isPresented: $showCourseSheet) {
+            CourseSwitcherSheet()
+        }
         .sheet(isPresented: $showOilSheet) {
             OilExplanationSheet(isPresented: $showOilSheet)
         }

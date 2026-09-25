@@ -99,7 +99,7 @@ struct HomeView: View {
     }
 }
 
-/// Cartão de uma unidade + círculos de lições em zigue-zague.
+/// Cartão de uma unidade + círculos de lições em zigue-zague + botões de guia, baú, lendário.
 struct UnitSection: View {
     let unit: JourneyUnit
     let unitIndex: Int
@@ -107,12 +107,25 @@ struct UnitSection: View {
     let onLessonTap: (Lesson) -> Void
 
     @Environment(GameState.self) private var game
+    @State private var showGuide = false
+    @State private var showTreasure = false
+    @State private var showLegendary = false
 
     /// Deslocamento horizontal de cada lição (padrão senoidal).
     private static let zigzag: [CGFloat] = [0, -60, -90, -60, 0, 60, 90, 60]
 
     private var unitColor: Color { UnitPalette.face(unitIndex) }
     private var unitShadow: Color { UnitPalette.shadow(unitIndex) }
+
+    private var allLessonsCompleted: Bool {
+        unit.lessons.allSatisfy { game.isCompleted($0.id) }
+    }
+
+    private var shouldShowTreasure: Bool {
+        guard unit.lessons.count >= 3 else { return false }
+        let thirdLessonId = unit.lessons[2].id
+        return game.isCompleted(thirdLessonId) && !PathRewardsStore.shared.hasTreasureOpened(unit.id)
+    }
 
     var body: some View {
         VStack(spacing: 22) {
@@ -142,20 +155,104 @@ struct UnitSection: View {
                     }
                     .frame(maxWidth: .infinity)
                     .id(lesson.id)
+
+                    // Baú após 3ª lição
+                    if index == 2 && shouldShowTreasure {
+                        TreasureChestNode(onTap: { showTreasure = true })
+                            .frame(maxWidth: .infinity)
+                    }
+                }
+
+                // Nível lendário (após todas concluídas)
+                if allLessonsCompleted && !PathRewardsStore.shared.isUnitLegendary(unit.id) {
+                    LegendaryLevelNode(unitIndex: unitIndex, onTap: { showLegendary = true })
+                        .frame(maxWidth: .infinity)
+                }
+            }
+        }
+        .sheet(isPresented: $showGuide) {
+            UnitGuideView(unit: unit)
+        }
+        .fullScreenCover(isPresented: $showTreasure) {
+            TreasureRewardView(unitId: unit.id, onDone: { showTreasure = false })
+        }
+        .fullScreenCover(isPresented: $showLegendary) {
+            Group {
+                if let legendaryLesson = createLegendaryLesson() {
+                    if game.hasOil {
+                        LessonView(
+                            lesson: legendaryLesson,
+                            mode: .legendary,
+                            onFinish: { outcome in
+                                let result = game.completeActivity(outcome, kind: .practice, baseXP: 40)
+                                PathRewardsStore.shared.markUnitLegendary(unit.id)
+                                route = .celebration(result)
+                                showLegendary = false
+                            },
+                            onQuit: { showLegendary = false }
+                        )
+                    } else {
+                        OilEmptySheet()
+                            .presentationDetents([.medium])
+                    }
+                } else {
+                    Color.clear
+                        .onAppear { showLegendary = false }
                 }
             }
         }
     }
 
+    private func createLegendaryLesson() -> Lesson? {
+        guard unit.lessons.count >= 3 else { return nil }
+        // Pega até 10 exercícios aleatórios da unidade
+        var allExercises: [Exercise] = []
+        for lesson in unit.lessons {
+            allExercises.append(contentsOf: lesson.exercises)
+        }
+        guard !allExercises.isEmpty else { return nil }
+        let selectedExercises = Array(allExercises.shuffled().prefix(min(10, allExercises.count)))
+        return Lesson(
+            id: "legendary-\(unit.id)",
+            title: "Lendário",
+            icon: "crown.fill",
+            exercises: selectedExercises
+        )
+    }
+
     private var unitCard: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text(unit.title.uppercased())
-                .font(Theme.font(13, .heavy))
-                .foregroundStyle(.white.opacity(0.8))
-            Text(unit.subtitle)
-                .font(Theme.font(22, .heavy))
-                .foregroundStyle(.white)
-                .fixedSize(horizontal: false, vertical: true)
+        VStack(alignment: .leading, spacing: 12) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text(unit.title.uppercased())
+                    .font(Theme.font(13, .heavy))
+                    .foregroundStyle(.white.opacity(0.8))
+                Text(unit.subtitle)
+                    .font(Theme.font(22, .heavy))
+                    .foregroundStyle(.white)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+
+            // Botões de ação
+            HStack(spacing: 8) {
+                // Botão de guia (caderno)
+                Button(action: { showGuide = true }) {
+                    Image(systemName: "book.fill")
+                        .font(.system(size: 14, weight: .bold))
+                        .frame(width: 32, height: 32)
+                        .background(Color.white.opacity(0.2))
+                        .cornerRadius(8)
+                        .foregroundStyle(.white)
+                }
+
+                // Coroa se lendário completo
+                if PathRewardsStore.shared.isUnitLegendary(unit.id) {
+                    Image(systemName: "crown.fill")
+                        .font(.system(size: 16, weight: .bold))
+                        .foregroundStyle(Color(hex: 0xFFD700))
+                }
+
+                Spacer()
+            }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(18)
@@ -168,6 +265,99 @@ struct UnitSection: View {
                 .offset(y: Theme.depth)
         )
         .padding(.bottom, Theme.depth)
+    }
+}
+
+// MARK: - Treasure Chest Node
+
+struct TreasureChestNode: View {
+    let onTap: () -> Void
+
+    var body: some View {
+        Button(action: onTap) {
+            VStack(spacing: 8) {
+                ZStack {
+                    // Baú desenhado
+                    RoundedRectangle(cornerRadius: 8, style: .continuous)
+                        .fill(Color(hex: 0x8B6F47))
+                        .frame(width: 60, height: 45)
+
+                    RoundedRectangle(cornerRadius: 6, style: .continuous)
+                        .fill(Color(hex: 0xA0826D))
+                        .frame(width: 50, height: 12)
+                        .offset(y: -16)
+
+                    Image(systemName: "star.fill")
+                        .font(.system(size: 20, weight: .bold))
+                        .foregroundStyle(Color(hex: 0xFFD700))
+                }
+
+                Text("Baú da Unidade")
+                    .font(Theme.font(12, .heavy))
+                    .foregroundStyle(Theme.ink)
+            }
+            .frame(maxWidth: .infinity)
+            .padding(12)
+            .background(Theme.card)
+            .cornerRadius(12)
+            .overlay(
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .strokeBorder(Theme.line, lineWidth: 1)
+            )
+        }
+    }
+}
+
+// MARK: - Legendary Level Node
+
+struct LegendaryLevelNode: View {
+    let unitIndex: Int
+    let onTap: () -> Void
+
+    var body: some View {
+        Button(action: onTap) {
+            VStack(spacing: 8) {
+                ZStack {
+                    Circle()
+                        .fill(
+                            LinearGradient(
+                                gradient: Gradient(colors: [Color(hex: 0xFFD700), Color(hex: 0xFFA500)]),
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            )
+                        )
+                        .frame(width: 60, height: 60)
+
+                    Image(systemName: "crown.fill")
+                        .font(.system(size: 24, weight: .bold))
+                        .foregroundStyle(Color(hex: 0x8B4513))
+                }
+
+                VStack(spacing: 2) {
+                    Text("Nível Lendário")
+                        .font(Theme.font(12, .heavy))
+                        .foregroundStyle(Theme.ink)
+
+                    Text("Desafio de 10 exercícios")
+                        .font(Theme.font(11, .semibold))
+                        .foregroundStyle(Theme.inkMuted)
+                }
+            }
+            .frame(maxWidth: .infinity)
+            .padding(12)
+            .background(
+                LinearGradient(
+                    gradient: Gradient(colors: [Theme.card, Theme.cream]),
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+            )
+            .cornerRadius(12)
+            .overlay(
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .strokeBorder(Color(hex: 0xFFD700), lineWidth: 2)
+            )
+        }
     }
 }
 

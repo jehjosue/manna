@@ -50,6 +50,16 @@ final class LessonViewModel {
     private(set) var wrongFlash: (left: Int, right: Int)?
     private var mistakesInCurrentMatch = 0
 
+    // Resposta atual — ordenar eventos
+    private(set) var orderEventTokens: [String] = []
+    private(set) var orderSelectedIndices: [Int] = []
+
+    // Resposta atual — digitar resposta
+    var typeAnswerInput: String = ""
+
+    // Resposta atual — fala (nil = ainda não leu; true/false = resultado do reconhecimento)
+    var speechAttempt: Bool?
+
     private static let praise = ["Muito bem!", "Isso mesmo!", "Glória a Deus!", "Excelente!", "Perfeito!"]
 
     init(lesson: Lesson) {
@@ -71,6 +81,10 @@ final class LessonViewModel {
         case .trueFalse: return selectedBool != nil
         case .buildVerse: return !built.isEmpty
         case .matchPairs: return false   // termina sozinho
+        case .listen: return selectedOption != nil
+        case .typeAnswer: return !typeAnswerInput.trimmingCharacters(in: .whitespaces).isEmpty
+        case .orderEvents: return orderSelectedIndices.count == orderEventTokens.count
+        case .speak: return false  // reconhecimento de fala determina automaticamente
         }
     }
 
@@ -142,16 +156,22 @@ final class LessonViewModel {
 
     // MARK: Verificar / continuar
 
-    /// Verifica a resposta atual. Retorna `true` se acertou. Erros gastam óleo.
+    /// Verifica a resposta atual. Retorna `true` se acertou. Erros gastam óleo (se shouldLoseOil).
     @discardableResult
-    func check(game: GameState) -> Bool {
-        guard canCheck, let exercise = current else { return false }
+    func check(game: GameState, shouldLoseOil: Bool = true) -> Bool {
+        guard let exercise = current else { return false }
+        // Para speak, bypass canCheck pois é verificado automaticamente
+        if exercise.kind != .speak && !canCheck { return false }
         let isCorrect: Bool
         switch exercise.kind {
         case .multipleChoice: isCorrect = selectedOption == exercise.answer
         case .trueFalse: isCorrect = selectedBool == exercise.isTrue
         case .buildVerse: isCorrect = built.map { bank[$0] } == (exercise.tokens ?? [])
         case .matchPairs: return false
+        case .listen: isCorrect = selectedOption == exercise.answer
+        case .typeAnswer: isCorrect = compareAnswers(typeAnswerInput, against: exercise.answer, alternatives: exercise.options)
+        case .orderEvents: isCorrect = orderSelectedIndices == (0..<orderEventTokens.count).map { $0 }
+        case .speak: isCorrect = speechAttempt ?? false  // definido pelo SpeakExerciseView
         }
 
         if isCorrect {
@@ -162,7 +182,7 @@ final class LessonViewModel {
             mistakes += 1
             streak = 0
             if !wrongIds.contains(exercise.id) { wrongIds.append(exercise.id) }
-            game.loseOil()
+            if shouldLoseOil { game.loseOil() }
         }
 
         feedback = LessonFeedback(
@@ -204,6 +224,10 @@ final class LessonViewModel {
         matchedRight = []
         wrongFlash = nil
         mistakesInCurrentMatch = 0
+        orderEventTokens = []
+        orderSelectedIndices = []
+        typeAnswerInput = ""
+        speechAttempt = nil
 
         guard let exercise = current else { return }
         switch exercise.kind {
@@ -213,7 +237,9 @@ final class LessonViewModel {
             let pairs = exercise.pairs ?? []
             leftItems = pairs.map(\.left).shuffled()
             rightItems = pairs.map(\.right).shuffled()
-        case .multipleChoice, .trueFalse:
+        case .orderEvents:
+            orderEventTokens = exercise.tokens ?? []
+        case .multipleChoice, .trueFalse, .listen, .typeAnswer, .speak:
             break
         }
     }
@@ -224,6 +250,57 @@ final class LessonViewModel {
         case .buildVerse: (exercise.tokens ?? []).joined(separator: " ")
         case .trueFalse: (exercise.isTrue ?? false) ? "Verdadeiro" : "Falso"
         case .matchPairs: nil
+        case .listen: exercise.answer
+        case .typeAnswer: exercise.answer
+        case .orderEvents: (exercise.tokens ?? []).joined(separator: " → ")
+        case .speak: nil
         }
+    }
+
+    // MARK: Ordenar eventos
+
+    func selectOrderEvent(_ index: Int) {
+        guard feedback == nil, !orderSelectedIndices.contains(index) else { return }
+        orderSelectedIndices.append(index)
+    }
+
+    func deselectOrderEvent(at position: Int) {
+        guard feedback == nil, orderSelectedIndices.indices.contains(position) else { return }
+        orderSelectedIndices.remove(at: position)
+    }
+
+    // MARK: Pular exercício
+
+    func skipCurrent() {
+        guard current != nil, feedback == nil else { return }
+        queue.removeFirst()
+        finishedCount += 1
+        feedback = nil
+        prepareCurrent()
+    }
+
+    // MARK: Comparação normalizada para digitação
+
+    private func compareAnswers(_ input: String, against answer: String?, alternatives: [String]?) -> Bool {
+        let normalized = normalizeAnswer(input)
+        let correctNormalized = normalizeAnswer(answer ?? "")
+        if normalized == correctNormalized { return true }
+
+        if let alternatives = alternatives {
+            for alt in alternatives {
+                if normalized == normalizeAnswer(alt) { return true }
+            }
+        }
+        return false
+    }
+
+    private func normalizeAnswer(_ text: String) -> String {
+        text
+            .folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
+            .replacingOccurrences(of: "[^a-z0-9\\s]", with: "", options: .regularExpression)
+            .trimmingCharacters(in: .whitespaces)
+            .split(separator: " ")
+            .filter { !$0.isEmpty }
+            .joined(separator: " ")
     }
 }

@@ -1,0 +1,2492 @@
+{
+  "id": "salmos",
+  "title": "Salmos e Provérbios",
+  "subtitle": "Sabedoria e oração para o dia a dia",
+  "icon": "music.note",
+  "order": 4,
+  "units": [
+    {
+      "id": "salmos-u1",
+      "title": "Unidade 1",
+      "subtitle": "Confiança em Deus",
+      "guide": {
+        "summary": "Os Salmos de confiança nos ensinam que, não importa as dificuldades, podemos sempre confiar no cuidado de Deus. Ele é nosso protetor, refúgio e força nos momentos de medo.",
+        "keyVerses": [
+          {
+            "reference": "Salmo 23:1",
+            "text": "O Senhor é o meu pastor, nada me faltará."
+          },
+          {
+            "reference": "Salmo 27:1",
+            "text": "O Senhor é a minha luz e a minha salvação; a quem terei medo?"
+          },
+          {
+            "reference": "Salmo 91:1-2",
+            "text": "Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "salmos-u1-l1",
+          "title": "O Pastor Amoroso",
+          "icon": "leaf.fill",
+          "exercises": [
+            {
+              "id": "salmos-u1-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"O Senhor é o meu pastor, nada me _____.\"",
+              "speaker": "Davi",
+              "options": [
+                "faltará",
+                "assustará",
+                "abandonará",
+                "enganará"
+              ],
+              "answer": "faltará",
+              "reference": "Salmo 23:1",
+              "explanation": "Quando Deus é nosso pastor, Ele supre todas as nossas necessidades, seja alimento, proteção ou amor."
+            },
+            {
+              "id": "salmos-u1-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Salmo 23 compara Deus a um pastor que cuida de suas ovelhas.",
+              "isTrue": true,
+              "reference": "Salmo 23",
+              "explanation": "Davi usa a imagem do pastor para expressar o cuidado amoroso e a proteção de Deus."
+            },
+            {
+              "id": "salmos-u1-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "O que significa 'vale da sombra da morte' no Salmo 23?",
+              "text": "\"Ainda que eu ande pelo vale da sombra da morte, não temerei mal algum.\"",
+              "options": [
+                "Os momentos de maior dificuldade e medo",
+                "Um lugar específico na Palestina",
+                "O tempo da morte literal",
+                "Uma visão de Davi sobre o futuro"
+              ],
+              "answer": "Os momentos de maior dificuldade e medo",
+              "reference": "Salmo 23:4",
+              "explanation": "Mesmo na adversidade, confiamos que Deus está conosco e nos protege."
+            },
+            {
+              "id": "salmos-u1-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "A promessa de Deus em Salmo 23:4",
+              "tokens": [
+                "Ainda que eu ande",
+                "pelo vale da sombra da morte",
+                "não temerei mal algum",
+                "porque tu estás comigo"
+              ],
+              "distractors": [
+                "nem haverá",
+                "pois Deus guarda",
+                "a minha vida"
+              ],
+              "reference": "Salmo 23:4"
+            },
+            {
+              "id": "salmos-u1-l1-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "O Senhor é a minha luz e a minha salvação.",
+              "options": [
+                "O Senhor é meu protetor e defensor",
+                "O Senhor é minha luz e salvação",
+                "O Senhor é meu juiz e rey"
+              ],
+              "answer": "O Senhor é minha luz e salvação",
+              "reference": "Salmo 27:1"
+            },
+            {
+              "id": "salmos-u1-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe os pares",
+              "pairs": [
+                {
+                  "left": "Pastor",
+                  "right": "Deus em Sl 23"
+                },
+                {
+                  "left": "Ovelhas",
+                  "right": "Povo de Deus"
+                },
+                {
+                  "left": "Pastos verdes",
+                  "right": "Descanso"
+                },
+                {
+                  "left": "Agua mansa",
+                  "right": "Conforto"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u1-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Preencha a lacuna",
+              "text": "\"O Senhor é a minha luz e a minha _____.\"",
+              "answer": "salvação",
+              "reference": "Salmo 27:1",
+              "options": ["salvação", "salvaçao"]
+            },
+            {
+              "id": "salmos-u1-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Confiar em Deus significa que nunca enfrentaremos dificuldades.",
+              "isTrue": false,
+              "reference": "Salmo 23:4",
+              "explanation": "Confiar em Deus não significa estar livre de dificuldades, mas saber que Ele está conosco em toda situação."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l2",
+          "title": "Refúgio e Fortaleza",
+          "icon": "shield.fill",
+          "exercises": [
+            {
+              "id": "salmos-u1-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"Deus é nosso refúgio e fortaleza, auxílio bem provado nas _____.\"",
+              "speaker": "Salmista",
+              "options": [
+                "angústias",
+                "guerras",
+                "perseguições",
+                "tentações"
+              ],
+              "answer": "angústias",
+              "reference": "Salmo 46:1",
+              "explanation": "Em toda a angústia, podemos correr para o refúgio de Deus e encontrar segurança."
+            },
+            {
+              "id": "salmos-u1-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Salmo 46 fala sobre Deus derrotando inimigos em uma batalha literal.",
+              "isTrue": false,
+              "reference": "Salmo 46:6-11",
+              "explanation": "O Salmo 46 é principalmente sobre Deus como refúgio espiritual, com linguagem poética sobre confiança divina."
+            },
+            {
+              "id": "salmos-u1-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "Qual é a mensagem central do Salmo 46:10?",
+              "text": "\"Aquietai-vos, e conhecei que eu sou Deus.\"",
+              "options": [
+                "Descansa em Deus e reconheça Sua autoridade",
+                "Fica em silêncio durante a oração",
+                "Aceita as ordens de Deus sem questionar",
+                "Espera pacientemente por uma resposta"
+              ],
+              "answer": "Descansa em Deus e reconheça Sua autoridade",
+              "reference": "Salmo 46:10",
+              "explanation": "A quietude nos permite confiar e aceitar o domínio supremo de Deus em nossas vidas."
+            },
+            {
+              "id": "salmos-u1-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Promessa de Deus em Salmo 46:1",
+              "tokens": [
+                "Deus é nosso refúgio",
+                "e fortaleza",
+                "auxílio bem provado",
+                "nas angústias"
+              ],
+              "distractors": [
+                "e escudo",
+                "muito presente",
+                "em tribulações"
+              ],
+              "reference": "Salmo 46:1"
+            },
+            {
+              "id": "salmos-u1-l2-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Deus é nosso refúgio e fortaleza.",
+              "options": [
+                "Confiem em Deus, o Senhor",
+                "Deus é refúgio e fortaleza",
+                "Aleluia, louvor a Deus"
+              ],
+              "answer": "Deus é refúgio e fortaleza",
+              "reference": "Salmo 46:1"
+            },
+            {
+              "id": "salmos-u1-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe os conceitos",
+              "pairs": [
+                {
+                  "left": "Refúgio",
+                  "right": "Proteção e segurança"
+                },
+                {
+                  "left": "Fortaleza",
+                  "right": "Força e poder"
+                },
+                {
+                  "left": "Auxílio",
+                  "right": "Ajuda e socorro"
+                },
+                {
+                  "left": "Angústia",
+                  "right": "Aflição e sofrimento"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u1-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"Aquietai-vos, e conhecei que eu sou _____.\"",
+              "answer": "Deus",
+              "reference": "Salmo 46:10",
+              "options": ["Deus", "Deos"]
+            },
+            {
+              "id": "salmos-u1-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Deus promete que se confiarmos Nele, não enfrentaremos guerras nem conflitos.",
+              "isTrue": false,
+              "reference": "Salmo 46",
+              "explanation": "Deus promete estar conosco e ser nossa força nas dificuldades, não necessariamente livrar-nos delas."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l3",
+          "title": "Proteção Sob Suas Asas",
+          "icon": "bird.fill",
+          "exercises": [
+            {
+              "id": "salmos-u1-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"Aquele que habita no esconderijo do Altíssimo, à sombra do ___ descansará.\"",
+              "speaker": "Salmista",
+              "options": [
+                "Onipotente",
+                "Senhor",
+                "Eterno",
+                "Criador"
+              ],
+              "answer": "Onipotente",
+              "reference": "Salmo 91:1",
+              "explanation": "Quem confia no Deus todo-poderoso encontra refúgio e descanso em Sua proteção."
+            },
+            {
+              "id": "salmos-u1-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Salmo 91 promete que Deus nos protege de todo perigo com Suas asas.",
+              "isTrue": true,
+              "reference": "Salmo 91:4",
+              "explanation": "A imagem das asas de Deus simboliza proteção, segurança e cuidado maternal."
+            },
+            {
+              "id": "salmos-u1-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "O que o Salmo 91:2 diz sobre Deus?",
+              "text": "\"Eu direi ao Senhor: Tu és o meu refúgio e o meu _____.\"",
+              "options": [
+                "castelo",
+                "julgador",
+                "libertador",
+                "rei"
+              ],
+              "answer": "castelo",
+              "reference": "Salmo 91:2",
+              "explanation": "Deus é nosso refúgio (proteção) e nosso castelo (fortaleza), um lugar seguro."
+            },
+            {
+              "id": "salmos-u1-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Proteção de Deus em Salmo 91:4",
+              "tokens": [
+                "Ele te cobrirá",
+                "com suas penas",
+                "e sob suas asas",
+                "estarás seguro"
+              ],
+              "distractors": [
+                "te resgatará",
+                "te defenderá",
+                "com seu poder"
+              ],
+              "reference": "Salmo 91:4"
+            },
+            {
+              "id": "salmos-u1-l3-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Ele te cobrirá com suas penas.",
+              "options": [
+                "Deus te dará asas para voar",
+                "Deus te cobrirá com suas penas",
+                "Sua proteção chegará logo"
+              ],
+              "answer": "Deus te cobrirá com suas penas",
+              "reference": "Salmo 91:4"
+            },
+            {
+              "id": "salmos-u1-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe a linguagem simbólica",
+              "pairs": [
+                {
+                  "left": "Asas",
+                  "right": "Proteção e abraço"
+                },
+                {
+                  "left": "Esconderijo",
+                  "right": "Refúgio seguro"
+                },
+                {
+                  "left": "Sombra",
+                  "right": "Cobertura divina"
+                },
+                {
+                  "left": "Ninho",
+                  "right": "Lugar de repouso"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u1-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Preencha a lacuna",
+              "text": "\"Tu és o meu refúgio e o meu _____.\"",
+              "answer": "castelo",
+              "reference": "Salmo 91:2",
+              "options": ["castelo", "abrigo"]
+            },
+            {
+              "id": "salmos-u1-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A proteção de Deus no Salmo 91 inclui afastamento de todo tipo de mal.",
+              "isTrue": false,
+              "reference": "Salmo 91",
+              "explanation": "O Salmo 91 fala sobre proteção espiritual e confiança, não isenção de todos os sofrimentos físicos."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l4",
+          "title": "Segurança no Altíssimo",
+          "icon": "mountain.2.fill",
+          "exercises": [
+            {
+              "id": "salmos-u1-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Quem é o 'Altíssimo' no Salmo 91?",
+              "text": "\"Aquele que habita no esconderijo do Altíssimo...\"",
+              "options": [
+                "Deus Pai",
+                "O montanha mais alta",
+                "O céu",
+                "O Senhor Jesus"
+              ],
+              "answer": "Deus Pai",
+              "reference": "Salmo 91:1",
+              "explanation": "Altíssimo é um dos nomes de Deus que expressa Sua supremacia e poder absoluto."
+            },
+            {
+              "id": "salmos-u1-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Salmo 91 foi escrito por Davi quando ele estava fugindo de Saul.",
+              "isTrue": false,
+              "reference": "Salmo 91",
+              "explanation": "O autor do Salmo 91 não é identificado; é um salmo de confiança para qualquer pessoa em tempos difíceis."
+            },
+            {
+              "id": "salmos-u1-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "Qual é a condição para receber proteção no Salmo 91:9-10?",
+              "text": "\"Porque disseste: O Senhor é o meu refúgio e...\"",
+              "options": [
+                "Fazer do Senhor nosso refúgio",
+                "Seguir todas as leis de Moisés",
+                "Fazer sacrifícios no templo",
+                "Nunca pecar"
+              ],
+              "answer": "Fazer do Senhor nosso refúgio",
+              "reference": "Salmo 91:9",
+              "explanation": "A proteção de Deus está disponível para quem o escolhe como refúgio e confia Nele."
+            },
+            {
+              "id": "salmos-u1-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Confiança em Deus no Salmo 91:2",
+              "tokens": [
+                "Eu direi ao Senhor",
+                "Tu és o meu refúgio",
+                "e o meu castelo",
+                "meu Deus"
+              ],
+              "distractors": [
+                "meu Deus protetor",
+                "meu escudo",
+                "meu libertador"
+              ],
+              "reference": "Salmo 91:2"
+            },
+            {
+              "id": "salmos-u1-l4-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Porque disseste O Senhor é meu refúgio.",
+              "options": [
+                "O Senhor é meu rei",
+                "O Senhor é meu refúgio",
+                "Confiai no Senhor"
+              ],
+              "answer": "O Senhor é meu refúgio",
+              "reference": "Salmo 91:9"
+            },
+            {
+              "id": "salmos-u1-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe os nomes de Deus",
+              "pairs": [
+                {
+                  "left": "Altíssimo",
+                  "right": "Supremacia divina"
+                },
+                {
+                  "left": "Onipotente",
+                  "right": "Todo-poderoso"
+                },
+                {
+                  "left": "Refúgio",
+                  "right": "Lugar de proteção"
+                },
+                {
+                  "left": "Castelo",
+                  "right": "Fortaleza forte"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u1-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete o texto",
+              "text": "\"Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente _____.\"",
+              "answer": "descansará",
+              "reference": "Salmo 91:1",
+              "options": ["descansará", "encontrará paz"]
+            },
+            {
+              "id": "salmos-u1-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A proteção de Deus no Salmo 91 é apenas para os justos perfeitos.",
+              "isTrue": false,
+              "reference": "Salmo 91",
+              "explanation": "A proteção de Deus está disponível para todos aqueles que buscam refúgio Nele com fé genuína."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l5",
+          "title": "Revisão - Confiança em Deus",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "salmos-u1-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual salmo começa com 'O Senhor é o meu pastor'?",
+              "text": "Este é um dos salmos mais famosos sobre confiança em Deus.",
+              "options": [
+                "Salmo 23",
+                "Salmo 46",
+                "Salmo 91",
+                "Salmo 27"
+              ],
+              "answer": "Salmo 23",
+              "reference": "Salmo 23:1",
+              "explanation": "O Salmo 23 é o salmo de confiança mais conhecido, usando a imagem do pastor e ovelhas."
+            },
+            {
+              "id": "salmos-u1-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Todos os salmos de confiança foram escritos por Davi.",
+              "isTrue": false,
+              "reference": "Livro de Salmos",
+              "explanation": "Muitos salmos foram escritos por Davi, mas outros foram escritos por diferentes autores ao longo da história de Israel."
+            },
+            {
+              "id": "salmos-u1-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "Qual imagem Deus usa para proteger em Salmo 91?",
+              "text": "Esta comparação expressa cuidado maternal e proteção total.",
+              "options": [
+                "As asas de uma mãe",
+                "Um escudo na guerra",
+                "Uma muralha de pedra",
+                "Um rei guerreiro"
+              ],
+              "answer": "As asas de uma mãe",
+              "reference": "Salmo 91:4",
+              "explanation": "A imagem das asas simboliza a proteção abraçadora de Deus por Seus filhos."
+            },
+            {
+              "id": "salmos-u1-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo de revisão",
+              "text": "Versículo de confiança resumido",
+              "tokens": [
+                "O Senhor é",
+                "meu refúgio",
+                "minha fortaleza",
+                "e meu Deus"
+              ],
+              "distractors": [
+                "meu juiz",
+                "meu rei",
+                "minha glória"
+              ],
+              "reference": "Salmo 46:1, 91:2"
+            },
+            {
+              "id": "salmos-u1-l5-e5",
+              "kind": "listen",
+              "prompt": "Qual versículo você ouviu?",
+              "text": "O Senhor é o meu pastor, nada me faltará.",
+              "options": [
+                "Deus é meu protetor",
+                "O Senhor é meu pastor",
+                "Confia no Senhor sempre"
+              ],
+              "answer": "O Senhor é meu pastor",
+              "reference": "Salmo 23:1"
+            },
+            {
+              "id": "salmos-u1-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe o salmo ao tema",
+              "pairs": [
+                {
+                  "left": "Salmo 23",
+                  "right": "Pastor amoroso"
+                },
+                {
+                  "left": "Salmo 46",
+                  "right": "Refúgio seguro"
+                },
+                {
+                  "left": "Salmo 27",
+                  "right": "Luz e salvação"
+                },
+                {
+                  "left": "Salmo 91",
+                  "right": "Proteção divina"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u1-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Coloque em ordem as características da confiança",
+              "text": "Progresso da confiança em Deus",
+              "tokens": [
+                "Reconhecer Deus como refúgio",
+                "Fazer Dele nosso castelo",
+                "Descansar em Sua proteção",
+                "Louvar Sua fidelidade"
+              ]
+            },
+            {
+              "id": "salmos-u1-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A confiança em Deus nos protege de todo e qualquer sofrimento.",
+              "isTrue": false,
+              "reference": "Salmo 23:4, 46:5",
+              "explanation": "Confiar em Deus nos dá segurança espiritual e Sua presença, não eliminação de todas as dificuldades."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2",
+      "title": "Unidade 2",
+      "subtitle": "Louvor e Gratidão",
+      "guide": {
+        "summary": "Os Salmos de louvor e gratidão nos ensinam a celebrar as obras maravilhosas de Deus e a ser grato pelas bênçãos recebidas. A gratidão nos transforma e nos aproxima de Deus.",
+        "keyVerses": [
+          {
+            "reference": "Salmo 100:1",
+            "text": "Fazei barulho alegre a Deus, toda a terra!"
+          },
+          {
+            "reference": "Salmo 103:1-2",
+            "text": "Bendiz, ó minha alma, ao Senhor; e tudo que há em mim bendiga o seu santo nome."
+          },
+          {
+            "reference": "Salmo 150:4",
+            "text": "Louvai-o com o tamborim e a dança."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "salmos-u2-l1",
+          "title": "A Alegria do Louvor",
+          "icon": "music.note",
+          "exercises": [
+            {
+              "id": "salmos-u2-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"Fazei barulho alegre a Deus, toda a _____.\"",
+              "speaker": "Salmista",
+              "options": [
+                "terra",
+                "nação",
+                "multidão",
+                "comunidade"
+              ],
+              "answer": "terra",
+              "reference": "Salmo 100:1",
+              "explanation": "O louvor a Deus deve ser universal e envolver toda a criação em alegria genuína."
+            },
+            {
+              "id": "salmos-u2-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Salmo 100 é um salmo de louvor que exorta as pessoas a louvar Deus com alegria.",
+              "isTrue": true,
+              "reference": "Salmo 100",
+              "explanation": "O Salmo 100 é inteiramente dedicado ao louvor alegre e à gratidão a Deus."
+            },
+            {
+              "id": "salmos-u2-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "Por que devemos louvar a Deus segundo Salmo 100:5?",
+              "text": "\"Porque o Senhor é bom; a sua misericórdia é _____.\"",
+              "options": [
+                "eterna",
+                "incomparável",
+                "suficiente",
+                "poderosa"
+              ],
+              "answer": "eterna",
+              "reference": "Salmo 100:5",
+              "explanation": "A bondade e misericórdia de Deus são constantes e nunca acabam, razão suficiente para louvor."
+            },
+            {
+              "id": "salmos-u2-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Convite ao louvor em Salmo 100:1-2",
+              "tokens": [
+                "Fazei barulho alegre",
+                "a Deus, toda a terra",
+                "Servi ao Senhor",
+                "com alegria"
+              ],
+              "distractors": [
+                "com temor",
+                "com reverência",
+                "com devoção"
+              ],
+              "reference": "Salmo 100:1-2"
+            },
+            {
+              "id": "salmos-u2-l1-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Servi ao Senhor com alegria!",
+              "options": [
+                "Louva o Senhor com alegria",
+                "Servi ao Senhor com alegria",
+                "Canta ao Senhor com força"
+              ],
+              "answer": "Servi ao Senhor com alegria",
+              "reference": "Salmo 100:2"
+            },
+            {
+              "id": "salmos-u2-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe os elementos do louvor",
+              "pairs": [
+                {
+                  "left": "Barulho alegre",
+                  "right": "Expressão de alegria"
+                },
+                {
+                  "left": "Servir ao Senhor",
+                  "right": "Adoração ativa"
+                },
+                {
+                  "left": "Conhecer Sua bondade",
+                  "right": "Razão do louvor"
+                },
+                {
+                  "left": "Entrar em Seu pátio",
+                  "right": "Aproximação a Deus"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u2-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"Porque o Senhor é bom; a sua misericórdia é _____.\"",
+              "answer": "eterna",
+              "reference": "Salmo 100:5",
+              "options": ["eterna", "etema"]
+            },
+            {
+              "id": "salmos-u2-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Louvar a Deus com alegria é apenas para os momentos bons da vida.",
+              "isTrue": false,
+              "reference": "Salmo 100",
+              "explanation": "O Salmo 100 nos chama a louvar com alegria independentemente das circunstâncias, como ato de fé."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l2",
+          "title": "Gratidão Sem Fim",
+          "icon": "heart.fill",
+          "exercises": [
+            {
+              "id": "salmos-u2-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"Bendiz, ó minha alma, ao Senhor; e tudo que há em mim bendiga o seu _____.\"",
+              "speaker": "Davi",
+              "options": [
+                "santo nome",
+                "trono",
+                "reino",
+                "poder"
+              ],
+              "answer": "santo nome",
+              "reference": "Salmo 103:1",
+              "explanation": "Toda a nossa essência deve louvar e bendizer o nome sagrado de Deus."
+            },
+            {
+              "id": "salmos-u2-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Salmo 103 é um salmo individual que expressa gratidão pelas obras de Deus.",
+              "isTrue": true,
+              "reference": "Salmo 103",
+              "explanation": "O Salmo 103 é um poderoso salmo de ação de graças pelas bênçãos e misericórdias de Deus."
+            },
+            {
+              "id": "salmos-u2-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "De acordo com Salmo 103, qual é a atitude de Deus conosco?",
+              "text": "\"O Senhor é misericordioso e _____, lento em iras e cheio de benevolência.\"",
+              "options": [
+                "clemente",
+                "justo",
+                "sábio",
+                "forte"
+              ],
+              "answer": "clemente",
+              "reference": "Salmo 103:8",
+              "explanation": "A clemência de Deus significa Sua disposição em perdoar e tratar-nos com compaixão."
+            },
+            {
+              "id": "salmos-u2-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Chamado à gratidão em Salmo 103:1-2",
+              "tokens": [
+                "Bendiz, ó minha alma",
+                "ao Senhor",
+                "e não te esqueças",
+                "de nenhum de seus benefícios"
+              ],
+              "distractors": [
+                "sua misericórdia",
+                "seu poder",
+                "suas obras"
+              ],
+              "reference": "Salmo 103:1-2"
+            },
+            {
+              "id": "salmos-u2-l2-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Bendiz ó minha alma ao Senhor.",
+              "options": [
+                "Louva ao Senhor eternamente",
+                "Bendiz ó minha alma ao Senhor",
+                "Exalta o nome do Senhor"
+              ],
+              "answer": "Bendiz ó minha alma ao Senhor",
+              "reference": "Salmo 103:1"
+            },
+            {
+              "id": "salmos-u2-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe as bênçãos de Deus",
+              "pairs": [
+                {
+                  "left": "Perdão de pecados",
+                  "right": "Redenção"
+                },
+                {
+                  "left": "Cura de doenças",
+                  "right": "Restauração"
+                },
+                {
+                  "left": "Coroa de misericórdia",
+                  "right": "Amor eterno"
+                },
+                {
+                  "left": "Renovação da juventude",
+                  "right": "Vida nova"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u2-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"O Senhor é misericordioso e _____, lento em iras.\"",
+              "answer": "clemente",
+              "reference": "Salmo 103:8",
+              "options": ["clemente", "bondoso"]
+            },
+            {
+              "id": "salmos-u2-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Deus quer que nos lembremos de nenhum de Seus benefícios.",
+              "isTrue": false,
+              "reference": "Salmo 103:2",
+              "explanation": "Deus quer que lembrados de TODOS os Seus benefícios para manter viva nossa gratidão e louvor."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l3",
+          "title": "Louvor Jubiloso",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "salmos-u2-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"Louvai ao Senhor! Porque é bom cantar ___ ao nosso Deus.\"",
+              "speaker": "Salmista",
+              "options": [
+                "hinos",
+                "melodias",
+                "cânticos",
+                "salmos"
+              ],
+              "answer": "hinos",
+              "reference": "Salmo 147:1",
+              "explanation": "Cantar hinos de louvor é uma forma poderosa de expressar nossa adoração a Deus."
+            },
+            {
+              "id": "salmos-u2-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Salmo 119 é o salmo mais longo da Bíblia e trata da Lei de Deus.",
+              "isTrue": true,
+              "reference": "Salmo 119",
+              "explanation": "O Salmo 119 possui 176 versículos divididos em 22 estrofes, cada uma começando com uma letra do alfabeto hebraico."
+            },
+            {
+              "id": "salmos-u2-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o tema principal do Salmo 119?",
+              "text": "Este salmo fala sobre a importância de meditar na Lei do Senhor.",
+              "options": [
+                "O valor da Palavra de Deus",
+                "A história de Israel",
+                "A vida de Davi",
+                "A criação do mundo"
+              ],
+              "answer": "O valor da Palavra de Deus",
+              "reference": "Salmo 119",
+              "explanation": "O Salmo 119 celebra a Lei e Palavra de Deus como fonte de sabedoria, direção e vida."
+            },
+            {
+              "id": "salmos-u2-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Louvor pela Palavra em Salmo 119:105",
+              "tokens": [
+                "Lâmpada é",
+                "para os meus pés",
+                "a tua palavra",
+                "e luz para o meu caminho"
+              ],
+              "distractors": [
+                "e guia",
+                "para minha vida",
+                "e verdade"
+              ],
+              "reference": "Salmo 119:105"
+            },
+            {
+              "id": "salmos-u2-l3-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Lâmpada é para os meus pés a tua palavra.",
+              "options": [
+                "Tua palavra é verdade",
+                "Lâmpada é para os meus pés a tua palavra",
+                "Guardarei tua lei"
+              ],
+              "answer": "Lâmpada é para os meus pés a tua palavra",
+              "reference": "Salmo 119:105"
+            },
+            {
+              "id": "salmos-u2-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe sobre a Palavra de Deus",
+              "pairs": [
+                {
+                  "left": "Lâmpada",
+                  "right": "Iluminação para viver"
+                },
+                {
+                  "left": "Verdade",
+                  "right": "Confiabilidade absoluta"
+                },
+                {
+                  "left": "Direção",
+                  "right": "Guia para o caminho"
+                },
+                {
+                  "left": "Doçura",
+                  "right": "Prazer em cumprir"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u2-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"___ é para os meus pés a tua palavra.\"",
+              "answer": "Lâmpada",
+              "reference": "Salmo 119:105",
+              "options": ["Lâmpada", "Lampada"]
+            },
+            {
+              "id": "salmos-u2-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A Palavra de Deus nos ilumina e guia no caminho correto.",
+              "isTrue": true,
+              "reference": "Salmo 119:105",
+              "explanation": "A Palavra de Deus funciona como lâmpada que ilumina e guia nossos passos na vida."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l4",
+          "title": "Louvor Eterno",
+          "icon": "sun.max.fill",
+          "exercises": [
+            {
+              "id": "salmos-u2-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"Louvai ao Senhor, todos os povos; louvai-o, todas as _____.\"",
+              "speaker": "Salmista",
+              "options": [
+                "nações",
+                "terras",
+                "multidões",
+                "almas"
+              ],
+              "answer": "nações",
+              "reference": "Salmo 117:1",
+              "explanation": "O louvor a Deus é universal e deve ser compartilhado por todos os povos da terra."
+            },
+            {
+              "id": "salmos-u2-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Salmo 117 é o salmo mais curto da Bíblia com apenas dois versículos.",
+              "isTrue": true,
+              "reference": "Salmo 117",
+              "explanation": "O Salmo 117 é realmente o mais curto dos 150 salmos, contendo apenas dois versículos de louvor universal."
+            },
+            {
+              "id": "salmos-u2-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "De acordo com Salmo 136, qual é a razão de cada louvor?",
+              "text": "Cada versículo termina com a mesma declaração.",
+              "options": [
+                "Porque a Sua misericórdia dura para sempre",
+                "Porque Ele é digno de louvor",
+                "Porque Ele nos criou",
+                "Porque Ele é poderoso"
+              ],
+              "answer": "Porque a Sua misericórdia dura para sempre",
+              "reference": "Salmo 136",
+              "explanation": "O Salmo 136 repete esta afirmação 26 vezes, enfatizando a constância da misericórdia de Deus."
+            },
+            {
+              "id": "salmos-u2-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Louvor universal em Salmo 117",
+              "tokens": [
+                "Porque a Sua misericórdia",
+                "é grande sobre nós",
+                "e a verdade do Senhor",
+                "dura para sempre"
+              ],
+              "distractors": [
+                "e Sua graça",
+                "é infinita",
+                "e Seu amor"
+              ],
+              "reference": "Salmo 117:2"
+            },
+            {
+              "id": "salmos-u2-l4-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Porque a Sua misericórdia dura para sempre.",
+              "options": [
+                "Porque Deus é eterno",
+                "Porque Sua misericórdia dura para sempre",
+                "Porque Seu amor é infinito"
+              ],
+              "answer": "Porque Sua misericórdia dura para sempre",
+              "reference": "Salmo 136"
+            },
+            {
+              "id": "salmos-u2-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe as características de Deus",
+              "pairs": [
+                {
+                  "left": "Misericórdia",
+                  "right": "Compaixão eterna"
+                },
+                {
+                  "left": "Verdade",
+                  "right": "Fidedignidade absoluta"
+                },
+                {
+                  "left": "Graça",
+                  "right": "Favor imerecido"
+                },
+                {
+                  "left": "Amor",
+                  "right": "Devoção suprema"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u2-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"Porque a Sua misericórdia dura para _____.\"",
+              "answer": "sempre",
+              "reference": "Salmo 136",
+              "options": ["sempre", "eternidade"]
+            },
+            {
+              "id": "salmos-u2-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O louvor a Deus é relevante apenas para certos momentos especiais.",
+              "isTrue": false,
+              "reference": "Salmo 136",
+              "explanation": "O Salmo 136 enfatiza que devemos louvar Deus continuamente porque Sua misericórdia dura para sempre."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l5",
+          "title": "Revisão - Louvor e Gratidão",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "salmos-u2-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o tema central dos salmos de louvor?",
+              "text": "Estes salmos nos incentivam a expressar alegria e gratidão.",
+              "options": [
+                "Celebrar as obras e bondade de Deus",
+                "Pedir favores a Deus",
+                "Confessar pecados",
+                "Lamentar perdas"
+              ],
+              "answer": "Celebrar as obras e bondade de Deus",
+              "reference": "Salmo 100, 103, 119, 150",
+              "explanation": "Os salmos de louvor focam em celebrar quem é Deus e o que Ele fez por nós."
+            },
+            {
+              "id": "salmos-u2-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A gratidão nos protege de cair em depressão e desespero.",
+              "isTrue": true,
+              "reference": "Salmo 100, 103, 136",
+              "explanation": "Reconhecer as bênçãos de Deus e expressar gratidão nos mantém focados em Sua bondade."
+            },
+            {
+              "id": "salmos-u2-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "Como devemos louvar segundo Salmo 150?",
+              "text": "Este salmo descreve instrumentos e formas de louvor.",
+              "options": [
+                "Com instrumentos, dança e alegria",
+                "Apenas em silêncio mental",
+                "Somente durante os cultos",
+                "Com reverência e temor"
+              ],
+              "answer": "Com instrumentos, dança e alegria",
+              "reference": "Salmo 150",
+              "explanation": "O Salmo 150 convida ao louvor expressivo e alegre com diversos meios."
+            },
+            {
+              "id": "salmos-u2-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo de revisão",
+              "text": "Resumo do chamado ao louvor",
+              "tokens": [
+                "Louvai ao Senhor",
+                "pois é bom",
+                "e a Sua misericórdia",
+                "dura para sempre"
+              ],
+              "distractors": [
+                "é verdade",
+                "é verdade",
+                "é infinita"
+              ],
+              "reference": "Salmo 100:5, 136:1"
+            },
+            {
+              "id": "salmos-u2-l5-e5",
+              "kind": "listen",
+              "prompt": "Qual versículo você ouviu?",
+              "text": "Fazei barulho alegre a Deus toda a terra.",
+              "options": [
+                "Louvai ao Senhor com alegria",
+                "Fazei barulho alegre a Deus",
+                "Canta ao Senhor eternamente"
+              ],
+              "answer": "Fazei barulho alegre a Deus",
+              "reference": "Salmo 100:1"
+            },
+            {
+              "id": "salmos-u2-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe o salmo ao tema de louvor",
+              "pairs": [
+                {
+                  "left": "Salmo 100",
+                  "right": "Alegria e louvor"
+                },
+                {
+                  "left": "Salmo 103",
+                  "right": "Gratidão pelas bênçãos"
+                },
+                {
+                  "left": "Salmo 119",
+                  "right": "Louvor pela Palavra"
+                },
+                {
+                  "left": "Salmo 150",
+                  "right": "Louvor com alegria"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u2-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Ordene as formas de louvor",
+              "text": "Progressão do louvor genuíno",
+              "tokens": [
+                "Reconhecer as obras de Deus",
+                "Agradecer de coração",
+                "Expressar louvor em palavras",
+                "Celebrar com alegria"
+              ]
+            },
+            {
+              "id": "salmos-u2-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O louvor a Deus deve ser parte contínua da nossa vida, não apenas ocasional.",
+              "isTrue": true,
+              "reference": "Salmo 136",
+              "explanation": "O Salmo 136 enfatiza louvor contínuo porque a misericórdia de Deus é constante."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salmos-u3",
+      "title": "Unidade 3",
+      "subtitle": "Sabedoria para o Dia a Dia",
+      "guide": {
+        "summary": "Os Provérbios nos ensinam sabedoria prática para viver bem. Falam sobre amizade genuína, trabalho honesto, palavras que curam, e humildade. A sabedoria teme o Senhor e nos guia em todas as decisões.",
+        "keyVerses": [
+          {
+            "reference": "Provérbios 1:7",
+            "text": "O temor do Senhor é o princípio da sabedoria."
+          },
+          {
+            "reference": "Provérbios 17:17",
+            "text": "Em todo o tempo ama o amigo, e para a angústia nasce o irmão."
+          },
+          {
+            "reference": "Provérbios 22:6",
+            "text": "Ensina à criança o caminho em que deve andar."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "salmos-u3-l1",
+          "title": "Sabedoria e Temor de Deus",
+          "icon": "lightbulb.fill",
+          "exercises": [
+            {
+              "id": "salmos-u3-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"O temor do Senhor é o princípio da _____.\"",
+              "speaker": "Sabedoria",
+              "options": [
+                "sabedoria",
+                "verdade",
+                "virtude",
+                "conhecimento"
+              ],
+              "answer": "sabedoria",
+              "reference": "Provérbios 1:7",
+              "explanation": "A sabedoria verdadeira começa com o respeito e reverência a Deus."
+            },
+            {
+              "id": "salmos-u3-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A sabedoria vem principalmente de aprender com os outros.",
+              "isTrue": false,
+              "reference": "Provérbios 1:7",
+              "explanation": "Embora aprendamos com outros, a verdadeira sabedoria tem raiz no temor do Senhor."
+            },
+            {
+              "id": "salmos-u3-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "O que significa 'temor do Senhor'?",
+              "text": "Este conceito não significa ter medo como quem foge, mas algo diferente.",
+              "options": [
+                "Respeito reverente e obediência amorosa",
+                "Pavor literal de Deus",
+                "Dúvida sobre Seu amor",
+                "Medo de ser punido"
+              ],
+              "answer": "Respeito reverente e obediência amorosa",
+              "reference": "Provérbios 1:7",
+              "explanation": "O temor do Senhor é reverência com amor, reconhecendo Sua autoridade e bondade."
+            },
+            {
+              "id": "salmos-u3-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "O fundamento da sabedoria",
+              "tokens": [
+                "O temor do Senhor",
+                "é o princípio",
+                "da sabedoria",
+                "e o conhecimento do Santo"
+              ],
+              "distractors": [
+                "é o caminho",
+                "da virtude",
+                "e pureza"
+              ],
+              "reference": "Provérbios 9:10"
+            },
+            {
+              "id": "salmos-u3-l1-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "O temor do Senhor é o princípio da sabedoria.",
+              "options": [
+                "A sabedoria vem de aprender muito",
+                "O temor do Senhor é princípio da sabedoria",
+                "Deus exige perfeição de todos"
+              ],
+              "answer": "O temor do Senhor é princípio da sabedoria",
+              "reference": "Provérbios 1:7"
+            },
+            {
+              "id": "salmos-u3-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe os conceitos de sabedoria",
+              "pairs": [
+                {
+                  "left": "Temor de Deus",
+                  "right": "Respeito reverente"
+                },
+                {
+                  "left": "Sabedoria",
+                  "right": "Discernimento sábio"
+                },
+                {
+                  "left": "Conhecimento",
+                  "right": "Aprendizado de Deus"
+                },
+                {
+                  "left": "Inteligência",
+                  "right": "Capacidade de pensar"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u3-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"O temor do Senhor é o princípio da _____.\"",
+              "answer": "sabedoria",
+              "reference": "Provérbios 1:7",
+              "options": ["sabedoria", "verdade"]
+            },
+            {
+              "id": "salmos-u3-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Um sábio reconhece que não sabe tudo e continua aprendendo.",
+              "isTrue": true,
+              "reference": "Provérbios 1:5, 2:6",
+              "explanation": "A verdadeira sabedoria inclui humildade e disposição contínua de aprender mais."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l2",
+          "title": "Palavras que Curam",
+          "icon": "drop.fill",
+          "exercises": [
+            {
+              "id": "salmos-u3-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"A língua suave é árvore de vida, mas a perversa causa _____.\"",
+              "speaker": "Sabedoria",
+              "options": [
+                "ruína",
+                "dor",
+                "tristeza",
+                "medo"
+              ],
+              "answer": "ruína",
+              "reference": "Provérbios 15:4",
+              "explanation": "Nossas palavras têm poder para curar ou ferir, para construir ou destruir."
+            },
+            {
+              "id": "salmos-u3-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Palavras cruéis e magoam, mas depois esquecemos delas.",
+              "isTrue": false,
+              "reference": "Provérbios 15:4",
+              "explanation": "Palavras magoam profundamente e deixam cicatrizes emocionais duradouras."
+            },
+            {
+              "id": "salmos-u3-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o valor de uma resposta mansa?",
+              "text": "\"A resposta mansa desvia a _____, mas a palavra dura suscita ira.\"",
+              "options": [
+                "ira",
+                "tristeza",
+                "medo",
+                "culpa"
+              ],
+              "answer": "ira",
+              "reference": "Provérbios 15:1",
+              "explanation": "Palavras suaves e gentis acalmam mesmo em situações tensas."
+            },
+            {
+              "id": "salmos-u3-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "O poder das palavras em Provérbios 18:21",
+              "tokens": [
+                "A morte e a vida",
+                "estão no poder",
+                "da língua",
+                "e o que ama a língua"
+              ],
+              "distractors": [
+                "e quem a controla",
+                "comerá do seu fruto",
+                "viverá feliz"
+              ],
+              "reference": "Provérbios 18:21"
+            },
+            {
+              "id": "salmos-u3-l2-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "A resposta mansa desvia a ira.",
+              "options": [
+                "As palavras duras causam ira",
+                "A resposta mansa desvia a ira",
+                "Silêncio é ouro"
+              ],
+              "answer": "A resposta mansa desvia a ira",
+              "reference": "Provérbios 15:1"
+            },
+            {
+              "id": "salmos-u3-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe tipos de palavras ao seu efeito",
+              "pairs": [
+                {
+                  "left": "Palavras suaves",
+                  "right": "Curam e constroem"
+                },
+                {
+                  "left": "Palavras cruéis",
+                  "right": "Ferem e destroem"
+                },
+                {
+                  "left": "Resposta mansa",
+                  "right": "Desvia ira"
+                },
+                {
+                  "left": "Palavra dura",
+                  "right": "Suscita ira"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u3-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"A morte e a vida estão no poder da _____.\"",
+              "answer": "língua",
+              "reference": "Provérbios 18:21",
+              "options": ["língua", "boca"]
+            },
+            {
+              "id": "salmos-u3-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Devemos pensar sobre nossas palavras antes de falar.",
+              "isTrue": true,
+              "reference": "Provérbios 15:4",
+              "explanation": "Nossas palavras têm consequências, por isso é sábio pensar antes de falar."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l3",
+          "title": "Amizade Verdadeira",
+          "icon": "person.2.fill",
+          "exercises": [
+            {
+              "id": "salmos-u3-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"Em todo o tempo ama o amigo, e para a angústia nasce o _____.\"",
+              "speaker": "Sabedoria",
+              "options": [
+                "irmão",
+                "irmã",
+                "redentor",
+                "consolo"
+              ],
+              "answer": "irmão",
+              "reference": "Provérbios 17:17",
+              "explanation": "Um verdadeiro amigo está sempre ao nosso lado, especialmente em tempos difíceis."
+            },
+            {
+              "id": "salmos-u3-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Uma amizade verdadeira é aquela que permanece apenas em tempos de alegria.",
+              "isTrue": false,
+              "reference": "Provérbios 17:17",
+              "explanation": "A verdadeira amizade se mostra especialmente nos momentos de dificuldade e sofrimento."
+            },
+            {
+              "id": "salmos-u3-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "Como escolher bons amigos?",
+              "text": "\"Quem anda com os sábios há de ficar sábio, mas o _____ será magoado.\"",
+              "options": [
+                "companheiro dos insensatos",
+                "homem solitário",
+                "crítico severo",
+                "observador silencioso"
+              ],
+              "answer": "companheiro dos insensatos",
+              "reference": "Provérbios 13:20",
+              "explanation": "As amizades influenciam nossa vida, então devemos escolher companhias que nos fazem crescer."
+            },
+            {
+              "id": "salmos-u3-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "O valor da companhia em Provérbios 27:12",
+              "tokens": [
+                "Quem anda com os sábios",
+                "há de ficar sábio",
+                "mas o companheiro dos insensatos",
+                "será magoado"
+              ],
+              "distractors": [
+                "será tolo",
+                "sofrerá dano",
+                "será punido"
+              ],
+              "reference": "Provérbios 13:20"
+            },
+            {
+              "id": "salmos-u3-l3-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Em todo o tempo ama o amigo.",
+              "options": [
+                "Os amigos vão embora",
+                "Em todo o tempo ama o amigo",
+                "A amizade é passageira"
+              ],
+              "answer": "Em todo o tempo ama o amigo",
+              "reference": "Provérbios 17:17"
+            },
+            {
+              "id": "salmos-u3-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe as características de amizade",
+              "pairs": [
+                {
+                  "left": "Lealdade",
+                  "right": "Presente em dificuldades"
+                },
+                {
+                  "left": "Constância",
+                  "right": "Permanece todo tempo"
+                },
+                {
+                  "left": "Influência positiva",
+                  "right": "Torna-nos sábios"
+                },
+                {
+                  "left": "Repreensão amorosa",
+                  "right": "Corrige com cuidado"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u3-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"Em todo o tempo ama o _____, e para angústia nasce o irmão.\"",
+              "answer": "amigo",
+              "reference": "Provérbios 17:17",
+              "options": ["amigo", "próximo"]
+            },
+            {
+              "id": "salmos-u3-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Nossas amizades não têm impacto significativo em quem nos tornamos.",
+              "isTrue": false,
+              "reference": "Provérbios 13:20",
+              "explanation": "Nossas amizades influenciam profundamente nosso caráter e decisões de vida."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l4",
+          "title": "Trabalho e Humildade",
+          "icon": "tree.fill",
+          "exercises": [
+            {
+              "id": "salmos-u3-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"O preguiçoso deseja e nada consegue, mas o desejo do diligente há de ser _____.\"",
+              "speaker": "Sabedoria",
+              "options": [
+                "satisfeito",
+                "recompensado",
+                "abençoado",
+                "realizado"
+              ],
+              "answer": "satisfeito",
+              "reference": "Provérbios 13:4",
+              "explanation": "O trabalho diligente e perseverante leva à realização e ao sucesso."
+            },
+            {
+              "id": "salmos-u3-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A preguiça é vista como uma fraqueza natural em Provérbios.",
+              "isTrue": false,
+              "reference": "Provérbios 13:4, 19:15",
+              "explanation": "A preguiça em Provérbios é retratada como uma escolha que leva a pobreza e fracasso."
+            },
+            {
+              "id": "salmos-u3-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "O que Provérbios diz sobre a humildade?",
+              "text": "\"Diante da honra vem a _____.\"",
+              "options": [
+                "humildade",
+                "obediência",
+                "virtude",
+                "justiça"
+              ],
+              "answer": "humildade",
+              "reference": "Provérbios 15:33",
+              "explanation": "A humildade precede qualquer honra verdadeira; é a base do caráter respeitável."
+            },
+            {
+              "id": "salmos-u3-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Promessa sobre o trabalho diligente",
+              "tokens": [
+                "O diligente há de dominar",
+                "mas o preguiçoso",
+                "será subjugado",
+                "pelo trabalho"
+              ],
+              "distractors": [
+                "e oprimido",
+                "sofrerá",
+                "será vencido"
+              ],
+              "reference": "Provérbios 12:24"
+            },
+            {
+              "id": "salmos-u3-l4-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "O diligente há de dominar mas o preguiçoso será subjugado.",
+              "options": [
+                "Todos têm o mesmo resultado",
+                "O diligente domina o preguiçoso",
+                "O trabalho é importante"
+              ],
+              "answer": "O diligente domina o preguiçoso",
+              "reference": "Provérbios 12:24"
+            },
+            {
+              "id": "salmos-u3-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe as atitudes e consequências",
+              "pairs": [
+                {
+                  "left": "Diligência",
+                  "right": "Sucesso e realização"
+                },
+                {
+                  "left": "Preguiça",
+                  "right": "Fracasso e pobreza"
+                },
+                {
+                  "left": "Humildade",
+                  "right": "Honra verdadeira"
+                },
+                {
+                  "left": "Soberba",
+                  "right": "Queda e destruição"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u3-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"O preguiçoso deseja e nada consegue, mas o desejo do diligente há de ser _____.\"",
+              "answer": "satisfeito",
+              "reference": "Provérbios 13:4",
+              "options": ["satisfeito", "realizado"]
+            },
+            {
+              "id": "salmos-u3-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A humildade e o trabalho árduo são princípios duradouros em Provérbios.",
+              "isTrue": true,
+              "reference": "Provérbios 13:4, 15:33",
+              "explanation": "Humildade e diligência são valores fundamentais que levam a uma vida bem-sucedida e honrada."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l5",
+          "title": "Revisão - Sabedoria do Dia a Dia",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "salmos-u3-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o tema central dos Provérbios?",
+              "text": "Este livro foi escrito principalmente para ensinar como viver bem.",
+              "options": [
+                "Sabedoria prática para a vida",
+                "História de reis antigos",
+                "Profecias sobre o futuro",
+                "Crítica dos inimigos"
+              ],
+              "answer": "Sabedoria prática para a vida",
+              "reference": "Provérbios 1:1-7",
+              "explanation": "Os Provérbios oferecem conselhos práticos sobre como tomar boas decisões na vida."
+            },
+            {
+              "id": "salmos-u3-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O temor do Senhor é importante apenas no contexto religioso.",
+              "isTrue": false,
+              "reference": "Provérbios 1:7, 14:26-27",
+              "explanation": "O temor do Senhor é a base para toda sabedoria prática e decisões sábias na vida."
+            },
+            {
+              "id": "salmos-u3-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "Como devemos cuidar com nossas palavras?",
+              "text": "Provérbios enfatiza o poder e a responsabilidade de falar.",
+              "options": [
+                "Cuidar para que sejam verdadeiras e bondosas",
+                "Falar o máximo possível",
+                "Dizer o que os outros querem ouvir",
+                "Ficar em silêncio sempre"
+              ],
+              "answer": "Cuidar para que sejam verdadeiras e bondosas",
+              "reference": "Provérbios 15:1, 18:21",
+              "explanation": "Nossas palavras têm poder para curar ou ferir, então devemos ser cuidadosos e respeitosos."
+            },
+            {
+              "id": "salmos-u3-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo de revisão",
+              "text": "Resumo da sabedoria prática",
+              "tokens": [
+                "O temor do Senhor",
+                "é o princípio da sabedoria",
+                "assim como",
+                "a diligência leva ao sucesso"
+              ],
+              "distractors": [
+                "e a humildade ao reconhecimento",
+                "e a bondade ao louvor",
+                "e a verdade à vitória"
+              ],
+              "reference": "Provérbios 1:7, 13:4"
+            },
+            {
+              "id": "salmos-u3-l5-e5",
+              "kind": "listen",
+              "prompt": "Qual sabedoria você ouviu?",
+              "text": "Quem anda com os sábios há de ficar sábio.",
+              "options": [
+                "Todos aprendem da mesma forma",
+                "Quem anda com sábios fica sábio",
+                "A sabedoria é solitária"
+              ],
+              "answer": "Quem anda com sábios fica sábio",
+              "reference": "Provérbios 13:20"
+            },
+            {
+              "id": "salmos-u3-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe as lições principais",
+              "pairs": [
+                {
+                  "left": "Temor de Deus",
+                  "right": "Raiz da sabedoria"
+                },
+                {
+                  "left": "Palavras sábias",
+                  "right": "Cicatrizam e constroem"
+                },
+                {
+                  "left": "Amigos verdadeiros",
+                  "right": "Apóiam em tudo"
+                },
+                {
+                  "left": "Trabalho diligente",
+                  "right": "Leva a sucesso"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u3-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Ordene os princípios da sabedoria",
+              "text": "Progresso na aquisição de sabedoria",
+              "tokens": [
+                "Temer ao Senhor",
+                "Ouvir conselhos sábios",
+                "Aplicar na vida prática",
+                "Compartilhar com outros"
+              ]
+            },
+            {
+              "id": "salmos-u3-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A sabedoria é um dom que vem principalmente de nossas experiências.",
+              "isTrue": false,
+              "reference": "Provérbios 1:7",
+              "explanation": "Embora aprendamos com a experiência, a verdadeira sabedoria tem origem no temor do Senhor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salmos-u4",
+      "title": "Unidade 4",
+      "subtitle": "Oração e Arrependimento",
+      "guide": {
+        "summary": "A oração é conversa genuína com Deus. O arrependimento é mudança de coração que nos transforma. Através desses, experimentamos perdão, renovação e intimidade com nosso Criador.",
+        "keyVerses": [
+          {
+            "reference": "Salmo 51:10",
+            "text": "Cria em mim, ó Deus, um coração puro, e renova em mim um espírito reto."
+          },
+          {
+            "reference": "Salmo 139:1",
+            "text": "Senhor, tu me sondas e me conheces."
+          },
+          {
+            "reference": "Mateus 6:9-13",
+            "text": "Portanto, orai assim: Pai nosso, que estás nos céus..."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "salmos-u4-l1",
+          "title": "Arrependimento Sincero",
+          "icon": "leaf.fill",
+          "exercises": [
+            {
+              "id": "salmos-u4-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"Cria em mim, ó Deus, um coração puro, e renova em mim um espírito _____.\"",
+              "speaker": "Davi",
+              "options": [
+                "reto",
+                "forte",
+                "novo",
+                "humilde"
+              ],
+              "answer": "reto",
+              "reference": "Salmo 51:10",
+              "explanation": "O arrependimento verdadeiro leva ao desejo de um coração renovado e um espírito correto."
+            },
+            {
+              "id": "salmos-u4-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Salmo 51 é o salmo de arrependimento mais conhecido, escrito por Davi após seu pecado.",
+              "isTrue": true,
+              "reference": "Salmo 51",
+              "explanation": "O Salmo 51 é um poderoso salmo de confissão e arrependimento após o pecado de Davi."
+            },
+            {
+              "id": "salmos-u4-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "O que o arrependimento verdadeiro produz?",
+              "text": "\"Lava-me completamente da minha maldade e purifica-me do meu _____.\"",
+              "options": [
+                "pecado",
+                "culpa",
+                "vergonha",
+                "rebeldia"
+              ],
+              "answer": "pecado",
+              "reference": "Salmo 51:2",
+              "explanation": "Deus nos lava e purifica quando nos arrependemos sinceramente de nossos pecados."
+            },
+            {
+              "id": "salmos-u4-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Oração de arrependimento em Salmo 51:1-2",
+              "tokens": [
+                "Tem misericórdia de mim, ó Deus",
+                "segundo a tua benevolência",
+                "lava-me completamente",
+                "da minha maldade"
+              ],
+              "distractors": [
+                "restaura minha alma",
+                "renova meu espírito",
+                "perdoa meu pecado"
+              ],
+              "reference": "Salmo 51:1-2"
+            },
+            {
+              "id": "salmos-u4-l1-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Cria em mim ó Deus um coração puro.",
+              "options": [
+                "Deus purifica nossos pecados",
+                "Cria em mim um coração puro",
+                "Restaura meu espírito renovado"
+              ],
+              "answer": "Cria em mim um coração puro",
+              "reference": "Salmo 51:10"
+            },
+            {
+              "id": "salmos-u4-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe elementos do arrependimento",
+              "pairs": [
+                {
+                  "left": "Confissão",
+                  "right": "Admitir o pecado"
+                },
+                {
+                  "left": "Remorso",
+                  "right": "Tristeza pelo pecado"
+                },
+                {
+                  "left": "Mudança",
+                  "right": "Abandonar a maldade"
+                },
+                {
+                  "left": "Perdão",
+                  "right": "Graça de Deus"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u4-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"Cria em mim, ó Deus, um coração ___, e renova um espírito reto.\"",
+              "answer": "puro",
+              "reference": "Salmo 51:10",
+              "options": ["puro", "limpo"]
+            },
+            {
+              "id": "salmos-u4-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O arrependimento é apenas sentir remorso pelos pecados.",
+              "isTrue": false,
+              "reference": "Salmo 51",
+              "explanation": "O arrependimento verdadeiro inclui confissão, remorso genuíno e mudança de vida."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l2",
+          "title": "Deus Conhece Nossos Corações",
+          "icon": "hands.sparkles.fill",
+          "exercises": [
+            {
+              "id": "salmos-u4-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"Senhor, tu me sondas e me _____.\"",
+              "speaker": "Davi",
+              "options": [
+                "conheces",
+                "julgues",
+                "amas",
+                "guias"
+              ],
+              "answer": "conheces",
+              "reference": "Salmo 139:1",
+              "explanation": "Deus conhece profundamente cada aspecto de nossa vida e coração."
+            },
+            {
+              "id": "salmos-u4-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Salmo 139 expressa que Deus está sempre presente e nos conhece completamente.",
+              "isTrue": true,
+              "reference": "Salmo 139",
+              "explanation": "O Salmo 139 é um salmo profundo sobre a onisciência e onipresença de Deus."
+            },
+            {
+              "id": "salmos-u4-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o conforto em Salmo 139:5?",
+              "text": "\"Tu me envolveste por ___, e puseste sobre mim a tua mão.\"",
+              "options": [
+                "trás e diante",
+                "cima e baixo",
+                "perto e longe",
+                "dia e noite"
+              ],
+              "answer": "trás e diante",
+              "reference": "Salmo 139:5",
+              "explanation": "Deus nos rodeia completamente e Sua presença nos protege em todas as direções."
+            },
+            {
+              "id": "salmos-u4-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Presença de Deus em Salmo 139:7-8",
+              "tokens": [
+                "Para onde me irei",
+                "do teu Espírito?",
+                "E para onde fugirei",
+                "da tua face?"
+              ],
+              "distractors": [
+                "Se subir ao céu",
+                "Se descer ao Seol",
+                "Se estender minhas asas"
+              ],
+              "reference": "Salmo 139:7"
+            },
+            {
+              "id": "salmos-u4-l2-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Senhor tu me sondas e me conheces.",
+              "options": [
+                "Deus julga todos os homens",
+                "Senhor tu me sondas e conheces",
+                "Conheço o coração de Deus"
+              ],
+              "answer": "Senhor tu me sondas e conheces",
+              "reference": "Salmo 139:1"
+            },
+            {
+              "id": "salmos-u4-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe os atributos divinos",
+              "pairs": [
+                {
+                  "left": "Onisciência",
+                  "right": "Deus sabe tudo"
+                },
+                {
+                  "left": "Onipresença",
+                  "right": "Deus está em todo lugar"
+                },
+                {
+                  "left": "Onipotência",
+                  "right": "Deus tem todo poder"
+                },
+                {
+                  "left": "Eternidade",
+                  "right": "Deus existe sempre"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u4-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"Senhor, tu me sondas e me _____.\"",
+              "answer": "conheces",
+              "reference": "Salmo 139:1",
+              "options": ["conheces", "conheces bem"]
+            },
+            {
+              "id": "salmos-u4-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Podemos esconder nossos pensamentos de Deus.",
+              "isTrue": false,
+              "reference": "Salmo 139:1-2",
+              "explanation": "Deus conhece não apenas nossas ações, mas também nossos pensamentos mais secretos."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l3",
+          "title": "O Pai Nosso",
+          "icon": "hands.sparkles.fill",
+          "exercises": [
+            {
+              "id": "salmos-u4-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Comece a oração do Pai Nosso",
+              "text": "\"Pai nosso, que estás nos _____.\"",
+              "speaker": "Jesus",
+              "options": [
+                "céus",
+                "trono",
+                "reino",
+                "coração"
+              ],
+              "answer": "céus",
+              "reference": "Mateus 6:9",
+              "explanation": "A oração começa reconhecendo Deus como nosso Pai nos céus."
+            },
+            {
+              "id": "salmos-u4-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A oração do Pai Nosso foi ensinada por Jesus como modelo de oração.",
+              "isTrue": true,
+              "reference": "Mateus 6:9-13",
+              "explanation": "Jesus nos ensinou essa oração como exemplo de como devemos orar ao Pai."
+            },
+            {
+              "id": "salmos-u4-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "Qual é a segunda petição do Pai Nosso?",
+              "text": "\"Venha o teu reino, seja feita a tua _____ na terra como no céu.\"",
+              "options": [
+                "vontade",
+                "graça",
+                "misericórdia",
+                "justiça"
+              ],
+              "answer": "vontade",
+              "reference": "Mateus 6:10",
+              "explanation": "Pedimos que a vontade de Deus seja feita em nossas vidas e no mundo."
+            },
+            {
+              "id": "salmos-u4-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "Petição pelo pão em Mateus 6:11",
+              "tokens": [
+                "O pão nosso de cada dia",
+                "nos dai hoje",
+                "e perdoa-nos",
+                "as nossas dívidas"
+              ],
+              "distractors": [
+                "como nós perdoamos",
+                "aos nossos devedores",
+                "e não nos induzas"
+              ],
+              "reference": "Mateus 6:11-12"
+            },
+            {
+              "id": "salmos-u4-l3-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Venha o teu reino seja feita a tua vontade.",
+              "options": [
+                "Glorificado seja o seu nome",
+                "Venha o teu reino feita tua vontade",
+                "Perdão e salvação para todos"
+              ],
+              "answer": "Venha o teu reino feita tua vontade",
+              "reference": "Mateus 6:10"
+            },
+            {
+              "id": "salmos-u4-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe as petições do Pai Nosso",
+              "pairs": [
+                {
+                  "left": "Santificação do nome",
+                  "right": "Reconhecer Deus como santo"
+                },
+                {
+                  "left": "Sustento diário",
+                  "right": "Pedir o pão nosso"
+                },
+                {
+                  "left": "Perdão de pecados",
+                  "right": "Reconciliação com Deus"
+                },
+                {
+                  "left": "Libertação do mal",
+                  "right": "Proteção divina"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u4-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a oração",
+              "text": "\"O pão nosso de cada dia nos dai _____.\"",
+              "answer": "hoje",
+              "reference": "Mateus 6:11",
+              "options": ["hoje", "agora"]
+            },
+            {
+              "id": "salmos-u4-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "O Pai Nosso contém petições apenas para nós mesmos.",
+              "isTrue": false,
+              "reference": "Mateus 6:9-13",
+              "explanation": "O Pai Nosso inclui petições para glorificar Deus, para que Seu reino venha e para perdão."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l4",
+          "title": "Tempo e Eternidade",
+          "icon": "moon.stars.fill",
+          "exercises": [
+            {
+              "id": "salmos-u4-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete o versículo",
+              "text": "\"Vanidade de vaidades, diz o Pregador, vanidade de vaidades; tudo é _____.\"",
+              "speaker": "Eclesiastes",
+              "options": [
+                "vaidade",
+                "mentira",
+                "ilusão",
+                "engano"
+              ],
+              "answer": "vaidade",
+              "reference": "Eclesiastes 1:2",
+              "explanation": "Eclesiastes nos faz refletir que a vida sem Deus é vazia e sem significado duradouro."
+            },
+            {
+              "id": "salmos-u4-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Eclesiastes ensina que tudo o que fazemos sem Deus é vazio e sem propósito.",
+              "isTrue": true,
+              "reference": "Eclesiastes 1:2, 12:13",
+              "explanation": "Eclesiastes mostra que sem Deus, toda nossa busca por significado é vã."
+            },
+            {
+              "id": "salmos-u4-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "Qual é a conclusão do Eclesiastes?",
+              "text": "\"Tudo foi ouvido; a conclusão do assunto é: Teme a Deus e _____ os seus mandamentos.\"",
+              "options": [
+                "guarda",
+                "segue",
+                "obedece",
+                "cumpre"
+              ],
+              "answer": "guarda",
+              "reference": "Eclesiastes 12:13",
+              "explanation": "Após explorar tudo na vida, a conclusão é que devemos temer a Deus e guardar Seus mandamentos."
+            },
+            {
+              "id": "salmos-u4-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo",
+              "text": "A mensagem central em Eclesiastes 3:1",
+              "tokens": [
+                "Tudo tem seu tempo",
+                "e há tempo para todo propósito",
+                "debaixo do céu",
+                "há tempo de nascer"
+              ],
+              "distractors": [
+                "e tempo de morrer",
+                "há tempo de chorar",
+                "e tempo de rir"
+              ],
+              "reference": "Eclesiastes 3:1-2"
+            },
+            {
+              "id": "salmos-u4-l4-e5",
+              "kind": "listen",
+              "prompt": "O que você ouviu?",
+              "text": "Tudo tem seu tempo debaixo do céu.",
+              "options": [
+                "Há tempo para tudo nesta vida",
+                "Tudo tem seu tempo debaixo céu",
+                "O tempo é precioso a Deus"
+              ],
+              "answer": "Tudo tem seu tempo debaixo céu",
+              "reference": "Eclesiastes 3:1"
+            },
+            {
+              "id": "salmos-u4-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe os tempos de Eclesiastes 3",
+              "pairs": [
+                {
+                  "left": "Tempo de nascer",
+                  "right": "Tempo de morrer"
+                },
+                {
+                  "left": "Tempo de plantar",
+                  "right": "Tempo de colher"
+                },
+                {
+                  "left": "Tempo de chorar",
+                  "right": "Tempo de rir"
+                },
+                {
+                  "left": "Tempo de amar",
+                  "right": "Tempo de aborrecer"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u4-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete a frase",
+              "text": "\"Tudo tem seu tempo, e há tempo para todo propósito debaixo do _____.\"",
+              "answer": "céu",
+              "reference": "Eclesiastes 3:1",
+              "options": ["céu", "sol"]
+            },
+            {
+              "id": "salmos-u4-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A vida tem significado quando colocamos Deus no centro de tudo.",
+              "isTrue": true,
+              "reference": "Eclesiastes 12:13",
+              "explanation": "Quando tememos a Deus e guardamos Seus mandamentos, nossa vida ganha propósito eterno."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l5",
+          "title": "Revisão - Oração e Arrependimento",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "salmos-u4-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Qual é o propósito do arrependimento?",
+              "text": "O arrependimento é essencial para nossa relação com Deus.",
+              "options": [
+                "Transformar nosso coração e nos restaurar",
+                "Apenas expressar culpa",
+                "Evitar punição de Deus",
+                "Impressionar outras pessoas"
+              ],
+              "answer": "Transformar nosso coração e nos restaurar",
+              "reference": "Salmo 51:10",
+              "explanation": "O arrependimento verdadeiro transforma nosso coração e nos reconcilia com Deus."
+            },
+            {
+              "id": "salmos-u4-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "Deus está sempre pronto a perdoar aqueles que se arrependem sinceramente.",
+              "isTrue": true,
+              "reference": "Salmo 51:1, 139:1",
+              "explanation": "Deus é clemente e sempre abre Seu coração para o arrependimento genuíno."
+            },
+            {
+              "id": "salmos-u4-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "Como devemos orar segundo a Palavra de Deus?",
+              "text": "Jesus nos ensinou através do Pai Nosso como orar corretamente.",
+              "options": [
+                "Com honestidade, fé e reconhecimento de Deus",
+                "Apenas em lugares sagrados",
+                "Com muitas palavras e formalidades",
+                "Apenas para pedir bênçãos"
+              ],
+              "answer": "Com honestidade, fé e reconhecimento de Deus",
+              "reference": "Mateus 6:9-13",
+              "explanation": "A oração verdadeira é comunhão genuine com Deus, reconhecendo Sua santidade e graça."
+            },
+            {
+              "id": "salmos-u4-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Monte o versículo de revisão",
+              "text": "Resumo de oração e arrependimento",
+              "tokens": [
+                "Cria em mim um coração puro",
+                "Senhor tu me conheces",
+                "Pai nosso nos céus",
+                "seja feita tua vontade"
+              ],
+              "distractors": [
+                "restaura minha alma",
+                "e nos liberta do mal",
+                "santificado seja teu nome"
+              ],
+              "reference": "Salmo 51:10, 139:1, Mateus 6:9-10"
+            },
+            {
+              "id": "salmos-u4-l5-e5",
+              "kind": "listen",
+              "prompt": "Qual verdade você ouviu?",
+              "text": "Tudo tem seu tempo debaixo do céu.",
+              "options": [
+                "O tempo é passageiro e breve",
+                "Tudo tem seu tempo debaixo céu",
+                "Há propósito em cada estação"
+              ],
+              "answer": "Tudo tem seu tempo debaixo céu",
+              "reference": "Eclesiastes 3:1"
+            },
+            {
+              "id": "salmos-u4-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Associe os temas finais",
+              "pairs": [
+                {
+                  "left": "Arrependimento",
+                  "right": "Mudança de coração"
+                },
+                {
+                  "left": "Oração",
+                  "right": "Comunhão com Deus"
+                },
+                {
+                  "left": "Conhecimento de Deus",
+                  "right": "Omnisciência divina"
+                },
+                {
+                  "left": "Significado da vida",
+                  "right": "Temor a Deus"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u4-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Ordene o caminho da transformação",
+              "text": "Jornada de transformação espiritual",
+              "tokens": [
+                "Reconhecer o pecado",
+                "Arrepender-se sinceramente",
+                "Confessar a Deus",
+                "Viver transformado"
+              ]
+            },
+            {
+              "id": "salmos-u4-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "Verdadeiro ou falso?",
+              "statement": "A oração e o arrependimento são partes essenciais de uma vida saudável com Deus.",
+              "isTrue": true,
+              "reference": "Salmo 51, 139, Mateus 6:9",
+              "explanation": "Oração sincera e arrependimento genuíno nos mantêm conectados e transformados por Deus."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

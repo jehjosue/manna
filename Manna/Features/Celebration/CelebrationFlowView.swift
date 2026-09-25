@@ -65,7 +65,8 @@ struct CelebrationFlowView: View {
                 .allowsHitTesting(false)
         }
         .onAppear {
-            // Haptics de sucesso
+            // Som e haptics de sucesso
+            SoundFX.play(.lessonComplete)
             let feedback = UINotificationFeedbackGenerator()
             feedback.notificationOccurred(.success)
         }

@@ -1,17 +1,18 @@
 import SwiftUI
 
-/// Topo da lição: botão ✕, barra de progresso com "N SEGUIDAS", e óleo.
+/// Topo da lição: botão ✕, barra de progresso com "N SEGUIDAS", e óleo/haltere/coroa.
 struct LessonHeader: View {
     let progress: Double
     let oil: Int
     let consecutiveCorrect: Int
+    var mode: LessonMode = .normal
     let onQuit: () -> Void
 
     @State private var showQuitConfirm = false
 
     var body: some View {
         VStack(spacing: 12) {
-            // Linha: botão ✕ à esquerda, óleo à direita
+            // Linha: botão ✕ à esquerda, ícone de modo à direita
             HStack {
                 Button(action: { showQuitConfirm = true }) {
                     Image(systemName: "xmark")
@@ -22,7 +23,20 @@ struct LessonHeader: View {
 
                 Spacer()
 
-                StatBadge(icon: .oil, value: "\(oil)")
+                if mode == .practice {
+                    StatBadge(icon: .xp, value: "🏋️")  // representar treino com haltere
+                } else if mode == .legendary {
+                    HStack(spacing: 4) {
+                        Image(systemName: "crown.fill")
+                            .font(.system(size: 16))
+                            .foregroundStyle(Theme.wheat)
+                        Text("LENDÁRIO")
+                            .font(Theme.font(13, .heavy))
+                            .foregroundStyle(Theme.wheat)
+                    }
+                } else {
+                    StatBadge(icon: .oil, value: "\(oil)")
+                }
             }
             .padding(.horizontal, 16)
 
@@ -68,6 +82,9 @@ struct LessonHeader: View {
 }
 
 #Preview {
-    LessonHeader(progress: 0.5, oil: 3, consecutiveCorrect: 3, onQuit: {})
-        .environment(GameState())
+    VStack {
+        LessonHeader(progress: 0.5, oil: 3, consecutiveCorrect: 3, mode: .normal, onQuit: {})
+        Spacer()
+    }
+    .environment(GameState())
 }

@@ -1,16 +1,21 @@
 import SwiftUI
-import UIKit
 
 /// Tela de uma lição: cabeçalho, exercício atual, botão VERIFICAR e faixa de acerto/erro.
 struct LessonView: View {
     @Environment(GameState.self) private var game
     @State private var vm: LessonViewModel
     @State private var showOutOfOil = false
+    @State private var showLegendaryLost = false
+    @State private var didFinish = false
 
+    let lesson: Lesson
+    var mode: LessonMode = .normal
     let onFinish: (LessonOutcome) -> Void
     let onQuit: () -> Void
 
-    init(lesson: Lesson, onFinish: @escaping (LessonOutcome) -> Void, onQuit: @escaping () -> Void) {
+    init(lesson: Lesson, mode: LessonMode = .normal, onFinish: @escaping (LessonOutcome) -> Void, onQuit: @escaping () -> Void) {
+        self.lesson = lesson
+        self.mode = mode
         self.onFinish = onFinish
         self.onQuit = onQuit
         self._vm = State(initialValue: LessonViewModel(lesson: lesson))
@@ -25,6 +30,7 @@ struct LessonView: View {
                     progress: vm.progress,
                     oil: game.oil,
                     consecutiveCorrect: vm.streak,
+                    mode: mode,
                     onQuit: onQuit
                 )
 
@@ -49,7 +55,7 @@ struct LessonView: View {
                     ))
                     .allowsHitTesting(!vm.isShowingFeedback)
 
-                    if exercise.kind != .matchPairs {
+                    if exercise.kind != .matchPairs && exercise.kind != .speak {
                         Button("Verificar") { check() }
                             .buttonStyle(.chunky)
                             .disabled(!vm.canCheck)
@@ -88,6 +94,30 @@ struct LessonView: View {
                 }
                 .transition(.opacity)
             }
+
+            if showLegendaryLost {
+                ZStack {
+                    Color.black.opacity(0.4).ignoresSafeArea()
+                    VStack(spacing: 24) {
+                        SheepView(mood: .sad, size: 140)
+                        Text("Quase lá!")
+                            .font(Theme.font(24, .heavy))
+                            .foregroundStyle(Theme.ink)
+                        Text("Você cometeu 3 erros. Tente de novo!")
+                            .font(Theme.font(16, .semibold))
+                            .foregroundStyle(Theme.inkMuted)
+                            .multilineTextAlignment(.center)
+                        Button("Voltar") { onQuit() }
+                            .buttonStyle(.chunky)
+                            .padding(.horizontal, 16)
+                    }
+                    .padding(24)
+                    .background(Theme.card)
+                    .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                    .padding(.horizontal, 12)
+                }
+                .transition(.opacity)
+            }
         }
         .animation(.spring(response: 0.35, dampingFraction: 0.85), value: vm.feedback)
         .animation(.easeInOut(duration: 0.25), value: vm.showIncentive)
@@ -96,19 +126,45 @@ struct LessonView: View {
             // Encheu a lamparina com maná: volta para a lição.
             if oil > 0 { showOutOfOil = false }
         }
+        .onChange(of: vm.speechAttempt) { _, attempt in
+            // Fala: o reconhecimento terminou → verifica automaticamente (certo ou errado).
+            if attempt != nil && vm.current?.kind == .speak && !vm.isShowingFeedback {
+                check()
+            }
+        }
+        .onChange(of: vm.isFinished) { _, finished in
+            // Termina tanto ao continuar depois do último exercício quanto ao pular o último.
+            if finished && !didFinish {
+                didFinish = true
+                onFinish(vm.outcome)
+            }
+        }
     }
 
     private func check() {
-        let correct = vm.check(game: game)
-        UINotificationFeedbackGenerator().notificationOccurred(correct ? .success : .error)
-        if !correct && game.oil == 0 { showOutOfOil = true }
+        let shouldLoseOil = mode == .normal  // apenas modo normal gasta óleo
+        let correct = vm.check(game: game, shouldLoseOil: shouldLoseOil)
+
+        if correct {
+            Haptics.success()
+            SoundFX.play(.correct)
+        } else {
+            Haptics.error()
+            SoundFX.play(.wrong)
+        }
+
+        // Modo legendário: máx. 2 erros (no 3º, mostrar derrota)
+        if mode == .legendary && vm.mistakes > 2 {
+            showLegendaryLost = true
+        } else if !correct && game.oil == 0 && mode == .normal {
+            showOutOfOil = true
+        }
     }
 
     private func advance() {
         withAnimation(.easeInOut(duration: 0.3)) {
             vm.continueAfterFeedback()
         }
-        if vm.isFinished { onFinish(vm.outcome) }
     }
 }
 
@@ -123,6 +179,10 @@ private struct ExerciseBody: View {
         case .buildVerse: BuildVerseExerciseView(exercise: exercise, vm: vm)
         case .matchPairs: MatchPairsExerciseView(vm: vm)
         case .trueFalse: TrueFalseExerciseView(exercise: exercise, vm: vm)
+        case .listen: ListenExerciseView(exercise: exercise, vm: vm)
+        case .typeAnswer: TypeAnswerExerciseView(exercise: exercise, vm: vm)
+        case .orderEvents: OrderEventsExerciseView(exercise: exercise, vm: vm)
+        case .speak: SpeakExerciseView(exercise: exercise, vm: vm)
         }
     }
 }

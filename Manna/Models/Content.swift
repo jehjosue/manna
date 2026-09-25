@@ -142,6 +142,9 @@ final class ContentStore {
         didSet { UserDefaults.standard.set(selectedJourneyId, forKey: Self.selectedKey) }
     }
 
+    /// Instância única usada pelo app (também injetada via `.environment`).
+    static let shared = ContentStore()
+
     static let defaultJourneyId = "vida-de-jesus"
     private static let selectedKey = "manna.selectedJourneyId"
 

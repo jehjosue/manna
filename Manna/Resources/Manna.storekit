@@ -1,0 +1,38 @@
+{
+  "version": {
+    "major": 3,
+    "minor": 0
+  },
+  "products": [
+    {
+      "id": "app.manna.plus.monthly",
+      "type": "autoRenewableSubscription",
+      "displayName": "Manna Plus Mensal",
+      "subscriptionGroupID": "app.manna.plus",
+      "subscriptionPeriod": "P1M",
+      "price": 19.90,
+      "currency": "BRL",
+      "trialPeriod": null,
+      "territory": "BR",
+      "marketingOptIn": true
+    },
+    {
+      "id": "app.manna.plus.yearly",
+      "type": "autoRenewableSubscription",
+      "displayName": "Manna Plus Anual",
+      "subscriptionGroupID": "app.manna.plus",
+      "subscriptionPeriod": "P1Y",
+      "price": 119.90,
+      "currency": "BRL",
+      "trialPeriod": "P7D",
+      "territory": "BR",
+      "marketingOptIn": true
+    }
+  ],
+  "subscriptionGroups": [
+    {
+      "id": "app.manna.plus",
+      "displayName": "Manna Plus"
+    }
+  ]
+}

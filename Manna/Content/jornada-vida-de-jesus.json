@@ -1,11 +1,31 @@
 {
   "id": "vida-de-jesus",
   "title": "Vida de Jesus",
+  "subtitle": "Do nascimento à ressurreição",
+  "icon": "star.fill",
+  "order": 1,
   "units": [
     {
       "id": "u1",
       "title": "Unidade 1",
       "subtitle": "O nascimento de Jesus",
+      "guide": {
+        "summary": "O nascimento de Jesus cumpre séculos de promessas proféticas. Maria é escolhida como mãe do Salvador, anunciado por anjo, visitado por pastores e magos. Simeão e Ana reconhecem a chegada do Messias esperado. Jesus criança cresceu em sabedoria e graça, como Filho verdadeiro de Deus.",
+        "keyVerses": [
+          {
+            "reference": "Lucas 1:26-27",
+            "text": "Ora, no sexto mês foi enviado o anjo Gabriel, da parte de Deus, a uma cidade da Galileia chamada Nazaré, a uma virgem desposada com certo homem chamado José, da casa de Davi; e o nome da virgem era Maria."
+          },
+          {
+            "reference": "Lucas 2:10-11",
+            "text": "Disse-lhes o anjo: Não temais; eis aqui vos anuncio uma alegria grande, que o será para todo o povo: nasceu-vos hoje, na cidade de Davi, o Salvador, que é Cristo, o Senhor."
+          },
+          {
+            "reference": "Lucas 2:40",
+            "text": "E crescia o menino e se fortalecia, enchendo-se de sabedoria; e a graça de Deus era sobre ele."
+          }
+        ]
+      },
       "lessons": [
         {
           "id": "u1-l1",
@@ -411,7 +431,7 @@
               "statement": "Simeão era um homem idoso que esperava a consolação de Israel.",
               "isTrue": true,
               "reference": "Lucas 2:25-26",
-              "explanation": "Simeão era justo e piedoso, esperando a consolação de Israel, e o Espírito Santo lhe havia revelado que não morreria sem ver o Cristo (Lucas 2:25-26)."
+              "explanation": "Simeão era justo, esperando a consolação de Israel, com promessa do Espírito Santo de ver o Cristo."
             },
             {
               "id": "u1-l4-e3",
@@ -643,6 +663,23 @@
       "id": "u2",
       "title": "Unidade 2",
       "subtitle": "O início do ministério",
+      "guide": {
+        "summary": "O ministério de Jesus começa com seu batismo e a confirmação do Pai. Vence as tentações do deserto e chama seus primeiros discípulos. Seu primeiro milagre em Caná revela seu poder. Nicodemos aprende sobre novo nascimento. Tudo converge para a verdade central: Deus ama o mundo e oferece vida eterna pelo Filho.",
+        "keyVerses": [
+          {
+            "reference": "Mateus 3:16-17",
+            "text": "Batizado Jesus, saiu logo da água, e eis que se lhe abriram os céus, e viu o Espírito de Deus descendo como pomba e vindo sobre ele. E eis uma voz dos céus, que dizia: Este é o meu Filho amado, em quem tenho prazer."
+          },
+          {
+            "reference": "João 3:16",
+            "text": "Porque Deus amou o mundo de tal maneira que deu seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna."
+          },
+          {
+            "reference": "João 1:1",
+            "text": "No princípio era a Palavra, e a Palavra estava com Deus, e a Palavra era Deus."
+          }
+        ]
+      },
       "lessons": [
         {
           "id": "u2-l1",
@@ -863,7 +900,7 @@
               "statement": "O diabo ofereceu a Jesus todos os reinos do mundo se ele se prostasse diante dele.",
               "isTrue": true,
               "reference": "Mateus 4:8-9",
-              "explanation": "O diabo levou Jesus a um monte muito alto e lhe mostrou todos os reinos do mundo em sua glória, oferecendo-os se Jesus se prostasse (Mateus 4:8-9)."
+              "explanation": "O diabo levou Jesus ao monte e mostrou todos os reinos, ofertando-os por adoração (Mateus 4:8-9)."
             },
             {
               "id": "u2-l2-e7",
@@ -1276,6 +1313,23 @@
       "id": "u3",
       "title": "Unidade 3",
       "subtitle": "Ensinos e milagres",
+      "guide": {
+        "summary": "Jesus ensina o caminho para o Reino através das bem-aventuranças e do Pai Nosso, revelando que a verdadeira vida consiste em confiar nele. Suas parábolas desafiam multidões a pensar sobre fé e prioridades. Seus milagres demonstram compaixão e poder divino: alimenta milhares, caminha sobre águas, cura enfermos e ressuscita mortos.",
+        "keyVerses": [
+          {
+            "reference": "Mateus 5:3",
+            "text": "Bem-aventurados os pobres em espírito; porque deles é o reino dos céus."
+          },
+          {
+            "reference": "Mateus 6:9-10",
+            "text": "Portanto, orai vós deste modo: Pai nosso, que estás nos céus, santificado seja o teu nome; venha o teu reino; faça-se a tua vontade, assim na terra como no céu."
+          },
+          {
+            "reference": "Mateus 14:27",
+            "text": "Mas Jesus lhes falou logo, dizendo: Tende bom ânimo, sou eu; não temais."
+          }
+        ]
+      },
       "lessons": [
         {
           "id": "u3-l1",
@@ -1905,6 +1959,23 @@
       "id": "u4",
       "title": "Unidade 4",
       "subtitle": "Morte e ressurreição",
+      "guide": {
+        "summary": "O clímax da vida de Jesus: sua entrada triunfal em Jerusalém, última ceia, julgamento injusto e morte sacrificial. Os discípulos abandonam-no na cruz. Mas no terceiro dia ressuscita, vencendo a morte e o pecado. Aparece aos discípulos, comissiona-os e volta ao Pai, deixando o Espírito Santo como consolador.",
+        "keyVerses": [
+          {
+            "reference": "João 11:25-26",
+            "text": "Disse-lhe Jesus: Eu sou a ressurreição e a vida; quem crê em mim, ainda que morra, viverá; e todo aquele que vive e crê em mim nunca morrerá."
+          },
+          {
+            "reference": "Romanos 6:9",
+            "text": "Sabemos que Cristo, sendo ressuscitado dentre os mortos, não morre mais; a morte não mais tem domínio sobre ele."
+          },
+          {
+            "reference": "1 Coríntios 15:57",
+            "text": "Mas graças a Deus, que nos dá a vitória por nosso Senhor Jesus Cristo."
+          }
+        ]
+      },
       "lessons": [
         {
           "id": "u4-l1",
