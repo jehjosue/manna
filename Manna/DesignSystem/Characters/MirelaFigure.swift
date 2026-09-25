@@ -19,7 +19,7 @@ struct MirelaFigure: View {
                 hairView
 
                 // Cabeça
-                headView(date: timeline.now)
+                headView(date: timeline.date)
 
                 // Fones de ouvido no pescoço
                 earphonesView

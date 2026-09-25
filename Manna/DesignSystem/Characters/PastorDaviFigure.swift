@@ -16,7 +16,7 @@ struct PastorDaviFigure: View {
                 neckView
 
                 // Cabeça
-                headView(date: timeline.now)
+                headView(date: timeline.date)
             }
             .frame(width: size, height: size)
             .characterBreathing(size: size)

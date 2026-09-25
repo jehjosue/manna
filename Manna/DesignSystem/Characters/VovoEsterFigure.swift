@@ -16,7 +16,7 @@ struct VovoEsterFigure: View {
                 neckView
 
                 // Cabeça
-                headView(date: timeline.now)
+                headView(date: timeline.date)
 
                 // Xale lilás
                 shawlView

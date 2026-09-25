@@ -93,7 +93,7 @@ struct PazFigure: View {
 
             // Pálpebras para piscar
             TimelineView(.animation) { timeline in
-                let closed = BlinkClock.isClosed(at: timeline.now, seed: 2.1)
+                let closed = BlinkClock.isClosed(at: timeline.date, seed: 2.1)
                 if closed {
                     // Olho esquerdo fechado
                     Capsule()
@@ -141,7 +141,7 @@ struct PazFigure: View {
     @ViewBuilder
     private var mouthView: some View {
         TimelineView(.animation) { timeline in
-            let mouthOpenAmount = BlinkClock.mouthOpen(at: timeline.now, talking: isTalking)
+            let mouthOpenAmount = BlinkClock.mouthOpen(at: timeline.date, talking: isTalking)
 
             if isTalking && mouthOpenAmount > 0.2 {
                 Ellipse()

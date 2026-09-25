@@ -140,7 +140,7 @@ struct SheepView: View {
     @ViewBuilder
     private var mouthView: some View {
         TimelineView(.animation) { timeline in
-            let mouthOpenAmount = BlinkClock.mouthOpen(at: timeline.now, talking: isTalking)
+            let mouthOpenAmount = BlinkClock.mouthOpen(at: timeline.date, talking: isTalking)
 
             switch mood {
             case .happy:

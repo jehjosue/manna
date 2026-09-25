@@ -94,7 +94,7 @@ struct TitoFigure: View {
 
             // Pálpebras para piscar
             TimelineView(.animation) { timeline in
-                let closed = BlinkClock.isClosed(at: timeline.now, seed: 3.2)
+                let closed = BlinkClock.isClosed(at: timeline.date, seed: 3.2)
                 if closed {
                     Capsule()
                         .fill(Color(hex: 0x9D8B75))
@@ -158,7 +158,7 @@ struct TitoFigure: View {
     @ViewBuilder
     private var mouthView: some View {
         TimelineView(.animation) { timeline in
-            let mouthOpenAmount = BlinkClock.mouthOpen(at: timeline.now, talking: isTalking)
+            let mouthOpenAmount = BlinkClock.mouthOpen(at: timeline.date, talking: isTalking)
 
             if isTalking && mouthOpenAmount > 0.3 {
                 Ellipse()
