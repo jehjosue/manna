@@ -49,10 +49,10 @@ extension GameState {
 
         await FriendsService.shared.publishMyProfile(
             username: profile.username,
-            displayName: profile.displayName.isEmpty ? userName : profile.displayName,
+            displayName: userName,
             game: self,
             avatar: avatar,
-            status: status
+            status: status ?? (profile.status.isEmpty ? nil : profile.status)
         )
     }
 

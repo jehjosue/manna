@@ -141,6 +141,14 @@ final class GroupsService: @unchecked Sendable {
         #endif
     }
 
+
+    /// Salva criando ou sobrescrevendo (save() falha se o registro já existe no servidor).
+    private func upsert(_ record: CKRecord) async throws -> CKRecord {
+        let (saved, _) = try await publicDB.modifyRecords(saving: [record], deleting: [], savePolicy: .allKeys)
+        guard let result = saved[record.recordID] else { return record }
+        return try result.get()
+    }
+
     // MARK: - Operações Públicas
 
     /// Sincroniza o GameState atual (weeklyXP e bread) para todos os grupos do usuário.
@@ -162,7 +170,7 @@ final class GroupsService: @unchecked Sendable {
             record["updatedAt"] = Date()
 
             do {
-                _ = try await publicDB.save(record)
+                _ = try await upsert(record)
             } catch {
                 debugPrint("[GroupsService] Erro ao sincronizar membro para \(code): \(error)")
             }
@@ -185,7 +193,7 @@ final class GroupsService: @unchecked Sendable {
         record["createdAt"] = Date()
 
         do {
-            let saved = try await publicDB.save(record)
+            let saved = try await upsert(record)
 
             // Adicionar à lista local
             var codes = localGroupCodes
@@ -203,7 +211,7 @@ final class GroupsService: @unchecked Sendable {
             memberRecord["weeklyXP"] = 0
             memberRecord["bread"] = 0
             memberRecord["updatedAt"] = Date()
-            _ = try await publicDB.save(memberRecord)
+            _ = try await upsert(memberRecord)
 
             return MannaGroup(
                 id: saved.recordID.recordName,
@@ -250,7 +258,7 @@ final class GroupsService: @unchecked Sendable {
             memberRecord["bread"] = 0
             memberRecord["updatedAt"] = Date()
 
-            _ = try await publicDB.save(memberRecord)
+            _ = try await upsert(memberRecord)
 
             // Adicionar à lista local
             var codes = localGroupCodes
@@ -317,7 +325,7 @@ final class GroupsService: @unchecked Sendable {
         record["createdAt"] = Date()
 
         do {
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
 
             // Recarregar incentivos do grupo
             if let index = myGroups.firstIndex(where: { $0.code == groupCode }) {

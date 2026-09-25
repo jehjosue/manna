@@ -273,6 +273,27 @@ final class FriendsService: @unchecked Sendable {
         #endif
     }
 
+
+    /// Registros em que fieldA == valor OU fieldB == valor (CloudKit não suporta OR num predicado).
+    private func recordsWhereEither(type: String, fieldA: String, fieldB: String, equals value: String) async throws -> [CKRecord] {
+        var byId: [CKRecord.ID: CKRecord] = [:]
+        for field in [fieldA, fieldB] {
+            let query = CKQuery(recordType: type, predicate: NSPredicate(format: "%K == %@", field, value))
+            let result = try await publicDB.records(matching: query)
+            for (id, item) in result.matchResults {
+                if let record = try? item.get() { byId[id] = record }
+            }
+        }
+        return Array(byId.values)
+    }
+
+    /// Salva criando ou sobrescrevendo (save() falha se o registro já existe no servidor).
+    private func upsert(_ record: CKRecord) async throws -> CKRecord {
+        let (saved, _) = try await publicDB.modifyRecords(saving: [record], deleting: [], savePolicy: .allKeys)
+        guard let result = saved[record.recordID] else { return record }
+        return try result.get()
+    }
+
     // MARK: - Operações Públicas
 
     /// Publica o perfil do usuário atual na CloudKit.
@@ -291,7 +312,7 @@ final class FriendsService: @unchecked Sendable {
         record["updatedAt"] = Date()
 
         do {
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
         } catch {
             debugPrint("[FriendsService] Erro ao publicar perfil: \(error)")
         }
@@ -302,7 +323,7 @@ final class FriendsService: @unchecked Sendable {
         guard !isPreview, !username.isEmpty else { return [] }
 
         do {
-            let predicate = NSPredicate(format: "username CONTAINS[cd] %@", username)
+            let predicate = NSPredicate(format: "username BEGINSWITH %@", ProfileIdentityStore.sanitize(username))
             let query = CKQuery(recordType: "MannaProfile", predicate: predicate)
             let matchResults = try await publicDB.records(matching: query, resultsLimit: 20)
 
@@ -330,7 +351,7 @@ final class FriendsService: @unchecked Sendable {
         record["createdAt"] = Date()
 
         do {
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
             await refresh()
             return true
         } catch {
@@ -479,7 +500,7 @@ final class FriendsService: @unchecked Sendable {
         record["createdAt"] = Date()
 
         do {
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
             return true
         } catch {
             debugPrint("[FriendsService] Erro ao postar evento: \(error)")
@@ -500,7 +521,7 @@ final class FriendsService: @unchecked Sendable {
         record["createdAt"] = Date()
 
         do {
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
             await refresh()
             return true
         } catch {
@@ -540,7 +561,7 @@ final class FriendsService: @unchecked Sendable {
         record["createdAt"] = Date()
 
         do {
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
             return true
         } catch {
             debugPrint("[FriendsService] Erro ao enviar nudge: \(error)")
@@ -609,7 +630,7 @@ final class FriendsService: @unchecked Sendable {
         record["createdAt"] = Date()
 
         do {
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
             await refresh()
             return true
         } catch {
@@ -625,9 +646,9 @@ final class FriendsService: @unchecked Sendable {
         let id = CKRecord.ID(recordName: streakId)
 
         do {
-            let record = try await publicDB.fetch(withID: id)
+            let record = try await publicDB.record(for: id)
             record["status"] = "active"
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
             await refresh()
             return true
         } catch {
@@ -659,7 +680,7 @@ final class FriendsService: @unchecked Sendable {
         let id = CKRecord.ID(recordName: streakId)
 
         do {
-            let record = try await publicDB.fetch(withID: id)
+            let record = try await publicDB.record(for: id)
             let userA = record["userA"] as? String ?? ""
             let userB = record["userB"] as? String ?? ""
 
@@ -680,7 +701,7 @@ final class FriendsService: @unchecked Sendable {
                 }
             }
 
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
             await refresh()
             return true
         } catch {
@@ -705,7 +726,7 @@ final class FriendsService: @unchecked Sendable {
         record["createdAt"] = Date()
 
         do {
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
             await refresh()
             return true
         } catch {
@@ -742,7 +763,7 @@ final class FriendsService: @unchecked Sendable {
         record["createdAt"] = Date()
 
         do {
-            _ = try await publicDB.save(record)
+            _ = try await upsert(record)
             return true
         } catch {
             debugPrint("[FriendsService] Erro ao denunciar usuário: \(error)")
@@ -797,7 +818,7 @@ final class FriendsService: @unchecked Sendable {
     private func loadProfile(userId: String) async -> MannaPublicProfile? {
         do {
             let id = CKRecord.ID(recordName: userId)
-            let record = try await publicDB.fetch(withID: id)
+            let record = try await publicDB.record(for: id)
             return parseMannaProfile(record)
         } catch {
             debugPrint("[FriendsService] Erro ao carregar perfil \(userId): \(error)")
@@ -862,13 +883,8 @@ final class FriendsService: @unchecked Sendable {
         guard !isPreview, let myId = userRecordID?.recordName else { return [] }
 
         do {
-            let predicate = NSPredicate(format: "userA == %@ OR userB == %@", myId, myId)
-            let query = CKQuery(recordType: "MannaFriendStreak", predicate: predicate)
-            let matchResults = try await publicDB.records(matching: query)
-
-            let records = matchResults.matchResults.compactMap { _, result -> CKRecord? in
-                try? result.get()
-            }
+            // CloudKit não aceita OR: duas consultas e junta.
+            let records = try await recordsWhereEither(type: "MannaFriendStreak", fieldA: "userA", fieldB: "userB", equals: myId)
 
             return records.compactMap { record in
                 let userA = record["userA"] as? String ?? ""
@@ -902,13 +918,8 @@ final class FriendsService: @unchecked Sendable {
         let weekKey = gameWeekKey()
 
         do {
-            let predicate = NSPredicate(format: "(userA == %@ OR userB == %@) AND weekKey == %@", myId, myId, weekKey)
-            let query = CKQuery(recordType: "MannaDuoQuest", predicate: predicate)
-            let matchResults = try await publicDB.records(matching: query)
-
-            let records = matchResults.matchResults.compactMap { _, result -> CKRecord? in
-                try? result.get()
-            }
+            let records = try await recordsWhereEither(type: "MannaDuoQuest", fieldA: "userA", fieldB: "userB", equals: myId)
+                .filter { ($0["weekKey"] as? String) == weekKey }
 
             return records.compactMap { record in
                 let userA = record["userA"] as? String ?? ""
