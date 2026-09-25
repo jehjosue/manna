@@ -115,7 +115,7 @@ struct RadioPlayerView: View {
                                         .offset(y: animateContent ? 0 : 10)
 
                                     VStack(spacing: 8) {
-                                        ForEach(Array(step.options?.enumerated() ?? []), id: \.element) { index, option in
+                                        ForEach(Array((step.options ?? []).enumerated()), id: \.element) { index, option in
                                             Button {
                                                 selectedAnswer = option
                                                 checkAnswer(option, correctAnswer: step.answer ?? "")
@@ -158,7 +158,7 @@ struct RadioPlayerView: View {
                                 .background(Theme.card)
                                 .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                                 .opacity(animateContent ? 1 : 0)
-                                .scale(animateContent ? 1 : 0.8, anchor: .center)
+                                .scaleEffect(animateContent ? 1 : 0.8, anchor: .center)
                             }
 
                             // Feedback

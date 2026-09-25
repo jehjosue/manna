@@ -91,7 +91,7 @@ struct ConversationDetailView: View {
                             .background(Theme.card)
                             .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                             .opacity(animateContent ? 1 : 0)
-                            .scale(animateContent ? 1 : 0.8, anchor: .center)
+                            .scaleEffect(animateContent ? 1 : 0.8, anchor: .center)
                             .animation(
                                 reduceMotion ? .none : .easeOut(duration: 0.4),
                                 value: animateContent
