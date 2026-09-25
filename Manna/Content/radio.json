@@ -1,0 +1,415 @@
+[
+  {
+    "id": "radio-episodio-1",
+    "title": "Os Dez Mandamentos",
+    "subtitle": "Episódio 1",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Bem-vindo ao Rádio Manna. Hoje vamos explorar os dez mandamentos que Deus deu a Moisés no Monte Sinai."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Oi! Eu sou Béé! Estou muito feliz em estar aqui aprendendo com você!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Os primeiros mandamentos falam sobre amar a Deus. Devemos colocá-lo em primeiro lugar em nossas vidas."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Que legal! Isso significa que Deus é super importante para nós."
+      },
+      {
+        "kind": "question",
+        "text": "Qual é o tema do episódio de hoje?",
+        "options": ["Os dez mandamentos", "A história de Noé", "O reino de Israel"],
+        "answer": "Os dez mandamentos"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Exatamente! Os mandamentos nos guiam para viver bem, respeitando a Deus e uns aos outros."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "E isso torna a gente uma pessoa melhor!"
+      },
+      {
+        "kind": "question",
+        "text": "Onde Deus deu os dez mandamentos a Moisés?",
+        "options": ["No Egito", "No Monte Sinai", "No deserto"],
+        "answer": "No Monte Sinai"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Que ótimo! Você aprendeu muito hoje. Até o próximo episódio!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-2",
+    "title": "A Arca de Noé",
+    "subtitle": "Episódio 2",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Bem-vindo de volta ao Rádio Manna! Hoje vamos conhecer a história de Noé e da Grande Arca."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Oba! Eu adoro essa história! Há animais por toda parte!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Deus pediu a Noé que construísse uma arca para salvar sua família e os animais do dilúvio."
+      },
+      {
+        "kind": "question",
+        "text": "Qual foi o pedido de Deus a Noé?",
+        "options": ["Fugir do país", "Construir uma arca", "Pregar para o povo"],
+        "answer": "Construir uma arca"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "E Noé era bem velhinho, mas confiava em Deus mesmo assim!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "A arca tinha 150 metros de comprimento e levava animais de cada espécie. Noé trabalhou por muitos anos construindo-a."
+      },
+      {
+        "kind": "question",
+        "text": "Por quanto tempo choveu durante o dilúvio?",
+        "options": ["7 dias", "40 dias", "100 dias"],
+        "answer": "40 dias"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Quando a chuva parou, Deus fez aparecer um arco-íris como promessa de que nunca haveria outro dilúvio."
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-3",
+    "title": "Moisés e o Mar Vermelho",
+    "subtitle": "Episódio 3",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Bem-vindo ao terceiro episódio do Rádio Manna! Hoje vamos falar sobre Moisés e o milagre do Mar Vermelho."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Que maneiro! Água que se divide? Isso é tipo magia!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Não é magia, é um milagre de Deus! Moisés liderou o povo hebreu para sair do Egito, onde eram escravos."
+      },
+      {
+        "kind": "question",
+        "text": "Por que o povo precisava sair do Egito?",
+        "options": ["Porque era muito quente", "Porque eram escravos", "Porque não tinha comida"],
+        "answer": "Porque eram escravos"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "E Moisés usava um bastão para fazer coisas incríveis!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Quando o faraó perseguiu o povo, Moisés levantou o bastão e as águas do Mar Vermelho se dividiram, formando um caminho seco."
+      },
+      {
+        "kind": "question",
+        "text": "O que Moisés fez com seu bastão no Mar Vermelho?",
+        "options": ["Pescou peixes", "Dividiu as águas", "Criou chuva"],
+        "answer": "Dividiu as águas"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "O povo caminhou entre as águas e chegou em segurança do outro lado. Obrigado por nos acompanhar!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-4",
+    "title": "Sansão, o Homem Forte",
+    "subtitle": "Episódio 4",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Bem-vindo ao quarto episódio do Rádio Manna! Hoje vamos falar sobre Sansão e sua força extraordinária."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Sansão? Ah sim! Ele era muito, muito forte!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Sansão recebeu de Deus uma força sobre-humana. Ele podia derrotar centenas de inimigos sozinho."
+      },
+      {
+        "kind": "question",
+        "text": "De onde vinha a força de Sansão?",
+        "options": ["De seu treino especial", "Do cabelo longo", "De Deus"],
+        "answer": "De Deus"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Mas tinha um segredo... Seu cabelo era importante de alguma forma!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Sim! O cabelo de Sansão era um sinal de sua promessa com Deus. Enquanto não cortava, mantinha sua força."
+      },
+      {
+        "kind": "question",
+        "text": "O que acontecia com a força de Sansão se cortassem seu cabelo?",
+        "options": ["Nada mudava", "Ele a perdia", "Ficava ainda mais forte"],
+        "answer": "Ele a perdia"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Sansão nos ensina que confiar em Deus nos dá poder, mas também precisamos ser fiéis. Até logo!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-5",
+    "title": "Esther, a Rainha Corajosa",
+    "subtitle": "Episódio 5",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Bem-vindo ao Rádio Manna! Hoje vamos falar sobre Esther, uma mulher corajosa que salvou seu povo."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Esther? Que nome bonito! Qual é a história dela?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Esther era uma mulher judia que se tornou rainha de um reino poderoso, apesar de ser órfã."
+      },
+      {
+        "kind": "question",
+        "text": "Como Esther se tornou rainha?",
+        "options": ["Nasceu de família real", "Foi escolhida pelo rei", "Lutou contra inimigos"],
+        "answer": "Foi escolhida pelo rei"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "E aí? Que desafio ela enfrentou?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Um homem malvado chamado Hamã queria destruir todos os judeus. Esther, mesmo com medo, foi ao rei e revelou a verdade."
+      },
+      {
+        "kind": "question",
+        "text": "O que Esther fez para salvar seu povo?",
+        "options": ["Entrou em guerra", "Foi corajosa e revelou a verdade ao rei", "Fugiu do reino"],
+        "answer": "Foi corajosa e revelou a verdade ao rei"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Esther nos mostra que a coragem vem de dentro, e que podemos fazer a diferença mesmo enfrentando obstáculos. Até próxima!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-6",
+    "title": "Abraão e a Fé",
+    "subtitle": "Episódio 6",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Bem-vindo ao sexto episódio! Hoje vamos falar sobre Abraão e como sua fé mudou a história."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Abraão! Ele viajou muito, né? Deixou sua casa e tudo mais!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Exatamente! Deus chamou Abraão para deixar sua terra e sua família para ir a um lugar que ele não conhecia."
+      },
+      {
+        "kind": "question",
+        "text": "Por que Abraão deixou sua terra?",
+        "options": ["Para fugir de inimigos", "Porque Deus o chamou", "Para buscar riqueza"],
+        "answer": "Porque Deus o chamou"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Mas e aí? Como ele confiava se não sabia para onde ia?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Abraão tinha uma coisa especial: a fé. Ele confiava que Deus cuidaria dele, mesmo sem saber o caminho."
+      },
+      {
+        "kind": "question",
+        "text": "Qual é a principal qualidade que Abraão mostrou?",
+        "options": ["Força", "Riqueza", "Fé"],
+        "answer": "Fé"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "E assim Abraão se tornou o pai de uma multidão! Confiar em Deus abre portas incríveis. Obrigado por estar conosco!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-7",
+    "title": "Jó e a Paciência",
+    "subtitle": "Episódio 7",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Bem-vindo ao sétimo episódio do Rádio Manna! Hoje vamos falar sobre Jó, um homem que enfrentou grandes dificuldades com paciência."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Dificuldades? Que tipo de dificuldades?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Jó era um homem muito rico e respeitado. Mas de repente perdeu tudo: sua família, seus animais, sua riqueza."
+      },
+      {
+        "kind": "question",
+        "text": "Como Jó reagiu quando perdeu tudo?",
+        "options": ["Desistiu de Deus", "Permaneceu confiante e paciente", "Deixou o reino"],
+        "answer": "Permaneceu confiante e paciente"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Que incrível! Como ele conseguiu manter a fé mesmo perdendo tudo?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Jó sabia que a fé não depende de ter muitas coisas, mas de confiar em Deus acima de tudo."
+      },
+      {
+        "kind": "question",
+        "text": "Qual é a lição principal da história de Jó?",
+        "options": ["Dinheiro é tudo", "A paciência e fé nos sustentam", "Não vale a pena confiar"],
+        "answer": "A paciência e fé nos sustentam"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Jó nos ensina que mesmo nas piores situações, podemos encontrar força na fé. Até o próximo episódio!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-8",
+    "title": "Pedro, a Rocha",
+    "subtitle": "Episódio 8",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Bem-vindo ao último episódio desta temporada do Rádio Manna! Hoje vamos conhecer Pedro, discípulo de Jesus."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Pedro? Ele foi importante, não foi?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Muito! Pedro era pescador quando Jesus o chamou. Ele se tornou um dos apóstolos mais dedicados."
+      },
+      {
+        "kind": "question",
+        "text": "Qual era a profissão de Pedro antes de seguir Jesus?",
+        "options": ["Carpinteiro", "Pescador", "Soldado"],
+        "answer": "Pescador"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "E por que Jesus escolheu dar a ele o nome 'Rocha'?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Jesus chamou Pedro de 'Cefas', que significa 'Rocha', porque ele seria firme e confiável no serviço a Deus."
+      },
+      {
+        "kind": "question",
+        "text": "O que o nome 'Rocha' simboliza na história de Pedro?",
+        "options": ["Dureza de coração", "Firmeza e força de caráter", "Peso de responsabilidades"],
+        "answer": "Firmeza e força de caráter"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrador",
+        "text": "Pedro nos ensina que todos podemos mudar e nos tornar mais fortes através da fé. Obrigado por acompanhar o Rádio Manna!"
+      }
+    ]
+  }
+]

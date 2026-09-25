@@ -74,6 +74,7 @@ struct LessonView: View {
                     title: feedback.title,
                     explanation: feedback.explanation,
                     correctAnswer: feedback.correctAnswer,
+                    exercise: vm.current,
                     onContinue: advance
                 )
                 .transition(.move(edge: .bottom))

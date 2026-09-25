@@ -6,7 +6,10 @@ struct FeedbackBanner: View {
     let title: String
     let explanation: String?
     let correctAnswer: String?
+    let exercise: Exercise?
     let onContinue: () -> Void
+
+    @State private var showExplainSheet = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -51,6 +54,19 @@ struct FeedbackBanner: View {
                         .foregroundStyle(Theme.ink)
                         .multilineTextAlignment(.center)
                 }
+
+                // Botão Entenda a Resposta (se houver exercise)
+                if let exercise = exercise, !isCorrect {
+                    Button(action: { showExplainSheet = true }) {
+                        Text("Entenda a Resposta")
+                            .font(Theme.font(13, .semibold))
+                            .foregroundStyle(Theme.oil)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(8)
+                    .background(Theme.oil.opacity(0.15))
+                    .clipShape(RoundedRectangle(cornerRadius: 6, style: .continuous))
+                }
             }
             .padding(.vertical, 20)
             .padding(.horizontal, 16)
@@ -70,6 +86,13 @@ struct FeedbackBanner: View {
             .background(isCorrect ? Theme.oliveLight : Theme.terracottaLight)
         }
         .transition(.move(edge: .bottom).combined(with: .opacity))
+        .sheet(isPresented: $showExplainSheet) {
+            if let exercise = exercise {
+                ExplainAnswerSheet(exercise: exercise) {
+                    showExplainSheet = false
+                }
+            }
+        }
     }
 }
 

@@ -27,6 +27,19 @@
       "trialPeriod": "P7D",
       "territory": "BR",
       "marketingOptIn": true
+    },
+    {
+      "id": "app.manna.plus.family.yearly",
+      "type": "autoRenewableSubscription",
+      "displayName": "Manna Plus Família (Anual)",
+      "subscriptionGroupID": "app.manna.plus",
+      "subscriptionPeriod": "P1Y",
+      "price": 199.90,
+      "currency": "BRL",
+      "trialPeriod": "P7D",
+      "territory": "BR",
+      "marketingOptIn": true,
+      "familyShareable": true
     }
   ],
   "subscriptionGroups": [

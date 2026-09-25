@@ -1,0 +1,179 @@
+[
+  {
+    "id": "ligacao-bemvindo",
+    "title": "Bem-vindo, amigo!",
+    "subtitle": "Ligação 1",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "Oi! Que legal falar com você! Como você está?",
+        "isUserTurn": false,
+        "keywordMatches": ["bem", "ótimo", "feliz", "bom"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Que bom! Sabe, eu amo aprender sobre histórias bíblicas com você. Qual é a sua história favorita da Bíblia?",
+        "isUserTurn": true,
+        "keywordMatches": ["jesus", "davi", "noé", "moisés", "abraão"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Que legal! Essas histórias são tão inspiradoras. Você acredita em Deus?",
+        "isUserTurn": true,
+        "keywordMatches": ["sim", "acredito", "creia", "deus"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Que maravilhoso! Sua fé é muito importante. Continue aprendendo e crescendo espiritualmente!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-coragem",
+    "title": "Sobre Coragem e Fé",
+    "subtitle": "Ligação 2",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "Olá! Tudo bem? Você está sentindo medo de algo hoje?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "Entendo... Sabe, a Bíblia fala muito sobre coragem. Você sabe de alguma história de coragem?",
+        "isUserTurn": true,
+        "keywordMatches": ["davi", "esther", "pedro", "sansão", "noé"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Ótimo! Essas são histórias de pessoas reais que confiaram em Deus. Você já teve um momento onde precisou de coragem?",
+        "isUserTurn": true,
+        "keywordMatches": ["sim", "não", "sim já", "nuca", "nunca"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Independentemente, saiba que Deus está sempre ao seu lado, assim como esteve com Davi, Esther e muitos outros. Você não está sozinho!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-bondade",
+    "title": "O Poder da Bondade",
+    "subtitle": "Ligação 3",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "Oi! Hoje quero falar sobre bondade com você. Você fez algo gentil hoje?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "Como assim? Você ajudou alguém? Contei uma história engraçada? Fale mais!",
+        "isUserTurn": true,
+        "keywordMatches": ["sim", "não", "talvez", "ajudei", "fiz", "não fiz"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Saiba que mesmo as pequenas ações de bondade fazem uma grande diferença. Jesus ensinou que amar ao próximo é essencial.",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "Que tal, hoje, você tenta fazer um ato de bondade? Pode ser algo simples como ajudar alguém, sorrir ou ouvir.",
+        "isUserTurn": true,
+        "keywordMatches": ["vou tentar", "sim", "claro", "ok", "pode ser"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Perfeito! A bondade volta sempre. Continue sendo gentil e espalhe amor por onde você vai!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-perdao",
+    "title": "O Poder do Perdão",
+    "subtitle": "Ligação 4",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "Oi amigo! Hoje vamos falar sobre perdão. Alguém te magoou ou você magoou alguém?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "Ah, entendo. Perdão é difícil, mas muito importante. Jesus ensinou que devemos perdoar setenta vezes sete!",
+        "isUserTurn": true,
+        "keywordMatches": ["sim", "magoei", "me magoaram", "não", "sim, magoaram"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Você acha que consegue perdoar essa pessoa? Ou a você mesmo se cometeu um erro?",
+        "isUserTurn": true,
+        "keywordMatches": ["sim", "posso", "vou tentar", "talvez", "não sei", "acho que sim"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "O perdão liberta o coração e traz paz. Quando você perdoa, não carrega mais esse peso. Tente!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-esperanca",
+    "title": "A Esperança no Coração",
+    "subtitle": "Ligação 5",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "Oi! Tudo bem? Hoje é um dia especial para falarmos sobre esperança. O que te traz esperança?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "Que bonito! Esperança é poderosa. Sabe, muitas pessoas na Bíblia tiveram esperança mesmo em tempos difíceis.",
+        "isUserTurn": true,
+        "keywordMatches": ["deus", "fé", "família", "amigos", "futuro", "vida"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Você já leu sobre Jó? Ele perdeu tudo mas manteve sua esperança e fé. Você se inspira em histórias assim?",
+        "isUserTurn": true,
+        "keywordMatches": ["sim", "não", "talvez", "ouvi falar", "não conheço"]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Então deixe-me contar: Jó sofreu muito, mas nunca perdeu a fé em Deus. Isso é inspirador, não é?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "Mantenha a esperança viva em seu coração. Deus tem planos bons para você! Até a próxima!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  }
+]

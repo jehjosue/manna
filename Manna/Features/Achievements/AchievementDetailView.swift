@@ -6,6 +6,8 @@ struct AchievementDetailView: View {
     @Environment(AchievementStore.self) var store
     @Environment(\.dismiss) var dismiss
 
+    @State private var showShareSheet = false
+
     var body: some View {
         ZStack {
             Theme.cream.ignoresSafeArea()
@@ -18,6 +20,11 @@ struct AchievementDetailView: View {
                             .foregroundStyle(Theme.ink)
                     }
                     Spacer()
+                    Button(action: { showShareSheet = true }) {
+                        Image(systemName: "square.and.arrow.up")
+                            .font(.system(size: 16, weight: .semibold))
+                            .foregroundStyle(Theme.wheat)
+                    }
                 }
                 .padding(.horizontal, 20)
                 .padding(.vertical, 16)
@@ -73,6 +80,28 @@ struct AchievementDetailView: View {
             }
         }
         .navigationBarHidden(true)
+        .sheet(isPresented: $showShareSheet) {
+            shareAchievementSheet
+        }
+    }
+
+    @ViewBuilder
+    private var shareAchievementSheet: some View {
+        let maxTier = store.maxUnlockedTier(for: achievement.id)
+        if let tier = maxTier,
+           let image = ShareCardRenderer.achievementCard(
+               achievement: achievement,
+               tier: tier,
+               gameName: game.userName
+           ),
+           let uiImage = image.asUIImage() {
+            ShareSheet(items: [uiImage])
+        } else {
+            Text("Nenhuma conquista desbloqueada para compartilhar")
+                .font(Theme.font(14, .semibold))
+                .foregroundStyle(Theme.inkMuted)
+                .padding(20)
+        }
     }
 
     private func valueForAchievement(_ id: String, game: GameState) -> Int {

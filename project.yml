@@ -39,9 +39,13 @@ targets:
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.education
         INFOPLIST_KEY_NSMicrophoneUsageDescription: "O Manna usa o microfone para você ler versículos em voz alta nos exercícios de fala."
         INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: "O Manna reconhece sua voz para conferir a leitura dos versículos."
+        INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription: "O Manna precisa de permissão para salvar suas conquistas e retrospectiva como imagens na Fotos."
         INFOPLIST_KEY_GKGameCenterBadgingDisabled: YES
+        INFOPLIST_KEY_NSSupportsLiveActivities: YES
         TARGETED_DEVICE_FAMILY: "1"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES: night olive light
+        ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS: YES
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         CODE_SIGN_STYLE: Automatic
   MannaWidget:

@@ -18,6 +18,8 @@ struct PracticeHubView: View {
 
     var canReviewErrors: Bool { !game.mistakeIds.isEmpty }
     var canTrainVerses: Bool { game.completedLessonCount > 0 }
+    @State private var showMyVerses = false
+    @State private var showMistakesList = false
 
     var body: some View {
         NavigationStack {
@@ -95,6 +97,27 @@ struct PracticeHubView: View {
                                 .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                             }
 
+                            // Card 5: Meus versículos
+                            CardButton(
+                                isEnabled: game.completedLessonCount > 0,
+                                icon: Image(systemName: "book.pages.fill").font(.system(size: 28)).foregroundStyle(Theme.bread),
+                                title: "Meus Versículos",
+                                subtitle: game.completedLessonCount > 0 ? "Coleção de versículos" : "Complete uma lição primeiro",
+                                onTap: { showMyVerses = true }
+                            )
+
+                            // Card 6: Lista de erros
+                            CardButton(
+                                isEnabled: canReviewErrors,
+                                icon: Image(systemName: "list.bullet").font(.system(size: 28)).foregroundStyle(Theme.terracotta),
+                                title: "Lista de Erros",
+                                subtitle: canReviewErrors ? "\(game.mistakeIds.count) exercício\(game.mistakeIds.count == 1 ? "" : "s")" : "Nenhum erro",
+                                onTap: { showMistakesList = true }
+                            )
+
+                            // PracticeModesSection
+                            PracticeModesSection()
+
                             // Info card
                             HStack(spacing: 12) {
                                 Image(systemName: "lightbulb.fill")
@@ -153,6 +176,12 @@ struct PracticeHubView: View {
                     selectedCard = nil
                 }
             }
+        }
+        .sheet(isPresented: $showMyVerses) {
+            MyVersesView()
+        }
+        .sheet(isPresented: $showMistakesList) {
+            MistakesListView()
         }
     }
 

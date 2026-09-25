@@ -7,6 +7,7 @@ struct TopStatsBar: View {
     @Environment(\.selectAppTab) private var selectTab
     @State private var showCourseSheet = false
     @State private var showOilSheet = false
+    @State private var showBibleLevel = false
 
     var body: some View {
         HStack(spacing: 12) {
@@ -77,6 +78,20 @@ struct TopStatsBar: View {
                 .background(Color(hex: 0xFFD700).opacity(0.1))
                 .cornerRadius(4)
             }
+
+            // MARK: - Nível bíblico (touchable)
+            Button(action: { showBibleLevel = true }) {
+                VStack(spacing: 1) {
+                    Text("Nível")
+                        .font(Theme.font(10, .heavy))
+                    Image(systemName: "chart.bar.fill")
+                        .font(.system(size: 8, weight: .bold))
+                }
+                .foregroundStyle(Theme.oil)
+                .padding(4)
+                .background(Theme.oil.opacity(0.1))
+                .cornerRadius(4)
+            }
         }
         .padding(.horizontal, 12)
         .padding(.vertical, 10)
@@ -88,6 +103,9 @@ struct TopStatsBar: View {
         }
         .sheet(isPresented: $showOilSheet) {
             OilExplanationSheet(isPresented: $showOilSheet)
+        }
+        .sheet(isPresented: $showBibleLevel) {
+            BibleLevelView()
         }
     }
 }

@@ -14,6 +14,10 @@ struct LeaguesView: View {
                 Theme.cream.ignoresSafeArea()
 
                 VStack(spacing: 0) {
+                    // Banner sem conexão
+                    OfflineBanner()
+                        .padding(.vertical, 12)
+
                     // Cabeçalho da Liga
                     LeagueHeaderView()
                         .environment(game)

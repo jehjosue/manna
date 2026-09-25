@@ -7,6 +7,7 @@ struct HomeView: View {
     @State private var route: HomeRoute?
     @State private var showOilEmpty = false
     @State private var showRestNotice = false
+    @State private var showSections = false
 
     var body: some View {
         ZStack {
@@ -29,6 +30,23 @@ struct HomeView: View {
                     TopStatsBar()
                         .padding(.horizontal, 16)
                         .padding(.vertical, 10)
+
+                    Button { showSections = true } label: {
+                        HStack(spacing: 6) {
+                            Image(systemName: "square.stack.3d.up.fill")
+                            Text(journey.title)
+                                .lineLimit(1)
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 11, weight: .bold))
+                        }
+                        .font(Theme.font(13, .bold))
+                        .foregroundStyle(Theme.inkMuted)
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.bottom, 6)
+                    .sheet(isPresented: $showSections) {
+                        SectionsOverviewView(journey: journey)
+                    }
 
                     ScrollViewReader { proxy in
                         ScrollView {
@@ -112,6 +130,7 @@ struct UnitSection: View {
     @State private var showGuide = false
     @State private var showTreasure = false
     @State private var showLegendary = false
+    @State private var showTopicDetail = false
 
     /// Deslocamento horizontal de cada lição (padrão senoidal).
     private static let zigzag: [CGFloat] = [0, -60, -90, -60, 0, 60, 90, 60]
@@ -175,6 +194,9 @@ struct UnitSection: View {
         .sheet(isPresented: $showGuide) {
             UnitGuideView(unit: unit)
         }
+        .sheet(isPresented: $showTopicDetail) {
+            TopicDetailView(unit: unit)
+        }
         .fullScreenCover(isPresented: $showTreasure) {
             TreasureRewardView(unitId: unit.id, onDone: { showTreasure = false })
         }
@@ -237,6 +259,16 @@ struct UnitSection: View {
 
             // Botões de ação
             HStack(spacing: 8) {
+                // Botão de detalhes (informações)
+                Button(action: { showTopicDetail = true }) {
+                    Image(systemName: "info.circle.fill")
+                        .font(.system(size: 14, weight: .bold))
+                        .frame(width: 32, height: 32)
+                        .background(Color.white.opacity(0.2))
+                        .cornerRadius(8)
+                        .foregroundStyle(.white)
+                }
+
                 // Botão de guia (caderno)
                 Button(action: { showGuide = true }) {
                     Image(systemName: "book.fill")

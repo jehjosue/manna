@@ -5,7 +5,12 @@ struct ChallengeView: View {
     let pairs: [(left: String, right: String)]
     let onFinish: (Int) -> Void  // passa o número de pares acertados
 
-    @State private var timeRemaining = 60
+    @State private var timeRemaining: Int = {
+        let baseTime = 60
+        let boost = BoostInventoryStore.shared.consumeTimerBoost() ? 15 : 0
+        return baseTime + boost
+    }()
+    @State private var baseDuration = 60
     @State private var pairsMatched = 0
     @State private var leftSelected: Int?
     @State private var rightSelected: Int?
@@ -31,7 +36,7 @@ struct ChallengeView: View {
                             Circle()
                                 .stroke(Theme.line, lineWidth: 6)
                             Circle()
-                                .trim(from: 0, to: Double(timeRemaining) / 60)
+                                .trim(from: 0, to: Double(timeRemaining) / Double(baseDuration))
                                 .stroke(Theme.wheat, lineWidth: 6)
                                 .rotationEffect(.degrees(-90))
                                 .animation(.linear, value: timeRemaining)
@@ -58,6 +63,17 @@ struct ChallengeView: View {
                             Text("\(pairsMatched)")
                                 .font(Theme.font(32, .heavy))
                                 .foregroundStyle(Theme.wheat)
+                        }
+
+                        // Indicador de boost
+                        if timeRemaining > 60 {
+                            Text("+15s")
+                                .font(Theme.font(11, .heavy))
+                                .foregroundStyle(Theme.manna)
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 4)
+                                .background(Theme.manna.opacity(0.15))
+                                .clipShape(RoundedRectangle(cornerRadius: 4, style: .continuous))
                         }
                     }
 

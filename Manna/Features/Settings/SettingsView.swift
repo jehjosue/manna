@@ -12,8 +12,18 @@ struct SettingsView: View {
     @State private var showReminder = false
     @State private var showBiblicalSources = false
     @State private var showAboutLinks = false
+    @State private var showNotifications = false
+    @State private var showAppIcons = false
+    @State private var showFeedback = false
+    @State private var showDeleteData = false
+    @State private var showManageJourneys = false
+    @State private var showCloudSync = false
+    @State private var showAddWidget = false
+    @State private var showCancelSubscription = false
 
     let store = SubscriptionStore.shared
+    let journeyVisibility = JourneyVisibilityStore.shared
+    let cloudSync = CloudProgressSync.shared
 
     var body: some View {
         NavigationStack {
@@ -112,6 +122,97 @@ struct SettingsView: View {
                     }
                     .listRowBackground(Theme.card)
 
+                    // MARK: - Seção Notificações Expandida
+                    Section(header: Text("Notificações").font(Theme.font(14, .heavy))) {
+                        Button {
+                            showNotifications = true
+                        } label: {
+                            HStack {
+                                Text("Personalizar Alertas")
+                                    .foregroundStyle(Theme.night)
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundStyle(Theme.inkMuted)
+                            }
+                        }
+                    }
+                    .listRowBackground(Theme.card)
+
+                    // MARK: - Seção Ícones Alternativos
+                    Section(header: Text("Customização").font(Theme.font(14, .heavy))) {
+                        Button {
+                            showAppIcons = true
+                        } label: {
+                            HStack {
+                                Text("Ícone do App")
+                                    .foregroundStyle(Theme.night)
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundStyle(Theme.inkMuted)
+                            }
+                        }
+
+                        Button {
+                            showAddWidget = true
+                        } label: {
+                            HStack {
+                                Text("Adicionar Widget")
+                                    .foregroundStyle(Theme.night)
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundStyle(Theme.inkMuted)
+                            }
+                        }
+                    }
+                    .listRowBackground(Theme.card)
+
+                    // MARK: - Seção Dados
+                    Section(header: Text("Dados e Privacidade").font(Theme.font(14, .heavy))) {
+                        Button {
+                            showManageJourneys = true
+                        } label: {
+                            HStack {
+                                Text("Gerenciar Jornadas")
+                                    .foregroundStyle(Theme.night)
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundStyle(Theme.inkMuted)
+                            }
+                        }
+
+                        Button {
+                            showCloudSync = true
+                        } label: {
+                            HStack {
+                                Text("Progresso na Nuvem")
+                                    .foregroundStyle(Theme.night)
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundStyle(Theme.inkMuted)
+                            }
+                        }
+
+                        Button {
+                            showFeedback = true
+                        } label: {
+                            HStack {
+                                Text("Opinião / Problema")
+                                    .foregroundStyle(Theme.night)
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .foregroundStyle(Theme.inkMuted)
+                            }
+                        }
+
+                        Button(role: .destructive) {
+                            showDeleteData = true
+                        } label: {
+                            Text("Apagar Meus Dados")
+                                .font(Theme.font(14, .heavy))
+                        }
+                    }
+                    .listRowBackground(Theme.card)
+
                     // MARK: - Seção Manna Plus
                     Section(header: Text("Manna Plus").font(Theme.font(14, .heavy))) {
                         if game.isPlus {
@@ -137,6 +238,14 @@ struct SettingsView: View {
                                 Text("Gerenciar Assinatura")
                                     .font(Theme.font(14, .medium))
                                     .foregroundStyle(Theme.night)
+                            }
+
+                            Button {
+                                showCancelSubscription = true
+                            } label: {
+                                Text("Cancelar Assinatura")
+                                    .font(Theme.font(14, .medium))
+                                    .foregroundStyle(.red)
                             }
                         } else {
                             Text("Desbloqueie óleo ilimitado, sem anúncios e muito mais")
@@ -231,6 +340,30 @@ struct SettingsView: View {
             }
             .sheet(isPresented: $showBiblicalSources) {
                 BibleSourcesView()
+            }
+            .sheet(isPresented: $showNotifications) {
+                NotificationsSettingsView()
+            }
+            .sheet(isPresented: $showAppIcons) {
+                AppIconPickerView()
+            }
+            .sheet(isPresented: $showFeedback) {
+                FeedbackView()
+            }
+            .sheet(isPresented: $showDeleteData) {
+                DeleteDataView()
+            }
+            .sheet(isPresented: $showManageJourneys) {
+                ManageJourneysView()
+            }
+            .sheet(isPresented: $showCloudSync) {
+                CloudSyncView()
+            }
+            .sheet(isPresented: $showAddWidget) {
+                AddWidgetGuideView()
+            }
+            .sheet(isPresented: $showCancelSubscription) {
+                CancelSubscriptionFlowView()
             }
         }
     }

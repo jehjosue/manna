@@ -84,6 +84,9 @@ struct GroupsView: View {
     private var groupsList: some View {
         ScrollView {
             VStack(spacing: 16) {
+                // Banner sem conexão
+                OfflineBanner()
+
                 // Cabeçalho com ações
                 HStack {
                     VStack(alignment: .leading, spacing: 4) {

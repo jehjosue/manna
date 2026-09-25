@@ -44,6 +44,9 @@ struct RootView: View {
         .onChange(of: game.soundEnabled) { _, on in SoundFX.isEnabled = on }
         .onChange(of: game.hapticsEnabled) { _, on in Haptics.isEnabled = on }
         .onChange(of: subscriptions.isPlus) { _, _ in subscriptions.sync(game: game) }
+        .onChange(of: game.bread) { _, days in
+            Task { await game.publishBreadMilestoneEvent(days: days) }
+        }
         .onChange(of: scenePhase) { _, phase in
             switch phase {
             case .active:
@@ -51,6 +54,7 @@ struct RootView: View {
                 syncOnline()
             case .background:
                 WidgetBridge.reload()
+                CloudProgressSync.shared.syncToCloud(gameState: game)
                 syncOnline()
             default:
                 break
@@ -65,5 +69,9 @@ struct RootView: View {
         GameCenterService.shared.submitWeeklyXP(game.weeklyXP)
         GameCenterService.shared.submitTotalXP(game.xpTotal)
         Task { await GroupsService.shared.sync(game: game) }
+        Task {
+            await game.syncProfileToCloud()
+            await FriendsService.shared.refresh()
+        }
     }
 }

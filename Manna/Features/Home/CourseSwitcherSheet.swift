@@ -5,6 +5,11 @@ struct CourseSwitcherSheet: View {
     @Environment(ContentStore.self) private var content
     @Environment(GameState.self) private var game
     @Environment(\.dismiss) private var dismiss
+    @State private var journeyVisibility = JourneyVisibilityStore.shared
+
+    var visibleJourneys: [Journey] {
+        content.journeys.filter { !journeyVisibility.isHidden($0.id) }
+    }
 
     var body: some View {
         VStack(spacing: 0) {
@@ -27,7 +32,7 @@ struct CourseSwitcherSheet: View {
             // MARK: - Lista de cursos
             ScrollView {
                 VStack(spacing: 12) {
-                    ForEach(content.journeys) { journey in
+                    ForEach(visibleJourneys) { journey in
                         CourseCardView(
                             journey: journey,
                             isSelected: content.selectedJourneyId == journey.id,

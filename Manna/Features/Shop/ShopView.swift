@@ -72,6 +72,14 @@ struct ShopView: View {
                                         isDisabled: game.isXPBoostActive,
                                         onTap: { showPowerConfirmation = true; confirmationPower = .xpBoost }
                                     )
+
+                                    // Mais tempo no desafio
+                                    PowerCardView(
+                                        power: .timerBoost,
+                                        game: game,
+                                        isDisabled: false,
+                                        onTap: { showPowerConfirmation = true; confirmationPower = .timerBoost }
+                                    )
                                 }
                                 .padding(.horizontal, 16)
                             }
@@ -140,6 +148,14 @@ struct ShopView: View {
             } else {
                 Haptics.error()
             }
+        case .timerBoost:
+            if game.spendManna(30) {
+                BoostInventoryStore.shared.addTimerBoost(1)
+                SoundFX.play(.reward)
+                Haptics.success()
+            } else {
+                Haptics.error()
+            }
         }
     }
 }
@@ -147,13 +163,14 @@ struct ShopView: View {
 // MARK: - Componentes auxiliares
 
 enum PowerType {
-    case refillOil, restDay, xpBoost
+    case refillOil, restDay, xpBoost, timerBoost
 
     var cost: Int {
         switch self {
         case .refillOil: GameState.refillOilCost
         case .restDay: GameState.restDayCost
         case .xpBoost: GameState.xpBoostCost
+        case .timerBoost: 30
         }
     }
 
@@ -162,6 +179,7 @@ enum PowerType {
         case .refillOil: "Encher Lamparina"
         case .restDay: "Dia de Descanso"
         case .xpBoost: "XP em Dobro (15 min)"
+        case .timerBoost: "Mais Tempo (+15s)"
         }
     }
 
@@ -170,6 +188,7 @@ enum PowerType {
         case .refillOil: "Recupera todas as 5 gotas de óleo para continuar estudando"
         case .restDay: "Protege sua sequência de pão diário por 1 dia"
         case .xpBoost: "Ganha o dobro de XP nos próximos 15 minutos"
+        case .timerBoost: "Adiciona 15 segundos ao próximo Desafio Relâmpago"
         }
     }
 
@@ -178,6 +197,7 @@ enum PowerType {
         case .refillOil: "Gastar \(cost) maná para encher a lamparina?"
         case .restDay: "Gastar \(cost) maná para comprar 1 dia de descanso?"
         case .xpBoost: "Gastar \(cost) maná para ativar XP em dobro?"
+        case .timerBoost: "Gastar \(cost) maná para adicionar +15s ao desafio?"
         }
     }
 }

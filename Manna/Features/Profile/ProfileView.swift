@@ -6,6 +6,7 @@ struct ProfileView: View {
 
     @State private var isShowingSettings = false
     @State private var isShowingAvatarEditor = false
+    @State private var isShowingEditProfile = false
 
     var body: some View {
         NavigationStack {
@@ -14,12 +15,15 @@ struct ProfileView: View {
 
                 ScrollView {
                     VStack(spacing: 24) {
+                        // Card de completar perfil (se não estiver completo)
+                        ProfileCompletionCard()
+
                         // Cabeçalho com Avatar
                         VStack(spacing: 12) {
                             ZStack(alignment: .topTrailing) {
                                 SheepAvatarView(size: 140)
 
-                                Button(action: { isShowingAvatarEditor = true }) {
+                                Button(action: { isShowingEditProfile = true }) {
                                     Image(systemName: "pencil.circle.fill")
                                         .font(.system(size: 32))
                                         .foregroundStyle(Theme.wheat)
@@ -98,6 +102,27 @@ struct ProfileView: View {
                                 .environment(game)
                         }
 
+                        // Jornadas
+                        VStack(alignment: .leading, spacing: 12) {
+                            HStack {
+                                Text("Jornadas")
+                                    .font(Theme.font(16, .bold))
+                                    .foregroundStyle(Theme.ink)
+
+                                Spacer()
+
+                                NavigationLink(destination: ProfileJourneysView()) {
+                                    Text("Ver todas")
+                                        .font(Theme.font(12, .bold))
+                                        .foregroundStyle(Theme.wheat)
+                                }
+                            }
+                            .padding(.horizontal, 20)
+
+                            ProfileJourneysPreview()
+                                .padding(.horizontal, 20)
+                        }
+
                         // Conquistas (3 destaques + Ver Todas)
                         VStack(alignment: .leading, spacing: 12) {
                             HStack {
@@ -171,7 +196,7 @@ struct ProfileView: View {
                             }
                         }
 
-                        // Amigos (Game Center)
+                        // Amigos (Game Center / Social)
                         VStack(alignment: .leading, spacing: 12) {
                             HStack {
                                 Text("Amigos")
@@ -182,20 +207,44 @@ struct ProfileView: View {
                             }
                             .padding(.horizontal, 20)
 
-                            FriendsCardView()
+                            FriendsProfileSection()
                         }
 
-                        // Botão Compartilhar Progresso
-                        Button(action: shareProgress) {
-                            HStack(spacing: 8) {
-                                Image(systemName: "square.and.arrow.up")
-                                    .font(.system(size: 16, weight: .semibold))
-                                Text("Compartilhar meu progresso")
-                                    .font(Theme.font(15, .bold))
+                        // Botões de ação
+                        VStack(spacing: 12) {
+                            NavigationLink(destination: YearInReviewView()) {
+                                HStack(spacing: 8) {
+                                    Image(systemName: "chart.line.uptrend.xyaxis")
+                                        .font(.system(size: 16, weight: .semibold))
+                                    Text("Retrospectiva do Ano")
+                                        .font(Theme.font(15, .bold))
+                                }
+                                .frame(maxWidth: .infinity)
                             }
-                            .frame(maxWidth: .infinity)
+                            .buttonStyle(.chunky)
+
+                            NavigationLink(destination: MonthlyBadgesView()) {
+                                HStack(spacing: 8) {
+                                    Image(systemName: "star.fill")
+                                        .font(.system(size: 16, weight: .semibold))
+                                    Text("Insígnias Mensais")
+                                        .font(Theme.font(15, .bold))
+                                }
+                                .frame(maxWidth: .infinity)
+                            }
+                            .buttonStyle(.chunky)
+
+                            Button(action: shareProgress) {
+                                HStack(spacing: 8) {
+                                    Image(systemName: "square.and.arrow.up")
+                                        .font(.system(size: 16, weight: .semibold))
+                                    Text("Compartilhar meu progresso")
+                                        .font(Theme.font(15, .bold))
+                                }
+                                .frame(maxWidth: .infinity)
+                            }
+                            .buttonStyle(.chunky)
                         }
-                        .buttonStyle(.chunky)
                         .padding(.horizontal, 20)
                         .padding(.bottom, 20)
                     }
@@ -206,8 +255,8 @@ struct ProfileView: View {
             .sheet(isPresented: $isShowingSettings) {
                 SettingsView()
             }
-            .sheet(isPresented: $isShowingAvatarEditor) {
-                AvatarEditorView()
+            .sheet(isPresented: $isShowingEditProfile) {
+                EditProfileView()
             }
         }
     }
@@ -270,61 +319,6 @@ struct ProfileStatCard: View {
     }
 }
 
-struct FriendsCardView: View {
-    @Environment(GameCenterService.self) var gameCenter
-
-    var body: some View {
-        if gameCenter.isAuthenticated, !gameCenter.friends.isEmpty {
-            VStack(spacing: 8) {
-                ForEach(gameCenter.friends.prefix(3)) { friend in
-                    HStack {
-                        Text(friend.displayName)
-                            .font(Theme.font(14, .semibold))
-                            .foregroundStyle(Theme.ink)
-                        Spacer()
-                        Text("\(friend.weeklyXP) XP")
-                            .font(Theme.font(12, .bold))
-                            .foregroundStyle(Theme.wheat)
-                    }
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 8)
-                }
-
-                Button(action: { gameCenter.showAddFriendsPanel() }) {
-                    Text("+ Adicionar amigos")
-                        .font(Theme.font(12, .bold))
-                        .frame(maxWidth: .infinity)
-                }
-                .buttonStyle(.chunky)
-                .padding(.horizontal, 12)
-                .padding(.bottom, 8)
-            }
-            .padding(.horizontal, 20)
-            .padding(.vertical, 12)
-            .background(Theme.card)
-            .cornerRadius(12)
-        } else {
-            VStack(spacing: 12) {
-                Text("Conecte-se ao Game Center")
-                    .font(Theme.font(14, .bold))
-                    .foregroundStyle(Theme.ink)
-
-                Text("Veja seus amigos, suas ligas e compete!")
-                    .font(Theme.font(12, .semibold))
-                    .foregroundStyle(Theme.inkMuted)
-
-                Button(action: { gameCenter.authenticate() }) {
-                    Text("Conectar Game Center")
-                }
-                .buttonStyle(.chunky)
-            }
-            .padding(16)
-            .background(Theme.card)
-            .cornerRadius(12)
-            .padding(.horizontal, 20)
-        }
-    }
-}
 
 struct ProgressShareCard: View {
     @Environment(GameState.self) var game
@@ -381,5 +375,5 @@ struct ProgressShareCard: View {
         .environment(GameState.load())
         .environment(AchievementStore.shared)
         .environment(AvatarStore.shared)
-        .environment(GameCenterService.shared)
+        .environment(ContentStore.shared)
 }

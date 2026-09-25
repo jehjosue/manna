@@ -36,7 +36,11 @@ final class PathRewardsStore {
         legendaryUnitsCompleted.insert(unitId)
     }
 
+    @ObservationIgnored private var isLoading = false
+
     private func load() {
+        isLoading = true
+        defer { isLoading = false }
         if let data = UserDefaults.standard.data(forKey: Self.treasuresKey),
            let set = try? JSONDecoder().decode(Set<String>.self, from: data) {
             treasuresOpened = set
@@ -48,6 +52,7 @@ final class PathRewardsStore {
     }
 
     private func save() {
+        guard !isLoading else { return }
         if let data = try? JSONEncoder().encode(treasuresOpened) {
             UserDefaults.standard.set(data, forKey: Self.treasuresKey)
         }
@@ -62,6 +67,9 @@ final class PathRewardsStore {
 final class MonthlyChallengeStore {
     static let shared = MonthlyChallengeStore()
 
+    /// Evita que os didSet gravem valores vazios enquanto o load() ainda está lendo.
+    @ObservationIgnored private var isLoading = false
+
     /// Mês da última contagem ("YYYY-MM").
     private(set) var monthKey: String = "" { didSet { save() } }
 
@@ -74,6 +82,7 @@ final class MonthlyChallengeStore {
     private static let monthKey_key = "manna.monthlyChallenge.month.v1"
     private static let countedIds_key = "manna.monthlyChallenge.counted.v1"
     private static let claimed_key = "manna.monthlyChallenge.claimed.v1"
+    private static let history_key = "manna.monthlyChallenge.history.v1"
 
     init() {
         load()
@@ -107,6 +116,15 @@ final class MonthlyChallengeStore {
 
     func claimMonthlyReward() {
         monthlyRewardClaimed = true
+        completedMonths.insert(monthKey)
+    }
+
+    /// Histórico de meses com o desafio concluído ("YYYY-MM"), para as insígnias mensais.
+    private(set) var completedMonths: Set<String> = [] { didSet { save() } }
+
+    /// Meses concluídos, mais recentes primeiro.
+    func completedMonthsList() -> [String] {
+        completedMonths.sorted(by: >)
     }
 
     static func monthKey(_ date: Date) -> String {
@@ -115,19 +133,25 @@ final class MonthlyChallengeStore {
     }
 
     private func load() {
+        isLoading = true
+        defer { isLoading = false }
         monthKey = UserDefaults.standard.string(forKey: Self.monthKey_key) ?? ""
         if let data = UserDefaults.standard.data(forKey: Self.countedIds_key),
            let set = try? JSONDecoder().decode(Set<String>.self, from: data) {
             countedMissionIds = set
         }
         monthlyRewardClaimed = UserDefaults.standard.bool(forKey: Self.claimed_key)
+        completedMonths = Set(UserDefaults.standard.stringArray(forKey: Self.history_key) ?? [])
+        if monthlyRewardClaimed && !monthKey.isEmpty { completedMonths.insert(monthKey) }
     }
 
     private func save() {
+        guard !isLoading else { return }
         UserDefaults.standard.set(monthKey, forKey: Self.monthKey_key)
         if let data = try? JSONEncoder().encode(countedMissionIds) {
             UserDefaults.standard.set(data, forKey: Self.countedIds_key)
         }
         UserDefaults.standard.set(monthlyRewardClaimed, forKey: Self.claimed_key)
+        UserDefaults.standard.set(Array(completedMonths), forKey: Self.history_key)
     }
 }

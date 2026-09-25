@@ -363,6 +363,16 @@ final class GameState {
         )
     }
 
+    /// Marca uma lista de lições como concluídas (sem dar XP, apenas registra).
+    /// Usado pelo teste de pular unidade.
+    func markLessonsCompleted(_ lessonIds: [String]) {
+        for id in lessonIds {
+            guard lessons[id] == nil else { continue }
+            lessons[id] = LessonRecord(completions: 1, bestAccuracy: 1.0)
+        }
+        save()
+    }
+
     // MARK: Regras internas
 
     private func regenerateOil() {

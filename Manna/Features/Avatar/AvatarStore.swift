@@ -115,13 +115,12 @@ final class AvatarStore {
     private let storageKey = "manna.avatar.v1"
 
     init() {
-        // Adicionar acessórios grátis automaticamente
-        for accessory in AccessoryType.allCases {
-            if accessory.price == 0 {
-                ownedAccessories.insert(accessory.rawValue)
-            }
-        }
+        // Carrega primeiro: inserir antes gravaria por cima das compras salvas.
         loadProgress()
+        // Acessórios grátis sempre disponíveis
+        for accessory in AccessoryType.allCases where accessory.price == 0 {
+            ownedAccessories.insert(accessory.rawValue)
+        }
     }
 
     var allAccessories: [Accessory] {
