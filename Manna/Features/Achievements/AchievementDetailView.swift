@@ -100,7 +100,7 @@ struct LevelRow: View {
     @Environment(AchievementStore.self) var store
 
     var body: some View {
-        let current = valueForAchievement(achievement.id, game: game)
+        let current = store.valueForAchievement(achievement.id, game: game)
         let isUnlocked = store.maxUnlockedTier(for: achievement.id) == level.tier
         let isFullyClaimed = store.claimedRewards.contains("\(achievement.id)-\(level.tier.rawValue)")
 

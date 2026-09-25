@@ -1,5 +1,6 @@
 import Foundation
 import GameKit
+import UIKit
 import Observation
 
 // MARK: - Tipos Game Center
@@ -54,7 +55,7 @@ final class GameCenterService: NSObject {
                     self?.isAuthenticated = GKLocalPlayer.local.isAuthenticated
                     if self?.isAuthenticated == true {
                         self?.localPlayer = GameCenterPlayer(
-                            id: GKLocalPlayer.local.playerID,
+                            id: GKLocalPlayer.local.gamePlayerID,
                             displayName: GKLocalPlayer.local.displayName
                         )
                     }
@@ -70,7 +71,7 @@ final class GameCenterService: NSObject {
                 self?.isAuthenticated = GKLocalPlayer.local.isAuthenticated
                 if self?.isAuthenticated == true {
                     self?.localPlayer = GameCenterPlayer(
-                        id: GKLocalPlayer.local.playerID,
+                        id: GKLocalPlayer.local.gamePlayerID,
                         displayName: GKLocalPlayer.local.displayName
                     )
                 }
@@ -101,57 +102,35 @@ final class GameCenterService: NSObject {
     // MARK: - Carregamento de Leaderboards
 
     func loadWeeklyLeaderboard(timeScope: GKLeaderboard.TimeScope = .week) {
-        guard isAuthenticated else { return }
-        isLoadingLeaderboard = true
-
-        GKLeaderboard.loadLeaderboards(IDs: [LeaderboardID.weeklyXP.rawValue]) { [weak self] leaderboards, error in
-            guard let leaderboard = leaderboards?.first else {
-                DispatchQueue.main.async { self?.isLoadingLeaderboard = false }
-                return
-            }
-
-            leaderboard.timeScope = timeScope
-            leaderboard.loadEntries(for: .global, timeScope: .week, range: NSRange(location: 1, length: 50)) { [weak self] entries, yourEntry, error in
-                DispatchQueue.main.async {
-                    self?.isLoadingLeaderboard = false
-                    guard let entries = entries else { return }
-                    self?.weeklyLeaderboard = entries.enumerated().map { index, entry in
-                        GameCenterPlayer(
-                            id: entry.player.playerID,
-                            displayName: entry.player.displayName,
-                            weeklyXP: entry.score,
-                            rank: index + 1
-                        )
-                    }
-                }
-            }
-        }
+        loadLeaderboard(playerScope: .global, timeScope: timeScope)
     }
 
     func loadFriendsWeeklyLeaderboard() {
+        loadLeaderboard(playerScope: .friendsOnly, timeScope: .week)
+    }
+
+    private func loadLeaderboard(playerScope: GKLeaderboard.PlayerScope, timeScope: GKLeaderboard.TimeScope) {
         guard isAuthenticated else { return }
         isLoadingLeaderboard = true
 
-        GKLeaderboard.loadLeaderboards(IDs: [LeaderboardID.weeklyXP.rawValue]) { [weak self] leaderboards, error in
-            guard let leaderboard = leaderboards?.first else {
-                DispatchQueue.main.async { self?.isLoadingLeaderboard = false }
-                return
-            }
-
-            leaderboard.timeScope = .week
-            leaderboard.loadEntries(for: .friendsOnly, timeScope: .week, range: NSRange(location: 1, length: 50)) { [weak self] entries, yourEntry, error in
-                DispatchQueue.main.async {
-                    self?.isLoadingLeaderboard = false
-                    guard let entries = entries else { return }
-                    self?.weeklyLeaderboard = entries.enumerated().map { index, entry in
-                        GameCenterPlayer(
-                            id: entry.player.playerID,
-                            displayName: entry.player.displayName,
-                            weeklyXP: entry.score,
-                            rank: index + 1
-                        )
-                    }
+        Task { @MainActor in
+            defer { isLoadingLeaderboard = false }
+            do {
+                let leaderboards = try await GKLeaderboard.loadLeaderboards(IDs: [LeaderboardID.weeklyXP.rawValue])
+                guard let leaderboard = leaderboards.first else { return }
+                let (_, entries, _) = try await leaderboard.loadEntries(
+                    for: playerScope, timeScope: timeScope, range: NSRange(location: 1, length: 50)
+                )
+                weeklyLeaderboard = entries.map { entry in
+                    GameCenterPlayer(
+                        id: entry.player.gamePlayerID,
+                        displayName: entry.player.displayName,
+                        weeklyXP: entry.score,
+                        rank: entry.rank
+                    )
                 }
+            } catch {
+                print("Leaderboard load error: \(error.localizedDescription)")
             }
         }
     }
@@ -161,34 +140,14 @@ final class GameCenterService: NSObject {
     func loadFriends() {
         guard isAuthenticated else { return }
 
-        // iOS 17+ requer verificação de status de autorização
-        let authStatus = GKLocalPlayer.local.loadFriendsAuthorizationStatus()
-        guard authStatus == .authorized else { return }
-
-        GKLocalPlayer.local.loadFriends { [weak self] friends, error in
-            guard let friends = friends else {
-                if let error = error {
-                    print("Friends load error: \(error.localizedDescription)")
-                }
-                return
-            }
-
-            var friendPlayers: [GameCenterPlayer] = []
-            let group = DispatchGroup()
-
-            for friend in friends {
-                group.enter()
-                friend.loadPhotoAsync { [weak self] _ in
-                    friendPlayers.append(GameCenterPlayer(
-                        id: friend.playerID,
-                        displayName: friend.displayName
-                    ))
-                    group.leave()
-                }
-            }
-
-            group.notify(queue: .main) {
-                self?.friends = friendPlayers
+        Task { @MainActor in
+            do {
+                let status = try await GKLocalPlayer.local.loadFriendsAuthorizationStatus()
+                guard status == .authorized else { return }
+                let loaded = try await GKLocalPlayer.local.loadFriends()
+                friends = loaded.map { GameCenterPlayer(id: $0.gamePlayerID, displayName: $0.displayName) }
+            } catch {
+                print("Friends load error: \(error.localizedDescription)")
             }
         }
     }
@@ -197,14 +156,7 @@ final class GameCenterService: NSObject {
         guard isAuthenticated else { return }
         guard let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
               let viewController = scene.windows.first?.rootViewController else { return }
-
-        if #available(iOS 17, *) {
-            GKLocalPlayer.local.presentFriendRequestCreator(from: viewController) { _ in }
-        } else if #available(iOS 15, *) {
-            if let composeVC = GKFriendRequestComposeViewController.request() {
-                viewController.present(composeVC, animated: true)
-            }
-        }
+        try? GKLocalPlayer.local.presentFriendRequestCreator(from: viewController)
     }
 
     // MARK: - Game Center Panel

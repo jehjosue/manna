@@ -10,6 +10,10 @@ struct MannaApp: App {
             RootView()
                 .environment(game)
                 .environment(content)
+                .environment(AchievementStore.shared)
+                .environment(AvatarStore.shared)
+                .environment(LeagueStore.shared)
+                .environment(GameCenterService.shared)
                 .tint(Theme.wheat)
         }
     }

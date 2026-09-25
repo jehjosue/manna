@@ -119,7 +119,7 @@ struct AchievementUnlockPopup: View {
                 Spacer()
 
                 Button(action: {
-                    let _ = store.claimReward(unlock.achievement.id, tier: unlock.tier, game: game)
+                    let _ = store.claimReward(achievementId: unlock.achievement.id, tier: unlock.tier, game: game)
                     SoundFX.play(.levelUp)
                     Haptics.success()
                     isPresented = false

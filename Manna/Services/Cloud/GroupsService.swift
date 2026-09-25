@@ -140,7 +140,7 @@ final class GroupsService: @unchecked Sendable {
 
         for code in codes {
             let recordName = "\(code)-\(userId)"
-            var record = CKRecord(recordType: "MannaMember", recordName: recordName)
+            let record = CKRecord(recordType: "MannaMember", recordID: CKRecord.ID(recordName: recordName))
             record["groupCode"] = code
             record["memberId"] = userId
             record["displayName"] = game.userName
@@ -165,7 +165,7 @@ final class GroupsService: @unchecked Sendable {
         guard !isPreview, let userId = userRecordID else { return nil }
 
         let code = generateCode()
-        var record = CKRecord(recordType: "MannaGroup")
+        let record = CKRecord(recordType: "MannaGroup")
         record["name"] = name
         record["code"] = code
         record["weeklyGoal"] = Int64(weeklyGoal)
@@ -183,7 +183,7 @@ final class GroupsService: @unchecked Sendable {
             }
 
             // Criar membro para o criador
-            let memberRecord = CKRecord(recordType: "MannaMember", recordName: "\(code)-\(userId.recordName)")
+            let memberRecord = CKRecord(recordType: "MannaMember", recordID: CKRecord.ID(recordName: "\(code)-\(userId.recordName)"))
             memberRecord["groupCode"] = code
             memberRecord["memberId"] = userId.recordName
             memberRecord["displayName"] = ""  // será sincronizado depois via sync(game:)
@@ -194,7 +194,7 @@ final class GroupsService: @unchecked Sendable {
             _ = try await publicDB.save(memberRecord)
 
             return MannaGroup(
-                id: saved.recordName,
+                id: saved.recordID.recordName,
                 name: name,
                 code: code,
                 weeklyGoal: Int64(weeklyGoal),
@@ -219,7 +219,7 @@ final class GroupsService: @unchecked Sendable {
             let query = CKQuery(recordType: "MannaGroup", predicate: predicate)
             let matchResults = try await publicDB.records(matching: query)
 
-            let records = matchResults.compactMap { _, result -> CKRecord? in
+            let records = matchResults.matchResults.compactMap { _, result -> CKRecord? in
                 try? result.get()
             }
 
@@ -229,7 +229,7 @@ final class GroupsService: @unchecked Sendable {
             }
 
             // Criar membro para este usuário no grupo
-            let memberRecord = CKRecord(recordType: "MannaMember", recordName: "\(upperCode)-\(userId.recordName)")
+            let memberRecord = CKRecord(recordType: "MannaMember", recordID: CKRecord.ID(recordName: "\(upperCode)-\(userId.recordName)"))
             memberRecord["groupCode"] = upperCode
             memberRecord["memberId"] = userId.recordName
             memberRecord["displayName"] = ""
@@ -297,7 +297,7 @@ final class GroupsService: @unchecked Sendable {
     func sendCheer(groupCode: String, message: String) async -> Bool {
         guard !isPreview, let userId = userRecordID else { return false }
 
-        var record = CKRecord(recordType: "MannaCheer")
+        let record = CKRecord(recordType: "MannaCheer")
         record["groupCode"] = groupCode
         record["memberId"] = userId.recordName
         record["displayName"] = ""  // será preenchido pela sincronização
@@ -345,7 +345,7 @@ final class GroupsService: @unchecked Sendable {
             let query = CKQuery(recordType: "MannaGroup", predicate: predicate)
             let matchResults = try await publicDB.records(matching: query)
 
-            let records = matchResults.compactMap { _, result -> CKRecord? in
+            let records = matchResults.matchResults.compactMap { _, result -> CKRecord? in
                 try? result.get()
             }
 
@@ -373,7 +373,7 @@ final class GroupsService: @unchecked Sendable {
             let currentWeek = gameWeekKey()
             group.weeklyXP = group.members
                 .filter { $0.weekKey == currentWeek }
-                .reduce(0) { $0 + $1.weeklyXP }
+                .reduce(Int64(0)) { $0 + $1.weeklyXP }
 
             return group
         } catch {
@@ -388,7 +388,7 @@ final class GroupsService: @unchecked Sendable {
             let query = CKQuery(recordType: "MannaMember", predicate: predicate)
             let matchResults = try await publicDB.records(matching: query)
 
-            let records = matchResults.compactMap { _, result -> CKRecord? in
+            let records = matchResults.matchResults.compactMap { _, result -> CKRecord? in
                 try? result.get()
             }
 
@@ -425,7 +425,7 @@ final class GroupsService: @unchecked Sendable {
 
             let matchResults = try await publicDB.records(matching: query, resultsLimit: 20)
 
-            let records = matchResults.compactMap { _, result -> CKRecord? in
+            let records = matchResults.matchResults.compactMap { _, result -> CKRecord? in
                 try? result.get()
             }
 

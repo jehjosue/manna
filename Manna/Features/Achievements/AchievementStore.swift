@@ -256,7 +256,7 @@ final class AchievementStore {
 
     // MARK: - Privadas
 
-    private func valueForAchievement(_ id: String, game: GameState) -> Int {
+    func valueForAchievement(_ id: String, game: GameState) -> Int {
         switch id {
         case "pao-diario": return game.bestBread
         case "semeador": return game.xpTotal
