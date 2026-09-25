@@ -38,7 +38,8 @@ struct HomeView: View {
                                         unit: unit,
                                         unitIndex: unitIndex,
                                         journey: journey,
-                                        onLessonTap: open
+                                        onLessonTap: open,
+                                        onCelebrate: { result in route = .celebration(result) }
                                     )
                                 }
                                 Spacer(minLength: 40)
@@ -105,6 +106,7 @@ struct UnitSection: View {
     let unitIndex: Int
     let journey: Journey
     let onLessonTap: (Lesson) -> Void
+    let onCelebrate: (LessonResult) -> Void
 
     @Environment(GameState.self) private var game
     @State private var showGuide = false
@@ -186,8 +188,9 @@ struct UnitSection: View {
                             onFinish: { outcome in
                                 let result = game.completeActivity(outcome, kind: .practice, baseXP: 40)
                                 PathRewardsStore.shared.markUnitLegendary(unit.id)
-                                route = .celebration(result)
                                 showLegendary = false
+                                // Espera a tela da lição fechar antes de abrir a celebração.
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { onCelebrate(result) }
                             },
                             onQuit: { showLegendary = false }
                         )

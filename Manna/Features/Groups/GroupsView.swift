@@ -8,7 +8,7 @@ struct GroupsView: View {
 
     @State private var showCreateSheet = false
     @State private var showJoinSheet = false
-    @State private var selectedGroupCode: String?
+    @State private var selectedGroup: MannaGroup?
 
     var body: some View {
         ZStack {
@@ -31,10 +31,11 @@ struct GroupsView: View {
         .sheet(isPresented: $showJoinSheet) {
             JoinGroupSheet(isPresented: $showJoinSheet)
         }
-        .sheet(item: $selectedGroupCode) { code in
-            if let group = service.myGroups.first(where: { $0.code == code }) {
-                GroupDetailSheet(group: group, isPresented: .constant(true))
-            }
+        .sheet(item: $selectedGroup) { group in
+            GroupDetailSheet(
+                group: service.myGroups.first(where: { $0.code == group.code }) ?? group,
+                isPresented: Binding(get: { true }, set: { if !$0 { selectedGroup = nil } })
+            )
         }
     }
 
@@ -126,7 +127,7 @@ struct GroupsView: View {
                     ForEach(service.myGroups) { group in
                         GroupCard(group: group)
                             .onTapGesture {
-                                selectedGroupCode = group.code
+                                selectedGroup = group
                             }
                     }
                 }
