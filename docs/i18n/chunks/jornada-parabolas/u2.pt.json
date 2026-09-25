@@ -1,0 +1,627 @@
+{
+  "id": "parabolas-u2",
+  "title": "Unidade 2",
+  "subtitle": "Perdão e Graça",
+  "guide": {
+    "summary": "Jesus revelou a profundidade da graça de Deus através de parábolas sobre o perdão. Ele mostrou que Deus perdoa infinitamente, celebra o retorno de pecadores, e convida o coração endurecido a se render ao seu amor incomensurável.",
+    "keyVerses": [
+      {
+        "reference": "Lucas 15:20-24",
+        "text": "E, levantando-se, foi para seu pai. Quando ainda estava longe, seu pai o viu, compadeceu-se dele, lançou-se-lhe ao pescoço, e o beijou. O filho lhe disse: Pai, pequei contra o céu e diante de ti; já não sou digno de ser chamado teu filho. Mas o pai disse aos seus servos: Trazei depressa o melhor vestido, e vesti-o; ponde-lhe um anel no dedo e sandálias nos pés."
+      },
+      {
+        "reference": "Lucas 15:32",
+        "text": "Mas era necessário que nos alegrássemos e rejubilássemos, porque este teu irmão estava morto e tornou a viver, e estava perdido e foi achado."
+      },
+      {
+        "reference": "Mateus 18:21-22",
+        "text": "Senhor, quantas vezes meu irmão cometerá falta contra mim e o perdoarei? Até sete vezes? Disse-lhe Jesus: Não apenas até sete, mas até setenta vezes sete."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "parabolas-u2-l1",
+      "title": "O Filho Pródigo",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "O que o filho pródigo pediu ao pai?",
+          "text": "\"Pai, dá-me a minha parte da ___\".",
+          "speaker": "Filho pródigo",
+          "options": [
+            "herança",
+            "casa",
+            "propriedade",
+            "riqueza"
+          ],
+          "answer": "herança",
+          "reference": "Lucas 15:12"
+        },
+        {
+          "id": "parabolas-u2-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "O filho pródigo foi viver numa terra ___ e perdeu tudo.",
+          "answer": "distante",
+          "options": [
+            "distante",
+            "afastada",
+            "longínqua",
+            "estranha"
+          ],
+          "reference": "Lucas 15:13"
+        },
+        {
+          "id": "parabolas-u2-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo da decisão",
+          "text": "Quando o filho retorna",
+          "tokens": [
+            "Levantando-se",
+            "foi para",
+            "seu pai"
+          ],
+          "distractors": [
+            "saiu do caminho",
+            "correu embora",
+            "seguiu adiante",
+            "partiu para longe"
+          ],
+          "reference": "Lucas 15:20"
+        },
+        {
+          "id": "parabolas-u2-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem a história",
+          "text": "Sequência da parábola do filho pródigo.",
+          "tokens": [
+            "Filho pede herança",
+            "Desperdiça em vícios",
+            "Arrependido retorna",
+            "Pai celebra seu retorno"
+          ],
+          "reference": "Lucas 15:11-32"
+        },
+        {
+          "id": "parabolas-u2-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os elementos",
+          "pairs": [
+            {
+              "left": "Filho pródigo",
+              "right": "Volta arrependido"
+            },
+            {
+              "left": "Pai amoroso",
+              "right": "Recebe com graça"
+            },
+            {
+              "left": "Filho mais velho",
+              "right": "Ressentimento"
+            },
+            {
+              "left": "Festa",
+              "right": "Celebração do perdão"
+            }
+          ],
+          "reference": "Lucas 15:11-32"
+        },
+        {
+          "id": "parabolas-u2-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O pai rejeitou o filho pródigo por seus pecados.",
+          "isTrue": false,
+          "reference": "Lucas 15:20-24",
+          "explanation": "O pai correu ao seu encontro, beijou-o e celebrou seu retorno com uma grande festa."
+        },
+        {
+          "id": "parabolas-u2-l1-e7",
+          "kind": "listen",
+          "prompt": "O que o pai fez?",
+          "text": "Ouça: O pai celebrou o retorno do filho com alegria.",
+          "options": [
+            "Celebrou com alegria",
+            "Rejeitou o filho",
+            "Exigiu explicações",
+            "Pediu desculpas"
+          ],
+          "answer": "Celebrou com alegria",
+          "reference": "Lucas 15:23-24"
+        },
+        {
+          "id": "parabolas-u2-l1-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Este meu filho estava morto e tornou a viver.",
+          "reference": "Lucas 15:24"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u2-l2",
+      "title": "A Ovelha Perdida",
+      "icon": "leaf.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Quantas ovelhas o pastor deixou?",
+          "text": "O pastor deixou ___ ovelhas para procurar a perdida.",
+          "options": [
+            "noventa e nove",
+            "cem",
+            "noventa",
+            "oitenta"
+          ],
+          "answer": "noventa e nove",
+          "reference": "Lucas 15:4"
+        },
+        {
+          "id": "parabolas-u2-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "\"Se encontrar a ovelha, alegra-se mais com ela do que com as noventa e ___\".",
+          "answer": "nove",
+          "options": [
+            "nove",
+            "nove que",
+            "que não se perdi",
+            "restantes"
+          ],
+          "reference": "Mateus 18:13"
+        },
+        {
+          "id": "parabolas-u2-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A alegria do pastor ao encontrar",
+          "tokens": [
+            "Há mais alegria",
+            "no céu",
+            "por um pecador",
+            "que se arrepende"
+          ],
+          "distractors": [
+            "pela ovelha encontrada",
+            "nos campos",
+            "entre os homens",
+            "para sempre"
+          ],
+          "reference": "Lucas 15:7"
+        },
+        {
+          "id": "parabolas-u2-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem a busca",
+          "text": "Sequência da ovelha perdida.",
+          "tokens": [
+            "Pastor nota uma falta",
+            "Deixa as noventa e nove",
+            "Procura até achar",
+            "Carrega nos ombros"
+          ],
+          "reference": "Lucas 15:4-6"
+        },
+        {
+          "id": "parabolas-u2-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os significados",
+          "pairs": [
+            {
+              "left": "Pastor",
+              "right": "Deus procurando"
+            },
+            {
+              "left": "Ovelha perdida",
+              "right": "Pecador afastado"
+            },
+            {
+              "left": "Busca diligente",
+              "right": "Graça ativa"
+            },
+            {
+              "left": "Alegria celeste",
+              "right": "Arrependimento"
+            }
+          ],
+          "reference": "Lucas 15:3-7"
+        },
+        {
+          "id": "parabolas-u2-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O pastor estava feliz apenas por ter achado a ovelha perdida.",
+          "isTrue": false,
+          "reference": "Lucas 15:6-7",
+          "explanation": "Havia alegria especial no céu pelos anjos quando a ovelha se arrependia, não apenas por encontrá-la."
+        },
+        {
+          "id": "parabolas-u2-l2-e7",
+          "kind": "listen",
+          "prompt": "O que o pastor fez?",
+          "text": "Ouça: O pastor procura a ovelha até encontrá-la.",
+          "options": [
+            "Procura até encontrar",
+            "Espera ela voltar",
+            "Esquece dela",
+            "A vende"
+          ],
+          "answer": "Procura até encontrar",
+          "reference": "Lucas 15:4"
+        },
+        {
+          "id": "parabolas-u2-l2-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Há alegria no céu quando um pecador se arrepende.",
+          "reference": "Lucas 15:7"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u2-l3",
+      "title": "A Moeda Perdida",
+      "icon": "drop.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Quantas moedas a mulher tinha?",
+          "text": "A mulher tinha ___ moedas de prata.",
+          "options": [
+            "dez",
+            "cinco",
+            "sete",
+            "doze"
+          ],
+          "answer": "dez",
+          "reference": "Lucas 15:8"
+        },
+        {
+          "id": "parabolas-u2-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "A mulher ___ a casa para procurar a moeda.",
+          "answer": "varre",
+          "options": [
+            "varre",
+            "procura",
+            "limpa",
+            "ilumina"
+          ],
+          "reference": "Lucas 15:8"
+        },
+        {
+          "id": "parabolas-u2-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A reação da mulher ao encontrar",
+          "tokens": [
+            "Chamou suas amigas",
+            "e vizinhas",
+            "dizendo: Alegrai-vos comigo"
+          ],
+          "distractors": [
+            "Celebrou em segredo",
+            "Guardou para si",
+            "Chorou de alegria",
+            "Ofereceu aos pobres"
+          ],
+          "reference": "Lucas 15:9"
+        },
+        {
+          "id": "parabolas-u2-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem a busca",
+          "text": "Sequência da moeda perdida.",
+          "tokens": [
+            "Mulher perde uma moeda",
+            "Procura diligentemente",
+            "Encontra a moeda",
+            "Celebra com amigos"
+          ],
+          "reference": "Lucas 15:8-9"
+        },
+        {
+          "id": "parabolas-u2-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os significados",
+          "pairs": [
+            {
+              "left": "Mulher",
+              "right": "Deus buscando"
+            },
+            {
+              "left": "Moeda perdida",
+              "right": "Pessoa afastada"
+            },
+            {
+              "left": "Busca cuidadosa",
+              "right": "Determinação"
+            },
+            {
+              "left": "Alegria compartilhada",
+              "right": "Céu celebra"
+            }
+          ],
+          "reference": "Lucas 15:8-10"
+        },
+        {
+          "id": "parabolas-u2-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A mulher desistiu de procurar a moeda e comprou outra.",
+          "isTrue": false,
+          "reference": "Lucas 15:8",
+          "explanation": "A mulher procurou diligentemente até encontrar a moeda perdida e celebrou seu achado."
+        },
+        {
+          "id": "parabolas-u2-l3-e7",
+          "kind": "listen",
+          "prompt": "O que a mulher fez?",
+          "text": "Ouça: A mulher procurou a moeda perdida com determinação.",
+          "options": [
+            "Procurou com determinação",
+            "Esqueceu dela",
+            "Deu por perdida",
+            "Pediu ajuda"
+          ],
+          "answer": "Procurou com determinação",
+          "reference": "Lucas 15:8"
+        },
+        {
+          "id": "parabolas-u2-l3-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Encontrei a moeda que eu havia perdido.",
+          "reference": "Lucas 15:9"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u2-l4",
+      "title": "O Servo Que Não Perdoou",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Quanto o servo devia ao rei?",
+          "text": "O servo devia ao rei dez mil ___.",
+          "options": [
+            "talentos",
+            "moedas",
+            "denários",
+            "ouro"
+          ],
+          "answer": "talentos",
+          "reference": "Mateus 18:24"
+        },
+        {
+          "id": "parabolas-u2-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "O rei se compadeceu e ___ a dívida do servo.",
+          "answer": "perdoou",
+          "options": [
+            "perdoou",
+            "anulou",
+            "cancelou",
+            "apagou"
+          ],
+          "reference": "Mateus 18:27"
+        },
+        {
+          "id": "parabolas-u2-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo sobre falta de perdão",
+          "text": "Comportamento do servo ingrato",
+          "tokens": [
+            "Achando um servo",
+            "que devia",
+            "cem denários",
+            "tomou-o pela garganta"
+          ],
+          "distractors": [
+            "o beijou",
+            "o perdoou",
+            "o libertou",
+            "o enforcou"
+          ],
+          "reference": "Mateus 18:28"
+        },
+        {
+          "id": "parabolas-u2-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem os eventos",
+          "text": "Sequência da parábola do servo.",
+          "tokens": [
+            "Servo deve muito",
+            "Rei perdoa a dívida",
+            "Servo não perdoa pouco",
+            "Rei o castiga"
+          ],
+          "reference": "Mateus 18:23-35"
+        },
+        {
+          "id": "parabolas-u2-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os detalhes",
+          "pairs": [
+            {
+              "left": "Dez mil talentos",
+              "right": "Dívida do servo ao rei"
+            },
+            {
+              "left": "Cem denários",
+              "right": "Dívida menor"
+            },
+            {
+              "left": "Rei compassivo",
+              "right": "Oferece graça"
+            },
+            {
+              "left": "Servo sem piedade",
+              "right": "Não perdoa"
+            }
+          ],
+          "reference": "Mateus 18:23-35"
+        },
+        {
+          "id": "parabolas-u2-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O servo perdoou seu companheiro assim como foi perdoado.",
+          "isTrue": false,
+          "reference": "Mateus 18:28-30",
+          "explanation": "O servo, apesar de ser perdoado de uma dívida enorme, não perdoou uma dívida pequena de seu companheiro."
+        },
+        {
+          "id": "parabolas-u2-l4-e7",
+          "kind": "listen",
+          "prompt": "O que o rei fez?",
+          "text": "Ouça: O rei perdoou completamente a dívida.",
+          "options": [
+            "Perdoou completamente",
+            "Reduziu a dívida",
+            "Aumentou a dívida",
+            "Enforcou o servo"
+          ],
+          "answer": "Perdoou completamente",
+          "reference": "Mateus 18:27"
+        },
+        {
+          "id": "parabolas-u2-l4-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Perdoar como fomos perdoados por Deus.",
+          "reference": "Mateus 18:35"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u2-l5",
+      "title": "Revisão: Perdão e Graça",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual é o tema comum destas parábolas?",
+          "text": "Todas falam sobre o ___ de Deus.",
+          "options": [
+            "perdão",
+            "poder",
+            "julgamento",
+            "reinado"
+          ],
+          "answer": "perdão",
+          "reference": "Lucas 15"
+        },
+        {
+          "id": "parabolas-u2-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Devemos perdoar setenta vezes ___.",
+          "answer": "sete",
+          "options": [
+            "sete",
+            "setenta",
+            "sete vezes",
+            "sempre"
+          ],
+          "reference": "Mateus 18:22"
+        },
+        {
+          "id": "parabolas-u2-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem as parábolas",
+          "text": "Sequência das 5 parábolas.",
+          "tokens": [
+            "Filho pródigo retorna",
+            "Ovelha perdida é achada",
+            "Moeda perdida é encontrada",
+            "Servo não perdoa"
+          ],
+          "reference": "Lucas 15 e Mateus 18"
+        },
+        {
+          "id": "parabolas-u2-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Associe cada parábola",
+          "pairs": [
+            {
+              "left": "Filho pródigo",
+              "right": "Volta ao lar"
+            },
+            {
+              "left": "Ovelha",
+              "right": "Pastor procura"
+            },
+            {
+              "left": "Moeda",
+              "right": "Mulher busca"
+            },
+            {
+              "left": "Servo",
+              "right": "Não perdoa"
+            }
+          ],
+          "reference": "Lucas 15 e Mateus 18"
+        },
+        {
+          "id": "parabolas-u2-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo-chave",
+          "text": "Tema do perdão",
+          "tokens": [
+            "Assim também",
+            "vos fará",
+            "meu Pai celeste"
+          ],
+          "distractors": [
+            "fará a todos",
+            "fará sempre",
+            "fará em segredo",
+            "fará depois"
+          ],
+          "reference": "Mateus 18:35"
+        },
+        {
+          "id": "parabolas-u2-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "As parábolas mostram que Deus sempre procura e recebe quem se arrepende.",
+          "isTrue": true,
+          "reference": "Lucas 15 e Mateus 18:35",
+          "explanation": "Cada parábola demonstra a atividade graciosa de Deus em buscar o perdido e oferecer perdão infinito."
+        },
+        {
+          "id": "parabolas-u2-l5-e7",
+          "kind": "listen",
+          "prompt": "Qual é a mensagem?",
+          "text": "Deus perdoa infinitamente quem se arrepende.",
+          "options": [
+            "Perdoa infinitamente",
+            "Condena sempre",
+            "Julgará severamente",
+            "Exigirá pagamento"
+          ],
+          "answer": "Perdoa infinitamente",
+          "reference": "Mateus 18:21-22"
+        },
+        {
+          "id": "parabolas-u2-l5-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Devemos perdoar sempre assim como Deus nos perdoou.",
+          "reference": "Mateus 18:35"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "id": "atos-u4",
+  "title": "Unidade 4",
+  "subtitle": "Paulo em Roma e Suas Cartas",
+  "guide": {
+    "summary": "As cartas de Paulo escritas durante seu ministério contêm a essência da fé cristã. Romanos 8 fala da esperança em Cristo, 1 Coríntios 13 exalta o amor, Filipenses 4 ensina alegria, Gálatas 5 fala da liberdade, Efésios 6 sobre a armadura de Deus. Estas continuam transformando vidas.",
+    "keyVerses": [
+      {
+        "reference": "Romanos 8:28",
+        "text": "E sabemos que todas as coisas concorrem para bem daqueles que amam a Deus."
+      },
+      {
+        "reference": "1 Coríntios 13:4",
+        "text": "O amor é sofredor, é benigno; o amor não é invejoso."
+      },
+      {
+        "reference": "Efésios 6:10",
+        "text": "Finalmente, meus irmãos, fortalecei-vos no Senhor e na força da sua potência."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u4-l1",
+      "title": "Esperança em Cristo - Romanos 8",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"E sabemos que todas as coisas concorrem para bem daqueles que amam a _____.\"",
+          "speaker": "Paulo",
+          "options": [
+            "Deus",
+            "Jesus",
+            "lei",
+            "Espírito"
+          ],
+          "answer": "Deus",
+          "reference": "Romanos 8:28",
+          "explanation": "Paulo afirma que Deus trabalha todas as circunstâncias para o bem dos que O amam."
+        },
+        {
+          "id": "atos-u4-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Romanos 8:28 significa que a vida cristã não terá dificuldades.",
+          "isTrue": false,
+          "reference": "Romanos 8:28",
+          "explanation": "O versículo não diz que não haverá dificuldades, mas que Deus trabalha nelas para o bem."
+        },
+        {
+          "id": "atos-u4-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual é a mensagem central de Romanos 8?",
+          "text": "Paulo escreve sobre segurança eterna em Cristo.",
+          "options": [
+            "Nada nos pode separar do amor de Deus em Cristo",
+            "Devemos obedecer a lei perfeitamente",
+            "O corpo é mau e deve ser rejeitado",
+            "Todos serão condenados no juízo"
+          ],
+          "answer": "Nada nos pode separar do amor de Deus em Cristo",
+          "reference": "Romanos 8:35-39",
+          "explanation": "Romanos 8 é celebração da segurança e esperança que temos em Jesus."
+        },
+        {
+          "id": "atos-u4-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Segurança em Cristo em Romanos 8:35",
+          "tokens": [
+            "Quem nos separará",
+            "do amor de Cristo?",
+            "A tribulação, ou a angústia",
+            "ou perseguição?"
+          ],
+          "distractors": [
+            "ou a morte",
+            "ou a vida",
+            "ou qualquer criatura"
+          ],
+          "reference": "Romanos 8:35"
+        },
+        {
+          "id": "atos-u4-l1-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Todas as coisas concorrem para bem.",
+          "options": [
+            "Deus controla todas as circunstâncias",
+            "Todas coisas concorrem para bem",
+            "Tudo sempre é fácil"
+          ],
+          "answer": "Todas coisas concorrem para bem",
+          "reference": "Romanos 8:28"
+        },
+        {
+          "id": "atos-u4-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe verdades de Romanos 8",
+          "pairs": [
+            {
+              "left": "Redenção",
+              "right": "Em Cristo Jesus"
+            },
+            {
+              "left": "Esperança",
+              "right": "Segurança eterna"
+            },
+            {
+              "left": "Amor",
+              "right": "Inseparável de Cristo"
+            },
+            {
+              "left": "Adoção",
+              "right": "Filhos de Deus"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"E sabemos que todas as coisas concorrem para bem daqueles que amam a _____.\"",
+          "answer": "Deus",
+          "reference": "Romanos 8:28",
+          "options": [
+            "Deus",
+            "Senhor"
+          ]
+        },
+        {
+          "id": "atos-u4-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Nada nos pode separar do amor de Deus em Cristo.",
+          "isTrue": true,
+          "reference": "Romanos 8:35-39",
+          "explanation": "Paulo afirma com certeza que nada consegue nos afastar do amor de Cristo."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l2",
+      "title": "O Hino do Amor - 1 Coríntios 13",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"O amor é _____, é benigno; o amor não é invejoso.\"",
+          "speaker": "Paulo",
+          "options": [
+            "sofredor",
+            "forte",
+            "eterno",
+            "verdadeiro"
+          ],
+          "answer": "sofredor",
+          "reference": "1 Coríntios 13:4",
+          "explanation": "Paulo começa descrevendo o amor como paciente e gentil, não invejoso."
+        },
+        {
+          "id": "atos-u4-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "1 Coríntios 13 é apenas sobre amor romântico.",
+          "isTrue": false,
+          "reference": "1 Coríntios 13",
+          "explanation": "1 Coríntios 13 trata do amor cristão (ágape), que é mais profundo que romance."
+        },
+        {
+          "id": "atos-u4-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual é a conclusão de 1 Coríntios 13:13?",
+          "text": "Paulo termina com uma afirmação memorável sobre virtudes cristianas.",
+          "options": [
+            "A caridade permanece, mas maior é a caridade",
+            "A lei é o maior mandamento",
+            "O conhecimento é supremo",
+            "A fé nunca falhará"
+          ],
+          "answer": "A caridade permanece, mas maior é a caridade",
+          "reference": "1 Coríntios 13:13",
+          "explanation": "Fé, esperança e caridade permanecem, mas a caridade é a maior."
+        },
+        {
+          "id": "atos-u4-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "O amor nunca falha em 1 Coríntios 13:8",
+          "tokens": [
+            "A caridade nunca falha",
+            "mas havendo profecia",
+            "desaparecerá",
+            "havendo línguas"
+          ],
+          "distractors": [
+            "cessarão",
+            "havendo conhecimento",
+            "passará"
+          ],
+          "reference": "1 Coríntios 13:8"
+        },
+        {
+          "id": "atos-u4-l2-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "O amor é sofredor e benigno.",
+          "options": [
+            "O amor tem qualidades especiais",
+            "O amor sofredor e benigno",
+            "Paciência e gentileza definem"
+          ],
+          "answer": "O amor sofredor e benigno",
+          "reference": "1 Coríntios 13:4"
+        },
+        {
+          "id": "atos-u4-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe qualidades do amor",
+          "pairs": [
+            {
+              "left": "Paciência",
+              "right": "Sofrimento longo"
+            },
+            {
+              "left": "Benignidade",
+              "right": "Gentileza para todos"
+            },
+            {
+              "left": "Humildade",
+              "right": "Não se envaidece"
+            },
+            {
+              "left": "Eternidade",
+              "right": "Nunca falha"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"A caridade nunca _____.\"",
+          "answer": "falha",
+          "reference": "1 Coríntios 13:8",
+          "options": [
+            "falha",
+            "cessa"
+          ]
+        },
+        {
+          "id": "atos-u4-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O amor cristão é superior até às outras virtudes como fé e esperança.",
+          "isTrue": true,
+          "reference": "1 Coríntios 13:13",
+          "explanation": "Paulo afirma que a caridade permanece e é maior que fé e esperança."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l3",
+      "title": "Alegria em Cristo - Filipenses 4",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "atos-u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual é o tema principal de Filipenses?",
+          "text": "Paulo escreve de forma pessoal e calorosa aos filipenses.",
+          "options": [
+            "Alegria em Cristo apesar das circunstâncias",
+            "Crítica severa da comunidade",
+            "Instruções legais rígidas",
+            "Previsões de punição"
+          ],
+          "answer": "Alegria em Cristo apesar das circunstâncias",
+          "reference": "Filipenses 1-4",
+          "explanation": "Filipenses é a carta mais alegre de Paulo, escrita até da prisão."
+        },
+        {
+          "id": "atos-u4-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Paulo escreveu Filipenses enquanto era prisioneiro.",
+          "isTrue": true,
+          "reference": "Filipenses 1:7-14",
+          "explanation": "Ainda na prisão, Paulo escreve com alegria e esperança."
+        },
+        {
+          "id": "atos-u4-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual é o primeiro mandamento em Filipenses 4:4?",
+          "text": "Paulo começa com uma exortação simples mas poderosa.",
+          "options": [
+            "Regozijai-vos sempre no Senhor",
+            "Obedecei às autoridades",
+            "Trabalhai com diligência",
+            "Guardardes os mandamentos"
+          ],
+          "answer": "Regozijai-vos sempre no Senhor",
+          "reference": "Filipenses 4:4",
+          "explanation": "A alegria no Senhor é central em Filipenses, mesmo na adversidade."
+        },
+        {
+          "id": "atos-u4-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Chamado à paz em Filipenses 4:6-7",
+          "tokens": [
+            "Não andeis ansiosos",
+            "de coisa alguma",
+            "antes as vossas petições",
+            "sejam em tudo conhecidas"
+          ],
+          "distractors": [
+            "diante de Deus",
+            "em oração",
+            "com ação de graças"
+          ],
+          "reference": "Filipenses 4:6-7"
+        },
+        {
+          "id": "atos-u4-l3-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Regozijai-vos sempre no Senhor.",
+          "options": [
+            "Alegria permanente em Jesus",
+            "Regozijai sempre Senhor",
+            "Vossa alegria se manifeste"
+          ],
+          "answer": "Regozijai sempre Senhor",
+          "reference": "Filipenses 4:4"
+        },
+        {
+          "id": "atos-u4-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe ensinamentos de Filipenses",
+          "pairs": [
+            {
+              "left": "Alegria",
+              "right": "Em Cristo sempre"
+            },
+            {
+              "left": "Oração",
+              "right": "Com ação de graças"
+            },
+            {
+              "left": "Paz",
+              "right": "Guarda o coração"
+            },
+            {
+              "left": "Pensamentos",
+              "right": "Sobre coisas nobres"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Regozijai-vos sempre no _____.\"",
+          "answer": "Senhor",
+          "reference": "Filipenses 4:4",
+          "options": [
+            "Senhor",
+            "Deus"
+          ]
+        },
+        {
+          "id": "atos-u4-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A alegria cristã depende das circunstâncias externas.",
+          "isTrue": false,
+          "reference": "Filipenses 4:4-7",
+          "explanation": "Paulo ensina que a alegria verdadeira está em Cristo, independente das circunstâncias."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l4",
+      "title": "Armadura de Deus - Efésios 6",
+      "icon": "shield.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Finalmente, meus irmãos, fortalecei-vos no Senhor e na força da sua _____.\"",
+          "speaker": "Paulo",
+          "options": [
+            "potência",
+            "mão",
+            "lei",
+            "verdade"
+          ],
+          "answer": "potência",
+          "reference": "Efésios 6:10",
+          "explanation": "Paulo começa exortando os efésios a se fortalecerem no poder de Deus."
+        },
+        {
+          "id": "atos-u4-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Efésios 6 descreve a armadura espiritual do cristão.",
+          "isTrue": true,
+          "reference": "Efésios 6:10-18",
+          "explanation": "Efésios 6 enumera sete peças da armadura espiritual para resistir ao mal."
+        },
+        {
+          "id": "atos-u4-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual é a arma mais importante na armadura?",
+          "text": "Paulo lista várias peças, mas destaca uma especialmente.",
+          "options": [
+            "A espada do Espírito, que é a Palavra de Deus",
+            "O escudo de Davi",
+            "A armadura de Golias",
+            "O machado da guerra"
+          ],
+          "answer": "A espada do Espírito, que é a Palavra de Deus",
+          "reference": "Efésios 6:17",
+          "explanation": "A Palavra de Deus é a única arma ofensiva completa na armadura."
+        },
+        {
+          "id": "atos-u4-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Armadura completa em Efésios 6:14-17",
+          "tokens": [
+            "Estai pois firmes",
+            "tendo cingido os vossos",
+            "lombos com a verdade",
+            "e vestida a couraça da justiça"
+          ],
+          "distractors": [
+            "e calçados os pés",
+            "com o evangelho da paz",
+            "tomando o escudo da fé"
+          ],
+          "reference": "Efésios 6:14-17"
+        },
+        {
+          "id": "atos-u4-l4-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Fortalecei-vos na força da sua potência.",
+          "options": [
+            "Deus nos faz fortes",
+            "Fortalecei-vos força potência",
+            "Poder de Deus nos sustém"
+          ],
+          "answer": "Fortalecei-vos força potência",
+          "reference": "Efésios 6:10"
+        },
+        {
+          "id": "atos-u4-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe peças da armadura",
+          "pairs": [
+            {
+              "left": "Cinto",
+              "right": "Verdade"
+            },
+            {
+              "left": "Couraça",
+              "right": "Justiça"
+            },
+            {
+              "left": "Escudo",
+              "right": "Fé"
+            },
+            {
+              "left": "Espada",
+              "right": "Palavra de Deus"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Fortalecei-vos no Senhor e na força da sua _____.\"",
+          "answer": "potência",
+          "reference": "Efésios 6:10",
+          "options": [
+            "potência",
+            "força"
+          ]
+        },
+        {
+          "id": "atos-u4-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A armadura de Deus nos protege de toda tentação espiritual.",
+          "isTrue": true,
+          "reference": "Efésios 6:10-18",
+          "explanation": "Quando vestidos com a armadura completa, estamos protegidos contra as investidas do inimigo."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l5",
+      "title": "Revisão - Paulo em Roma e Suas Cartas",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual é a importância das cartas de Paulo?",
+          "text": "Seus escritos definiram a teologia cristã por séculos.",
+          "options": [
+            "Formam metade do Novo Testamento e guiam a fé cristã",
+            "São apenas histórias pessoais",
+            "Não têm valor para cristãos modernos",
+            "Foram descartadas pela Igreja"
+          ],
+          "answer": "Formam metade do Novo Testamento e guiam a fé cristã",
+          "reference": "Romanos-Filemom",
+          "explanation": "As 13 cartas de Paulo são essenciais para compreender a fé cristã."
+        },
+        {
+          "id": "atos-u4-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Todas as cartas de Paulo tratam de problemas específicos em igrejas locais.",
+          "isTrue": true,
+          "reference": "Romanos-1 Timóteo",
+          "explanation": "Paulo escreveu para igrejas e indivíduos específicos, mas suas lições são universais."
+        },
+        {
+          "id": "atos-u4-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual é o tema central das cartas de Paulo?",
+          "text": "Apesar da variedade, há uma unidade temática.",
+          "options": [
+            "Salvação em Cristo e vida transformada pelo Espírito",
+            "Crítica severa das leis judaicas",
+            "Instruções sobre governo político",
+            "Previsões detalhadas sobre o fim"
+          ],
+          "answer": "Salvação em Cristo e vida transformada pelo Espírito",
+          "reference": "Romanos 1:16, 1 Coríntios 15:1-4",
+          "explanation": "Cristo e a transformação em Seu Espírito são o coração de tudo que Paulo escreve."
+        },
+        {
+          "id": "atos-u4-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo de revisão",
+          "text": "Resumo da sabedoria paulina",
+          "tokens": [
+            "Todas as coisas concorrem",
+            "para bem",
+            "o amor nunca falha",
+            "regozijai-vos no Senhor"
+          ],
+          "distractors": [
+            "e na Sua graça",
+            "fortalecei-vos",
+            "na força de Sua potência"
+          ],
+          "reference": "Romanos 8:28, 1 Coríntios 13:8, Filipenses 4:4"
+        },
+        {
+          "id": "atos-u4-l5-e5",
+          "kind": "listen",
+          "prompt": "Qual ensinamento você ouviu?",
+          "text": "Sabemos que todas as coisas concorrem para bem.",
+          "options": [
+            "Deus cuida dos detalhes",
+            "Todas coisas concorrem bem",
+            "Confiança em Deus sempre"
+          ],
+          "answer": "Todas coisas concorrem bem",
+          "reference": "Romanos 8:28"
+        },
+        {
+          "id": "atos-u4-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe cartas e temas",
+          "pairs": [
+            {
+              "left": "Romanos 8",
+              "right": "Esperança em Cristo"
+            },
+            {
+              "left": "1 Coríntios 13",
+              "right": "Primazia do amor"
+            },
+            {
+              "left": "Filipenses 4",
+              "right": "Alegria sempre"
+            },
+            {
+              "left": "Efésios 6",
+              "right": "Armadura espiritual"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordene cronologicamente as cartas",
+          "text": "Período de correspondência paulina",
+          "tokens": [
+            "Primeiras cartas de Tessalônica",
+            "Grandes cartas: Romanos, Gálatas",
+            "Cartas da prisão: Filipenses, Efésios",
+            "Cartas pastorais tardias"
+          ]
+        },
+        {
+          "id": "atos-u4-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "As cartas de Paulo continuam transformando vidas e guiando a fé cristã.",
+          "isTrue": true,
+          "reference": "Romanos-Filemom",
+          "explanation": "Séculos depois, as palavras de Paulo falam ao coração e transformam cristãos."
+        }
+      ]
+    }
+  ]
+}

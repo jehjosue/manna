@@ -1,0 +1,429 @@
+[
+  {
+    "id": "historia-rute-noemi",
+    "title": "Ruth and Naomi",
+    "subtitle": "Loyalty and compassion in a woman's heart",
+    "icon": "leaf.fill",
+    "reference": "Ruth 1-4",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Naomi was a widow Israelite woman, and her daughter-in-law Ruth was a foreigner. Both had lost everything and were desperate."
+      },
+      {
+        "kind": "line",
+        "speaker": "Naomi",
+        "text": "Ruth, dear, you should return to your land. I have nothing to offer you here. Your life can be better with your own people."
+      },
+      {
+        "kind": "line",
+        "speaker": "Ruth",
+        "text": "Naomi, I will go with you! Your people will be my people, and your God will be my God. I will not leave you alone."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why did Ruth want to stay with Naomi?",
+        "options": [
+          "Because she loved Naomi and was loyal",
+          "Because she wanted to earn money",
+          "Because she was afraid to return"
+        ],
+        "answer": "Because she loved Naomi and was loyal"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Ruth and Naomi arrived in Bethlehem at harvest time. Ruth went to the fields and asked permission to glean the grain left behind by the harvesters."
+      },
+      {
+        "kind": "line",
+        "speaker": "Ruth",
+        "text": "Please, may I glean in your field? I promise to work hard to get food for my mother-in-law."
+      },
+      {
+        "kind": "line",
+        "speaker": "Boaz",
+        "text": "Of course you can, dear girl. I have heard about your loyalty to Naomi. That is worthy of praise."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Boaz was a rich and respected man. He saw Ruth's loyalty and began to love her. He protected her in the fields."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did Boaz treat Ruth in the fields?",
+        "options": [
+          "With kindness, offering water and protection",
+          "With coldness and contempt",
+          "He ignored her completely"
+        ],
+        "answer": "With kindness, offering water and protection"
+      },
+      {
+        "kind": "line",
+        "speaker": "Boaz",
+        "text": "Ruth, I want to ask you to marry me. You are a woman worthy of honor and loyalty. I would like to care for you and Naomi."
+      },
+      {
+        "kind": "line",
+        "speaker": "Ruth",
+        "text": "Yes! You are so kind to me. I accept being your wife."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Ruth and Boaz married. They had a son named Obed, who became the grandfather of King David."
+      },
+      {
+        "kind": "line",
+        "speaker": "Naomi",
+        "text": "Praise be to God! My daughter-in-law redeemed me and gave me joy. Now we have hope and a future!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What was the result of Ruth's loyalty?",
+        "options": [
+          "She found love, security, and a place in God's history",
+          "She remained poor forever",
+          "Naomi became unhappy again"
+        ],
+        "answer": "She found love, security, and a place in God's history"
+      }
+    ]
+  },
+  {
+    "id": "historia-nascimento-jesus",
+    "title": "The Birth of Jesus",
+    "subtitle": "God enters the world as a baby",
+    "icon": "star.fill",
+    "reference": "Luke 1-2, Matthew 1-2",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Mary was a young woman from Nazareth. One day, the angel Gabriel appeared to her with surprising news."
+      },
+      {
+        "kind": "line",
+        "speaker": "Gabriel",
+        "text": "Do not be afraid, Mary! You have been chosen among all women. You will conceive and bear a son called Jesus."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mary",
+        "text": "How can this be? I have no husband. How can I have a son?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Gabriel",
+        "text": "The Holy Spirit will come upon you. The son will be called the Son of God. His kingdom will have no end."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did Mary respond to the angel's news?",
+        "options": [
+          "With faith, saying she would do God's will",
+          "With anger and disbelief",
+          "Fleeing from the angel in fear"
+        ],
+        "answer": "With faith, saying she would do God's will"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Mary was betrothed to Joseph, a righteous carpenter. When he learned of Mary, he planned to leave her secretly. But an angel appeared to him in a dream."
+      },
+      {
+        "kind": "line",
+        "speaker": "Angel",
+        "text": "Joseph, do not be afraid. The son of Mary is of the Holy Spirit. Call him Jesus, for he will save his people from sin."
+      },
+      {
+        "kind": "line",
+        "speaker": "Joseph",
+        "text": "I understand now. I will accept this mission. I will be the earthly father of Jesus and care for Mary."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Mary and Joseph traveled to Bethlehem because the emperor ordered a census. Everyone needed to register in their hometown."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why did Mary and Joseph go to Bethlehem?",
+        "options": [
+          "Because of the census ordered by the emperor",
+          "Because they wanted a trip",
+          "Because their relative lived there"
+        ],
+        "answer": "Because of the census ordered by the emperor"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mary",
+        "text": "I need to find a place to give birth. My son is arriving!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Innkeeper",
+        "text": "I'm sorry, but there are no rooms. The inn is full. You can stay in the stable if you like."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Jesus was born in a simple stable. Mary wrapped him in swaddling clothes and laid him in a manger full of straw."
+      },
+      {
+        "kind": "line",
+        "speaker": "Shepherds",
+        "text": "What is this brightness? What is happening in the sky?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Angel",
+        "text": "Do not fear! I have good news of great joy for all people. Today in the city of David, the Savior has been born!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Who were the first to know about the birth of Jesus?",
+        "options": [
+          "The shepherds in the fields, when the angel appeared to them",
+          "The wise men",
+          "The Roman emperor"
+        ],
+        "answer": "The shepherds in the fields, when the angel appeared to them"
+      },
+      {
+        "kind": "line",
+        "speaker": "Shepherds",
+        "text": "Let's go to Bethlehem and see the baby! The angel said he is wrapped in swaddling clothes, lying in a manger!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The shepherds ran and found Jesus, Mary, and Joseph. They worshipped the baby and told everyone what they heard."
+      },
+      {
+        "kind": "line",
+        "speaker": "Wise Men from the East",
+        "text": "A new star has appeared! It means a great king has been born. Let's go and worship him with gifts."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The wise men traveled from far away following a star. They found Jesus and offered him gold, frankincense, and myrrh."
+      }
+    ]
+  },
+  {
+    "id": "historia-jesus-tempestade",
+    "title": "Jesus Calms the Storm",
+    "subtitle": "Jesus has power even over the elements of nature",
+    "icon": "water.waves",
+    "reference": "Matthew 8:23-27, Mark 4:35-41",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Jesus and his disciples were in a boat on the Sea of Galilee. Jesus was so tired he fell asleep."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Suddenly, a terrible storm began. The wind blew fiercely and huge waves beat against the boat."
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 1",
+        "text": "Sirs! We are sinking! The boat is filling with water! We are going to die!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 2",
+        "text": "Where is Jesus? Why doesn't he help us? Doesn't he care?"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why were the disciples afraid?",
+        "options": [
+          "Because a violent storm surrounded them",
+          "Because they couldn't swim",
+          "Because they heard about pirates"
+        ],
+        "answer": "Because a violent storm surrounded them"
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 1",
+        "text": "Jesus! Wake up! Please, wake up! We are dying!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesus woke up and saw fear on his disciples' faces. He got up with calm and authority.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Why are you afraid? Where is your faith?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Peace! Be still!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesus spoke to the wind and the waves. And immediately, a great peace came down. The wind ceased and the waters calmed.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did the storm end?",
+        "options": [
+          "Jesus ordered the wind and waves to calm down",
+          "The disciples rowed away from the storm",
+          "Another ship helped them"
+        ],
+        "answer": "Jesus ordered the wind and waves to calm down"
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 2",
+        "text": "Jesus! What kind of man are you? Even the wind and sea obey you!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 3",
+        "text": "He must be the Messiah! No one else has this power!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "You saw my power. Know that I have authority even over nature. Trust me, for I am always with you."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "All the disciples were filled with amazement. They understood that Jesus was not just a teacher, but the Son of God."
+      }
+    ]
+  },
+  {
+    "id": "historia-zaqueu",
+    "title": "Zacchaeus",
+    "subtitle": "A small man finds salvation in Jesus",
+    "icon": "person.2.fill",
+    "reference": "Luke 19:1-10",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Zacchaeus was a tax collector in Jericho. He was very small in stature and very rich, but hated by everyone."
+      },
+      {
+        "kind": "line",
+        "text": "Zacchaeus is a traitor! He collects more taxes than he should and keeps the money. He is a snake!",
+        "speaker": "People of Jericho"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "One day, Jesus passed through Jericho. Crowds followed him. Zacchaeus wanted to see Jesus, but he was too short."
+      },
+      {
+        "kind": "line",
+        "speaker": "Zacchaeus",
+        "text": "I can't see! This crowd is too big. No one will let a tax collector pass in front."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why did Zacchaeus have difficulty seeing Jesus?",
+        "options": [
+          "Because he was very short and the crowd was large",
+          "Because his eyes were closed",
+          "Because he was very far away"
+        ],
+        "answer": "Because he was very short and the crowd was large"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Zacchaeus saw an opportunity. He ran ahead and climbed a sycamore tree to see Jesus pass."
+      },
+      {
+        "kind": "line",
+        "speaker": "Zacchaeus",
+        "text": "Perfect! From up in this tree I can see Jesus without any problem!"
+      },
+      {
+        "kind": "line",
+        "text": "When Jesus passed near the tree, he looked up and saw Zacchaeus.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Zacchaeus! Come down! I want to go to your house today!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Zacchaeus",
+        "text": "You want to come to my house? I am so hated! But I'll come down quick!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did Zacchaeus feel when Jesus noticed him?",
+        "options": [
+          "Surprised and happy because Jesus chose him",
+          "Furious because Jesus saw him",
+          "Indifferent"
+        ],
+        "answer": "Surprised and happy because Jesus chose him"
+      },
+      {
+        "kind": "line",
+        "speaker": "People of Jericho",
+        "text": "How terrible! Jesus is going to the house of Zacchaeus? A corrupt tax collector?"
+      },
+      {
+        "kind": "line",
+        "text": "As they ate, Zacchaeus was transformed by his encounter with Jesus. He saw his sin and wanted to change.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "speaker": "Zacchaeus",
+        "text": "Jesus, I want to change! I will give half of my possessions to the poor and give back four times what I stole!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Today salvation has entered your house. You are truly a son of Abraham. For the Son of Man came to seek and save the lost."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How was Zacchaeus transformed?",
+        "options": [
+          "He repented and changed his life, wanting to make amends",
+          "He continued stealing as before",
+          "He tried to buy Jesus' favor"
+        ],
+        "answer": "He repented and changed his life, wanting to make amends"
+      }
+    ]
+  }
+]

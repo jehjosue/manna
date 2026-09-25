@@ -1,0 +1,633 @@
+{
+  "id": "salmos-u3",
+  "title": "Unit 3",
+  "subtitle": "Wisdom for Daily Life",
+  "guide": {
+    "summary": "Proverbs teach us practical wisdom for living well. They speak of genuine friendship, honest work, words that heal, and humility. Wisdom fears the LORD and guides us in all decisions.",
+    "keyVerses": [
+      {
+        "reference": "Proverbs 1:7",
+        "text": "The fear of the LORD is the beginning of wisdom."
+      },
+      {
+        "reference": "Proverbs 17:17",
+        "text": "A friend loves at all times, and a brother is born for adversity."
+      },
+      {
+        "reference": "Proverbs 22:6",
+        "text": "Train up a child in the way he should go."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "salmos-u3-l1",
+      "title": "Wisdom and Fear of God",
+      "icon": "lightbulb.fill",
+      "exercises": [
+        {
+          "id": "salmos-u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"The fear of the LORD is the beginning of _____.\"",
+          "speaker": "Wisdom",
+          "options": [
+            "wisdom",
+            "truth",
+            "virtue",
+            "knowledge"
+          ],
+          "answer": "wisdom",
+          "reference": "Proverbs 1:7",
+          "explanation": "True wisdom begins with respect and reverence for God."
+        },
+        {
+          "id": "salmos-u3-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Wisdom comes mainly from learning with others.",
+          "isTrue": false,
+          "reference": "Proverbs 1:7",
+          "explanation": "Although we learn from others, true wisdom is rooted in the fear of the LORD."
+        },
+        {
+          "id": "salmos-u3-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "What does 'fear of the LORD' mean?",
+          "text": "This concept does not mean to be afraid as if fleeing, but something different.",
+          "options": [
+            "Reverent respect and loving obedience",
+            "Literal fear of God",
+            "Doubt about His love",
+            "Fear of being punished"
+          ],
+          "answer": "Reverent respect and loving obedience",
+          "reference": "Proverbs 1:7",
+          "explanation": "The fear of the LORD is reverence with love, acknowledging His authority and goodness."
+        },
+        {
+          "id": "salmos-u3-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The foundation of wisdom",
+          "tokens": [
+            "The fear of the LORD",
+            "is the beginning",
+            "of wisdom",
+            "and knowledge of the Holy One"
+          ],
+          "distractors": [
+            "is the way",
+            "of virtue",
+            "and purity"
+          ],
+          "reference": "Proverbs 9:10"
+        },
+        {
+          "id": "salmos-u3-l1-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "The fear of the LORD is the beginning of wisdom.",
+          "options": [
+            "Wisdom comes from learning much",
+            "The fear of the LORD is beginning of wisdom",
+            "God requires perfection from all"
+          ],
+          "answer": "The fear of the LORD is beginning of wisdom",
+          "reference": "Proverbs 1:7"
+        },
+        {
+          "id": "salmos-u3-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the concepts of wisdom",
+          "pairs": [
+            {
+              "left": "Fear of God",
+              "right": "Reverent respect"
+            },
+            {
+              "left": "Wisdom",
+              "right": "Discerning understanding"
+            },
+            {
+              "left": "Knowledge",
+              "right": "Learning from God"
+            },
+            {
+              "left": "Intelligence",
+              "right": "Ability to think"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"The fear of the LORD is the beginning of _____.\"",
+          "answer": "wisdom",
+          "reference": "Proverbs 1:7",
+          "options": [
+            "wisdom",
+            "truth"
+          ]
+        },
+        {
+          "id": "salmos-u3-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "A wise person recognizes that he does not know everything and continues learning.",
+          "isTrue": true,
+          "reference": "Proverbs 1:5, 2:6",
+          "explanation": "True wisdom includes humility and a continuous willingness to learn more."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u3-l2",
+      "title": "Words That Heal",
+      "icon": "drop.fill",
+      "exercises": [
+        {
+          "id": "salmos-u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Gracious words are like a honeycomb, sweetness to the soul and health to the _____.\"",
+          "speaker": "Wisdom",
+          "options": [
+            "bones",
+            "heart",
+            "mind",
+            "spirit"
+          ],
+          "answer": "bones",
+          "reference": "Proverbs 16:24",
+          "explanation": "Our words have the power to heal or hurt, to build or destroy."
+        },
+        {
+          "id": "salmos-u3-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Cruel words hurt, but afterward we forget them.",
+          "isTrue": false,
+          "reference": "Proverbs 15:4",
+          "explanation": "Hurtful words cut deeply and leave lasting emotional scars."
+        },
+        {
+          "id": "salmos-u3-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the value of a gentle answer?",
+          "text": "\"A soft answer turns away _____, but a harsh word stirs up anger.\"",
+          "options": [
+            "wrath",
+            "sadness",
+            "fear",
+            "guilt"
+          ],
+          "answer": "wrath",
+          "reference": "Proverbs 15:1",
+          "explanation": "Soft and gentle words can calm even tense situations."
+        },
+        {
+          "id": "salmos-u3-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The power of words in Proverbs 18:21",
+          "tokens": [
+            "Death and life",
+            "are in the power",
+            "of the tongue",
+            "and those who love it"
+          ],
+          "distractors": [
+            "and whoever controls it",
+            "will eat its fruits",
+            "will live happily"
+          ],
+          "reference": "Proverbs 18:21"
+        },
+        {
+          "id": "salmos-u3-l2-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "A soft answer turns away wrath.",
+          "options": [
+            "Harsh words cause anger",
+            "A soft answer turns away wrath",
+            "Silence is gold"
+          ],
+          "answer": "A soft answer turns away wrath",
+          "reference": "Proverbs 15:1"
+        },
+        {
+          "id": "salmos-u3-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Match types of words to their effect",
+          "pairs": [
+            {
+              "left": "Soft words",
+              "right": "Heal and build"
+            },
+            {
+              "left": "Cruel words",
+              "right": "Hurt and destroy"
+            },
+            {
+              "left": "Gentle answer",
+              "right": "Turns away wrath"
+            },
+            {
+              "left": "Harsh word",
+              "right": "Stirs up anger"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"Death and life are in the power of the _____.\"",
+          "answer": "tongue",
+          "reference": "Proverbs 18:21",
+          "options": [
+            "tongue",
+            "mouth"
+          ]
+        },
+        {
+          "id": "salmos-u3-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "We should think about our words before speaking.",
+          "isTrue": true,
+          "reference": "Proverbs 15:4",
+          "explanation": "Our words have consequences, so it is wise to think before speaking."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u3-l3",
+      "title": "True Friendship",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "salmos-u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"A friend loves at all times, and a brother is born for _____.\"",
+          "speaker": "Wisdom",
+          "options": [
+            "adversity",
+            "sister",
+            "redeemer",
+            "comfort"
+          ],
+          "answer": "adversity",
+          "reference": "Proverbs 17:17",
+          "explanation": "A true friend is always by our side, especially in difficult times."
+        },
+        {
+          "id": "salmos-u3-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "A true friendship is one that remains only in times of joy.",
+          "isTrue": false,
+          "reference": "Proverbs 17:17",
+          "explanation": "True friendship shows itself especially in moments of difficulty and suffering."
+        },
+        {
+          "id": "salmos-u3-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "How to choose good friends?",
+          "text": "\"Walk with the wise and become wise, but the companion of _____ will suffer.\"",
+          "options": [
+            "fools",
+            "a lonely man",
+            "harsh critics",
+            "silent observers"
+          ],
+          "answer": "fools",
+          "reference": "Proverbs 13:20",
+          "explanation": "Friendships influence our lives, so we should choose companions who help us grow."
+        },
+        {
+          "id": "salmos-u3-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The value of companionship in Proverbs 13:20",
+          "tokens": [
+            "Walk with the wise",
+            "and become wise",
+            "but the companion of fools",
+            "will suffer"
+          ],
+          "distractors": [
+            "will become foolish",
+            "will face harm",
+            "will be punished"
+          ],
+          "reference": "Proverbs 13:20"
+        },
+        {
+          "id": "salmos-u3-l3-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "A friend loves at all times.",
+          "options": [
+            "Friends leave us",
+            "A friend loves at all times",
+            "Friendship is temporary"
+          ],
+          "answer": "A friend loves at all times",
+          "reference": "Proverbs 17:17"
+        },
+        {
+          "id": "salmos-u3-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the characteristics of friendship",
+          "pairs": [
+            {
+              "left": "Loyalty",
+              "right": "Present in difficulties"
+            },
+            {
+              "left": "Constancy",
+              "right": "Remains all the time"
+            },
+            {
+              "left": "Positive influence",
+              "right": "Makes us wise"
+            },
+            {
+              "left": "Loving rebuke",
+              "right": "Corrects with care"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"A friend loves at all _____, and a brother is born for adversity.\"",
+          "answer": "times",
+          "reference": "Proverbs 17:17",
+          "options": [
+            "times",
+            "moments"
+          ]
+        },
+        {
+          "id": "salmos-u3-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Our friendships do not have a significant impact on who we become.",
+          "isTrue": false,
+          "reference": "Proverbs 13:20",
+          "explanation": "Our friendships profoundly influence our character and life decisions."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u3-l4",
+      "title": "Work and Humility",
+      "icon": "tree.fill",
+      "exercises": [
+        {
+          "id": "salmos-u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"The sluggard craves and gets nothing, but the desires of the diligent are fully _____.\"",
+          "speaker": "Wisdom",
+          "options": [
+            "satisfied",
+            "rewarded",
+            "blessed",
+            "fulfilled"
+          ],
+          "answer": "satisfied",
+          "reference": "Proverbs 13:4",
+          "explanation": "Diligent and persevering work leads to achievement and success."
+        },
+        {
+          "id": "salmos-u3-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Laziness is seen as a natural weakness in Proverbs.",
+          "isTrue": false,
+          "reference": "Proverbs 13:4, 19:15",
+          "explanation": "Laziness in Proverbs is portrayed as a choice that leads to poverty and failure."
+        },
+        {
+          "id": "salmos-u3-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "What does Proverbs say about humility?",
+          "text": "\"Humility comes before _____.\"",
+          "options": [
+            "honor",
+            "obedience",
+            "virtue",
+            "justice"
+          ],
+          "answer": "honor",
+          "reference": "Proverbs 15:33",
+          "explanation": "Humility precedes any true honor; it is the basis of respectable character."
+        },
+        {
+          "id": "salmos-u3-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Promise about diligent work",
+          "tokens": [
+            "The diligent hand",
+            "will come to power",
+            "but laziness",
+            "leads to forced labor"
+          ],
+          "distractors": [
+            "and oppression",
+            "will suffer",
+            "will be defeated"
+          ],
+          "reference": "Proverbs 12:24"
+        },
+        {
+          "id": "salmos-u3-l4-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "The diligent hand will come to power but laziness leads to forced labor.",
+          "options": [
+            "All have the same result",
+            "The diligent rules the lazy",
+            "Work is important"
+          ],
+          "answer": "The diligent rules the lazy",
+          "reference": "Proverbs 12:24"
+        },
+        {
+          "id": "salmos-u3-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Match attitudes and consequences",
+          "pairs": [
+            {
+              "left": "Diligence",
+              "right": "Success and achievement"
+            },
+            {
+              "left": "Laziness",
+              "right": "Failure and poverty"
+            },
+            {
+              "left": "Humility",
+              "right": "True honor"
+            },
+            {
+              "left": "Pride",
+              "right": "Fall and destruction"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"The sluggard craves and gets nothing, but the desires of the diligent are fully _____.\"",
+          "answer": "satisfied",
+          "reference": "Proverbs 13:4",
+          "options": [
+            "satisfied",
+            "fulfilled"
+          ]
+        },
+        {
+          "id": "salmos-u3-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Humility and hard work are lasting principles in Proverbs.",
+          "isTrue": true,
+          "reference": "Proverbs 13:4, 15:33",
+          "explanation": "Humility and diligence are fundamental values that lead to a successful and honored life."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u3-l5",
+      "title": "Review - Daily Wisdom",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "salmos-u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the central theme of Proverbs?",
+          "text": "This book was written mainly to teach how to live well.",
+          "options": [
+            "Practical wisdom for life",
+            "History of ancient kings",
+            "Prophecies about the future",
+            "Criticism of enemies"
+          ],
+          "answer": "Practical wisdom for life",
+          "reference": "Proverbs 1:1-7",
+          "explanation": "Proverbs offers practical advice on how to make good decisions in life."
+        },
+        {
+          "id": "salmos-u3-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Fear of the LORD is important only in religious context.",
+          "isTrue": false,
+          "reference": "Proverbs 1:7, 14:26-27",
+          "explanation": "Fear of the LORD is the foundation for all practical wisdom and wise decisions in life."
+        },
+        {
+          "id": "salmos-u3-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "How should we care with our words?",
+          "text": "Proverbs emphasizes the power and responsibility of speech.",
+          "options": [
+            "Care that they are true and kind",
+            "Speak as much as possible",
+            "Say what others want to hear",
+            "Always stay silent"
+          ],
+          "answer": "Care that they are true and kind",
+          "reference": "Proverbs 15:1, 18:21",
+          "explanation": "Our words have power to heal or hurt, so we should be careful and respectful."
+        },
+        {
+          "id": "salmos-u3-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the review verse",
+          "text": "Summary of practical wisdom",
+          "tokens": [
+            "The fear of the LORD",
+            "is the beginning of wisdom",
+            "as well as",
+            "diligence leads to success"
+          ],
+          "distractors": [
+            "and humility to recognition",
+            "and kindness to praise",
+            "and truth to victory"
+          ],
+          "reference": "Proverbs 1:7, 13:4"
+        },
+        {
+          "id": "salmos-u3-l5-e5",
+          "kind": "listen",
+          "prompt": "Which wisdom did you hear?",
+          "text": "Walk with the wise and become wise.",
+          "options": [
+            "Everyone learns the same way",
+            "Walk with the wise become wise",
+            "Wisdom is solitary"
+          ],
+          "answer": "Walk with the wise become wise",
+          "reference": "Proverbs 13:20"
+        },
+        {
+          "id": "salmos-u3-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the main lessons",
+          "pairs": [
+            {
+              "left": "Fear of God",
+              "right": "Root of wisdom"
+            },
+            {
+              "left": "Wise words",
+              "right": "Heal and build"
+            },
+            {
+              "left": "True friends",
+              "right": "Support in everything"
+            },
+            {
+              "left": "Diligent work",
+              "right": "Leads to success"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Order the principles of wisdom",
+          "text": "Progress in acquiring wisdom",
+          "tokens": [
+            "Fear the LORD",
+            "Listen to wise counsel",
+            "Apply to practical life",
+            "Share with others"
+          ]
+        },
+        {
+          "id": "salmos-u3-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Wisdom is a gift that comes mainly from our experiences.",
+          "isTrue": false,
+          "reference": "Proverbs 1:7",
+          "explanation": "Although we learn from experience, true wisdom originates in the fear of the LORD."
+        }
+      ]
+    }
+  ]
+}

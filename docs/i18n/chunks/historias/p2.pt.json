@@ -1,0 +1,429 @@
+[
+  {
+    "id": "historia-rute-noemi",
+    "title": "Rute e Noemi",
+    "subtitle": "Lealdade e compaixão no coração de uma mulher",
+    "icon": "leaf.fill",
+    "reference": "Rute 1-4",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Noemi era uma mulher israelita viúva, e sua nora Rute era estrangeira. Ambas haviam perdido tudo e estava desesperad as."
+      },
+      {
+        "kind": "line",
+        "speaker": "Noemi",
+        "text": "Rute, querida, você deveria retornar à sua terra. Eu nada tenho para lhe oferecer aqui. Sua vida pode ser melhor com seu próprio povo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Rute",
+        "text": "Noemi, eu vou com você! Seu povo será meu povo, e seu Deus será meu Deus. Não vou deixá-la sozinha."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que Rute queria ficar com Noemi?",
+        "options": [
+          "Porque amava Noemi e era leal",
+          "Porque queria ganhar dinheiro",
+          "Porque tinha medo de voltar"
+        ],
+        "answer": "Porque amava Noemi e era leal"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Rute e Noemi chegaram a Belém na época da colheita. Rute foi aos campos e pediu permissão para apanhar espigas deixadas para trás pelos ceifadores."
+      },
+      {
+        "kind": "line",
+        "speaker": "Rute",
+        "text": "Por favor, posso apanhar espigas deixadas no seu campo? Prometo trabalhar duro para conseguir comida para minha sogra."
+      },
+      {
+        "kind": "line",
+        "speaker": "Boaz",
+        "text": "Claro que pode, querida moça. Ouvi falar sobre sua lealdade a Noemi. Isso é digno de louvor."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Boaz era um homem rico e respeitado. Ele viu a lealdade de Rute e começou a amá-la. Protegeu-a nos campos."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como Boaz tratava Rute nos campos?",
+        "options": [
+          "Com gentileza, oferecia água e proteção",
+          "Com frieza e desprezo",
+          "Ignorava completamente"
+        ],
+        "answer": "Com gentileza, oferecia água e proteção"
+      },
+      {
+        "kind": "line",
+        "speaker": "Boaz",
+        "text": "Rute, quero te pedir em casamento. Você é uma mulher digna de honra e lealdade. Gostaria de cuidar de você e de Noemi."
+      },
+      {
+        "kind": "line",
+        "speaker": "Rute",
+        "text": "Sim! Você é tão gentil comigo. Aceito ser sua esposa."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Rute e Boaz se casaram. Tiveram um filho chamado Obede, que se tornou avô do Rei Davi."
+      },
+      {
+        "kind": "line",
+        "speaker": "Noemi",
+        "text": "Louvado seja Deus! Minha nora me redimiu e deu alegria. Agora temos esperança e futuro!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Qual foi o resultado da lealdade de Rute?",
+        "options": [
+          "Ela encontrou amor, segurança e um lugar na história de Deus",
+          "Ela ficou pobre para sempre",
+          "Noemi voltou a ser infeliz"
+        ],
+        "answer": "Ela encontrou amor, segurança e um lugar na história de Deus"
+      }
+    ]
+  },
+  {
+    "id": "historia-nascimento-jesus",
+    "title": "O Nascimento de Jesus",
+    "subtitle": "Deus entra no mundo como um bebê",
+    "icon": "star.fill",
+    "reference": "Lucas 1-2, Mateus 1-2",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Maria era uma jovem mulher de Nazaré. Um dia, o anjo Gabriel apareceu a ela com notícias surpreendentes."
+      },
+      {
+        "kind": "line",
+        "speaker": "Gabriel",
+        "text": "Não temas, Maria! Foste escolhida entre todas as mulheres. Conceberás e darás à luz um filho chamado Jesus."
+      },
+      {
+        "kind": "line",
+        "speaker": "Maria",
+        "text": "Como pode ser? Não tenho marido. Como posso ter um filho?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Gabriel",
+        "text": "O Espírito Santo virá sobre ti. O filho será chamado o Filho de Deus. Seu reino não terá fim."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como Maria respondeu à notícia do anjo?",
+        "options": [
+          "Com fé, dizendo que faria a vontade de Deus",
+          "Com raiva e descrença",
+          "Fugindo do anjo em medo"
+        ],
+        "answer": "Com fé, dizendo que faria a vontade de Deus"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Maria era noiva de José, um carpinteiro justo. Quando soube de Maria, ele planejou deixá-la em secreto. Mas um anjo lhe apareceu em sonho."
+      },
+      {
+        "kind": "line",
+        "speaker": "Anjo",
+        "text": "José, não temas. O filho de Maria é do Espírito Santo. Chama-o de Jesus, pois ele salvará seu povo do pecado."
+      },
+      {
+        "kind": "line",
+        "speaker": "José",
+        "text": "Entendo agora. Vou aceitar esta missão. Serei pai terreno de Jesus e cuidarei de Maria."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Maria e José viajaram a Belém porque o imperador ordenou um censo. Todos precisavam se registrar em sua cidade natal."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que Maria e José foram a Belém?",
+        "options": [
+          "Por causa do censo ordenado pelo imperador",
+          "Porque queriam uma viagem",
+          "Porque seu parente vivia lá"
+        ],
+        "answer": "Por causa do censo ordenado pelo imperador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Maria",
+        "text": "Preciso encontrar um lugar para dar à luz. Meu filho está chegando!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Estalajadeiro",
+        "text": "Lamento, mas não há quartos. A estalagem está cheia. Podem ficar no estábulo se quiserem."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jesus nasceu em um estábulo simples. Maria o embrulhou em panos e o deitou em uma manjedoura cheia de palha."
+      },
+      {
+        "kind": "line",
+        "speaker": "Pastores",
+        "text": "Que luminosidade é essa? O que está acontecendo no céu?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Anjo",
+        "text": "Não temer! Tenho notícias de grande alegria para todo o povo. Nasceu hoje na cidade de Davi, o Salvador!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Quem foram os primeiros a saber do nascimento de Jesus?",
+        "options": [
+          "Os pastores nos campos, quando o anjo lhes apareceu",
+          "Os reis magos",
+          "O imperador romano"
+        ],
+        "answer": "Os pastores nos campos, quando o anjo lhes apareceu"
+      },
+      {
+        "kind": "line",
+        "speaker": "Pastores",
+        "text": "Vamos a Belém ver o menino! O anjo disse que está embrulhado em panos, deitado em uma manjedoura!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Os pastores foram correndo e encontraram Jesus, Maria e José. Adoraram o bebê e contaram a todos o que ouviram."
+      },
+      {
+        "kind": "line",
+        "speaker": "Sábios do Oriente",
+        "text": "Uma estrela nova apareceu! Significa que um grande rei nasceu. Vamos o adorar com presentes."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Os sábios viajaram de longe seguindo uma estrela. Encontraram Jesus e ofereceram ouro, incenso e mirra."
+      }
+    ]
+  },
+  {
+    "id": "historia-jesus-tempestade",
+    "title": "Jesus Acalma a Tempestade",
+    "subtitle": "Jesus tem poder até sobre os elementos da natureza",
+    "icon": "water.waves",
+    "reference": "Mateus 8:23-27, Marcos 4:35-41",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jesus e seus discípulos estavam em um barco no Mar da Galileia. Jesus estava tão cansado que adormeceu."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "De repente, uma tempestade terrível começou. O vento soprava furiosamente e ondas enormes batiam no barco."
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 1",
+        "text": "Senhores! Estamos afundando! O barco está enchendo de água! Vamos morrer!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 2",
+        "text": "Onde está Jesus? Por que não nos ajuda? Ele não se importa?"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que os discípulos tinham medo?",
+        "options": [
+          "Porque uma tempestade violenta os cercava",
+          "Porque não sabiam nadar",
+          "Porque ouviram falar de pirata"
+        ],
+        "answer": "Porque uma tempestade violenta os cercava"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 1",
+        "text": "Jesus! Desperta! Por favor, acorda! Estamos morrendo!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesus acordou e viu o medo nos rostos de seus discípulos. Ele se levantou com calma e autoridade.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Por que têm medo? Onde está a fé de vocês?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Silêncio! Acalma-te!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesus falou para o vento e as ondas. E no mesmo instante, uma grande paz desceu. O vento cessou e as águas se acalmaram.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como a tempestade terminou?",
+        "options": [
+          "Jesus ordenou ao vento e às ondas que acalmassem",
+          "Os discípulos remaram para fora da tempestade",
+          "Uma outra embarcação os ajudou"
+        ],
+        "answer": "Jesus ordenou ao vento e às ondas que acalmassem"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 2",
+        "text": "Jesus! Que tipo de homem é você? Até o vento e o mar obedecem!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 3",
+        "text": "Ele deve ser o Messias! Ninguém mais tem esse poder!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Vocês viram meu poder. Saibam que tenho autoridade até sobre a natureza. Confiem em mim, pois estou sempre com vocês."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Todos os discípulos foram cheios de admiração. Compreenderam que Jesus não era apenas um mestre, mas o Filho de Deus."
+      }
+    ]
+  },
+  {
+    "id": "historia-zaqueu",
+    "title": "Zaqueu",
+    "subtitle": "Um homem pequeno encontra salvação em Jesus",
+    "icon": "person.2.fill",
+    "reference": "Lucas 19:1-10",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Zaqueu era um cobrador de impostos em Jericó. Ele era muito pequeno de estatura e muito rico, mas odiado por todos."
+      },
+      {
+        "kind": "line",
+        "text": "Zaqueu é um traidor! Ele cobra mais impostos do que deveria e fica com o dinheiro. Ele é uma serpente!",
+        "speaker": "Povo de Jericó"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Um dia, Jesus passou por Jericó. Multidões o seguiam. Zaqueu queria ver Jesus, mas era muito baixo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Zaqueu",
+        "text": "Não consigo ver! Essa multidão é muito grande. Ninguém vai deixar um cobrador de impostos passar na frente."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que Zaqueu tinha dificuldade em ver Jesus?",
+        "options": [
+          "Porque era muito baixo e a multidão era grande",
+          "Porque tinha os olhos fechados",
+          "Porque estava muito distante"
+        ],
+        "answer": "Porque era muito baixo e a multidão era grande"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Zaqueu viu uma oportunidade. Correu na frente e subiu em uma árvore de sicômoro para ver Jesus passar."
+      },
+      {
+        "kind": "line",
+        "speaker": "Zaqueu",
+        "text": "Perfeito! De cima desta árvore posso ver Jesus sem problema!"
+      },
+      {
+        "kind": "line",
+        "text": "Quando Jesus passou perto da árvore, ele olhou para cima e viu Zaqueu.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Zaqueu! Desce daí! Quero ir à tua casa hoje!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Zaqueu",
+        "text": "Você quer vir à minha casa? Eu sou tão odiado! Mas vou descer rápido!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como Zaqueu se sentiu quando Jesus o notou?",
+        "options": [
+          "Surpreso e alegre porque Jesus o escolheu",
+          "Furioso porque Jesus o viu",
+          "Indiferente"
+        ],
+        "answer": "Surpreso e alegre porque Jesus o escolheu"
+      },
+      {
+        "kind": "line",
+        "speaker": "Povo de Jericó",
+        "text": "Que coisa terrível! Jesus está indo à casa de Zaqueu? Um cobrador de impostos corrompido?"
+      },
+      {
+        "kind": "line",
+        "text": "Enquanto comiam, Zaqueu foi transformado pelo encontro com Jesus. Ele viu seu pecado e quis mudar.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Zaqueu",
+        "text": "Jesus, eu quero mudar! Vou dar metade dos meus bens aos pobres e devolver quatro vezes o que roubei!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Hoje, a salvação entrou em tua casa. Você é verdadeiramente um filho de Abraão. Pois o Filho do Homem veio buscar e salvar o perdido."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como Zaqueu foi transformado?",
+        "options": [
+          "Ele se arrependeu e mudou sua vida, querendo fazer reparação",
+          "Ele continuou roubando como antes",
+          "Ele tentou comprar o favor de Jesus"
+        ],
+        "answer": "Ele se arrependeu e mudou sua vida, querendo fazer reparação"
+      }
+    ]
+  }
+]

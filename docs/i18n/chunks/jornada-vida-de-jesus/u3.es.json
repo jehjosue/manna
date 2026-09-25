@@ -1,0 +1,646 @@
+{
+  "id": "u3",
+  "title": "Unidad 3",
+  "subtitle": "Enseñanzas y milagros",
+  "guide": {
+    "summary": "Jesús enseña el camino al Reino a través de las bienaventuranzas y el Padre Nuestro, revelando que la verdadera vida consiste en confiar en él. Sus parábolas desafían a las multitudes a pensar sobre fe y prioridades. Sus milagros demuestran compasión y poder divino: alimenta a miles, camina sobre aguas, sana enfermos y resucita muertos.",
+    "keyVerses": [
+      {
+        "reference": "Mateo 5:3",
+        "text": "Bienaventurados los pobres en espíritu; porque de ellos es el reino de los cielos."
+      },
+      {
+        "reference": "Mateo 6:9-10",
+        "text": "Vosotros, pues, oraréis así: Padre nuestro que estás en los cielos, santificado sea tu nombre. Venga tu reino. Hágase tu voluntad, como en el cielo, así en la tierra."
+      },
+      {
+        "reference": "Mateo 14:27",
+        "text": "Mas enseguida Jesús les habló, diciendo: Tened ánimo, yo soy; no temáis."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u3-l1",
+      "title": "Sermón del Monte",
+      "icon": "mountain.2.fill",
+      "exercises": [
+        {
+          "id": "u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Bienaventurados los pobres en ___; porque de ellos es el reino de los cielos.\"",
+          "speaker": "Jesús",
+          "options": [
+            "espíritu",
+            "corazón",
+            "alma",
+            "fe"
+          ],
+          "answer": "espíritu",
+          "reference": "Mateo 5:3"
+        },
+        {
+          "id": "u3-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Las bienaventuranzas enseñan cualidades que traen felicidad espiritual.",
+          "isTrue": true,
+          "reference": "Mateo 5:3-12",
+          "explanation": "Las bienaventuranzas describen las bendiciones de Dios sobre aquellos que viven conforme a sus valores."
+        },
+        {
+          "id": "u3-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Una de las bienaventuranzas del Sermón",
+          "tokens": [
+            "Bienaventurados",
+            "los que lloran",
+            "porque serán",
+            "consolados"
+          ],
+          "distractors": [
+            "los que ríen",
+            "recibirán",
+            "serán juzgados",
+            "los felices"
+          ],
+          "reference": "Mateo 5:4"
+        },
+        {
+          "id": "u3-l1-e4",
+          "kind": "multipleChoice",
+          "prompt": "¿Quiénes son bienaventurados según Jesús?",
+          "text": "Bienaventurados los ___, porque de ellos es el reino de los cielos.",
+          "options": [
+            "mansos",
+            "ricos",
+            "poderosos",
+            "sabios"
+          ],
+          "answer": "mansos",
+          "reference": "Mateo 5:5"
+        },
+        {
+          "id": "u3-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los pares",
+          "pairs": [
+            {
+              "left": "Pobres en espíritu",
+              "right": "Reino de los cielos"
+            },
+            {
+              "left": "Mansos",
+              "right": "Heredarán la tierra"
+            },
+            {
+              "left": "Hambrientos de justicia",
+              "right": "Serán saciados"
+            },
+            {
+              "left": "Misericordiosos",
+              "right": "Alcanzarán gracia"
+            }
+          ],
+          "reference": "Mateo 5:3-7"
+        },
+        {
+          "id": "u3-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Jesús enseñó que los pacificadores serán llamados hijos de Dios.",
+          "isTrue": true,
+          "reference": "Mateo 5:9",
+          "explanation": "Bienaventurados los pacificadores, porque serán llamados hijos de Dios (Mateo 5:9)."
+        },
+        {
+          "id": "u3-l1-e7",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuántas bienaventuranzas pronunció Jesús?",
+          "text": "En el Sermón del Monte, Jesús enseñó aproximadamente ___ bienaventuranzas.",
+          "options": [
+            "ocho",
+            "diez",
+            "cinco",
+            "doce"
+          ],
+          "answer": "ocho",
+          "reference": "Mateo 5:3-12"
+        },
+        {
+          "id": "u3-l1-e8",
+          "kind": "multipleChoice",
+          "prompt": "Completa la bienaventuranza sobre la misericordia",
+          "text": "\"Bienaventurados los misericordiosos, porque alcanzarán ___.\"",
+          "options": [
+            "misericordia",
+            "perdón",
+            "bendición",
+            "gracia"
+          ],
+          "answer": "misericordia",
+          "reference": "Mateo 5:7"
+        }
+      ]
+    },
+    {
+      "id": "u3-l2",
+      "title": "El Padre Nuestro",
+      "icon": "hands.sparkles.fill",
+      "exercises": [
+        {
+          "id": "u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Vosotros, pues, oraréis así: Padre nuestro que estás en los ___, santificado sea tu nombre.\"",
+          "speaker": "Jesús",
+          "options": [
+            "cielos",
+            "cielo",
+            "trono",
+            "templo"
+          ],
+          "answer": "cielos",
+          "reference": "Mateo 6:9"
+        },
+        {
+          "id": "u3-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El Padre Nuestro es una oración que Jesús enseñó a sus discípulos.",
+          "isTrue": true,
+          "reference": "Mateo 6:9-13",
+          "explanation": "Jesús enseñó esta oración como modelo de cómo los discípulos deben orar."
+        },
+        {
+          "id": "u3-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Petición por el pan diario",
+          "tokens": [
+            "El pan nuestro",
+            "de cada día",
+            "dánoslo hoy"
+          ],
+          "distractors": [
+            "de cada mes",
+            "danos siempre",
+            "que nos pertenece",
+            "que sembramos"
+          ],
+          "reference": "Mateo 6:11"
+        },
+        {
+          "id": "u3-l2-e4",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué pidió Jesús que fuera santificado?",
+          "text": "\"Santificado sea tu ___\".",
+          "options": [
+            "nombre",
+            "trono",
+            "pueblo",
+            "reino"
+          ],
+          "answer": "nombre",
+          "reference": "Mateo 6:9"
+        },
+        {
+          "id": "u3-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los pares",
+          "pairs": [
+            {
+              "left": "Santificado sea",
+              "right": "Tu nombre"
+            },
+            {
+              "left": "Venga tu",
+              "right": "Reino"
+            },
+            {
+              "left": "Hágase tu",
+              "right": "Voluntad"
+            },
+            {
+              "left": "Perdona nos",
+              "right": "Nuestras deudas"
+            }
+          ],
+          "reference": "Mateo 6:9-13"
+        },
+        {
+          "id": "u3-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "En la oración del Padre Nuestro, le pedimos a Dios que nos perdone nuestras ofensas.",
+          "isTrue": true,
+          "reference": "Mateo 6:12",
+          "explanation": "\"Perdona nos nuestras deudas, así como nosotros perdonamos a nuestros deudores\" (Mateo 6:12)."
+        },
+        {
+          "id": "u3-l2-e7",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo pidió Jesús que oremos por sustento?",
+          "text": "\"El pan nuestro de cada día ___ hoy.\"",
+          "options": [
+            "dánoslo",
+            "danos",
+            "nos pertenece",
+            "aparece"
+          ],
+          "answer": "dánoslo",
+          "reference": "Mateo 6:11"
+        },
+        {
+          "id": "u3-l2-e8",
+          "kind": "multipleChoice",
+          "prompt": "Completa la oración sobre el perdón",
+          "text": "\"Perdona nos nuestras deudas, así como nosotros perdonamos a nuestros ___; y no nos metas en tentación, mas líbranos del mal.\"",
+          "options": [
+            "deudores",
+            "enemigos",
+            "pecadores",
+            "críticos"
+          ],
+          "answer": "deudores",
+          "reference": "Mateo 6:12"
+        }
+      ]
+    },
+    {
+      "id": "u3-l3",
+      "title": "Parábolas de Jesús",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo sobre la parábola",
+          "text": "\"La parábola del hijo pródigo: Un hombre tenía dos ___; y el más joven dijo a su padre: Padre, dame mi parte de la herencia.\"",
+          "speaker": "Jesús",
+          "options": [
+            "hijos",
+            "hijas",
+            "siervos",
+            "herederos"
+          ],
+          "answer": "hijos",
+          "reference": "Lucas 15:11-12"
+        },
+        {
+          "id": "u3-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "En la parábola del hijo pródigo, el padre lo rechazó cuando regresó.",
+          "isTrue": false,
+          "reference": "Lucas 15:20",
+          "explanation": "El padre corrió para abrazar al hijo y lo recibió con alegría (Lucas 15:20)."
+        },
+        {
+          "id": "u3-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La reacción del padre al ver al hijo regresar",
+          "tokens": [
+            "Levantándose",
+            "fue al encuentro",
+            "de su hijo",
+            "y lo besó"
+          ],
+          "distractors": [
+            "llamó al siervo",
+            "le dio dinero",
+            "pidió explicaciones",
+            "lo reprendió"
+          ],
+          "reference": "Lucas 15:20"
+        },
+        {
+          "id": "u3-l3-e4",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál era la lección de la parábola de la oveja perdida?",
+          "text": "La parábola de la oveja perdida enseña que hay ___ en el cielo por un pecador que se arrepiente.",
+          "options": [
+            "alegría",
+            "tristeza",
+            "juicio",
+            "condenación"
+          ],
+          "answer": "alegría",
+          "reference": "Lucas 15:7"
+        },
+        {
+          "id": "u3-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los pares",
+          "pairs": [
+            {
+              "left": "Hijo pródigo",
+              "right": "Vuelve al padre"
+            },
+            {
+              "left": "Oveja perdida",
+              "right": "Pastor la busca"
+            },
+            {
+              "left": "Buen samaritano",
+              "right": "Ayuda al herido"
+            },
+            {
+              "left": "Parábola",
+              "right": "Enseñanza con historia"
+            }
+          ],
+          "reference": "Lucas 15, Mateo 18 y Lucas 10"
+        },
+        {
+          "id": "u3-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "En la parábola del buen samaritano, un sacerdote ayudó al hombre herido.",
+          "isTrue": false,
+          "reference": "Lucas 10:31-32",
+          "explanation": "El sacerdote y el levita pasaron de largo y no ayudaron. Fue el samaritano quien lo ayudó (Lucas 10:31-37)."
+        },
+        {
+          "id": "u3-l3-e7",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuántas ovejas dejó el pastor para buscar una?",
+          "text": "En la parábola, el pastor dejó ___ ovejas para buscar la perdida.",
+          "options": [
+            "noventa y nueve",
+            "cien",
+            "cincuenta",
+            "diez"
+          ],
+          "answer": "noventa y nueve",
+          "reference": "Lucas 15:4"
+        },
+        {
+          "id": "u3-l3-e8",
+          "kind": "multipleChoice",
+          "prompt": "¿A qué pueblo pertenecían el sacerdote y el levita?",
+          "text": "El buen samaritano ayudó a un hombre al que los ___ no ayudaron.",
+          "options": [
+            "judíos",
+            "escribas",
+            "fariseos",
+            "romanos"
+          ],
+          "answer": "judíos",
+          "reference": "Lucas 10:25-37"
+        }
+      ]
+    },
+    {
+      "id": "u3-l4",
+      "title": "Milagros de Jesús",
+      "icon": "sun.max.fill",
+      "exercises": [
+        {
+          "id": "u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo sobre la multiplicación",
+          "text": "\"Entonces Jesús tomó los cinco panes y los dos peces, y levantando los ojos al cielo, bendijo, y partió y dio a sus discípulos para que ___ a la multitud.\"",
+          "speaker": "Jesús",
+          "options": [
+            "distribuyesen",
+            "guardasen",
+            "comiesen",
+            "trajeran"
+          ],
+          "answer": "distribuyesen",
+          "reference": "Mateo 14:19"
+        },
+        {
+          "id": "u3-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Jesús caminó sobre las aguas del mar para llegar a los discípulos.",
+          "isTrue": true,
+          "reference": "Mateo 14:25-26",
+          "explanation": "En la cuarta vigilia de la noche, Jesús vino caminando sobre el mar hacia los discípulos (Mateo 14:25-26)."
+        },
+        {
+          "id": "u3-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Lo que Jesús dijo al caminar sobre las aguas",
+          "tokens": [
+            "Tened ánimo",
+            "yo soy",
+            "no tengáis miedo"
+          ],
+          "distractors": [
+            "yo voy",
+            "está bien",
+            "no tengan miedo",
+            "yo estoy"
+          ],
+          "reference": "Mateo 14:27"
+        },
+        {
+          "id": "u3-l4-e4",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuántas personas fueron alimentadas con pocos panes?",
+          "text": "Cuando Jesús multiplicó los panes, aproximadamente ___ personas comieron.",
+          "options": [
+            "cinco mil",
+            "diez mil",
+            "mil",
+            "tres mil"
+          ],
+          "answer": "cinco mil",
+          "reference": "Mateo 14:21"
+        },
+        {
+          "id": "u3-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los pares",
+          "pairs": [
+            {
+              "left": "Multiplicación",
+              "right": "Cinco mil"
+            },
+            {
+              "left": "Caminar sobre aguas",
+              "right": "Tened ánimo"
+            },
+            {
+              "left": "Ciego sanado",
+              "right": "Veía"
+            },
+            {
+              "left": "Lázaro",
+              "right": "Resucita"
+            }
+          ],
+          "reference": "Mateo 14, Juan 9 y 11"
+        },
+        {
+          "id": "u3-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Jesús resucitó a Lázaro que había estado muerto cuatro días.",
+          "isTrue": true,
+          "reference": "Juan 11:39",
+          "explanation": "Lázaro ya había estado sepultado cuatro días cuando Jesús lo llamó a salir del sepulcro (Juan 11:39-44)."
+        },
+        {
+          "id": "u3-l4-e7",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo sanó Jesús al ciego?",
+          "text": "Jesús puso ___ en los ojos del ciego para sanarlo.",
+          "options": [
+            "lodo",
+            "aceite",
+            "agua",
+            "vino"
+          ],
+          "answer": "lodo",
+          "reference": "Juan 9:6"
+        },
+        {
+          "id": "u3-l4-e8",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuánto tiempo llevaba muerto Lázaro?",
+          "text": "Lázaro había estado muerto durante ___ días.",
+          "options": [
+            "cuatro",
+            "tres",
+            "cinco",
+            "siete"
+          ],
+          "answer": "cuatro",
+          "reference": "Juan 11:39"
+        }
+      ]
+    },
+    {
+      "id": "u3-l5",
+      "title": "Repaso: Enseñanzas y Milagros",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es la bienaventuranza de los mansos?",
+          "text": "Bienaventurados los mansos, porque ___.",
+          "options": [
+            "heredarán la tierra",
+            "verán a Dios",
+            "recibirán misericordia",
+            "estarán confortados"
+          ],
+          "answer": "heredarán la tierra",
+          "reference": "Mateo 5:5"
+        },
+        {
+          "id": "u3-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El Padre Nuestro es una oración de perdón y dependencia de Dios.",
+          "isTrue": true,
+          "reference": "Mateo 6:9-13",
+          "explanation": "El Padre Nuestro enseña a confiar en Dios por el sustento diario y a pedir perdón de nuestras ofensas."
+        },
+        {
+          "id": "u3-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La bienaventuranza de los misericordiosos",
+          "tokens": [
+            "Bienaventurados",
+            "los misericordiosos",
+            "porque alcanzarán",
+            "misericordia"
+          ],
+          "distractors": [
+            "recibirán",
+            "encontrarán",
+            "los compasivos",
+            "bendición"
+          ],
+          "reference": "Mateo 5:7"
+        },
+        {
+          "id": "u3-l5-e4",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál parábola enseña sobre el arrepentimiento?",
+          "text": "La parábola del ___ habla de un hombre que gastó su herencia pero regresó al padre.",
+          "options": [
+            "hijo pródigo",
+            "buen samaritano",
+            "oveja perdida",
+            "sembrador"
+          ],
+          "answer": "hijo pródigo",
+          "reference": "Lucas 15:11-32"
+        },
+        {
+          "id": "u3-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los pares",
+          "pairs": [
+            {
+              "left": "Sermón del monte",
+              "right": "Bienaventuranzas"
+            },
+            {
+              "left": "Parábolas",
+              "right": "Enseñanzas por historia"
+            },
+            {
+              "left": "Milagros",
+              "right": "Poder divino"
+            },
+            {
+              "left": "Oración",
+              "right": "Relación con Dios"
+            }
+          ],
+          "reference": "Mateo 5-7, Lucas 15, Juan 9-11"
+        },
+        {
+          "id": "u3-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Los milagros de Jesús probaban su poder e identidad como Mesías.",
+          "isTrue": true,
+          "reference": "Juan 20:30-31",
+          "explanation": "Los signos fueron escritos para que creamos que Jesús es el Cristo y tengamos vida en él."
+        },
+        {
+          "id": "u3-l5-e7",
+          "kind": "multipleChoice",
+          "prompt": "Completa sobre el buen samaritano",
+          "text": "En la parábola del buen samaritano, el ___ fue quien mostró compasión.",
+          "options": [
+            "samaritano",
+            "sacerdote",
+            "levita",
+            "judío"
+          ],
+          "answer": "samaritano",
+          "reference": "Lucas 10:33-35"
+        },
+        {
+          "id": "u3-l5-e8",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuántos discípulos eligió Jesús?",
+          "text": "Jesús designó ___ discípulos para estar con él.",
+          "options": [
+            "doce",
+            "setenta",
+            "diez",
+            "catorce"
+          ],
+          "answer": "doce",
+          "reference": "Marcos 3:14"
+        }
+      ]
+    }
+  ]
+}

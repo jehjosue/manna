@@ -1,0 +1,633 @@
+{
+  "id": "salmos-u3",
+  "title": "Unidad 3",
+  "subtitle": "Sabiduría para el Día a Día",
+  "guide": {
+    "summary": "Los Proverbios nos enseñan sabiduría práctica para vivir bien. Hablan sobre amistad genuina, trabajo honesto, palabras que sanan, y humildad. La sabiduría teme al Señor y nos guía en todas las decisiones.",
+    "keyVerses": [
+      {
+        "reference": "Proverbios 1:7",
+        "text": "El temor del Señor es el principio de la sabiduría."
+      },
+      {
+        "reference": "Proverbios 17:17",
+        "text": "En todo tiempo ama el amigo, y es hermano en la adversidad."
+      },
+      {
+        "reference": "Proverbios 22:6",
+        "text": "Enseña al niño el camino en que debe andar."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "salmos-u3-l1",
+      "title": "Sabiduría y Temor de Dios",
+      "icon": "lightbulb.fill",
+      "exercises": [
+        {
+          "id": "salmos-u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"El temor del Señor es el principio de la _____.",
+          "speaker": "Sabiduría",
+          "options": [
+            "sabiduría",
+            "verdad",
+            "virtud",
+            "conocimiento"
+          ],
+          "answer": "sabiduría",
+          "reference": "Proverbios 1:7",
+          "explanation": "La verdadera sabiduría comienza con el respeto y reverencia a Dios."
+        },
+        {
+          "id": "salmos-u3-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La sabiduría viene principalmente de aprender de los demás.",
+          "isTrue": false,
+          "reference": "Proverbios 1:7",
+          "explanation": "Aunque aprendemos de otros, la verdadera sabiduría tiene raíz en el temor del Señor."
+        },
+        {
+          "id": "salmos-u3-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué significa 'temor del Señor'?",
+          "text": "Este concepto no significa tener miedo como quien huye, sino algo diferente.",
+          "options": [
+            "Respeto reverente y obediencia amorosa",
+            "Pánico literal de Dios",
+            "Duda sobre Su amor",
+            "Miedo a ser castigado"
+          ],
+          "answer": "Respeto reverente y obediencia amorosa",
+          "reference": "Proverbios 1:7",
+          "explanation": "El temor del Señor es reverencia con amor, reconociendo Su autoridad y bondad."
+        },
+        {
+          "id": "salmos-u3-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "El fundamento de la sabiduría",
+          "tokens": [
+            "El temor del Señor",
+            "es el principio",
+            "de la sabiduría",
+            "y el conocimiento del Santo"
+          ],
+          "distractors": [
+            "es el camino",
+            "de la virtud",
+            "y pureza"
+          ],
+          "reference": "Proverbios 9:10"
+        },
+        {
+          "id": "salmos-u3-l1-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "El temor del Señor es el principio de la sabiduría.",
+          "options": [
+            "La sabiduría viene de aprender mucho",
+            "El temor del Señor es principio de sabiduría",
+            "Dios exige perfección de todos"
+          ],
+          "answer": "El temor del Señor es principio de sabiduría",
+          "reference": "Proverbios 1:7"
+        },
+        {
+          "id": "salmos-u3-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia los conceptos de sabiduría",
+          "pairs": [
+            {
+              "left": "Temor de Dios",
+              "right": "Respeto reverente"
+            },
+            {
+              "left": "Sabiduría",
+              "right": "Discernimiento sabio"
+            },
+            {
+              "left": "Conocimiento",
+              "right": "Aprendizaje de Dios"
+            },
+            {
+              "left": "Inteligencia",
+              "right": "Capacidad de pensar"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"El temor del Señor es el principio de la _____.",
+          "answer": "sabiduría",
+          "reference": "Proverbios 1:7",
+          "options": [
+            "sabiduría",
+            "verdad"
+          ]
+        },
+        {
+          "id": "salmos-u3-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Un sabio reconoce que no lo sabe todo y continúa aprendiendo.",
+          "isTrue": true,
+          "reference": "Proverbios 1:5, 2:6",
+          "explanation": "La verdadera sabiduría incluye humildad y disposición continua de aprender más."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u3-l2",
+      "title": "Palabras que Sanan",
+      "icon": "drop.fill",
+      "exercises": [
+        {
+          "id": "salmos-u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"La lengua blanda es árbol de vida, pero la perversa causa _____.",
+          "speaker": "Sabiduría",
+          "options": [
+            "ruina",
+            "dolor",
+            "tristeza",
+            "miedo"
+          ],
+          "answer": "ruina",
+          "reference": "Proverbios 15:4",
+          "explanation": "Nuestras palabras tienen poder para sanar o herir, para construir o destruir."
+        },
+        {
+          "id": "salmos-u3-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Las palabras crueles hieren, pero después las olvidamos.",
+          "isTrue": false,
+          "reference": "Proverbios 15:4",
+          "explanation": "Las palabras hirientes dejan cicatrices emocionales duraderas."
+        },
+        {
+          "id": "salmos-u3-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el valor de una respuesta suave?",
+          "text": "\"La respuesta suave aparta la _____, pero la palabra dura despierta ira.\"",
+          "options": [
+            "ira",
+            "tristeza",
+            "miedo",
+            "culpa"
+          ],
+          "answer": "ira",
+          "reference": "Proverbios 15:1",
+          "explanation": "Las palabras suaves y gentiles calman incluso en situaciones tensas."
+        },
+        {
+          "id": "salmos-u3-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "El poder de las palabras en Proverbios 18:21",
+          "tokens": [
+            "La muerte y la vida",
+            "están en poder",
+            "de la lengua",
+            "y el que la ama"
+          ],
+          "distractors": [
+            "y quien la controla",
+            "comerá de su fruto",
+            "vivirá feliz"
+          ],
+          "reference": "Proverbios 18:21"
+        },
+        {
+          "id": "salmos-u3-l2-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "La respuesta suave aparta la ira.",
+          "options": [
+            "Las palabras duras causan ira",
+            "La respuesta suave aparta la ira",
+            "El silencio es oro"
+          ],
+          "answer": "La respuesta suave aparta la ira",
+          "reference": "Proverbios 15:1"
+        },
+        {
+          "id": "salmos-u3-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia tipos de palabras con su efecto",
+          "pairs": [
+            {
+              "left": "Palabras suaves",
+              "right": "Sanan y construyen"
+            },
+            {
+              "left": "Palabras crueles",
+              "right": "Hieren y destruyen"
+            },
+            {
+              "left": "Respuesta suave",
+              "right": "Aparta ira"
+            },
+            {
+              "left": "Palabra dura",
+              "right": "Despierta ira"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"La muerte y la vida están en poder de la _____.",
+          "answer": "lengua",
+          "reference": "Proverbios 18:21",
+          "options": [
+            "lengua",
+            "boca"
+          ]
+        },
+        {
+          "id": "salmos-u3-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Debemos pensar en nuestras palabras antes de hablar.",
+          "isTrue": true,
+          "reference": "Proverbios 15:4",
+          "explanation": "Nuestras palabras tienen consecuencias, por lo que es sabio pensar antes de hablar."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u3-l3",
+      "title": "Amistad Verdadera",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "salmos-u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"En todo tiempo ama el amigo, y es hermano en la _____.\"",
+          "speaker": "Sabiduría",
+          "options": [
+            "adversidad",
+            "hermana",
+            "redentor",
+            "consuelo"
+          ],
+          "answer": "adversidad",
+          "reference": "Proverbios 17:17",
+          "explanation": "Un verdadero amigo está siempre a nuestro lado, especialmente en tiempos difíciles."
+        },
+        {
+          "id": "salmos-u3-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Una amistad verdadera es aquella que permanece solo en tiempos de alegría.",
+          "isTrue": false,
+          "reference": "Proverbios 17:17",
+          "explanation": "La verdadera amistad se demuestra especialmente en los momentos de dificultad y sufrimiento."
+        },
+        {
+          "id": "salmos-u3-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo elegir buenos amigos?",
+          "text": "\"El que anda con sabios será sabio, pero el _____ sufrirá daño.\"",
+          "options": [
+            "compañero de insensatos",
+            "hombre solitario",
+            "crítico severo",
+            "observador silencioso"
+          ],
+          "answer": "compañero de insensatos",
+          "reference": "Proverbios 13:20",
+          "explanation": "Las amistades influyen en nuestra vida, así que debemos elegir compañías que nos hagan crecer."
+        },
+        {
+          "id": "salmos-u3-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "El valor de la compañía en Proverbios 27:12",
+          "tokens": [
+            "El que anda con sabios",
+            "será sabio",
+            "pero el compañero de insensatos",
+            "será herido"
+          ],
+          "distractors": [
+            "será tonto",
+            "sufrirá daño",
+            "será castigado"
+          ],
+          "reference": "Proverbios 13:20"
+        },
+        {
+          "id": "salmos-u3-l3-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "En todo tiempo ama el amigo.",
+          "options": [
+            "Los amigos se van",
+            "En todo tiempo ama el amigo",
+            "La amistad es pasajera"
+          ],
+          "answer": "En todo tiempo ama el amigo",
+          "reference": "Proverbios 17:17"
+        },
+        {
+          "id": "salmos-u3-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia las características de amistad",
+          "pairs": [
+            {
+              "left": "Lealtad",
+              "right": "Presente en dificultades"
+            },
+            {
+              "left": "Constancia",
+              "right": "Permanece todo tiempo"
+            },
+            {
+              "left": "Influencia positiva",
+              "right": "Nos hace sabios"
+            },
+            {
+              "left": "Reprensión amorosa",
+              "right": "Corrige con cuidado"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"En todo tiempo ama el _____, y es hermano en adversidad.\"",
+          "answer": "amigo",
+          "reference": "Proverbios 17:17",
+          "options": [
+            "amigo",
+            "prójimo"
+          ]
+        },
+        {
+          "id": "salmos-u3-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Nuestras amistades no tienen impacto significativo en quiénes nos convertimos.",
+          "isTrue": false,
+          "reference": "Proverbios 13:20",
+          "explanation": "Nuestras amistades influyen profundamente en nuestro carácter y decisiones de vida."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u3-l4",
+      "title": "Trabajo y Humildad",
+      "icon": "tree.fill",
+      "exercises": [
+        {
+          "id": "salmos-u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"El perezoso desea y nada consigue, pero el deseo del diligente será _____.",
+          "speaker": "Sabiduría",
+          "options": [
+            "satisfecho",
+            "recompensado",
+            "bendecido",
+            "realizado"
+          ],
+          "answer": "satisfecho",
+          "reference": "Proverbios 13:4",
+          "explanation": "El trabajo diligente y perseverante lleva a la realización y al éxito."
+        },
+        {
+          "id": "salmos-u3-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La pereza es vista como una debilidad natural en Proverbios.",
+          "isTrue": false,
+          "reference": "Proverbios 13:4, 19:15",
+          "explanation": "La pereza en Proverbios se presenta como una elección que lleva a pobreza y fracaso."
+        },
+        {
+          "id": "salmos-u3-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué dice Proverbios sobre la humildad?",
+          "text": "\"Antes de la honra viene la _____.",
+          "options": [
+            "humildad",
+            "obediencia",
+            "virtud",
+            "justicia"
+          ],
+          "answer": "humildad",
+          "reference": "Proverbios 15:33",
+          "explanation": "La humildad precede cualquier honor verdadero; es la base del carácter respetable."
+        },
+        {
+          "id": "salmos-u3-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Promesa sobre el trabajo diligente",
+          "tokens": [
+            "El diligente dominará",
+            "pero el perezoso",
+            "será subyugado",
+            "por el trabajo"
+          ],
+          "distractors": [
+            "y oprimido",
+            "sufrirá",
+            "será vencido"
+          ],
+          "reference": "Proverbios 12:24"
+        },
+        {
+          "id": "salmos-u3-l4-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "El diligente dominará pero el perezoso será subyugado.",
+          "options": [
+            "Todos tienen el mismo resultado",
+            "El diligente domina al perezoso",
+            "El trabajo es importante"
+          ],
+          "answer": "El diligente domina al perezoso",
+          "reference": "Proverbios 12:24"
+        },
+        {
+          "id": "salmos-u3-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia las actitudes y consecuencias",
+          "pairs": [
+            {
+              "left": "Diligencia",
+              "right": "Éxito y realización"
+            },
+            {
+              "left": "Pereza",
+              "right": "Fracaso y pobreza"
+            },
+            {
+              "left": "Humildad",
+              "right": "Honor verdadero"
+            },
+            {
+              "left": "Soberbia",
+              "right": "Caída y destrucción"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"El perezoso desea y nada consigue, pero el deseo del diligente será _____.",
+          "answer": "satisfecho",
+          "reference": "Proverbios 13:4",
+          "options": [
+            "satisfecho",
+            "realizado"
+          ]
+        },
+        {
+          "id": "salmos-u3-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La humildad y el trabajo arduo son principios duraderos en Proverbios.",
+          "isTrue": true,
+          "reference": "Proverbios 13:4, 15:33",
+          "explanation": "La humildad y la diligencia son valores fundamentales que llevan a una vida exitosa y honrada."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u3-l5",
+      "title": "Repaso - Sabiduría del Día a Día",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "salmos-u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el tema central de los Proverbios?",
+          "text": "Este libro fue escrito principalmente para enseñar cómo vivir bien.",
+          "options": [
+            "Sabiduría práctica para la vida",
+            "Historia de reyes antiguos",
+            "Profecías sobre el futuro",
+            "Crítica de enemigos"
+          ],
+          "answer": "Sabiduría práctica para la vida",
+          "reference": "Proverbios 1:1-7",
+          "explanation": "Los Proverbios ofrecen consejos prácticos sobre cómo tomar buenas decisiones en la vida."
+        },
+        {
+          "id": "salmos-u3-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El temor del Señor es importante solo en contexto religioso.",
+          "isTrue": false,
+          "reference": "Proverbios 1:7, 14:26-27",
+          "explanation": "El temor del Señor es la base para toda sabiduría práctica y decisiones sabias en la vida."
+        },
+        {
+          "id": "salmos-u3-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo debemos cuidar nuestras palabras?",
+          "text": "Proverbios enfatiza el poder y la responsabilidad de hablar.",
+          "options": [
+            "Cuidar que sean verdaderas y bondadosas",
+            "Hablar lo máximo posible",
+            "Decir lo que otros quieren oír",
+            "Guardar silencio siempre"
+          ],
+          "answer": "Cuidar que sean verdaderas y bondadosas",
+          "reference": "Proverbios 15:1, 18:21",
+          "explanation": "Nuestras palabras tienen poder para sanar o herir, así que debemos ser cuidadosos y respetuosos."
+        },
+        {
+          "id": "salmos-u3-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo de repaso",
+          "text": "Resumen de la sabiduría práctica",
+          "tokens": [
+            "El temor del Señor",
+            "es el principio de la sabiduría",
+            "así como",
+            "la diligencia lleva al éxito"
+          ],
+          "distractors": [
+            "y la humildad al reconocimiento",
+            "y la bondad al elogio",
+            "y la verdad a la victoria"
+          ],
+          "reference": "Proverbios 1:7, 13:4"
+        },
+        {
+          "id": "salmos-u3-l5-e5",
+          "kind": "listen",
+          "prompt": "¿Qué sabiduría escuchaste?",
+          "text": "El que anda con sabios será sabio.",
+          "options": [
+            "Todos aprenden de la misma forma",
+            "El que anda con sabios será sabio",
+            "La sabiduría es solitaria"
+          ],
+          "answer": "El que anda con sabios será sabio",
+          "reference": "Proverbios 13:20"
+        },
+        {
+          "id": "salmos-u3-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia las lecciones principales",
+          "pairs": [
+            {
+              "left": "Temor de Dios",
+              "right": "Raíz de la sabiduría"
+            },
+            {
+              "left": "Palabras sabias",
+              "right": "Sanan y construyen"
+            },
+            {
+              "left": "Amigos verdaderos",
+              "right": "Apoyan en todo"
+            },
+            {
+              "left": "Trabajo diligente",
+              "right": "Lleva a éxito"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordena los principios de la sabiduría",
+          "text": "Progreso en la adquisición de sabiduría",
+          "tokens": [
+            "Temer al Señor",
+            "Oír consejos sabios",
+            "Aplicar en la vida práctica",
+            "Compartir con otros"
+          ]
+        },
+        {
+          "id": "salmos-u3-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La sabiduría es un don que viene principalmente de nuestras experiencias.",
+          "isTrue": false,
+          "reference": "Proverbios 1:7",
+          "explanation": "Aunque aprendemos de la experiencia, la verdadera sabiduría tiene origen en el temor del Señor."
+        }
+      ]
+    }
+  ]
+}

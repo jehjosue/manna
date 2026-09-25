@@ -1,0 +1,628 @@
+{
+  "id": "parabolas-u1",
+  "title": "Unidade 1",
+  "subtitle": "O Reino de Deus",
+  "guide": {
+    "summary": "Jesus ensinou sobre a natureza do Reino através de parábolas sobre crescimento, pequenez inicial e grande valor. O Reino começa pequeno como uma semente, cresce imperceptivelmente, e é de valor incalculável para quem o descobre.",
+    "keyVerses": [
+      {
+        "reference": "Mateus 13:31-32",
+        "text": "O Reino dos céus é semelhante a um grão de mostarda, que alguém toma e semeia no seu campo; e é, de fato, a menor das sementes, mas, depois de crescido, é a maior das hortaliças e se torna árvore."
+      },
+      {
+        "reference": "Mateus 13:44",
+        "text": "O Reino dos céus é semelhante a um tesouro escondido no campo, que alguém acha e esconde de novo; e, na sua alegria, vai vender tudo o que possui e compra aquele campo."
+      },
+      {
+        "reference": "Mateus 13:45-46",
+        "text": "O Reino dos céus é também semelhante a um negociante que busca boas pérolas; tendo achado uma pérola de grande valor, vai vender tudo o que possui e a compra."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "parabolas-u1-l1",
+      "title": "O Semeador",
+      "icon": "star.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual é a semente na parábola do semeador?",
+          "text": "Na parábola do semeador, a semente representa a ___ de Deus.",
+          "speaker": "Jesus",
+          "options": [
+            "Palavra",
+            "vontade",
+            "criação",
+            "ação"
+          ],
+          "answer": "Palavra",
+          "reference": "Mateus 13:19",
+          "explanation": "A semente na parábola representa a Palavra do Reino, que o semeador planta nos corações."
+        },
+        {
+          "id": "parabolas-u1-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "\"Aquele que semeou a boa semente é o ___.\"",
+          "answer": "Filho",
+          "options": [
+            "Filho",
+            "filho",
+            "Filho do Homem",
+            "Salvador"
+          ],
+          "reference": "Mateus 13:37",
+          "explanation": "Jesus explicou que quem semeou a boa semente é o Filho do Homem, referindo-se a si mesmo."
+        },
+        {
+          "id": "parabolas-u1-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Os diferentes tipos de solo na parábola",
+          "tokens": [
+            "Quem tem ouvidos",
+            "para ouvir",
+            "ouça"
+          ],
+          "distractors": [
+            "para entender",
+            "leia",
+            "compreenda",
+            "veja"
+          ],
+          "reference": "Mateus 13:9"
+        },
+        {
+          "id": "parabolas-u1-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque os tipos de solo em ordem",
+          "text": "Na parábola do semeador, Jesus descreve quatro tipos de solo onde a semente cai.",
+          "tokens": [
+            "Semente cai à beira do caminho",
+            "Semente cai em solo rochoso",
+            "Semente cai entre espinhos",
+            "Semente cai em solo fértil"
+          ],
+          "reference": "Mateus 13:4-8"
+        },
+        {
+          "id": "parabolas-u1-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os tipos de solo",
+          "pairs": [
+            {
+              "left": "Beira do caminho",
+              "right": "Palavra roubada"
+            },
+            {
+              "left": "Solo rochoso",
+              "right": "Fé superficial"
+            },
+            {
+              "left": "Espinhos",
+              "right": "Preocupações mundanas"
+            },
+            {
+              "left": "Solo fértil",
+              "right": "Coração receptivo"
+            }
+          ],
+          "reference": "Mateus 13:19-23"
+        },
+        {
+          "id": "parabolas-u1-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Na parábola do semeador, toda semente que cai produz muita colheita.",
+          "isTrue": false,
+          "reference": "Mateus 13:4-9",
+          "explanation": "Nem toda semente produz colheita. Apenas a que cai em solo fértil produz fruto abundante."
+        },
+        {
+          "id": "parabolas-u1-l1-e7",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Ouça o que Jesus disse: A semente é a palavra de Deus.",
+          "options": [
+            "A semente é a palavra de Deus",
+            "A semente é a sabedoria",
+            "A semente é o amor",
+            "A semente é o perdão"
+          ],
+          "answer": "A semente é a palavra de Deus",
+          "reference": "Lucas 8:11"
+        },
+        {
+          "id": "parabolas-u1-l1-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Quem tem ouvidos para ouvir, ouça.",
+          "reference": "Mateus 13:9"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u1-l2",
+      "title": "O Grão de Mostarda",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual é a semente mais pequena?",
+          "text": "O grão de mostarda é ___ das sementes.",
+          "options": [
+            "a menor",
+            "a mais dura",
+            "a mais rara",
+            "a mais clara"
+          ],
+          "answer": "a menor",
+          "reference": "Mateus 13:32"
+        },
+        {
+          "id": "parabolas-u1-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "\"Depois de crescido, é a maior das hortaliças e se torna uma ___.\"",
+          "answer": "árvore",
+          "options": [
+            "árvore",
+            "planta",
+            "muda",
+            "fronde"
+          ],
+          "reference": "Mateus 13:32"
+        },
+        {
+          "id": "parabolas-u1-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "O crescimento do grão de mostarda",
+          "tokens": [
+            "É a menor",
+            "das sementes",
+            "mas depois crescido",
+            "é a maior"
+          ],
+          "distractors": [
+            "das árvores",
+            "do mundo",
+            "do campo",
+            "das plantas"
+          ],
+          "reference": "Mateus 13:32"
+        },
+        {
+          "id": "parabolas-u1-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem de tamanho",
+          "text": "Evolução do grão de mostarda na parábola.",
+          "tokens": [
+            "Semente muito pequena",
+            "Cresce lentamente",
+            "Fica maior que horta",
+            "Torna-se árvore"
+          ],
+          "reference": "Mateus 13:31-32"
+        },
+        {
+          "id": "parabolas-u1-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os conceitos",
+          "pairs": [
+            {
+              "left": "Grão de mostarda",
+              "right": "Símbolo do Reino"
+            },
+            {
+              "left": "Pequeno início",
+              "right": "Crescimento marcante"
+            },
+            {
+              "left": "Aves do céu",
+              "right": "Pousam nos ramos"
+            },
+            {
+              "left": "Fé pequena",
+              "right": "Grandes resultados"
+            }
+          ],
+          "reference": "Mateus 13:31-32"
+        },
+        {
+          "id": "parabolas-u1-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Na parábola, o grão de mostarda cresce rapidamente até se tornar uma árvore.",
+          "isTrue": false,
+          "reference": "Mateus 13:31-32",
+          "explanation": "A parábola não menciona rapidez; apenas que de um grão pequeno, cresce até ser uma árvore grande onde os pássaros descansam."
+        },
+        {
+          "id": "parabolas-u1-l2-e7",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Ouça: O Reino é como uma semente pequena.",
+          "options": [
+            "O Reino é como uma semente pequena",
+            "O Reino é como um tesouro",
+            "O Reino é como uma pérola",
+            "O Reino é como um banquete"
+          ],
+          "answer": "O Reino é como uma semente pequena",
+          "reference": "Mateus 13:31"
+        },
+        {
+          "id": "parabolas-u1-l2-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "O Reino dos céus é semelhante a um grão.",
+          "reference": "Mateus 13:31"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u1-l3",
+      "title": "O Fermento na Massa",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "parabolas-u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "O que a mulher misturou com a farinha?",
+          "text": "Uma mulher tomou ___ e misturou com três medidas de farinha.",
+          "options": [
+            "fermento",
+            "sal",
+            "óleo",
+            "água"
+          ],
+          "answer": "fermento",
+          "reference": "Mateus 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "\"O Reino é como fermento que uma mulher toma e mistura na ___.\"",
+          "answer": "massa",
+          "options": [
+            "massa",
+            "farinha",
+            "receita",
+            "panela"
+          ],
+          "reference": "Mateus 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "O efeito do fermento na massa",
+          "tokens": [
+            "Uma mulher",
+            "tomou fermento",
+            "até tudo fermentado"
+          ],
+          "distractors": [
+            "inchou",
+            "cresceu",
+            "elevou",
+            "transformou"
+          ],
+          "reference": "Mateus 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem o processo",
+          "text": "Sequência da parábola do fermento.",
+          "tokens": [
+            "Mulher pega fermento",
+            "Mistura com farinha",
+            "Coloca na massa",
+            "Tudo fermenta"
+          ],
+          "reference": "Mateus 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os elementos",
+          "pairs": [
+            {
+              "left": "Fermento",
+              "right": "Agente de mudança"
+            },
+            {
+              "left": "Mulher",
+              "right": "Mistura tudo"
+            },
+            {
+              "left": "Massa",
+              "right": "Mundo transformado"
+            },
+            {
+              "left": "Fermentação",
+              "right": "Mudança invisível"
+            }
+          ],
+          "reference": "Mateus 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Na parábola, o fermento transforma toda a massa de dentro para fora.",
+          "isTrue": true,
+          "reference": "Mateus 13:33",
+          "explanation": "O fermento trabalha invisível e gradualmente, transformando toda a massa até que tudo fique fermentado."
+        },
+        {
+          "id": "parabolas-u1-l3-e7",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "O Reino trabalha como fermento na massa.",
+          "options": [
+            "O Reino trabalha como fermento",
+            "O Reino é uma árvore",
+            "O Reino é um tesouro",
+            "O Reino é uma semente"
+          ],
+          "answer": "O Reino trabalha como fermento",
+          "reference": "Mateus 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "O fermento transforma a massa invisível e completamente.",
+          "reference": "Mateus 13:33"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u1-l4",
+      "title": "O Tesouro e a Pérola",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "O que a pessoa vendeu para comprar o tesouro?",
+          "text": "O homem vendeu tudo que possuía para comprar o ___.",
+          "options": [
+            "campo",
+            "ouro",
+            "reino",
+            "palácio"
+          ],
+          "answer": "campo",
+          "reference": "Mateus 13:44"
+        },
+        {
+          "id": "parabolas-u1-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "\"Na sua ___, vai vender tudo o que possui.\"",
+          "answer": "alegria",
+          "options": [
+            "alegria",
+            "pressa",
+            "ganância",
+            "urgência"
+          ],
+          "reference": "Mateus 13:44"
+        },
+        {
+          "id": "parabolas-u1-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo sobre a pérola",
+          "text": "Ação do negociante ao achar a pérola",
+          "tokens": [
+            "Vai vender",
+            "tudo o que possui",
+            "e a compra"
+          ],
+          "distractors": [
+            "a guarda",
+            "a esconde",
+            "a examina",
+            "a oferece"
+          ],
+          "reference": "Mateus 13:46"
+        },
+        {
+          "id": "parabolas-u1-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem a descoberta",
+          "text": "Sequência das duas parábolas do valor.",
+          "tokens": [
+            "Homem acha tesouro",
+            "Esconde novamente",
+            "Vende tudo",
+            "Compra o campo"
+          ],
+          "reference": "Mateus 13:44"
+        },
+        {
+          "id": "parabolas-u1-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os personagens",
+          "pairs": [
+            {
+              "left": "Tesouro escondido",
+              "right": "Encontrado por acaso"
+            },
+            {
+              "left": "Negociante",
+              "right": "Procura pérolas"
+            },
+            {
+              "left": "Pérola de grande valor",
+              "right": "Valia tudo"
+            },
+            {
+              "left": "Venda de tudo",
+              "right": "Prioridade verdadeira"
+            }
+          ],
+          "reference": "Mateus 13:44-46"
+        },
+        {
+          "id": "parabolas-u1-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Tanto no tesouro como na pérola, a pessoa abriu mão de tudo para obtê-los.",
+          "isTrue": true,
+          "reference": "Mateus 13:44,46",
+          "explanation": "Ambas as parábolas mostram pessoas dispostas a vender tudo que possuem para adquirir o que tem verdadeiro valor."
+        },
+        {
+          "id": "parabolas-u1-l4-e7",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "O Reino é como um negociante que procura pérolas.",
+          "options": [
+            "Um negociante procura pérolas",
+            "Um homem acha tesouro",
+            "A pérola é rara",
+            "O campo tem valor"
+          ],
+          "answer": "Um negociante procura pérolas",
+          "reference": "Mateus 13:45"
+        },
+        {
+          "id": "parabolas-u1-l4-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Vale a pena vender tudo para o Reino.",
+          "reference": "Mateus 13:44-46"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u1-l5",
+      "title": "Revisão: O Reino",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "O que representa a semente na parábola do semeador?",
+          "text": "A semente representa a ___ de Deus.",
+          "options": [
+            "Palavra",
+            "vontade",
+            "sabedoria",
+            "força"
+          ],
+          "answer": "Palavra",
+          "reference": "Mateus 13:19"
+        },
+        {
+          "id": "parabolas-u1-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "O Reino é como um grão de ___ muito pequeno.",
+          "answer": "mostarda",
+          "options": [
+            "mostarda",
+            "sal",
+            "trigo",
+            "cevada"
+          ],
+          "reference": "Mateus 13:31"
+        },
+        {
+          "id": "parabolas-u1-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem as parábolas",
+          "text": "Ordem das 5 parábolas do Reino.",
+          "tokens": [
+            "Semeador planta a palavra",
+            "Grão cresce invisível",
+            "Fermento transforma",
+            "Tesouro espera ser descoberto"
+          ],
+          "reference": "Mateus 13:1-46"
+        },
+        {
+          "id": "parabolas-u1-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Associe os ensinamentos",
+          "pairs": [
+            {
+              "left": "Semeador",
+              "right": "Acolhe a palavra"
+            },
+            {
+              "left": "Mostarda",
+              "right": "Pequeno cresce"
+            },
+            {
+              "left": "Fermento",
+              "right": "Transforma tudo"
+            },
+            {
+              "left": "Tesouro",
+              "right": "Vale tudo"
+            }
+          ],
+          "reference": "Mateus 13"
+        },
+        {
+          "id": "parabolas-u1-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo de revisão",
+          "text": "Tema central das parábolas do Reino",
+          "tokens": [
+            "O Reino",
+            "dos céus é",
+            "semelhante a"
+          ],
+          "distractors": [
+            "O reino é",
+            "O Reino será",
+            "O Reino chegará",
+            "O Reino parecia"
+          ],
+          "reference": "Mateus 13"
+        },
+        {
+          "id": "parabolas-u1-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Todas as parábolas do Reino falam sobre algo que cresce ou se transforma gradualmente.",
+          "isTrue": true,
+          "reference": "Mateus 13:1-46",
+          "explanation": "Desde o semeador até o tesouro, as parábolas mostram processos de transformação, crescimento ou revelação."
+        },
+        {
+          "id": "parabolas-u1-l5-e7",
+          "kind": "listen",
+          "prompt": "Qual é o tema das parábolas?",
+          "text": "Todas as parábolas ensinam sobre o Reino de Deus.",
+          "options": [
+            "Sobre o Reino de Deus",
+            "Sobre o julgamento",
+            "Sobre a morte",
+            "Sobre o pecado"
+          ],
+          "answer": "Sobre o Reino de Deus",
+          "reference": "Mateus 13"
+        },
+        {
+          "id": "parabolas-u1-l5-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "O Reino de Deus é mais valioso que qualquer coisa.",
+          "reference": "Mateus 13:44-46"
+        }
+      ]
+    }
+  ]
+}

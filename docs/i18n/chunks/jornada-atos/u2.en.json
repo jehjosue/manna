@@ -1,0 +1,629 @@
+{
+  "id": "atos-u2",
+  "title": "Unit 2",
+  "subtitle": "Peter, John and Stephen",
+  "guide": {
+    "summary": "Peter was transformed from a man who denied Jesus into a courageous leader of the Church. John was his faithful companion. Stephen was the first martyr, demonstrating that faith is worth more than life. These heroes teach us about courage, faithfulness and sacrifice.",
+    "keyVerses": [
+      {
+        "reference": "Acts 4:19-20",
+        "text": "But Peter and John answered: We must obey God rather than men."
+      },
+      {
+        "reference": "Acts 5:41",
+        "text": "The apostles left the presence of the council, rejoicing that they were counted worthy to suffer shame for His name."
+      },
+      {
+        "reference": "Acts 7:59",
+        "text": "And they stoned Stephen as he called out: Lord Jesus, receive my spirit."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u2-l1",
+      "title": "Bold Peter",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "What was Peter like before Pentecost?",
+          "text": "Peter had a very distinctive characteristic before receiving the Holy Spirit.",
+          "options": [
+            "Fear and denial of Jesus",
+            "Confident leader",
+            "Violent warrior",
+            "Eloquent preacher"
+          ],
+          "answer": "Fear and denial of Jesus",
+          "reference": "Matthew 26:69-75, Acts 1",
+          "explanation": "Peter had denied Jesus three times out of fear, but then he was transformed."
+        },
+        {
+          "id": "atos-u2-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "After Pentecost, Peter became a courageous and fearless man.",
+          "isTrue": true,
+          "reference": "Acts 2-5",
+          "explanation": "Peter's transformation is dramatic: from denier to bold preacher."
+        },
+        {
+          "id": "atos-u2-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "What was Peter's response when ordered not to preach?",
+          "text": "The authorities tried to silence Peter, but he answered with courage.",
+          "options": [
+            "We must obey God rather than men",
+            "I will obey and stop preaching",
+            "I will hide myself",
+            "I will stage a rebellion"
+          ],
+          "answer": "We must obey God rather than men",
+          "reference": "Acts 4:19-20",
+          "explanation": "Peter declared that his obedience to God is more important than obedience to men."
+        },
+        {
+          "id": "atos-u2-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Peter's courageous response",
+          "tokens": [
+            "But Peter and John answered",
+            "Whether it is right in the sight of God",
+            "to listen to you more than to God",
+            "you must judge"
+          ],
+          "distractors": [
+            "For we cannot help",
+            "speaking about what we have seen",
+            "and heard"
+          ],
+          "reference": "Acts 4:19-20"
+        },
+        {
+          "id": "atos-u2-l1-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "We must obey God rather than men.",
+          "options": [
+            "God is more important",
+            "Obey God over men",
+            "Men should not command"
+          ],
+          "answer": "Obey God over men",
+          "reference": "Acts 4:19"
+        },
+        {
+          "id": "atos-u2-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Match Peter's transformation",
+          "pairs": [
+            {
+              "left": "Before",
+              "right": "Fear and denial"
+            },
+            {
+              "left": "Pentecost",
+              "right": "Filling of the Spirit"
+            },
+            {
+              "left": "After",
+              "right": "Courage and leadership"
+            },
+            {
+              "left": "Result",
+              "right": "Multitudes converted"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"We must obey God rather than _____.",
+          "answer": "men",
+          "reference": "Acts 4:19",
+          "options": [
+            "men",
+            "authorities"
+          ]
+        },
+        {
+          "id": "atos-u2-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Peter's courage came from his personal strength and determination.",
+          "isTrue": false,
+          "reference": "Acts 4:8, 1:8",
+          "explanation": "Peter's courage came from the Holy Spirit, not from his own strength."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l2",
+      "title": "John, the Companion",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "What was the relationship between Peter and John?",
+          "text": "These two apostles worked together frequently in Acts.",
+          "options": [
+            "They were inseparable companions in the work",
+            "They were rivals",
+            "They had no contact",
+            "They had opposite opinions"
+          ],
+          "answer": "They were inseparable companions in the work",
+          "reference": "Acts 3:1, 4:13, 8:14",
+          "explanation": "Peter and John worked together preaching, healing and facing persecution."
+        },
+        {
+          "id": "atos-u2-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "John was an unschooled man, but had met with Jesus.",
+          "isTrue": true,
+          "reference": "Acts 4:13",
+          "explanation": "Luke observes that Peter and John were unschooled men, but the courage came from Jesus."
+        },
+        {
+          "id": "atos-u2-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "What surprised the leaders about Peter and John?",
+          "text": "Even without formal education, they impressed with their message.",
+          "options": [
+            "Their courage and confidence in Jesus",
+            "Their material wealth",
+            "Their knowledge of the law",
+            "Their political support"
+          ],
+          "answer": "Their courage and confidence in Jesus",
+          "reference": "Acts 4:13",
+          "explanation": "It was clear that their authority came from a real encounter with Jesus."
+        },
+        {
+          "id": "atos-u2-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Observation about Peter and John in Acts 4:13",
+          "tokens": [
+            "When they saw the boldness",
+            "of Peter and John",
+            "and realized that they were",
+            "unschooled ordinary men"
+          ],
+          "distractors": [
+            "they were astonished",
+            "and took note",
+            "that these men had been with Jesus"
+          ],
+          "reference": "Acts 4:13"
+        },
+        {
+          "id": "atos-u2-l2-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "They realized these men had been with Jesus.",
+          "options": [
+            "They were disciples of a rabbi",
+            "Had been with Jesus",
+            "They learned Greek philosophy"
+          ],
+          "answer": "Had been with Jesus",
+          "reference": "Acts 4:13"
+        },
+        {
+          "id": "atos-u2-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Match characteristics of John",
+          "pairs": [
+            {
+              "left": "Companion",
+              "right": "Always with Peter"
+            },
+            {
+              "left": "Unschooled",
+              "right": "Without formal education"
+            },
+            {
+              "left": "Boldness",
+              "right": "Courage in Jesus"
+            },
+            {
+              "left": "Encounter with Jesus",
+              "right": "Source of power"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"They realized these men had been with _____.",
+          "answer": "Jesus",
+          "reference": "Acts 4:13",
+          "options": [
+            "Jesus",
+            "the Lord"
+          ]
+        },
+        {
+          "id": "atos-u2-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "John's faithfulness to Peter is an example of Christian companionship.",
+          "isTrue": true,
+          "reference": "Acts 3-5",
+          "explanation": "John remained by Peter's side in preaching, healing and even imprisonment."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l3",
+      "title": "Stephen, the First Martyr",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Who was Stephen?",
+          "text": "A man full of faith and the Holy Spirit in the early Church.",
+          "options": [
+            "A deacon chosen to serve",
+            "One of the twelve apostles",
+            "A priest of the temple",
+            "A scribe of the law"
+          ],
+          "answer": "A deacon chosen to serve",
+          "reference": "Acts 6:1-6",
+          "explanation": "Stephen was chosen among the seven deacons to serve the widows."
+        },
+        {
+          "id": "atos-u2-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Stephen performed signs and wonders and faced verbal opposition.",
+          "isTrue": true,
+          "reference": "Acts 6:8, 6:9-10",
+          "explanation": "Stephen not only served, but also performed miracles and testified."
+        },
+        {
+          "id": "atos-u2-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "How did Stephen die?",
+          "text": "His death was an extreme test of his faith in Jesus.",
+          "options": [
+            "Stoned by opponents",
+            "Crucified like Jesus",
+            "Imprisoned and died in jail",
+            "Died of illness"
+          ],
+          "answer": "Stoned by opponents",
+          "reference": "Acts 7:57-60",
+          "explanation": "Stephen was the first Christian martyred, stoned for his faith."
+        },
+        {
+          "id": "atos-u2-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Stephen's last prayer in Acts 7:59-60",
+          "tokens": [
+            "Lord Jesus",
+            "receive my spirit",
+            "and do not hold",
+            "this sin against them"
+          ],
+          "distractors": [
+            "he knelt down",
+            "and cried out",
+            "with a loud voice"
+          ],
+          "reference": "Acts 7:59-60"
+        },
+        {
+          "id": "atos-u2-l3-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Lord Jesus receive my spirit.",
+          "options": [
+            "Father forgive their sins",
+            "Lord Jesus receive spirit",
+            "I see the heavens opened"
+          ],
+          "answer": "Lord Jesus receive spirit",
+          "reference": "Acts 7:59"
+        },
+        {
+          "id": "atos-u2-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Match characteristics of Stephen",
+          "pairs": [
+            {
+              "left": "Faithful servant",
+              "right": "Generous deacon"
+            },
+            {
+              "left": "Performer of miracles",
+              "right": "Signs and wonders"
+            },
+            {
+              "left": "Martyred",
+              "right": "Stoned"
+            },
+            {
+              "left": "Forgiveness",
+              "right": "Not holding sin against them"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"Lord Jesus, receive my _____.",
+          "answer": "spirit",
+          "reference": "Acts 7:59",
+          "options": [
+            "spirit",
+            "soul"
+          ]
+        },
+        {
+          "id": "atos-u2-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Stephen faced death with fear and regret of his faith.",
+          "isTrue": false,
+          "reference": "Acts 7:55-60",
+          "explanation": "Stephen faced death with peace, a vision of heaven and forgiveness for his killers."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l4",
+      "title": "Lessons of Courage",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the main lesson about persecution in Acts?",
+          "text": "Peter, John and Stephen faced opposition in different ways.",
+          "options": [
+            "Faith sustains us even in adversity",
+            "We must avoid persecution at any cost",
+            "Faith does not matter when there is opposition",
+            "We should use violence to defend ourselves"
+          ],
+          "answer": "Faith sustains us even in adversity",
+          "reference": "Acts 2-7",
+          "explanation": "All three remained faithful, demonstrating that faith transcends persecution."
+        },
+        {
+          "id": "atos-u2-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "God abandons His servants when they face severe persecution.",
+          "isTrue": false,
+          "reference": "Acts 2-7",
+          "explanation": "God was present and empowered His servants even during the most severe persecution."
+        },
+        {
+          "id": "atos-u2-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "What did Peter and John show when imprisoned?",
+          "text": "Their reaction demonstrates what true faith means.",
+          "options": [
+            "Rejoicing to suffer for faith in Christ",
+            "Sadness and regret",
+            "Escape and hiding",
+            "Negotiation with authorities"
+          ],
+          "answer": "Rejoicing to suffer for faith in Christ",
+          "reference": "Acts 5:41",
+          "explanation": "They left prison rejoicing that they were counted worthy to suffer for Jesus."
+        },
+        {
+          "id": "atos-u2-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The attitude of Peter and John facing suffering",
+          "tokens": [
+            "The apostles left the council",
+            "rejoicing",
+            "that they had been counted worthy",
+            "of suffering disgrace for the Name"
+          ],
+          "distractors": [
+            "they knelt down",
+            "and continued preaching",
+            "every day"
+          ],
+          "reference": "Acts 5:41"
+        },
+        {
+          "id": "atos-u2-l4-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Rejoicing that they were counted worthy to suffer.",
+          "options": [
+            "Suffering for faith is a privilege",
+            "Rejoiced worthy suffer",
+            "Happy about persecution"
+          ],
+          "answer": "Rejoiced worthy suffer",
+          "reference": "Acts 5:41"
+        },
+        {
+          "id": "atos-u2-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Match lessons of courage",
+          "pairs": [
+            {
+              "left": "Peter",
+              "right": "Obedience to God above all"
+            },
+            {
+              "left": "John",
+              "right": "Faithful companionship"
+            },
+            {
+              "left": "Stephen",
+              "right": "Forgiveness unto the end"
+            },
+            {
+              "left": "All three",
+              "right": "Rejoicing in suffering"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"Left the council, rejoicing that they were counted worthy to suffer disgrace for the name of _____.",
+          "answer": "Jesus",
+          "reference": "Acts 5:41",
+          "options": [
+            "Jesus",
+            "God"
+          ]
+        },
+        {
+          "id": "atos-u2-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The courage of these heroes is an inspiring model for Christians of all ages.",
+          "isTrue": true,
+          "reference": "Acts 2-7",
+          "explanation": "Their lives continue to inspire Christians to remain faithful in any circumstance."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l5",
+      "title": "Review - Peter, John and Stephen",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "How was Peter transformed?",
+          "text": "Peter's journey is one of the greatest transformations in the Bible.",
+          "options": [
+            "From fear to courage through the Holy Spirit",
+            "Through his own effort",
+            "By the influence of John",
+            "By approval of the authorities"
+          ],
+          "answer": "From fear to courage through the Holy Spirit",
+          "reference": "Acts 1-2",
+          "explanation": "Pentecost marked Peter's dramatic transformation."
+        },
+        {
+          "id": "atos-u2-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Peter and John faced imprisonment but continued preaching.",
+          "isTrue": true,
+          "reference": "Acts 4-5",
+          "explanation": "No threat silenced these heroes of the primitive faith."
+        },
+        {
+          "id": "atos-u2-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "What was Stephen's legacy?",
+          "text": "Although he died young, his impact was great.",
+          "options": [
+            "Witness of faith unto martyrdom and influence on young Saul",
+            "Establishment of a Christian community",
+            "Writing of important books",
+            "Conversion of the authorities"
+          ],
+          "answer": "Witness of faith unto martyrdom and influence on young Saul",
+          "reference": "Acts 7, 8:1",
+          "explanation": "Saul witnessed Stephen's death and later became Paul, the great apostle."
+        },
+        {
+          "id": "atos-u2-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the review verse",
+          "text": "Summary of heroism in Acts",
+          "tokens": [
+            "We must obey God",
+            "rejoicing in suffering",
+            "and forgiving enemies",
+            "thus the primitive faith lived"
+          ],
+          "distractors": [
+            "and proclaiming Jesus",
+            "with courage",
+            "unto death"
+          ],
+          "reference": "Acts 4:19, 5:41, 7:60"
+        },
+        {
+          "id": "atos-u2-l5-e5",
+          "kind": "listen",
+          "prompt": "Which lesson did you hear?",
+          "text": "We must obey God rather than men.",
+          "options": [
+            "God's authority is supreme",
+            "Obey God rather men",
+            "Respect for human order"
+          ],
+          "answer": "Obey God rather men",
+          "reference": "Acts 4:19"
+        },
+        {
+          "id": "atos-u2-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the impactful lives",
+          "pairs": [
+            {
+              "left": "Peter",
+              "right": "Courageous leader"
+            },
+            {
+              "left": "John",
+              "right": "Faithful companion"
+            },
+            {
+              "left": "Stephen",
+              "right": "First martyr"
+            },
+            {
+              "left": "Legacy",
+              "right": "Inspiration today"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Order the main events",
+          "text": "Chronology of courage in Acts 2-7",
+          "tokens": [
+            "Pentecost and Peter's boldness",
+            "Imprisonment and liberation",
+            "Choosing Stephen as deacon",
+            "Martyrdom of Stephen"
+          ]
+        },
+        {
+          "id": "atos-u2-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The examples of Peter, John and Stephen show that true faith perseveres.",
+          "isTrue": true,
+          "reference": "Acts 2-7",
+          "explanation": "These three men demonstrated that Christian faith is enduring and transformative."
+        }
+      ]
+    }
+  ]
+}

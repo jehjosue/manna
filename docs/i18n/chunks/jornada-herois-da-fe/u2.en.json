@@ -1,0 +1,625 @@
+{
+  "id": "herois-u2",
+  "title": "Unit 2",
+  "subtitle": "Liberation and Leadership",
+  "guide": {
+    "summary": "Moses and Joshua led God's people in critical moments. Moses was chosen to free Israel from Egypt through powerful miracles; Joshua conquered the promised land. Both trust in God against impossible odds, revealing that our limitations do not limit God.",
+    "keyVerses": [
+      {
+        "reference": "Exodus 3:10",
+        "text": "Come now therefore, and I will send you to Pharaoh, that you may bring my people the children of Israel out of Egypt."
+      },
+      {
+        "reference": "Exodus 14:13-14",
+        "text": "Moses said to the people, 'Don't be afraid. Stand still and see the salvation of the Lord, which he will work for you today. For the Egyptians whom you see today, you will never see them again. The Lord will fight for you, and you shall be still.'"
+      },
+      {
+        "reference": "Joshua 6:20",
+        "text": "So the people shouted, and the priests blew the trumpets. It happened, when the people heard the sound of the trumpet, that the people shouted with a great shout, and the wall fell down flat."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "herois-u2-l1",
+      "title": "Moses and the Burning Bush",
+      "icon": "leaf.fill",
+      "exercises": [
+        {
+          "id": "herois-u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "What did Moses see in the desert?",
+          "text": "Moses saw a ___ that was burning but was not consumed.",
+          "options": [
+            "bush",
+            "tree",
+            "forest",
+            "flame"
+          ],
+          "answer": "bush",
+          "reference": "Exodus 3:2"
+        },
+        {
+          "id": "herois-u2-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "God chose Moses to ___ Israel from Egypt.",
+          "answer": "free",
+          "options": [
+            "free",
+            "save",
+            "bring out",
+            "deliver"
+          ],
+          "reference": "Exodus 3:10"
+        },
+        {
+          "id": "herois-u2-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "God's identity",
+          "tokens": [
+            "I am",
+            "the God of Abraham",
+            "the God of Isaac",
+            "the God of Jacob"
+          ],
+          "distractors": [
+            "of the patriarchs",
+            "of Israel",
+            "of your fathers",
+            "of the Hebrews"
+          ],
+          "reference": "Exodus 3:6"
+        },
+        {
+          "id": "herois-u2-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of the calling.",
+          "tokens": [
+            "Moses sees the bush",
+            "God speaks to him",
+            "Moses is afraid",
+            "God sends him"
+          ],
+          "reference": "Exodus 3"
+        },
+        {
+          "id": "herois-u2-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the elements",
+          "pairs": [
+            {
+              "left": "Bush",
+              "right": "Divine presence"
+            },
+            {
+              "left": "Moses",
+              "right": "Chosen"
+            },
+            {
+              "left": "Egypt",
+              "right": "Slavery"
+            },
+            {
+              "left": "Liberation",
+              "right": "Miracle"
+            }
+          ],
+          "reference": "Exodus 3-4"
+        },
+        {
+          "id": "herois-u2-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Moses accepted God's calling immediately without doubt.",
+          "isTrue": false,
+          "reference": "Exodus 3:11,4:1",
+          "explanation": "Moses questioned God many times, being afraid and insecure, but God encouraged him and equipped him."
+        },
+        {
+          "id": "herois-u2-l1-e7",
+          "kind": "listen",
+          "prompt": "What did God command?",
+          "text": "God commanded Moses to go to Pharaoh.",
+          "options": [
+            "Go to Pharaoh",
+            "Flee Egypt",
+            "Build a temple",
+            "Prepare sacrifices"
+          ],
+          "answer": "Go to Pharaoh",
+          "reference": "Exodus 3:10"
+        },
+        {
+          "id": "herois-u2-l1-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Surely I will be with you, and this shall be a sign to you.",
+          "reference": "Exodus 3:12"
+        }
+      ]
+    },
+    {
+      "id": "herois-u2-l2",
+      "title": "The Ten Plagues",
+      "icon": "drop.fill",
+      "exercises": [
+        {
+          "id": "herois-u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "How many plagues did God send?",
+          "text": "God sent ___ plagues on Egypt.",
+          "options": [
+            "ten",
+            "seven",
+            "nine",
+            "twelve"
+          ],
+          "answer": "ten",
+          "reference": "Exodus 7-12"
+        },
+        {
+          "id": "herois-u2-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The first plague turned the ___ into blood.",
+          "answer": "water",
+          "options": [
+            "water",
+            "river",
+            "Nile",
+            "stream"
+          ],
+          "reference": "Exodus 7:20"
+        },
+        {
+          "id": "herois-u2-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "God's call to Pharaoh",
+          "tokens": [
+            "Let go",
+            "my people",
+            "so they can serve me"
+          ],
+          "distractors": [
+            "in the desert",
+            "Me",
+            "in freedom",
+            "to worship"
+          ],
+          "reference": "Exodus 5:1"
+        },
+        {
+          "id": "herois-u2-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Put some plagues in order",
+          "text": "Some of the ten plagues.",
+          "tokens": [
+            "Water becomes blood",
+            "Frogs cover the land",
+            "Total darkness",
+            "Death of firstborn"
+          ],
+          "reference": "Exodus 7-12"
+        },
+        {
+          "id": "herois-u2-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the consequences",
+          "pairs": [
+            {
+              "left": "Blood",
+              "right": "Polluted water"
+            },
+            {
+              "left": "Frogs",
+              "right": "Invasion"
+            },
+            {
+              "left": "Darkness",
+              "right": "No light"
+            },
+            {
+              "left": "Death",
+              "right": "Firstborn"
+            }
+          ],
+          "reference": "Exodus 7-12"
+        },
+        {
+          "id": "herois-u2-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Pharaoh freed Israel after the first plague.",
+          "isTrue": false,
+          "reference": "Exodus 7-11",
+          "explanation": "Pharaoh hardened his heart through several plagues until the last one, which forced him to let them go."
+        },
+        {
+          "id": "herois-u2-l2-e7",
+          "kind": "listen",
+          "prompt": "What was the last plague?",
+          "text": "The death of the firstborn was the last plague.",
+          "options": [
+            "Death of firstborn",
+            "Darkness",
+            "Hail",
+            "Locusts"
+          ],
+          "answer": "Death of firstborn",
+          "reference": "Exodus 12:29"
+        },
+        {
+          "id": "herois-u2-l2-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Let my people go so they can serve me in the desert.",
+          "reference": "Exodus 7:16"
+        }
+      ]
+    },
+    {
+      "id": "herois-u2-l3",
+      "title": "The Red Sea Opened",
+      "icon": "water.waves",
+      "exercises": [
+        {
+          "id": "herois-u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "How did the people cross the Red Sea?",
+          "text": "Moses stretched out his hand and the sea ___ in two.",
+          "options": [
+            "parted",
+            "divided",
+            "separated",
+            "split"
+          ],
+          "answer": "parted",
+          "reference": "Exodus 14:21"
+        },
+        {
+          "id": "herois-u2-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The Israelites crossed on ___ ground.",
+          "answer": "dry",
+          "options": [
+            "dry",
+            "solid",
+            "firm",
+            "hard"
+          ],
+          "reference": "Exodus 14:22"
+        },
+        {
+          "id": "herois-u2-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Moses' exhortation",
+          "tokens": [
+            "Don't be afraid",
+            "stand still",
+            "and see the salvation"
+          ],
+          "distractors": [
+            "run",
+            "flee",
+            "wait",
+            "cry out"
+          ],
+          "reference": "Exodus 14:13"
+        },
+        {
+          "id": "herois-u2-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of the crossing.",
+          "tokens": [
+            "Egyptians pursue",
+            "People are afraid",
+            "Moses stretches his hand",
+            "Sea opens"
+          ],
+          "reference": "Exodus 14"
+        },
+        {
+          "id": "herois-u2-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the events",
+          "pairs": [
+            {
+              "left": "Moses",
+              "right": "Stretches his hand"
+            },
+            {
+              "left": "Sea",
+              "right": "Opens"
+            },
+            {
+              "left": "Israelites",
+              "right": "Cross"
+            },
+            {
+              "left": "Egyptians",
+              "right": "Drown"
+            }
+          ],
+          "reference": "Exodus 14"
+        },
+        {
+          "id": "herois-u2-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The Egyptians were saved along with Israel.",
+          "isTrue": false,
+          "reference": "Exodus 14:26-28",
+          "explanation": "The sea closed again and drowned the Egyptians who were pursuing Israel, completing the liberation."
+        },
+        {
+          "id": "herois-u2-l3-e7",
+          "kind": "listen",
+          "prompt": "How did they cross?",
+          "text": "They crossed the sea on dry ground.",
+          "options": [
+            "On dry ground",
+            "Swimming",
+            "In boats",
+            "In a ship"
+          ],
+          "answer": "On dry ground",
+          "reference": "Exodus 14:22"
+        },
+        {
+          "id": "herois-u2-l3-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "The Lord will fight for you, and you shall be still.",
+          "reference": "Exodus 14:14"
+        }
+      ]
+    },
+    {
+      "id": "herois-u2-l4",
+      "title": "Joshua and Jericho",
+      "icon": "cross.fill",
+      "exercises": [
+        {
+          "id": "herois-u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "What did Joshua have to do at Jericho?",
+          "text": "Joshua and the people marched around the city ___ times.",
+          "options": [
+            "seven",
+            "thirteen",
+            "ten",
+            "forty"
+          ],
+          "answer": "seven",
+          "reference": "Joshua 6:15"
+        },
+        {
+          "id": "herois-u2-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The priests blew the ___ as they marched.",
+          "answer": "trumpets",
+          "options": [
+            "trumpets",
+            "flutes",
+            "harps",
+            "lyres"
+          ],
+          "reference": "Joshua 6:4"
+        },
+        {
+          "id": "herois-u2-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "The fall of Jericho",
+          "tokens": [
+            "The wall fell",
+            "and the people went up",
+            "into the city"
+          ],
+          "distractors": [
+            "and conquered",
+            "and invaded",
+            "and entered",
+            "and attacked"
+          ],
+          "reference": "Joshua 6:20"
+        },
+        {
+          "id": "herois-u2-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the siege in order",
+          "text": "Sequence of the taking of Jericho.",
+          "tokens": [
+            "Joshua receives instructions",
+            "People march",
+            "Trumpets sound",
+            "Wall collapses"
+          ],
+          "reference": "Joshua 6"
+        },
+        {
+          "id": "herois-u2-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the elements",
+          "pairs": [
+            {
+              "left": "Joshua",
+              "right": "Leader of Israel"
+            },
+            {
+              "left": "Jericho",
+              "right": "Fortified city"
+            },
+            {
+              "left": "Trumpets",
+              "right": "God's instrument"
+            },
+            {
+              "left": "Wall",
+              "right": "Fell supernaturally"
+            }
+          ],
+          "reference": "Joshua 6"
+        },
+        {
+          "id": "herois-u2-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The wall of Jericho was conquered by weapons and force.",
+          "isTrue": false,
+          "reference": "Joshua 6:15-20",
+          "explanation": "The wall fell by the sound of trumpets and the shout of the people, a supernatural miracle."
+        },
+        {
+          "id": "herois-u2-l4-e7",
+          "kind": "listen",
+          "prompt": "How did the wall fall?",
+          "text": "The wall fell when they shouted.",
+          "options": [
+            "When they shouted",
+            "With weapons",
+            "With fire",
+            "With dynamite"
+          ],
+          "answer": "When they shouted",
+          "reference": "Joshua 6:20"
+        },
+        {
+          "id": "herois-u2-l4-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Only God can make a wall fall.",
+          "reference": "Joshua 6:20"
+        }
+      ]
+    },
+    {
+      "id": "herois-u2-l5",
+      "title": "Review: Liberation",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the theme of this unit?",
+          "text": "Moses and Joshua showed ___ and leadership.",
+          "options": [
+            "faith",
+            "courage",
+            "wisdom",
+            "strength"
+          ],
+          "answer": "faith",
+          "reference": "Exodus-Joshua"
+        },
+        {
+          "id": "herois-u2-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The greatest enemy was not Pharaoh, but Israel's ___.",
+          "answer": "slavery",
+          "options": [
+            "slavery",
+            "oppression",
+            "bondage",
+            "captivity"
+          ],
+          "reference": "Exodus 1-14"
+        },
+        {
+          "id": "herois-u2-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Put the phases in order",
+          "text": "Sequence of liberation.",
+          "tokens": [
+            "Moses called",
+            "Plagues sent",
+            "Sea opens",
+            "Promised land conquered"
+          ],
+          "reference": "Exodus-Joshua"
+        },
+        {
+          "id": "herois-u2-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Match each leader",
+          "pairs": [
+            {
+              "left": "Moses",
+              "right": "Liberation"
+            },
+            {
+              "left": "Joshua",
+              "right": "Conquest"
+            },
+            {
+              "left": "Faith",
+              "right": "Essence"
+            },
+            {
+              "left": "God",
+              "right": "Real power"
+            }
+          ],
+          "reference": "Exodus-Joshua"
+        },
+        {
+          "id": "herois-u2-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Assemble the key verse",
+          "text": "Theme of liberation",
+          "tokens": [
+            "Let",
+            "my people go",
+            "now"
+          ],
+          "distractors": [
+            "to worship",
+            "to serve",
+            "in the desert",
+            "to God"
+          ],
+          "reference": "Exodus 5:1"
+        },
+        {
+          "id": "herois-u2-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Moses and Joshua conquered through force, not faith.",
+          "isTrue": false,
+          "reference": "Exodus-Joshua",
+          "explanation": "Both won through faith in God, recognizing that only He could fulfill the impossibilities."
+        },
+        {
+          "id": "herois-u2-l5-e7",
+          "kind": "listen",
+          "prompt": "What is the lesson?",
+          "text": "God liberates those who believe in Him.",
+          "options": [
+            "Liberates those who believe",
+            "Always punishes",
+            "Denies help",
+            "Ignores prayer"
+          ],
+          "answer": "Liberates those who believe",
+          "reference": "Exodus-Joshua"
+        },
+        {
+          "id": "herois-u2-l5-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "With God, there is no wall that won't fall.",
+          "reference": "Joshua 6:20"
+        }
+      ]
+    }
+  ]
+}

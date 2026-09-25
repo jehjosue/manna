@@ -1,0 +1,632 @@
+{
+  "id": "atos-u4",
+  "title": "Unit 4",
+  "subtitle": "Paul in Rome and His Letters",
+  "guide": {
+    "summary": "Paul's letters written during his ministry contain the essence of Christian faith. Romans 8 speaks of hope in Christ, 1 Corinthians 13 exalts love, Philippians 4 teaches joy, Galatians 5 speaks of freedom, Ephesians 6 about the armor of God. These continue to transform lives.",
+    "keyVerses": [
+      {
+        "reference": "Romans 8:28",
+        "text": "And we know that in all things God works for good with those who love him."
+      },
+      {
+        "reference": "1 Corinthians 13:4",
+        "text": "Love is patient and kind; love is not envious."
+      },
+      {
+        "reference": "Ephesians 6:10",
+        "text": "Finally, be strong in the Lord and in the strength of his might."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u4-l1",
+      "title": "Hope in Christ - Romans 8",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"And we know that in all things God works for good with those who love _____.\"",
+          "speaker": "Paul",
+          "options": [
+            "God",
+            "Jesus",
+            "the law",
+            "the Spirit"
+          ],
+          "answer": "God",
+          "reference": "Romans 8:28",
+          "explanation": "Paul affirms that God works all circumstances for good for those who love Him."
+        },
+        {
+          "id": "atos-u4-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Romans 8:28 means the Christian life will have no difficulties.",
+          "isTrue": false,
+          "reference": "Romans 8:28",
+          "explanation": "The verse does not say there will be no difficulties, but that God works in them for good."
+        },
+        {
+          "id": "atos-u4-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the central message of Romans 8?",
+          "text": "Paul writes about eternal security in Christ.",
+          "options": [
+            "Nothing can separate us from God's love in Christ",
+            "We must obey the law perfectly",
+            "The body is evil and must be rejected",
+            "Everyone will be condemned in judgment"
+          ],
+          "answer": "Nothing can separate us from God's love in Christ",
+          "reference": "Romans 8:35-39",
+          "explanation": "Romans 8 is a celebration of the security and hope we have in Jesus."
+        },
+        {
+          "id": "atos-u4-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Security in Christ in Romans 8:35",
+          "tokens": [
+            "Who can separate us",
+            "from the love of Christ?",
+            "Tribulation, or distress",
+            "or persecution?"
+          ],
+          "distractors": [
+            "or death",
+            "or life",
+            "or any creature"
+          ],
+          "reference": "Romans 8:35"
+        },
+        {
+          "id": "atos-u4-l1-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "All things work together for good.",
+          "options": [
+            "God controls all circumstances",
+            "All things work for good",
+            "Everything is always easy"
+          ],
+          "answer": "All things work for good",
+          "reference": "Romans 8:28"
+        },
+        {
+          "id": "atos-u4-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Match truths from Romans 8",
+          "pairs": [
+            {
+              "left": "Redemption",
+              "right": "In Christ Jesus"
+            },
+            {
+              "left": "Hope",
+              "right": "Eternal security"
+            },
+            {
+              "left": "Love",
+              "right": "Inseparable from Christ"
+            },
+            {
+              "left": "Adoption",
+              "right": "Children of God"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"And we know that in all things God works for good with those who love _____.",
+          "answer": "God",
+          "reference": "Romans 8:28",
+          "options": [
+            "God",
+            "the Lord"
+          ]
+        },
+        {
+          "id": "atos-u4-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Nothing can separate us from God's love in Christ.",
+          "isTrue": true,
+          "reference": "Romans 8:35-39",
+          "explanation": "Paul asserts with certainty that nothing can keep us away from Christ's love."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l2",
+      "title": "The Hymn of Love - 1 Corinthians 13",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Love is _____, and is kind; love is not envious.\"",
+          "speaker": "Paul",
+          "options": [
+            "patient",
+            "strong",
+            "eternal",
+            "true"
+          ],
+          "answer": "patient",
+          "reference": "1 Corinthians 13:4",
+          "explanation": "Paul begins by describing love as patient and kind, not envious."
+        },
+        {
+          "id": "atos-u4-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "1 Corinthians 13 is only about romantic love.",
+          "isTrue": false,
+          "reference": "1 Corinthians 13",
+          "explanation": "1 Corinthians 13 treats Christian love (agape), which is deeper than romance."
+        },
+        {
+          "id": "atos-u4-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the conclusion of 1 Corinthians 13:13?",
+          "text": "Paul ends with a memorable statement about Christian virtues.",
+          "options": [
+            "Faith, hope and love remain, but the greatest of these is love",
+            "The law is the greatest commandment",
+            "Knowledge is supreme",
+            "Faith never fails"
+          ],
+          "answer": "Faith, hope and love remain, but the greatest of these is love",
+          "reference": "1 Corinthians 13:13",
+          "explanation": "Faith, hope and love remain, but love is the greatest."
+        },
+        {
+          "id": "atos-u4-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Love never fails in 1 Corinthians 13:8",
+          "tokens": [
+            "Love never ends",
+            "but as for prophecies",
+            "they will come to an end",
+            "as for languages"
+          ],
+          "distractors": [
+            "they will cease",
+            "as for knowledge",
+            "it will pass away"
+          ],
+          "reference": "1 Corinthians 13:8"
+        },
+        {
+          "id": "atos-u4-l2-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Love is patient and kind.",
+          "options": [
+            "Love has special qualities",
+            "Love patient and kind",
+            "Patience and kindness define"
+          ],
+          "answer": "Love patient and kind",
+          "reference": "1 Corinthians 13:4"
+        },
+        {
+          "id": "atos-u4-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Match qualities of love",
+          "pairs": [
+            {
+              "left": "Patience",
+              "right": "Long-suffering"
+            },
+            {
+              "left": "Kindness",
+              "right": "Gentleness for all"
+            },
+            {
+              "left": "Humility",
+              "right": "Does not boast"
+            },
+            {
+              "left": "Eternity",
+              "right": "Never fails"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"Love never _____.",
+          "answer": "ends",
+          "reference": "1 Corinthians 13:8",
+          "options": [
+            "ends",
+            "ceases"
+          ]
+        },
+        {
+          "id": "atos-u4-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Christian love is superior even to other virtues like faith and hope.",
+          "isTrue": true,
+          "reference": "1 Corinthians 13:13",
+          "explanation": "Paul affirms that love remains and is greater than faith and hope."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l3",
+      "title": "Joy in Christ - Philippians 4",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "atos-u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the main theme of Philippians?",
+          "text": "Paul writes in a personal and warm way to the Philippians.",
+          "options": [
+            "Joy in Christ despite circumstances",
+            "Severe criticism of the community",
+            "Rigid legal instructions",
+            "Predictions of punishment"
+          ],
+          "answer": "Joy in Christ despite circumstances",
+          "reference": "Philippians 1-4",
+          "explanation": "Philippians is Paul's most joyful letter, written even from prison."
+        },
+        {
+          "id": "atos-u4-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Paul wrote Philippians while imprisoned.",
+          "isTrue": true,
+          "reference": "Philippians 1:7-14",
+          "explanation": "Even in prison, Paul writes with joy and hope."
+        },
+        {
+          "id": "atos-u4-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the first command in Philippians 4:4?",
+          "text": "Paul begins with a simple but powerful exhortation.",
+          "options": [
+            "Rejoice in the Lord always",
+            "Obey the authorities",
+            "Work with diligence",
+            "Keep the commandments"
+          ],
+          "answer": "Rejoice in the Lord always",
+          "reference": "Philippians 4:4",
+          "explanation": "Joy in the Lord is central in Philippians, even in adversity."
+        },
+        {
+          "id": "atos-u4-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Call to peace in Philippians 4:6-7",
+          "tokens": [
+            "Do not be anxious about anything",
+            "but in every situation",
+            "by prayer and petition",
+            "present your requests to God"
+          ],
+          "distractors": [
+            "with thanksgiving",
+            "and the peace of God",
+            "will guard your hearts"
+          ],
+          "reference": "Philippians 4:6-7"
+        },
+        {
+          "id": "atos-u4-l3-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Rejoice in the Lord always.",
+          "options": [
+            "Permanent joy in Jesus",
+            "Rejoice always Lord",
+            "Your joy is manifest"
+          ],
+          "answer": "Rejoice always Lord",
+          "reference": "Philippians 4:4"
+        },
+        {
+          "id": "atos-u4-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Match teachings of Philippians",
+          "pairs": [
+            {
+              "left": "Joy",
+              "right": "Always in Christ"
+            },
+            {
+              "left": "Prayer",
+              "right": "With thanksgiving"
+            },
+            {
+              "left": "Peace",
+              "right": "Guards the heart"
+            },
+            {
+              "left": "Thoughts",
+              "right": "On noble things"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"Rejoice always in the _____.",
+          "answer": "Lord",
+          "reference": "Philippians 4:4",
+          "options": [
+            "Lord",
+            "God"
+          ]
+        },
+        {
+          "id": "atos-u4-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Christian joy depends on external circumstances.",
+          "isTrue": false,
+          "reference": "Philippians 4:4-7",
+          "explanation": "Paul teaches that true joy is in Christ, independent of circumstances."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l4",
+      "title": "The Armor of God - Ephesians 6",
+      "icon": "shield.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Finally, be strong in the Lord and in the strength of His _____.",
+          "speaker": "Paul",
+          "options": [
+            "might",
+            "hand",
+            "law",
+            "truth"
+          ],
+          "answer": "might",
+          "reference": "Ephesians 6:10",
+          "explanation": "Paul begins by exhorting the Ephesians to be strengthened in God's power."
+        },
+        {
+          "id": "atos-u4-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Ephesians 6 describes the spiritual armor of the Christian.",
+          "isTrue": true,
+          "reference": "Ephesians 6:10-18",
+          "explanation": "Ephesians 6 lists seven pieces of spiritual armor to resist evil."
+        },
+        {
+          "id": "atos-u4-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the most important weapon in the armor?",
+          "text": "Paul lists several pieces, but emphasizes one especially.",
+          "options": [
+            "The sword of the Spirit, which is the Word of God",
+            "David's shield",
+            "Goliath's armor",
+            "The ax of war"
+          ],
+          "answer": "The sword of the Spirit, which is the Word of God",
+          "reference": "Ephesians 6:17",
+          "explanation": "God's Word is the only complete offensive weapon in the armor."
+        },
+        {
+          "id": "atos-u4-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Complete armor in Ephesians 6:14-17",
+          "tokens": [
+            "Stand firm therefore",
+            "with the belt of truth",
+            "fastened around your waist",
+            "and put on the breastplate of righteousness"
+          ],
+          "distractors": [
+            "as shoes for your feet",
+            "prepared by the gospel of peace",
+            "take up the shield of faith"
+          ],
+          "reference": "Ephesians 6:14-17"
+        },
+        {
+          "id": "atos-u4-l4-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Be strong in the strength of His might.",
+          "options": [
+            "God makes us strong",
+            "Strong strength might",
+            "Power of God sustains us"
+          ],
+          "answer": "Strong strength might",
+          "reference": "Ephesians 6:10"
+        },
+        {
+          "id": "atos-u4-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Match pieces of armor",
+          "pairs": [
+            {
+              "left": "Belt",
+              "right": "Truth"
+            },
+            {
+              "left": "Breastplate",
+              "right": "Righteousness"
+            },
+            {
+              "left": "Shield",
+              "right": "Faith"
+            },
+            {
+              "left": "Sword",
+              "right": "Word of God"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"Be strong in the Lord and in the strength of His _____.",
+          "answer": "might",
+          "reference": "Ephesians 6:10",
+          "options": [
+            "might",
+            "power"
+          ]
+        },
+        {
+          "id": "atos-u4-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The armor of God protects us from all spiritual temptation.",
+          "isTrue": true,
+          "reference": "Ephesians 6:10-18",
+          "explanation": "When clothed with complete armor, we are protected against the enemy's attacks."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l5",
+      "title": "Review - Paul in Rome and His Letters",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the importance of Paul's letters?",
+          "text": "His writings defined Christian theology for centuries.",
+          "options": [
+            "They comprise half the New Testament and guide Christian faith",
+            "They are only personal stories",
+            "They have no value for modern Christians",
+            "They were discarded by the Church"
+          ],
+          "answer": "They comprise half the New Testament and guide Christian faith",
+          "reference": "Romans-Philemon",
+          "explanation": "Paul's 13 letters are essential for understanding Christian faith."
+        },
+        {
+          "id": "atos-u4-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "All of Paul's letters address specific problems in local churches.",
+          "isTrue": true,
+          "reference": "Romans-1 Timothy",
+          "explanation": "Paul wrote to specific churches and individuals, but his lessons are universal."
+        },
+        {
+          "id": "atos-u4-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the central theme of Paul's letters?",
+          "text": "Despite variety, there is a thematic unity.",
+          "options": [
+            "Salvation in Christ and life transformed by the Spirit",
+            "Severe criticism of Jewish laws",
+            "Instructions about political government",
+            "Detailed predictions about the end"
+          ],
+          "answer": "Salvation in Christ and life transformed by the Spirit",
+          "reference": "Romans 1:16, 1 Corinthians 15:1-4",
+          "explanation": "Christ and transformation by His Spirit are the heart of all Paul writes."
+        },
+        {
+          "id": "atos-u4-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the review verse",
+          "text": "Summary of Pauline wisdom",
+          "tokens": [
+            "All things work together",
+            "for good",
+            "love never ends",
+            "rejoice in the Lord"
+          ],
+          "distractors": [
+            "and in His grace",
+            "be strong",
+            "in the strength of His might"
+          ],
+          "reference": "Romans 8:28, 1 Corinthians 13:8, Philippians 4:4"
+        },
+        {
+          "id": "atos-u4-l5-e5",
+          "kind": "listen",
+          "prompt": "Which teaching did you hear?",
+          "text": "We know that all things work together for good.",
+          "options": [
+            "God cares for details",
+            "All things work good",
+            "Trust in God always"
+          ],
+          "answer": "All things work good",
+          "reference": "Romans 8:28"
+        },
+        {
+          "id": "atos-u4-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Match letters and themes",
+          "pairs": [
+            {
+              "left": "Romans 8",
+              "right": "Hope in Christ"
+            },
+            {
+              "left": "1 Corinthians 13",
+              "right": "Primacy of love"
+            },
+            {
+              "left": "Philippians 4",
+              "right": "Always rejoice"
+            },
+            {
+              "left": "Ephesians 6",
+              "right": "Spiritual armor"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Order chronologically Paul's letters",
+          "text": "Period of Pauline correspondence",
+          "tokens": [
+            "Early letters of Thessalonians",
+            "Great letters: Romans, Galatians",
+            "Prison letters: Philippians, Ephesians",
+            "Late pastoral letters"
+          ]
+        },
+        {
+          "id": "atos-u4-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Paul's letters continue to transform lives and guide Christian faith.",
+          "isTrue": true,
+          "reference": "Romans-Philemon",
+          "explanation": "Centuries later, Paul's words speak to hearts and transform Christians."
+        }
+      ]
+    }
+  ]
+}

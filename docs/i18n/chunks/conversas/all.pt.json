@@ -1,0 +1,308 @@
+[
+  {
+    "id": "conversa-pastor-belem",
+    "title": "Conversa com um Pastor em Belém",
+    "subtitle": "Encontro com um guarda do rebanho",
+    "icon": "person.fill",
+    "reference": "Lucas 2",
+    "turns": [
+      {
+        "speaker": "Pastor",
+        "text": "Olá, viajante! Você está perdido? Estou aqui cuidando das minhas ovelhas.",
+        "isUserTurn": false,
+        "options": [
+          "De onde você é, pastor?",
+          "Você trabalha aqui há muito tempo?"
+        ]
+      },
+      {
+        "speaker": "Pastor",
+        "text": "Sou de Belém, pequena cidade da Judeia. Trabalho desde o amanhecer até o anoitecer protegendo este rebanho.",
+        "isUserTurn": false,
+        "options": [
+          "É um trabalho difícil?",
+          "Você já viu algo especial?"
+        ]
+      },
+      {
+        "speaker": "Pastor",
+        "text": "Sim, é desafiador! Preciso proteger as ovelhas de lobos e leões. Mas há uma noite... não esquecerei nunca.",
+        "isUserTurn": false,
+        "options": [
+          "O que aconteceu naquela noite?",
+          "Você teve medo?"
+        ]
+      },
+      {
+        "speaker": "Pastor",
+        "text": "O céu se iluminou com uma luz brilhante! Vi anjos cantando sobre o nascimento de um menino especial em Belém.",
+        "isUserTurn": false,
+        "options": [
+          "Você foi ver o menino?",
+          "Você acreditou no que viu?"
+        ]
+      },
+      {
+        "speaker": "Pastor",
+        "text": "Claro que fui! Deixei o rebanho com um amigo e corri para a manjedoura. Aquele menino é Jesus, o Messias prometido!",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  },
+  {
+    "id": "conversa-mulher-samaritana",
+    "title": "Conversa com a Mulher Samaritana",
+    "subtitle": "No poço de Jacó",
+    "icon": "person.fill",
+    "reference": "João 4",
+    "turns": [
+      {
+        "speaker": "Mulher Samaritana",
+        "text": "Ei, você não deveria estar aqui! Você é judeu, não? Nós samaritanos não nos misturamos com vocês.",
+        "isUserTurn": false,
+        "options": [
+          "Eu só queria beber água",
+          "Por que vocês não se misturam?"
+        ]
+      },
+      {
+        "speaker": "Mulher Samaritana",
+        "text": "Porque há muito ódio entre nossos povos. Mas espera... há algo diferente em você.",
+        "isUserTurn": false,
+        "options": [
+          "Você pode me dar água?",
+          "O que você sente em mim?"
+        ]
+      },
+      {
+        "speaker": "Mulher Samaritana",
+        "text": "Você parece conhecer coisas que ninguém deveria saber sobre mim. Você é profeta? Quem é você?",
+        "isUserTurn": false,
+        "options": [
+          "Eu sou Jesus, o Messias",
+          "Você acredita em Deus?"
+        ]
+      },
+      {
+        "speaker": "Mulher Samaritana",
+        "text": "Jesus? O Messias? Sabemos que o Messias virá, mas... você fala com tanta verdade que me toca o coração.",
+        "isUserTurn": false,
+        "options": [
+          "Você quer uma vida melhor?",
+          "Você acredita em mim?"
+        ]
+      },
+      {
+        "speaker": "Mulher Samaritana",
+        "text": "Sim! Vou contar a todos da minha aldeia sobre você. Você é realmente o Salvador do mundo!",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  },
+  {
+    "id": "conversa-zaqueu",
+    "title": "Conversa com Zaqueu, o Publicano",
+    "subtitle": "Encontro em Jericó",
+    "icon": "person.fill",
+    "reference": "Lucas 19",
+    "turns": [
+      {
+        "speaker": "Zaqueu",
+        "text": "Deixem-me em paz! Sou Zaqueu, cobrador de impostos. Todos me odeiam, mas não me importa!",
+        "isUserTurn": false,
+        "options": [
+          "Por que você parece triste?",
+          "Eles o odeiam por quê?"
+        ]
+      },
+      {
+        "speaker": "Zaqueu",
+        "text": "Porque sou corrupto! Cobro mais impostos do que o necessário e fico com a diferença. Sou rico, mas sozinho.",
+        "isUserTurn": false,
+        "options": [
+          "Você quer mudar?",
+          "O dinheiro traz felicidade?"
+        ]
+      },
+      {
+        "speaker": "Zaqueu",
+        "text": "Às vezes desejo ser diferente, mas tenho medo do que as pessoas vão dizer. E você? Quem é?",
+        "isUserTurn": false,
+        "options": [
+          "Sou Jesus, e quero te ajudar",
+          "Você merecia uma segunda chance"
+        ]
+      },
+      {
+        "speaker": "Zaqueu",
+        "text": "Jesus? O homem que todos falam? Você ainda me quer, mesmo sabendo tudo sobre mim?",
+        "isUserTurn": false,
+        "options": [
+          "Sim, você merece uma chance de recomeçar",
+          "Seus pecados podem ser perdoados"
+        ]
+      },
+      {
+        "speaker": "Zaqueu",
+        "text": "Então vou devolver todo o dinheiro que roubei! Quatro vezes o valor! Você mudou minha vida, Jesus!",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  },
+  {
+    "id": "conversa-discipulo-thomas",
+    "title": "Conversa com Tomás, o Discípulo",
+    "subtitle": "Questionando a Ressurreição",
+    "icon": "person.fill",
+    "reference": "João 20",
+    "turns": [
+      {
+        "speaker": "Tomás",
+        "text": "Vocês dizem que Jesus ressuscitou? Não posso acreditar! Preciso ver com meus próprios olhos!",
+        "isUserTurn": false,
+        "options": [
+          "Por que você duvida?",
+          "E se os outros estão falando a verdade?"
+        ]
+      },
+      {
+        "speaker": "Tomás",
+        "text": "Porque vi Jesus morrer na cruz. Não vou acreditar em ninguém até tocar as cicatrizes com minhas mãos!",
+        "isUserTurn": false,
+        "options": [
+          "A fé não precisa de provas materiais",
+          "E se você tocasse as cicatrizes?"
+        ]
+      },
+      {
+        "speaker": "Tomás",
+        "text": "Você é sábio. Talvez eu esteja sendo muito rígido. Mas é difícil acreditar em algo tão extraordinário.",
+        "isUserTurn": false,
+        "options": [
+          "Jesus está vivo",
+          "Você já sentiu algo supernatural?"
+        ]
+      },
+      {
+        "speaker": "Tomás",
+        "text": "Aconteceu algo estranho... Senti a presença de Jesus aqui comigo agora, neste momento. É real!",
+        "isUserTurn": false,
+        "options": [
+          "Então você acredita?",
+          "O que mudou para você?"
+        ]
+      },
+      {
+        "speaker": "Tomás",
+        "text": "Sim! Senhor meu e Deus meu! Acredito totalmente! Desculpe por minha descrença. Vou servir com todo meu coração!",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  },
+  {
+    "id": "conversa-viuva-pecadora",
+    "title": "Conversa com a Viúva Viajante",
+    "subtitle": "Encontro no caminho",
+    "icon": "person.fill",
+    "reference": "Lucas 7",
+    "turns": [
+      {
+        "speaker": "Viúva",
+        "text": "Escuta só... ninguém quer me ajudar. Meu marido faleceu e não tenho mais nada. Estou sozinha.",
+        "isUserTurn": false,
+        "options": [
+          "Deus vê seu sofrimento",
+          "Você tem alguém que possa ajudar?"
+        ]
+      },
+      {
+        "speaker": "Viúva",
+        "text": "Deus? Ele me abandonou! Se realmente existisse um Deus justo, meu marido ainda estaria vivo.",
+        "isUserTurn": false,
+        "options": [
+          "A morte faz parte da vida",
+          "Deus sofre com você"
+        ]
+      },
+      {
+        "speaker": "Viúva",
+        "text": "Você acredita nisso? Mas sinto que as coisas estão muito escuras. Não vejo saída.",
+        "isUserTurn": false,
+        "options": [
+          "Existe esperança em Jesus",
+          "Você merecia mais sorte"
+        ]
+      },
+      {
+        "speaker": "Viúva",
+        "text": "Jesus? Ouvi falar dele. Dizem que curou muitos e perdoou pecadores. Seria possível ele me ajudar?",
+        "isUserTurn": false,
+        "options": [
+          "Jesus ama você incondicionalmente",
+          "Você pode confiar nele"
+        ]
+      },
+      {
+        "speaker": "Viúva",
+        "text": "Então vou tentar acreditar. Vou confiar em Jesus e deixar que ele cure meu coração. Obrigada por falar comigo.",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  },
+  {
+    "id": "conversa-fariseu",
+    "title": "Conversa com um Fariseu Questionador",
+    "subtitle": "Debate sobre a Lei",
+    "icon": "person.fill",
+    "reference": "Mateus 22",
+    "turns": [
+      {
+        "speaker": "Fariseu",
+        "text": "Você quebra a Lei de Moisés! Como você cura no sábado? Isso é proibido!",
+        "isUserTurn": false,
+        "options": [
+          "A Lei existe para servir as pessoas",
+          "O amor está acima da Lei"
+        ]
+      },
+      {
+        "speaker": "Fariseu",
+        "text": "Mas a Lei é sagrada! A tradição de nossos antepassados não pode ser ignorada assim!",
+        "isUserTurn": false,
+        "options": [
+          "Qual é o verdadeiro propósito da Lei?",
+          "A misericórdia é mais importante que sacrifícios"
+        ]
+      },
+      {
+        "speaker": "Fariseu",
+        "text": "Hmm... o verdadeiro propósito? Nunca pensei assim. Sempre segui as regras sem questionar.",
+        "isUserTurn": false,
+        "options": [
+          "E se a Lei amar a Deus e ao próximo?",
+          "Você já ajudou alguém que realmente precisava?"
+        ]
+      },
+      {
+        "speaker": "Fariseu",
+        "text": "Ajudar? Bem, faço minhas orações, pago meus dízimos... Mas talvez haja algo mais profundo que não enxergo.",
+        "isUserTurn": false,
+        "options": [
+          "O coração importa mais que as obras",
+          "Você quer conhecer a verdade?"
+        ]
+      },
+      {
+        "speaker": "Fariseu",
+        "text": "Sim. Você me mostrou que a verdadeira religião é sobre amor e compaixão. Vou reconsiderar minha jornada espiritual.",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  }
+]

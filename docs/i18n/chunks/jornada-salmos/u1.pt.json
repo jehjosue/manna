@@ -1,0 +1,632 @@
+{
+  "id": "salmos-u1",
+  "title": "Unidade 1",
+  "subtitle": "Confiança em Deus",
+  "guide": {
+    "summary": "Os Salmos de confiança nos ensinam que, não importa as dificuldades, podemos sempre confiar no cuidado de Deus. Ele é nosso protetor, refúgio e força nos momentos de medo.",
+    "keyVerses": [
+      {
+        "reference": "Salmo 23:1",
+        "text": "O Senhor é o meu pastor, nada me faltará."
+      },
+      {
+        "reference": "Salmo 27:1",
+        "text": "O Senhor é a minha luz e a minha salvação; a quem terei medo?"
+      },
+      {
+        "reference": "Salmo 91:1-2",
+        "text": "Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "salmos-u1-l1",
+      "title": "O Pastor Amoroso",
+      "icon": "leaf.fill",
+      "exercises": [
+        {
+          "id": "salmos-u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"O Senhor é o meu pastor, nada me _____.\"",
+          "speaker": "Davi",
+          "options": [
+            "faltará",
+            "assustará",
+            "abandonará",
+            "enganará"
+          ],
+          "answer": "faltará",
+          "reference": "Salmo 23:1",
+          "explanation": "Quando Deus é nosso pastor, Ele supre todas as nossas necessidades, seja alimento, proteção ou amor."
+        },
+        {
+          "id": "salmos-u1-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Salmo 23 compara Deus a um pastor que cuida de suas ovelhas.",
+          "isTrue": true,
+          "reference": "Salmo 23",
+          "explanation": "Davi usa a imagem do pastor para expressar o cuidado amoroso e a proteção de Deus."
+        },
+        {
+          "id": "salmos-u1-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "O que significa 'vale da sombra da morte' no Salmo 23?",
+          "text": "\"Ainda que eu ande pelo vale da sombra da morte, não temerei mal algum.\"",
+          "options": [
+            "Os momentos de maior dificuldade e medo",
+            "Um lugar específico na Palestina",
+            "O tempo da morte literal",
+            "Uma visão de Davi sobre o futuro"
+          ],
+          "answer": "Os momentos de maior dificuldade e medo",
+          "reference": "Salmo 23:4",
+          "explanation": "Mesmo na adversidade, confiamos que Deus está conosco e nos protege."
+        },
+        {
+          "id": "salmos-u1-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A promessa de Deus em Salmo 23:4",
+          "tokens": [
+            "Ainda que eu ande",
+            "pelo vale da sombra da morte",
+            "não temerei mal algum",
+            "porque tu estás comigo"
+          ],
+          "distractors": [
+            "nem haverá",
+            "pois Deus guarda",
+            "a minha vida"
+          ],
+          "reference": "Salmo 23:4"
+        },
+        {
+          "id": "salmos-u1-l1-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "O Senhor é a minha luz e a minha salvação.",
+          "options": [
+            "O Senhor é meu protetor e defensor",
+            "O Senhor é minha luz e salvação",
+            "O Senhor é meu juiz e rey"
+          ],
+          "answer": "O Senhor é minha luz e salvação",
+          "reference": "Salmo 27:1"
+        },
+        {
+          "id": "salmos-u1-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "Pastor",
+              "right": "Deus em Sl 23"
+            },
+            {
+              "left": "Ovelhas",
+              "right": "Povo de Deus"
+            },
+            {
+              "left": "Pastos verdes",
+              "right": "Descanso"
+            },
+            {
+              "left": "Agua mansa",
+              "right": "Conforto"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Preencha a lacuna",
+          "text": "\"O Senhor é a minha luz e a minha _____.\"",
+          "answer": "salvação",
+          "reference": "Salmo 27:1",
+          "options": [
+            "salvação",
+            "salvaçao"
+          ]
+        },
+        {
+          "id": "salmos-u1-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Confiar em Deus significa que nunca enfrentaremos dificuldades.",
+          "isTrue": false,
+          "reference": "Salmo 23:4",
+          "explanation": "Confiar em Deus não significa estar livre de dificuldades, mas saber que Ele está conosco em toda situação."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u1-l2",
+      "title": "Refúgio e Fortaleza",
+      "icon": "shield.fill",
+      "exercises": [
+        {
+          "id": "salmos-u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Deus é nosso refúgio e fortaleza, auxílio bem provado nas _____.\"",
+          "speaker": "Salmista",
+          "options": [
+            "angústias",
+            "guerras",
+            "perseguições",
+            "tentações"
+          ],
+          "answer": "angústias",
+          "reference": "Salmo 46:1",
+          "explanation": "Em toda a angústia, podemos correr para o refúgio de Deus e encontrar segurança."
+        },
+        {
+          "id": "salmos-u1-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Salmo 46 fala sobre Deus derrotando inimigos em uma batalha literal.",
+          "isTrue": false,
+          "reference": "Salmo 46:6-11",
+          "explanation": "O Salmo 46 é principalmente sobre Deus como refúgio espiritual, com linguagem poética sobre confiança divina."
+        },
+        {
+          "id": "salmos-u1-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual é a mensagem central do Salmo 46:10?",
+          "text": "\"Aquietai-vos, e conhecei que eu sou Deus.\"",
+          "options": [
+            "Descansa em Deus e reconheça Sua autoridade",
+            "Fica em silêncio durante a oração",
+            "Aceita as ordens de Deus sem questionar",
+            "Espera pacientemente por uma resposta"
+          ],
+          "answer": "Descansa em Deus e reconheça Sua autoridade",
+          "reference": "Salmo 46:10",
+          "explanation": "A quietude nos permite confiar e aceitar o domínio supremo de Deus em nossas vidas."
+        },
+        {
+          "id": "salmos-u1-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Promessa de Deus em Salmo 46:1",
+          "tokens": [
+            "Deus é nosso refúgio",
+            "e fortaleza",
+            "auxílio bem provado",
+            "nas angústias"
+          ],
+          "distractors": [
+            "e escudo",
+            "muito presente",
+            "em tribulações"
+          ],
+          "reference": "Salmo 46:1"
+        },
+        {
+          "id": "salmos-u1-l2-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Deus é nosso refúgio e fortaleza.",
+          "options": [
+            "Confiem em Deus, o Senhor",
+            "Deus é refúgio e fortaleza",
+            "Aleluia, louvor a Deus"
+          ],
+          "answer": "Deus é refúgio e fortaleza",
+          "reference": "Salmo 46:1"
+        },
+        {
+          "id": "salmos-u1-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe os conceitos",
+          "pairs": [
+            {
+              "left": "Refúgio",
+              "right": "Proteção e segurança"
+            },
+            {
+              "left": "Fortaleza",
+              "right": "Força e poder"
+            },
+            {
+              "left": "Auxílio",
+              "right": "Ajuda e socorro"
+            },
+            {
+              "left": "Angústia",
+              "right": "Aflição e sofrimento"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Aquietai-vos, e conhecei que eu sou _____.\"",
+          "answer": "Deus",
+          "reference": "Salmo 46:10",
+          "options": [
+            "Deus",
+            "Deos"
+          ]
+        },
+        {
+          "id": "salmos-u1-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Deus promete que se confiarmos Nele, não enfrentaremos guerras nem conflitos.",
+          "isTrue": false,
+          "reference": "Salmo 46",
+          "explanation": "Deus promete estar conosco e ser nossa força nas dificuldades, não necessariamente livrar-nos delas."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u1-l3",
+      "title": "Proteção Sob Suas Asas",
+      "icon": "bird.fill",
+      "exercises": [
+        {
+          "id": "salmos-u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Aquele que habita no esconderijo do Altíssimo, à sombra do ___ descansará.\"",
+          "speaker": "Salmista",
+          "options": [
+            "Onipotente",
+            "Senhor",
+            "Eterno",
+            "Criador"
+          ],
+          "answer": "Onipotente",
+          "reference": "Salmo 91:1",
+          "explanation": "Quem confia no Deus todo-poderoso encontra refúgio e descanso em Sua proteção."
+        },
+        {
+          "id": "salmos-u1-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Salmo 91 promete que Deus nos protege de todo perigo com Suas asas.",
+          "isTrue": true,
+          "reference": "Salmo 91:4",
+          "explanation": "A imagem das asas de Deus simboliza proteção, segurança e cuidado maternal."
+        },
+        {
+          "id": "salmos-u1-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "O que o Salmo 91:2 diz sobre Deus?",
+          "text": "\"Eu direi ao Senhor: Tu és o meu refúgio e o meu _____.\"",
+          "options": [
+            "castelo",
+            "julgador",
+            "libertador",
+            "rei"
+          ],
+          "answer": "castelo",
+          "reference": "Salmo 91:2",
+          "explanation": "Deus é nosso refúgio (proteção) e nosso castelo (fortaleza), um lugar seguro."
+        },
+        {
+          "id": "salmos-u1-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Proteção de Deus em Salmo 91:4",
+          "tokens": [
+            "Ele te cobrirá",
+            "com suas penas",
+            "e sob suas asas",
+            "estarás seguro"
+          ],
+          "distractors": [
+            "te resgatará",
+            "te defenderá",
+            "com seu poder"
+          ],
+          "reference": "Salmo 91:4"
+        },
+        {
+          "id": "salmos-u1-l3-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Ele te cobrirá com suas penas.",
+          "options": [
+            "Deus te dará asas para voar",
+            "Deus te cobrirá com suas penas",
+            "Sua proteção chegará logo"
+          ],
+          "answer": "Deus te cobrirá com suas penas",
+          "reference": "Salmo 91:4"
+        },
+        {
+          "id": "salmos-u1-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe a linguagem simbólica",
+          "pairs": [
+            {
+              "left": "Asas",
+              "right": "Proteção e abraço"
+            },
+            {
+              "left": "Esconderijo",
+              "right": "Refúgio seguro"
+            },
+            {
+              "left": "Sombra",
+              "right": "Cobertura divina"
+            },
+            {
+              "left": "Ninho",
+              "right": "Lugar de repouso"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Preencha a lacuna",
+          "text": "\"Tu és o meu refúgio e o meu _____.\"",
+          "answer": "castelo",
+          "reference": "Salmo 91:2",
+          "options": [
+            "castelo",
+            "abrigo"
+          ]
+        },
+        {
+          "id": "salmos-u1-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A proteção de Deus no Salmo 91 inclui afastamento de todo tipo de mal.",
+          "isTrue": false,
+          "reference": "Salmo 91",
+          "explanation": "O Salmo 91 fala sobre proteção espiritual e confiança, não isenção de todos os sofrimentos físicos."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u1-l4",
+      "title": "Segurança no Altíssimo",
+      "icon": "mountain.2.fill",
+      "exercises": [
+        {
+          "id": "salmos-u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Quem é o 'Altíssimo' no Salmo 91?",
+          "text": "\"Aquele que habita no esconderijo do Altíssimo...\"",
+          "options": [
+            "Deus Pai",
+            "O montanha mais alta",
+            "O céu",
+            "O Senhor Jesus"
+          ],
+          "answer": "Deus Pai",
+          "reference": "Salmo 91:1",
+          "explanation": "Altíssimo é um dos nomes de Deus que expressa Sua supremacia e poder absoluto."
+        },
+        {
+          "id": "salmos-u1-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Salmo 91 foi escrito por Davi quando ele estava fugindo de Saul.",
+          "isTrue": false,
+          "reference": "Salmo 91",
+          "explanation": "O autor do Salmo 91 não é identificado; é um salmo de confiança para qualquer pessoa em tempos difíceis."
+        },
+        {
+          "id": "salmos-u1-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual é a condição para receber proteção no Salmo 91:9-10?",
+          "text": "\"Porque disseste: O Senhor é o meu refúgio e...\"",
+          "options": [
+            "Fazer do Senhor nosso refúgio",
+            "Seguir todas as leis de Moisés",
+            "Fazer sacrifícios no templo",
+            "Nunca pecar"
+          ],
+          "answer": "Fazer do Senhor nosso refúgio",
+          "reference": "Salmo 91:9",
+          "explanation": "A proteção de Deus está disponível para quem o escolhe como refúgio e confia Nele."
+        },
+        {
+          "id": "salmos-u1-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Confiança em Deus no Salmo 91:2",
+          "tokens": [
+            "Eu direi ao Senhor",
+            "Tu és o meu refúgio",
+            "e o meu castelo",
+            "meu Deus"
+          ],
+          "distractors": [
+            "meu Deus protetor",
+            "meu escudo",
+            "meu libertador"
+          ],
+          "reference": "Salmo 91:2"
+        },
+        {
+          "id": "salmos-u1-l4-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Porque disseste O Senhor é meu refúgio.",
+          "options": [
+            "O Senhor é meu rei",
+            "O Senhor é meu refúgio",
+            "Confiai no Senhor"
+          ],
+          "answer": "O Senhor é meu refúgio",
+          "reference": "Salmo 91:9"
+        },
+        {
+          "id": "salmos-u1-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe os nomes de Deus",
+          "pairs": [
+            {
+              "left": "Altíssimo",
+              "right": "Supremacia divina"
+            },
+            {
+              "left": "Onipotente",
+              "right": "Todo-poderoso"
+            },
+            {
+              "left": "Refúgio",
+              "right": "Lugar de proteção"
+            },
+            {
+              "left": "Castelo",
+              "right": "Fortaleza forte"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete o texto",
+          "text": "\"Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente _____.\"",
+          "answer": "descansará",
+          "reference": "Salmo 91:1",
+          "options": [
+            "descansará",
+            "encontrará paz"
+          ]
+        },
+        {
+          "id": "salmos-u1-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A proteção de Deus no Salmo 91 é apenas para os justos perfeitos.",
+          "isTrue": false,
+          "reference": "Salmo 91",
+          "explanation": "A proteção de Deus está disponível para todos aqueles que buscam refúgio Nele com fé genuína."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u1-l5",
+      "title": "Revisão - Confiança em Deus",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "salmos-u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual salmo começa com 'O Senhor é o meu pastor'?",
+          "text": "Este é um dos salmos mais famosos sobre confiança em Deus.",
+          "options": [
+            "Salmo 23",
+            "Salmo 46",
+            "Salmo 91",
+            "Salmo 27"
+          ],
+          "answer": "Salmo 23",
+          "reference": "Salmo 23:1",
+          "explanation": "O Salmo 23 é o salmo de confiança mais conhecido, usando a imagem do pastor e ovelhas."
+        },
+        {
+          "id": "salmos-u1-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Todos os salmos de confiança foram escritos por Davi.",
+          "isTrue": false,
+          "reference": "Livro de Salmos",
+          "explanation": "Muitos salmos foram escritos por Davi, mas outros foram escritos por diferentes autores ao longo da história de Israel."
+        },
+        {
+          "id": "salmos-u1-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual imagem Deus usa para proteger em Salmo 91?",
+          "text": "Esta comparação expressa cuidado maternal e proteção total.",
+          "options": [
+            "As asas de uma mãe",
+            "Um escudo na guerra",
+            "Uma muralha de pedra",
+            "Um rei guerreiro"
+          ],
+          "answer": "As asas de uma mãe",
+          "reference": "Salmo 91:4",
+          "explanation": "A imagem das asas simboliza a proteção abraçadora de Deus por Seus filhos."
+        },
+        {
+          "id": "salmos-u1-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo de revisão",
+          "text": "Versículo de confiança resumido",
+          "tokens": [
+            "O Senhor é",
+            "meu refúgio",
+            "minha fortaleza",
+            "e meu Deus"
+          ],
+          "distractors": [
+            "meu juiz",
+            "meu rei",
+            "minha glória"
+          ],
+          "reference": "Salmo 46:1, 91:2"
+        },
+        {
+          "id": "salmos-u1-l5-e5",
+          "kind": "listen",
+          "prompt": "Qual versículo você ouviu?",
+          "text": "O Senhor é o meu pastor, nada me faltará.",
+          "options": [
+            "Deus é meu protetor",
+            "O Senhor é meu pastor",
+            "Confia no Senhor sempre"
+          ],
+          "answer": "O Senhor é meu pastor",
+          "reference": "Salmo 23:1"
+        },
+        {
+          "id": "salmos-u1-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe o salmo ao tema",
+          "pairs": [
+            {
+              "left": "Salmo 23",
+              "right": "Pastor amoroso"
+            },
+            {
+              "left": "Salmo 46",
+              "right": "Refúgio seguro"
+            },
+            {
+              "left": "Salmo 27",
+              "right": "Luz e salvação"
+            },
+            {
+              "left": "Salmo 91",
+              "right": "Proteção divina"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem as características da confiança",
+          "text": "Progresso da confiança em Deus",
+          "tokens": [
+            "Reconhecer Deus como refúgio",
+            "Fazer Dele nosso castelo",
+            "Descansar em Sua proteção",
+            "Louvar Sua fidelidade"
+          ]
+        },
+        {
+          "id": "salmos-u1-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A confiança em Deus nos protege de todo e qualquer sofrimento.",
+          "isTrue": false,
+          "reference": "Salmo 23:4, 46:5",
+          "explanation": "Confiar em Deus nos dá segurança espiritual e Sua presença, não eliminação de todas as dificuldades."
+        }
+      ]
+    }
+  ]
+}

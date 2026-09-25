@@ -1,0 +1,495 @@
+[
+  {
+    "id": "historia-mulher-samaritana",
+    "title": "A Mulher Samaritana",
+    "subtitle": "Jesus oferece água viva a uma mulher abandonada",
+    "icon": "drop.fill",
+    "reference": "João 4:4-42",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jesus estava viajando de Judeia para a Galileia e precisava passar por Samaria. Era meio-dia quente."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jesus se sentou ao lado de um poço. Uma mulher samaritana veio sozinha para tirar água."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Por favor, me dê um pouco de água para beber."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mulher Samaritana",
+        "text": "Como você, sendo judeu, pede água a mim, que sou samaritana? Judeus não têm relacionamento conosco."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que a mulher ficou surpresa com o pedido de Jesus?",
+        "options": [
+          "Porque judeus geralmente evitavam samaritanos",
+          "Porque ela tinha medo de água",
+          "Porque era noite e não deveria haver homens"
+        ],
+        "answer": "Porque judeus geralmente evitavam samaritanos"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Se você soubesse quem eu sou, você pederia água a mim. Eu vos daria água viva que nunca secaria."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mulher Samaritana",
+        "text": "Água viva? Senhor, você nem tem um balde e o poço é profundo. Como pode tirar água viva?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Todo aquele que bebe desta água terá sede novamente. Mas aquele que beber da água que eu dou nunca mais terá sede."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mulher Samaritana",
+        "text": "Senhor, dê-me essa água para que eu não tenha sede nem venha aqui tirar água!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "O que a mulher pediu para Jesus?",
+        "options": [
+          "A água viva que Jesus oferecia",
+          "Mais ouro e prata",
+          "Que ele voltasse outro dia"
+        ],
+        "answer": "A água viva que Jesus oferecia"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Vá chamar seu marido e volte."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mulher Samaritana",
+        "text": "Não tenho marido."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Está certo. Tiveste cinco maridos e o que agora tens não é teu marido. Você falou a verdade."
+      },
+      {
+        "kind": "line",
+        "text": "A mulher percebeu que Jesus conhecia toda sua história. Ela havia sido ferida e rejeitada muitas vezes. Mas Jesus não a julgava.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mulher Samaritana",
+        "text": "Senhor, você é um profeta! Agora entendo que você é o Messias que esperávamos!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Eu o sou. A verdadeira adoração não é em montanhas nem em templos, mas em espírito e em verdade."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como a mulher foi transformada?",
+        "options": [
+          "Ela reconheceu Jesus como o Messias e testemunhou a outras pessoas",
+          "Ela continuou com a mesma vida vazia",
+          "Ela tentou enganar Jesus"
+        ],
+        "answer": "Ela reconheceu Jesus como o Messias e testemunhou a outras pessoas"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mulher Samaritana",
+        "text": "Pessoas da minha cidade! Venham! Encontrei o Messias! Ele me conhece! Veja o que ele fez por mim!"
+      },
+      {
+        "kind": "line",
+        "text": "Muitos samaritanos creram em Jesus através do testemunho daquela mulher. Sua vida foi transformada pelo amor de Jesus.",
+        "speaker": "Narrador"
+      }
+    ]
+  },
+  {
+    "id": "historia-filho-prodigo",
+    "title": "O Filho Pródigo",
+    "subtitle": "O amor de um pai que nunca abandona",
+    "icon": "heart.fill",
+    "reference": "Lucas 15:11-32",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Um certo homem tinha dois filhos. Um dia, o filho mais jovem disse ao pai: 'Pai, dá-me a minha herança agora!'"
+      },
+      {
+        "kind": "line",
+        "speaker": "Pai",
+        "text": "Meu filho, você quer sua herança já? Está certo. Vou dividir meu patrimônio."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "O filho mais jovem pegou sua herança e foi para longe. Ele viveu de forma selvagem, gastando tudo em festas e diversões."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como o filho mais jovem usou sua herança?",
+        "options": [
+          "Gastou tudo em festas e diversões",
+          "Investiu em negócios",
+          "Salvou e investiu com cuidado"
+        ],
+        "answer": "Gastou tudo em festas e diversões"
+      },
+      {
+        "kind": "line",
+        "speaker": "Filho Mais Jovem",
+        "text": "Finalmente sou livre! Ninguém pode me dizer o que fazer! Vou aproveitar a vida!"
+      },
+      {
+        "kind": "line",
+        "text": "Mas quando o dinheiro terminou, uma grande fome veio à terra. O filho não tinha nada.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Filho Mais Jovem",
+        "text": "Estou morrendo de fome! Preciso de um emprego! O que posso fazer?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Patrão",
+        "text": "Você pode trabalhar cuidando de meus porcos. Você alimentará os porcos."
+      },
+      {
+        "kind": "line",
+        "text": "O filho caído começou a alimentar os porcos. Ficava com tanta fome que gostaria de comer o que os porcos comiam.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Qual era a situação do filho quando o dinheiro terminou?",
+        "options": [
+          "Estava sem nada, trabalhando com porcos, com fome",
+          "Encontrou emprego bem-pago",
+          "Seu pai o procurou e o levou de volta"
+        ],
+        "answer": "Estava sem nada, trabalhando com porcos, com fome"
+      },
+      {
+        "kind": "line",
+        "speaker": "Filho Mais Jovem",
+        "text": "Que tolo eu fui! Meu pai tem muitos empregados e todos eles têm comida suficiente. Mas eu aqui morrendo de fome."
+      },
+      {
+        "kind": "line",
+        "speaker": "Filho Mais Jovem",
+        "text": "Vou voltar a meu pai. Direi: Pai, pequei contra você. Não sou digno de ser teu filho. Deixa-me ser um de seus empregados."
+      },
+      {
+        "kind": "line",
+        "text": "O filho se levantou e começou o longo caminho de volta. Estava arrependido e humilhado.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Mas quando ainda estava longe, seu pai o viu. O coração do pai transbordava de amor e compaixão."
+      },
+      {
+        "kind": "line",
+        "speaker": "Pai",
+        "text": "Meu filho! Meu filho voltou! Aquele que eu pensava que estava perdido agora está encontrado!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Pai",
+        "text": "Rápido! Tragam a melhor roupa! Preparem um grande banquete! Meu filho voltou!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como o pai respondeu quando viu seu filho retornar?",
+        "options": [
+          "Com amor e perdão, oferecendo um banquete",
+          "Com raiva e castigo",
+          "Com indiferença"
+        ],
+        "answer": "Com amor e perdão, oferecendo um banquete"
+      },
+      {
+        "kind": "line",
+        "speaker": "Filho Mais Jovem",
+        "text": "Pai! Pequei contra você! Não sou digno de ser teu filho..."
+      },
+      {
+        "kind": "line",
+        "speaker": "Pai",
+        "text": "Cala-te, meu filho! Você voltou! Isso é tudo que importa! Você estava perdido e agora está encontrado!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "O pai abraçou seu filho e o beijou. Toda a alegria do lar foi restaurada. Deus nos ama assim também."
+      }
+    ]
+  },
+  {
+    "id": "historia-ressureicao-lazaro",
+    "title": "A Ressurreição de Lázaro",
+    "subtitle": "Jesus tem poder até sobre a morte",
+    "icon": "heart.fill",
+    "reference": "João 11:1-44",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Lázaro era amigo de Jesus. Vivia em Betânia com suas irmãs Maria e Marta. Um dia, Lázaro ficou muito doente."
+      },
+      {
+        "kind": "line",
+        "speaker": "Maria",
+        "text": "Marta, Lázaro está piorando! Precisamos enviar mensagem a Jesus! Ele pode curá-lo!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Marta",
+        "text": "Sim! Vamos enviar alguém já! Jesus o ama. Quando souber que Lázaro está doente, virá correndo!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que Maria e Marta queriam que Jesus soubesse que Lázaro estava doente?",
+        "options": [
+          "Porque confiavam que Jesus podia curá-lo",
+          "Porque queriam que Jesus sofresse",
+          "Porque não tinham dinheiro para médicos"
+        ],
+        "answer": "Porque confiavam que Jesus podia curá-lo"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "As irmãs enviaram uma mensagem, mas Jesus não foi imediatamente. Esperou dois dias antes de viajar."
+      },
+      {
+        "kind": "line",
+        "text": "Quando Jesus chegou, Lázaro já tinha morrido havia quatro dias. Marta saiu para encontrá-lo.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Marta",
+        "text": "Senhor! Se tivesses vindo quando Lázaro adoeceu, ele não teria morrido! Mas mesmo agora, eu sei que Deus te ouve sempre!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Seu irmão há de ressuscitar."
+      },
+      {
+        "kind": "line",
+        "speaker": "Marta",
+        "text": "Eu sei que ressuscitará na ressurreição, no último dia."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Eu sou a ressurreição e a vida. Quem crê em mim, ainda que morra, viverá. Crês tu isto?"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "O que Jesus prometeu sobre si mesmo?",
+        "options": [
+          "Que Ele é a ressurreição e a vida",
+          "Que ninguém morreria",
+          "Que Ele reinaria por mil anos"
+        ],
+        "answer": "Que Ele é a ressurreição e a vida"
+      },
+      {
+        "kind": "line",
+        "speaker": "Marta",
+        "text": "Sim, Senhor! Eu creio que tu és o Cristo, o Filho de Deus!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesus pediu que levassem para o sepulcro de Lázaro. A pedra foi removida.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Pai, obrigado por me ouvires. Pai, levanta Lázaro!"
+      },
+      {
+        "kind": "line",
+        "text": "Lázaro saiu do sepulcro! Seus braços e pernas estavam presos com ataduras e o rosto envolvido em um lenço.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Soltem-no! Ele está vivo!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Maria e Marta",
+        "text": "Lázaro! Você voltou! Jesus nos devolveu nosso irmão!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como Jesus ressuscitou Lázaro?",
+        "options": [
+          "Pela oração e poder de Deus",
+          "Através de técnicas médicas",
+          "Por magia"
+        ],
+        "answer": "Pela oração e poder de Deus"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Todos os que viram o milagre creram em Jesus. A morte não podia reter-se diante do poder de Deus."
+      }
+    ]
+  },
+  {
+    "id": "historia-caminho-emaus",
+    "title": "O Caminho de Emaús",
+    "subtitle": "Reconhecemos Jesus quando nos revela",
+    "icon": "book.fill",
+    "reference": "Lucas 24:13-35",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Após a crucificação de Jesus, dois discípulos caminhavam pela estrada para Emaús. Estavam tristes e confusos."
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 1",
+        "text": "Tínhamos esperança que Jesus era o Messias. Mas foi crucificado. Agora tudo se perdeu."
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 2",
+        "text": "Sim. E mulheres disseram que sua tumba está vazia. Como pode isso ser? Donde virá a salvação agora?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Enquanto conversavam, um homem se aproximou e começou a caminhar com eles. Era Jesus ressurreto, mas seus olhos estavam velados."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "O que discutem enquanto caminham? Parecem tristes."
+      },
+      {
+        "kind": "line",
+        "text": "Você é estrangeiro? Não sabe o que aconteceu em Jerusalém?",
+        "speaker": "Discípulo 1"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que os discípulos não reconheceram Jesus?",
+        "options": [
+          "Porque seus olhos estavam velados por Deus",
+          "Porque Jesus tinha mudado de roupa",
+          "Porque era muito escuro"
+        ],
+        "answer": "Porque seus olhos estavam velados por Deus"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 2",
+        "text": "Fale-nos o que aconteceu. Um homem chamado Jesus de Nazaré era poderoso em obras. Mas os líderes o crucificaram."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Ó insensatos! Lentos de coração para crer! Não saíam que era necessário que o Cristo padecesse e entrasse em sua glória?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Começando por Moisés e todos os profetas, explicou o que dele se dizia em todas as Escrituras."
+      },
+      {
+        "kind": "line",
+        "text": "Enquanto caminhavam, Jesus abriu suas mentes para compreender as Escrituras. Seu coração ardia de esperança.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como Jesus ajudou os discípulos a compreender?",
+        "options": [
+          "Explicando as Escrituras sobre o Messias",
+          "Contando histórias sobre viagens",
+          "Pedindo dinheiro emprestado"
+        ],
+        "answer": "Explicando as Escrituras sobre o Messias"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 1",
+        "text": "Ó estrangeiro, a noite está caindo. Venha e fique conosco. Não nos abandone!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesus entrou para ficar com eles. Quando se sentaram à mesa, Jesus tomou o pão, o abençoou e lho deu.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "text": "Nesse momento, os olhos dos discípulos foram abertos e reconheceram Jesus. Mas Ele desapareceu de sua vista.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 2",
+        "text": "Era Jesus! Nosso coração não ardeu quando Ele nos falava no caminho e abria as Escrituras?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 1",
+        "text": "Vamos voltar a Jerusalém! Precisamos contar aos outros que Jesus ressuscitou!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como os discípulos reconheceram Jesus?",
+        "options": [
+          "Quando Ele partiu o pão à mesa",
+          "Quando ouviram Sua voz",
+          "Quando O viram ressurreto"
+        ],
+        "answer": "Quando Ele partiu o pão à mesa"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Os discípulos retornaram a Jerusalém com alegria. Encontraram os outros discípulos e compartilharam que Jesus havia ressuscitado e se revelado a eles."
+      }
+    ]
+  }
+]

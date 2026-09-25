@@ -1,0 +1,633 @@
+{
+  "id": "salmos-u4",
+  "title": "Unit 4",
+  "subtitle": "Prayer and Repentance",
+  "guide": {
+    "summary": "Prayer is genuine conversation with God. Repentance is a change of heart that transforms us. Through these, we experience forgiveness, renewal, and intimacy with our Creator.",
+    "keyVerses": [
+      {
+        "reference": "Psalm 51:10",
+        "text": "Create in me a clean heart, O God, and renew a right spirit within me."
+      },
+      {
+        "reference": "Psalm 139:1",
+        "text": "O LORD, you have searched me and known me."
+      },
+      {
+        "reference": "Matthew 6:9-13",
+        "text": "Pray therefore like this: Our Father in heaven..."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "salmos-u4-l1",
+      "title": "Sincere Repentance",
+      "icon": "leaf.fill",
+      "exercises": [
+        {
+          "id": "salmos-u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Create in me a clean heart, O God, and renew a right _____ within me.\"",
+          "speaker": "David",
+          "options": [
+            "spirit",
+            "strength",
+            "mind",
+            "soul"
+          ],
+          "answer": "spirit",
+          "reference": "Psalm 51:10",
+          "explanation": "True repentance leads to the desire for a renewed heart and upright spirit."
+        },
+        {
+          "id": "salmos-u4-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Psalm 51 is the most well-known repentance psalm, written by David after his sin.",
+          "isTrue": true,
+          "reference": "Psalm 51",
+          "explanation": "Psalm 51 is a powerful psalm of confession and repentance after David's sin."
+        },
+        {
+          "id": "salmos-u4-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "What does true repentance produce?",
+          "text": "\"Wash me thoroughly from my iniquity, and cleanse me from my _____.\"",
+          "options": [
+            "sin",
+            "guilt",
+            "shame",
+            "rebellion"
+          ],
+          "answer": "sin",
+          "reference": "Psalm 51:2",
+          "explanation": "God washes and cleanses us when we sincerely repent of our sins."
+        },
+        {
+          "id": "salmos-u4-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Prayer of repentance in Psalm 51:1-2",
+          "tokens": [
+            "Have mercy on me, O God",
+            "according to your steadfast love",
+            "wash me thoroughly",
+            "from my iniquity"
+          ],
+          "distractors": [
+            "restore my soul",
+            "renew my spirit",
+            "forgive my sin"
+          ],
+          "reference": "Psalm 51:1-2"
+        },
+        {
+          "id": "salmos-u4-l1-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Create in me a clean heart O God.",
+          "options": [
+            "God cleanses our sins",
+            "Create in me a clean heart",
+            "Restore my renewed spirit"
+          ],
+          "answer": "Create in me a clean heart",
+          "reference": "Psalm 51:10"
+        },
+        {
+          "id": "salmos-u4-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Match elements of repentance",
+          "pairs": [
+            {
+              "left": "Confession",
+              "right": "Admit the sin"
+            },
+            {
+              "left": "Remorse",
+              "right": "Sorrow for sin"
+            },
+            {
+              "left": "Change",
+              "right": "Abandon wickedness"
+            },
+            {
+              "left": "Forgiveness",
+              "right": "God's grace"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"Create in me a _____ heart, O God, and renew a right spirit.\"",
+          "answer": "clean",
+          "reference": "Psalm 51:10",
+          "options": [
+            "clean",
+            "pure"
+          ]
+        },
+        {
+          "id": "salmos-u4-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Repentance is merely feeling remorse for sins.",
+          "isTrue": false,
+          "reference": "Psalm 51",
+          "explanation": "True repentance includes confession, genuine remorse, and change of life."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u4-l2",
+      "title": "God Knows Our Hearts",
+      "icon": "hands.sparkles.fill",
+      "exercises": [
+        {
+          "id": "salmos-u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"O LORD, you have searched me and _____.\"",
+          "speaker": "David",
+          "options": [
+            "known me",
+            "judged me",
+            "loved me",
+            "guided me"
+          ],
+          "answer": "known me",
+          "reference": "Psalm 139:1",
+          "explanation": "God knows deeply every aspect of our life and heart."
+        },
+        {
+          "id": "salmos-u4-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Psalm 139 expresses that God is always present and knows us completely.",
+          "isTrue": true,
+          "reference": "Psalm 139",
+          "explanation": "Psalm 139 is a profound psalm about God's omniscience and omnipresence."
+        },
+        {
+          "id": "salmos-u4-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the comfort in Psalm 139:5?",
+          "text": "\"You hem me in, _____, and behind, and lay your hand upon me.\"",
+          "options": [
+            "before",
+            "above",
+            "near",
+            "day and night"
+          ],
+          "answer": "before",
+          "reference": "Psalm 139:5",
+          "explanation": "God surrounds us completely and His presence protects us in all directions."
+        },
+        {
+          "id": "salmos-u4-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "God's presence in Psalm 139:7-8",
+          "tokens": [
+            "Where can I go",
+            "from your Spirit?",
+            "Or where can I flee",
+            "from your presence?"
+          ],
+          "distractors": [
+            "If I ascend to heaven",
+            "If I descend to Sheol",
+            "If I spread my wings"
+          ],
+          "reference": "Psalm 139:7"
+        },
+        {
+          "id": "salmos-u4-l2-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "O LORD you search me and know me.",
+          "options": [
+            "God judges all people",
+            "O LORD you search and know me",
+            "I know God's heart"
+          ],
+          "answer": "O LORD you search and know me",
+          "reference": "Psalm 139:1"
+        },
+        {
+          "id": "salmos-u4-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Match divine attributes",
+          "pairs": [
+            {
+              "left": "Omniscience",
+              "right": "God knows all"
+            },
+            {
+              "left": "Omnipresence",
+              "right": "God is everywhere"
+            },
+            {
+              "left": "Omnipotence",
+              "right": "God has all power"
+            },
+            {
+              "left": "Eternity",
+              "right": "God exists always"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"O LORD, you have searched me and _____.\"",
+          "answer": "known me",
+          "reference": "Psalm 139:1",
+          "options": [
+            "known me",
+            "know me well"
+          ]
+        },
+        {
+          "id": "salmos-u4-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "We can hide our thoughts from God.",
+          "isTrue": false,
+          "reference": "Psalm 139:1-2",
+          "explanation": "God knows not only our actions but also our most secret thoughts."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u4-l3",
+      "title": "The Lord's Prayer",
+      "icon": "hands.sparkles.fill",
+      "exercises": [
+        {
+          "id": "salmos-u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Begin the Lord's Prayer",
+          "text": "\"Our Father, who art in _____.\"",
+          "speaker": "Jesus",
+          "options": [
+            "heaven",
+            "throne",
+            "kingdom",
+            "heart"
+          ],
+          "answer": "heaven",
+          "reference": "Matthew 6:9",
+          "explanation": "The prayer begins by recognizing God as our Father in heaven."
+        },
+        {
+          "id": "salmos-u4-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The Lord's Prayer was taught by Jesus as a model for prayer.",
+          "isTrue": true,
+          "reference": "Matthew 6:9-13",
+          "explanation": "Jesus taught us this prayer as an example of how we should pray to the Father."
+        },
+        {
+          "id": "salmos-u4-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the second petition of the Lord's Prayer?",
+          "text": "\"Your kingdom come, your _____ be done, on earth as it is in heaven.\"",
+          "options": [
+            "will",
+            "grace",
+            "mercy",
+            "justice"
+          ],
+          "answer": "will",
+          "reference": "Matthew 6:10",
+          "explanation": "We ask that God's will be done in our lives and in the world."
+        },
+        {
+          "id": "salmos-u4-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Petition for bread in Matthew 6:11",
+          "tokens": [
+            "Our daily bread",
+            "give us today",
+            "and forgive us",
+            "our debts"
+          ],
+          "distractors": [
+            "as we forgive",
+            "our debtors",
+            "and lead us not"
+          ],
+          "reference": "Matthew 6:11-12"
+        },
+        {
+          "id": "salmos-u4-l3-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Your kingdom come your will be done.",
+          "options": [
+            "Your name be hallowed",
+            "Your kingdom come your will done",
+            "Forgiveness and salvation for all"
+          ],
+          "answer": "Your kingdom come your will done",
+          "reference": "Matthew 6:10"
+        },
+        {
+          "id": "salmos-u4-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the petitions of the Lord's Prayer",
+          "pairs": [
+            {
+              "left": "Hallowing the name",
+              "right": "Recognize God as holy"
+            },
+            {
+              "left": "Daily sustenance",
+              "right": "Ask for our bread"
+            },
+            {
+              "left": "Forgiveness of sins",
+              "right": "Reconciliation with God"
+            },
+            {
+              "left": "Deliverance from evil",
+              "right": "Divine protection"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the prayer",
+          "text": "\"Our daily bread give us _____.\"",
+          "answer": "today",
+          "reference": "Matthew 6:11",
+          "options": [
+            "today",
+            "now"
+          ]
+        },
+        {
+          "id": "salmos-u4-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The Lord's Prayer contains petitions only for ourselves.",
+          "isTrue": false,
+          "reference": "Matthew 6:9-13",
+          "explanation": "The Lord's Prayer includes petitions to glorify God, for His kingdom to come, and for forgiveness."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u4-l4",
+      "title": "Time and Eternity",
+      "icon": "moon.stars.fill",
+      "exercises": [
+        {
+          "id": "salmos-u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Vanity of vanities, says the Preacher, vanity of vanities; all is _____.\"",
+          "speaker": "Ecclesiastes",
+          "options": [
+            "vanity",
+            "falsehood",
+            "illusion",
+            "deception"
+          ],
+          "answer": "vanity",
+          "reference": "Ecclesiastes 1:2",
+          "explanation": "Ecclesiastes makes us reflect that life without God is empty and without lasting meaning."
+        },
+        {
+          "id": "salmos-u4-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Ecclesiastes teaches that everything we do without God is empty and purposeless.",
+          "isTrue": true,
+          "reference": "Ecclesiastes 1:2, 12:13",
+          "explanation": "Ecclesiastes shows that without God, all our search for meaning is futile."
+        },
+        {
+          "id": "salmos-u4-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the conclusion of Ecclesiastes?",
+          "text": "\"Now all has been heard; here is the conclusion of the matter: Fear God and _____ his commandments.\"",
+          "options": [
+            "keep",
+            "follow",
+            "obey",
+            "fulfill"
+          ],
+          "answer": "keep",
+          "reference": "Ecclesiastes 12:13",
+          "explanation": "After exploring everything in life, the conclusion is that we should fear God and keep His commandments."
+        },
+        {
+          "id": "salmos-u4-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The central message in Ecclesiastes 3:1",
+          "tokens": [
+            "There is a time",
+            "for every purpose",
+            "under heaven",
+            "a time to be born"
+          ],
+          "distractors": [
+            "and a time to die",
+            "a time to weep",
+            "and a time to laugh"
+          ],
+          "reference": "Ecclesiastes 3:1-2"
+        },
+        {
+          "id": "salmos-u4-l4-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "There is a time for everything under heaven.",
+          "options": [
+            "Time is passing and brief",
+            "There is a time for everything heaven",
+            "Time is precious to God"
+          ],
+          "answer": "There is a time for everything heaven",
+          "reference": "Ecclesiastes 3:1"
+        },
+        {
+          "id": "salmos-u4-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the times of Ecclesiastes 3",
+          "pairs": [
+            {
+              "left": "Time to be born",
+              "right": "Time to die"
+            },
+            {
+              "left": "Time to plant",
+              "right": "Time to reap"
+            },
+            {
+              "left": "Time to weep",
+              "right": "Time to laugh"
+            },
+            {
+              "left": "Time to love",
+              "right": "Time to hate"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"There is a time for every purpose under _____.\"",
+          "answer": "heaven",
+          "reference": "Ecclesiastes 3:1",
+          "options": [
+            "heaven",
+            "sun"
+          ]
+        },
+        {
+          "id": "salmos-u4-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Life has meaning when we place God at the center of everything.",
+          "isTrue": true,
+          "reference": "Ecclesiastes 12:13",
+          "explanation": "When we fear God and keep His commandments, our life gains eternal purpose."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u4-l5",
+      "title": "Review - Prayer and Repentance",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "salmos-u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the purpose of repentance?",
+          "text": "Repentance is essential to our relationship with God.",
+          "options": [
+            "Transform our heart and restore us",
+            "Only express guilt",
+            "Avoid God's punishment",
+            "Impress other people"
+          ],
+          "answer": "Transform our heart and restore us",
+          "reference": "Psalm 51:10",
+          "explanation": "True repentance transforms our heart and reconciles us with God."
+        },
+        {
+          "id": "salmos-u4-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "God is always ready to forgive those who repent sincerely.",
+          "isTrue": true,
+          "reference": "Psalm 51:1, 139:1",
+          "explanation": "God is gracious and always opens His heart to genuine repentance."
+        },
+        {
+          "id": "salmos-u4-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "How should we pray according to God's Word?",
+          "text": "Jesus taught us through the Lord's Prayer how to pray correctly.",
+          "options": [
+            "With honesty, faith, and recognition of God",
+            "Only in sacred places",
+            "With many words and formalities",
+            "Only to ask for blessings"
+          ],
+          "answer": "With honesty, faith, and recognition of God",
+          "reference": "Matthew 6:9-13",
+          "explanation": "True prayer is genuine communion with God, acknowledging His holiness and grace."
+        },
+        {
+          "id": "salmos-u4-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the review verse",
+          "text": "Summary of prayer and repentance",
+          "tokens": [
+            "Create in me a clean heart",
+            "O LORD you know me",
+            "Our Father in heaven",
+            "your will be done"
+          ],
+          "distractors": [
+            "restore my soul",
+            "and deliver us from evil",
+            "hallowed be your name"
+          ],
+          "reference": "Psalm 51:10, 139:1, Matthew 6:9-10"
+        },
+        {
+          "id": "salmos-u4-l5-e5",
+          "kind": "listen",
+          "prompt": "Which truth did you hear?",
+          "text": "There is a time for everything under heaven.",
+          "options": [
+            "Time is passing and brief",
+            "There is a time for everything heaven",
+            "There is purpose in each season"
+          ],
+          "answer": "There is a time for everything heaven",
+          "reference": "Ecclesiastes 3:1"
+        },
+        {
+          "id": "salmos-u4-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the final themes",
+          "pairs": [
+            {
+              "left": "Repentance",
+              "right": "Change of heart"
+            },
+            {
+              "left": "Prayer",
+              "right": "Communion with God"
+            },
+            {
+              "left": "Knowledge of God",
+              "right": "Divine omniscience"
+            },
+            {
+              "left": "Meaning of life",
+              "right": "Fear God"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Order the path of transformation",
+          "text": "Journey of spiritual transformation",
+          "tokens": [
+            "Recognize the sin",
+            "Repent sincerely",
+            "Confess to God",
+            "Live transformed"
+          ]
+        },
+        {
+          "id": "salmos-u4-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Prayer and repentance are essential parts of a healthy life with God.",
+          "isTrue": true,
+          "reference": "Psalm 51, 139, Matthew 6:9",
+          "explanation": "Sincere prayer and genuine repentance keep us connected and transformed by God."
+        }
+      ]
+    }
+  ]
+}

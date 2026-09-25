@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "historia-davi-golias",
+    "title": "David y Goliat",
+    "subtitle": "Un joven pastor derrota a un gigante invencible",
+    "icon": "person.2.fill",
+    "reference": "1 Samuel 17",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "En un valle entre dos montañas, dos ejércitos estaban frente a frente: los israelitas y los filisteos. Todos temblaban de miedo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Goliat",
+        "text": "¿Tienen coraje de enfrentar a un gigante? ¡Envíen a su mejor guerrero! Pero dudo que alguien sea tan fuerte como yo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Goliat tenía casi tres metros de altura. Nadie se atrevía a acercarse a él. Había cuarenta días que el gigante desafiaba al ejército de Israel."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué los israelitas tenían miedo de Goliat?",
+        "options": [
+          "Porque él era muy grande y fuerte",
+          "Porque él era amigo del rey",
+          "Porque tenía armas mágicas"
+        ],
+        "answer": "Porque él era muy grande y fuerte"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "David era un joven pastor que cuidaba las ovejas de su padre. Cuando su padre lo envió a llevar comida a sus hermanos en la guerra, David vio a Goliat."
+      },
+      {
+        "kind": "line",
+        "speaker": "David",
+        "text": "¿Por qué tienen miedo? ¡Voy a luchar contra este gigante! El Señor me ayudará, pues está conmigo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Soldado",
+        "text": "¡Eres muy joven! Goliat es un guerrero entrenado. ¡Te aplastará como a un insecto!"
+      },
+      {
+        "kind": "line",
+        "speaker": "David",
+        "text": "El Señor me libró de las garras del león y del oso cuando era pastor. Él también me salvará de Goliat."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿De qué experiencia anterior hablaba David?",
+        "options": [
+          "Luchas que enfrentó mientras protegía sus ovejas",
+          "Batallas en las que participó en el reino de Saúl",
+          "Entrenamiento especial para la guerra"
+        ],
+        "answer": "Luchas que enfrentó mientras protegía sus ovejas"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rey Saúl",
+        "text": "¿Puedes luchar contra Goliat? Usa mi armadura y mi espada. Así estarás protegido."
+      },
+      {
+        "kind": "line",
+        "speaker": "David",
+        "text": "Gracias, pero no puedo luchar con esta armadura. No estoy acostumbrado. Prefiero confiar en el Señor."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "David tomó su honda y cinco piedras lisas del río. Luego caminó confiadamente hacia Goliat."
+      },
+      {
+        "kind": "line",
+        "speaker": "Goliat",
+        "text": "¿Vienes a derrotarme con una honda? ¡Qué niño tonto! ¡Te haré retroceder!"
+      },
+      {
+        "kind": "line",
+        "speaker": "David",
+        "text": "Vienes contra mí con espada y lanza. ¡Pero yo vengo en nombre del Señor de los Ejércitos!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿En qué confiaba David para vencer a Goliat?",
+        "options": [
+          "En el Señor y en su fe",
+          "En la fuerza de su propio brazo",
+          "En la ayuda de los soldados"
+        ],
+        "answer": "En el Señor y en su fe"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "David puso una piedra en su honda y la arrojó con fuerza. La piedra voló por el aire e impactó la frente de Goliat."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "El gigante cayó como un pino en una tormenta. Goliat nunca volvió a levantarse. Toda la nación de Israel vio el milagro de Dios."
+      },
+      {
+        "kind": "line",
+        "speaker": "Pueblo",
+        "text": "¡David! ¡David! ¡Derrotó a Goliat! ¡El Señor está con él!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cuál fue la lección principal de esta historia?",
+        "options": [
+          "La fe en Dios es más poderosa que cualquier gigante",
+          "No necesitas armadura para luchar",
+          "Los niños son mejores guerreros que los adultos"
+        ],
+        "answer": "La fe en Dios es más poderosa que cualquier gigante"
+      }
+    ]
+  },
+  {
+    "id": "historia-daniel-leoes",
+    "title": "Daniel en la Cueva de los Leones",
+    "subtitle": "Un hombre de fe enfrenta la muerte con coraje",
+    "icon": "shield.fill",
+    "reference": "Daniel 6",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Daniel era un joven sabio en el reino de Babilonia. El rey Nabucodonosor lo amaba y lo había puesto como uno de los príncipes más poderosos."
+      },
+      {
+        "kind": "line",
+        "speaker": "Príncipes Envidiosos",
+        "text": "¡Daniel tiene demasiado poder! Necesitamos encontrar una razón para acusarlo ante el rey y removerlo de su posición."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Los príncipes buscaron faltas en el carácter de Daniel. Pero él era honrado y fiel. Todos los días, Daniel oraba a Dios."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué los príncipes querían derrotar a Daniel?",
+        "options": [
+          "Porque tenían envidia de su poder y sabiduría",
+          "Porque Daniel robó oro del reino",
+          "Porque Daniel era extranjero"
+        ],
+        "answer": "Porque tenían envidia de su poder y sabiduría"
+      },
+      {
+        "kind": "line",
+        "speaker": "Príncipes Envidiosos",
+        "text": "¡Sabemos cómo derrotar a Daniel! Vamos a pedir al rey que haga un decreto. ¡Nadie puede orar a nadie excepto al rey, por treinta días!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rey Darío",
+        "text": "Está bien. Cualquiera que ore será lanzado a la cueva de los leones."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Daniel oyó acerca del decreto. Pero no dejó de orar a Dios. Continuó orando tres veces al día, como siempre lo había hecho."
+      },
+      {
+        "kind": "line",
+        "speaker": "Daniel",
+        "text": "Mi Dios es más importante que mi vida. No voy a dejar de orar a Él, no importa cuál sea el precio."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo respondió Daniel al decreto del rey?",
+        "options": [
+          "Continuó orando a Dios con fidelidad",
+          "Dejó de orar para salvar su vida",
+          "Oró sólo en secreto por la noche"
+        ],
+        "answer": "Continuó orando a Dios con fidelidad"
+      },
+      {
+        "kind": "line",
+        "speaker": "Príncipes Envidiosos",
+        "text": "¡Rey! ¡Daniel desobedece tu decreto! ¡Oró a su Dios tres veces hoy! ¡Según tu ley, debe ser lanzado a la cueva de los leones!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rey Darío",
+        "text": "¡No! Daniel es un hombre justo y sabio. Pero mi propia ley me obliga. ¡Que el Dios de Daniel te salve!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Daniel fue llevado a la cueva de los leones. Una gran piedra fue colocada sobre la abertura. El rey selló la cueva con su anillo para asegurar que nadie lo salvara."
+      },
+      {
+        "kind": "line",
+        "speaker": "Rey Darío",
+        "text": "Daniel, que tu Dios te proteja. Pasé la noche entera rezando por ti."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "El rey se despertó antes del amanecer, angustiado. Corrió apresuradamente a la cueva de los leones. Allí, él llamó a Daniel."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Qué hizo el rey cuando se despertó?",
+        "options": [
+          "Corrió a la cueva para ver si Daniel estaba vivo",
+          "Durmió hasta tarde",
+          "Comió su desayuno normalmente"
+        ],
+        "answer": "Corrió a la cueva para ver si Daniel estaba vivo"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rey Darío",
+        "text": "¡Daniel! ¿Estás vivo? ¿Tu Dios pudo salvarte?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Daniel",
+        "text": "¡Mi rey! ¡Mi Dios envió un ángel y cerró la boca de los leones! No me hicieron daño porque soy inocente ante Dios y ante el rey."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "¡Daniel fue traído de vuelta vivo! ¡Ni un hilo de su ropa estaba dañado! ¡Los leones lo respetaron y lo protegieron!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rey Darío",
+        "text": "¡Que todos los reinos sepan! ¡El Dios de Daniel es el Dios vivo y verdadero! ¡Él salva a aquellos que creen en Él!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Qué milagro hizo Dios por Daniel?",
+        "options": [
+          "Envió un ángel y cerró la boca de los leones",
+          "Los leones se convirtieron en vegetarianos",
+          "Daniel voló fuera de la cueva"
+        ],
+        "answer": "Envió un ángel y cerró la boca de los leones"
+      }
+    ]
+  },
+  {
+    "id": "historia-ester-rainha",
+    "title": "Ester ante el Rey",
+    "subtitle": "Una reina valiente salva a su pueblo",
+    "icon": "crown.fill",
+    "reference": "Ester 1-7",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Ester era una joven judía muy hermosa y sabia. Se convirtió en reina del Imperio Persa, pero mantenía su identidad judía en secreto."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mardoqueo",
+        "text": "Ester, necesito contarte algo terrible. Un hombre malvado llamado Amán convenció al rey para que ordenara la muerte de todos los judíos en el reino."
+      },
+      {
+        "kind": "line",
+        "speaker": "Ester",
+        "text": "¡Eso es horrible! ¡Mi pueblo será destruido! ¿Qué puedo hacer?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mardoqueo",
+        "text": "Quizás Dios te puso en el trono justamente para este momento. Tú eres la única que puede hablar al rey y pedir por la vida de tu pueblo."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué Mardoqueo creía que Ester podía salvar a su pueblo?",
+        "options": [
+          "Porque ella era reina y tenía acceso al rey",
+          "Porque ella era muy hermosa",
+          "Porque ella era la hija del rey"
+        ],
+        "answer": "Porque ella era reina y tenía acceso al rey"
+      },
+      {
+        "kind": "line",
+        "speaker": "Ester",
+        "text": "Pero hay un problema. Nadie puede acercarse al rey sin ser invitado. ¡Si él no extiende su cetro de oro, puedo ser condenada a muerte!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mardoqueo",
+        "text": "Ester, debes ser valiente. Primero, pide a todos los judíos que ayunen y oren. Después ve ante el rey."
+      },
+      {
+        "kind": "line",
+        "speaker": "Ester",
+        "text": "Sí, voy a hacerlo. Aunque muera, moriré intentando salvar a mi pueblo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Ester reunió fuerzas y se preparó para una comida especial con el rey. Usó su vestido más hermoso y se presentó ante él."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo se preparó Ester para hablar al rey?",
+        "options": [
+          "Pidió a las personas que oraran por ella y se preparó con gracia",
+          "Gritó y exigió su derecho",
+          "Intentó engañar al rey con mentiras"
+        ],
+        "answer": "Pidió a las personas que oraran por ella y se preparó con gracia"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rey",
+        "text": "¡Mi reina Ester! ¡Bienvenida! ¿Qué deseas? ¡Puedo concederte hasta la mitad de mi reino!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Ester",
+        "text": "Mi rey, le pido que tú y Amán vengan a un banquete que he preparado especialmente."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Ester invitó al rey y a Amán a un banquete. Esa noche, ella ganó coraje para revelar la verdad."
+      },
+      {
+        "kind": "line",
+        "speaker": "Ester",
+        "text": "¡Mi rey! ¡Te pido por mi vida y la vida de mi pueblo! ¡Alguien quiere destruirnos! ¡Es Amán, ese hombre malvado!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rey",
+        "text": "¿Cómo? ¿Amán quiere destruirte? ¡Ester, eres mi reina! ¡Nadie te hará daño mientras yo viva!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo respondió el rey cuando supo del plan de Amán?",
+        "options": [
+          "Se levantó contra Amán y defendió a la reina Ester",
+          "Dijo que Ester estaba mintiendo",
+          "Pidió disculpas a Amán"
+        ],
+        "answer": "Se levantó contra Amán y defendió a la reina Ester"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "El rey emitió un nuevo decreto. Todos los judíos fueron salvados del plan de Amán. Ester se convirtió en una heroína, y su valor salvó a su pueblo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Pueblo Judío",
+        "text": "¡Aleluya! ¡Ester es nuestra reina! ¡Fue valiente y nos salvó! ¡Alabado sea el Señor!"
+      }
+    ]
+  },
+  {
+    "id": "historia-jonas-peixe",
+    "title": "Jonás y el Gran Pez",
+    "subtitle": "Un profeta aprende sobre obediencia y compasión",
+    "icon": "fish.fill",
+    "reference": "Jonás 1-4",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Dios habló a Jonás: 'Ve a la ciudad de Nínive y advierte al pueblo que si no se arrepienten de sus pecados, la ciudad será destruida.'"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonás",
+        "text": "¡No voy! Nínive es enemiga de mi pueblo. ¡Dejaré que Dios los derrumbe! Voy a huir en este barco."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jonás huyó de Dios, pero el Señor es más rápido. Una gran tormenta comenzó a agitar el mar."
+      },
+      {
+        "kind": "line",
+        "speaker": "Marinero 1",
+        "text": "¿Qué está pasando? ¡He navegado cuarenta años y nunca he visto una tormenta tan horrible!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué comenzó la tormenta?",
+        "options": [
+          "Porque Dios la envió para traer a Jonás de vuelta",
+          "Porque había un huracán natural en esa región",
+          "Porque los marineros hicieron algo mal"
+        ],
+        "answer": "Porque Dios la envió para traer a Jonás de vuelta"
+      },
+      {
+        "kind": "line",
+        "speaker": "Marinero 2",
+        "text": "¿Hay alguien aquí que huyó de su Dios? ¡La tormenta está castigando a alguien!"
+      },
+      {
+        "kind": "line",
+        "text": "Sí, fui yo. Huí de mi Dios. Quítenme de aquí y tírenme al mar. Entonces la tormenta parará.",
+        "speaker": "Jonás"
+      },
+      {
+        "kind": "line",
+        "text": "¿Estás seguro? ¿No quieres vivir?",
+        "speaker": "Marinero 1"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonás",
+        "text": "Dios es más importante que mi vida. Dejen que pague por mi pecado."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Los marineros, con tristeza, tiraron a Jonás al mar agitado. Pero Dios preparó un gran pez para tragarlo."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Qué le sucedió a Jonás cuando fue lanzado al mar?",
+        "options": [
+          "Un gran pez lo tragó, pero él no murió",
+          "Se ahogó inmediatamente",
+          "Un pájaro grande lo salvó"
+        ],
+        "answer": "Un gran pez lo tragó, pero él no murió"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonás",
+        "text": "¡Estoy en el vientre de un pez enorme! Está tan oscuro aquí. Pero Dios aún está conmigo. Voy a orar y arrepentirme."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jonás estuvo en el vientre del pez por tres días y tres noches. En ese tiempo oscuro, aprendió una lección importante."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonás",
+        "text": "¡Dios, estaba equivocado! Tú eres misericordioso. Voy a ir a Nínive y haré lo que pediste. Voy a predicar el arrepentimiento."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Dios oyó la oración de Jonás. El gran pez lo escupió de vuelta a tierra firme. ¡Jonás estaba vivo!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Qué aprendió Jonás durante su experiencia?",
+        "options": [
+          "Que Dios es misericordioso y merece obediencia",
+          "Que nunca debería obedecer a Dios",
+          "Que el mar es peligroso"
+        ],
+        "answer": "Que Dios es misericordioso y merece obediencia"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonás",
+        "text": "Ahora voy a Nínive como Dios pidió. Aún no me agradan, pero debo advertirles que deben arrepentirse."
+      },
+      {
+        "kind": "line",
+        "speaker": "Pueblo de Nínive",
+        "text": "¡Escuchen! ¡Jonás dice que nuestra ciudad será destruida si no nos arrepentimos! ¡Todos nos arrepentiremos y pediremos al Dios de Jonás que nos perdone!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Todo el pueblo de Nínive oyó y se arrepintió. Dios tuvo compasión de ellos y perdonó la ciudad. La voluntad de Dios fue cumplida."
+      }
+    ]
+  },
+  {
+    "id": "historia-rute-noemi",
+    "title": "Rut y Noemí",
+    "subtitle": "Lealtad y compasión en el corazón de una mujer",
+    "icon": "leaf.fill",
+    "reference": "Rut 1-4",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Noemí era una mujer israelita viuda, y su nuera Rut era extranjera. Ambas habían perdido todo y estaban desesperadas."
+      },
+      {
+        "kind": "line",
+        "speaker": "Noemí",
+        "text": "Rut, querida, deberías regresar a tu tierra. No tengo nada que ofrecerte aquí. Tu vida puede ser mejor con tu propio pueblo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Rut",
+        "text": "¡Noemí, voy contigo! ¡Tu pueblo será mi pueblo, y tu Dios será mi Dios! No te dejaré sola."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué Rut quería quedarse con Noemí?",
+        "options": [
+          "Porque amaba a Noemí y era leal",
+          "Porque quería ganar dinero",
+          "Porque tenía miedo de volver"
+        ],
+        "answer": "Porque amaba a Noemí y era leal"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Rut y Noemí llegaron a Belén en la época de la cosecha. Rut fue a los campos y pidió permiso para recoger espigas dejadas por los segadores."
+      },
+      {
+        "kind": "line",
+        "speaker": "Rut",
+        "text": "Por favor, ¿puedo recoger espigas dejadas en tu campo? Prometo trabajar duro para conseguir comida para mi suegra."
+      },
+      {
+        "kind": "line",
+        "speaker": "Booz",
+        "text": "Claro que puedes, querida muchacha. He oído hablar de tu lealtad a Noemí. Eso es digno de alabanza."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Booz era un hombre rico y respetado. Vio la lealtad de Rut y comenzó a amarla. La protegía en los campos."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo trataba Booz a Rut en los campos?",
+        "options": [
+          "Con amabilidad, ofrecía agua y protección",
+          "Con frialdad y desprecio",
+          "La ignoraba completamente"
+        ],
+        "answer": "Con amabilidad, ofrecía agua y protección"
+      },
+      {
+        "kind": "line",
+        "speaker": "Booz",
+        "text": "Rut, quiero pedirte en matrimonio. Eres una mujer digna de honor y lealtad. Me gustaría cuidar de ti y de Noemí."
+      },
+      {
+        "kind": "line",
+        "speaker": "Rut",
+        "text": "¡Sí! Eres tan amable conmigo. Acepto ser tu esposa."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Rut y Booz se casaron. Tuvieron un hijo llamado Obed, que se convirtió en abuelo del Rey David."
+      },
+      {
+        "kind": "line",
+        "speaker": "Noemí",
+        "text": "¡Alabado sea Dios! Mi nuera me redimió y me dio alegría. ¡Ahora tenemos esperanza y futuro!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cuál fue el resultado de la lealtad de Rut?",
+        "options": [
+          "Encontró amor, seguridad y un lugar en la historia de Dios",
+          "Se quedó pobre para siempre",
+          "Noemí volvió a ser infeliz"
+        ],
+        "answer": "Encontró amor, seguridad y un lugar en la historia de Dios"
+      }
+    ]
+  },
+  {
+    "id": "historia-nascimento-jesus",
+    "title": "El Nacimiento de Jesús",
+    "subtitle": "Dios entra al mundo como un bebé",
+    "icon": "star.fill",
+    "reference": "Lucas 1-2, Mateo 1-2",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "María era una joven mujer de Nazaret. Un día, el ángel Gabriel se le apareció con noticias sorprendentes."
+      },
+      {
+        "kind": "line",
+        "speaker": "Gabriel",
+        "text": "¡No tengas miedo, María! Fuiste elegida entre todas las mujeres. Concebirás y darás a luz un hijo llamado Jesús."
+      },
+      {
+        "kind": "line",
+        "speaker": "María",
+        "text": "¿Cómo puede ser? No tengo marido. ¿Cómo puedo tener un hijo?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Gabriel",
+        "text": "El Espíritu Santo vendrá sobre ti. El hijo será llamado Hijo de Dios. Su reino no tendrá fin."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo respondió María a la noticia del ángel?",
+        "options": [
+          "Con fe, diciendo que haría la voluntad de Dios",
+          "Con ira e incredulidad",
+          "Huyendo del ángel con miedo"
+        ],
+        "answer": "Con fe, diciendo que haría la voluntad de Dios"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "María era prometida de José, un carpintero justo. Cuando supo de María, él planeó dejarla en secreto. Pero un ángel se le apareció en sueños."
+      },
+      {
+        "kind": "line",
+        "speaker": "Ángel",
+        "text": "José, no tengas miedo. El hijo de María es del Espíritu Santo. Llámalo Jesús, porque él salvará a su pueblo del pecado."
+      },
+      {
+        "kind": "line",
+        "speaker": "José",
+        "text": "Ahora entiendo. Voy a aceptar esta misión. Seré padre terrenal de Jesús y cuidaré de María."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "María y José viajaron a Belén porque el emperador ordenó un censo. Todos necesitaban registrarse en su ciudad natal."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué María y José fueron a Belén?",
+        "options": [
+          "Por el censo ordenado por el emperador",
+          "Porque querían un viaje",
+          "Porque su pariente vivía allá"
+        ],
+        "answer": "Por el censo ordenado por el emperador"
+      },
+      {
+        "kind": "line",
+        "speaker": "María",
+        "text": "Necesito encontrar un lugar para dar a luz. ¡Mi hijo está llegando!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Posadero",
+        "text": "Lo siento, pero no hay habitaciones. La posada está llena. Pueden quedarse en el establo si quieren."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jesús nació en un establo simple. María lo envolvió en paños y lo acostó en un pesebre lleno de paja."
+      },
+      {
+        "kind": "line",
+        "speaker": "Pastores",
+        "text": "¿Qué es esta luminosidad? ¿Qué está pasando en el cielo?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Ángel",
+        "text": "¡No teman! Tengo noticias de gran alegría para todo el pueblo. ¡Hoy ha nacido en la ciudad de David, el Salvador!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Quiénes fueron los primeros en saber del nacimiento de Jesús?",
+        "options": [
+          "Los pastores en los campos, cuando el ángel se les apareció",
+          "Los reyes magos",
+          "El emperador romano"
+        ],
+        "answer": "Los pastores en los campos, cuando el ángel se les apareció"
+      },
+      {
+        "kind": "line",
+        "speaker": "Pastores",
+        "text": "¡Vamos a Belén a ver al niño! ¡El ángel dijo que está envuelto en paños, acostado en un pesebre!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Los pastores fueron corriendo y encontraron a Jesús, María y José. Adoraron al bebé y contaron a todos lo que habían oído."
+      },
+      {
+        "kind": "line",
+        "speaker": "Sabios de Oriente",
+        "text": "¡Una estrella nueva apareció! Significa que nació un gran rey. Vamos a adorarlo con regalos."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Los sabios viajaron desde lejos siguiendo una estrella. Encontraron a Jesús y ofrecieron oro, incienso y mirra."
+      }
+    ]
+  },
+  {
+    "id": "historia-jesus-tempestade",
+    "title": "Jesús Calma la Tormenta",
+    "subtitle": "Jesús tiene poder hasta sobre los elementos de la naturaleza",
+    "icon": "water.waves",
+    "reference": "Mateo 8:23-27, Marcos 4:35-41",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jesús y sus discípulos estaban en un barco en el Mar de Galilea. Jesús estaba tan cansado que se durmió."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "De repente, comenzó una tormenta terrible. El viento soplaba furiosamente y olas enormes golpeaban el barco."
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 1",
+        "text": "¡Señores! ¡Nos estamos hundiendo! ¡El barco se está llenando de agua! ¡Vamos a morir!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 2",
+        "text": "¿Dónde está Jesús? ¿Por qué no nos ayuda? ¿No le importamos?"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué los discípulos tenían miedo?",
+        "options": [
+          "Porque una tormenta violenta los rodeaba",
+          "Porque no sabían nadar",
+          "Porque oyeron hablar de piratas"
+        ],
+        "answer": "Porque una tormenta violenta los rodeaba"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 1",
+        "text": "¡Jesús! ¡Despierta! ¡Por favor, despiértate! ¡Nos estamos muriendo!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesús se despertó y vio el miedo en los rostros de sus discípulos. Se levantó con calma y autoridad.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "¿Por qué tienen miedo? ¿Dónde está la fe de ustedes?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "¡Silencio! ¡Cálmate!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesús habló al viento y a las olas. E instantáneamente, una gran paz descendió. El viento cesó y las aguas se calmaron.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo terminó la tormenta?",
+        "options": [
+          "Jesús ordenó al viento y a las olas que se calmaran",
+          "Los discípulos remaron fuera de la tormenta",
+          "Otra embarcación los ayudó"
+        ],
+        "answer": "Jesús ordenó al viento y a las olas que se calmaran"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 2",
+        "text": "¡Jesús! ¿Qué tipo de hombre eres? ¡Hasta el viento y el mar te obedecen!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 3",
+        "text": "¡Debe ser el Mesías! ¡Nadie más tiene ese poder!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Vieron mi poder. Sepan que tengo autoridad hasta sobre la naturaleza. Confíen en mí, porque siempre estoy con ustedes."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Todos los discípulos quedaron llenos de admiración. Comprendieron que Jesús no era solo un maestro, sino el Hijo de Dios."
+      }
+    ]
+  },
+  {
+    "id": "historia-zaqueu",
+    "title": "Zaqueo",
+    "subtitle": "Un hombre pequeño encuentra salvación en Jesús",
+    "icon": "person.2.fill",
+    "reference": "Lucas 19:1-10",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Zaqueo era un cobrador de impuestos en Jericó. Era muy pequeño de estatura y muy rico, pero odiado por todos."
+      },
+      {
+        "kind": "line",
+        "text": "¡Zaqueo es un traidor! Cobra más impuestos de lo que debería y se queda con el dinero. ¡Es una serpiente!",
+        "speaker": "Pueblo de Jericó"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Un día, Jesús pasó por Jericó. Multitudes lo seguían. Zaqueo quería ver a Jesús, pero era muy bajo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Zaqueo",
+        "text": "¡No puedo ver! Esta multitud es muy grande. Nadie va a dejar pasar a un cobrador de impuestos al frente."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué Zaqueo tenía dificultad para ver a Jesús?",
+        "options": [
+          "Porque era muy bajo y la multitud era grande",
+          "Porque tenía los ojos cerrados",
+          "Porque estaba muy lejos"
+        ],
+        "answer": "Porque era muy bajo y la multitud era grande"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Zaqueo vio una oportunidad. Corrió adelante y subió a un árbol de sicómoro para ver a Jesús pasar."
+      },
+      {
+        "kind": "line",
+        "speaker": "Zaqueo",
+        "text": "¡Perfecto! ¡Desde arriba de este árbol puedo ver a Jesús sin problema!"
+      },
+      {
+        "kind": "line",
+        "text": "Cuando Jesús pasó cerca del árbol, miró hacia arriba y vio a Zaqueo.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "¡Zaqueo! ¡Baja de ahí! ¡Quiero ir a tu casa hoy!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Zaqueo",
+        "text": "¿Quieres venir a mi casa? ¡Soy tan odiado! ¡Pero voy a bajar rápido!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo se sintió Zaqueo cuando Jesús lo notó?",
+        "options": [
+          "Sorprendido y alegre porque Jesús lo eligió",
+          "Furioso porque Jesús lo vio",
+          "Indiferente"
+        ],
+        "answer": "Sorprendido y alegre porque Jesús lo eligió"
+      },
+      {
+        "kind": "line",
+        "speaker": "Pueblo de Jericó",
+        "text": "¡Qué cosa horrible! ¿Jesús va a la casa de Zaqueo? ¿Un cobrador de impuestos corrupto?"
+      },
+      {
+        "kind": "line",
+        "text": "Mientras comían, Zaqueo fue transformado por el encuentro con Jesús. Vio su pecado y quiso cambiar.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Zaqueo",
+        "text": "¡Jesús, quiero cambiar! ¡Voy a dar la mitad de mis bienes a los pobres y devolver cuatro veces lo que robé!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Hoy, la salvación ha entrado en tu casa. Eres verdaderamente un hijo de Abraham. Pues el Hijo del Hombre vino a buscar y salvar lo que se había perdido."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo fue transformado Zaqueo?",
+        "options": [
+          "Se arrepintió y cambió su vida, queriendo hacer reparación",
+          "Continuó robando como antes",
+          "Intentó comprar el favor de Jesús"
+        ],
+        "answer": "Se arrepintió y cambió su vida, queriendo hacer reparación"
+      }
+    ]
+  },
+  {
+    "id": "historia-mulher-samaritana",
+    "title": "La Mujer Samaritana",
+    "subtitle": "Jesús ofrece agua viva a una mujer abandonada",
+    "icon": "drop.fill",
+    "reference": "Juan 4:4-42",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jesús estaba viajando de Judea a Galilea y necesitaba pasar por Samaria. Era medio día caluroso."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jesús se sentó junto a un pozo. Una mujer samaritana vino sola para sacar agua."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Por favor, dame un poco de agua para beber."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mujer Samaritana",
+        "text": "¿Cómo tú, siendo judío, me pides agua a mí, que soy samaritana? Los judíos no tienen relación con nosotros."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué la mujer quedó sorprendida con la petición de Jesús?",
+        "options": [
+          "Porque los judíos generalmente evitaban a los samaritanos",
+          "Porque ella tenía miedo del agua",
+          "Porque era de noche y no debería haber hombres"
+        ],
+        "answer": "Porque los judíos generalmente evitaban a los samaritanos"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Si supieras quién soy yo, tú me pedirías agua a mí. Yo te daría agua viva que nunca se secaría."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mujer Samaritana",
+        "text": "¿Agua viva? Señor, ni siquiera tienes un cántaro y el pozo es profundo. ¿Cómo puedes sacar agua viva?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Todo el que bebe de esta agua volverá a tener sed. Pero el que beba del agua que yo doy nunca más tendrá sed."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mujer Samaritana",
+        "text": "Señor, dame esa agua para que no tenga sed ni venga aquí a sacar agua."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Qué pidió la mujer a Jesús?",
+        "options": [
+          "El agua viva que Jesús ofrecía",
+          "Más oro y plata",
+          "Que regresara otro día"
+        ],
+        "answer": "El agua viva que Jesús ofrecía"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Ve y llama a tu marido y vuelve."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mujer Samaritana",
+        "text": "No tengo marido."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Bien dicho. Cinco maridos has tenido y el que ahora tienes no es tu marido. Eso es verdad."
+      },
+      {
+        "kind": "line",
+        "text": "La mujer se dio cuenta que Jesús conocía toda su historia. Había sido herida y rechazada muchas veces. Pero Jesús no la juzgaba.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mujer Samaritana",
+        "text": "¡Señor, eres un profeta! ¡Ahora entiendo que eres el Mesías que esperábamos!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Yo soy. La verdadera adoración no es en montañas ni en templos, sino en espíritu y en verdad."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo fue transformada la mujer?",
+        "options": [
+          "Reconoció a Jesús como el Mesías y testificó a otras personas",
+          "Continuó con la misma vida vacía",
+          "Intentó engañar a Jesús"
+        ],
+        "answer": "Reconoció a Jesús como el Mesías y testificó a otras personas"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mujer Samaritana",
+        "text": "¡Gente de mi ciudad! ¡Vengan! ¡Encontré al Mesías! ¡Él me conoce! ¡Miren lo que hizo por mí!"
+      },
+      {
+        "kind": "line",
+        "text": "Muchos samaritanos creyeron en Jesús a través del testimonio de aquella mujer. Su vida fue transformada por el amor de Jesús.",
+        "speaker": "Narrador"
+      }
+    ]
+  },
+  {
+    "id": "historia-filho-prodigo",
+    "title": "El Hijo Pródigo",
+    "subtitle": "El amor de un padre que nunca abandona",
+    "icon": "heart.fill",
+    "reference": "Lucas 15:11-32",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Un hombre tenía dos hijos. Un día, el hijo menor le dijo al padre: '¡Padre, dame mi herencia ahora!'"
+      },
+      {
+        "kind": "line",
+        "speaker": "Padre",
+        "text": "Hijo mío, ¿quieres tu herencia ya? Está bien. Voy a dividir mi patrimonio."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "El hijo menor tomó su herencia y se fue lejos. Vivió de forma salvaje, gastando todo en fiestas y diversiones."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo usó el hijo menor su herencia?",
+        "options": [
+          "La gastó toda en fiestas y diversiones",
+          "La invirtió en negocios",
+          "La ahorró e invirtió con cuidado"
+        ],
+        "answer": "La gastó toda en fiestas y diversiones"
+      },
+      {
+        "kind": "line",
+        "speaker": "Hijo Menor",
+        "text": "¡Finalmente soy libre! ¡Nadie puede decirme qué hacer! ¡Voy a disfrutar la vida!"
+      },
+      {
+        "kind": "line",
+        "text": "Pero cuando se acabó el dinero, una gran hambre vino a la tierra. El hijo no tenía nada.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Hijo Menor",
+        "text": "¡Me estoy muriendo de hambre! ¡Necesito un trabajo! ¿Qué puedo hacer?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Patrón",
+        "text": "Puedes trabajar cuidando mis cerdos. Alimentarás los cerdos."
+      },
+      {
+        "kind": "line",
+        "text": "El hijo caído comenzó a alimentar los cerdos. Tenía tanta hambre que habría querido comer lo que los cerdos comían.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cuál era la situación del hijo cuando se acabó el dinero?",
+        "options": [
+          "Estaba sin nada, trabajando con cerdos, con hambre",
+          "Encontró un trabajo bien pagado",
+          "Su padre lo buscó y lo llevó de vuelta"
+        ],
+        "answer": "Estaba sin nada, trabajando con cerdos, con hambre"
+      },
+      {
+        "kind": "line",
+        "speaker": "Hijo Menor",
+        "text": "¡Qué tonto fui! Mi padre tiene muchos siervos y todos ellos tienen comida suficiente. Pero yo aquí muriéndome de hambre."
+      },
+      {
+        "kind": "line",
+        "speaker": "Hijo Menor",
+        "text": "Voy a volver a mi padre. Le diré: Padre, pequé contra ti. No soy digno de ser tu hijo. Déjame ser uno de tus siervos."
+      },
+      {
+        "kind": "line",
+        "text": "El hijo se levantó y comenzó el largo camino de vuelta. Estaba arrepentido y humillado.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Pero cuando aún estaba lejos, su padre lo vio. El corazón del padre rebosaba de amor y compasión."
+      },
+      {
+        "kind": "line",
+        "speaker": "Padre",
+        "text": "¡Mi hijo! ¡Mi hijo regresó! ¡El que pensé que estaba perdido ahora está encontrado!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Padre",
+        "text": "¡Rápido! ¡Traigan la mejor ropa! ¡Preparen un gran banquete! ¡Mi hijo regresó!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo respondió el padre cuando vio a su hijo regresar?",
+        "options": [
+          "Con amor y perdón, ofreciendo un banquete",
+          "Con ira y castigo",
+          "Con indiferencia"
+        ],
+        "answer": "Con amor y perdón, ofreciendo un banquete"
+      },
+      {
+        "kind": "line",
+        "speaker": "Hijo Menor",
+        "text": "¡Padre! ¡Pequé contra ti! No soy digno de ser tu hijo..."
+      },
+      {
+        "kind": "line",
+        "speaker": "Padre",
+        "text": "¡Calla, mi hijo! ¡Regresaste! ¡Eso es todo lo que importa! ¡Estabas perdido y ahora estás encontrado!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "El padre abrazó a su hijo y lo besó. Toda la alegría del hogar fue restaurada. Dios nos ama así también."
+      }
+    ]
+  },
+  {
+    "id": "historia-ressureicao-lazaro",
+    "title": "La Resurrección de Lázaro",
+    "subtitle": "Jesús tiene poder hasta sobre la muerte",
+    "icon": "heart.fill",
+    "reference": "Juan 11:1-44",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Lázaro era amigo de Jesús. Vivía en Betania con sus hermanas María y Marta. Un día, Lázaro se enfermó mucho."
+      },
+      {
+        "kind": "line",
+        "speaker": "María",
+        "text": "Marta, ¡Lázaro está empeorando! ¡Necesitamos enviar mensaje a Jesús! ¡Él puede sanarlo!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Marta",
+        "text": "¡Sí! ¡Vamos a enviar a alguien ya! Jesús lo ama. ¡Cuando sepa que Lázaro está enfermo, vendrá corriendo!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué María y Marta querían que Jesús supiera que Lázaro estaba enfermo?",
+        "options": [
+          "Porque confiaban que Jesús podía sanarlo",
+          "Porque querían que Jesús sufriera",
+          "Porque no tenían dinero para médicos"
+        ],
+        "answer": "Porque confiaban que Jesús podía sanarlo"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Las hermanas enviaron un mensaje, pero Jesús no fue inmediatamente. Esperó dos días antes de viajar."
+      },
+      {
+        "kind": "line",
+        "text": "Cuando Jesús llegó, Lázaro ya había estado muerto durante cuatro días. Marta salió para encontrarlo.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Marta",
+        "text": "¡Señor! ¡Si hubieras venido cuando Lázaro se enfermó, él no habría muerto! ¡Pero aun ahora, sé que Dios te escucha siempre!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Tu hermano resucitará."
+      },
+      {
+        "kind": "line",
+        "speaker": "Marta",
+        "text": "Sé que resucitará en la resurrección, en el día postrero."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Yo soy la resurrección y la vida. El que cree en mí, aunque muera, vivirá. ¿Crees esto?"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Qué prometió Jesús acerca de sí mismo?",
+        "options": [
+          "Que Él es la resurrección y la vida",
+          "Que nadie moriría",
+          "Que Él reinaría por mil años"
+        ],
+        "answer": "Que Él es la resurrección y la vida"
+      },
+      {
+        "kind": "line",
+        "speaker": "Marta",
+        "text": "¡Sí, Señor! ¡Creo que eres el Cristo, el Hijo de Dios!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesús pidió que lo llevaran a la tumba de Lázaro. La piedra fue removida.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Padre, te doy gracias por haberme escuchado. ¡Padre, levanta a Lázaro!"
+      },
+      {
+        "kind": "line",
+        "text": "¡Lázaro salió de la tumba! Sus brazos y piernas estaban envueltos con vendas y su rostro envuelto en un sudario.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "¡Desátenlo! ¡Está vivo!"
+      },
+      {
+        "kind": "line",
+        "speaker": "María y Marta",
+        "text": "¡Lázaro! ¡¡Volviste!! ¡Jesús nos devolvió nuestro hermano!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo resucitó Jesús a Lázaro?",
+        "options": [
+          "Por la oración y el poder de Dios",
+          "A través de técnicas médicas",
+          "Por magia"
+        ],
+        "answer": "Por la oración y el poder de Dios"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Todos los que vieron el milagro creyeron en Jesús. La muerte no podía resistir ante el poder de Dios."
+      }
+    ]
+  },
+  {
+    "id": "historia-caminho-emaus",
+    "title": "El Camino a Emaús",
+    "subtitle": "Reconocemos a Jesús cuando se nos revela",
+    "icon": "book.fill",
+    "reference": "Lucas 24:13-35",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Después de la crucifixión de Jesús, dos discípulos caminaban por el camino hacia Emaús. Estaban tristes y confusos."
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 1",
+        "text": "Teníamos esperanza que Jesús era el Mesías. Pero fue crucificado. Ahora todo se ha perdido."
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 2",
+        "text": "Sí. Y las mujeres dijeron que su tumba está vacía. ¿Cómo puede ser? ¿De dónde vendrá ahora la salvación?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Mientras conversaban, un hombre se acercó y comenzó a caminar con ellos. Era Jesús resucitado, pero sus ojos estaban velados."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "¿Qué discuten mientras caminan? Parecen tristes."
+      },
+      {
+        "kind": "line",
+        "text": "¿Eres extranjero? ¿No sabes lo que pasó en Jerusalén?",
+        "speaker": "Discípulo 1"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Por qué los discípulos no reconocieron a Jesús?",
+        "options": [
+          "Porque sus ojos estaban velados por Dios",
+          "Porque Jesús había cambiado de ropa",
+          "Porque era muy oscuro"
+        ],
+        "answer": "Porque sus ojos estaban velados por Dios"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 2",
+        "text": "Cuéntanos lo que pasó. Un hombre llamado Jesús de Nazaret era poderoso en obras. Pero los líderes lo crucificaron."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "¡Oh insensatos! ¡Lentos de corazón para creer! ¿No sabíais que era necesario que el Cristo padeciera y entrara en su gloria?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesús",
+        "text": "Comenzando desde Moisés y todos los profetas, les explicó lo que acerca de Él se decía en todas las Escrituras."
+      },
+      {
+        "kind": "line",
+        "text": "Mientras caminaban, Jesús abrió sus mentes para comprender las Escrituras. Su corazón ardía de esperanza.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo ayudó Jesús a los discípulos a comprender?",
+        "options": [
+          "Explicando las Escrituras acerca del Mesías",
+          "Contando historias sobre viajes",
+          "Pidiendo dinero prestado"
+        ],
+        "answer": "Explicando las Escrituras acerca del Mesías"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 1",
+        "text": "Oh extranjero, la noche cae. Ven y quédate con nosotros. ¡No nos abandones!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesús entró para quedarse con ellos. Cuando se sentaron a la mesa, Jesús tomó el pan, lo bendijo y se lo dio.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "text": "En ese momento, ¡los ojos de los discípulos fueron abiertos y reconocieron a Jesús! Pero Él desapareció de su vista.",
+        "speaker": "Narrador"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 2",
+        "text": "¡Era Jesús! ¿No ardía nuestro corazón cuando Él nos hablaba en el camino y abría las Escrituras?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Discípulo 1",
+        "text": "¡Vamos a Jerusalén! ¡Necesitamos contar a los otros que Jesús ha resucitado!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "¿Cómo reconocieron los discípulos a Jesús?",
+        "options": [
+          "Cuando Él partió el pan en la mesa",
+          "Cuando escucharon Su voz",
+          "Cuando Lo vieron resucitado"
+        ],
+        "answer": "Cuando Él partió el pan en la mesa"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Los discípulos regresaron a Jerusalén con alegría. Encontraron a los otros discípulos y compartieron que Jesús había resucitado y se les había revelado."
+      }
+    ]
+  }
+]

@@ -1,0 +1,245 @@
+[
+  {
+    "id": "ligacao-bemvindo",
+    "title": "Welcome, friend!",
+    "subtitle": "Call 1",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "Hi! It's so cool to talk with you! How are you?",
+        "isUserTurn": false,
+        "keywordMatches": [
+          "good",
+          "great",
+          "happy",
+          "fine"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "That's great! You know, I love learning about Bible stories with you. What's your favorite Bible story?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "jesus",
+          "david",
+          "noah",
+          "moses",
+          "abraham"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "That's cool! Those stories are so inspiring. Do you believe in God?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "yes",
+          "i believe",
+          "believe",
+          "god"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "That's wonderful! Your faith is very important. Keep learning and growing spiritually!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-coragem",
+    "title": "About Courage and Faith",
+    "subtitle": "Call 2",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "Hello! How are you? Are you feeling afraid of something today?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "I understand... You know, the Bible talks a lot about courage. Do you know any stories of courage?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "david",
+          "esther",
+          "peter",
+          "samson",
+          "noah"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Great! These are stories of real people who trusted in God. Have you ever had a moment where you needed courage?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "yes",
+          "no",
+          "yes i have",
+          "never"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Regardless, know that God is always by your side, just as he was with David, Esther, and many others. You are not alone!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-bondade",
+    "title": "The Power of Kindness",
+    "subtitle": "Call 3",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "Hi! Today I want to talk about kindness with you. Did you do something nice today?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "What do you mean? Did you help someone? Tell a funny story? Tell me more!",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "yes",
+          "no",
+          "maybe",
+          "i helped",
+          "i did",
+          "i didn't"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Know that even small acts of kindness make a big difference. Jesus taught that loving your neighbor is essential.",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "How about today, you try to do an act of kindness? It can be something simple like helping someone, smiling, or listening.",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "i'll try",
+          "yes",
+          "sure",
+          "ok",
+          "maybe"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Perfect! Kindness always comes back. Keep being kind and spread love wherever you go!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-perdao",
+    "title": "The Power of Forgiveness",
+    "subtitle": "Call 4",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "Hi friend! Today we will talk about forgiveness. Did someone hurt you or did you hurt someone?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "Oh, I understand. Forgiveness is difficult, but very important. Jesus taught that we should forgive seventy times seven!",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "yes",
+          "i hurt",
+          "they hurt me",
+          "no",
+          "yes they hurt"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Do you think you can forgive that person? Or yourself if you made a mistake?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "yes",
+          "i can",
+          "i'll try",
+          "maybe",
+          "i don't know",
+          "i think so"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Forgiveness frees the heart and brings peace. When you forgive, you no longer carry that weight. Try!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-esperanca",
+    "title": "Hope in the Heart",
+    "subtitle": "Call 5",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "Hi! How are you? Today is a special day to talk about hope. What brings you hope?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "That's beautiful! Hope is powerful. You know, many people in the Bible had hope even in difficult times.",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "god",
+          "faith",
+          "family",
+          "friends",
+          "future",
+          "life"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Have you ever read about Job? He lost everything but kept his hope and faith. Are you inspired by stories like that?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "yes",
+          "no",
+          "maybe",
+          "i heard of him",
+          "i don't know him"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "So let me tell you: Job suffered greatly, but never lost faith in God. That's inspiring, isn't it?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "Keep hope alive in your heart. God has good plans for you! See you next time!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  }
+]

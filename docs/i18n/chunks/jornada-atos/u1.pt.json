@@ -1,0 +1,632 @@
+{
+  "id": "atos-u1",
+  "title": "Unidade 1",
+  "subtitle": "Pentecostes e a Igreja Primitiva",
+  "guide": {
+    "summary": "Após a ascensão de Jesus, o Espírito Santo desceu no Pentecostes transformando os discípulos tímidos em apóstolos corajosos. A Igreja primitiva nasceu com poder, unidade e autenticidade, crescendo exponencialmente apesar da perseguição.",
+    "keyVerses": [
+      {
+        "reference": "Atos 1:8",
+        "text": "Mas recebereis a virtude do Espírito Santo que há de vir sobre vós."
+      },
+      {
+        "reference": "Atos 2:4",
+        "text": "E todos foram cheios do Espírito Santo e começaram a falar noutras línguas."
+      },
+      {
+        "reference": "Atos 2:42",
+        "text": "E perseveravam na doutrina dos apóstolos e na comunhão uns com os outros."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u1-l1",
+      "title": "A Promessa do Espírito",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Mas recebereis a virtude do Espírito Santo que há de vir sobre _____.\"",
+          "speaker": "Jesus",
+          "options": [
+            "vós",
+            "nós",
+            "a Igreja",
+            "os apóstolos"
+          ],
+          "answer": "vós",
+          "reference": "Atos 1:8",
+          "explanation": "Jesus promete que o Espírito Santo virá sobre os discípulos para capacitá-los."
+        },
+        {
+          "id": "atos-u1-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A promessa do Espírito Santo foi cumprida imediatamente após a ressurreição de Jesus.",
+          "isTrue": false,
+          "reference": "Atos 1:4-8, 2:1-4",
+          "explanation": "Os discípulos tiveram que esperar alguns dias até o Pentecostes para receber o Espírito Santo."
+        },
+        {
+          "id": "atos-u1-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "Por que Jesus pediu que os discípulos esperassem?",
+          "text": "Jesus pediu que esperassem em Jerusalém pela promessa do Pai.",
+          "options": [
+            "Para receber o Espírito Santo",
+            "Para conseguir fundos",
+            "Para recrutar mais seguidores",
+            "Para treinar mais"
+          ],
+          "answer": "Para receber o Espírito Santo",
+          "reference": "Atos 1:4-5",
+          "explanation": "O Espírito Santo seria o poder necessário para serem testemunhas de Jesus."
+        },
+        {
+          "id": "atos-u1-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Promessa de poder em Atos 1:8",
+          "tokens": [
+            "Recebereis a virtude",
+            "do Espírito Santo",
+            "e sereis minhas testemunhas",
+            "em Jerusalém"
+          ],
+          "distractors": [
+            "e em toda Judeia",
+            "e em Samaria",
+            "até aos confins"
+          ],
+          "reference": "Atos 1:8"
+        },
+        {
+          "id": "atos-u1-l1-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Recebereis a virtude do Espírito Santo que há de vir sobre vós.",
+          "options": [
+            "O Espírito Santo nos capacitará",
+            "Recebereis virtude do Espírito Santo",
+            "Deus promete Seu Espírito"
+          ],
+          "answer": "Recebereis virtude do Espírito Santo",
+          "reference": "Atos 1:8"
+        },
+        {
+          "id": "atos-u1-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe elementos da promessa",
+          "pairs": [
+            {
+              "left": "Espírito Santo",
+              "right": "Poder divino"
+            },
+            {
+              "left": "Testemunhas",
+              "right": "Propagadores da fé"
+            },
+            {
+              "left": "Virtude",
+              "right": "Capacidade de agir"
+            },
+            {
+              "left": "Promessa do Pai",
+              "right": "Cumpre-se em Pentecostes"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Recebereis a virtude do Espírito Santo que há de vir sobre _____.\"",
+          "answer": "vós",
+          "reference": "Atos 1:8",
+          "options": [
+            "vós",
+            "você"
+          ]
+        },
+        {
+          "id": "atos-u1-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Espírito Santo nos capacita para realizar tudo o que Deus nos chama a fazer.",
+          "isTrue": true,
+          "reference": "Atos 1:8",
+          "explanation": "O Espírito Santo é o poder que nos torna aptos para sermos testemunhas eficazes de Cristo."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l2",
+      "title": "O Dia de Pentecostes",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"E todos foram cheios do Espírito Santo e começaram a falar noutras _____.\"",
+          "speaker": "Lucas",
+          "options": [
+            "línguas",
+            "vozes",
+            "palavras",
+            "idiomas"
+          ],
+          "answer": "línguas",
+          "reference": "Atos 2:4",
+          "explanation": "O sinal visível e audível do Pentecostes foi que todos começaram a falar em outras línguas."
+        },
+        {
+          "id": "atos-u1-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Pentecostes marca o nascimento oficial da Igreja Cristã.",
+          "isTrue": true,
+          "reference": "Atos 2:1-47",
+          "explanation": "O Pentecostes é quando os primeiros 3.000 se converteram e a Igreja começou."
+        },
+        {
+          "id": "atos-u1-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "O que aconteceu quando Pedro pregou no Pentecostes?",
+          "text": "A primeira pregação após o Espírito Santo descer resultou em muitos convertidos.",
+          "options": [
+            "Cerca de 3.000 pessoas se converteram",
+            "Apenas os apóstolos creram",
+            "Ninguém quis escutar",
+            "Apenas 12 pessoas creram"
+          ],
+          "answer": "Cerca de 3.000 pessoas se converteram",
+          "reference": "Atos 2:41",
+          "explanation": "A pregação de Pedro resultou no acréscimo de 3.000 discípulos à Igreja nascente."
+        },
+        {
+          "id": "atos-u1-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "O sinal de Pentecostes em Atos 2:2-3",
+          "tokens": [
+            "E de repente veio",
+            "um som do céu",
+            "como de um vento veemente",
+            "e impetuoso"
+          ],
+          "distractors": [
+            "e encheu",
+            "toda a casa",
+            "línguas de fogo"
+          ],
+          "reference": "Atos 2:2-3"
+        },
+        {
+          "id": "atos-u1-l2-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "E todos foram cheios do Espírito Santo.",
+          "options": [
+            "O Espírito Santo desceu",
+            "E todos cheios do Espírito Santo",
+            "Um vento do céu"
+          ],
+          "answer": "E todos cheios do Espírito Santo",
+          "reference": "Atos 2:4"
+        },
+        {
+          "id": "atos-u1-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe os sinais de Pentecostes",
+          "pairs": [
+            {
+              "left": "Som do vento",
+              "right": "Poder divino"
+            },
+            {
+              "left": "Línguas de fogo",
+              "right": "Purificação e presença"
+            },
+            {
+              "left": "Falar em línguas",
+              "right": "Capacitação sobrenatural"
+            },
+            {
+              "left": "3.000 conversões",
+              "right": "Sucesso da pregação"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"E todos foram cheios do Espírito Santo e começaram a falar noutras _____.\"",
+          "answer": "línguas",
+          "reference": "Atos 2:4",
+          "options": [
+            "línguas",
+            "linguagens"
+          ]
+        },
+        {
+          "id": "atos-u1-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Pentecostes foi um evento único que nunca mais se repetiu.",
+          "isTrue": false,
+          "reference": "Atos 2, 8, 10",
+          "explanation": "Embora Pentecostes seja o evento inicial, o enchimento do Espírito Santo repetiu-se várias vezes nos Atos."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l3",
+      "title": "A Igreja Primitiva",
+      "icon": "house.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"E perseveravam na doutrina dos apóstolos e na comunhão uns com os _____.\"",
+          "speaker": "Lucas",
+          "options": [
+            "outros",
+            "semelhantes",
+            "vizinhos",
+            "irmãos"
+          ],
+          "answer": "outros",
+          "reference": "Atos 2:42",
+          "explanation": "A Igreja primitiva era caracterizada por ensinamento apostólico e comunhão genuína."
+        },
+        {
+          "id": "atos-u1-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A Igreja primitiva possuía todos os bens em comum e vendiam propriedades para ajudar necessitados.",
+          "isTrue": true,
+          "reference": "Atos 2:44-45",
+          "explanation": "A generosidade da Igreja primitiva era notável, compartilhando tudo livremente."
+        },
+        {
+          "id": "atos-u1-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual era a atitude do povo sobre a Igreja primitiva?",
+          "text": "Lucas descreve a reputação e o crescimento da Igreja nascente.",
+          "options": [
+            "Tinham favor com o povo e cresciam",
+            "Eram odiados por todos",
+            "Ninguém se importava",
+            "Eram expulsos constantemente"
+          ],
+          "answer": "Tinham favor com o povo e cresciam",
+          "reference": "Atos 2:47",
+          "explanation": "A Igreja tinha favor com o povo e o Senhor acrescentava novos convertidos continuamente."
+        },
+        {
+          "id": "atos-u1-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Características da Igreja primitiva",
+          "tokens": [
+            "E perseveravam",
+            "na doutrina dos apóstolos",
+            "na comunhão",
+            "no partir do pão"
+          ],
+          "distractors": [
+            "nas orações",
+            "no louvor",
+            "na oração"
+          ],
+          "reference": "Atos 2:42"
+        },
+        {
+          "id": "atos-u1-l3-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "E perseveravam na doutrina dos apóstolos.",
+          "options": [
+            "Aprendiam as palavras de Jesus",
+            "Perseveravam na doutrina apóstolos",
+            "Mantinham a fé recebida"
+          ],
+          "answer": "Perseveravam na doutrina apóstolos",
+          "reference": "Atos 2:42"
+        },
+        {
+          "id": "atos-u1-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe as características da Igreja",
+          "pairs": [
+            {
+              "left": "Comunhão",
+              "right": "Unidade entre irmãos"
+            },
+            {
+              "left": "Doutrina apostólica",
+              "right": "Ensinamento autêntico"
+            },
+            {
+              "left": "Partir do pão",
+              "right": "Celebração da Ceia"
+            },
+            {
+              "left": "Oração contínua",
+              "right": "Dependência de Deus"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"E perseveravam na doutrina dos apóstolos e na comunhão uns com os _____.\"",
+          "answer": "outros",
+          "reference": "Atos 2:42",
+          "options": [
+            "outros",
+            "semelhantes"
+          ]
+        },
+        {
+          "id": "atos-u1-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A Igreja primitiva era egoísta e cada um cuidava apenas de si mesmo.",
+          "isTrue": false,
+          "reference": "Atos 2:44-45",
+          "explanation": "A Igreja primitiva era caracterizada pelo altruísmo e pela partilha generosa de recursos."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l4",
+      "title": "Atos de Poder",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "atos-u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Quem foi curado primeiro pelos apóstolos após Pentecostes?",
+          "text": "Um milagre dramático abriu as portas para mais pregação.",
+          "options": [
+            "Um mendigo coxo na Porta Formosa",
+            "Uma mulher com febre",
+            "Um cego de nascença",
+            "Um paralítico"
+          ],
+          "answer": "Um mendigo coxo na Porta Formosa",
+          "reference": "Atos 3:1-10",
+          "explanation": "Pedro curou um homem que nunca havia caminhado, causando admiração geral."
+        },
+        {
+          "id": "atos-u1-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Os milagres da Igreja primitiva eram realizados em nome de Jesus Cristo.",
+          "isTrue": true,
+          "reference": "Atos 3:6, 16",
+          "explanation": "Pedro enfatiza que os milagres ocorrem através da fé no nome de Jesus."
+        },
+        {
+          "id": "atos-u1-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "Por que os apóstolos foram presos?",
+          "text": "Sua pregação atraiu autoridades que temiam sua influência.",
+          "options": [
+            "Pregavam sobre Jesus e faziam milagres",
+            "Roubavam do templo",
+            "Incitavam revolução política",
+            "Violavam leis alimentares"
+          ],
+          "answer": "Pregavam sobre Jesus e faziam milagres",
+          "reference": "Atos 4:1-3",
+          "explanation": "As autoridades religiosas temiam que a mensagem sobre Jesus se espalhasse."
+        },
+        {
+          "id": "atos-u1-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Poder em nome de Jesus em Atos 3:6",
+          "tokens": [
+            "Então Pedro disse",
+            "Não tenho ouro nem prata",
+            "mas o que tenho te dou",
+            "Em nome de Jesus Cristo"
+          ],
+          "distractors": [
+            "Levanta-te e anda",
+            "de Nazaré, anda",
+            "toma tua maca"
+          ],
+          "reference": "Atos 3:6"
+        },
+        {
+          "id": "atos-u1-l4-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Não tenho ouro nem prata mas te dou em nome de Jesus.",
+          "options": [
+            "Ouro e prata não têm valor",
+            "Não tenho ouro dou em Jesus nome",
+            "Riqueza material é invisível"
+          ],
+          "answer": "Não tenho ouro dou em Jesus nome",
+          "reference": "Atos 3:6"
+        },
+        {
+          "id": "atos-u1-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe os milagres aos resultados",
+          "pairs": [
+            {
+              "left": "Cura do coxo",
+              "right": "Admiração geral"
+            },
+            {
+              "left": "Oração dos apóstolos",
+              "right": "Poder do Espírito"
+            },
+            {
+              "left": "Pregação de Pedro",
+              "right": "Conversão de muitos"
+            },
+            {
+              "left": "Presença apostólica",
+              "right": "Sinais e maravilhas"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Em nome de Jesus Cristo de Nazaré, _____.\"",
+          "answer": "anda",
+          "reference": "Atos 3:6",
+          "options": [
+            "anda",
+            "levanta-te"
+          ]
+        },
+        {
+          "id": "atos-u1-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Os milagres dos apóstolos aconteciam mesmo quando enfrentavam oposição.",
+          "isTrue": true,
+          "reference": "Atos 3-5",
+          "explanation": "A perseguição não interrompeu o poder e os milagres da Igreja primitiva."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l5",
+      "title": "Revisão - Pentecostes e Igreja Primitiva",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Como Jesus preparou Seus discípulos para o Pentecostes?",
+          "text": "Após Sua ressurreição, Jesus deu instruções específicas.",
+          "options": [
+            "Prometeu que o Espírito Santo viria com poder",
+            "Disse que seriam perseguidos",
+            "Ordenou que saíssem imediatamente",
+            "Não os preparou de forma especial"
+          ],
+          "answer": "Prometeu que o Espírito Santo viria com poder",
+          "reference": "Atos 1:4-8",
+          "explanation": "Jesus prometeu o Espírito Santo e o poder para serem testemunhas."
+        },
+        {
+          "id": "atos-u1-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A Igreja primitiva enfrentou perseguição mas continuou crescendo.",
+          "isTrue": true,
+          "reference": "Atos 1-7",
+          "explanation": "Apesar das prisões e ameaças, a Igreja primitiva cresceu exponencialmente."
+        },
+        {
+          "id": "atos-u1-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual era o segredo do sucesso da Igreja primitiva?",
+          "text": "Vários fatores contribuíram para seu crescimento extraordinário.",
+          "options": [
+            "Doutrina apostólica, comunhão, oração e milagres",
+            "Riqueza material",
+            "Apoio político",
+            "Construção de grandes templos"
+          ],
+          "answer": "Doutrina apostólica, comunhão, oração e milagres",
+          "reference": "Atos 2:42-47",
+          "explanation": "O fundamento era espiritual, não material ou político."
+        },
+        {
+          "id": "atos-u1-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo de revisão",
+          "text": "Resumo de Pentecostes e Igreja",
+          "tokens": [
+            "Recebereis a virtude",
+            "do Espírito Santo",
+            "e perseveravam na doutrina",
+            "com muito poder"
+          ],
+          "distractors": [
+            "e em comunhão",
+            "na oração",
+            "no partir do pão"
+          ],
+          "reference": "Atos 1:8, 2:42"
+        },
+        {
+          "id": "atos-u1-l5-e5",
+          "kind": "listen",
+          "prompt": "Qual versículo você ouviu?",
+          "text": "Mas recebereis a virtude do Espírito Santo.",
+          "options": [
+            "Deus dará Seu Espírito",
+            "Recebereis virtude do Espírito Santo",
+            "O Espírito nos capacita"
+          ],
+          "answer": "Recebereis virtude do Espírito Santo",
+          "reference": "Atos 1:8"
+        },
+        {
+          "id": "atos-u1-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe os elementos principais",
+          "pairs": [
+            {
+              "left": "Pentecostes",
+              "right": "Nascimento da Igreja"
+            },
+            {
+              "left": "Espírito Santo",
+              "right": "Poder para testemunhar"
+            },
+            {
+              "left": "Milagres",
+              "right": "Confirmação da fé"
+            },
+            {
+              "left": "Comunhão",
+              "right": "Unidade na fé"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordene os eventos do Pentecostes",
+          "text": "Sequência de Atos 1-2",
+          "tokens": [
+            "Jesus promete o Espírito",
+            "Discípulos esperam em Jerusalém",
+            "O Espírito desce com sinais",
+            "3.000 se convertem"
+          ]
+        },
+        {
+          "id": "atos-u1-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A história da Igreja primitiva é um modelo para a fé cristã hoje.",
+          "isTrue": true,
+          "reference": "Atos 1-2",
+          "explanation": "O poder, a unidade e o crescimento da Igreja primitiva continuam nos inspirando."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "id": "salmos-u2",
+  "title": "Unidade 2",
+  "subtitle": "Louvor e Gratidão",
+  "guide": {
+    "summary": "Os Salmos de louvor e gratidão nos ensinam a celebrar as obras maravilhosas de Deus e a ser grato pelas bênçãos recebidas. A gratidão nos transforma e nos aproxima de Deus.",
+    "keyVerses": [
+      {
+        "reference": "Salmo 100:1",
+        "text": "Fazei barulho alegre a Deus, toda a terra!"
+      },
+      {
+        "reference": "Salmo 103:1-2",
+        "text": "Bendiz, ó minha alma, ao Senhor; e tudo que há em mim bendiga o seu santo nome."
+      },
+      {
+        "reference": "Salmo 150:4",
+        "text": "Louvai-o com o tamborim e a dança."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "salmos-u2-l1",
+      "title": "A Alegria do Louvor",
+      "icon": "music.note",
+      "exercises": [
+        {
+          "id": "salmos-u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Fazei barulho alegre a Deus, toda a _____.\"",
+          "speaker": "Salmista",
+          "options": [
+            "terra",
+            "nação",
+            "multidão",
+            "comunidade"
+          ],
+          "answer": "terra",
+          "reference": "Salmo 100:1",
+          "explanation": "O louvor a Deus deve ser universal e envolver toda a criação em alegria genuína."
+        },
+        {
+          "id": "salmos-u2-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Salmo 100 é um salmo de louvor que exorta as pessoas a louvar Deus com alegria.",
+          "isTrue": true,
+          "reference": "Salmo 100",
+          "explanation": "O Salmo 100 é inteiramente dedicado ao louvor alegre e à gratidão a Deus."
+        },
+        {
+          "id": "salmos-u2-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "Por que devemos louvar a Deus segundo Salmo 100:5?",
+          "text": "\"Porque o Senhor é bom; a sua misericórdia é _____.\"",
+          "options": [
+            "eterna",
+            "incomparável",
+            "suficiente",
+            "poderosa"
+          ],
+          "answer": "eterna",
+          "reference": "Salmo 100:5",
+          "explanation": "A bondade e misericórdia de Deus são constantes e nunca acabam, razão suficiente para louvor."
+        },
+        {
+          "id": "salmos-u2-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Convite ao louvor em Salmo 100:1-2",
+          "tokens": [
+            "Fazei barulho alegre",
+            "a Deus, toda a terra",
+            "Servi ao Senhor",
+            "com alegria"
+          ],
+          "distractors": [
+            "com temor",
+            "com reverência",
+            "com devoção"
+          ],
+          "reference": "Salmo 100:1-2"
+        },
+        {
+          "id": "salmos-u2-l1-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Servi ao Senhor com alegria!",
+          "options": [
+            "Louva o Senhor com alegria",
+            "Servi ao Senhor com alegria",
+            "Canta ao Senhor com força"
+          ],
+          "answer": "Servi ao Senhor com alegria",
+          "reference": "Salmo 100:2"
+        },
+        {
+          "id": "salmos-u2-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe os elementos do louvor",
+          "pairs": [
+            {
+              "left": "Barulho alegre",
+              "right": "Expressão de alegria"
+            },
+            {
+              "left": "Servir ao Senhor",
+              "right": "Adoração ativa"
+            },
+            {
+              "left": "Conhecer Sua bondade",
+              "right": "Razão do louvor"
+            },
+            {
+              "left": "Entrar em Seu pátio",
+              "right": "Aproximação a Deus"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Porque o Senhor é bom; a sua misericórdia é _____.\"",
+          "answer": "eterna",
+          "reference": "Salmo 100:5",
+          "options": [
+            "eterna",
+            "etema"
+          ]
+        },
+        {
+          "id": "salmos-u2-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Louvar a Deus com alegria é apenas para os momentos bons da vida.",
+          "isTrue": false,
+          "reference": "Salmo 100",
+          "explanation": "O Salmo 100 nos chama a louvar com alegria independentemente das circunstâncias, como ato de fé."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l2",
+      "title": "Gratidão Sem Fim",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "salmos-u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Bendiz, ó minha alma, ao Senhor; e tudo que há em mim bendiga o seu _____.\"",
+          "speaker": "Davi",
+          "options": [
+            "santo nome",
+            "trono",
+            "reino",
+            "poder"
+          ],
+          "answer": "santo nome",
+          "reference": "Salmo 103:1",
+          "explanation": "Toda a nossa essência deve louvar e bendizer o nome sagrado de Deus."
+        },
+        {
+          "id": "salmos-u2-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Salmo 103 é um salmo individual que expressa gratidão pelas obras de Deus.",
+          "isTrue": true,
+          "reference": "Salmo 103",
+          "explanation": "O Salmo 103 é um poderoso salmo de ação de graças pelas bênçãos e misericórdias de Deus."
+        },
+        {
+          "id": "salmos-u2-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "De acordo com Salmo 103, qual é a atitude de Deus conosco?",
+          "text": "\"O Senhor é misericordioso e _____, lento em iras e cheio de benevolência.\"",
+          "options": [
+            "clemente",
+            "justo",
+            "sábio",
+            "forte"
+          ],
+          "answer": "clemente",
+          "reference": "Salmo 103:8",
+          "explanation": "A clemência de Deus significa Sua disposição em perdoar e tratar-nos com compaixão."
+        },
+        {
+          "id": "salmos-u2-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Chamado à gratidão em Salmo 103:1-2",
+          "tokens": [
+            "Bendiz, ó minha alma",
+            "ao Senhor",
+            "e não te esqueças",
+            "de nenhum de seus benefícios"
+          ],
+          "distractors": [
+            "sua misericórdia",
+            "seu poder",
+            "suas obras"
+          ],
+          "reference": "Salmo 103:1-2"
+        },
+        {
+          "id": "salmos-u2-l2-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Bendiz ó minha alma ao Senhor.",
+          "options": [
+            "Louva ao Senhor eternamente",
+            "Bendiz ó minha alma ao Senhor",
+            "Exalta o nome do Senhor"
+          ],
+          "answer": "Bendiz ó minha alma ao Senhor",
+          "reference": "Salmo 103:1"
+        },
+        {
+          "id": "salmos-u2-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe as bênçãos de Deus",
+          "pairs": [
+            {
+              "left": "Perdão de pecados",
+              "right": "Redenção"
+            },
+            {
+              "left": "Cura de doenças",
+              "right": "Restauração"
+            },
+            {
+              "left": "Coroa de misericórdia",
+              "right": "Amor eterno"
+            },
+            {
+              "left": "Renovação da juventude",
+              "right": "Vida nova"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"O Senhor é misericordioso e _____, lento em iras.\"",
+          "answer": "clemente",
+          "reference": "Salmo 103:8",
+          "options": [
+            "clemente",
+            "bondoso"
+          ]
+        },
+        {
+          "id": "salmos-u2-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Deus quer que nos lembremos de nenhum de Seus benefícios.",
+          "isTrue": false,
+          "reference": "Salmo 103:2",
+          "explanation": "Deus quer que lembrados de TODOS os Seus benefícios para manter viva nossa gratidão e louvor."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l3",
+      "title": "Louvor Jubiloso",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "salmos-u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Louvai ao Senhor! Porque é bom cantar ___ ao nosso Deus.\"",
+          "speaker": "Salmista",
+          "options": [
+            "hinos",
+            "melodias",
+            "cânticos",
+            "salmos"
+          ],
+          "answer": "hinos",
+          "reference": "Salmo 147:1",
+          "explanation": "Cantar hinos de louvor é uma forma poderosa de expressar nossa adoração a Deus."
+        },
+        {
+          "id": "salmos-u2-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Salmo 119 é o salmo mais longo da Bíblia e trata da Lei de Deus.",
+          "isTrue": true,
+          "reference": "Salmo 119",
+          "explanation": "O Salmo 119 possui 176 versículos divididos em 22 estrofes, cada uma começando com uma letra do alfabeto hebraico."
+        },
+        {
+          "id": "salmos-u2-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual é o tema principal do Salmo 119?",
+          "text": "Este salmo fala sobre a importância de meditar na Lei do Senhor.",
+          "options": [
+            "O valor da Palavra de Deus",
+            "A história de Israel",
+            "A vida de Davi",
+            "A criação do mundo"
+          ],
+          "answer": "O valor da Palavra de Deus",
+          "reference": "Salmo 119",
+          "explanation": "O Salmo 119 celebra a Lei e Palavra de Deus como fonte de sabedoria, direção e vida."
+        },
+        {
+          "id": "salmos-u2-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Louvor pela Palavra em Salmo 119:105",
+          "tokens": [
+            "Lâmpada é",
+            "para os meus pés",
+            "a tua palavra",
+            "e luz para o meu caminho"
+          ],
+          "distractors": [
+            "e guia",
+            "para minha vida",
+            "e verdade"
+          ],
+          "reference": "Salmo 119:105"
+        },
+        {
+          "id": "salmos-u2-l3-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Lâmpada é para os meus pés a tua palavra.",
+          "options": [
+            "Tua palavra é verdade",
+            "Lâmpada é para os meus pés a tua palavra",
+            "Guardarei tua lei"
+          ],
+          "answer": "Lâmpada é para os meus pés a tua palavra",
+          "reference": "Salmo 119:105"
+        },
+        {
+          "id": "salmos-u2-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe sobre a Palavra de Deus",
+          "pairs": [
+            {
+              "left": "Lâmpada",
+              "right": "Iluminação para viver"
+            },
+            {
+              "left": "Verdade",
+              "right": "Confiabilidade absoluta"
+            },
+            {
+              "left": "Direção",
+              "right": "Guia para o caminho"
+            },
+            {
+              "left": "Doçura",
+              "right": "Prazer em cumprir"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"___ é para os meus pés a tua palavra.\"",
+          "answer": "Lâmpada",
+          "reference": "Salmo 119:105",
+          "options": [
+            "Lâmpada",
+            "Lampada"
+          ]
+        },
+        {
+          "id": "salmos-u2-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A Palavra de Deus nos ilumina e guia no caminho correto.",
+          "isTrue": true,
+          "reference": "Salmo 119:105",
+          "explanation": "A Palavra de Deus funciona como lâmpada que ilumina e guia nossos passos na vida."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l4",
+      "title": "Louvor Eterno",
+      "icon": "sun.max.fill",
+      "exercises": [
+        {
+          "id": "salmos-u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Louvai ao Senhor, todos os povos; louvai-o, todas as _____.\"",
+          "speaker": "Salmista",
+          "options": [
+            "nações",
+            "terras",
+            "multidões",
+            "almas"
+          ],
+          "answer": "nações",
+          "reference": "Salmo 117:1",
+          "explanation": "O louvor a Deus é universal e deve ser compartilhado por todos os povos da terra."
+        },
+        {
+          "id": "salmos-u2-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Salmo 117 é o salmo mais curto da Bíblia com apenas dois versículos.",
+          "isTrue": true,
+          "reference": "Salmo 117",
+          "explanation": "O Salmo 117 é realmente o mais curto dos 150 salmos, contendo apenas dois versículos de louvor universal."
+        },
+        {
+          "id": "salmos-u2-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "De acordo com Salmo 136, qual é a razão de cada louvor?",
+          "text": "Cada versículo termina com a mesma declaração.",
+          "options": [
+            "Porque a Sua misericórdia dura para sempre",
+            "Porque Ele é digno de louvor",
+            "Porque Ele nos criou",
+            "Porque Ele é poderoso"
+          ],
+          "answer": "Porque a Sua misericórdia dura para sempre",
+          "reference": "Salmo 136",
+          "explanation": "O Salmo 136 repete esta afirmação 26 vezes, enfatizando a constância da misericórdia de Deus."
+        },
+        {
+          "id": "salmos-u2-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Louvor universal em Salmo 117",
+          "tokens": [
+            "Porque a Sua misericórdia",
+            "é grande sobre nós",
+            "e a verdade do Senhor",
+            "dura para sempre"
+          ],
+          "distractors": [
+            "e Sua graça",
+            "é infinita",
+            "e Seu amor"
+          ],
+          "reference": "Salmo 117:2"
+        },
+        {
+          "id": "salmos-u2-l4-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Porque a Sua misericórdia dura para sempre.",
+          "options": [
+            "Porque Deus é eterno",
+            "Porque Sua misericórdia dura para sempre",
+            "Porque Seu amor é infinito"
+          ],
+          "answer": "Porque Sua misericórdia dura para sempre",
+          "reference": "Salmo 136"
+        },
+        {
+          "id": "salmos-u2-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe as características de Deus",
+          "pairs": [
+            {
+              "left": "Misericórdia",
+              "right": "Compaixão eterna"
+            },
+            {
+              "left": "Verdade",
+              "right": "Fidedignidade absoluta"
+            },
+            {
+              "left": "Graça",
+              "right": "Favor imerecido"
+            },
+            {
+              "left": "Amor",
+              "right": "Devoção suprema"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Porque a Sua misericórdia dura para _____.\"",
+          "answer": "sempre",
+          "reference": "Salmo 136",
+          "options": [
+            "sempre",
+            "eternidade"
+          ]
+        },
+        {
+          "id": "salmos-u2-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O louvor a Deus é relevante apenas para certos momentos especiais.",
+          "isTrue": false,
+          "reference": "Salmo 136",
+          "explanation": "O Salmo 136 enfatiza que devemos louvar Deus continuamente porque Sua misericórdia dura para sempre."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l5",
+      "title": "Revisão - Louvor e Gratidão",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "salmos-u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual é o tema central dos salmos de louvor?",
+          "text": "Estes salmos nos incentivam a expressar alegria e gratidão.",
+          "options": [
+            "Celebrar as obras e bondade de Deus",
+            "Pedir favores a Deus",
+            "Confessar pecados",
+            "Lamentar perdas"
+          ],
+          "answer": "Celebrar as obras e bondade de Deus",
+          "reference": "Salmo 100, 103, 119, 150",
+          "explanation": "Os salmos de louvor focam em celebrar quem é Deus e o que Ele fez por nós."
+        },
+        {
+          "id": "salmos-u2-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A gratidão nos protege de cair em depressão e desespero.",
+          "isTrue": true,
+          "reference": "Salmo 100, 103, 136",
+          "explanation": "Reconhecer as bênçãos de Deus e expressar gratidão nos mantém focados em Sua bondade."
+        },
+        {
+          "id": "salmos-u2-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "Como devemos louvar segundo Salmo 150?",
+          "text": "Este salmo descreve instrumentos e formas de louvor.",
+          "options": [
+            "Com instrumentos, dança e alegria",
+            "Apenas em silêncio mental",
+            "Somente durante os cultos",
+            "Com reverência e temor"
+          ],
+          "answer": "Com instrumentos, dança e alegria",
+          "reference": "Salmo 150",
+          "explanation": "O Salmo 150 convida ao louvor expressivo e alegre com diversos meios."
+        },
+        {
+          "id": "salmos-u2-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo de revisão",
+          "text": "Resumo do chamado ao louvor",
+          "tokens": [
+            "Louvai ao Senhor",
+            "pois é bom",
+            "e a Sua misericórdia",
+            "dura para sempre"
+          ],
+          "distractors": [
+            "é verdade",
+            "é verdade",
+            "é infinita"
+          ],
+          "reference": "Salmo 100:5, 136:1"
+        },
+        {
+          "id": "salmos-u2-l5-e5",
+          "kind": "listen",
+          "prompt": "Qual versículo você ouviu?",
+          "text": "Fazei barulho alegre a Deus toda a terra.",
+          "options": [
+            "Louvai ao Senhor com alegria",
+            "Fazei barulho alegre a Deus",
+            "Canta ao Senhor eternamente"
+          ],
+          "answer": "Fazei barulho alegre a Deus",
+          "reference": "Salmo 100:1"
+        },
+        {
+          "id": "salmos-u2-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe o salmo ao tema de louvor",
+          "pairs": [
+            {
+              "left": "Salmo 100",
+              "right": "Alegria e louvor"
+            },
+            {
+              "left": "Salmo 103",
+              "right": "Gratidão pelas bênçãos"
+            },
+            {
+              "left": "Salmo 119",
+              "right": "Louvor pela Palavra"
+            },
+            {
+              "left": "Salmo 150",
+              "right": "Louvor com alegria"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordene as formas de louvor",
+          "text": "Progressão do louvor genuíno",
+          "tokens": [
+            "Reconhecer as obras de Deus",
+            "Agradecer de coração",
+            "Expressar louvor em palavras",
+            "Celebrar com alegria"
+          ]
+        },
+        {
+          "id": "salmos-u2-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O louvor a Deus deve ser parte contínua da nossa vida, não apenas ocasional.",
+          "isTrue": true,
+          "reference": "Salmo 136",
+          "explanation": "O Salmo 136 enfatiza louvor contínuo porque a misericórdia de Deus é constante."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "id": "salmos-u2",
+  "title": "Unidad 2",
+  "subtitle": "Alabanza y Gratitud",
+  "guide": {
+    "summary": "Los Salmos de alabanza y gratitud nos enseñan a celebrar las obras maravillosas de Dios y ser agradecidos por las bendiciones recibidas. La gratitud nos transforma y nos acerca a Dios.",
+    "keyVerses": [
+      {
+        "reference": "Salmo 100:1",
+        "text": "¡Aclamad a Dios con alegría, toda la tierra!"
+      },
+      {
+        "reference": "Salmo 103:1-2",
+        "text": "Bendice, alma mía, al Señor; y todo mi ser bendiga su santo nombre."
+      },
+      {
+        "reference": "Salmo 150:4",
+        "text": "Alabadlo con tamboriles y danza."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "salmos-u2-l1",
+      "title": "La Alegría de la Alabanza",
+      "icon": "music.note",
+      "exercises": [
+        {
+          "id": "salmos-u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"¡Aclamad a Dios con alegría, toda la _____!\"",
+          "speaker": "Salmista",
+          "options": [
+            "tierra",
+            "nación",
+            "multitud",
+            "comunidad"
+          ],
+          "answer": "tierra",
+          "reference": "Salmo 100:1",
+          "explanation": "La alabanza a Dios debe ser universal e involucrar a toda la creación en alegría genuina."
+        },
+        {
+          "id": "salmos-u2-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El Salmo 100 es un salmo de alabanza que exhorta a las personas a alabar a Dios con alegría.",
+          "isTrue": true,
+          "reference": "Salmo 100",
+          "explanation": "El Salmo 100 está completamente dedicado a la alabanza alegre y la gratitud a Dios."
+        },
+        {
+          "id": "salmos-u2-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Por qué debemos alabar a Dios según Salmo 100:5?",
+          "text": "\"Porque el Señor es bueno; su misericordia es _____.",
+          "options": [
+            "eterna",
+            "incomparable",
+            "suficiente",
+            "poderosa"
+          ],
+          "answer": "eterna",
+          "reference": "Salmo 100:5",
+          "explanation": "La bondad y misericordia de Dios son constantes y nunca terminan, razón suficiente para alabanza."
+        },
+        {
+          "id": "salmos-u2-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Invitación a la alabanza en Salmo 100:1-2",
+          "tokens": [
+            "¡Aclamad con alegría",
+            "a Dios, toda la tierra!",
+            "Servid al Señor",
+            "con alegría"
+          ],
+          "distractors": [
+            "con temor",
+            "con reverencia",
+            "con devoción"
+          ],
+          "reference": "Salmo 100:1-2"
+        },
+        {
+          "id": "salmos-u2-l1-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "¡Servid al Señor con alegría!",
+          "options": [
+            "Alaba al Señor con alegría",
+            "Servid al Señor con alegría",
+            "Canta al Señor con fuerza"
+          ],
+          "answer": "Servid al Señor con alegría",
+          "reference": "Salmo 100:2"
+        },
+        {
+          "id": "salmos-u2-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia los elementos de la alabanza",
+          "pairs": [
+            {
+              "left": "Aclamación alegre",
+              "right": "Expresión de alegría"
+            },
+            {
+              "left": "Servir al Señor",
+              "right": "Adoración activa"
+            },
+            {
+              "left": "Conocer Su bondad",
+              "right": "Razón de la alabanza"
+            },
+            {
+              "left": "Entrar en Su atrio",
+              "right": "Acercamiento a Dios"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Porque el Señor es bueno; su misericordia es _____.",
+          "answer": "eterna",
+          "reference": "Salmo 100:5",
+          "options": [
+            "eterna",
+            "eterna"
+          ]
+        },
+        {
+          "id": "salmos-u2-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Alabar a Dios con alegría es solo para los momentos buenos de la vida.",
+          "isTrue": false,
+          "reference": "Salmo 100",
+          "explanation": "El Salmo 100 nos llama a alabar con alegría independientemente de las circunstancias, como acto de fe."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l2",
+      "title": "Gratitud Sin Fin",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "salmos-u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Bendice, alma mía, al Señor; y todo mi ser bendiga su _____.",
+          "speaker": "David",
+          "options": [
+            "santo nombre",
+            "trono",
+            "reino",
+            "poder"
+          ],
+          "answer": "santo nombre",
+          "reference": "Salmo 103:1",
+          "explanation": "Toda nuestra esencia debe alabar y bendecir el nombre sagrado de Dios."
+        },
+        {
+          "id": "salmos-u2-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El Salmo 103 es un salmo individual que expresa gratitud por las obras de Dios.",
+          "isTrue": true,
+          "reference": "Salmo 103",
+          "explanation": "El Salmo 103 es un poderoso salmo de acción de gracias por las bendiciones y misericordias de Dios."
+        },
+        {
+          "id": "salmos-u2-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "De acuerdo con Salmo 103, ¿cuál es la actitud de Dios hacia nosotros?",
+          "text": "\"El Señor es misericordioso y _____, lento para la ira y lleno de amor.\"",
+          "options": [
+            "compasivo",
+            "justo",
+            "sabio",
+            "fuerte"
+          ],
+          "answer": "compasivo",
+          "reference": "Salmo 103:8",
+          "explanation": "La compasión de Dios significa Su disposición a perdonar y tratarnos con misericordia."
+        },
+        {
+          "id": "salmos-u2-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Llamado a la gratitud en Salmo 103:1-2",
+          "tokens": [
+            "Bendice, alma mía",
+            "al Señor",
+            "y no olvides",
+            "ninguno de sus beneficios"
+          ],
+          "distractors": [
+            "su misericordia",
+            "su poder",
+            "sus obras"
+          ],
+          "reference": "Salmo 103:1-2"
+        },
+        {
+          "id": "salmos-u2-l2-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Bendice, alma mía, al Señor.",
+          "options": [
+            "Alaba al Señor eternamente",
+            "Bendice, alma mía, al Señor",
+            "Exalta el nombre del Señor"
+          ],
+          "answer": "Bendice, alma mía, al Señor",
+          "reference": "Salmo 103:1"
+        },
+        {
+          "id": "salmos-u2-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia las bendiciones de Dios",
+          "pairs": [
+            {
+              "left": "Perdón de pecados",
+              "right": "Redención"
+            },
+            {
+              "left": "Sanidad de enfermedades",
+              "right": "Restauración"
+            },
+            {
+              "left": "Corona de misericordia",
+              "right": "Amor eterno"
+            },
+            {
+              "left": "Renovación de la juventud",
+              "right": "Vida nueva"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"El Señor es misericordioso y _____, lento para la ira.\"",
+          "answer": "compasivo",
+          "reference": "Salmo 103:8",
+          "options": [
+            "compasivo",
+            "bondadoso"
+          ]
+        },
+        {
+          "id": "salmos-u2-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Dios quiere que nos olvidemos de Sus beneficios.",
+          "isTrue": false,
+          "reference": "Salmo 103:2",
+          "explanation": "Dios quiere que recordemos TODOS Sus beneficios para mantener viva nuestra gratitud y alabanza."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l3",
+      "title": "Alabanza Jubilosa",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "salmos-u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"¡Alabad al Señor! Porque es bueno cantar ___ a nuestro Dios.\"",
+          "speaker": "Salmista",
+          "options": [
+            "himnos",
+            "melodías",
+            "cánticos",
+            "salmos"
+          ],
+          "answer": "himnos",
+          "reference": "Salmo 147:1",
+          "explanation": "Cantar himnos de alabanza es una forma poderosa de expresar nuestra adoración a Dios."
+        },
+        {
+          "id": "salmos-u2-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El Salmo 119 es el salmo más largo de la Biblia y trata sobre la Ley de Dios.",
+          "isTrue": true,
+          "reference": "Salmo 119",
+          "explanation": "El Salmo 119 tiene 176 versículos divididos en 22 estrofas, cada una comenzando con una letra del alfabeto hebreo."
+        },
+        {
+          "id": "salmos-u2-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el tema principal del Salmo 119?",
+          "text": "Este salmo habla sobre la importancia de meditar en la Ley del Señor.",
+          "options": [
+            "El valor de la Palabra de Dios",
+            "La historia de Israel",
+            "La vida de David",
+            "La creación del mundo"
+          ],
+          "answer": "El valor de la Palabra de Dios",
+          "reference": "Salmo 119",
+          "explanation": "El Salmo 119 celebra la Ley y Palabra de Dios como fuente de sabiduría, dirección y vida."
+        },
+        {
+          "id": "salmos-u2-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Alabanza por la Palabra en Salmo 119:105",
+          "tokens": [
+            "Lámpara es",
+            "para mis pies",
+            "tu palabra",
+            "y luz para mi camino"
+          ],
+          "distractors": [
+            "y guía",
+            "para mi vida",
+            "y verdad"
+          ],
+          "reference": "Salmo 119:105"
+        },
+        {
+          "id": "salmos-u2-l3-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Lámpara es a mis pies tu palabra.",
+          "options": [
+            "Tu palabra es verdad",
+            "Lámpara es a mis pies tu palabra",
+            "Guardaré tu ley"
+          ],
+          "answer": "Lámpara es a mis pies tu palabra",
+          "reference": "Salmo 119:105"
+        },
+        {
+          "id": "salmos-u2-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia sobre la Palabra de Dios",
+          "pairs": [
+            {
+              "left": "Lámpara",
+              "right": "Iluminación para vivir"
+            },
+            {
+              "left": "Verdad",
+              "right": "Confiabilidad absoluta"
+            },
+            {
+              "left": "Dirección",
+              "right": "Guía para el camino"
+            },
+            {
+              "left": "Dulzura",
+              "right": "Placer al cumplir"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"___ es a mis pies tu palabra.\"",
+          "answer": "Lámpara",
+          "reference": "Salmo 119:105",
+          "options": [
+            "Lámpara",
+            "Lampara"
+          ]
+        },
+        {
+          "id": "salmos-u2-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La Palabra de Dios nos ilumina y guía en el camino correcto.",
+          "isTrue": true,
+          "reference": "Salmo 119:105",
+          "explanation": "La Palabra de Dios funciona como lámpara que ilumina y guía nuestros pasos en la vida."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l4",
+      "title": "Alabanza Eterna",
+      "icon": "sun.max.fill",
+      "exercises": [
+        {
+          "id": "salmos-u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"¡Alabad al Señor, todos los pueblos! ¡Alabadlo, todas las _____!\"",
+          "speaker": "Salmista",
+          "options": [
+            "naciones",
+            "tierras",
+            "multitudes",
+            "almas"
+          ],
+          "answer": "naciones",
+          "reference": "Salmo 117:1",
+          "explanation": "La alabanza a Dios es universal y debe ser compartida por todos los pueblos de la tierra."
+        },
+        {
+          "id": "salmos-u2-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El Salmo 117 es el salmo más corto de la Biblia con solo dos versículos.",
+          "isTrue": true,
+          "reference": "Salmo 117",
+          "explanation": "El Salmo 117 es realmente el más corto de los 150 salmos, conteniendo solo dos versículos de alabanza universal."
+        },
+        {
+          "id": "salmos-u2-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "De acuerdo con Salmo 136, ¿cuál es la razón de cada alabanza?",
+          "text": "Cada versículo termina con la misma declaración.",
+          "options": [
+            "Porque Su misericordia es para siempre",
+            "Porque Él es digno de alabanza",
+            "Porque Él nos creó",
+            "Porque Él es poderoso"
+          ],
+          "answer": "Porque Su misericordia es para siempre",
+          "reference": "Salmo 136",
+          "explanation": "El Salmo 136 repite esta afirmación 26 veces, enfatizando la constancia de la misericordia de Dios."
+        },
+        {
+          "id": "salmos-u2-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Alabanza universal en Salmo 117",
+          "tokens": [
+            "Porque Su misericordia",
+            "es grande sobre nosotros",
+            "y la verdad del Señor",
+            "dura para siempre"
+          ],
+          "distractors": [
+            "y Su gracia",
+            "es infinita",
+            "y Su amor"
+          ],
+          "reference": "Salmo 117:2"
+        },
+        {
+          "id": "salmos-u2-l4-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Porque Su misericordia dura para siempre.",
+          "options": [
+            "Porque Dios es eterno",
+            "Porque Su misericordia dura para siempre",
+            "Porque Su amor es infinito"
+          ],
+          "answer": "Porque Su misericordia dura para siempre",
+          "reference": "Salmo 136"
+        },
+        {
+          "id": "salmos-u2-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia las características de Dios",
+          "pairs": [
+            {
+              "left": "Misericordia",
+              "right": "Compasión eterna"
+            },
+            {
+              "left": "Verdad",
+              "right": "Fidedignidad absoluta"
+            },
+            {
+              "left": "Gracia",
+              "right": "Favor inmerecido"
+            },
+            {
+              "left": "Amor",
+              "right": "Devoción suprema"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Porque Su misericordia dura para _____.",
+          "answer": "siempre",
+          "reference": "Salmo 136",
+          "options": [
+            "siempre",
+            "eternidad"
+          ]
+        },
+        {
+          "id": "salmos-u2-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La alabanza a Dios es relevante solo para ciertos momentos especiales.",
+          "isTrue": false,
+          "reference": "Salmo 136",
+          "explanation": "El Salmo 136 enfatiza que debemos alabar a Dios continuamente porque Su misericordia dura para siempre."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l5",
+      "title": "Repaso - Alabanza y Gratitud",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "salmos-u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el tema central de los salmos de alabanza?",
+          "text": "Estos salmos nos incentivan a expresar alegría y gratitud.",
+          "options": [
+            "Celebrar las obras y bondad de Dios",
+            "Pedir favores a Dios",
+            "Confesar pecados",
+            "Lamentar pérdidas"
+          ],
+          "answer": "Celebrar las obras y bondad de Dios",
+          "reference": "Salmo 100, 103, 119, 150",
+          "explanation": "Los salmos de alabanza se enfocam en celebrar quién es Dios y qué ha hecho por nosotros."
+        },
+        {
+          "id": "salmos-u2-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La gratitud nos protege de caer en depresión y desesperación.",
+          "isTrue": true,
+          "reference": "Salmo 100, 103, 136",
+          "explanation": "Reconocer las bendiciones de Dios y expresar gratitud nos mantiene enfocados en Su bondad."
+        },
+        {
+          "id": "salmos-u2-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo debemos alabar según Salmo 150?",
+          "text": "Este salmo describe instrumentos y formas de alabanza.",
+          "options": [
+            "Con instrumentos, danza y alegría",
+            "Solo en silencio mental",
+            "Solamente durante los cultos",
+            "Con reverencia y temor"
+          ],
+          "answer": "Con instrumentos, danza y alegría",
+          "reference": "Salmo 150",
+          "explanation": "El Salmo 150 invita a la alabanza expresiva y alegre con diversos medios."
+        },
+        {
+          "id": "salmos-u2-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo de repaso",
+          "text": "Resumen del llamado a la alabanza",
+          "tokens": [
+            "¡Alabad al Señor",
+            "pues es bueno",
+            "y Su misericordia",
+            "dura para siempre!"
+          ],
+          "distractors": [
+            "es verdad",
+            "es verdad",
+            "es infinita"
+          ],
+          "reference": "Salmo 100:5, 136:1"
+        },
+        {
+          "id": "salmos-u2-l5-e5",
+          "kind": "listen",
+          "prompt": "¿Cuál versículo escuchaste?",
+          "text": "¡Aclamad a Dios con alegría, toda la tierra!",
+          "options": [
+            "¡Alabad al Señor con alegría!",
+            "¡Aclamad a Dios con alegría!",
+            "¡Canta al Señor eternamente!"
+          ],
+          "answer": "¡Aclamad a Dios con alegría!",
+          "reference": "Salmo 100:1"
+        },
+        {
+          "id": "salmos-u2-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia el salmo con el tema de alabanza",
+          "pairs": [
+            {
+              "left": "Salmo 100",
+              "right": "Alegría y alabanza"
+            },
+            {
+              "left": "Salmo 103",
+              "right": "Gratitud por bendiciones"
+            },
+            {
+              "left": "Salmo 119",
+              "right": "Alabanza por la Palabra"
+            },
+            {
+              "left": "Salmo 150",
+              "right": "Alabanza con alegría"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordena las formas de alabanza",
+          "text": "Progresión de la alabanza genuina",
+          "tokens": [
+            "Reconocer las obras de Dios",
+            "Agradecer de corazón",
+            "Expresar alabanza en palabras",
+            "Celebrar con alegría"
+          ]
+        },
+        {
+          "id": "salmos-u2-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La alabanza a Dios debe ser parte continua de nuestra vida, no solo ocasional.",
+          "isTrue": true,
+          "reference": "Salmo 136",
+          "explanation": "El Salmo 136 enfatiza alabanza continua porque la misericordia de Dios es constante."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "id": "u1",
+  "title": "Unidade 1",
+  "subtitle": "O nascimento de Jesus",
+  "guide": {
+    "summary": "O nascimento de Jesus cumpre séculos de promessas proféticas. Maria é escolhida como mãe do Salvador, anunciado por anjo, visitado por pastores e magos. Simeão e Ana reconhecem a chegada do Messias esperado. Jesus criança cresceu em sabedoria e graça, como Filho verdadeiro de Deus.",
+    "keyVerses": [
+      {
+        "reference": "Lucas 1:26-27",
+        "text": "Ora, no sexto mês foi enviado o anjo Gabriel, da parte de Deus, a uma cidade da Galileia chamada Nazaré, a uma virgem desposada com certo homem chamado José, da casa de Davi; e o nome da virgem era Maria."
+      },
+      {
+        "reference": "Lucas 2:10-11",
+        "text": "Disse-lhes o anjo: Não temais; eis aqui vos anuncio uma alegria grande, que o será para todo o povo: nasceu-vos hoje, na cidade de Davi, o Salvador, que é Cristo, o Senhor."
+      },
+      {
+        "reference": "Lucas 2:40",
+        "text": "E crescia o menino e se fortalecia, enchendo-se de sabedoria; e a graça de Deus era sobre ele."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u1-l1",
+      "title": "A Anunciação",
+      "icon": "star.fill",
+      "exercises": [
+        {
+          "id": "u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Não temas, Maria, pois achaste graça diante de ___, e conceberás e darás à luz um filho.\"",
+          "speaker": "Gabriel",
+          "options": [
+            "Deus",
+            "o rei",
+            "o sacerdote",
+            "o templo"
+          ],
+          "answer": "Deus",
+          "reference": "Lucas 1:30",
+          "explanation": "O anjo Gabriel anuncia a Maria que ela foi escolhida por Deus para ser mãe de Jesus."
+        },
+        {
+          "id": "u1-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Maria aceitou imediatamente o plano de Deus sem dúvidas.",
+          "isTrue": false,
+          "reference": "Lucas 1:29",
+          "explanation": "Maria se turbou ao ouvir o anjo e se perguntou qual seria o significado daquela saudação (Lucas 1:29)."
+        },
+        {
+          "id": "u1-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "Quem disse isso?",
+          "text": "\"Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra.\"",
+          "speaker": "Maria",
+          "options": [
+            "Maria",
+            "Isabel",
+            "A mãe de João Batista",
+            "A esposa de Zacarias"
+          ],
+          "answer": "Maria",
+          "reference": "Lucas 1:38"
+        },
+        {
+          "id": "u1-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A resposta de Maria ao anjo Gabriel",
+          "tokens": [
+            "Eis aqui",
+            "a serva do Senhor",
+            "faça-se",
+            "em mim",
+            "segundo",
+            "a tua palavra"
+          ],
+          "distractors": [
+            "a bondade",
+            "do reino",
+            "seja feito",
+            "no céu"
+          ],
+          "reference": "Lucas 1:38"
+        },
+        {
+          "id": "u1-l1-e5",
+          "kind": "multipleChoice",
+          "prompt": "Onde estava Maria quando o anjo apareceu?",
+          "text": "Maria estava em sua ___ na cidade de Nazaré.",
+          "options": [
+            "casa",
+            "sinagoga",
+            "oficina",
+            "fonte"
+          ],
+          "answer": "casa",
+          "reference": "Lucas 1:26-27"
+        },
+        {
+          "id": "u1-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "Anjo Gabriel",
+              "right": "Anuncia a Jesus"
+            },
+            {
+              "left": "Maria",
+              "right": "Aceita a vontade"
+            },
+            {
+              "left": "Zacarias",
+              "right": "Dúvida do anjo"
+            },
+            {
+              "left": "Isabel",
+              "right": "Mãe de João"
+            }
+          ],
+          "reference": "Lucas 1"
+        },
+        {
+          "id": "u1-l1-e7",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O anjo disse a Maria que seu filho seria chamado Filho do Altíssimo.",
+          "isTrue": true,
+          "reference": "Lucas 1:32",
+          "explanation": "O anjo profetizou: \"Este será grande, e será chamado filho do Altíssimo\" (Lucas 1:32)."
+        },
+        {
+          "id": "u1-l1-e8",
+          "kind": "multipleChoice",
+          "prompt": "Qual era o nome do noivo de Maria?",
+          "text": "O esposo de Maria era chamado ___.",
+          "options": [
+            "José",
+            "João",
+            "Simão",
+            "Tiago"
+          ],
+          "answer": "José",
+          "reference": "Lucas 1:27"
+        }
+      ]
+    },
+    {
+      "id": "u1-l2",
+      "title": "O Nascimento em Belém",
+      "icon": "house.fill",
+      "exercises": [
+        {
+          "id": "u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Naqueles dias saiu um decreto de César ___, determinando que se fizesse um recenseamento de todo o mundo habitado.\"",
+          "options": [
+            "Augusto",
+            "Tibério",
+            "Caio",
+            "Nero"
+          ],
+          "answer": "Augusto",
+          "reference": "Lucas 2:1"
+        },
+        {
+          "id": "u1-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Jesus nasceu em Nazaré, a cidade onde Maria vivia.",
+          "isTrue": false,
+          "reference": "Lucas 2:4-7",
+          "explanation": "Jesus nasceu em Belém, porque José e Maria tiveram que se registrar lá no recenseamento (Lucas 2:4-7)."
+        },
+        {
+          "id": "u1-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Sobre o lugar do nascimento de Jesus",
+          "tokens": [
+            "E deu à luz",
+            "seu filho primogênito",
+            "e o envolveu",
+            "em faixas",
+            "e o deitou",
+            "numa manjedoura"
+          ],
+          "distractors": [
+            "em um berço",
+            "com panos finos",
+            "em ouro",
+            "em cortinas"
+          ],
+          "reference": "Lucas 2:7"
+        },
+        {
+          "id": "u1-l2-e4",
+          "kind": "multipleChoice",
+          "prompt": "Onde Jesus foi colocado quando nasceu?",
+          "text": "Jesus foi colocado em uma ___ porque não havia lugar na hospedaria.",
+          "options": [
+            "manjedoura",
+            "cama",
+            "rede",
+            "berço de palha"
+          ],
+          "answer": "manjedoura",
+          "reference": "Lucas 2:7"
+        },
+        {
+          "id": "u1-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "Belém",
+              "right": "Cidade do nascimento"
+            },
+            {
+              "left": "Manjedoura",
+              "right": "Berço de Jesus"
+            },
+            {
+              "left": "Nazaré",
+              "right": "Cidade de Maria"
+            },
+            {
+              "left": "Faixas",
+              "right": "Panos do bebê"
+            }
+          ],
+          "reference": "Lucas 2"
+        },
+        {
+          "id": "u1-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Havia muitos hóspedes na hospedaria quando Jesus nasceu.",
+          "isTrue": false,
+          "reference": "Lucas 2:7",
+          "explanation": "Não havia lugar para eles na hospedaria (Lucas 2:7), então Jesus nasceu numa manjedoura."
+        },
+        {
+          "id": "u1-l2-e7",
+          "kind": "multipleChoice",
+          "prompt": "Quem foi o carpinteiro que criou Jesus?",
+          "text": "___ era o carpinteiro que serviu como pai terreno de Jesus.",
+          "speaker": "Narrador",
+          "options": [
+            "José",
+            "Simão",
+            "Tiago",
+            "João"
+          ],
+          "answer": "José",
+          "reference": "Mateus 1:24-25"
+        },
+        {
+          "id": "u1-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Os pais de Jesus ficaram em Belém durante toda a vida dele.",
+          "isTrue": false,
+          "reference": "Mateus 2:22-23",
+          "explanation": "Após eventos em Belém, a família se mudou para Nazaré (Mateus 2:22-23)."
+        }
+      ]
+    },
+    {
+      "id": "u1-l3",
+      "title": "Os Pastores e os Magos",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Não temi; eis aqui vos anuncio uma alegria grande, que o será para todo o ___: nasceu-vos hoje, na cidade de Davi, o Salvador, que é Cristo, o Senhor.\"",
+          "speaker": "Anjo",
+          "options": [
+            "povo",
+            "mundo",
+            "reino",
+            "Israel"
+          ],
+          "answer": "povo",
+          "reference": "Lucas 2:10-11"
+        },
+        {
+          "id": "u1-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Os pastores viram uma multidão de anjos louvando a Deus.",
+          "isTrue": true,
+          "reference": "Lucas 2:13",
+          "explanation": "De repente apareceu com o anjo uma multidão da milícia celeste, louvando a Deus (Lucas 2:13)."
+        },
+        {
+          "id": "u1-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "O louvor dos anjos no céu",
+          "tokens": [
+            "Glória a Deus",
+            "nas alturas",
+            "paz na terra",
+            "boa vontade",
+            "entre os homens"
+          ],
+          "distractors": [
+            "no templo",
+            "na cidade",
+            "graça e verdade",
+            "força eterna"
+          ],
+          "reference": "Lucas 2:14"
+        },
+        {
+          "id": "u1-l3-e4",
+          "kind": "multipleChoice",
+          "prompt": "O que guiou os magos até Jesus?",
+          "text": "Os magos viram uma ___ quando Jesus nasceu.",
+          "options": [
+            "estrela",
+            "chama",
+            "luz do céu",
+            "voz do anjo"
+          ],
+          "answer": "estrela",
+          "reference": "Mateus 2:2"
+        },
+        {
+          "id": "u1-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "Pastores",
+              "right": "Ouvem do anjo"
+            },
+            {
+              "left": "Magos",
+              "right": "Seguem a estrela"
+            },
+            {
+              "left": "Incenso",
+              "right": "Dom do mago"
+            },
+            {
+              "left": "Ouro",
+              "right": "Presente ao rei"
+            }
+          ],
+          "reference": "Lucas 2 e Mateus 2"
+        },
+        {
+          "id": "u1-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Os magos deram a Jesus ouro, incenso e mirra.",
+          "isTrue": true,
+          "reference": "Mateus 2:11",
+          "explanation": "Abrindo seus cofres, ofereceram presentes: ouro, incenso e mirra (Mateus 2:11)."
+        },
+        {
+          "id": "u1-l3-e7",
+          "kind": "multipleChoice",
+          "prompt": "Quem tentou encontrar Jesus para matá-lo?",
+          "text": "O rei ___ queria encontrar Jesus para destruí-lo.",
+          "speaker": "Narrador",
+          "options": [
+            "Herodes",
+            "Agripas",
+            "Pilatos",
+            "Cleópatra"
+          ],
+          "answer": "Herodes",
+          "reference": "Mateus 2:8"
+        },
+        {
+          "id": "u1-l3-e8",
+          "kind": "multipleChoice",
+          "prompt": "Para onde os magos foram avisados para não voltar?",
+          "text": "Os magos foram avisados em sonho para não retornar a ___.",
+          "options": [
+            "Herodes",
+            "Jerusalém",
+            "Belém",
+            "o reino"
+          ],
+          "answer": "Herodes",
+          "reference": "Mateus 2:12"
+        }
+      ]
+    },
+    {
+      "id": "u1-l4",
+      "title": "Apresentação no Templo",
+      "icon": "hands.sparkles.fill",
+      "exercises": [
+        {
+          "id": "u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Quando se completaram os dias da purificação da Lei de Moisés, levaram a ___ a Jerusalém para o apresentarem ao Senhor.\"",
+          "options": [
+            "Maria e Jesus",
+            "Jesus",
+            "criança",
+            "mãe"
+          ],
+          "answer": "criança",
+          "reference": "Lucas 2:22"
+        },
+        {
+          "id": "u1-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Simeão era um homem idoso que esperava a consolação de Israel.",
+          "isTrue": true,
+          "reference": "Lucas 2:25-26",
+          "explanation": "Simeão era justo, esperando a consolação de Israel, com promessa do Espírito Santo de ver o Cristo."
+        },
+        {
+          "id": "u1-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A profecia de Simeão sobre Jesus",
+          "tokens": [
+            "Eis que este",
+            "será causa",
+            "de queda",
+            "e de levantamento",
+            "de muitos em Israel"
+          ],
+          "distractors": [
+            "será rei de Israel",
+            "salvará o mundo",
+            "reunirá todas",
+            "as nações ao Pai"
+          ],
+          "reference": "Lucas 2:34"
+        },
+        {
+          "id": "u1-l4-e4",
+          "kind": "multipleChoice",
+          "prompt": "Quem mais reconheceu Jesus no templo?",
+          "text": "___ era uma viúva que vivia no templo com oração e jejum.",
+          "speaker": "Narrador",
+          "options": [
+            "Ana",
+            "Madalena",
+            "Salomé",
+            "Joana"
+          ],
+          "answer": "Ana",
+          "reference": "Lucas 2:36"
+        },
+        {
+          "id": "u1-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "Simeão",
+              "right": "Reconhece Jesus"
+            },
+            {
+              "left": "Ana",
+              "right": "Profetisa piedosa"
+            },
+            {
+              "left": "Lei de Moisés",
+              "right": "Purificação"
+            },
+            {
+              "left": "Espírito Santo",
+              "right": "Revela a Simeão"
+            }
+          ],
+          "reference": "Lucas 2:22-38"
+        },
+        {
+          "id": "u1-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A apresentação de Jesus no templo aconteceu 40 dias após seu nascimento.",
+          "isTrue": true,
+          "reference": "Lucas 2:22",
+          "explanation": "Quando se completaram os dias da purificação segundo a Lei de Moisés (40 dias), levaram Jesus a Jerusalém (Lucas 2:22)."
+        },
+        {
+          "id": "u1-l4-e7",
+          "kind": "multipleChoice",
+          "prompt": "O que Simeão disse que penetraria a alma de Maria?",
+          "text": "Simeão profetizou que uma ___ penetraria a alma de Maria.",
+          "options": [
+            "espada",
+            "lança",
+            "dor",
+            "tribulação"
+          ],
+          "answer": "espada",
+          "reference": "Lucas 2:35"
+        },
+        {
+          "id": "u1-l4-e8",
+          "kind": "multipleChoice",
+          "prompt": "Há quanto tempo Ana era viúva?",
+          "text": "Ana tinha sido viúva por cerca de ___ anos.",
+          "options": [
+            "84",
+            "70",
+            "60",
+            "40"
+          ],
+          "answer": "84",
+          "reference": "Lucas 2:37"
+        }
+      ]
+    },
+    {
+      "id": "u1-l5",
+      "title": "Jesus aos 12 Anos",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Quando Jesus atingiu doze anos de idade, subiram, conforme o costume da festa, e o ___ se separou deles sem que seus pais o soubessem.\"",
+          "options": [
+            "menino",
+            "filho",
+            "Jesus",
+            "corpo"
+          ],
+          "answer": "menino",
+          "reference": "Lucas 2:42-43"
+        },
+        {
+          "id": "u1-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Jesus estava no templo conversando com os mestres da Lei.",
+          "isTrue": true,
+          "reference": "Lucas 2:46",
+          "explanation": "Jesus estava no templo, assentado no meio dos mestres, ouvindo-os e interrogando-os (Lucas 2:46)."
+        },
+        {
+          "id": "u1-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A resposta de Jesus a seus pais",
+          "tokens": [
+            "Por que vos buscáveis?",
+            "Não sabíeis",
+            "que devo estar",
+            "na casa",
+            "de meu Pai?"
+          ],
+          "distractors": [
+            "no templo",
+            "no reino",
+            "no trabalho",
+            "na sinagoga"
+          ],
+          "reference": "Lucas 2:49"
+        },
+        {
+          "id": "u1-l5-e4",
+          "kind": "multipleChoice",
+          "prompt": "Onde os pais de Jesus o encontraram?",
+          "text": "Jesus foi encontrado no ___, assentado entre os mestres.",
+          "options": [
+            "templo",
+            "sinagoga",
+            "mercado",
+            "bairro"
+          ],
+          "answer": "templo",
+          "reference": "Lucas 2:46"
+        },
+        {
+          "id": "u1-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "Jesus",
+              "right": "Menino sábio"
+            },
+            {
+              "left": "Mestres",
+              "right": "Espantados"
+            },
+            {
+              "left": "Maria",
+              "right": "Busca ansiosa"
+            },
+            {
+              "left": "Festa",
+              "right": "Páscoa"
+            }
+          ],
+          "reference": "Lucas 2:41-50"
+        },
+        {
+          "id": "u1-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Maria compreendeu plenamente tudo o que Jesus queria dizer com sua resposta.",
+          "isTrue": false,
+          "reference": "Lucas 2:50",
+          "explanation": "Seus pais não compreenderam o que Jesus lhes dizia (Lucas 2:50)."
+        },
+        {
+          "id": "u1-l5-e7",
+          "kind": "multipleChoice",
+          "prompt": "Quem guardava todas essas coisas no coração?",
+          "text": "___ guardava todos esses acontecimentos em seu coração.",
+          "speaker": "Narrador",
+          "options": [
+            "Maria",
+            "José",
+            "os mestres",
+            "a cidade"
+          ],
+          "answer": "Maria",
+          "reference": "Lucas 2:51"
+        },
+        {
+          "id": "u1-l5-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo sobre o crescimento de Jesus",
+          "text": "\"E Jesus crescia em ___, em estatura, e em graça para com Deus e os homens.\"",
+          "options": [
+            "sabedoria",
+            "força",
+            "conhecimento",
+            "fé"
+          ],
+          "answer": "sabedoria",
+          "reference": "Lucas 2:52"
+        }
+      ]
+    }
+  ]
+}

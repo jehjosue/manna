@@ -1,0 +1,495 @@
+[
+  {
+    "id": "historia-mulher-samaritana",
+    "title": "The Samaritan Woman",
+    "subtitle": "Jesus offers living water to an abandoned woman",
+    "icon": "drop.fill",
+    "reference": "John 4:4-42",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Jesus was traveling from Judea to Galilee and had to pass through Samaria. It was hot noon."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Jesus sat by a well. A Samaritan woman came alone to draw water."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Please, give me some water to drink."
+      },
+      {
+        "kind": "line",
+        "speaker": "Samaritan Woman",
+        "text": "How is it that you, being a Jew, ask water from me, a Samaritan woman? Jews don't have dealings with us."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why was the woman surprised by Jesus' request?",
+        "options": [
+          "Because Jews generally avoided Samaritans",
+          "Because she was afraid of water",
+          "Because it was night and there shouldn't be men"
+        ],
+        "answer": "Because Jews generally avoided Samaritans"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "If you knew who I am, you would ask me for water. I would give you living water that would never run dry."
+      },
+      {
+        "kind": "line",
+        "speaker": "Samaritan Woman",
+        "text": "Living water? Sir, you don't even have a bucket and the well is deep. How can you draw living water?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Anyone who drinks this water will be thirsty again. But whoever drinks the water I give will never be thirsty again."
+      },
+      {
+        "kind": "line",
+        "speaker": "Samaritan Woman",
+        "text": "Sir, give me this water so I will not be thirsty or have to come here to draw water!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What did the woman ask of Jesus?",
+        "options": [
+          "The living water that Jesus offered",
+          "More gold and silver",
+          "That he come back another day"
+        ],
+        "answer": "The living water that Jesus offered"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Go call your husband and come back."
+      },
+      {
+        "kind": "line",
+        "speaker": "Samaritan Woman",
+        "text": "I have no husband."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "You are right. You have had five husbands and the one you now have is not your husband. You have spoken the truth."
+      },
+      {
+        "kind": "line",
+        "text": "The woman realized that Jesus knew her entire story. She had been hurt and rejected many times. But Jesus did not judge her.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "speaker": "Samaritan Woman",
+        "text": "Sir, you are a prophet! Now I understand that you are the Messiah we have been waiting for!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "I am he. True worship is not on mountains or in temples, but in spirit and in truth."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How was the woman transformed?",
+        "options": [
+          "She recognized Jesus as the Messiah and testified to others",
+          "She continued with the same empty life",
+          "She tried to deceive Jesus"
+        ],
+        "answer": "She recognized Jesus as the Messiah and testified to others"
+      },
+      {
+        "kind": "line",
+        "speaker": "Samaritan Woman",
+        "text": "People of my city! Come! I found the Messiah! He knows me! See what he did for me!"
+      },
+      {
+        "kind": "line",
+        "text": "Many Samaritans believed in Jesus through that woman's testimony. Her life was transformed by the love of Jesus.",
+        "speaker": "Narrator"
+      }
+    ]
+  },
+  {
+    "id": "historia-filho-prodigo",
+    "title": "The Prodigal Son",
+    "subtitle": "The love of a father who never abandons",
+    "icon": "heart.fill",
+    "reference": "Luke 15:11-32",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "A certain man had two sons. One day, the younger son said to his father: 'Father, give me my inheritance now!'"
+      },
+      {
+        "kind": "line",
+        "speaker": "Father",
+        "text": "My son, you want your inheritance already? Very well. I will divide my property."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The younger son took his inheritance and went far away. He lived wildly, spending everything on parties and pleasures."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did the younger son use his inheritance?",
+        "options": [
+          "He spent it all on parties and pleasures",
+          "He invested in business",
+          "He saved and invested carefully"
+        ],
+        "answer": "He spent it all on parties and pleasures"
+      },
+      {
+        "kind": "line",
+        "speaker": "Younger Son",
+        "text": "Finally I'm free! No one can tell me what to do! I will enjoy life!"
+      },
+      {
+        "kind": "line",
+        "text": "But when the money ran out, a great famine came to the land. The son had nothing.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "speaker": "Younger Son",
+        "text": "I'm dying of hunger! I need a job! What can I do?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Employer",
+        "text": "You can work taking care of my pigs. You will feed the pigs."
+      },
+      {
+        "kind": "line",
+        "text": "The fallen son began to feed the pigs. He was so hungry that he would have eaten what the pigs ate.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What was the son's situation when the money ran out?",
+        "options": [
+          "He was without anything, working with pigs, hungry",
+          "He found a well-paid job",
+          "His father found him and took him back"
+        ],
+        "answer": "He was without anything, working with pigs, hungry"
+      },
+      {
+        "kind": "line",
+        "speaker": "Younger Son",
+        "text": "What a fool I was! My father has many servants and they all have enough food. But I'm here dying of hunger."
+      },
+      {
+        "kind": "line",
+        "speaker": "Younger Son",
+        "text": "I will go back to my father. I will say: Father, I have sinned against you. I am not worthy to be your son. Let me be one of your servants."
+      },
+      {
+        "kind": "line",
+        "text": "The son got up and began the long journey back. He was repentant and humiliated.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "But when still far away, his father saw him. The father's heart overflowed with love and compassion."
+      },
+      {
+        "kind": "line",
+        "speaker": "Father",
+        "text": "My son! My son has come back! The one I thought was lost is now found!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Father",
+        "text": "Quick! Bring the best clothes! Prepare a great feast! My son is back!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did the father respond when he saw his son return?",
+        "options": [
+          "With love and forgiveness, offering a feast",
+          "With anger and punishment",
+          "With indifference"
+        ],
+        "answer": "With love and forgiveness, offering a feast"
+      },
+      {
+        "kind": "line",
+        "speaker": "Younger Son",
+        "text": "Father! I have sinned against you! I am not worthy to be your son..."
+      },
+      {
+        "kind": "line",
+        "speaker": "Father",
+        "text": "Hush, my son! You have come back! That is all that matters! You were lost and now you are found!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The father embraced his son and kissed him. All the joy of the home was restored. God loves us in the same way."
+      }
+    ]
+  },
+  {
+    "id": "historia-ressureicao-lazaro",
+    "title": "The Resurrection of Lazarus",
+    "subtitle": "Jesus has power even over death",
+    "icon": "heart.fill",
+    "reference": "John 11:1-44",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Lazarus was a friend of Jesus. He lived in Bethany with his sisters Mary and Martha. One day, Lazarus became very ill."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mary",
+        "text": "Martha, Lazarus is getting worse! We must send word to Jesus! He can heal him!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Martha",
+        "text": "Yes! Let's send someone right away! Jesus loves him. When he hears that Lazarus is sick, he will come running!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why did Mary and Martha want Jesus to know Lazarus was sick?",
+        "options": [
+          "Because they trusted that Jesus could heal him",
+          "Because they wanted Jesus to suffer",
+          "Because they had no money for doctors"
+        ],
+        "answer": "Because they trusted that Jesus could heal him"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The sisters sent a message, but Jesus did not go immediately. He waited two days before traveling."
+      },
+      {
+        "kind": "line",
+        "text": "When Jesus arrived, Lazarus had been dead for four days. Martha came out to meet him.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "speaker": "Martha",
+        "text": "Lord! If you had come when Lazarus was sick, he would not have died! But even now, I know God listens to you always!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Your brother will rise again."
+      },
+      {
+        "kind": "line",
+        "speaker": "Martha",
+        "text": "I know he will rise again in the resurrection, on the last day."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live. Do you believe this?"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What did Jesus promise about himself?",
+        "options": [
+          "That He is the resurrection and the life",
+          "That no one would die",
+          "That He would reign for a thousand years"
+        ],
+        "answer": "That He is the resurrection and the life"
+      },
+      {
+        "kind": "line",
+        "speaker": "Martha",
+        "text": "Yes, Lord! I believe that you are the Christ, the Son of God!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesus asked them to take him to Lazarus' tomb. The stone was rolled away.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Father, I thank you for hearing me. Father, raise Lazarus!"
+      },
+      {
+        "kind": "line",
+        "text": "Lazarus came out of the tomb! His arms and legs were bound with wrappings and his face was covered with a cloth.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Loose him and let him go! He is alive!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mary and Martha",
+        "text": "Lazarus! You came back! Jesus gave our brother back to us!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did Jesus raise Lazarus?",
+        "options": [
+          "By prayer and God's power",
+          "Through medical techniques",
+          "By magic"
+        ],
+        "answer": "By prayer and God's power"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "All who saw the miracle believed in Jesus. Death could not hold back before God's power."
+      }
+    ]
+  },
+  {
+    "id": "historia-caminho-emaus",
+    "title": "The Road to Emmaus",
+    "subtitle": "We recognize Jesus when he reveals himself",
+    "icon": "book.fill",
+    "reference": "Luke 24:13-35",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "After Jesus' crucifixion, two disciples were walking on the road to Emmaus. They were sad and confused."
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 1",
+        "text": "We had hope that Jesus was the Messiah. But he was crucified. Now everything is lost."
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 2",
+        "text": "Yes. And women said his tomb is empty. How can this be? Where will salvation come from now?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "As they talked, a man approached and began to walk with them. It was the risen Jesus, but their eyes were veiled."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "What do you discuss as you walk? You seem sad."
+      },
+      {
+        "kind": "line",
+        "text": "Are you a stranger? Don't you know what happened in Jerusalem?",
+        "speaker": "Disciple 1"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why didn't the disciples recognize Jesus?",
+        "options": [
+          "Because their eyes were veiled by God",
+          "Because Jesus had changed clothes",
+          "Because it was too dark"
+        ],
+        "answer": "Because their eyes were veiled by God"
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 2",
+        "text": "Tell us what happened. A man named Jesus of Nazareth was mighty in deeds. But the leaders crucified him."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "O foolish ones! Slow of heart to believe! Was it not necessary that the Christ should suffer and enter his glory?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jesus",
+        "text": "Beginning with Moses and all the prophets, he interpreted to them in all the Scriptures the things about himself."
+      },
+      {
+        "kind": "line",
+        "text": "As they walked, Jesus opened their minds to understand the Scriptures. Their hearts burned with hope.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did Jesus help the disciples understand?",
+        "options": [
+          "By explaining the Scriptures about the Messiah",
+          "By telling stories about travels",
+          "By asking to borrow money"
+        ],
+        "answer": "By explaining the Scriptures about the Messiah"
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 1",
+        "text": "O stranger, the night is falling. Come and stay with us. Don't abandon us!"
+      },
+      {
+        "kind": "line",
+        "text": "Jesus entered to stay with them. When they sat at the table, Jesus took the bread, blessed it, and gave it to them.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "text": "At that moment, the eyes of the disciples were opened and they recognized Jesus. But he disappeared from their sight.",
+        "speaker": "Narrator"
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 2",
+        "text": "It was Jesus! Didn't our hearts burn when he spoke to us on the way and opened the Scriptures?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Disciple 1",
+        "text": "Let's go back to Jerusalem! We must tell the others that Jesus has risen!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did the disciples recognize Jesus?",
+        "options": [
+          "When he broke bread at the table",
+          "When they heard his voice",
+          "When they saw him risen"
+        ],
+        "answer": "When he broke bread at the table"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The disciples returned to Jerusalem with joy. They found the other disciples and shared that Jesus had risen and revealed himself to them."
+      }
+    ]
+  }
+]

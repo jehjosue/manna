@@ -1,0 +1,629 @@
+{
+  "id": "atos-u3",
+  "title": "Unidade 3",
+  "subtitle": "Conversão e Viagens de Paulo",
+  "guide": {
+    "summary": "Saulo era perseguidor de cristãos quando Jesus o encontrou na estrada de Damasco. Transformado em apóstolo Paulo, viajou por todo o mundo greco-romano fundando igrejas. Suas cartas continuam guiando a fé cristã até hoje.",
+    "keyVerses": [
+      {
+        "reference": "Atos 9:15",
+        "text": "Vai, porque este é para mim um vaso eleito para levar o meu nome diante dos gentios."
+      },
+      {
+        "reference": "Atos 20:24",
+        "text": "Mas de nenhuma coisa faço caso, nem tenho a minha vida por preciosa, contanto que cumpra com alegria a minha carreira."
+      },
+      {
+        "reference": "Atos 17:24-25",
+        "text": "O Deus que fez o mundo não habita em templos feitos por mãos de homens."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u3-l1",
+      "title": "O Encontro no Caminho",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "atos-u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "O que Saulo estava fazendo quando Jesus o encontrou?",
+          "text": "Saulo tinha um propósito que seria transformado.",
+          "options": [
+            "Perseguindo cristãos a caminho de Damasco",
+            "Pregando no templo",
+            "Ensinando a lei dos fariseus",
+            "Orando em secreto"
+          ],
+          "answer": "Perseguindo cristãos a caminho de Damasco",
+          "reference": "Atos 9:1-2",
+          "explanation": "Saulo estava lutando avidamente contra a Igreja quando seu encontro com Jesus mudou tudo."
+        },
+        {
+          "id": "atos-u3-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Jesus apareceu pessoalmente a Saulo na estrada de Damasco.",
+          "isTrue": true,
+          "reference": "Atos 9:3-7",
+          "explanation": "O próprio Jesus ressurreto apareceu a Saulo, perguntando por que o perseguia."
+        },
+        {
+          "id": "atos-u3-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual foi a primeira consequência da visão?",
+          "text": "A transformação começou com uma perda seguida de recuperação.",
+          "options": [
+            "Saulo ficou cego e sua vista foi restaurada",
+            "Saulo caiu do cavalo e se machucou",
+            "Saulo perdeu a fé imediatamente",
+            "Saulo desapareceu por três anos"
+          ],
+          "answer": "Saulo ficou cego e sua vista foi restaurada",
+          "reference": "Atos 9:8-18",
+          "explanation": "A cegueira de Saulo era simbólica: precisava ser restaurado espiritualmente."
+        },
+        {
+          "id": "atos-u3-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A vocação de Paulo em Atos 9:15",
+          "tokens": [
+            "Vai, porque este é",
+            "para mim um vaso eleito",
+            "para levar o meu nome",
+            "diante dos gentios"
+          ],
+          "distractors": [
+            "e dos judeus",
+            "e dos reis",
+            "e do povo"
+          ],
+          "reference": "Atos 9:15"
+        },
+        {
+          "id": "atos-u3-l1-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Este é um vaso eleito para levar o meu nome.",
+          "options": [
+            "Paulo será um grande apóstolo",
+            "Vaso eleito levar meu nome",
+            "Jesus o escolheu para algo"
+          ],
+          "answer": "Vaso eleito levar meu nome",
+          "reference": "Atos 9:15"
+        },
+        {
+          "id": "atos-u3-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe etapas da conversão",
+          "pairs": [
+            {
+              "left": "Visão de Jesus",
+              "right": "Encontro transformador"
+            },
+            {
+              "left": "Cegueira",
+              "right": "Símbolo de mudança"
+            },
+            {
+              "left": "Visão restaurada",
+              "right": "Regeneração espiritual"
+            },
+            {
+              "left": "Batismo",
+              "right": "Selo da conversão"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Este é um vaso eleito para levar o meu nome diante dos _____.\"",
+          "answer": "gentios",
+          "reference": "Atos 9:15",
+          "options": [
+            "gentios",
+            "povos"
+          ]
+        },
+        {
+          "id": "atos-u3-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A conversão de Paulo foi apenas um evento, sem mudança duradoura.",
+          "isTrue": false,
+          "reference": "Atos 9-28",
+          "explanation": "Paulo passou o resto de sua vida dedicado a Jesus e ao evangelho."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l2",
+      "title": "As Três Viagens Missionárias",
+      "icon": "tent.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual era o método de Paulo em suas viagens?",
+          "text": "Paulo tinha uma estratégia clara para evangelizar.",
+          "options": [
+            "Ir para as sinagogas dos judeus e depois para os gentios",
+            "Apenas falar com pessoas ricas",
+            "Evitar os judeus completamente",
+            "Pregar apenas em cidades grandes"
+          ],
+          "answer": "Ir para as sinagogas dos judeus e depois para os gentios",
+          "reference": "Atos 13:14, 17:22-23",
+          "explanation": "Paulo sempre começava nas sinagogas, apresentando Jesus primeiro aos judeus."
+        },
+        {
+          "id": "atos-u3-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Paulo viajou sozinho em suas missões.",
+          "isTrue": false,
+          "reference": "Atos 13-21",
+          "explanation": "Paulo tinha companheiros como Barnabé, Silas e Timóteo em suas jornadas."
+        },
+        {
+          "id": "atos-u3-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "O que Paulo enfrentou durante suas viagens?",
+          "text": "As jornadas de Paulo foram marcadas por perseguição contínua.",
+          "options": [
+            "Perseguição, prisões, açoites e naufrágio",
+            "Bem-estar material e reconhecimento",
+            "Silêncio completo",
+            "Apoio irrestrito de todos"
+          ],
+          "answer": "Perseguição, prisões, açoites e naufrágio",
+          "reference": "Atos 14-28, 2 Coríntios 11:24-27",
+          "explanation": "Paulo sofreu tremendamente pelo evangelho, mas nunca desistiu."
+        },
+        {
+          "id": "atos-u3-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Compromisso de Paulo em Atos 20:24",
+          "tokens": [
+            "Mas de nenhuma coisa",
+            "faço caso",
+            "nem tenho a minha vida",
+            "por preciosa"
+          ],
+          "distractors": [
+            "contanto que cumpra",
+            "com alegria a carreira",
+            "que o Senhor deu"
+          ],
+          "reference": "Atos 20:24"
+        },
+        {
+          "id": "atos-u3-l2-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Nem tenho a minha vida por preciosa.",
+          "options": [
+            "Paulo valorizava sua vida",
+            "Nem tenho vida por preciosa",
+            "A vida não tem valor"
+          ],
+          "answer": "Nem tenho vida por preciosa",
+          "reference": "Atos 20:24"
+        },
+        {
+          "id": "atos-u3-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe aspetos das viagens",
+          "pairs": [
+            {
+              "left": "Estratégia",
+              "right": "Sinagoga e depois gentios"
+            },
+            {
+              "left": "Companheiros",
+              "right": "Barnabé, Silas, Timóteo"
+            },
+            {
+              "left": "Desafios",
+              "right": "Perseguição contínua"
+            },
+            {
+              "left": "Motivação",
+              "right": "Cumprir a carreira de Jesus"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Contanto que cumpra com alegria a minha _____.\"",
+          "answer": "carreira",
+          "reference": "Atos 20:24",
+          "options": [
+            "carreira",
+            "missão"
+          ]
+        },
+        {
+          "id": "atos-u3-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Paulo estabeleceu igrejas em múltiplas regiões durante suas viagens.",
+          "isTrue": true,
+          "reference": "Atos 13-21",
+          "explanation": "Paulo fundou igrejas em Antioquia, Corinto, Éfeso e muitos outros lugares."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l3",
+      "title": "Areopago: Pregação em Atenas",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Onde Paulo pregou seu famoso discurso?",
+          "text": "Uma cidade conhecida pela filosofia e múltiplos deuses.",
+          "options": [
+            "No Areopago em Atenas",
+            "No templo de Efeso",
+            "Na sinagoga de Corinto",
+            "Na prisão de Roma"
+          ],
+          "answer": "No Areopago em Atenas",
+          "reference": "Atos 17:22-31",
+          "explanation": "Atenas era um centro intelectual onde Paulo confrontou filosofias pagãs."
+        },
+        {
+          "id": "atos-u3-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Paulo reconheceu o altar ao deus desconhecido em Atenas.",
+          "isTrue": true,
+          "reference": "Atos 17:23",
+          "explanation": "Paulo usou este altar como ponto de partida para pregar Jesus."
+        },
+        {
+          "id": "atos-u3-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual foi a mensagem central do discurso no Areopago?",
+          "text": "Paulo apresentou verdades sobre Deus aos gregos.",
+          "options": [
+            "Deus não habita em templos feitos por mãos de homens",
+            "Os ídolos são superiores a Deus",
+            "Deus precisa dos sacrifícios dos homens",
+            "Os deuses gregos são verdadeiros"
+          ],
+          "answer": "Deus não habita em templos feitos por mãos de homens",
+          "reference": "Atos 17:24-25",
+          "explanation": "Paulo confrontou o politeísmo com a verdade sobre o único Deus verdadeiro."
+        },
+        {
+          "id": "atos-u3-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Verdade sobre Deus em Atos 17:24-25",
+          "tokens": [
+            "O Deus que fez o mundo",
+            "não habita em templos",
+            "feitos por mãos de homens",
+            "nem é servido por mãos"
+          ],
+          "distractors": [
+            "humanas como se carecesse",
+            "de algo",
+            "pois ele mesmo"
+          ],
+          "reference": "Atos 17:24-25"
+        },
+        {
+          "id": "atos-u3-l3-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "O Deus que fez o mundo não habita em templos.",
+          "options": [
+            "Deus é espírito e omnipresente",
+            "Deus não habita templos",
+            "Os templos não contêm Deus"
+          ],
+          "answer": "Deus não habita templos",
+          "reference": "Atos 17:24"
+        },
+        {
+          "id": "atos-u3-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe elementos do discurso",
+          "pairs": [
+            {
+              "left": "Altar desconhecido",
+              "right": "Abertura para evangelho"
+            },
+            {
+              "left": "Creador",
+              "right": "Deus único e verdadeiro"
+            },
+            {
+              "left": "Templos",
+              "right": "Não contêm Deus"
+            },
+            {
+              "left": "Ressurreição",
+              "right": "Esperança cristã"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"O Deus que fez o mundo não habita em ___ feitos por mãos.\"",
+          "answer": "templos",
+          "reference": "Atos 17:24",
+          "options": [
+            "templos",
+            "edifícios"
+          ]
+        },
+        {
+          "id": "atos-u3-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Todos em Atenas aceitaram imediatamente a mensagem de Paulo.",
+          "isTrue": false,
+          "reference": "Atos 17:32-33",
+          "explanation": "Alguns zombavam, mas outros creram e se juntaram a Paulo."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l4",
+      "title": "Caminho para Roma",
+      "icon": "scroll.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Como Paulo foi trazido a Roma?",
+          "text": "Uma jornada dramática marcou o fim de Atos.",
+          "options": [
+            "Como prisioneiro sob guarda romana",
+            "Como visitante convidado",
+            "Como emigrante voluntário",
+            "Como refugiado que fugia"
+          ],
+          "answer": "Como prisioneiro sob guarda romana",
+          "reference": "Atos 27-28",
+          "explanation": "Paulo foi preso, julgado e enviado a Roma para apelar a César."
+        },
+        {
+          "id": "atos-u3-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Durante a viagem a Roma, Paulo enfrentou um naufrágio.",
+          "isTrue": true,
+          "reference": "Atos 27:39-44",
+          "explanation": "Um navio em que Paulo viajava naufragou durante uma tempestade."
+        },
+        {
+          "id": "atos-u3-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual era a esperança de Paulo na prisão?",
+          "text": "Paulo mantinha postura de fé mesmo encarcerado.",
+          "options": [
+            "Testemunhar em Roma e estar com Jesus",
+            "Escapar da prisão",
+            "Esquecimento e retiro",
+            "Vingança contra seus inimigos"
+          ],
+          "answer": "Testemunhar em Roma e estar com Jesus",
+          "reference": "Atos 28:30-31",
+          "explanation": "Paulo passou dois anos em Roma pregando e ensinando sobre Jesus."
+        },
+        {
+          "id": "atos-u3-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A jornada final em Atos 27:23-24",
+          "tokens": [
+            "Mas essa noite",
+            "esteve ao meu lado",
+            "um anjo do Deus",
+            "de quem sou e a quem sirvo"
+          ],
+          "distractors": [
+            "e disse não temas",
+            "porque é necessário",
+            "que compareças diante de César"
+          ],
+          "reference": "Atos 27:23-24"
+        },
+        {
+          "id": "atos-u3-l4-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Um anjo do Deus de quem sou e a quem sirvo.",
+          "options": [
+            "Paulo serve apenas a Jesus",
+            "Anjo de Deus quem sirvo",
+            "Fé de Paulo é inabalável"
+          ],
+          "answer": "Anjo de Deus quem sirvo",
+          "reference": "Atos 27:23"
+        },
+        {
+          "id": "atos-u3-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe eventos finais",
+          "pairs": [
+            {
+              "left": "Prisão",
+              "right": "Julgamento por autoridades"
+            },
+            {
+              "left": "Navio",
+              "right": "Naufrágio na tempestade"
+            },
+            {
+              "left": "Roma",
+              "right": "Testemunho e pregação"
+            },
+            {
+              "left": "Esperança",
+              "right": "Estar com Jesus"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"É necessário que compareças diante de _____.\"",
+          "answer": "César",
+          "reference": "Atos 27:24",
+          "options": [
+            "César",
+            "imperador"
+          ]
+        },
+        {
+          "id": "atos-u3-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A prisão de Paulo interrompeu seu ministério de pregação.",
+          "isTrue": false,
+          "reference": "Atos 28:30-31",
+          "explanation": "Paulo continuou pregando mesmo na prisão, mostrando que nada pode silenciar o evangelho."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l5",
+      "title": "Revisão - Conversão e Viagens",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Como Jesus transformou Saulo?",
+          "text": "Uma transformação radical começou no caminho de Damasco.",
+          "options": [
+            "Através de um encontro pessoal no caminho",
+            "Lentamente durante anos",
+            "Através de amigos que o evangelizaram",
+            "Nunca realmente se transformou"
+          ],
+          "answer": "Através de um encontro pessoal no caminho",
+          "reference": "Atos 9:1-18",
+          "explanation": "Jesus apareceu pessoalmente a Saulo, transformando-o instantaneamente."
+        },
+        {
+          "id": "atos-u3-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Paulo enfrentou dificuldades ao compartilhar o evangelho.",
+          "isTrue": true,
+          "reference": "Atos 13-28",
+          "explanation": "Paulo experimentou rejeição, perseguição e prisão, mas nunca desistiu."
+        },
+        {
+          "id": "atos-u3-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual era o propósito de Deus para Paulo?",
+          "text": "Deus tinha um plano específico para este apóstolo.",
+          "options": [
+            "Ser vaso eleito para levar o evangelho aos gentios",
+            "Ser rei de Israel",
+            "Ser sacerdote do templo",
+            "Ser filósofo grego"
+          ],
+          "answer": "Ser vaso eleito para levar o evangelho aos gentios",
+          "reference": "Atos 9:15",
+          "explanation": "Paulo foi especialmente chamado para alcançar os gentios com o evangelho."
+        },
+        {
+          "id": "atos-u3-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo de revisão",
+          "text": "Resumo da jornada de Paulo",
+          "tokens": [
+            "Este é para mim",
+            "um vaso eleito",
+            "nem tenho a vida por preciosa",
+            "contanto que cumpra a carreira"
+          ],
+          "distractors": [
+            "que Jesus me deu",
+            "para testemunhar",
+            "de Sua graça"
+          ],
+          "reference": "Atos 9:15, 20:24"
+        },
+        {
+          "id": "atos-u3-l5-e5",
+          "kind": "listen",
+          "prompt": "Qual verdade você ouviu?",
+          "text": "Este é um vaso eleito para levar meu nome.",
+          "options": [
+            "Deus escolhe instrumentos para Seu reino",
+            "Vaso eleito levar meu nome",
+            "Paulo é especial para Deus"
+          ],
+          "answer": "Vaso eleito levar meu nome",
+          "reference": "Atos 9:15"
+        },
+        {
+          "id": "atos-u3-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe fases da vida de Paulo",
+          "pairs": [
+            {
+              "left": "Conversão",
+              "right": "Encontro com Jesus"
+            },
+            {
+              "left": "Viagens",
+              "right": "Fundação de igrejas"
+            },
+            {
+              "left": "Pregação",
+              "right": "Apelo ao evangelho"
+            },
+            {
+              "left": "Prisão",
+              "right": "Testemunho em Roma"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordene a jornada de Paulo",
+          "text": "Cronologia apostólica",
+          "tokens": [
+            "Encontro com Jesus em Damasco",
+            "Primeiras viagens missionárias",
+            "Discurso no Areopago",
+            "Viagem a Roma como prisioneiro"
+          ]
+        },
+        {
+          "id": "atos-u3-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A vida de Paulo demonstra que Deus pode transformar qualquer pessoa.",
+          "isTrue": true,
+          "reference": "Atos 9-28",
+          "explanation": "Paulo é o maior exemplo de transformação e dedicação a Jesus na Bíblia."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "id": "atos-u1",
+  "title": "Unidad 1",
+  "subtitle": "Pentecostés y la Iglesia Primitiva",
+  "guide": {
+    "summary": "Tras la ascensión de Jesús, el Espíritu Santo descendió en Pentecostés transformando a los discípulos tímidos en apóstoles valientes. La Iglesia primitiva nació con poder, unidad y autenticidad, creciendo exponencialmente a pesar de la persecución.",
+    "keyVerses": [
+      {
+        "reference": "Hechos 1:8",
+        "text": "Pero recibiréis poder del Espíritu Santo que vendrá sobre vosotros."
+      },
+      {
+        "reference": "Hechos 2:4",
+        "text": "Y todos fueron llenos del Espíritu Santo y comenzaron a hablar en otras lenguas."
+      },
+      {
+        "reference": "Hechos 2:42",
+        "text": "Y perseveraban en la doctrina de los apóstoles y en la comunión unos con otros."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u1-l1",
+      "title": "La Promesa del Espíritu",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Pero recibiréis poder del Espíritu Santo que vendrá sobre _____.\"",
+          "speaker": "Jesús",
+          "options": [
+            "vosotros",
+            "nosotros",
+            "la Iglesia",
+            "los apóstoles"
+          ],
+          "answer": "vosotros",
+          "reference": "Hechos 1:8",
+          "explanation": "Jesús promete que el Espíritu Santo vendrá sobre los discípulos para capacitarlos."
+        },
+        {
+          "id": "atos-u1-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La promesa del Espíritu Santo se cumplió inmediatamente después de la resurrección de Jesús.",
+          "isTrue": false,
+          "reference": "Hechos 1:4-8, 2:1-4",
+          "explanation": "Los discípulos tuvieron que esperar algunos días hasta Pentecostés para recibir el Espíritu Santo."
+        },
+        {
+          "id": "atos-u1-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Por qué Jesús pidió que los discípulos esperaran?",
+          "text": "Jesús pidió que esperaran en Jerusalén la promesa del Padre.",
+          "options": [
+            "Para recibir el Espíritu Santo",
+            "Para conseguir fondos",
+            "Para reclutar más seguidores",
+            "Para entrenar más"
+          ],
+          "answer": "Para recibir el Espíritu Santo",
+          "reference": "Hechos 1:4-5",
+          "explanation": "El Espíritu Santo sería el poder necesario para ser testigos de Jesús."
+        },
+        {
+          "id": "atos-u1-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Promesa de poder en Hechos 1:8",
+          "tokens": [
+            "Recibiréis poder",
+            "del Espíritu Santo",
+            "y seréis mis testigos",
+            "en Jerusalén"
+          ],
+          "distractors": [
+            "y en toda Judea",
+            "y en Samaria",
+            "hasta lo postrero"
+          ],
+          "reference": "Hechos 1:8"
+        },
+        {
+          "id": "atos-u1-l1-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Recibiréis poder del Espíritu Santo que vendrá sobre vosotros.",
+          "options": [
+            "El Espíritu Santo nos capacitará",
+            "Recibiréis poder del Espíritu Santo",
+            "Dios promete Su Espíritu"
+          ],
+          "answer": "Recibiréis poder del Espíritu Santo",
+          "reference": "Hechos 1:8"
+        },
+        {
+          "id": "atos-u1-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia elementos de la promesa",
+          "pairs": [
+            {
+              "left": "Espíritu Santo",
+              "right": "Poder divino"
+            },
+            {
+              "left": "Testigos",
+              "right": "Propagadores de la fe"
+            },
+            {
+              "left": "Poder",
+              "right": "Capacidad de actuar"
+            },
+            {
+              "left": "Promesa del Padre",
+              "right": "Se cumple en Pentecostés"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Recibiréis poder del Espíritu Santo que vendrá sobre _____.\"",
+          "answer": "vosotros",
+          "reference": "Hechos 1:8",
+          "options": [
+            "vosotros",
+            "ustedes"
+          ]
+        },
+        {
+          "id": "atos-u1-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El Espíritu Santo nos capacita para hacer todo lo que Dios nos llama a hacer.",
+          "isTrue": true,
+          "reference": "Hechos 1:8",
+          "explanation": "El Espíritu Santo es el poder que nos hace capaces de ser testigos eficaces de Cristo."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l2",
+      "title": "El Día de Pentecostés",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Y todos fueron llenos del Espíritu Santo y comenzaron a hablar en otras _____.\"",
+          "speaker": "Lucas",
+          "options": [
+            "lenguas",
+            "voces",
+            "palabras",
+            "idiomas"
+          ],
+          "answer": "lenguas",
+          "reference": "Hechos 2:4",
+          "explanation": "La señal visible y audible de Pentecostés fue que todos comenzaron a hablar en otras lenguas."
+        },
+        {
+          "id": "atos-u1-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Pentecostés marca el nacimiento oficial de la Iglesia Cristiana.",
+          "isTrue": true,
+          "reference": "Hechos 2:1-47",
+          "explanation": "Pentecostés es cuando los primeros 3.000 se convirtieron y la Iglesia comenzó."
+        },
+        {
+          "id": "atos-u1-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué pasó cuando Pedro predicó en Pentecostés?",
+          "text": "El primer mensaje después de que el Espíritu Santo descendiera resultó en muchos convertidos.",
+          "options": [
+            "Aproximadamente 3.000 personas se convirtieron",
+            "Solo los apóstoles creyeron",
+            "Nadie quiso escuchar",
+            "Solo 12 personas creyeron"
+          ],
+          "answer": "Aproximadamente 3.000 personas se convirtieron",
+          "reference": "Hechos 2:41",
+          "explanation": "La predicación de Pedro resultó en la adición de 3.000 discípulos a la Iglesia naciente."
+        },
+        {
+          "id": "atos-u1-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La señal de Pentecostés en Hechos 2:2-3",
+          "tokens": [
+            "Y de repente vino",
+            "un sonido del cielo",
+            "como de un viento recio",
+            "e impetuoso"
+          ],
+          "distractors": [
+            "y llenó",
+            "toda la casa",
+            "lenguas de fuego"
+          ],
+          "reference": "Hechos 2:2-3"
+        },
+        {
+          "id": "atos-u1-l2-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Y todos fueron llenos del Espíritu Santo.",
+          "options": [
+            "El Espíritu Santo descendió",
+            "Y todos llenos del Espíritu Santo",
+            "Un viento del cielo"
+          ],
+          "answer": "Y todos llenos del Espíritu Santo",
+          "reference": "Hechos 2:4"
+        },
+        {
+          "id": "atos-u1-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia las señales de Pentecostés",
+          "pairs": [
+            {
+              "left": "Sonido de viento",
+              "right": "Poder divino"
+            },
+            {
+              "left": "Lenguas de fuego",
+              "right": "Purificación y presencia"
+            },
+            {
+              "left": "Hablar en lenguas",
+              "right": "Capacitación sobrenatural"
+            },
+            {
+              "left": "3.000 conversiones",
+              "right": "Éxito de la predicación"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Y todos fueron llenos del Espíritu Santo y comenzaron a hablar en otras _____.\"",
+          "answer": "lenguas",
+          "reference": "Hechos 2:4",
+          "options": [
+            "lenguas",
+            "lenguajes"
+          ]
+        },
+        {
+          "id": "atos-u1-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Pentecostés fue un evento único que nunca volvió a suceder.",
+          "isTrue": false,
+          "reference": "Hechos 2, 8, 10",
+          "explanation": "Aunque Pentecostés es el evento inicial, el llenamiento del Espíritu Santo se repitió varias veces en los Hechos."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l3",
+      "title": "La Iglesia Primitiva",
+      "icon": "house.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Y perseveraban en la doctrina de los apóstoles y en la comunión unos con los _____.\"",
+          "speaker": "Lucas",
+          "options": [
+            "otros",
+            "semejantes",
+            "vecinos",
+            "hermanos"
+          ],
+          "answer": "otros",
+          "reference": "Hechos 2:42",
+          "explanation": "La Iglesia primitiva se caracterizaba por la enseñanza apostólica y la comunión genuina."
+        },
+        {
+          "id": "atos-u1-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La Iglesia primitiva poseía todos sus bienes en común y vendía propiedades para ayudar a los necesitados.",
+          "isTrue": true,
+          "reference": "Hechos 2:44-45",
+          "explanation": "La generosidad de la Iglesia primitiva era notable, compartiendo todo libremente."
+        },
+        {
+          "id": "atos-u1-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál era la actitud del pueblo hacia la Iglesia primitiva?",
+          "text": "Lucas describe la reputación y el crecimiento de la Iglesia naciente.",
+          "options": [
+            "Tenían favor con el pueblo y crecían",
+            "Eran odiados por todos",
+            "A nadie le importaba",
+            "Eran expulsados constantemente"
+          ],
+          "answer": "Tenían favor con el pueblo y crecían",
+          "reference": "Hechos 2:47",
+          "explanation": "La Iglesia tenía favor con el pueblo y el Señor añadía nuevos convertidos continuamente."
+        },
+        {
+          "id": "atos-u1-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Características de la Iglesia primitiva",
+          "tokens": [
+            "Y perseveraban",
+            "en la doctrina de los apóstoles",
+            "en la comunión",
+            "en el partimiento del pan"
+          ],
+          "distractors": [
+            "en las oraciones",
+            "en las alabanzas",
+            "en la oración"
+          ],
+          "reference": "Hechos 2:42"
+        },
+        {
+          "id": "atos-u1-l3-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Y perseveraban en la doctrina de los apóstoles.",
+          "options": [
+            "Aprendían las palabras de Jesús",
+            "Perseveraban en la doctrina apóstoles",
+            "Mantenían la fe recibida"
+          ],
+          "answer": "Perseveraban en la doctrina apóstoles",
+          "reference": "Hechos 2:42"
+        },
+        {
+          "id": "atos-u1-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia las características de la Iglesia",
+          "pairs": [
+            {
+              "left": "Comunión",
+              "right": "Unidad entre hermanos"
+            },
+            {
+              "left": "Doctrina apostólica",
+              "right": "Enseñanza auténtica"
+            },
+            {
+              "left": "Partimiento del pan",
+              "right": "Celebración de la Cena"
+            },
+            {
+              "left": "Oración continua",
+              "right": "Dependencia de Dios"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Y perseveraban en la doctrina de los apóstoles y en la comunión unos con los _____.\"",
+          "answer": "otros",
+          "reference": "Hechos 2:42",
+          "options": [
+            "otros",
+            "semejantes"
+          ]
+        },
+        {
+          "id": "atos-u1-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La Iglesia primitiva era egoísta y cada uno cuidaba solo de sí mismo.",
+          "isTrue": false,
+          "reference": "Hechos 2:44-45",
+          "explanation": "La Iglesia primitiva se caracterizaba por el altruismo y el compartir generoso de recursos."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l4",
+      "title": "Actos de Poder",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "atos-u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Quién fue curado primero por los apóstoles después de Pentecostés?",
+          "text": "Un milagro dramático abrió las puertas para más predicación.",
+          "options": [
+            "Un mendigo cojo en la Puerta Hermosa",
+            "Una mujer con fiebre",
+            "Un ciego de nacimiento",
+            "Un paralítico"
+          ],
+          "answer": "Un mendigo cojo en la Puerta Hermosa",
+          "reference": "Hechos 3:1-10",
+          "explanation": "Pedro sanó a un hombre que nunca había caminado, causando admiración general."
+        },
+        {
+          "id": "atos-u1-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Los milagros de la Iglesia primitiva eran realizados en nombre de Jesucristo.",
+          "isTrue": true,
+          "reference": "Hechos 3:6, 16",
+          "explanation": "Pedro enfatiza que los milagros ocurren a través de la fe en el nombre de Jesús."
+        },
+        {
+          "id": "atos-u1-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Por qué los apóstoles fueron encarcelados?",
+          "text": "Su predicación atrajo a autoridades que temían su influencia.",
+          "options": [
+            "Predicaban sobre Jesús y hacían milagros",
+            "Robaban del templo",
+            "Incitaban revolución política",
+            "Violaban leyes alimentarias"
+          ],
+          "answer": "Predicaban sobre Jesús y hacían milagros",
+          "reference": "Hechos 4:1-3",
+          "explanation": "Las autoridades religiosas temían que el mensaje sobre Jesús se propagara."
+        },
+        {
+          "id": "atos-u1-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Poder en nombre de Jesús en Hechos 3:6",
+          "tokens": [
+            "Entonces Pedro dijo",
+            "No tengo oro ni plata",
+            "pero lo que tengo te doy",
+            "En el nombre de Jesucristo"
+          ],
+          "distractors": [
+            "Levántate y anda",
+            "de Nazaret, anda",
+            "toma tu camilla"
+          ],
+          "reference": "Hechos 3:6"
+        },
+        {
+          "id": "atos-u1-l4-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "No tengo oro ni plata pero te doy en nombre de Jesús.",
+          "options": [
+            "Oro y plata no tienen valor",
+            "No tengo oro doy en nombre de Jesús",
+            "La riqueza material es invisible"
+          ],
+          "answer": "No tengo oro doy en nombre de Jesús",
+          "reference": "Hechos 3:6"
+        },
+        {
+          "id": "atos-u1-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia los milagros con los resultados",
+          "pairs": [
+            {
+              "left": "Sanidad del cojo",
+              "right": "Admiración general"
+            },
+            {
+              "left": "Oración de los apóstoles",
+              "right": "Poder del Espíritu"
+            },
+            {
+              "left": "Predicación de Pedro",
+              "right": "Conversión de muchos"
+            },
+            {
+              "left": "Presencia apostólica",
+              "right": "Señales y maravillas"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"En nombre de Jesucristo de Nazaret, _____.\"",
+          "answer": "anda",
+          "reference": "Hechos 3:6",
+          "options": [
+            "anda",
+            "levántate"
+          ]
+        },
+        {
+          "id": "atos-u1-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Los milagros de los apóstoles sucedían incluso cuando enfrentaban oposición.",
+          "isTrue": true,
+          "reference": "Hechos 3-5",
+          "explanation": "La persecución no interrumpió el poder y los milagros de la Iglesia primitiva."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l5",
+      "title": "Repaso - Pentecostés e Iglesia Primitiva",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo Jesús preparó a Sus discípulos para Pentecostés?",
+          "text": "Después de Su resurrección, Jesús dio instrucciones específicas.",
+          "options": [
+            "Prometió que el Espíritu Santo vendría con poder",
+            "Dijo que serían perseguidos",
+            "Ordenó que salieran inmediatamente",
+            "No los preparó de forma especial"
+          ],
+          "answer": "Prometió que el Espíritu Santo vendría con poder",
+          "reference": "Hechos 1:4-8",
+          "explanation": "Jesús prometió el Espíritu Santo y el poder para ser testigos."
+        },
+        {
+          "id": "atos-u1-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La Iglesia primitiva enfrentó persecución pero continuó creciendo.",
+          "isTrue": true,
+          "reference": "Hechos 1-7",
+          "explanation": "A pesar de las encarcelaciones y amenazas, la Iglesia primitiva creció exponencialmente."
+        },
+        {
+          "id": "atos-u1-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál era el secreto del éxito de la Iglesia primitiva?",
+          "text": "Varios factores contribuyeron a su crecimiento extraordinario.",
+          "options": [
+            "Doctrina apostólica, comunión, oración y milagros",
+            "Riqueza material",
+            "Apoyo político",
+            "Construcción de grandes templos"
+          ],
+          "answer": "Doctrina apostólica, comunión, oración y milagros",
+          "reference": "Hechos 2:42-47",
+          "explanation": "El fundamento era espiritual, no material o político."
+        },
+        {
+          "id": "atos-u1-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo de repaso",
+          "text": "Resumen de Pentecostés e Iglesia",
+          "tokens": [
+            "Recibiréis poder",
+            "del Espíritu Santo",
+            "y perseveraban en la doctrina",
+            "con mucho poder"
+          ],
+          "distractors": [
+            "y en comunión",
+            "en la oración",
+            "en el partimiento del pan"
+          ],
+          "reference": "Hechos 1:8, 2:42"
+        },
+        {
+          "id": "atos-u1-l5-e5",
+          "kind": "listen",
+          "prompt": "¿Qué versículo escuchaste?",
+          "text": "Pero recibiréis poder del Espíritu Santo.",
+          "options": [
+            "Dios dará Su Espíritu",
+            "Recibiréis poder del Espíritu Santo",
+            "El Espíritu nos capacita"
+          ],
+          "answer": "Recibiréis poder del Espíritu Santo",
+          "reference": "Hechos 1:8"
+        },
+        {
+          "id": "atos-u1-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia los elementos principales",
+          "pairs": [
+            {
+              "left": "Pentecostés",
+              "right": "Nacimiento de la Iglesia"
+            },
+            {
+              "left": "Espíritu Santo",
+              "right": "Poder para testificar"
+            },
+            {
+              "left": "Milagros",
+              "right": "Confirmación de la fe"
+            },
+            {
+              "left": "Comunión",
+              "right": "Unidad en la fe"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordena los eventos de Pentecostés",
+          "text": "Secuencia de Hechos 1-2",
+          "tokens": [
+            "Jesús promete el Espíritu",
+            "Discípulos esperan en Jerusalén",
+            "El Espíritu desciende con señales",
+            "3.000 se convierten"
+          ]
+        },
+        {
+          "id": "atos-u1-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La historia de la Iglesia primitiva es un modelo para la fe cristiana hoy.",
+          "isTrue": true,
+          "reference": "Hechos 1-2",
+          "explanation": "El poder, la unidad y el crecimiento de la Iglesia primitiva continúan inspirándonos."
+        }
+      ]
+    }
+  ]
+}

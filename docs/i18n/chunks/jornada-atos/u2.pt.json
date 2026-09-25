@@ -1,0 +1,629 @@
+{
+  "id": "atos-u2",
+  "title": "Unidade 2",
+  "subtitle": "Pedro, João e Estêvão",
+  "guide": {
+    "summary": "Pedro foi transformado de homem que negou Jesus em líder corajoso da Igreja. João foi seu companheiro fiel. Estêvão foi o primeiro mártir, demonstrando que a fé vale mais que a vida. Estes heróis nos ensinam sobre coragem, fidelidade e sacrifício.",
+    "keyVerses": [
+      {
+        "reference": "Atos 4:19-20",
+        "text": "Mas Pedro e João responderam: Julguei melhor obedecer a Deus que aos homens."
+      },
+      {
+        "reference": "Atos 5:41",
+        "text": "E eles se retiraram da presença do conselho, regozijando-se por terem sido considerados dignos de sofrer afronta pelo nome de Jesus."
+      },
+      {
+        "reference": "Atos 7:59",
+        "text": "E apedrejavam a Estêvão que invocava e dizia: Senhor Jesus, recebe o meu espírito."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u2-l1",
+      "title": "Pedro Ousado",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Como Pedro era antes de Pentecostes?",
+          "text": "Pedro tinha uma característica bem marcante antes de receber o Espírito Santo.",
+          "options": [
+            "Medo e negação de Jesus",
+            "Líder confiante",
+            "Guerreiro violento",
+            "Pregador eloquente"
+          ],
+          "answer": "Medo e negação de Jesus",
+          "reference": "Mateus 26:69-75, Atos 1",
+          "explanation": "Pedro havia negado Jesus três vezes por medo, mas depois se transformou."
+        },
+        {
+          "id": "atos-u2-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Após Pentecostes, Pedro se tornou um homem corajoso e destemido.",
+          "isTrue": true,
+          "reference": "Atos 2-5",
+          "explanation": "A transformação de Pedro é dramática: de negador a pregador audacioso."
+        },
+        {
+          "id": "atos-u2-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual foi a resposta de Pedro quando ordenaram que não pregasse?",
+          "text": "As autoridades tentaram silenciar Pedro, mas ele respondeu com coragem.",
+          "options": [
+            "Julguei melhor obedecer a Deus que aos homens",
+            "Vou obedecer e parar de pregar",
+            "Vou esconder-me",
+            "Vou fazer uma rebelião"
+          ],
+          "answer": "Julguei melhor obedecer a Deus que aos homens",
+          "reference": "Atos 4:19-20",
+          "explanation": "Pedro afirmou que sua obediência a Deus é mais importante que obedecer aos homens."
+        },
+        {
+          "id": "atos-u2-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A resposta corajosa de Pedro",
+          "tokens": [
+            "Mas Pedro e João responderam",
+            "Julguei melhor obedecer a Deus",
+            "que aos homens",
+            "porque vimos e ouvimos"
+          ],
+          "distractors": [
+            "e testemunhamos",
+            "do que foi revelado",
+            "a todos"
+          ],
+          "reference": "Atos 4:19-20"
+        },
+        {
+          "id": "atos-u2-l1-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Julguei melhor obedecer a Deus que aos homens.",
+          "options": [
+            "Deus é mais importante",
+            "Julguei melhor obedecer Deus",
+            "Homens não devem mandar"
+          ],
+          "answer": "Julguei melhor obedecer Deus",
+          "reference": "Atos 4:19"
+        },
+        {
+          "id": "atos-u2-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe a transformação de Pedro",
+          "pairs": [
+            {
+              "left": "Antes",
+              "right": "Medo e negação"
+            },
+            {
+              "left": "Pentecostes",
+              "right": "Enchimento do Espírito"
+            },
+            {
+              "left": "Depois",
+              "right": "Coragem e liderança"
+            },
+            {
+              "left": "Resultado",
+              "right": "Multidões se convertem"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Julguei melhor obedecer a Deus que aos _____.\"",
+          "answer": "homens",
+          "reference": "Atos 4:19",
+          "options": [
+            "homens",
+            "líderes"
+          ]
+        },
+        {
+          "id": "atos-u2-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A coragem de Pedro veio de sua força pessoal e determinação.",
+          "isTrue": false,
+          "reference": "Atos 4:8, 1:8",
+          "explanation": "A coragem de Pedro veio do Espírito Santo, não de sua própria força."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l2",
+      "title": "João, o Companheiro",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual era a relação entre Pedro e João?",
+          "text": "Estes dois apóstolos trabalharam juntos frequentemente nos Atos.",
+          "options": [
+            "Eram companheiros inseparáveis na obra",
+            "Eram rivais",
+            "Não tinham contato",
+            "Tinham opiniões opostas"
+          ],
+          "answer": "Eram companheiros inseparáveis na obra",
+          "reference": "Atos 3:1, 4:13, 8:14",
+          "explanation": "Pedro e João trabalharam juntos pregando, curando e enfrentando perseguição."
+        },
+        {
+          "id": "atos-u2-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "João era um homem sem instrução formal, mas tinha encontrado com Jesus.",
+          "isTrue": true,
+          "reference": "Atos 4:13",
+          "explanation": "Lucas observa que Pedro e João eram homens sem letras, mas a coragem vinha de Jesus."
+        },
+        {
+          "id": "atos-u2-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "O que surpreendeu os líderes em Pedro e João?",
+          "text": "Mesmo sendo sem instrução formal, impressionavam com sua mensagem.",
+          "options": [
+            "Sua coragem e confiança em Jesus",
+            "Sua riqueza material",
+            "Seu conhecimento da lei",
+            "Seu apoio político"
+          ],
+          "answer": "Sua coragem e confiança em Jesus",
+          "reference": "Atos 4:13",
+          "explanation": "Estava claro que a autoridade deles vinha de um encontro real com Jesus."
+        },
+        {
+          "id": "atos-u2-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Observação sobre Pedro e João em Atos 4:13",
+          "tokens": [
+            "Então, vendo a ousadia",
+            "de Pedro e João",
+            "e considerando que eram",
+            "homens sem letras"
+          ],
+          "distractors": [
+            "e sem instrução",
+            "reconheceram",
+            "que tinham estado com Jesus"
+          ],
+          "reference": "Atos 4:13"
+        },
+        {
+          "id": "atos-u2-l2-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Reconheceram que tinham estado com Jesus.",
+          "options": [
+            "Foram discípulos de um rabino",
+            "Tinham estado com Jesus",
+            "Aprenderam filosofia grega"
+          ],
+          "answer": "Tinham estado com Jesus",
+          "reference": "Atos 4:13"
+        },
+        {
+          "id": "atos-u2-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe características de João",
+          "pairs": [
+            {
+              "left": "Companheiro",
+              "right": "Sempre com Pedro"
+            },
+            {
+              "left": "Sem letras",
+              "right": "Sem instrução formal"
+            },
+            {
+              "left": "Ousadia",
+              "right": "Coragem em Jesus"
+            },
+            {
+              "left": "Encontro com Jesus",
+              "right": "Fonte de poder"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Reconheceram que tinham estado com _____.\"",
+          "answer": "Jesus",
+          "reference": "Atos 4:13",
+          "options": [
+            "Jesus",
+            "o Senhor"
+          ]
+        },
+        {
+          "id": "atos-u2-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A fidelidade de João a Pedro é um exemplo de companheirismo cristão.",
+          "isTrue": true,
+          "reference": "Atos 3-5",
+          "explanation": "João permanecia ao lado de Pedro na pregação, cura e até na prisão."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l3",
+      "title": "Estêvão, o Primeiro Mártir",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Quem foi Estêvão?",
+          "text": "Um homem cheio de fé e do Espírito Santo na Igreja primitiva.",
+          "options": [
+            "Um diácono escolhido para servir",
+            "Um apóstolo dos doze",
+            "Um sacerdote do templo",
+            "Um escriba da lei"
+          ],
+          "answer": "Um diácono escolhido para servir",
+          "reference": "Atos 6:1-6",
+          "explanation": "Estêvão foi escolhido entre os sete diáconos para servir as viúvas."
+        },
+        {
+          "id": "atos-u2-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Estêvão realizava sinais e maravilhas e enfrentava oposição verbal.",
+          "isTrue": true,
+          "reference": "Atos 6:8, 6:9-10",
+          "explanation": "Estêvão não apenas servia, mas também operava milagres e testemunhava."
+        },
+        {
+          "id": "atos-u2-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "Como Estêvão morreu?",
+          "text": "Sua morte foi um teste extremo de sua fé em Jesus.",
+          "options": [
+            "Apedrejado por opositores",
+            "Crucificado como Jesus",
+            "Preso e morreu na cadeia",
+            "Morreu de doença"
+          ],
+          "answer": "Apedrejado por opositores",
+          "reference": "Atos 7:57-60",
+          "explanation": "Estêvão foi o primeiro cristão martirizado, apedrejado por sua fé."
+        },
+        {
+          "id": "atos-u2-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Última oração de Estêvão em Atos 7:59-60",
+          "tokens": [
+            "Senhor Jesus",
+            "recebe o meu espírito",
+            "e não lhes imputem",
+            "este pecado"
+          ],
+          "distractors": [
+            "ajoelhou-se",
+            "e clamou",
+            "com grande voz"
+          ],
+          "reference": "Atos 7:59-60"
+        },
+        {
+          "id": "atos-u2-l3-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Senhor Jesus recebe o meu espírito.",
+          "options": [
+            "Pai perdoa seus pecados",
+            "Senhor Jesus recebe espírito",
+            "Vejo os céus abertos"
+          ],
+          "answer": "Senhor Jesus recebe espírito",
+          "reference": "Atos 7:59"
+        },
+        {
+          "id": "atos-u2-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe características de Estêvão",
+          "pairs": [
+            {
+              "left": "Servo fiel",
+              "right": "Diácono generoso"
+            },
+            {
+              "left": "Operador de milagres",
+              "right": "Sinais e maravilhas"
+            },
+            {
+              "left": "Martirizado",
+              "right": "Apedrejado"
+            },
+            {
+              "left": "Perdão",
+              "right": "Não imputar pecado"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Senhor Jesus, recebe o meu _____.\"",
+          "answer": "espírito",
+          "reference": "Atos 7:59",
+          "options": [
+            "espírito",
+            "alma"
+          ]
+        },
+        {
+          "id": "atos-u2-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Estêvão enfrentou a morte com medo e arrependimento de sua fé.",
+          "isTrue": false,
+          "reference": "Atos 7:55-60",
+          "explanation": "Estêvão enfrentou a morte com paz, visão do céu e perdão pelos seus matadores."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l4",
+      "title": "Lições de Coragem",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual é a lição principal sobre perseguição em Atos?",
+          "text": "Pedro, João e Estêvão enfrentaram oposição de formas diferentes.",
+          "options": [
+            "A fé nos sustenta mesmo na adversidade",
+            "Devemos evitar a perseguição a qualquer custo",
+            "A fé não importa quando há oposição",
+            "Devemos usar violência para nos defender"
+          ],
+          "answer": "A fé nos sustenta mesmo na adversidade",
+          "reference": "Atos 2-7",
+          "explanation": "Todos os três continuaram fiéis, demonstrando que a fé transcende a perseguição."
+        },
+        {
+          "id": "atos-u2-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Deus abandona Seus servos quando enfrentam perseguição grave.",
+          "isTrue": false,
+          "reference": "Atos 2-7",
+          "explanation": "Deus estava presente e capacitava Seus servos mesmo durante a perseguição mais severa."
+        },
+        {
+          "id": "atos-u2-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "O que Pedro e João mostraram quando presos?",
+          "text": "Sua reação demonstra o que significa verdadeira fé.",
+          "options": [
+            "Regozijo por sofrer pela fé em Cristo",
+            "Tristeza e arrependimento",
+            "Fuga e esconderijo",
+            "Negociação com as autoridades"
+          ],
+          "answer": "Regozijo por sofrer pela fé em Cristo",
+          "reference": "Atos 5:41",
+          "explanation": "Eles se retiraram da prisão rejubilando-se por serem dignos de sofrer por Jesus."
+        },
+        {
+          "id": "atos-u2-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A atitude de Pedro e João frente ao sofrer",
+          "tokens": [
+            "E retiraram-se da presença",
+            "do conselho",
+            "regozijando-se",
+            "por terem sido considerados dignos"
+          ],
+          "distractors": [
+            "de sofrer afronta",
+            "pelo nome de Jesus",
+            "e prosseguiram pregando"
+          ],
+          "reference": "Atos 5:41"
+        },
+        {
+          "id": "atos-u2-l4-e5",
+          "kind": "listen",
+          "prompt": "O que você ouviu?",
+          "text": "Regozijando-se por terem sido considerados dignos.",
+          "options": [
+            "Sofrer pela fé é privilégio",
+            "Regozijaram dignos sofrer",
+            "Felizes com perseguição"
+          ],
+          "answer": "Regozijaram dignos sofrer",
+          "reference": "Atos 5:41"
+        },
+        {
+          "id": "atos-u2-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe lições de coragem",
+          "pairs": [
+            {
+              "left": "Pedro",
+              "right": "Obediência a Deus acima de tudo"
+            },
+            {
+              "left": "João",
+              "right": "Companheirismo fiel"
+            },
+            {
+              "left": "Estêvão",
+              "right": "Perdão até o fim"
+            },
+            {
+              "left": "Todos os três",
+              "right": "Regozijo no sofrimento"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete a frase",
+          "text": "\"Retiraram-se da presença do conselho, regozijando-se por terem sido considerados dignos de sofrer afronta pelo nome de _____.\"",
+          "answer": "Jesus",
+          "reference": "Atos 5:41",
+          "options": [
+            "Jesus",
+            "Deus"
+          ]
+        },
+        {
+          "id": "atos-u2-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A coragem destes heróis é um modelo inspirador para cristãos de todas as épocas.",
+          "isTrue": true,
+          "reference": "Atos 2-7",
+          "explanation": "Suas vidas continuam inspirando cristãos a permanecerem fiéis em qualquer circunstância."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l5",
+      "title": "Revisão - Pedro, João e Estêvão",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Como Pedro foi transformado?",
+          "text": "A jornada de Pedro é uma das maiores transformações bíblicas.",
+          "options": [
+            "Do medo para a coragem através do Espírito Santo",
+            "Através do seu próprio esforço",
+            "Pela influência de João",
+            "Pela aprovação das autoridades"
+          ],
+          "answer": "Do medo para a coragem através do Espírito Santo",
+          "reference": "Atos 1-2",
+          "explanation": "Pentecostes marcou a transformação dramática de Pedro."
+        },
+        {
+          "id": "atos-u2-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Pedro e João enfrentaram prisão mas continuaram pregando.",
+          "isTrue": true,
+          "reference": "Atos 4-5",
+          "explanation": "Nenhuma ameaça silenciou estes heróis da fé primitiva."
+        },
+        {
+          "id": "atos-u2-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "Qual foi o legado de Estêvão?",
+          "text": "Embora tenha morrido jovem, seu impacto foi grande.",
+          "options": [
+            "Testemunho de fé até o martírio e influência no jovem Saulo",
+            "Estabelecimento de uma comunidade cristã",
+            "Escrita de livros importantes",
+            "Conversão das autoridades"
+          ],
+          "answer": "Testemunho de fé até o martírio e influência no jovem Saulo",
+          "reference": "Atos 7, 8:1",
+          "explanation": "Saulo presenciou a morte de Estêvão e depois se tornou Paulo, o grande apóstolo."
+        },
+        {
+          "id": "atos-u2-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo de revisão",
+          "text": "Resumo de heroísmo em Atos",
+          "tokens": [
+            "Julguei melhor obedecer a Deus",
+            "regozijando-se em sofrer",
+            "e perdoando aos inimigos",
+            "assim se viveu a fé primitiva"
+          ],
+          "distractors": [
+            "e proclamando Jesus",
+            "com coragem",
+            "até a morte"
+          ],
+          "reference": "Atos 4:19, 5:41, 7:60"
+        },
+        {
+          "id": "atos-u2-l5-e5",
+          "kind": "listen",
+          "prompt": "Qual lição você ouviu?",
+          "text": "Judguei melhor obedecer a Deus que aos homens.",
+          "options": [
+            "Autoridade de Deus é suprema",
+            "Julguei melhor obedecer Deus",
+            "Respeito pela ordem humana"
+          ],
+          "answer": "Julguei melhor obedecer Deus",
+          "reference": "Atos 4:19"
+        },
+        {
+          "id": "atos-u2-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Associe as vidas impactantes",
+          "pairs": [
+            {
+              "left": "Pedro",
+              "right": "Líder corajoso"
+            },
+            {
+              "left": "João",
+              "right": "Companheiro fiel"
+            },
+            {
+              "left": "Estêvão",
+              "right": "Primeiro mártir"
+            },
+            {
+              "left": "Legado",
+              "right": "Inspiração até hoje"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordene os eventos principais",
+          "text": "Cronologia de coragem em Atos 2-7",
+          "tokens": [
+            "Pentecostes e coragem de Pedro",
+            "Prisão e libertação",
+            "Escolha de Estêvão como diácono",
+            "Martírio de Estêvão"
+          ]
+        },
+        {
+          "id": "atos-u2-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Os exemplos de Pedro, João e Estêvão mostram que a fé verdadeira persevera.",
+          "isTrue": true,
+          "reference": "Atos 2-7",
+          "explanation": "Estes três homens demonstraram que a fé cristã é duradoura e transformadora."
+        }
+      ]
+    }
+  ]
+}

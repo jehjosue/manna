@@ -1,0 +1,632 @@
+{
+  "id": "salmos-u1",
+  "title": "Unit 1",
+  "subtitle": "Trust in God",
+  "guide": {
+    "summary": "The Psalms of trust teach us that no matter the difficulties, we can always trust in God's care. He is our protector, refuge and strength in moments of fear.",
+    "keyVerses": [
+      {
+        "reference": "Psalm 23:1",
+        "text": "The LORD is my shepherd; I shall not want."
+      },
+      {
+        "reference": "Psalm 27:1",
+        "text": "The LORD is my light and my salvation; whom shall I fear?"
+      },
+      {
+        "reference": "Psalm 91:1-2",
+        "text": "He who dwells in the secret place of the Most High shall lodge under the shadow of the Almighty."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "salmos-u1-l1",
+      "title": "The Loving Shepherd",
+      "icon": "leaf.fill",
+      "exercises": [
+        {
+          "id": "salmos-u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"The LORD is my shepherd, I shall not _____.\"",
+          "speaker": "David",
+          "options": [
+            "want",
+            "fear",
+            "be forsaken",
+            "be deceived"
+          ],
+          "answer": "want",
+          "reference": "Psalm 23:1",
+          "explanation": "When God is our shepherd, He provides all our needs, whether food, protection, or love."
+        },
+        {
+          "id": "salmos-u1-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Psalm 23 compares God to a shepherd who cares for his sheep.",
+          "isTrue": true,
+          "reference": "Psalm 23",
+          "explanation": "David uses the image of the shepherd to express God's loving care and protection."
+        },
+        {
+          "id": "salmos-u1-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "What does 'the valley of the shadow of death' mean in Psalm 23?",
+          "text": "\"Even though I walk through the valley of the shadow of death, I will fear no evil.\"",
+          "options": [
+            "The moments of greatest difficulty and fear",
+            "A specific place in Palestine",
+            "The time of literal death",
+            "David's vision about the future"
+          ],
+          "answer": "The moments of greatest difficulty and fear",
+          "reference": "Psalm 23:4",
+          "explanation": "Even in adversity, we trust that God is with us and protects us."
+        },
+        {
+          "id": "salmos-u1-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "God's promise in Psalm 23:4",
+          "tokens": [
+            "Even though I walk",
+            "through the valley of the shadow of death",
+            "I will fear no evil",
+            "because you are with me"
+          ],
+          "distractors": [
+            "nor shall there be",
+            "for God guards",
+            "my life"
+          ],
+          "reference": "Psalm 23:4"
+        },
+        {
+          "id": "salmos-u1-l1-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "The LORD is my light and my salvation.",
+          "options": [
+            "The LORD is my protector and defender",
+            "The LORD is my light and salvation",
+            "The LORD is my judge and king"
+          ],
+          "answer": "The LORD is my light and salvation",
+          "reference": "Psalm 27:1"
+        },
+        {
+          "id": "salmos-u1-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Shepherd",
+              "right": "God in Ps 23"
+            },
+            {
+              "left": "Sheep",
+              "right": "God's people"
+            },
+            {
+              "left": "Green pastures",
+              "right": "Rest"
+            },
+            {
+              "left": "Still waters",
+              "right": "Comfort"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Fill in the blank",
+          "text": "\"The LORD is my light and my _____.\"",
+          "answer": "salvation",
+          "reference": "Psalm 27:1",
+          "options": [
+            "salvation",
+            "savation"
+          ]
+        },
+        {
+          "id": "salmos-u1-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Trusting in God means we will never face difficulties.",
+          "isTrue": false,
+          "reference": "Psalm 23:4",
+          "explanation": "Trusting in God does not mean being free from difficulties, but knowing that He is with us in every situation."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u1-l2",
+      "title": "Refuge and Fortress",
+      "icon": "shield.fill",
+      "exercises": [
+        {
+          "id": "salmos-u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"God is our refuge and fortress, a very present help in _____.\"",
+          "speaker": "Psalmist",
+          "options": [
+            "trouble",
+            "wars",
+            "persecution",
+            "temptation"
+          ],
+          "answer": "trouble",
+          "reference": "Psalm 46:1",
+          "explanation": "In all trouble, we can run to God's refuge and find security."
+        },
+        {
+          "id": "salmos-u1-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Psalm 46 speaks about God defeating enemies in a literal battle.",
+          "isTrue": false,
+          "reference": "Psalm 46:6-11",
+          "explanation": "Psalm 46 is mainly about God as spiritual refuge, with poetic language about divine trust."
+        },
+        {
+          "id": "salmos-u1-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the central message of Psalm 46:10?",
+          "text": "\"Be still, and know that I am God.\"",
+          "options": [
+            "Rest in God and acknowledge His authority",
+            "Be silent during prayer",
+            "Accept God's orders without questioning",
+            "Wait patiently for an answer"
+          ],
+          "answer": "Rest in God and acknowledge His authority",
+          "reference": "Psalm 46:10",
+          "explanation": "Stillness allows us to trust and accept God's supreme dominion in our lives."
+        },
+        {
+          "id": "salmos-u1-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "God's promise in Psalm 46:1",
+          "tokens": [
+            "God is our refuge",
+            "and fortress",
+            "a very present help",
+            "in trouble"
+          ],
+          "distractors": [
+            "and shield",
+            "very much present",
+            "in tribulation"
+          ],
+          "reference": "Psalm 46:1"
+        },
+        {
+          "id": "salmos-u1-l2-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "God is our refuge and fortress.",
+          "options": [
+            "Trust in God, the Lord",
+            "God is refuge and fortress",
+            "Praise God, alleluia"
+          ],
+          "answer": "God is refuge and fortress",
+          "reference": "Psalm 46:1"
+        },
+        {
+          "id": "salmos-u1-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the concepts",
+          "pairs": [
+            {
+              "left": "Refuge",
+              "right": "Protection and safety"
+            },
+            {
+              "left": "Fortress",
+              "right": "Strength and power"
+            },
+            {
+              "left": "Help",
+              "right": "Aid and succor"
+            },
+            {
+              "left": "Trouble",
+              "right": "Affliction and suffering"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"Be still, and know that I am _____.\"",
+          "answer": "God",
+          "reference": "Psalm 46:10",
+          "options": [
+            "God",
+            "God."
+          ]
+        },
+        {
+          "id": "salmos-u1-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "God promises that if we trust in Him, we will not face wars or conflicts.",
+          "isTrue": false,
+          "reference": "Psalm 46",
+          "explanation": "God promises to be with us and be our strength in difficulties, not necessarily to spare us from them."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u1-l3",
+      "title": "Protection Under His Wings",
+      "icon": "bird.fill",
+      "exercises": [
+        {
+          "id": "salmos-u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"He who dwells in the secret place of the Most High shall lodge under the shadow of the _____.\"",
+          "speaker": "Psalmist",
+          "options": [
+            "Almighty",
+            "LORD",
+            "Eternal One",
+            "Creator"
+          ],
+          "answer": "Almighty",
+          "reference": "Psalm 91:1",
+          "explanation": "Whoever trusts in the all-powerful God finds refuge and rest in His protection."
+        },
+        {
+          "id": "salmos-u1-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Psalm 91 promises that God protects us from all danger with His wings.",
+          "isTrue": true,
+          "reference": "Psalm 91:4",
+          "explanation": "The image of God's wings symbolizes protection, safety, and maternal care."
+        },
+        {
+          "id": "salmos-u1-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "What does Psalm 91:2 say about God?",
+          "text": "\"I will say of the LORD, 'He is my refuge and my _____.\"",
+          "options": [
+            "fortress",
+            "judge",
+            "deliverer",
+            "king"
+          ],
+          "answer": "fortress",
+          "reference": "Psalm 91:2",
+          "explanation": "God is our refuge (protection) and our fortress (stronghold), a safe place."
+        },
+        {
+          "id": "salmos-u1-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "God's protection in Psalm 91:4",
+          "tokens": [
+            "He will cover you",
+            "with his feathers",
+            "and under his wings",
+            "you will be safe"
+          ],
+          "distractors": [
+            "he will rescue you",
+            "he will defend you",
+            "with his power"
+          ],
+          "reference": "Psalm 91:4"
+        },
+        {
+          "id": "salmos-u1-l3-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "He will cover you with his feathers.",
+          "options": [
+            "God will give you wings to fly",
+            "God will cover you with his feathers",
+            "His protection will come soon"
+          ],
+          "answer": "God will cover you with his feathers",
+          "reference": "Psalm 91:4"
+        },
+        {
+          "id": "salmos-u1-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the symbolic language",
+          "pairs": [
+            {
+              "left": "Wings",
+              "right": "Protection and embrace"
+            },
+            {
+              "left": "Secret place",
+              "right": "Safe refuge"
+            },
+            {
+              "left": "Shadow",
+              "right": "Divine covering"
+            },
+            {
+              "left": "Nest",
+              "right": "Place of rest"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Fill in the blank",
+          "text": "\"You are my refuge and my _____.\"",
+          "answer": "fortress",
+          "reference": "Psalm 91:2",
+          "options": [
+            "fortress",
+            "shelter"
+          ]
+        },
+        {
+          "id": "salmos-u1-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "God's protection in Psalm 91 includes protection from all kinds of evil.",
+          "isTrue": false,
+          "reference": "Psalm 91",
+          "explanation": "Psalm 91 speaks about spiritual protection and trust, not exemption from all physical suffering."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u1-l4",
+      "title": "Security in the Most High",
+      "icon": "mountain.2.fill",
+      "exercises": [
+        {
+          "id": "salmos-u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Who is the 'Most High' in Psalm 91?",
+          "text": "\"He who dwells in the secret place of the Most High...\"",
+          "options": [
+            "God the Father",
+            "The highest mountain",
+            "The heaven",
+            "The Lord Jesus"
+          ],
+          "answer": "God the Father",
+          "reference": "Psalm 91:1",
+          "explanation": "Most High is one of God's names that expresses His supremacy and absolute power."
+        },
+        {
+          "id": "salmos-u1-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Psalm 91 was written by David when he was fleeing from Saul.",
+          "isTrue": false,
+          "reference": "Psalm 91",
+          "explanation": "The author of Psalm 91 is not identified; it is a psalm of trust for anyone in difficult times."
+        },
+        {
+          "id": "salmos-u1-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the condition for receiving protection in Psalm 91:9-10?",
+          "text": "\"Because you have said, 'The LORD is my refuge.'\"",
+          "options": [
+            "Making the LORD our refuge",
+            "Following all of Moses' laws",
+            "Making sacrifices at the temple",
+            "Never sinning"
+          ],
+          "answer": "Making the LORD our refuge",
+          "reference": "Psalm 91:9",
+          "explanation": "God's protection is available to those who choose Him as refuge and trust in Him."
+        },
+        {
+          "id": "salmos-u1-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Trust in God in Psalm 91:2",
+          "tokens": [
+            "I will say to the LORD",
+            "You are my refuge",
+            "and my fortress",
+            "my God"
+          ],
+          "distractors": [
+            "my protecting God",
+            "my shield",
+            "my deliverer"
+          ],
+          "reference": "Psalm 91:2"
+        },
+        {
+          "id": "salmos-u1-l4-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Because you have said The LORD is my refuge.",
+          "options": [
+            "The LORD is my king",
+            "The LORD is my refuge",
+            "Trust in the LORD"
+          ],
+          "answer": "The LORD is my refuge",
+          "reference": "Psalm 91:9"
+        },
+        {
+          "id": "salmos-u1-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the names of God",
+          "pairs": [
+            {
+              "left": "Most High",
+              "right": "Divine supremacy"
+            },
+            {
+              "left": "Almighty",
+              "right": "All-powerful"
+            },
+            {
+              "left": "Refuge",
+              "right": "Place of protection"
+            },
+            {
+              "left": "Fortress",
+              "right": "Strong stronghold"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the text",
+          "text": "\"He who dwells in the secret place of the Most High, under the shadow of the Almighty _____.\"",
+          "answer": "will rest",
+          "reference": "Psalm 91:1",
+          "options": [
+            "will rest",
+            "will find peace"
+          ]
+        },
+        {
+          "id": "salmos-u1-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "God's protection in Psalm 91 is only for the perfectly righteous.",
+          "isTrue": false,
+          "reference": "Psalm 91",
+          "explanation": "God's protection is available to all those who seek refuge in Him with genuine faith."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u1-l5",
+      "title": "Review - Trust in God",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "salmos-u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Which psalm begins with 'The LORD is my shepherd'?",
+          "text": "This is one of the most famous psalms about trust in God.",
+          "options": [
+            "Psalm 23",
+            "Psalm 46",
+            "Psalm 91",
+            "Psalm 27"
+          ],
+          "answer": "Psalm 23",
+          "reference": "Psalm 23:1",
+          "explanation": "Psalm 23 is the most well-known psalm of trust, using the image of shepherd and sheep."
+        },
+        {
+          "id": "salmos-u1-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "All the psalms of trust were written by David.",
+          "isTrue": false,
+          "reference": "Book of Psalms",
+          "explanation": "Many psalms were written by David, but others were written by different authors throughout Israel's history."
+        },
+        {
+          "id": "salmos-u1-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "What image does God use to protect in Psalm 91?",
+          "text": "This comparison expresses maternal care and total protection.",
+          "options": [
+            "A mother's wings",
+            "A shield in war",
+            "A stone wall",
+            "A warrior king"
+          ],
+          "answer": "A mother's wings",
+          "reference": "Psalm 91:4",
+          "explanation": "The image of wings symbolizes God's embracing protection for His children."
+        },
+        {
+          "id": "salmos-u1-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the review verse",
+          "text": "Verse of trust summarized",
+          "tokens": [
+            "The LORD is",
+            "my refuge",
+            "my fortress",
+            "and my God"
+          ],
+          "distractors": [
+            "my judge",
+            "my king",
+            "my glory"
+          ],
+          "reference": "Psalm 46:1, 91:2"
+        },
+        {
+          "id": "salmos-u1-l5-e5",
+          "kind": "listen",
+          "prompt": "Which verse did you hear?",
+          "text": "The LORD is my shepherd, I shall not want.",
+          "options": [
+            "God is my protector",
+            "The LORD is my shepherd",
+            "Trust in the LORD always"
+          ],
+          "answer": "The LORD is my shepherd",
+          "reference": "Psalm 23:1"
+        },
+        {
+          "id": "salmos-u1-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the psalm to the theme",
+          "pairs": [
+            {
+              "left": "Psalm 23",
+              "right": "Loving shepherd"
+            },
+            {
+              "left": "Psalm 46",
+              "right": "Safe refuge"
+            },
+            {
+              "left": "Psalm 27",
+              "right": "Light and salvation"
+            },
+            {
+              "left": "Psalm 91",
+              "right": "Divine protection"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Put in order the characteristics of trust",
+          "text": "Progress of trust in God",
+          "tokens": [
+            "Recognize God as refuge",
+            "Make Him our fortress",
+            "Rest in His protection",
+            "Praise His faithfulness"
+          ]
+        },
+        {
+          "id": "salmos-u1-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Trust in God protects us from all and any suffering.",
+          "isTrue": false,
+          "reference": "Psalm 23:4, 46:5",
+          "explanation": "Trust in God gives us spiritual security and His presence, not elimination of all difficulties."
+        }
+      ]
+    }
+  ]
+}

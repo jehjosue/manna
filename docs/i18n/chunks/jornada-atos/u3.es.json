@@ -1,0 +1,629 @@
+{
+  "id": "atos-u3",
+  "title": "Unidad 3",
+  "subtitle": "Conversión y Viajes de Pablo",
+  "guide": {
+    "summary": "Saulo era perseguidor de cristianos cuando Jesús lo encontró en el camino de Damasco. Transformado en apóstol Pablo, viajó por todo el mundo grecorromano fundando iglesias. Sus cartas continúan guiando la fe cristiana hasta hoy.",
+    "keyVerses": [
+      {
+        "reference": "Hechos 9:15",
+        "text": "Vete, porque este es para mí un instrumento escogido para llevar mi nombre delante de los gentiles."
+      },
+      {
+        "reference": "Hechos 20:24",
+        "text": "Pero de nada hago caso, ni estimo preciosa mi vida para mí, con tal que termine mi carrera."
+      },
+      {
+        "reference": "Hechos 17:24-25",
+        "text": "El Dios que hizo el mundo no habita en templos hechos de mano."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u3-l1",
+      "title": "El Encuentro en el Camino",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "atos-u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué estaba haciendo Saulo cuando Jesús lo encontró?",
+          "text": "Saulo tenía un propósito que sería transformado.",
+          "options": [
+            "Persiguiendo cristianos hacia Damasco",
+            "Predicando en el templo",
+            "Enseñando la ley de los fariseos",
+            "Orando en secreto"
+          ],
+          "answer": "Persiguiendo cristianos hacia Damasco",
+          "reference": "Hechos 9:1-2",
+          "explanation": "Saulo estaba luchando activamente contra la Iglesia cuando su encuentro con Jesús lo cambió todo."
+        },
+        {
+          "id": "atos-u3-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Jesús se le apareció personalmente a Saulo en el camino de Damasco.",
+          "isTrue": true,
+          "reference": "Hechos 9:3-7",
+          "explanation": "El mismo Jesús resucitado se le apareció a Saulo, preguntándole por qué lo perseguía."
+        },
+        {
+          "id": "atos-u3-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál fue la primera consecuencia de la visión?",
+          "text": "La transformación comenzó con una pérdida seguida de recuperación.",
+          "options": [
+            "Saulo quedó ciego y su vista fue restaurada",
+            "Saulo cayó del caballo y se lastimó",
+            "Saulo perdió la fe inmediatamente",
+            "Saulo desapareció por tres años"
+          ],
+          "answer": "Saulo quedó ciego y su vista fue restaurada",
+          "reference": "Hechos 9:8-18",
+          "explanation": "La ceguera de Saulo era simbólica: necesitaba ser restaurado espiritualmente."
+        },
+        {
+          "id": "atos-u3-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La vocación de Pablo en Hechos 9:15",
+          "tokens": [
+            "Vete, porque este es",
+            "para mí un instrumento escogido",
+            "para llevar mi nombre",
+            "delante de los gentiles"
+          ],
+          "distractors": [
+            "y de los judíos",
+            "y de los reyes",
+            "y del pueblo"
+          ],
+          "reference": "Hechos 9:15"
+        },
+        {
+          "id": "atos-u3-l1-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Este es un instrumento escogido para llevar mi nombre.",
+          "options": [
+            "Pablo será un gran apóstol",
+            "Instrumento escogido llevar mi nombre",
+            "Jesús lo eligió para algo"
+          ],
+          "answer": "Instrumento escogido llevar mi nombre",
+          "reference": "Hechos 9:15"
+        },
+        {
+          "id": "atos-u3-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia etapas de la conversión",
+          "pairs": [
+            {
+              "left": "Visión de Jesús",
+              "right": "Encuentro transformador"
+            },
+            {
+              "left": "Ceguera",
+              "right": "Símbolo de cambio"
+            },
+            {
+              "left": "Visión restaurada",
+              "right": "Regeneración espiritual"
+            },
+            {
+              "left": "Bautismo",
+              "right": "Sello de la conversión"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Este es un instrumento escogido para llevar mi nombre delante de los _____.\"",
+          "answer": "gentiles",
+          "reference": "Hechos 9:15",
+          "options": [
+            "gentiles",
+            "pueblos"
+          ]
+        },
+        {
+          "id": "atos-u3-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La conversión de Pablo fue solo un evento, sin cambio duradero.",
+          "isTrue": false,
+          "reference": "Hechos 9-28",
+          "explanation": "Pablo pasó el resto de su vida dedicado a Jesús y al evangelio."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l2",
+      "title": "Los Tres Viajes Misioneros",
+      "icon": "tent.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál era el método de Pablo en sus viajes?",
+          "text": "Pablo tenía una estrategia clara para evangelizar.",
+          "options": [
+            "Ir a las sinagogas de los judíos y luego a los gentiles",
+            "Solo hablar con personas ricas",
+            "Evitar completamente a los judíos",
+            "Predicar solo en ciudades grandes"
+          ],
+          "answer": "Ir a las sinagogas de los judíos y luego a los gentiles",
+          "reference": "Hechos 13:14, 17:22-23",
+          "explanation": "Pablo siempre comenzaba en las sinagogas, presentando a Jesús primero a los judíos."
+        },
+        {
+          "id": "atos-u3-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Pablo viajó solo en sus misiones.",
+          "isTrue": false,
+          "reference": "Hechos 13-21",
+          "explanation": "Pablo tenía compañeros como Bernabé, Silas y Timoteo en sus jornadas."
+        },
+        {
+          "id": "atos-u3-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué enfrentó Pablo durante sus viajes?",
+          "text": "Los viajes de Pablo fueron marcados por persecución continua.",
+          "options": [
+            "Persecución, encarcelamientos, azotes y naufragio",
+            "Bienestar material y reconocimiento",
+            "Silencio completo",
+            "Apoyo irrestricto de todos"
+          ],
+          "answer": "Persecución, encarcelamientos, azotes y naufragio",
+          "reference": "Hechos 14-28, 2 Corintios 11:24-27",
+          "explanation": "Pablo sufrió tremendamente por el evangelio, pero nunca se dio por vencido."
+        },
+        {
+          "id": "atos-u3-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Compromiso de Pablo en Hechos 20:24",
+          "tokens": [
+            "Pero de nada hago caso",
+            "ni estimo preciosa",
+            "mi vida para mí",
+            "con tal que termine"
+          ],
+          "distractors": [
+            "mi carrera",
+            "que el Señor me dio",
+            "para testificar"
+          ],
+          "reference": "Hechos 20:24"
+        },
+        {
+          "id": "atos-u3-l2-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Ni estimo preciosa mi vida para mí.",
+          "options": [
+            "Pablo valoraba su vida",
+            "Ni estimo vida por preciosa",
+            "La vida no tiene valor"
+          ],
+          "answer": "Ni estimo vida por preciosa",
+          "reference": "Hechos 20:24"
+        },
+        {
+          "id": "atos-u3-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia aspectos de los viajes",
+          "pairs": [
+            {
+              "left": "Estrategia",
+              "right": "Sinagoga y luego gentiles"
+            },
+            {
+              "left": "Compañeros",
+              "right": "Bernabé, Silas, Timoteo"
+            },
+            {
+              "left": "Desafíos",
+              "right": "Persecución continua"
+            },
+            {
+              "left": "Motivación",
+              "right": "Cumplir la carrera de Jesús"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Con tal que termine mi _____.\"",
+          "answer": "carrera",
+          "reference": "Hechos 20:24",
+          "options": [
+            "carrera",
+            "misión"
+          ]
+        },
+        {
+          "id": "atos-u3-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Pablo estableció iglesias en múltiples regiones durante sus viajes.",
+          "isTrue": true,
+          "reference": "Hechos 13-21",
+          "explanation": "Pablo fundó iglesias en Antioquía, Corinto, Éfeso y muchos otros lugares."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l3",
+      "title": "Areópago: Predicación en Atenas",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Dónde predicó Pablo su famoso discurso?",
+          "text": "Una ciudad conocida por la filosofía y múltiples dioses.",
+          "options": [
+            "En el Areópago en Atenas",
+            "En el templo de Éfeso",
+            "En la sinagoga de Corinto",
+            "En la prisión de Roma"
+          ],
+          "answer": "En el Areópago en Atenas",
+          "reference": "Hechos 17:22-31",
+          "explanation": "Atenas era un centro intelectual donde Pablo confrontó filosofías paganas."
+        },
+        {
+          "id": "atos-u3-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Pablo reconoció el altar al dios desconocido en Atenas.",
+          "isTrue": true,
+          "reference": "Hechos 17:23",
+          "explanation": "Pablo utilizó este altar como punto de partida para predicar a Jesús."
+        },
+        {
+          "id": "atos-u3-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál fue el mensaje central del discurso en el Areópago?",
+          "text": "Pablo presentó verdades sobre Dios a los griegos.",
+          "options": [
+            "Dios no habita en templos hechos de mano",
+            "Los ídolos son superiores a Dios",
+            "Dios necesita los sacrificios de los hombres",
+            "Los dioses griegos son verdaderos"
+          ],
+          "answer": "Dios no habita en templos hechos de mano",
+          "reference": "Hechos 17:24-25",
+          "explanation": "Pablo confrontó el politeísmo con la verdad sobre el único Dios verdadero."
+        },
+        {
+          "id": "atos-u3-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Verdad sobre Dios en Hechos 17:24-25",
+          "tokens": [
+            "El Dios que hizo el mundo",
+            "no habita en templos",
+            "hechos de mano",
+            "ni es servido por manos"
+          ],
+          "distractors": [
+            "humanas como si necesitara",
+            "de algo",
+            "pues él mismo"
+          ],
+          "reference": "Hechos 17:24-25"
+        },
+        {
+          "id": "atos-u3-l3-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "El Dios que hizo el mundo no habita en templos.",
+          "options": [
+            "Dios es espíritu y omnipresente",
+            "Dios no habita en templos",
+            "Los templos no contienen a Dios"
+          ],
+          "answer": "Dios no habita en templos",
+          "reference": "Hechos 17:24"
+        },
+        {
+          "id": "atos-u3-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia elementos del discurso",
+          "pairs": [
+            {
+              "left": "Altar desconocido",
+              "right": "Apertura para el evangelio"
+            },
+            {
+              "left": "Creador",
+              "right": "Dios único y verdadero"
+            },
+            {
+              "left": "Templos",
+              "right": "No contienen a Dios"
+            },
+            {
+              "left": "Resurrección",
+              "right": "Esperanza cristiana"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"El Dios que hizo el mundo no habita en ___ hechos de mano.\"",
+          "answer": "templos",
+          "reference": "Hechos 17:24",
+          "options": [
+            "templos",
+            "edificios"
+          ]
+        },
+        {
+          "id": "atos-u3-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Todos en Atenas aceptaron inmediatamente el mensaje de Pablo.",
+          "isTrue": false,
+          "reference": "Hechos 17:32-33",
+          "explanation": "Algunos se burlaban, pero otros creyeron y se unieron a Pablo."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l4",
+      "title": "Camino a Roma",
+      "icon": "scroll.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo fue traído Pablo a Roma?",
+          "text": "Un viaje dramático marcó el fin de los Hechos.",
+          "options": [
+            "Como prisionero bajo custodia romana",
+            "Como visitante invitado",
+            "Como emigrante voluntario",
+            "Como refugiado que escapaba"
+          ],
+          "answer": "Como prisionero bajo custodia romana",
+          "reference": "Hechos 27-28",
+          "explanation": "Pablo fue encarcelado, juzgado y enviado a Roma para apelar a César."
+        },
+        {
+          "id": "atos-u3-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Durante el viaje a Roma, Pablo enfrentó un naufragio.",
+          "isTrue": true,
+          "reference": "Hechos 27:39-44",
+          "explanation": "Un barco en el que viajaba Pablo naufragó durante una tormenta."
+        },
+        {
+          "id": "atos-u3-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál era la esperanza de Pablo en la prisión?",
+          "text": "Pablo mantenía postura de fe incluso encarcelado.",
+          "options": [
+            "Testificar en Roma y estar con Jesús",
+            "Escapar de la prisión",
+            "Olvido y retiro",
+            "Venganza contra sus enemigos"
+          ],
+          "answer": "Testificar en Roma y estar con Jesús",
+          "reference": "Hechos 28:30-31",
+          "explanation": "Pablo pasó dos años en Roma predicando y enseñando sobre Jesús."
+        },
+        {
+          "id": "atos-u3-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "El viaje final en Hechos 27:23-24",
+          "tokens": [
+            "Pero esta noche",
+            "se puso de mi lado",
+            "un ángel del Dios",
+            "de quien soy y sirvo"
+          ],
+          "distractors": [
+            "y dijo no temas",
+            "porque es necesario",
+            "que comparescas ante César"
+          ],
+          "reference": "Hechos 27:23-24"
+        },
+        {
+          "id": "atos-u3-l4-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Un ángel del Dios de quien soy y sirvo.",
+          "options": [
+            "Pablo solo sirve a Jesús",
+            "Ángel de Dios quien sirvo",
+            "La fe de Pablo es inquebrantable"
+          ],
+          "answer": "Ángel de Dios quien sirvo",
+          "reference": "Hechos 27:23"
+        },
+        {
+          "id": "atos-u3-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia eventos finales",
+          "pairs": [
+            {
+              "left": "Encarcelamiento",
+              "right": "Juicio por autoridades"
+            },
+            {
+              "left": "Barco",
+              "right": "Naufragio en la tormenta"
+            },
+            {
+              "left": "Roma",
+              "right": "Testimonio y predicación"
+            },
+            {
+              "left": "Esperanza",
+              "right": "Estar con Jesús"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Es necesario que comparescas ante _____.\"",
+          "answer": "César",
+          "reference": "Hechos 27:24",
+          "options": [
+            "César",
+            "emperador"
+          ]
+        },
+        {
+          "id": "atos-u3-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El encarcelamiento de Pablo interrumpió su ministerio de predicación.",
+          "isTrue": false,
+          "reference": "Hechos 28:30-31",
+          "explanation": "Pablo continuó predicando incluso en la prisión, mostrando que nada puede silenciar el evangelio."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l5",
+      "title": "Repaso - Conversión y Viajes",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo Jesús transformó a Saulo?",
+          "text": "Una transformación radical comenzó en el camino de Damasco.",
+          "options": [
+            "A través de un encuentro personal en el camino",
+            "Lentamente durante años",
+            "A través de amigos que lo evangelizaron",
+            "Nunca realmente se transformó"
+          ],
+          "answer": "A través de un encuentro personal en el camino",
+          "reference": "Hechos 9:1-18",
+          "explanation": "Jesús se le apareció personalmente a Saulo, transformándolo instantáneamente."
+        },
+        {
+          "id": "atos-u3-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Pablo enfrentó dificultades al compartir el evangelio.",
+          "isTrue": true,
+          "reference": "Hechos 13-28",
+          "explanation": "Pablo experimentó rechazo, persecución y encarcelamiento, pero nunca se dio por vencido."
+        },
+        {
+          "id": "atos-u3-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál era el propósito de Dios para Pablo?",
+          "text": "Dios tenía un plan específico para este apóstol.",
+          "options": [
+            "Ser instrumento escogido para llevar el evangelio a los gentiles",
+            "Ser rey de Israel",
+            "Ser sacerdote del templo",
+            "Ser filósofo griego"
+          ],
+          "answer": "Ser instrumento escogido para llevar el evangelio a los gentiles",
+          "reference": "Hechos 9:15",
+          "explanation": "Pablo fue especialmente llamado para alcanzar a los gentiles con el evangelio."
+        },
+        {
+          "id": "atos-u3-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo de repaso",
+          "text": "Resumen de la jornada de Pablo",
+          "tokens": [
+            "Este es para mí",
+            "un instrumento escogido",
+            "ni estimo preciosa mi vida",
+            "con tal que termine mi carrera"
+          ],
+          "distractors": [
+            "que Jesús me dio",
+            "para testificar",
+            "de Su gracia"
+          ],
+          "reference": "Hechos 9:15, 20:24"
+        },
+        {
+          "id": "atos-u3-l5-e5",
+          "kind": "listen",
+          "prompt": "¿Qué verdad escuchaste?",
+          "text": "Este es un instrumento escogido para llevar mi nombre.",
+          "options": [
+            "Dios elige instrumentos para Su reino",
+            "Instrumento escogido llevar mi nombre",
+            "Pablo es especial para Dios"
+          ],
+          "answer": "Instrumento escogido llevar mi nombre",
+          "reference": "Hechos 9:15"
+        },
+        {
+          "id": "atos-u3-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia fases de la vida de Pablo",
+          "pairs": [
+            {
+              "left": "Conversión",
+              "right": "Encuentro con Jesús"
+            },
+            {
+              "left": "Viajes",
+              "right": "Fundación de iglesias"
+            },
+            {
+              "left": "Predicación",
+              "right": "Llamada al evangelio"
+            },
+            {
+              "left": "Encarcelamiento",
+              "right": "Testimonio en Roma"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordena la jornada de Pablo",
+          "text": "Cronología apostólica",
+          "tokens": [
+            "Encuentro con Jesús en Damasco",
+            "Primeros viajes misioneros",
+            "Discurso en el Areópago",
+            "Viaje a Roma como prisionero"
+          ]
+        },
+        {
+          "id": "atos-u3-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La vida de Pablo demuestra que Dios puede transformar a cualquier persona.",
+          "isTrue": true,
+          "reference": "Hechos 9-28",
+          "explanation": "Pablo es el mayor ejemplo de transformación y dedicación a Jesús en la Biblia."
+        }
+      ]
+    }
+  ]
+}

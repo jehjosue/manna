@@ -1,0 +1,502 @@
+[
+  {
+    "id": "historia-davi-golias",
+    "title": "Davi e Golias",
+    "subtitle": "Um jovem pastor derrota um gigante invencível",
+    "icon": "person.2.fill",
+    "reference": "1 Samuel 17",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Em uma vale entre duas montanhas, dois exércitos estavam frente a frente: os israelitas e os filisteus. Todos tremiam de medo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Golias",
+        "text": "Vocês têm coragem de enfrentar um gigante? Enviem seu melhor guerreiro! Mas duvido que alguém seja tão forte quanto eu."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Golias tinha quase três metros de altura. Ninguém ousava se aproximar dele. Havia quarenta dias em que o gigante desafiava o exército de Israel."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que os israelitas tinham medo de Golias?",
+        "options": [
+          "Porque ele era muito grande e forte",
+          "Porque ele era amigo do rei",
+          "Porque tinha armas mágicas"
+        ],
+        "answer": "Porque ele era muito grande e forte"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Davi era um jovem pastor que cuidava das ovelhas de seu pai. Quando seu pai o mandou levar comida para seus irmãos na guerra, Davi viu Golias."
+      },
+      {
+        "kind": "line",
+        "speaker": "Davi",
+        "text": "Por que têm medo? Vou lutar contra esse gigante! O Senhor me ajudará, pois ele está comigo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Soldado",
+        "text": "Você é muito jovem! Golias é um guerreiro treinado. Ele vai te esmagar como um inseto!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Davi",
+        "text": "O Senhor me livrou das garras do leão e do urso quando era pastor. Ele também me salvará de Golias."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "De que experiência anterior Davi estava falando?",
+        "options": [
+          "Lutas que enfrentou enquanto protegia suas ovelhas",
+          "Batalhas que participou no reino de Saul",
+          "Treinamento especial para guerra"
+        ],
+        "answer": "Lutas que enfrentou enquanto protegia suas ovelhas"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rei Saul",
+        "text": "Você pode lutar contra Golias? Use minha armadura e minha espada. Assim estará protegido."
+      },
+      {
+        "kind": "line",
+        "speaker": "Davi",
+        "text": "Obrigado, mas não posso lutar com essa armadura. Não estou acostumado. Prefiro confiar no Senhor."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Davi pegou sua funda e cinco pedras lisas do rio. Então caminhou confiante em direção a Golias."
+      },
+      {
+        "kind": "line",
+        "speaker": "Golias",
+        "text": "Você vem para me derrotar com uma funda? Que criança tola! Vou fazer você regredir!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Davi",
+        "text": "Você vem contra mim com espada e lança. Mas eu venho em nome do Senhor dos Exércitos!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Em que Davi confiava para vencer Golias?",
+        "options": [
+          "No Senhor e em sua fé",
+          "Na força de seu próprio braço",
+          "Na ajuda dos soldados"
+        ],
+        "answer": "No Senhor e em sua fé"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Davi colocou uma pedra em sua funda e a arremessou com força. A pedra voou pelo ar e atingiu a testa de Golias."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "O gigante caiu como um pinheiro em uma tempestade. Golias nunca mais se levantou. Toda a nação de Israel viu o milagre de Deus."
+      },
+      {
+        "kind": "line",
+        "speaker": "Povo",
+        "text": "Davi! Davi! Ele derrotou Golias! O Senhor está com ele!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Qual foi a lição principal dessa história?",
+        "options": [
+          "A fé em Deus é mais poderosa que qualquer gigante",
+          "Você não precisa de armadura para lutar",
+          "Crianças são melhores guerreiras que adultos"
+        ],
+        "answer": "A fé em Deus é mais poderosa que qualquer gigante"
+      }
+    ]
+  },
+  {
+    "id": "historia-daniel-leoes",
+    "title": "Daniel na Cova dos Leões",
+    "subtitle": "Um homem de fé enfrenta a morte com coragem",
+    "icon": "shield.fill",
+    "reference": "Daniel 6",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Daniel era um jovem sábio no reino de Babilônia. O rei Nabucodonosor o amava e o colocou como um dos príncipes mais poderosos."
+      },
+      {
+        "kind": "line",
+        "speaker": "Príncipes Invejosos",
+        "text": "Daniel tem demasiado poder! Precisamos encontrar um motivo para acusá-lo ao rei e removê-lo de sua posição."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Os príncipes procuraram por falhas no caráter de Daniel. Mas ele era honrado e fiel. Todos os dias, Daniel orava para Deus."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que os príncipes queriam derrotar Daniel?",
+        "options": [
+          "Porque tinham inveja de seu poder e sabedoria",
+          "Porque Daniel roubou ouro do reino",
+          "Porque Daniel era estrangeiro"
+        ],
+        "answer": "Porque tinham inveja de seu poder e sabedoria"
+      },
+      {
+        "kind": "line",
+        "speaker": "Príncipes Invejosos",
+        "text": "Sabemos como derrotar Daniel! Vamos pedir ao rei que faça um decreto. Ninguém pode orar a ninguém exceto ao rei, por trinta dias!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rei Dario",
+        "text": "Está bem. Qualquer um que ore será lançado na cova dos leões."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Daniel ouviu sobre o decreto. Mas não parou de orar a Deus. Continuou orando três vezes ao dia, como sempre fizera."
+      },
+      {
+        "kind": "line",
+        "speaker": "Daniel",
+        "text": "Meu Deus é mais importante que minha vida. Não vou deixar de orar a Ele, não importa qual seja o custo."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como Daniel respondeu ao decreto do rei?",
+        "options": [
+          "Continuou orando a Deus com fidelidade",
+          "Parou de orar para salvar sua vida",
+          "Orou apenas em secreto à noite"
+        ],
+        "answer": "Continuou orando a Deus com fidelidade"
+      },
+      {
+        "kind": "line",
+        "speaker": "Príncipes Invejosos",
+        "text": "Rei! Daniel desobedece seu decreto! Ele orou a seu Deus três vezes hoje! Segundo sua lei, deve ser lançado na cova dos leões!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rei Dario",
+        "text": "Não! Daniel é homem justo e sábio. Mas minha própria lei me obriga. Que o Deus de Daniel te salve!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Daniel foi levado para a cova dos leões. Uma grande pedra foi colocada sobre a abertura. O rei selou a cova com seu anel para garantir que ninguém o salvasse."
+      },
+      {
+        "kind": "line",
+        "speaker": "Rei Dario",
+        "text": "Daniel, que teu Deus te proteja. Passei a noite inteira rezando por ti."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "O rei acordou antes do amanhecer, angustiado. Correu apressadamente para a cova dos leões. Lá, ele chamou por Daniel."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "O que o rei fez quando acordou?",
+        "options": [
+          "Correu para a cova para ver se Daniel estava vivo",
+          "Dormiu até tarde",
+          "Comeu seu café da manhã normalmente"
+        ],
+        "answer": "Correu para a cova para ver se Daniel estava vivo"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rei Dario",
+        "text": "Daniel! Você está vivo? Seu Deus pôde te salvar?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Daniel",
+        "text": "Meu rei! Meu Deus enviou um anjo e fechou a boca dos leões. Eles não me machucaram porque sou inocente diante de Deus e do rei."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Daniel foi trazido de volta vivo! Nem um fio de sua roupa estava danificado. Os leões o respeitaram e o protegeram!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rei Dario",
+        "text": "Que todos os reinos saibam! O Deus de Daniel é o Deus vivo e verdadeiro. Ele salva aqueles que creem nEle!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Qual milagre Deus fez por Daniel?",
+        "options": [
+          "Enviou um anjo e fechou a boca dos leões",
+          "Os leões viraram vegetarianos",
+          "Daniel voou para fora da cova"
+        ],
+        "answer": "Enviou um anjo e fechou a boca dos leões"
+      }
+    ]
+  },
+  {
+    "id": "historia-ester-rainha",
+    "title": "Ester Diante do Rei",
+    "subtitle": "Uma rainha coragem salva seu povo",
+    "icon": "crown.fill",
+    "reference": "Ester 1-7",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Ester era uma jovem judia muito bonita e sábia. Ela se tornou rainha do Império Persa, mas mantinha sua identidade judaica em secreto."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mardoqueu",
+        "text": "Ester, preciso te contar algo terrível. Um homem mau chamado Hamã convenceu o rei a ordenar a morte de todos os judeus no reino!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Ester",
+        "text": "Isso é horrível! Meu povo será destruído! O que posso fazer?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mardoqueu",
+        "text": "Talvez Deus te colocou no trono justamente para este momento. Você é a única que pode falar ao rei e pedir pela vida do seu povo."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que Mardoqueu acreditava que Ester podia salvar seu povo?",
+        "options": [
+          "Porque ela era rainha e tinha acesso ao rei",
+          "Porque ela era muito bela",
+          "Porque ela era a filha do rei"
+        ],
+        "answer": "Porque ela era rainha e tinha acesso ao rei"
+      },
+      {
+        "kind": "line",
+        "speaker": "Ester",
+        "text": "Mas há um problema. Ninguém pode se aproximar do rei sem ser convidado. Se ele não estender seu cetro de ouro, posso ser condenada à morte!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mardoqueu",
+        "text": "Ester, você deve ser corajosa. Primeiro, pede a todos os judeus que jejuem e orem. Depois vá diante do rei."
+      },
+      {
+        "kind": "line",
+        "speaker": "Ester",
+        "text": "Sim, vou fazer isso. Mesmo que morra, morrerei tentando salvar meu povo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Ester reuniu forças e se preparou para uma refeição especial com o rei. Ela usou sua roupa mais linda e se apresentou diante dele."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como Ester se preparou para falar ao rei?",
+        "options": [
+          "Pediu para as pessoas orarem por ela e se preparou com graça",
+          "Gritou e exigiu seu direito",
+          "Tentou enganar o rei com mentiras"
+        ],
+        "answer": "Pediu para as pessoas orarem por ela e se preparou com graça"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rei",
+        "text": "Minha rainha Ester! Bem-vinda! O que deseja? Posso conceder até metade do meu reino!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Ester",
+        "text": "Meu rei, peço que você e o Hamã venham a um banquete que preparei especialmente."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Ester convidou o rei e Hamã para um banquete. Naquela noite, ela ganhou coragem para revelar a verdade."
+      },
+      {
+        "kind": "line",
+        "speaker": "Ester",
+        "text": "Meu rei! Peço pela minha vida e pela vida do meu povo! Alguém quer destruir-nos! É Hamã, aquele homem maligno!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Rei",
+        "text": "Como? Hamã quer destruir você? Ester, você é minha rainha! Ninguém fará mal a você enquanto eu viver!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Como o rei respondeu quando soube do plano de Hamã?",
+        "options": [
+          "Ele foi contra Hamã e defendeu a rainha Ester",
+          "Ele disse que Ester estava mentindo",
+          "Ele pediu desculpas a Hamã"
+        ],
+        "answer": "Ele foi contra Hamã e defendeu a rainha Ester"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "O rei emitiu um novo decreto. Todos os judeus foram salvos do plano de Hamã. Ester se tornou uma heroína, e sua coragem salvou seu povo."
+      },
+      {
+        "kind": "line",
+        "speaker": "Povo Judeu",
+        "text": "Aleluia! Ester é nossa rainha! Ela foi corajosa e nos salvou! Louvado seja o Senhor!"
+      }
+    ]
+  },
+  {
+    "id": "historia-jonas-peixe",
+    "title": "Jonas e o Grande Peixe",
+    "subtitle": "Um profeta aprende sobre obediência e compaixão",
+    "icon": "fish.fill",
+    "reference": "Jonas 1-4",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Deus falou a Jonas: 'Vá para a cidade de Nínive e avise o povo que se não se arrependerem de seus pecados, a cidade será destruída.'"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonas",
+        "text": "Não vou! Nínive é inimiga de meu povo. Deixarei que Deus os derrube! Vou fugir neste barco."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jonas fugiu de Deus, mas o Senhor é mais rápido. Uma grande tempestade começou a agitar o mar."
+      },
+      {
+        "kind": "line",
+        "speaker": "Marinheiro 1",
+        "text": "O que está acontecendo? Há quarenta anos navego e nunca vi uma tempestade tão horrível!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Por que a tempestade começou?",
+        "options": [
+          "Porque Deus enviou para trazer Jonas de volta",
+          "Porque havia um furacão natural naquela região",
+          "Porque os marinheiros fizeram algo errado"
+        ],
+        "answer": "Porque Deus enviou para trazer Jonas de volta"
+      },
+      {
+        "kind": "line",
+        "speaker": "Marinheiro 2",
+        "text": "Há alguém aqui que fugiu de seu Deus? A tempestade está castigando alguém!"
+      },
+      {
+        "kind": "line",
+        "text": "Sim, fui eu. Fugi do meu Deus. Tirem-me daqui e joguem-me no mar. Então a tempestade parará.",
+        "speaker": "Jonas"
+      },
+      {
+        "kind": "line",
+        "text": "Você está certo? Você não quer viver?",
+        "speaker": "Marinheiro 1"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonas",
+        "text": "Deus é mais importante do que minha vida. Deixem-me pagar por meu pecado."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Os marinheiros, com tristeza, jogaram Jonas no mar agitado. Mas Deus preparou um grande peixe para engoli-lo."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "O que aconteceu a Jonas quando foi jogado no mar?",
+        "options": [
+          "Um grande peixe o engoliu, mas ele não morreu",
+          "Ele afogou imediatamente",
+          "Um pássaro grande o salvou"
+        ],
+        "answer": "Um grande peixe o engoliu, mas ele não morreu"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonas",
+        "text": "Estou no ventre de um peixe enorme! Está tão escuro aqui. Mas Deus ainda está comigo. Vou orar e me arrepender."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Jonas ficou no ventre do peixe por três dias e três noites. Naquele tempo escuro, ele aprendeu uma lição importante."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonas",
+        "text": "Deus, eu estava errado! Você é misericordioso. Vou ir para Nínive e farei o que você pediu. Vou pregar seu arrependimento."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Deus ouviu a oração de Jonas. O grande peixe o cuspit de volta à terra firme. Jonas estava vivo!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "O que Jonas aprendeu durante sua experiência?",
+        "options": [
+          "Que Deus é misericordioso e merece obediência",
+          "Que nunca deveria obedecer a Deus",
+          "Que o mar é perigoso"
+        ],
+        "answer": "Que Deus é misericordioso e merece obediência"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonas",
+        "text": "Agora vou para Nínive como Deus pediu. Ainda não gosto deles, mas devo avisar que devem se arrepender."
+      },
+      {
+        "kind": "line",
+        "speaker": "Povo de Nínive",
+        "text": "Escutem! Jonas diz que nossa cidade será destruída se não nos arrependermos! Vamos todos nos arrepender e pedir ao Deus de Jonas que nos perdoe!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrador",
+        "text": "Todo o povo de Nínive ouviu e se arrependeu. Deus teve compaixão deles e perdoou a cidade. A vontade de Deus foi cumprida."
+      }
+    ]
+  }
+]

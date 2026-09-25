@@ -1,0 +1,627 @@
+{
+  "id": "parabolas-u2",
+  "title": "Unit 2",
+  "subtitle": "Forgiveness and Grace",
+  "guide": {
+    "summary": "Jesus revealed the depth of God's grace through parables about forgiveness. He showed that God forgives infinitely, celebrates the return of sinners, and invites the hardened heart to surrender to his immeasurable love.",
+    "keyVerses": [
+      {
+        "reference": "Luke 15:20-24",
+        "text": "He arose, and came to his father. But while he was still far off, his father saw him, and was moved with compassion, and ran, and fell on his neck, and kissed him. The son said to him, 'Father, I have sinned against heaven, and in your sight. I am no more worthy to be called your son.' But the father said to his servants, 'Bring out the best robe, and put it on him. Put a ring on his hand, and shoes on his feet.'"
+      },
+      {
+        "reference": "Luke 15:32",
+        "text": "It was appropriate to celebrate and be glad, for this your brother was dead, and is alive again. He was lost, and is found."
+      },
+      {
+        "reference": "Matthew 18:21-22",
+        "text": "Then Peter came and said to him, 'Lord, how often shall my brother sin against me, and I forgive him? Until seven times?' Jesus said to him, 'I don't tell you until seven times, but until seventy times seven.'"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "parabolas-u2-l1",
+      "title": "The Prodigal Son",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "What did the prodigal son ask his father?",
+          "text": "\"Father, give me my share of the ___\".",
+          "speaker": "Prodigal son",
+          "options": [
+            "inheritance",
+            "house",
+            "property",
+            "wealth"
+          ],
+          "answer": "inheritance",
+          "reference": "Luke 15:12"
+        },
+        {
+          "id": "parabolas-u2-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The prodigal son went to live in a ___ country and lost everything.",
+          "answer": "distant",
+          "options": [
+            "distant",
+            "faraway",
+            "remote",
+            "foreign"
+          ],
+          "reference": "Luke 15:13"
+        },
+        {
+          "id": "parabolas-u2-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse of decision",
+          "text": "When the son returns",
+          "tokens": [
+            "Rising up",
+            "went to",
+            "his father"
+          ],
+          "distractors": [
+            "left the road",
+            "ran away",
+            "went ahead",
+            "departed far"
+          ],
+          "reference": "Luke 15:20"
+        },
+        {
+          "id": "parabolas-u2-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the story in order",
+          "text": "Sequence of the Parable of the Prodigal Son.",
+          "tokens": [
+            "Son asks for inheritance",
+            "Squanders it in vice",
+            "Returns in repentance",
+            "Father celebrates his return"
+          ],
+          "reference": "Luke 15:11-32"
+        },
+        {
+          "id": "parabolas-u2-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the elements",
+          "pairs": [
+            {
+              "left": "Prodigal son",
+              "right": "Returns in repentance"
+            },
+            {
+              "left": "Loving father",
+              "right": "Receives with grace"
+            },
+            {
+              "left": "Older son",
+              "right": "Resentment"
+            },
+            {
+              "left": "Feast",
+              "right": "Celebration of forgiveness"
+            }
+          ],
+          "reference": "Luke 15:11-32"
+        },
+        {
+          "id": "parabolas-u2-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The father rejected the prodigal son because of his sins.",
+          "isTrue": false,
+          "reference": "Luke 15:20-24",
+          "explanation": "The father ran to meet him, kissed him, and celebrated his return with a great feast."
+        },
+        {
+          "id": "parabolas-u2-l1-e7",
+          "kind": "listen",
+          "prompt": "What did the father do?",
+          "text": "Listen: The father celebrated the son's return with joy.",
+          "options": [
+            "Celebrated with joy",
+            "Rejected the son",
+            "Demanded explanations",
+            "Apologized"
+          ],
+          "answer": "Celebrated with joy",
+          "reference": "Luke 15:23-24"
+        },
+        {
+          "id": "parabolas-u2-l1-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "This my son was dead, and is alive again.",
+          "reference": "Luke 15:24"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u2-l2",
+      "title": "The Lost Sheep",
+      "icon": "leaf.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "How many sheep did the shepherd leave?",
+          "text": "The shepherd left ___ sheep to look for the lost one.",
+          "options": [
+            "ninety-nine",
+            "one hundred",
+            "ninety",
+            "eighty"
+          ],
+          "answer": "ninety-nine",
+          "reference": "Luke 15:4"
+        },
+        {
+          "id": "parabolas-u2-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "\"If he finds it, he rejoices over it more than over the ninety ___\".",
+          "answer": "nine",
+          "options": [
+            "nine",
+            "nine that",
+            "that didn't get lost",
+            "remaining"
+          ],
+          "reference": "Matthew 18:13"
+        },
+        {
+          "id": "parabolas-u2-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The joy of the shepherd when finding",
+          "tokens": [
+            "There is more joy",
+            "in heaven",
+            "over one sinner",
+            "who repents"
+          ],
+          "distractors": [
+            "over the sheep found",
+            "in the fields",
+            "among men",
+            "forever"
+          ],
+          "reference": "Luke 15:7"
+        },
+        {
+          "id": "parabolas-u2-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the search in order",
+          "text": "Sequence of the Lost Sheep.",
+          "tokens": [
+            "Shepherd notices one missing",
+            "Leaves the ninety-nine",
+            "Searches until he finds",
+            "Carries it on his shoulders"
+          ],
+          "reference": "Luke 15:4-6"
+        },
+        {
+          "id": "parabolas-u2-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the meanings",
+          "pairs": [
+            {
+              "left": "Shepherd",
+              "right": "God seeking"
+            },
+            {
+              "left": "Lost sheep",
+              "right": "Sinner far away"
+            },
+            {
+              "left": "Diligent search",
+              "right": "Active grace"
+            },
+            {
+              "left": "Heavenly joy",
+              "right": "Repentance"
+            }
+          ],
+          "reference": "Luke 15:3-7"
+        },
+        {
+          "id": "parabolas-u2-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The shepherd was happy only because he found the lost sheep.",
+          "isTrue": false,
+          "reference": "Luke 15:6-7",
+          "explanation": "There was special joy in heaven among the angels when the sheep repented, not just from finding it."
+        },
+        {
+          "id": "parabolas-u2-l2-e7",
+          "kind": "listen",
+          "prompt": "What did the shepherd do?",
+          "text": "Listen: The shepherd searches for the sheep until he finds it.",
+          "options": [
+            "Searches until he finds it",
+            "Waits for it to return",
+            "Forgets about it",
+            "Sells it"
+          ],
+          "answer": "Searches until he finds it",
+          "reference": "Luke 15:4"
+        },
+        {
+          "id": "parabolas-u2-l2-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "There is joy in heaven when one sinner repents.",
+          "reference": "Luke 15:7"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u2-l3",
+      "title": "The Lost Coin",
+      "icon": "drop.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "How many coins did the woman have?",
+          "text": "The woman had ___ silver coins.",
+          "options": [
+            "ten",
+            "five",
+            "seven",
+            "twelve"
+          ],
+          "answer": "ten",
+          "reference": "Luke 15:8"
+        },
+        {
+          "id": "parabolas-u2-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The woman ___ the house to look for the coin.",
+          "answer": "swept",
+          "options": [
+            "swept",
+            "searched",
+            "cleaned",
+            "lit"
+          ],
+          "reference": "Luke 15:8"
+        },
+        {
+          "id": "parabolas-u2-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The woman's reaction when finding",
+          "tokens": [
+            "Called her friends",
+            "and neighbors",
+            "saying: Rejoice with me"
+          ],
+          "distractors": [
+            "Celebrated in secret",
+            "Kept it for herself",
+            "Wept with joy",
+            "Gave it to the poor"
+          ],
+          "reference": "Luke 15:9"
+        },
+        {
+          "id": "parabolas-u2-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the search in order",
+          "text": "Sequence of the Lost Coin.",
+          "tokens": [
+            "Woman loses one coin",
+            "Searches diligently",
+            "Finds the coin",
+            "Celebrates with friends"
+          ],
+          "reference": "Luke 15:8-9"
+        },
+        {
+          "id": "parabolas-u2-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the meanings",
+          "pairs": [
+            {
+              "left": "Woman",
+              "right": "God seeking"
+            },
+            {
+              "left": "Lost coin",
+              "right": "Person far away"
+            },
+            {
+              "left": "Careful search",
+              "right": "Determination"
+            },
+            {
+              "left": "Shared joy",
+              "right": "Heaven celebrates"
+            }
+          ],
+          "reference": "Luke 15:8-10"
+        },
+        {
+          "id": "parabolas-u2-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The woman gave up looking for the coin and bought another.",
+          "isTrue": false,
+          "reference": "Luke 15:8",
+          "explanation": "The woman searched diligently until she found the lost coin and celebrated finding it."
+        },
+        {
+          "id": "parabolas-u2-l3-e7",
+          "kind": "listen",
+          "prompt": "What did the woman do?",
+          "text": "Listen: The woman searched for the lost coin with determination.",
+          "options": [
+            "Searched with determination",
+            "Forgot about it",
+            "Gave it up for lost",
+            "Asked for help"
+          ],
+          "answer": "Searched with determination",
+          "reference": "Luke 15:8"
+        },
+        {
+          "id": "parabolas-u2-l3-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "I have found the coin that I had lost.",
+          "reference": "Luke 15:9"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u2-l4",
+      "title": "The Servant Who Did Not Forgive",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "How much did the servant owe the king?",
+          "text": "The servant owed the king ten thousand ___.",
+          "options": [
+            "talents",
+            "coins",
+            "denarii",
+            "gold"
+          ],
+          "answer": "talents",
+          "reference": "Matthew 18:24"
+        },
+        {
+          "id": "parabolas-u2-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The king was moved with compassion and ___ the servant's debt.",
+          "answer": "forgave",
+          "options": [
+            "forgave",
+            "cancelled",
+            "erased",
+            "released"
+          ],
+          "reference": "Matthew 18:27"
+        },
+        {
+          "id": "parabolas-u2-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse about lack of forgiveness",
+          "text": "Behavior of the ungrateful servant",
+          "tokens": [
+            "Finding a servant",
+            "who owed",
+            "one hundred denarii",
+            "seized him by the throat"
+          ],
+          "distractors": [
+            "kissed him",
+            "forgave him",
+            "freed him",
+            "strangled him"
+          ],
+          "reference": "Matthew 18:28"
+        },
+        {
+          "id": "parabolas-u2-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of the Parable of the Servant.",
+          "tokens": [
+            "Servant owes much",
+            "King forgives the debt",
+            "Servant doesn't forgive little",
+            "King punishes him"
+          ],
+          "reference": "Matthew 18:23-35"
+        },
+        {
+          "id": "parabolas-u2-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the details",
+          "pairs": [
+            {
+              "left": "Ten thousand talents",
+              "right": "Servant's debt to the king"
+            },
+            {
+              "left": "One hundred denarii",
+              "right": "Smaller debt"
+            },
+            {
+              "left": "Compassionate king",
+              "right": "Offers grace"
+            },
+            {
+              "left": "Merciless servant",
+              "right": "Does not forgive"
+            }
+          ],
+          "reference": "Matthew 18:23-35"
+        },
+        {
+          "id": "parabolas-u2-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The servant forgave his companion just as he was forgiven.",
+          "isTrue": false,
+          "reference": "Matthew 18:28-30",
+          "explanation": "The servant, despite being forgiven a huge debt, did not forgive a small debt of his companion."
+        },
+        {
+          "id": "parabolas-u2-l4-e7",
+          "kind": "listen",
+          "prompt": "What did the king do?",
+          "text": "Listen: The king completely forgave the debt.",
+          "options": [
+            "Completely forgave",
+            "Reduced the debt",
+            "Increased the debt",
+            "Strangled the servant"
+          ],
+          "answer": "Completely forgave",
+          "reference": "Matthew 18:27"
+        },
+        {
+          "id": "parabolas-u2-l4-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Forgive as we have been forgiven by God.",
+          "reference": "Matthew 18:35"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u2-l5",
+      "title": "Review: Forgiveness and Grace",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the common theme of these parables?",
+          "text": "All speak about God's ___.",
+          "options": [
+            "forgiveness",
+            "power",
+            "judgment",
+            "reign"
+          ],
+          "answer": "forgiveness",
+          "reference": "Luke 15"
+        },
+        {
+          "id": "parabolas-u2-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "We should forgive seventy times ___.",
+          "answer": "seven",
+          "options": [
+            "seven",
+            "seventy",
+            "seven times",
+            "always"
+          ],
+          "reference": "Matthew 18:22"
+        },
+        {
+          "id": "parabolas-u2-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Put the parables in order",
+          "text": "Sequence of the 5 parables.",
+          "tokens": [
+            "Prodigal son returns",
+            "Lost sheep is found",
+            "Lost coin is found",
+            "Servant does not forgive"
+          ],
+          "reference": "Luke 15 and Matthew 18"
+        },
+        {
+          "id": "parabolas-u2-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Match each parable",
+          "pairs": [
+            {
+              "left": "Prodigal son",
+              "right": "Returns home"
+            },
+            {
+              "left": "Sheep",
+              "right": "Shepherd seeks"
+            },
+            {
+              "left": "Coin",
+              "right": "Woman searches"
+            },
+            {
+              "left": "Servant",
+              "right": "Does not forgive"
+            }
+          ],
+          "reference": "Luke 15 and Matthew 18"
+        },
+        {
+          "id": "parabolas-u2-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Build the key verse",
+          "text": "Theme of forgiveness",
+          "tokens": [
+            "So also",
+            "will my",
+            "heavenly Father"
+          ],
+          "distractors": [
+            "will to all",
+            "will always",
+            "will in secret",
+            "will later"
+          ],
+          "reference": "Matthew 18:35"
+        },
+        {
+          "id": "parabolas-u2-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The parables show that God always seeks and receives those who repent.",
+          "isTrue": true,
+          "reference": "Luke 15 and Matthew 18:35",
+          "explanation": "Each parable demonstrates God's gracious activity in seeking the lost and offering infinite forgiveness."
+        },
+        {
+          "id": "parabolas-u2-l5-e7",
+          "kind": "listen",
+          "prompt": "What is the message?",
+          "text": "God forgives infinitely those who repent.",
+          "options": [
+            "Forgives infinitely",
+            "Always condemns",
+            "Will judge severely",
+            "Will demand payment"
+          ],
+          "answer": "Forgives infinitely",
+          "reference": "Matthew 18:21-22"
+        },
+        {
+          "id": "parabolas-u2-l5-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "We should always forgive just as God forgave us.",
+          "reference": "Matthew 18:35"
+        }
+      ]
+    }
+  ]
+}

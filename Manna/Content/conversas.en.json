@@ -1,0 +1,308 @@
+[
+  {
+    "id": "conversa-pastor-belem",
+    "title": "Conversation with a Shepherd in Bethlehem",
+    "subtitle": "Meeting with a flock guardian",
+    "icon": "person.fill",
+    "reference": "Luke 2",
+    "turns": [
+      {
+        "speaker": "Shepherd",
+        "text": "Hello, traveler! Are you lost? I'm here taking care of my sheep.",
+        "isUserTurn": false,
+        "options": [
+          "Where are you from, shepherd?",
+          "Have you been working here a long time?"
+        ]
+      },
+      {
+        "speaker": "Shepherd",
+        "text": "I'm from Bethlehem, a small city in Judea. I work from dawn until dusk protecting this flock.",
+        "isUserTurn": false,
+        "options": [
+          "Is it difficult work?",
+          "Have you seen anything special?"
+        ]
+      },
+      {
+        "speaker": "Shepherd",
+        "text": "Yes, it's challenging! I must protect the sheep from wolves and lions. But one night... I will never forget it.",
+        "isUserTurn": false,
+        "options": [
+          "What happened that night?",
+          "Were you afraid?"
+        ]
+      },
+      {
+        "speaker": "Shepherd",
+        "text": "The sky lit up with a bright light! I saw angels singing about the birth of a special baby boy in Bethlehem.",
+        "isUserTurn": false,
+        "options": [
+          "Did you go see the baby?",
+          "Did you believe what you saw?"
+        ]
+      },
+      {
+        "speaker": "Shepherd",
+        "text": "Of course I did! I left the flock with a friend and ran to the manger. That baby boy is Jesus, the promised Messiah!",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  },
+  {
+    "id": "conversa-mulher-samaritana",
+    "title": "Conversation with the Samaritan Woman",
+    "subtitle": "At Jacob's well",
+    "icon": "person.fill",
+    "reference": "John 4",
+    "turns": [
+      {
+        "speaker": "Samaritan Woman",
+        "text": "Hey, you shouldn't be here! You're a Jew, aren't you? We Samaritans don't mix with you.",
+        "isUserTurn": false,
+        "options": [
+          "I just wanted to drink water",
+          "Why don't you mix with us?"
+        ]
+      },
+      {
+        "speaker": "Samaritan Woman",
+        "text": "Because there is much hatred between our peoples. But wait... there is something different about you.",
+        "isUserTurn": false,
+        "options": [
+          "Can you give me water?",
+          "What do you feel in me?"
+        ]
+      },
+      {
+        "speaker": "Samaritan Woman",
+        "text": "You seem to know things that no one should know about me. Are you a prophet? Who are you?",
+        "isUserTurn": false,
+        "options": [
+          "I am Jesus, the Messiah",
+          "Do you believe in God?"
+        ]
+      },
+      {
+        "speaker": "Samaritan Woman",
+        "text": "Jesus? The Messiah? We know the Messiah will come, but... you speak with such truth that it touches my heart.",
+        "isUserTurn": false,
+        "options": [
+          "Do you want a better life?",
+          "Do you believe in me?"
+        ]
+      },
+      {
+        "speaker": "Samaritan Woman",
+        "text": "Yes! I will tell everyone in my village about you. You are truly the Savior of the world!",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  },
+  {
+    "id": "conversa-zaqueu",
+    "title": "Conversation with Zacchaeus, the Tax Collector",
+    "subtitle": "Meeting in Jericho",
+    "icon": "person.fill",
+    "reference": "Luke 19",
+    "turns": [
+      {
+        "speaker": "Zacchaeus",
+        "text": "Leave me alone! I'm Zacchaeus, a tax collector. Everyone hates me, but I don't care!",
+        "isUserTurn": false,
+        "options": [
+          "Why do you seem sad?",
+          "Why do they hate you?"
+        ]
+      },
+      {
+        "speaker": "Zacchaeus",
+        "text": "Because I'm corrupt! I collect more taxes than necessary and keep the difference. I'm rich, but alone.",
+        "isUserTurn": false,
+        "options": [
+          "Do you want to change?",
+          "Does money bring happiness?"
+        ]
+      },
+      {
+        "speaker": "Zacchaeus",
+        "text": "Sometimes I wish to be different, but I'm afraid of what people will say. And you? Who are you?",
+        "isUserTurn": false,
+        "options": [
+          "I am Jesus, and I want to help you",
+          "You deserved a second chance"
+        ]
+      },
+      {
+        "speaker": "Zacchaeus",
+        "text": "Jesus? The man everyone talks about? Do you still want me, even knowing everything about me?",
+        "isUserTurn": false,
+        "options": [
+          "Yes, you deserve a chance to start over",
+          "Your sins can be forgiven"
+        ]
+      },
+      {
+        "speaker": "Zacchaeus",
+        "text": "Then I will give back all the money I stole! Four times the amount! You changed my life, Jesus!",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  },
+  {
+    "id": "conversa-discipulo-thomas",
+    "title": "Conversation with Thomas, the Disciple",
+    "subtitle": "Questioning the Resurrection",
+    "icon": "person.fill",
+    "reference": "John 20",
+    "turns": [
+      {
+        "speaker": "Thomas",
+        "text": "You say Jesus rose from the dead? I can't believe it! I need to see with my own eyes!",
+        "isUserTurn": false,
+        "options": [
+          "Why do you doubt?",
+          "What if the others are telling the truth?"
+        ]
+      },
+      {
+        "speaker": "Thomas",
+        "text": "Because I saw Jesus die on the cross. I won't believe anyone until I touch the scars with my own hands!",
+        "isUserTurn": false,
+        "options": [
+          "Faith doesn't need material proof",
+          "What if you touched the scars?"
+        ]
+      },
+      {
+        "speaker": "Thomas",
+        "text": "You are wise. Perhaps I'm being too rigid. But it's hard to believe in something so extraordinary.",
+        "isUserTurn": false,
+        "options": [
+          "Jesus is alive",
+          "Have you ever felt anything supernatural?"
+        ]
+      },
+      {
+        "speaker": "Thomas",
+        "text": "Something strange happened... I felt the presence of Jesus with me now, in this moment. It's real!",
+        "isUserTurn": false,
+        "options": [
+          "So you believe?",
+          "What changed for you?"
+        ]
+      },
+      {
+        "speaker": "Thomas",
+        "text": "Yes! My Lord and my God! I believe completely! I'm sorry for my disbelief. I will serve with all my heart!",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  },
+  {
+    "id": "conversa-viuva-pecadora",
+    "title": "Conversation with the Widow Traveler",
+    "subtitle": "Meeting on the way",
+    "icon": "person.fill",
+    "reference": "Luke 7",
+    "turns": [
+      {
+        "speaker": "Widow",
+        "text": "Listen... no one wants to help me. My husband passed away and I have nothing left. I'm alone.",
+        "isUserTurn": false,
+        "options": [
+          "God sees your suffering",
+          "Do you have anyone who can help you?"
+        ]
+      },
+      {
+        "speaker": "Widow",
+        "text": "God? He abandoned me! If there really was a just God, my husband would still be alive.",
+        "isUserTurn": false,
+        "options": [
+          "Death is part of life",
+          "God suffers with you"
+        ]
+      },
+      {
+        "speaker": "Widow",
+        "text": "Do you believe that? But I feel like everything is very dark. I don't see a way out.",
+        "isUserTurn": false,
+        "options": [
+          "There is hope in Jesus",
+          "You deserved better luck"
+        ]
+      },
+      {
+        "speaker": "Widow",
+        "text": "Jesus? I've heard about him. They say he healed many and forgave sinners. Could he possibly help me?",
+        "isUserTurn": false,
+        "options": [
+          "Jesus loves you unconditionally",
+          "You can trust him"
+        ]
+      },
+      {
+        "speaker": "Widow",
+        "text": "Then I will try to believe. I will trust in Jesus and let him heal my heart. Thank you for talking to me.",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  },
+  {
+    "id": "conversa-fariseu",
+    "title": "Conversation with a Questioning Pharisee",
+    "subtitle": "Debate over the Law",
+    "icon": "person.fill",
+    "reference": "Matthew 22",
+    "turns": [
+      {
+        "speaker": "Pharisee",
+        "text": "You break the Law of Moses! How can you heal on the Sabbath? That is forbidden!",
+        "isUserTurn": false,
+        "options": [
+          "The Law exists to serve people",
+          "Love is above the Law"
+        ]
+      },
+      {
+        "speaker": "Pharisee",
+        "text": "But the Law is sacred! The tradition of our ancestors cannot be ignored like this!",
+        "isUserTurn": false,
+        "options": [
+          "What is the true purpose of the Law?",
+          "Mercy is more important than sacrifices"
+        ]
+      },
+      {
+        "speaker": "Pharisee",
+        "text": "Hmm... the true purpose? I never thought of it that way. I always followed the rules without questioning.",
+        "isUserTurn": false,
+        "options": [
+          "What if the Law is to love God and neighbor?",
+          "Have you ever helped someone who truly needed it?"
+        ]
+      },
+      {
+        "speaker": "Pharisee",
+        "text": "Help? Well, I pray, I pay my tithes... But perhaps there is something deeper I don't see.",
+        "isUserTurn": false,
+        "options": [
+          "The heart matters more than works",
+          "Do you want to know the truth?"
+        ]
+      },
+      {
+        "speaker": "Pharisee",
+        "text": "Yes. You showed me that true religion is about love and compassion. I will reconsider my spiritual journey.",
+        "isUserTurn": false,
+        "options": null
+      }
+    ]
+  }
+]

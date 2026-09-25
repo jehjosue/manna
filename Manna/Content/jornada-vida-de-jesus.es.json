@@ -1,0 +1,2612 @@
+{
+  "id": "vida-de-jesus",
+  "title": "Vida de Jesús",
+  "subtitle": "Del nacimiento a la resurrección",
+  "icon": "star.fill",
+  "order": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Unidad 1",
+      "subtitle": "El nacimiento de Jesús",
+      "guide": {
+        "summary": "El nacimiento de Jesús cumple siglos de promesas proféticas. María es elegida como madre del Salvador, anunciado por ángel, visitado por pastores y magos. Simeón y Ana reconocen la llegada del Mesías esperado. Jesús niño creció en sabiduría y gracia, como Hijo verdadero de Dios.",
+        "keyVerses": [
+          {
+            "reference": "Lucas 1:26-27",
+            "text": "En el mes sexto fue enviado el ángel Gabriel de parte de Dios a una ciudad de Galilea llamada Nazaret, a una virgen desposada con un hombre llamado José, de la casa de David; y el nombre de la virgen era María."
+          },
+          {
+            "reference": "Lucas 2:10-11",
+            "text": "Y el ángel les dijo: No temáis; que he aquí os doy nuevas de gran gozo, que será para todo el pueblo; que os ha nacido hoy, en la ciudad de David, un Salvador, que es Cristo el Señor."
+          },
+          {
+            "reference": "Lucas 2:40",
+            "text": "Y el niño crecía y se fortalecía, llenándose de sabiduría; y la gracia de Dios era sobre él."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "u1-l1",
+          "title": "La Anunciación",
+          "icon": "star.fill",
+          "exercises": [
+            {
+              "id": "u1-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"No temas, María, porque has hallado gracia delante de ___, y concebirás en tu vientre, y parirás un hijo.\"",
+              "speaker": "Gabriel",
+              "options": [
+                "Dios",
+                "el rey",
+                "el sacerdote",
+                "el templo"
+              ],
+              "answer": "Dios",
+              "reference": "Lucas 1:30",
+              "explanation": "El ángel Gabriel anuncia a María que ha sido elegida por Dios para ser madre de Jesús."
+            },
+            {
+              "id": "u1-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "María aceptó inmediatamente el plan de Dios sin dudas.",
+              "isTrue": false,
+              "reference": "Lucas 1:29",
+              "explanation": "María se turbó al oír al ángel y se preguntó cuál sería el significado de ese saludo (Lucas 1:29)."
+            },
+            {
+              "id": "u1-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Quién dijo esto?",
+              "text": "\"He aquí la sierva del Señor; hágase en mí según tu palabra.\"",
+              "speaker": "María",
+              "options": [
+                "María",
+                "Isabel",
+                "La madre de Juan el Bautista",
+                "La esposa de Zacarías"
+              ],
+              "answer": "María",
+              "reference": "Lucas 1:38"
+            },
+            {
+              "id": "u1-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La respuesta de María al ángel Gabriel",
+              "tokens": [
+                "He aquí",
+                "la sierva del Señor",
+                "hágase",
+                "en mí",
+                "según",
+                "tu palabra"
+              ],
+              "distractors": [
+                "la bondad",
+                "del reino",
+                "sea hecho",
+                "en el cielo"
+              ],
+              "reference": "Lucas 1:38"
+            },
+            {
+              "id": "u1-l1-e5",
+              "kind": "multipleChoice",
+              "prompt": "¿Dónde estaba María cuando el ángel se le apareció?",
+              "text": "María estaba en su ___ en la ciudad de Nazaret.",
+              "options": [
+                "casa",
+                "sinagoga",
+                "taller",
+                "fuente"
+              ],
+              "answer": "casa",
+              "reference": "Lucas 1:26-27"
+            },
+            {
+              "id": "u1-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Ángel Gabriel",
+                  "right": "Anuncia a Jesús"
+                },
+                {
+                  "left": "María",
+                  "right": "Acepta la voluntad"
+                },
+                {
+                  "left": "Zacarías",
+                  "right": "Duda del ángel"
+                },
+                {
+                  "left": "Isabel",
+                  "right": "Madre de Juan"
+                }
+              ],
+              "reference": "Lucas 1"
+            },
+            {
+              "id": "u1-l1-e7",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "El ángel le dijo a María que su hijo sería llamado Hijo del Altísimo.",
+              "isTrue": true,
+              "reference": "Lucas 1:32",
+              "explanation": "El ángel profetizó: \"Este será grande, y será llamado Hijo del Altísimo\" (Lucas 1:32)."
+            },
+            {
+              "id": "u1-l1-e8",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál era el nombre del prometido de María?",
+              "text": "El esposo de María se llamaba ___.",
+              "options": [
+                "José",
+                "Juan",
+                "Simón",
+                "Santiago"
+              ],
+              "answer": "José",
+              "reference": "Lucas 1:27"
+            }
+          ]
+        },
+        {
+          "id": "u1-l2",
+          "title": "El Nacimiento en Belén",
+          "icon": "house.fill",
+          "exercises": [
+            {
+              "id": "u1-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"En aquellos días salió un decreto de César ___, ordenando que se hiciera un empadronamiento de todo el mundo habitado.\"",
+              "options": [
+                "Augusto",
+                "Tiberio",
+                "Caio",
+                "Nerón"
+              ],
+              "answer": "Augusto",
+              "reference": "Lucas 2:1"
+            },
+            {
+              "id": "u1-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús nació en Nazaret, la ciudad donde vivía María.",
+              "isTrue": false,
+              "reference": "Lucas 2:4-7",
+              "explanation": "Jesús nació en Belén, porque José y María tuvieron que empadronarse allí (Lucas 2:4-7)."
+            },
+            {
+              "id": "u1-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Sobre el lugar del nacimiento de Jesús",
+              "tokens": [
+                "Y dio a luz",
+                "a su hijo primogénito",
+                "y lo envolvió",
+                "en pañales",
+                "y lo acostó",
+                "en un pesebre"
+              ],
+              "distractors": [
+                "en una cuna",
+                "con ropas finas",
+                "en oro",
+                "en cortinas"
+              ],
+              "reference": "Lucas 2:7"
+            },
+            {
+              "id": "u1-l2-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Dónde fue puesto Jesús cuando nació?",
+              "text": "Jesús fue puesto en un ___ porque no había lugar en la posada.",
+              "options": [
+                "pesebre",
+                "lecho",
+                "red",
+                "cuna de paja"
+              ],
+              "answer": "pesebre",
+              "reference": "Lucas 2:7"
+            },
+            {
+              "id": "u1-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Belén",
+                  "right": "Ciudad del nacimiento"
+                },
+                {
+                  "left": "Pesebre",
+                  "right": "Cuna de Jesús"
+                },
+                {
+                  "left": "Nazaret",
+                  "right": "Ciudad de María"
+                },
+                {
+                  "left": "Pañales",
+                  "right": "Ropas del bebé"
+                }
+              ],
+              "reference": "Lucas 2"
+            },
+            {
+              "id": "u1-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Había muchos huéspedes en la posada cuando Jesús nació.",
+              "isTrue": false,
+              "reference": "Lucas 2:7",
+              "explanation": "No había lugar para ellos en la posada (Lucas 2:7), así que Jesús nació en un pesebre."
+            },
+            {
+              "id": "u1-l2-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Quién fue el carpintero que crió a Jesús?",
+              "text": "___ era el carpintero que sirvió como padre terrenal de Jesús.",
+              "speaker": "Narrador",
+              "options": [
+                "José",
+                "Simón",
+                "Santiago",
+                "Juan"
+              ],
+              "answer": "José",
+              "reference": "Mateo 1:24-25"
+            },
+            {
+              "id": "u1-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Los padres de Jesús se quedaron en Belén durante toda su vida.",
+              "isTrue": false,
+              "reference": "Mateo 2:22-23",
+              "explanation": "Después de los eventos en Belén, la familia se mudó a Nazaret (Mateo 2:22-23)."
+            }
+          ]
+        },
+        {
+          "id": "u1-l3",
+          "title": "Los Pastores y los Magos",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "u1-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"No temáis; he aquí os anuncio una alegría grande, que será para todo el ___: que os ha nacido hoy, en la ciudad de David, un Salvador, que es Cristo, el Señor.\"",
+              "speaker": "Ángel",
+              "options": [
+                "pueblo",
+                "mundo",
+                "reino",
+                "Israel"
+              ],
+              "answer": "pueblo",
+              "reference": "Lucas 2:10-11"
+            },
+            {
+              "id": "u1-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Los pastores vieron una multitud de ángeles alabando a Dios.",
+              "isTrue": true,
+              "reference": "Lucas 2:13",
+              "explanation": "De repente apareció con el ángel una multitud de la milicia celestial, alabando a Dios (Lucas 2:13)."
+            },
+            {
+              "id": "u1-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La alabanza de los ángeles en el cielo",
+              "tokens": [
+                "Gloria a Dios",
+                "en las alturas",
+                "y paz en la tierra",
+                "buena voluntad",
+                "entre los hombres"
+              ],
+              "distractors": [
+                "en el templo",
+                "en la ciudad",
+                "gracia y verdad",
+                "fuerza eterna"
+              ],
+              "reference": "Lucas 2:14"
+            },
+            {
+              "id": "u1-l3-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué guió a los magos hasta Jesús?",
+              "text": "Los magos vieron una ___ cuando Jesús nació.",
+              "options": [
+                "estrella",
+                "llama",
+                "luz del cielo",
+                "voz del ángel"
+              ],
+              "answer": "estrella",
+              "reference": "Mateo 2:2"
+            },
+            {
+              "id": "u1-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Pastores",
+                  "right": "Escuchan del ángel"
+                },
+                {
+                  "left": "Magos",
+                  "right": "Siguen la estrella"
+                },
+                {
+                  "left": "Incienso",
+                  "right": "Don del mago"
+                },
+                {
+                  "left": "Oro",
+                  "right": "Regalo al rey"
+                }
+              ],
+              "reference": "Lucas 2 y Mateo 2"
+            },
+            {
+              "id": "u1-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Los magos le dieron a Jesús oro, incienso y mirra.",
+              "isTrue": true,
+              "reference": "Mateo 2:11",
+              "explanation": "Abriendo sus cofres, le presentaron dones: oro, incienso y mirra (Mateo 2:11)."
+            },
+            {
+              "id": "u1-l3-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Quién intentó encontrar a Jesús para matarlo?",
+              "text": "El rey ___ quería encontrar a Jesús para destruirlo.",
+              "speaker": "Narrador",
+              "options": [
+                "Herodes",
+                "Agripa",
+                "Pilato",
+                "Cleopatra"
+              ],
+              "answer": "Herodes",
+              "reference": "Mateo 2:8"
+            },
+            {
+              "id": "u1-l3-e8",
+              "kind": "multipleChoice",
+              "prompt": "¿A quién fueron advertidos los magos para no volver?",
+              "text": "Los magos fueron advertidos en sueños para no volver a ___.",
+              "options": [
+                "Herodes",
+                "Jerusalén",
+                "Belén",
+                "el reino"
+              ],
+              "answer": "Herodes",
+              "reference": "Mateo 2:12"
+            }
+          ]
+        },
+        {
+          "id": "u1-l4",
+          "title": "Presentación en el Templo",
+          "icon": "hands.sparkles.fill",
+          "exercises": [
+            {
+              "id": "u1-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Cuando se cumplieron los días de la purificación conforme a la Ley de Moisés, lo llevaron a Jerusalén para presentarlo ante el Señor.\"",
+              "options": [
+                "a María y a Jesús",
+                "a Jesús",
+                "al niño",
+                "a la madre"
+              ],
+              "answer": "al niño",
+              "reference": "Lucas 2:22"
+            },
+            {
+              "id": "u1-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Simeón era un hombre mayor que esperaba la consolación de Israel.",
+              "isTrue": true,
+              "reference": "Lucas 2:25-26",
+              "explanation": "Simeón era justo y esperaba la consolación de Israel, con la promesa del Espíritu Santo de ver al Cristo."
+            },
+            {
+              "id": "u1-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La profecía de Simeón sobre Jesús",
+              "tokens": [
+                "He aquí, este",
+                "está puesto",
+                "para caída",
+                "y para levantamiento",
+                "de muchos en Israel"
+              ],
+              "distractors": [
+                "será rey de Israel",
+                "salvará el mundo",
+                "reunirá a todos",
+                "las naciones al Padre"
+              ],
+              "reference": "Lucas 2:34"
+            },
+            {
+              "id": "u1-l4-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Quién más reconoció a Jesús en el templo?",
+              "text": "___ era una viuda que vivía en el templo con oración y ayuno.",
+              "speaker": "Narrador",
+              "options": [
+                "Ana",
+                "Magdalena",
+                "Salomé",
+                "Juana"
+              ],
+              "answer": "Ana",
+              "reference": "Lucas 2:36"
+            },
+            {
+              "id": "u1-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Simeón",
+                  "right": "Reconoce a Jesús"
+                },
+                {
+                  "left": "Ana",
+                  "right": "Profetisa piadosa"
+                },
+                {
+                  "left": "Ley de Moisés",
+                  "right": "Purificación"
+                },
+                {
+                  "left": "Espíritu Santo",
+                  "right": "Revela a Simeón"
+                }
+              ],
+              "reference": "Lucas 2:22-38"
+            },
+            {
+              "id": "u1-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La presentación de Jesús en el templo sucedió 40 días después de su nacimiento.",
+              "isTrue": true,
+              "reference": "Lucas 2:22",
+              "explanation": "Cuando se cumplieron los días de la purificación conforme a la Ley de Moisés (40 días), lo llevaron a Jerusalén (Lucas 2:22)."
+            },
+            {
+              "id": "u1-l4-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué dijo Simeón que penetraría el alma de María?",
+              "text": "Simeón profetizó que una ___ atravesaría el alma de María.",
+              "options": [
+                "espada",
+                "lanza",
+                "pena",
+                "tribulación"
+              ],
+              "answer": "espada",
+              "reference": "Lucas 2:35"
+            },
+            {
+              "id": "u1-l4-e8",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuánto tiempo hacía que Ana era viuda?",
+              "text": "Ana había sido viuda durante cerca de ___ años.",
+              "options": [
+                "84",
+                "70",
+                "60",
+                "40"
+              ],
+              "answer": "84",
+              "reference": "Lucas 2:37"
+            }
+          ]
+        },
+        {
+          "id": "u1-l5",
+          "title": "Jesús a los 12 Años",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "u1-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Cuando Jesús llegó a los doce años de edad, subieron, según la costumbre de la fiesta, y el ___ se quedó atrás sin que sus padres lo supieran.\"",
+              "options": [
+                "niño",
+                "hijo",
+                "Jesús",
+                "cuerpo"
+              ],
+              "answer": "niño",
+              "reference": "Lucas 2:42-43"
+            },
+            {
+              "id": "u1-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús estaba en el templo conversando con los maestros de la Ley.",
+              "isTrue": true,
+              "reference": "Lucas 2:46",
+              "explanation": "Jesús estaba en el templo, sentado entre los maestros, escuchándolos e interrogándolos (Lucas 2:46)."
+            },
+            {
+              "id": "u1-l5-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La respuesta de Jesús a sus padres",
+              "tokens": [
+                "¿Por qué me buscabais?",
+                "¿No sabíais",
+                "que debo estar",
+                "en la casa",
+                "de mi Padre?"
+              ],
+              "distractors": [
+                "en el templo",
+                "en el reino",
+                "en el trabajo",
+                "en la sinagoga"
+              ],
+              "reference": "Lucas 2:49"
+            },
+            {
+              "id": "u1-l5-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Dónde encontraron los padres de Jesús a Jesús?",
+              "text": "Jesús fue encontrado en el ___, sentado entre los maestros.",
+              "options": [
+                "templo",
+                "sinagoga",
+                "mercado",
+                "barrio"
+              ],
+              "answer": "templo",
+              "reference": "Lucas 2:46"
+            },
+            {
+              "id": "u1-l5-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Jesús",
+                  "right": "Niño sabio"
+                },
+                {
+                  "left": "Maestros",
+                  "right": "Asombrados"
+                },
+                {
+                  "left": "María",
+                  "right": "Búsqueda ansiosa"
+                },
+                {
+                  "left": "Fiesta",
+                  "right": "Pascua"
+                }
+              ],
+              "reference": "Lucas 2:41-50"
+            },
+            {
+              "id": "u1-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "María comprendió plenamente todo lo que Jesús quiso decir con su respuesta.",
+              "isTrue": false,
+              "reference": "Lucas 2:50",
+              "explanation": "Sus padres no comprendieron lo que Jesús les decía (Lucas 2:50)."
+            },
+            {
+              "id": "u1-l5-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Quién guardaba todas estas cosas en el corazón?",
+              "text": "___ guardaba todos estos sucesos en su corazón.",
+              "speaker": "Narrador",
+              "options": [
+                "María",
+                "José",
+                "los maestros",
+                "la ciudad"
+              ],
+              "answer": "María",
+              "reference": "Lucas 2:51"
+            },
+            {
+              "id": "u1-l5-e8",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo sobre el crecimiento de Jesús",
+              "text": "\"Y Jesús crecía en ___, en estatura, y en gracia para con Dios y los hombres.\"",
+              "options": [
+                "sabiduría",
+                "fuerza",
+                "conocimiento",
+                "fe"
+              ],
+              "answer": "sabiduría",
+              "reference": "Lucas 2:52"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Unidad 2",
+      "subtitle": "El inicio del ministerio",
+      "guide": {
+        "summary": "El ministerio de Jesús comienza con su bautismo y la confirmación del Padre. Vence las tentaciones del desierto y llama a sus primeros discípulos. Su primer milagro en Caná revela su poder. Nicodemo aprende sobre el nuevo nacimiento. Todo converge en la verdad central: Dios ama al mundo y ofrece vida eterna por el Hijo.",
+        "keyVerses": [
+          {
+            "reference": "Mateo 3:16-17",
+            "text": "Y bautizado Jesús, luego subió del agua; y he aquí que los cielos le fueron abiertos, y vio al Espíritu de Dios que descendía como paloma, y venía sobre él. Y he aquí una voz de los cielos que decía: Este es mi Hijo amado, en quien tengo contentamiento."
+          },
+          {
+            "reference": "Juan 3:16",
+            "text": "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna."
+          },
+          {
+            "reference": "Juan 1:1",
+            "text": "En el principio era el Verbo, y el Verbo era con Dios, y el Verbo era Dios."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "u2-l1",
+          "title": "Juan el Bautista y el Bautismo",
+          "icon": "drop.fill",
+          "exercises": [
+            {
+              "id": "u2-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Yo a la verdad os bautizo en agua para arrepentimiento; pero el que viene tras mí es más poderoso que yo; cuyo calzado no soy digno de llevar; él os bautizará en ___ y fuego.\"",
+              "speaker": "Juan el Bautista",
+              "options": [
+                "Espíritu Santo",
+                "espíritu",
+                "poder",
+                "fuego"
+              ],
+              "answer": "Espíritu Santo",
+              "reference": "Mateo 3:11"
+            },
+            {
+              "id": "u2-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Juan el Bautista era el Mesías.",
+              "isTrue": false,
+              "reference": "Juan 1:20",
+              "explanation": "Juan explícitamente negó ser el Cristo (Juan 1:20), diciendo que era solo una voz preparando el camino."
+            },
+            {
+              "id": "u2-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La preparación de Juan para Jesús",
+              "tokens": [
+                "Preparad el camino",
+                "del Señor",
+                "enderezad",
+                "sus sendas"
+              ],
+              "distractors": [
+                "limpiad",
+                "del rey",
+                "levantad",
+                "los caminos"
+              ],
+              "reference": "Mateo 3:3"
+            },
+            {
+              "id": "u2-l1-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Dónde fue bautizado Jesús?",
+              "text": "Jesús fue bautizado en el río ___.",
+              "options": [
+                "Jordán",
+                "Nilo",
+                "Eufrates",
+                "Tigris"
+              ],
+              "answer": "Jordán",
+              "reference": "Mateo 3:13"
+            },
+            {
+              "id": "u2-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Juan el Bautista",
+                  "right": "Prepara el camino"
+                },
+                {
+                  "left": "Jesús",
+                  "right": "Cumple la justicia"
+                },
+                {
+                  "left": "Espíritu Santo",
+                  "right": "Desciende en forma"
+                },
+                {
+                  "left": "Voz de Dios",
+                  "right": "Aprueba al Hijo"
+                }
+              ],
+              "reference": "Mateo 3"
+            },
+            {
+              "id": "u2-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "En el bautismo de Jesús, una voz del cielo confirmó que él era el Hijo de Dios.",
+              "isTrue": true,
+              "reference": "Mateo 3:17",
+              "explanation": "Se escuchó una voz del cielo que decía: \"Este es mi Hijo amado, en quien tengo complacencia\" (Mateo 3:17)."
+            },
+            {
+              "id": "u2-l1-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿En qué forma descendió el Espíritu Santo sobre Jesús?",
+              "text": "El Espíritu Santo descendió sobre Jesús en forma de ___.",
+              "options": [
+                "paloma",
+                "luz",
+                "fuego",
+                "viento"
+              ],
+              "answer": "paloma",
+              "reference": "Mateo 3:16"
+            },
+            {
+              "id": "u2-l1-e8",
+              "kind": "multipleChoice",
+              "prompt": "¿Quién bautizaba en el río Jordán?",
+              "text": "___ bautizaba a la gente para arrepentimiento de sus pecados.",
+              "speaker": "Narrador",
+              "options": [
+                "Juan",
+                "Pedro",
+                "Andrés",
+                "Felipe"
+              ],
+              "answer": "Juan",
+              "reference": "Mateo 3:6"
+            }
+          ]
+        },
+        {
+          "id": "u2-l2",
+          "title": "La Tentación en el Desierto",
+          "icon": "flame.fill",
+          "exercises": [
+            {
+              "id": "u2-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Entonces Jesús fue llevado por el Espíritu al desierto, para ser tentado por el ___. Y después de haber ayunado cuarenta días y cuarenta noches, tuvo hambre.\"",
+              "options": [
+                "diablo",
+                "pueblo",
+                "sumo sacerdote",
+                "rey"
+              ],
+              "answer": "diablo",
+              "reference": "Mateo 4:1-2"
+            },
+            {
+              "id": "u2-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús fue al desierto porque quiso esconderse de sus enemigos.",
+              "isTrue": false,
+              "reference": "Mateo 4:1",
+              "explanation": "Jesús fue llevado por el Espíritu al desierto para ser tentado por el diablo, no para esconderse."
+            },
+            {
+              "id": "u2-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La respuesta de Jesús a la primera tentación",
+              "tokens": [
+                "No solo de pan",
+                "vivirá el hombre",
+                "sino de toda",
+                "palabra que sale",
+                "de la boca de Dios"
+              ],
+              "distractors": [
+                "por obra",
+                "del Espíritu",
+                "por fe",
+                "por su gracia"
+              ],
+              "reference": "Mateo 4:4"
+            },
+            {
+              "id": "u2-l2-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál fue la primera tentación ofrecida a Jesús?",
+              "text": "El diablo pidió a Jesús que convirtiera las ___ en pan.",
+              "options": [
+                "piedras",
+                "arenas",
+                "rocas",
+                "tierras"
+              ],
+              "answer": "piedras",
+              "reference": "Mateo 4:3"
+            },
+            {
+              "id": "u2-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Primera tentación",
+                  "right": "Pan del desierto"
+                },
+                {
+                  "left": "Segunda tentación",
+                  "right": "Poder en los reinos"
+                },
+                {
+                  "left": "Tercera tentación",
+                  "right": "Lanzarse del templo"
+                },
+                {
+                  "left": "Escritura",
+                  "right": "Arma contra diablo"
+                }
+              ],
+              "reference": "Mateo 4:1-11"
+            },
+            {
+              "id": "u2-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "El diablo le ofreció a Jesús todos los reinos del mundo si se postraba ante él.",
+              "isTrue": true,
+              "reference": "Mateo 4:8-9",
+              "explanation": "El diablo llevó a Jesús al monte y le mostró todos los reinos, ofreciéndoselos por adoración (Mateo 4:8-9)."
+            },
+            {
+              "id": "u2-l2-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿De qué manera respondía siempre Jesús a las tentaciones?",
+              "text": "Jesús respondía con versículos de la ___.",
+              "options": [
+                "Escritura",
+                "tradición",
+                "sabiduría",
+                "Ley oral"
+              ],
+              "answer": "Escritura",
+              "reference": "Mateo 4:4,7,10"
+            },
+            {
+              "id": "u2-l2-e8",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuántos días ayunó Jesús en el desierto?",
+              "text": "Jesús ayunó por ___ días y ___ noches.",
+              "options": [
+                "cuarenta y cuarenta",
+                "treinta y treinta",
+                "veinte y veinte",
+                "diez y diez"
+              ],
+              "answer": "cuarenta y cuarenta",
+              "reference": "Mateo 4:2"
+            }
+          ]
+        },
+        {
+          "id": "u2-l3",
+          "title": "Llamado de los Discípulos",
+          "icon": "person.2.fill",
+          "exercises": [
+            {
+              "id": "u2-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Jesús le dijo: Sígueme, y deja que los ___ entierren a sus muertos.\"",
+              "speaker": "Jesús",
+              "options": [
+                "muertos",
+                "pecadores",
+                "vivos",
+                "impíos"
+              ],
+              "answer": "muertos",
+              "reference": "Mateo 8:22"
+            },
+            {
+              "id": "u2-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Pedro, Andrés, Santiago y Juan eran pescadores cuando Jesús los llamó.",
+              "isTrue": true,
+              "reference": "Mateo 4:18-22",
+              "explanation": "Pedro y Andrés estaban echando redes al mar, y Santiago y Juan estaban en la barca con Zebedeo, su padre (Mateo 4:18-22)."
+            },
+            {
+              "id": "u2-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Promesa de Jesús a los primeros discípulos",
+              "tokens": [
+                "Venid en pos de mí",
+                "y yo os haré",
+                "pescadores de hombres"
+              ],
+              "distractors": [
+                "y os haré",
+                "apóstoles",
+                "sabios",
+                "reyes"
+              ],
+              "reference": "Mateo 4:19"
+            },
+            {
+              "id": "u2-l3-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál era la profesión de Mateo antes de seguir a Jesús?",
+              "text": "Mateo era un ___ de impuestos.",
+              "options": [
+                "cobrador",
+                "guardián",
+                "señor",
+                "siervo"
+              ],
+              "answer": "cobrador",
+              "reference": "Mateo 9:9"
+            },
+            {
+              "id": "u2-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Pedro",
+                  "right": "Simón Pedro"
+                },
+                {
+                  "left": "Mateo",
+                  "right": "Cobrador"
+                },
+                {
+                  "left": "Juan",
+                  "right": "Discípulo amado"
+                },
+                {
+                  "left": "Judas",
+                  "right": "Traidor"
+                }
+              ],
+              "reference": "Mateo 10:1-4"
+            },
+            {
+              "id": "u2-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús eligió a doce discípulos para estar con él.",
+              "isTrue": true,
+              "reference": "Marcos 3:14",
+              "explanation": "Jesús designó a doce discípulos para que estuvieran con él y los enviaría a predicar (Marcos 3:14)."
+            },
+            {
+              "id": "u2-l3-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿A quién apodó Jesús de 'Piedra'?",
+              "text": "Jesús le dio el nombre ___ a Simón.",
+              "options": [
+                "Pedro",
+                "Cefas",
+                "Kephas",
+                "todos los anteriores"
+              ],
+              "answer": "todos los anteriores",
+              "reference": "Mateo 16:18"
+            },
+            {
+              "id": "u2-l3-e8",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué dejaron los primeros discípulos para seguir a Jesús?",
+              "text": "Pedro y Andrés dejaron sus ___ y siguieron a Jesús.",
+              "options": [
+                "redes",
+                "barcas",
+                "casas",
+                "familias"
+              ],
+              "answer": "redes",
+              "reference": "Mateo 4:20"
+            }
+          ]
+        },
+        {
+          "id": "u2-l4",
+          "title": "Bodas de Caná y Nicodemo",
+          "icon": "gift.fill",
+          "exercises": [
+            {
+              "id": "u2-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Jesús les dijo: Llenad de agua estas tinajas. Y las llenaron hasta el ___.",
+              "speaker": "Jesús",
+              "options": [
+                "tope",
+                "medio",
+                "fin",
+                "borde"
+              ],
+              "answer": "tope",
+              "reference": "Juan 2:7"
+            },
+            {
+              "id": "u2-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Este fue el primer milagro de Jesús, realizado en Caná de Galilea.",
+              "isTrue": true,
+              "reference": "Juan 2:11",
+              "explanation": "Este fue el primero de los signos que Jesús realizó, en Caná de Galilea (Juan 2:11)."
+            },
+            {
+              "id": "u2-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La conversación más importante de la Biblia con Nicodemo",
+              "tokens": [
+                "Porque de tal manera",
+                "amó Dios al mundo",
+                "que ha dado",
+                "a su Hijo unigénito",
+                "para que todo aquel"
+              ],
+              "distractors": [
+                "envió",
+                "sacrificó",
+                "a su primogénito",
+                "para salvar"
+              ],
+              "reference": "Juan 3:16"
+            },
+            {
+              "id": "u2-l4-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Quién era Nicodemo?",
+              "text": "Nicodemo era un ___ de los judíos.",
+              "options": [
+                "fariseo",
+                "escriba",
+                "sacerdote",
+                "levita"
+              ],
+              "answer": "fariseo",
+              "reference": "Juan 3:1"
+            },
+            {
+              "id": "u2-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Bodas de Caná",
+                  "right": "Primer milagro"
+                },
+                {
+                  "left": "Agua",
+                  "right": "Vino nuevo"
+                },
+                {
+                  "left": "Nicodemo",
+                  "right": "Nacer de nuevo"
+                },
+                {
+                  "left": "Juan 3:16",
+                  "right": "Amor de Dios"
+                }
+              ],
+              "reference": "Juan 2 y 3"
+            },
+            {
+              "id": "u2-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Nicodemo vino a hablar con Jesús de noche.",
+              "isTrue": true,
+              "reference": "Juan 3:2",
+              "explanation": "Nicodemo vino a Jesús de noche, por temor de los judíos (Juan 3:2)."
+            },
+            {
+              "id": "u2-l4-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué convirtió Jesús en vino?",
+              "text": "Jesús convirtió ___ en vino en las bodas de Caná.",
+              "options": [
+                "agua",
+                "jugo",
+                "leche",
+                "aceite"
+              ],
+              "answer": "agua",
+              "reference": "Juan 2:9"
+            },
+            {
+              "id": "u2-l4-e8",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo sobre quien cree",
+              "text": "\"El que cree en el Hijo tiene vida eterna; pero el que no obedece al Hijo no verá la vida, sino que la ira de ___ está sobre él.\"",
+              "options": [
+                "Dios",
+                "Dios y del Hijo",
+                "Dios Padre",
+                "Dios Todopoderoso"
+              ],
+              "answer": "Dios",
+              "reference": "Juan 3:36"
+            }
+          ]
+        },
+        {
+          "id": "u2-l5",
+          "title": "El Gran Amor de Dios",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "u2-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Porque de tal manera amó Dios al mundo, que ha dado a su Hijo ___, para que todo aquel que en él cree no se pierda, mas tenga vida eterna.\"",
+              "options": [
+                "unigénito",
+                "primogénito",
+                "siervo",
+                "profeta"
+              ],
+              "answer": "unigénito",
+              "reference": "Juan 3:16"
+            },
+            {
+              "id": "u2-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Juan 3:16 expresa el fundamento del amor de Dios por toda la humanidad.",
+              "isTrue": true,
+              "reference": "Juan 3:16",
+              "explanation": "Este versículo es un resumen perfecto del Evangelio y de la gracia de Dios."
+            },
+            {
+              "id": "u2-l5-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La razón de la muerte de Jesús",
+              "tokens": [
+                "Porque Dios",
+                "amó al mundo",
+                "de tal manera",
+                "que ha dado",
+                "a su Hijo unigénito"
+              ],
+              "distractors": [
+                "para juzgarlo",
+                "para apedrearlo",
+                "para destruirlo",
+                "para castigar"
+              ],
+              "reference": "Juan 3:16"
+            },
+            {
+              "id": "u2-l5-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué sucede con el que cree en Jesús?",
+              "text": "Quien cree en Jesús no ___.",
+              "options": [
+                "se pierde",
+                "muere",
+                "sufre",
+                "es juzgado"
+              ],
+              "answer": "se pierde",
+              "reference": "Juan 3:16"
+            },
+            {
+              "id": "u2-l5-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Dios",
+                  "right": "Amó al mundo"
+                },
+                {
+                  "left": "Su Hijo",
+                  "right": "Para salvar"
+                },
+                {
+                  "left": "El que cree",
+                  "right": "Tiene vida eterna"
+                },
+                {
+                  "left": "El mensaje",
+                  "right": "Esperanza y amor"
+                }
+              ],
+              "reference": "Juan 3:16"
+            },
+            {
+              "id": "u2-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "El propósito de Dios al enviar a su Hijo era condenar al mundo.",
+              "isTrue": false,
+              "reference": "Juan 3:17",
+              "explanation": "Dios no envió a su Hijo para condenar al mundo, sino para que el mundo sea salvo por él (Juan 3:17)."
+            },
+            {
+              "id": "u2-l5-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál es la consecuencia de no creer en Jesús?",
+              "text": "El que no cree ya está ___.",
+              "options": [
+                "condenado",
+                "maldito",
+                "separado",
+                "perdido"
+              ],
+              "answer": "condenado",
+              "reference": "Juan 3:18"
+            },
+            {
+              "id": "u2-l5-e8",
+              "kind": "multipleChoice",
+              "prompt": "Completa la promesa de vida eterna",
+              "text": "\"El que cree en el Hijo tiene vida ___; pero el que no obedece al Hijo no verá la vida, sino que la ira de Dios está sobre él.\"",
+              "options": [
+                "eterna",
+                "sin fin",
+                "del Padre",
+                "infinita"
+              ],
+              "answer": "eterna",
+              "reference": "Juan 3:36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Unidad 3",
+      "subtitle": "Enseñanzas y milagros",
+      "guide": {
+        "summary": "Jesús enseña el camino al Reino a través de las bienaventuranzas y el Padre Nuestro, revelando que la verdadera vida consiste en confiar en él. Sus parábolas desafían a las multitudes a pensar sobre fe y prioridades. Sus milagros demuestran compasión y poder divino: alimenta a miles, camina sobre aguas, sana enfermos y resucita muertos.",
+        "keyVerses": [
+          {
+            "reference": "Mateo 5:3",
+            "text": "Bienaventurados los pobres en espíritu; porque de ellos es el reino de los cielos."
+          },
+          {
+            "reference": "Mateo 6:9-10",
+            "text": "Vosotros, pues, oraréis así: Padre nuestro que estás en los cielos, santificado sea tu nombre. Venga tu reino. Hágase tu voluntad, como en el cielo, así en la tierra."
+          },
+          {
+            "reference": "Mateo 14:27",
+            "text": "Mas enseguida Jesús les habló, diciendo: Tened ánimo, yo soy; no temáis."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "u3-l1",
+          "title": "Sermón del Monte",
+          "icon": "mountain.2.fill",
+          "exercises": [
+            {
+              "id": "u3-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Bienaventurados los pobres en ___; porque de ellos es el reino de los cielos.\"",
+              "speaker": "Jesús",
+              "options": [
+                "espíritu",
+                "corazón",
+                "alma",
+                "fe"
+              ],
+              "answer": "espíritu",
+              "reference": "Mateo 5:3"
+            },
+            {
+              "id": "u3-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Las bienaventuranzas enseñan cualidades que traen felicidad espiritual.",
+              "isTrue": true,
+              "reference": "Mateo 5:3-12",
+              "explanation": "Las bienaventuranzas describen las bendiciones de Dios sobre aquellos que viven conforme a sus valores."
+            },
+            {
+              "id": "u3-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Una de las bienaventuranzas del Sermón",
+              "tokens": [
+                "Bienaventurados",
+                "los que lloran",
+                "porque serán",
+                "consolados"
+              ],
+              "distractors": [
+                "los que ríen",
+                "recibirán",
+                "serán juzgados",
+                "los felices"
+              ],
+              "reference": "Mateo 5:4"
+            },
+            {
+              "id": "u3-l1-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Quiénes son bienaventurados según Jesús?",
+              "text": "Bienaventurados los ___, porque de ellos es el reino de los cielos.",
+              "options": [
+                "mansos",
+                "ricos",
+                "poderosos",
+                "sabios"
+              ],
+              "answer": "mansos",
+              "reference": "Mateo 5:5"
+            },
+            {
+              "id": "u3-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Pobres en espíritu",
+                  "right": "Reino de los cielos"
+                },
+                {
+                  "left": "Mansos",
+                  "right": "Heredarán la tierra"
+                },
+                {
+                  "left": "Hambrientos de justicia",
+                  "right": "Serán saciados"
+                },
+                {
+                  "left": "Misericordiosos",
+                  "right": "Alcanzarán gracia"
+                }
+              ],
+              "reference": "Mateo 5:3-7"
+            },
+            {
+              "id": "u3-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús enseñó que los pacificadores serán llamados hijos de Dios.",
+              "isTrue": true,
+              "reference": "Mateo 5:9",
+              "explanation": "Bienaventurados los pacificadores, porque serán llamados hijos de Dios (Mateo 5:9)."
+            },
+            {
+              "id": "u3-l1-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuántas bienaventuranzas pronunció Jesús?",
+              "text": "En el Sermón del Monte, Jesús enseñó aproximadamente ___ bienaventuranzas.",
+              "options": [
+                "ocho",
+                "diez",
+                "cinco",
+                "doce"
+              ],
+              "answer": "ocho",
+              "reference": "Mateo 5:3-12"
+            },
+            {
+              "id": "u3-l1-e8",
+              "kind": "multipleChoice",
+              "prompt": "Completa la bienaventuranza sobre la misericordia",
+              "text": "\"Bienaventurados los misericordiosos, porque alcanzarán ___.\"",
+              "options": [
+                "misericordia",
+                "perdón",
+                "bendición",
+                "gracia"
+              ],
+              "answer": "misericordia",
+              "reference": "Mateo 5:7"
+            }
+          ]
+        },
+        {
+          "id": "u3-l2",
+          "title": "El Padre Nuestro",
+          "icon": "hands.sparkles.fill",
+          "exercises": [
+            {
+              "id": "u3-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Vosotros, pues, oraréis así: Padre nuestro que estás en los ___, santificado sea tu nombre.\"",
+              "speaker": "Jesús",
+              "options": [
+                "cielos",
+                "cielo",
+                "trono",
+                "templo"
+              ],
+              "answer": "cielos",
+              "reference": "Mateo 6:9"
+            },
+            {
+              "id": "u3-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "El Padre Nuestro es una oración que Jesús enseñó a sus discípulos.",
+              "isTrue": true,
+              "reference": "Mateo 6:9-13",
+              "explanation": "Jesús enseñó esta oración como modelo de cómo los discípulos deben orar."
+            },
+            {
+              "id": "u3-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Petición por el pan diario",
+              "tokens": [
+                "El pan nuestro",
+                "de cada día",
+                "dánoslo hoy"
+              ],
+              "distractors": [
+                "de cada mes",
+                "danos siempre",
+                "que nos pertenece",
+                "que sembramos"
+              ],
+              "reference": "Mateo 6:11"
+            },
+            {
+              "id": "u3-l2-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué pidió Jesús que fuera santificado?",
+              "text": "\"Santificado sea tu ___\".",
+              "options": [
+                "nombre",
+                "trono",
+                "pueblo",
+                "reino"
+              ],
+              "answer": "nombre",
+              "reference": "Mateo 6:9"
+            },
+            {
+              "id": "u3-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Santificado sea",
+                  "right": "Tu nombre"
+                },
+                {
+                  "left": "Venga tu",
+                  "right": "Reino"
+                },
+                {
+                  "left": "Hágase tu",
+                  "right": "Voluntad"
+                },
+                {
+                  "left": "Perdona nos",
+                  "right": "Nuestras deudas"
+                }
+              ],
+              "reference": "Mateo 6:9-13"
+            },
+            {
+              "id": "u3-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "En la oración del Padre Nuestro, le pedimos a Dios que nos perdone nuestras ofensas.",
+              "isTrue": true,
+              "reference": "Mateo 6:12",
+              "explanation": "\"Perdona nos nuestras deudas, así como nosotros perdonamos a nuestros deudores\" (Mateo 6:12)."
+            },
+            {
+              "id": "u3-l2-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Cómo pidió Jesús que oremos por sustento?",
+              "text": "\"El pan nuestro de cada día ___ hoy.\"",
+              "options": [
+                "dánoslo",
+                "danos",
+                "nos pertenece",
+                "aparece"
+              ],
+              "answer": "dánoslo",
+              "reference": "Mateo 6:11"
+            },
+            {
+              "id": "u3-l2-e8",
+              "kind": "multipleChoice",
+              "prompt": "Completa la oración sobre el perdón",
+              "text": "\"Perdona nos nuestras deudas, así como nosotros perdonamos a nuestros ___; y no nos metas en tentación, mas líbranos del mal.\"",
+              "options": [
+                "deudores",
+                "enemigos",
+                "pecadores",
+                "críticos"
+              ],
+              "answer": "deudores",
+              "reference": "Mateo 6:12"
+            }
+          ]
+        },
+        {
+          "id": "u3-l3",
+          "title": "Parábolas de Jesús",
+          "icon": "book.fill",
+          "exercises": [
+            {
+              "id": "u3-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo sobre la parábola",
+              "text": "\"La parábola del hijo pródigo: Un hombre tenía dos ___; y el más joven dijo a su padre: Padre, dame mi parte de la herencia.\"",
+              "speaker": "Jesús",
+              "options": [
+                "hijos",
+                "hijas",
+                "siervos",
+                "herederos"
+              ],
+              "answer": "hijos",
+              "reference": "Lucas 15:11-12"
+            },
+            {
+              "id": "u3-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "En la parábola del hijo pródigo, el padre lo rechazó cuando regresó.",
+              "isTrue": false,
+              "reference": "Lucas 15:20",
+              "explanation": "El padre corrió para abrazar al hijo y lo recibió con alegría (Lucas 15:20)."
+            },
+            {
+              "id": "u3-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La reacción del padre al ver al hijo regresar",
+              "tokens": [
+                "Levantándose",
+                "fue al encuentro",
+                "de su hijo",
+                "y lo besó"
+              ],
+              "distractors": [
+                "llamó al siervo",
+                "le dio dinero",
+                "pidió explicaciones",
+                "lo reprendió"
+              ],
+              "reference": "Lucas 15:20"
+            },
+            {
+              "id": "u3-l3-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál era la lección de la parábola de la oveja perdida?",
+              "text": "La parábola de la oveja perdida enseña que hay ___ en el cielo por un pecador que se arrepiente.",
+              "options": [
+                "alegría",
+                "tristeza",
+                "juicio",
+                "condenación"
+              ],
+              "answer": "alegría",
+              "reference": "Lucas 15:7"
+            },
+            {
+              "id": "u3-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Hijo pródigo",
+                  "right": "Vuelve al padre"
+                },
+                {
+                  "left": "Oveja perdida",
+                  "right": "Pastor la busca"
+                },
+                {
+                  "left": "Buen samaritano",
+                  "right": "Ayuda al herido"
+                },
+                {
+                  "left": "Parábola",
+                  "right": "Enseñanza con historia"
+                }
+              ],
+              "reference": "Lucas 15, Mateo 18 y Lucas 10"
+            },
+            {
+              "id": "u3-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "En la parábola del buen samaritano, un sacerdote ayudó al hombre herido.",
+              "isTrue": false,
+              "reference": "Lucas 10:31-32",
+              "explanation": "El sacerdote y el levita pasaron de largo y no ayudaron. Fue el samaritano quien lo ayudó (Lucas 10:31-37)."
+            },
+            {
+              "id": "u3-l3-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuántas ovejas dejó el pastor para buscar una?",
+              "text": "En la parábola, el pastor dejó ___ ovejas para buscar la perdida.",
+              "options": [
+                "noventa y nueve",
+                "cien",
+                "cincuenta",
+                "diez"
+              ],
+              "answer": "noventa y nueve",
+              "reference": "Lucas 15:4"
+            },
+            {
+              "id": "u3-l3-e8",
+              "kind": "multipleChoice",
+              "prompt": "¿A qué pueblo pertenecían el sacerdote y el levita?",
+              "text": "El buen samaritano ayudó a un hombre al que los ___ no ayudaron.",
+              "options": [
+                "judíos",
+                "escribas",
+                "fariseos",
+                "romanos"
+              ],
+              "answer": "judíos",
+              "reference": "Lucas 10:25-37"
+            }
+          ]
+        },
+        {
+          "id": "u3-l4",
+          "title": "Milagros de Jesús",
+          "icon": "sun.max.fill",
+          "exercises": [
+            {
+              "id": "u3-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo sobre la multiplicación",
+              "text": "\"Entonces Jesús tomó los cinco panes y los dos peces, y levantando los ojos al cielo, bendijo, y partió y dio a sus discípulos para que ___ a la multitud.\"",
+              "speaker": "Jesús",
+              "options": [
+                "distribuyesen",
+                "guardasen",
+                "comiesen",
+                "trajeran"
+              ],
+              "answer": "distribuyesen",
+              "reference": "Mateo 14:19"
+            },
+            {
+              "id": "u3-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús caminó sobre las aguas del mar para llegar a los discípulos.",
+              "isTrue": true,
+              "reference": "Mateo 14:25-26",
+              "explanation": "En la cuarta vigilia de la noche, Jesús vino caminando sobre el mar hacia los discípulos (Mateo 14:25-26)."
+            },
+            {
+              "id": "u3-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Lo que Jesús dijo al caminar sobre las aguas",
+              "tokens": [
+                "Tened ánimo",
+                "yo soy",
+                "no tengáis miedo"
+              ],
+              "distractors": [
+                "yo voy",
+                "está bien",
+                "no tengan miedo",
+                "yo estoy"
+              ],
+              "reference": "Mateo 14:27"
+            },
+            {
+              "id": "u3-l4-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuántas personas fueron alimentadas con pocos panes?",
+              "text": "Cuando Jesús multiplicó los panes, aproximadamente ___ personas comieron.",
+              "options": [
+                "cinco mil",
+                "diez mil",
+                "mil",
+                "tres mil"
+              ],
+              "answer": "cinco mil",
+              "reference": "Mateo 14:21"
+            },
+            {
+              "id": "u3-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Multiplicación",
+                  "right": "Cinco mil"
+                },
+                {
+                  "left": "Caminar sobre aguas",
+                  "right": "Tened ánimo"
+                },
+                {
+                  "left": "Ciego sanado",
+                  "right": "Veía"
+                },
+                {
+                  "left": "Lázaro",
+                  "right": "Resucita"
+                }
+              ],
+              "reference": "Mateo 14, Juan 9 y 11"
+            },
+            {
+              "id": "u3-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús resucitó a Lázaro que había estado muerto cuatro días.",
+              "isTrue": true,
+              "reference": "Juan 11:39",
+              "explanation": "Lázaro ya había estado sepultado cuatro días cuando Jesús lo llamó a salir del sepulcro (Juan 11:39-44)."
+            },
+            {
+              "id": "u3-l4-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Cómo sanó Jesús al ciego?",
+              "text": "Jesús puso ___ en los ojos del ciego para sanarlo.",
+              "options": [
+                "lodo",
+                "aceite",
+                "agua",
+                "vino"
+              ],
+              "answer": "lodo",
+              "reference": "Juan 9:6"
+            },
+            {
+              "id": "u3-l4-e8",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuánto tiempo llevaba muerto Lázaro?",
+              "text": "Lázaro había estado muerto durante ___ días.",
+              "options": [
+                "cuatro",
+                "tres",
+                "cinco",
+                "siete"
+              ],
+              "answer": "cuatro",
+              "reference": "Juan 11:39"
+            }
+          ]
+        },
+        {
+          "id": "u3-l5",
+          "title": "Repaso: Enseñanzas y Milagros",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "u3-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál es la bienaventuranza de los mansos?",
+              "text": "Bienaventurados los mansos, porque ___.",
+              "options": [
+                "heredarán la tierra",
+                "verán a Dios",
+                "recibirán misericordia",
+                "estarán confortados"
+              ],
+              "answer": "heredarán la tierra",
+              "reference": "Mateo 5:5"
+            },
+            {
+              "id": "u3-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "El Padre Nuestro es una oración de perdón y dependencia de Dios.",
+              "isTrue": true,
+              "reference": "Mateo 6:9-13",
+              "explanation": "El Padre Nuestro enseña a confiar en Dios por el sustento diario y a pedir perdón de nuestras ofensas."
+            },
+            {
+              "id": "u3-l5-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La bienaventuranza de los misericordiosos",
+              "tokens": [
+                "Bienaventurados",
+                "los misericordiosos",
+                "porque alcanzarán",
+                "misericordia"
+              ],
+              "distractors": [
+                "recibirán",
+                "encontrarán",
+                "los compasivos",
+                "bendición"
+              ],
+              "reference": "Mateo 5:7"
+            },
+            {
+              "id": "u3-l5-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál parábola enseña sobre el arrepentimiento?",
+              "text": "La parábola del ___ habla de un hombre que gastó su herencia pero regresó al padre.",
+              "options": [
+                "hijo pródigo",
+                "buen samaritano",
+                "oveja perdida",
+                "sembrador"
+              ],
+              "answer": "hijo pródigo",
+              "reference": "Lucas 15:11-32"
+            },
+            {
+              "id": "u3-l5-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Sermón del monte",
+                  "right": "Bienaventuranzas"
+                },
+                {
+                  "left": "Parábolas",
+                  "right": "Enseñanzas por historia"
+                },
+                {
+                  "left": "Milagros",
+                  "right": "Poder divino"
+                },
+                {
+                  "left": "Oración",
+                  "right": "Relación con Dios"
+                }
+              ],
+              "reference": "Mateo 5-7, Lucas 15, Juan 9-11"
+            },
+            {
+              "id": "u3-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Los milagros de Jesús probaban su poder e identidad como Mesías.",
+              "isTrue": true,
+              "reference": "Juan 20:30-31",
+              "explanation": "Los signos fueron escritos para que creamos que Jesús es el Cristo y tengamos vida en él."
+            },
+            {
+              "id": "u3-l5-e7",
+              "kind": "multipleChoice",
+              "prompt": "Completa sobre el buen samaritano",
+              "text": "En la parábola del buen samaritano, el ___ fue quien mostró compasión.",
+              "options": [
+                "samaritano",
+                "sacerdote",
+                "levita",
+                "judío"
+              ],
+              "answer": "samaritano",
+              "reference": "Lucas 10:33-35"
+            },
+            {
+              "id": "u3-l5-e8",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuántos discípulos eligió Jesús?",
+              "text": "Jesús designó ___ discípulos para estar con él.",
+              "options": [
+                "doce",
+                "setenta",
+                "diez",
+                "catorce"
+              ],
+              "answer": "doce",
+              "reference": "Marcos 3:14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Unidad 4",
+      "subtitle": "Muerte y resurrección",
+      "guide": {
+        "summary": "El clímax de la vida de Jesús: su entrada triunfal en Jerusalén, última cena, juicio injusto y muerte sacrificial. Los discípulos lo abandonan en la cruz. Pero al tercer día resucita, venciendo la muerte y el pecado. Aparece a los discípulos, los comisiona y vuelve al Padre, dejando al Espíritu Santo como consolador.",
+        "keyVerses": [
+          {
+            "reference": "Juan 11:25-26",
+            "text": "Jesús le dijo: Yo soy la resurrección y la vida; el que cree en mí, aunque esté muerto, vivirá; y todo aquel que vive y cree en mí, no morirá eternamente."
+          },
+          {
+            "reference": "Romanos 6:9",
+            "text": "Sabiendo que Cristo, habiendo resucitado de los muertos, no muere más; la muerte no tiene dominio sobre él."
+          },
+          {
+            "reference": "1 Corintios 15:57",
+            "text": "Mas gracias sean dadas a Dios, que nos da la victoria por nuestro Señor Jesucristo."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "u4-l1",
+          "title": "Entrada Triunfal",
+          "icon": "music.note",
+          "exercises": [
+            {
+              "id": "u4-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Decid a la hija de Sión: He aquí, tu Rey viene a ti, manso, montado en un asno, y en un pollino, hijo de animal de carga.\"",
+              "options": [
+                "carga",
+                "trabajo",
+                "tirar",
+                "transporte"
+              ],
+              "answer": "carga",
+              "reference": "Mateo 21:5"
+            },
+            {
+              "id": "u4-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "En la entrada triunfal, la gente extendió ramos de palmas y mantos en el camino.",
+              "isTrue": true,
+              "reference": "Juan 12:13",
+              "explanation": "La multitud tomó ramos de palmas y salió al encuentro de Jesús, gritando: ¡Hosana! (Juan 12:13)."
+            },
+            {
+              "id": "u4-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La alabanza de las multitudes",
+              "tokens": [
+                "¡Hosana al Hijo",
+                "de David!",
+                "¡Bendito el que viene",
+                "en nombre del Señor!",
+                "de todos"
+              ],
+              "distractors": [
+                "al rey",
+                "al Mesías",
+                "que viene",
+                "al Altísimo"
+              ],
+              "reference": "Mateo 21:9"
+            },
+            {
+              "id": "u4-l1-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿En qué día de la semana entró Jesús en Jerusalén?",
+              "text": "La entrada triunfal sucedió en ___.",
+              "options": [
+                "domingo",
+                "lunes",
+                "sábado",
+                "viernes"
+              ],
+              "answer": "domingo",
+              "reference": "Juan 12:1"
+            },
+            {
+              "id": "u4-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Jesús",
+                  "right": "Montado en asno"
+                },
+                {
+                  "left": "Multitud",
+                  "right": "¡Hosana!"
+                },
+                {
+                  "left": "Ramos",
+                  "right": "Extendidos"
+                },
+                {
+                  "left": "Profecía",
+                  "right": "Cumplida"
+                }
+              ],
+              "reference": "Mateo 21, Juan 12"
+            },
+            {
+              "id": "u4-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La entrada triunfal cumplió las profecías del Mesías en Zacarías.",
+              "isTrue": true,
+              "reference": "Zacarías 9:9",
+              "explanation": "Zacarías profetizó que el Mesías entraría montado en un asno (Zacarías 9:9)."
+            },
+            {
+              "id": "u4-l1-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué gritaba la gente a Jesús?",
+              "text": "La multitud gritaba: \"¡___ al Hijo de David!\"",
+              "options": [
+                "¡Hosana!",
+                "¡Aleluya!",
+                "¡Bendiciones!",
+                "¡Gloria!"
+              ],
+              "answer": "¡Hosana!",
+              "reference": "Mateo 21:9"
+            },
+            {
+              "id": "u4-l1-e8",
+              "kind": "multipleChoice",
+              "prompt": "Completa sobre la alabanza de los discípulos",
+              "text": "\"¡Bendito el que viene en nombre del ___!\"",
+              "options": [
+                "Señor",
+                "Padre",
+                "Dios",
+                "Rey"
+              ],
+              "answer": "Señor",
+              "reference": "Mateo 21:9"
+            }
+          ]
+        },
+        {
+          "id": "u4-l2",
+          "title": "Última Cena y Getsemaní",
+          "icon": "water.waves",
+          "exercises": [
+            {
+              "id": "u4-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Y tomando el pan y dando gracias, lo partió y les dio, diciendo: Esto es mi ___, que por vosotros es dado; haced esto en memoria de mí.\"",
+              "speaker": "Jesús",
+              "options": [
+                "cuerpo",
+                "corazón",
+                "sangre",
+                "sacrificio"
+              ],
+              "answer": "cuerpo",
+              "reference": "Lucas 22:19"
+            },
+            {
+              "id": "u4-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "En la última cena, Jesús instituyó la ceremonia de la comunión con sus discípulos.",
+              "isTrue": true,
+              "reference": "Lucas 22:19-20",
+              "explanation": "Jesús enseñó que el pan y el vino representan su cuerpo y su sangre derramada."
+            },
+            {
+              "id": "u4-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La oración de Jesús en Getsemaní",
+              "tokens": [
+                "Abba",
+                "Padre",
+                "todas las cosas",
+                "te son posibles",
+                "aparta de mí",
+                "este cáliz"
+              ],
+              "distractors": [
+                "mi Padre",
+                "pasa este",
+                "la copa",
+                "ese sufrimiento"
+              ],
+              "reference": "Marcos 14:36"
+            },
+            {
+              "id": "u4-l2-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Para qué fiesta judía fue la última cena?",
+              "text": "La última cena de Jesús fue en la fiesta de la ___.",
+              "options": [
+                "Pascua",
+                "Pentecostés",
+                "Tabernáculos",
+                "Expiación"
+              ],
+              "answer": "Pascua",
+              "reference": "Lucas 22:15"
+            },
+            {
+              "id": "u4-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Última cena",
+                  "right": "Pascua"
+                },
+                {
+                  "left": "Getsemaní",
+                  "right": "Oración y angustia"
+                },
+                {
+                  "left": "Pan",
+                  "right": "Cuerpo de Cristo"
+                },
+                {
+                  "left": "Vino",
+                  "right": "Sangre de Cristo"
+                }
+              ],
+              "reference": "Lucas 22, Marcos 14"
+            },
+            {
+              "id": "u4-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús sudó gotas de sangre en Getsemaní de tanta angustia.",
+              "isTrue": true,
+              "reference": "Lucas 22:44",
+              "explanation": "Jesús oró con tanta intensidad que su sudor se convirtió en grandes gotas de sangre (Lucas 22:44)."
+            },
+            {
+              "id": "u4-l2-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál era el nombre del lugar donde Jesús oró?",
+              "text": "Jesús fue a un lugar llamado ___ para orar.",
+              "options": [
+                "Getsemaní",
+                "Monte de los Olivos",
+                "Betania",
+                "Cafarnaum"
+              ],
+              "answer": "Getsemaní",
+              "reference": "Lucas 22:39"
+            },
+            {
+              "id": "u4-l2-e8",
+              "kind": "multipleChoice",
+              "prompt": "Completa sobre el vino de la alianza",
+              "text": "\"De igual manera, tomó el cáliz después de haber cenado, diciendo: Este cáliz es la nueva alianza en mi ___, que por vosotros se derrama.\"",
+              "options": [
+                "sangre",
+                "cuerpo",
+                "corazón",
+                "sacrificio"
+              ],
+              "answer": "sangre",
+              "reference": "Lucas 22:20"
+            }
+          ]
+        },
+        {
+          "id": "u4-l3",
+          "title": "La Crucifixión",
+          "icon": "cross.fill",
+          "exercises": [
+            {
+              "id": "u4-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Cuando llegaron al lugar llamado Calvario, allí lo crucificaron, a él y a dos malhechores; uno a su derecha y otro a su ___\".",
+              "options": [
+                "izquierda",
+                "frente",
+                "espalda",
+                "cabeza"
+              ],
+              "answer": "izquierda",
+              "reference": "Lucas 23:33"
+            },
+            {
+              "id": "u4-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús murió solo, sin nadie a su lado.",
+              "isTrue": false,
+              "reference": "Juan 19:25-27",
+              "explanation": "María, madre de Jesús, y el discípulo amado estaban cerca de la cruz (Juan 19:25-27)."
+            },
+            {
+              "id": "u4-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Las últimas palabras de Jesús en la cruz",
+              "tokens": [
+                "Padre",
+                "en tus manos",
+                "encomiendo mi espíritu",
+                "y diciendo esto",
+                "expiró"
+              ],
+              "distractors": [
+                "mi Dios",
+                "encomienda",
+                "partió",
+                "se durmió",
+                "desistió"
+              ],
+              "reference": "Lucas 23:46"
+            },
+            {
+              "id": "u4-l3-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Por qué echaban suertes los soldados?",
+              "text": "Los soldados echaban suertes por la ___ de Jesús.",
+              "options": [
+                "ropa",
+                "capa",
+                "túnica",
+                "vida"
+              ],
+              "answer": "ropa",
+              "reference": "Lucas 23:34"
+            },
+            {
+              "id": "u4-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Crucifixión",
+                  "right": "Calvario"
+                },
+                {
+                  "left": "Muerte de Jesús",
+                  "right": "Salvación"
+                },
+                {
+                  "left": "Velo del templo",
+                  "right": "Rasgado"
+                },
+                {
+                  "left": "Resurrección",
+                  "right": "Poder de Dios"
+                }
+              ],
+              "reference": "Lucas 23, Juan 19"
+            },
+            {
+              "id": "u4-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "El velo del templo se rasgó de arriba a abajo cuando Jesús murió.",
+              "isTrue": true,
+              "reference": "Lucas 23:45",
+              "explanation": "El velo del templo se rasgó por el medio cuando Jesús expiró (Lucas 23:45)."
+            },
+            {
+              "id": "u4-l3-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál malhechor fue al paraíso?",
+              "text": "Uno de los malhechores confesó a Jesús y fue ___ aquel día.",
+              "options": [
+                "con Jesús en el paraíso",
+                "perdonado",
+                "resucitado",
+                "salvado"
+              ],
+              "answer": "con Jesús en el paraíso",
+              "reference": "Lucas 23:43"
+            },
+            {
+              "id": "u4-l3-e8",
+              "kind": "multipleChoice",
+              "prompt": "Completa sobre el sacrificio de Jesús",
+              "text": "\"Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree no se pierda, mas tenga vida ___\".",
+              "options": [
+                "eterna",
+                "sin fin",
+                "del Padre",
+                "infinita"
+              ],
+              "answer": "eterna",
+              "reference": "Juan 3:16"
+            }
+          ]
+        },
+        {
+          "id": "u4-l4",
+          "title": "Resurrección y Ascensión",
+          "icon": "moon.stars.fill",
+          "exercises": [
+            {
+              "id": "u4-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Porque Cristo murió por nuestros pecados, conforme a las Escrituras; y que fue ___; conforme a las Escrituras.\"",
+              "options": [
+                "resucitado",
+                "elevado",
+                "ascendido",
+                "glorificado"
+              ],
+              "answer": "resucitado",
+              "reference": "1 Corintios 15:3-4"
+            },
+            {
+              "id": "u4-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "María Magdalena fue una de las primeras en ver a Jesús resucitado.",
+              "isTrue": true,
+              "reference": "Juan 20:14-16",
+              "explanation": "María Magdalena fue al sepulcro y vio a Jesús resucitado, aunque inicialmente no lo reconoció (Juan 20:14-16)."
+            },
+            {
+              "id": "u4-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La palabra de Jesús resucitado",
+              "tokens": [
+                "Paz os dejo",
+                "mi paz",
+                "os doy",
+                "no os la doy",
+                "como el mundo"
+              ],
+              "distractors": [
+                "os hago",
+                "ofrezco",
+                "por suerte",
+                "como la tierra"
+              ],
+              "reference": "Juan 14:27"
+            },
+            {
+              "id": "u4-l4-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿Después de cuántos días resucitó Jesús?",
+              "text": "Jesús resucitó al ___ día.",
+              "options": [
+                "tercero",
+                "primero",
+                "segundo",
+                "cuarto"
+              ],
+              "answer": "tercero",
+              "reference": "1 Corintios 15:4"
+            },
+            {
+              "id": "u4-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Resurrección",
+                  "right": "Tercer día"
+                },
+                {
+                  "left": "Ascensión",
+                  "right": "Cielo"
+                },
+                {
+                  "left": "Pentecostés",
+                  "right": "Espíritu Santo"
+                },
+                {
+                  "left": "Esperanza",
+                  "right": "Vida eterna"
+                }
+              ],
+              "reference": "1 Corintios 15, Hechos 1"
+            },
+            {
+              "id": "u4-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús se apareció a sus discípulos después de la resurrección.",
+              "isTrue": true,
+              "reference": "Juan 20:19-22",
+              "explanation": "Jesús se apareció en medio de los discípulos y les mostró las manos y el costado (Juan 20:19-22)."
+            },
+            {
+              "id": "u4-l4-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿A dónde fue llevado Jesús en la ascensión?",
+              "text": "Jesús fue llevado al ___ de los cielos.",
+              "options": [
+                "reino",
+                "lugar",
+                "trono",
+                "seno"
+              ],
+              "answer": "reino",
+              "reference": "Hechos 1:9-11"
+            },
+            {
+              "id": "u4-l4-e8",
+              "kind": "multipleChoice",
+              "prompt": "Completa sobre la promesa de Jesús",
+              "text": "\"Porque Cristo murió por nuestros pecados, conforme a las Escrituras; y que fue resucitado al tercer día, conforme a las Escrituras; y que apareció a Cefas, y después a los ___ apóstoles.\"",
+              "options": [
+                "doce",
+                "once",
+                "setenta",
+                "cincuenta"
+              ],
+              "answer": "doce",
+              "reference": "1 Corintios 15:5"
+            }
+          ]
+        },
+        {
+          "id": "u4-l5",
+          "title": "Gran Comisión y Despedida",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "u4-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu ___; enseñándoles que guarden todas las cosas que os he mandado.\"",
+              "speaker": "Jesús",
+              "options": [
+                "Santo",
+                "Divino",
+                "Celestial",
+                "Eterno"
+              ],
+              "answer": "Santo",
+              "reference": "Mateo 28:19-20"
+            },
+            {
+              "id": "u4-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La Gran Comisión ordena a los discípulos ir a todas las naciones.",
+              "isTrue": true,
+              "reference": "Mateo 28:19",
+              "explanation": "Jesús ordenó que los discípulos fuesen e hicieran discípulos de todas las naciones (Mateo 28:19)."
+            },
+            {
+              "id": "u4-l5-e3",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La promesa de Jesús hasta el fin de los tiempos",
+              "tokens": [
+                "Y he aquí yo",
+                "estoy con vosotros",
+                "todos los días",
+                "hasta el fin",
+                "del siglo"
+              ],
+              "distractors": [
+                "con ustedes",
+                "cada momento",
+                "fin del mundo",
+                "eternamente"
+              ],
+              "reference": "Mateo 28:20"
+            },
+            {
+              "id": "u4-l5-e4",
+              "kind": "multipleChoice",
+              "prompt": "¿A quién se le apareció Jesús en el Monte de los Olivos?",
+              "text": "Jesús se le apareció a los apóstoles en el Monte de los ___.",
+              "options": [
+                "Olivos",
+                "Calvario",
+                "Sión",
+                "Moriah"
+              ],
+              "answer": "Olivos",
+              "reference": "Hechos 1:12"
+            },
+            {
+              "id": "u4-l5-e5",
+              "kind": "matchPairs",
+              "prompt": "Asocia los pares",
+              "pairs": [
+                {
+                  "left": "Gran Comisión",
+                  "right": "Discipular naciones"
+                },
+                {
+                  "left": "Ascensión",
+                  "right": "Retorno al Padre"
+                },
+                {
+                  "left": "Espíritu Santo",
+                  "right": "Pentecostés"
+                },
+                {
+                  "left": "Evangelio",
+                  "right": "A todas las naciones"
+                }
+              ],
+              "reference": "Mateo 28, Hechos 1"
+            },
+            {
+              "id": "u4-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús prometió estar con los discípulos todos los días hasta el fin de los tiempos.",
+              "isTrue": true,
+              "reference": "Mateo 28:20",
+              "explanation": "Jesús aseguró que estaría con los discípulos todos los días hasta el fin del siglo (Mateo 28:20)."
+            },
+            {
+              "id": "u4-l5-e7",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál fue el último mandamiento de Jesús?",
+              "text": "Jesús mandó bautizar en nombre del Padre, del Hijo y del ___.",
+              "options": [
+                "Espíritu Santo",
+                "Dios",
+                "Amor",
+                "Reino"
+              ],
+              "answer": "Espíritu Santo",
+              "reference": "Mateo 28:19"
+            },
+            {
+              "id": "u4-l5-e8",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué significa hacer discípulos a las naciones?",
+              "text": "Hacer discípulos significa ___ y ___ a guardar los mandamientos de Jesús.",
+              "options": [
+                "enseñar y convencer",
+                "convertir y subyugar",
+                "predicar y convertir",
+                "condenar y salvar"
+              ],
+              "answer": "enseñar y convencer",
+              "reference": "Mateo 28:20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

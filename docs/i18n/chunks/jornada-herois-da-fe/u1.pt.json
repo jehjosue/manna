@@ -1,0 +1,627 @@
+{
+  "id": "herois-u1",
+  "title": "Unidade 1",
+  "subtitle": "Os Patriarcas",
+  "guide": {
+    "summary": "Os patriarcas Noé, Abraão, Isaque, Jacó e José são exemplos de fé perseverante. Apesar de seus medos e fraquezas, confiaram no chamado de Deus. Suas vidas revelam como Deus trabalha através de gerações, cumprindo suas promessas mesmo quando tudo parecia impossível.",
+    "keyVerses": [
+      {
+        "reference": "Hebreus 11:8-9",
+        "text": "Pela fé Abraão, sendo chamado, obedeceu, a ir para um lugar que havia de receber por herança; e partiu sem saber para onde ia. Pela fé, peregrinou na terra da promessa como em terra alheia."
+      },
+      {
+        "reference": "Gênesis 12:1-2",
+        "text": "Ora, o Senhor disse a Abrão: Sai-te da tua terra, da tua parentela e da casa de teu pai, e vai para a terra que te mostrarei; far-te-ei uma grande nação."
+      },
+      {
+        "reference": "Gênesis 37:28",
+        "text": "Então passaram por ali uns midianitas, mercadores; e levaram a José e o venderam por vinte moedas de prata aos ismaelitas."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "herois-u1-l1",
+      "title": "Noé e a Arca",
+      "icon": "star.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "O que Deus pediu a Noé que construísse?",
+          "text": "Deus mandou Noé construir uma ___.",
+          "speaker": "Narrador",
+          "options": [
+            "arca",
+            "casa",
+            "templo",
+            "navio"
+          ],
+          "answer": "arca",
+          "reference": "Gênesis 6:14"
+        },
+        {
+          "id": "herois-u1-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Noé precisava salvar dois de cada ___ criatura viva.",
+          "answer": "espécie",
+          "options": [
+            "espécie",
+            "tipo",
+            "gênero",
+            "classe"
+          ],
+          "reference": "Gênesis 6:19"
+        },
+        {
+          "id": "herois-u1-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Noé obedeceu completamente",
+          "tokens": [
+            "Assim fez Noé",
+            "conforme tudo",
+            "que Deus lhe mandou"
+          ],
+          "distractors": [
+            "considerou",
+            "argumentou",
+            "discutiu",
+            "pensou"
+          ],
+          "reference": "Gênesis 6:22"
+        },
+        {
+          "id": "herois-u1-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem a história",
+          "text": "Sequência da vida de Noé.",
+          "tokens": [
+            "Deus escolhe Noé",
+            "Noé constrói a arca",
+            "Animais entram",
+            "Dilúvio destrói a terra"
+          ],
+          "reference": "Gênesis 6-8"
+        },
+        {
+          "id": "herois-u1-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os elementos",
+          "pairs": [
+            {
+              "left": "Noé",
+              "right": "Justo e íntegro"
+            },
+            {
+              "left": "Arca",
+              "right": "Salvação"
+            },
+            {
+              "left": "Dilúvio",
+              "right": "Julgamento"
+            },
+            {
+              "left": "Fé",
+              "right": "Obediência"
+            }
+          ],
+          "reference": "Gênesis 6-9"
+        },
+        {
+          "id": "herois-u1-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Noé foi o único homem justo em sua geração.",
+          "isTrue": true,
+          "reference": "Gênesis 6:9",
+          "explanation": "Noé era justo, íntegro e perfeito em sua geração, e andava com Deus."
+        },
+        {
+          "id": "herois-u1-l1-e7",
+          "kind": "listen",
+          "prompt": "O que Deus pediu?",
+          "text": "Ouça: Deus pediu a Noé que construísse uma arca.",
+          "options": [
+            "Construir uma arca",
+            "Deixar a terra",
+            "Pregar arrependimento",
+            "Preparar sacrifícios"
+          ],
+          "answer": "Construir uma arca",
+          "reference": "Gênesis 6:14"
+        },
+        {
+          "id": "herois-u1-l1-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Noé cumpriu tudo que Deus lhe mandou.",
+          "reference": "Gênesis 6:22"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l2",
+      "title": "Abraão: O Pai da Fé",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Para onde Deus chamou Abraão?",
+          "text": "Deus disse a Abraão: \"Sai-te da tua terra e vai para a terra que te ___\".",
+          "options": [
+            "mostrarei",
+            "prometi",
+            "preparei",
+            "dei"
+          ],
+          "answer": "mostrarei",
+          "reference": "Gênesis 12:1"
+        },
+        {
+          "id": "herois-u1-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Abraão creu no Senhor e o Senhor lhe ___ como justiça.",
+          "answer": "imputou",
+          "options": [
+            "imputou",
+            "contou",
+            "computou",
+            "considerou"
+          ],
+          "reference": "Gênesis 15:6"
+        },
+        {
+          "id": "herois-u1-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A promessa a Abraão",
+          "tokens": [
+            "Farei",
+            "de ti",
+            "uma grande nação"
+          ],
+          "distractors": [
+            "farás um povo",
+            "serás rei",
+            "terás riquezas",
+            "dominarás"
+          ],
+          "reference": "Gênesis 12:2"
+        },
+        {
+          "id": "herois-u1-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem os eventos",
+          "text": "Sequência de Abraão.",
+          "tokens": [
+            "Chamada para Canaã",
+            "Abraão crê em Deus",
+            "Isaque nasce",
+            "Teste do sacrifício"
+          ],
+          "reference": "Gênesis 12-22"
+        },
+        {
+          "id": "herois-u1-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe as características",
+          "pairs": [
+            {
+              "left": "Abraão",
+              "right": "Pai da fé"
+            },
+            {
+              "left": "Promessa",
+              "right": "Nação grande"
+            },
+            {
+              "left": "Semente",
+              "right": "Isaque"
+            },
+            {
+              "left": "Teste",
+              "right": "Sacrifício"
+            }
+          ],
+          "reference": "Gênesis 12-22"
+        },
+        {
+          "id": "herois-u1-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Abraão era velho quando Deus lhe prometeu um filho.",
+          "isTrue": true,
+          "reference": "Gênesis 17:1-3",
+          "explanation": "Abraão tinha 75 anos quando Deus lhe chamou, e 99 quando lhe fez a promessa de um filho."
+        },
+        {
+          "id": "herois-u1-l2-e7",
+          "kind": "listen",
+          "prompt": "Para onde Abraão foi?",
+          "text": "Abraão foi para uma terra desconhecida.",
+          "options": [
+            "Terra desconhecida",
+            "Egito",
+            "Mesopotâmia",
+            "Judeia"
+          ],
+          "answer": "Terra desconhecida",
+          "reference": "Hebreus 11:8"
+        },
+        {
+          "id": "herois-u1-l2-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Abraão creu em Deus e foi contado como justo.",
+          "reference": "Gênesis 15:6"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l3",
+      "title": "Isaque: O Filho da Promessa",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "herois-u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Como nasceu Isaque?",
+          "text": "Isaque nasceu de maneira ___, quando seus pais eram velhos.",
+          "options": [
+            "miraculosa",
+            "natural",
+            "ordinária",
+            "comum"
+          ],
+          "answer": "miraculosa",
+          "reference": "Gênesis 21:1-2"
+        },
+        {
+          "id": "herois-u1-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Abraão estava disposto a ___ seu único filho Isaque.",
+          "answer": "sacrificar",
+          "options": [
+            "sacrificar",
+            "oferecer",
+            "entregar",
+            "dar"
+          ],
+          "reference": "Gênesis 22:10"
+        },
+        {
+          "id": "herois-u1-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Deus salva Isaque",
+          "tokens": [
+            "Não estendas",
+            "tua mão",
+            "sobre o moço"
+          ],
+          "distractors": [
+            "não o matem",
+            "não o sacrifiques",
+            "deixa-o ir",
+            "guarda-o bem"
+          ],
+          "reference": "Gênesis 22:12"
+        },
+        {
+          "id": "herois-u1-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem os eventos",
+          "text": "Sequência de Isaque.",
+          "tokens": [
+            "Isaque nasce",
+            "Abraão é testado",
+            "Deus o salva",
+            "Isaque se casa"
+          ],
+          "reference": "Gênesis 21-26"
+        },
+        {
+          "id": "herois-u1-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os elementos",
+          "pairs": [
+            {
+              "left": "Isaque",
+              "right": "Filho milagroso"
+            },
+            {
+              "left": "Abraão",
+              "right": "Pai fiel"
+            },
+            {
+              "left": "Teste",
+              "right": "Sacrifício exigido"
+            },
+            {
+              "left": "Cordeiro",
+              "right": "Substituto"
+            }
+          ],
+          "reference": "Gênesis 21-22"
+        },
+        {
+          "id": "herois-u1-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Isaque foi de fato sacrificado no altar.",
+          "isTrue": false,
+          "reference": "Gênesis 22:12-13",
+          "explanation": "Deus parou Abraão e colocou um cordeiro como substituto para ser sacrificado em lugar de Isaque."
+        },
+        {
+          "id": "herois-u1-l3-e7",
+          "kind": "listen",
+          "prompt": "Como Isaque nasceu?",
+          "text": "Isaque nasceu de forma miraculosa.",
+          "options": [
+            "Forma miraculosa",
+            "Naturalmente",
+            "Por adoção",
+            "Por ajuda humana"
+          ],
+          "answer": "Forma miraculosa",
+          "reference": "Gênesis 21:1-2"
+        },
+        {
+          "id": "herois-u1-l3-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Deus providenciará o cordeiro para o sacrifício.",
+          "reference": "Gênesis 22:8"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l4",
+      "title": "Jacó: Lutador com Deus",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Como Jacó é também conhecido?",
+          "text": "Jacó foi chamado de ___ em hebraico.",
+          "options": [
+            "Israel",
+            "Isaque",
+            "Judá",
+            "Banjamim"
+          ],
+          "answer": "Israel",
+          "reference": "Gênesis 32:28"
+        },
+        {
+          "id": "herois-u1-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Jacó viu uma escada que se estendia até o ___.",
+          "answer": "céu",
+          "options": [
+            "céu",
+            "nuvem",
+            "infinito",
+            "alto"
+          ],
+          "reference": "Gênesis 28:12"
+        },
+        {
+          "id": "herois-u1-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A luta de Jacó",
+          "tokens": [
+            "Vi a Deus",
+            "face a face",
+            "e foi salva",
+            "a minha vida"
+          ],
+          "distractors": [
+            "e morri",
+            "e fugi",
+            "e sofri",
+            "e pereci"
+          ],
+          "reference": "Gênesis 32:30"
+        },
+        {
+          "id": "herois-u1-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem os eventos",
+          "text": "Sequência de Jacó.",
+          "tokens": [
+            "Foge de Esaú",
+            "Vê a escada",
+            "Luta com anjo",
+            "Seu nome muda"
+          ],
+          "reference": "Gênesis 28-32"
+        },
+        {
+          "id": "herois-u1-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os momentos",
+          "pairs": [
+            {
+              "left": "Escada",
+              "right": "Conexão céu-terra"
+            },
+            {
+              "left": "Anjo",
+              "right": "Luta espiritual"
+            },
+            {
+              "left": "Nome novo",
+              "right": "Israel"
+            },
+            {
+              "left": "Reconciliação",
+              "right": "Com Esaú"
+            }
+          ],
+          "reference": "Gênesis 28-32"
+        },
+        {
+          "id": "herois-u1-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Jacó e Esaú se reconciliaram depois.",
+          "isTrue": true,
+          "reference": "Gênesis 33",
+          "explanation": "Apesar da separação, Jacó e Esaú se encontraram e abraçaram, mostrando reconciliação."
+        },
+        {
+          "id": "herois-u1-l4-e7",
+          "kind": "listen",
+          "prompt": "O que Jacó viu?",
+          "text": "Jacó viu anjos subindo e descendo.",
+          "options": [
+            "Anjos subindo",
+            "Deus na escada",
+            "Céu aberto",
+            "Uma visão"
+          ],
+          "answer": "Anjos subindo",
+          "reference": "Gênesis 28:12"
+        },
+        {
+          "id": "herois-u1-l4-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "De agora em diante serás chamado Israel.",
+          "reference": "Gênesis 32:28"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l5",
+      "title": "José: De Escravo a Governador",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Por que José foi vendido?",
+          "text": "Os irmãos de José o venderam porque tinham ___.",
+          "options": [
+            "ciúmes",
+            "raiva",
+            "inveja",
+            "ódio"
+          ],
+          "answer": "ciúmes",
+          "reference": "Gênesis 37:11"
+        },
+        {
+          "id": "herois-u1-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Deus estava com José e o ___ em tudo.",
+          "answer": "abençoava",
+          "options": [
+            "abençoava",
+            "ajudava",
+            "guardava",
+            "protegia"
+          ],
+          "reference": "Gênesis 39:2"
+        },
+        {
+          "id": "herois-u1-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Mensagem de José aos irmãos",
+          "tokens": [
+            "Não vos entristeçais",
+            "porque me vendestes",
+            "pois para conservação",
+            "de vidas"
+          ],
+          "distractors": [
+            "para condenação",
+            "para castigo",
+            "para morte",
+            "para punição"
+          ],
+          "reference": "Gênesis 45:5"
+        },
+        {
+          "id": "herois-u1-l5-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem a jornada",
+          "text": "Sequência de José.",
+          "tokens": [
+            "José é vendido",
+            "Trabalha para Potifar",
+            "Interpreta sonhos",
+            "Governa o Egito"
+          ],
+          "reference": "Gênesis 37-41"
+        },
+        {
+          "id": "herois-u1-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os papéis",
+          "pairs": [
+            {
+              "left": "José",
+              "right": "Governador"
+            },
+            {
+              "left": "Irmãos",
+              "right": "Invejosos"
+            },
+            {
+              "left": "Faraó",
+              "right": "Favoreceu"
+            },
+            {
+              "left": "Deus",
+              "right": "Providência"
+            }
+          ],
+          "reference": "Gênesis 37-45"
+        },
+        {
+          "id": "herois-u1-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "José perdoou seus irmãos de verdade.",
+          "isTrue": true,
+          "reference": "Gênesis 45:5-8",
+          "explanation": "José reconheceu que Deus havia trabalhado através daquele mal, e perdoou seus irmãos sinceramente."
+        },
+        {
+          "id": "herois-u1-l5-e7",
+          "kind": "listen",
+          "prompt": "O que Deus fez por José?",
+          "text": "Deus abençoou José em tudo que fez.",
+          "options": [
+            "Abençoou tudo",
+            "O protegeu",
+            "O libertou",
+            "O elevou"
+          ],
+          "answer": "Abençoou tudo",
+          "reference": "Gênesis 39:2"
+        },
+        {
+          "id": "herois-u1-l5-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Vós intentastes mal contra mim, mas Deus o fez bem.",
+          "reference": "Gênesis 50:20"
+        }
+      ]
+    }
+  ]
+}

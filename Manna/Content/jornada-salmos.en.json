@@ -1,0 +1,2540 @@
+{
+  "id": "salmos",
+  "title": "Psalms and Proverbs",
+  "subtitle": "Wisdom and prayer for daily life",
+  "icon": "music.note",
+  "order": 4,
+  "units": [
+    {
+      "id": "salmos-u1",
+      "title": "Unit 1",
+      "subtitle": "Trust in God",
+      "guide": {
+        "summary": "The Psalms of trust teach us that no matter the difficulties, we can always trust in God's care. He is our protector, refuge and strength in moments of fear.",
+        "keyVerses": [
+          {
+            "reference": "Psalm 23:1",
+            "text": "The LORD is my shepherd; I shall not want."
+          },
+          {
+            "reference": "Psalm 27:1",
+            "text": "The LORD is my light and my salvation; whom shall I fear?"
+          },
+          {
+            "reference": "Psalm 91:1-2",
+            "text": "He who dwells in the secret place of the Most High shall lodge under the shadow of the Almighty."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "salmos-u1-l1",
+          "title": "The Loving Shepherd",
+          "icon": "leaf.fill",
+          "exercises": [
+            {
+              "id": "salmos-u1-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"The LORD is my shepherd, I shall not _____.\"",
+              "speaker": "David",
+              "options": [
+                "want",
+                "fear",
+                "be forsaken",
+                "be deceived"
+              ],
+              "answer": "want",
+              "reference": "Psalm 23:1",
+              "explanation": "When God is our shepherd, He provides all our needs, whether food, protection, or love."
+            },
+            {
+              "id": "salmos-u1-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Psalm 23 compares God to a shepherd who cares for his sheep.",
+              "isTrue": true,
+              "reference": "Psalm 23",
+              "explanation": "David uses the image of the shepherd to express God's loving care and protection."
+            },
+            {
+              "id": "salmos-u1-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "What does 'the valley of the shadow of death' mean in Psalm 23?",
+              "text": "\"Even though I walk through the valley of the shadow of death, I will fear no evil.\"",
+              "options": [
+                "The moments of greatest difficulty and fear",
+                "A specific place in Palestine",
+                "The time of literal death",
+                "David's vision about the future"
+              ],
+              "answer": "The moments of greatest difficulty and fear",
+              "reference": "Psalm 23:4",
+              "explanation": "Even in adversity, we trust that God is with us and protects us."
+            },
+            {
+              "id": "salmos-u1-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "God's promise in Psalm 23:4",
+              "tokens": [
+                "Even though I walk",
+                "through the valley of the shadow of death",
+                "I will fear no evil",
+                "because you are with me"
+              ],
+              "distractors": [
+                "nor shall there be",
+                "for God guards",
+                "my life"
+              ],
+              "reference": "Psalm 23:4"
+            },
+            {
+              "id": "salmos-u1-l1-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "The LORD is my light and my salvation.",
+              "options": [
+                "The LORD is my protector and defender",
+                "The LORD is my light and salvation",
+                "The LORD is my judge and king"
+              ],
+              "answer": "The LORD is my light and salvation",
+              "reference": "Psalm 27:1"
+            },
+            {
+              "id": "salmos-u1-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Shepherd",
+                  "right": "God in Ps 23"
+                },
+                {
+                  "left": "Sheep",
+                  "right": "God's people"
+                },
+                {
+                  "left": "Green pastures",
+                  "right": "Rest"
+                },
+                {
+                  "left": "Still waters",
+                  "right": "Comfort"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u1-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Fill in the blank",
+              "text": "\"The LORD is my light and my _____.\"",
+              "answer": "salvation",
+              "reference": "Psalm 27:1",
+              "options": [
+                "salvation",
+                "savation"
+              ]
+            },
+            {
+              "id": "salmos-u1-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Trusting in God means we will never face difficulties.",
+              "isTrue": false,
+              "reference": "Psalm 23:4",
+              "explanation": "Trusting in God does not mean being free from difficulties, but knowing that He is with us in every situation."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l2",
+          "title": "Refuge and Fortress",
+          "icon": "shield.fill",
+          "exercises": [
+            {
+              "id": "salmos-u1-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"God is our refuge and fortress, a very present help in _____.\"",
+              "speaker": "Psalmist",
+              "options": [
+                "trouble",
+                "wars",
+                "persecution",
+                "temptation"
+              ],
+              "answer": "trouble",
+              "reference": "Psalm 46:1",
+              "explanation": "In all trouble, we can run to God's refuge and find security."
+            },
+            {
+              "id": "salmos-u1-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Psalm 46 speaks about God defeating enemies in a literal battle.",
+              "isTrue": false,
+              "reference": "Psalm 46:6-11",
+              "explanation": "Psalm 46 is mainly about God as spiritual refuge, with poetic language about divine trust."
+            },
+            {
+              "id": "salmos-u1-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the central message of Psalm 46:10?",
+              "text": "\"Be still, and know that I am God.\"",
+              "options": [
+                "Rest in God and acknowledge His authority",
+                "Be silent during prayer",
+                "Accept God's orders without questioning",
+                "Wait patiently for an answer"
+              ],
+              "answer": "Rest in God and acknowledge His authority",
+              "reference": "Psalm 46:10",
+              "explanation": "Stillness allows us to trust and accept God's supreme dominion in our lives."
+            },
+            {
+              "id": "salmos-u1-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "God's promise in Psalm 46:1",
+              "tokens": [
+                "God is our refuge",
+                "and fortress",
+                "a very present help",
+                "in trouble"
+              ],
+              "distractors": [
+                "and shield",
+                "very much present",
+                "in tribulation"
+              ],
+              "reference": "Psalm 46:1"
+            },
+            {
+              "id": "salmos-u1-l2-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "God is our refuge and fortress.",
+              "options": [
+                "Trust in God, the Lord",
+                "God is refuge and fortress",
+                "Praise God, alleluia"
+              ],
+              "answer": "God is refuge and fortress",
+              "reference": "Psalm 46:1"
+            },
+            {
+              "id": "salmos-u1-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the concepts",
+              "pairs": [
+                {
+                  "left": "Refuge",
+                  "right": "Protection and safety"
+                },
+                {
+                  "left": "Fortress",
+                  "right": "Strength and power"
+                },
+                {
+                  "left": "Help",
+                  "right": "Aid and succor"
+                },
+                {
+                  "left": "Trouble",
+                  "right": "Affliction and suffering"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u1-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"Be still, and know that I am _____.\"",
+              "answer": "God",
+              "reference": "Psalm 46:10",
+              "options": [
+                "God",
+                "God."
+              ]
+            },
+            {
+              "id": "salmos-u1-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "God promises that if we trust in Him, we will not face wars or conflicts.",
+              "isTrue": false,
+              "reference": "Psalm 46",
+              "explanation": "God promises to be with us and be our strength in difficulties, not necessarily to spare us from them."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l3",
+          "title": "Protection Under His Wings",
+          "icon": "bird.fill",
+          "exercises": [
+            {
+              "id": "salmos-u1-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"He who dwells in the secret place of the Most High shall lodge under the shadow of the _____.\"",
+              "speaker": "Psalmist",
+              "options": [
+                "Almighty",
+                "LORD",
+                "Eternal One",
+                "Creator"
+              ],
+              "answer": "Almighty",
+              "reference": "Psalm 91:1",
+              "explanation": "Whoever trusts in the all-powerful God finds refuge and rest in His protection."
+            },
+            {
+              "id": "salmos-u1-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Psalm 91 promises that God protects us from all danger with His wings.",
+              "isTrue": true,
+              "reference": "Psalm 91:4",
+              "explanation": "The image of God's wings symbolizes protection, safety, and maternal care."
+            },
+            {
+              "id": "salmos-u1-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "What does Psalm 91:2 say about God?",
+              "text": "\"I will say of the LORD, 'He is my refuge and my _____.\"",
+              "options": [
+                "fortress",
+                "judge",
+                "deliverer",
+                "king"
+              ],
+              "answer": "fortress",
+              "reference": "Psalm 91:2",
+              "explanation": "God is our refuge (protection) and our fortress (stronghold), a safe place."
+            },
+            {
+              "id": "salmos-u1-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "God's protection in Psalm 91:4",
+              "tokens": [
+                "He will cover you",
+                "with his feathers",
+                "and under his wings",
+                "you will be safe"
+              ],
+              "distractors": [
+                "he will rescue you",
+                "he will defend you",
+                "with his power"
+              ],
+              "reference": "Psalm 91:4"
+            },
+            {
+              "id": "salmos-u1-l3-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "He will cover you with his feathers.",
+              "options": [
+                "God will give you wings to fly",
+                "God will cover you with his feathers",
+                "His protection will come soon"
+              ],
+              "answer": "God will cover you with his feathers",
+              "reference": "Psalm 91:4"
+            },
+            {
+              "id": "salmos-u1-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the symbolic language",
+              "pairs": [
+                {
+                  "left": "Wings",
+                  "right": "Protection and embrace"
+                },
+                {
+                  "left": "Secret place",
+                  "right": "Safe refuge"
+                },
+                {
+                  "left": "Shadow",
+                  "right": "Divine covering"
+                },
+                {
+                  "left": "Nest",
+                  "right": "Place of rest"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u1-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Fill in the blank",
+              "text": "\"You are my refuge and my _____.\"",
+              "answer": "fortress",
+              "reference": "Psalm 91:2",
+              "options": [
+                "fortress",
+                "shelter"
+              ]
+            },
+            {
+              "id": "salmos-u1-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "God's protection in Psalm 91 includes protection from all kinds of evil.",
+              "isTrue": false,
+              "reference": "Psalm 91",
+              "explanation": "Psalm 91 speaks about spiritual protection and trust, not exemption from all physical suffering."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l4",
+          "title": "Security in the Most High",
+          "icon": "mountain.2.fill",
+          "exercises": [
+            {
+              "id": "salmos-u1-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Who is the 'Most High' in Psalm 91?",
+              "text": "\"He who dwells in the secret place of the Most High...\"",
+              "options": [
+                "God the Father",
+                "The highest mountain",
+                "The heaven",
+                "The Lord Jesus"
+              ],
+              "answer": "God the Father",
+              "reference": "Psalm 91:1",
+              "explanation": "Most High is one of God's names that expresses His supremacy and absolute power."
+            },
+            {
+              "id": "salmos-u1-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Psalm 91 was written by David when he was fleeing from Saul.",
+              "isTrue": false,
+              "reference": "Psalm 91",
+              "explanation": "The author of Psalm 91 is not identified; it is a psalm of trust for anyone in difficult times."
+            },
+            {
+              "id": "salmos-u1-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the condition for receiving protection in Psalm 91:9-10?",
+              "text": "\"Because you have said, 'The LORD is my refuge.'\"",
+              "options": [
+                "Making the LORD our refuge",
+                "Following all of Moses' laws",
+                "Making sacrifices at the temple",
+                "Never sinning"
+              ],
+              "answer": "Making the LORD our refuge",
+              "reference": "Psalm 91:9",
+              "explanation": "God's protection is available to those who choose Him as refuge and trust in Him."
+            },
+            {
+              "id": "salmos-u1-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Trust in God in Psalm 91:2",
+              "tokens": [
+                "I will say to the LORD",
+                "You are my refuge",
+                "and my fortress",
+                "my God"
+              ],
+              "distractors": [
+                "my protecting God",
+                "my shield",
+                "my deliverer"
+              ],
+              "reference": "Psalm 91:2"
+            },
+            {
+              "id": "salmos-u1-l4-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Because you have said The LORD is my refuge.",
+              "options": [
+                "The LORD is my king",
+                "The LORD is my refuge",
+                "Trust in the LORD"
+              ],
+              "answer": "The LORD is my refuge",
+              "reference": "Psalm 91:9"
+            },
+            {
+              "id": "salmos-u1-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the names of God",
+              "pairs": [
+                {
+                  "left": "Most High",
+                  "right": "Divine supremacy"
+                },
+                {
+                  "left": "Almighty",
+                  "right": "All-powerful"
+                },
+                {
+                  "left": "Refuge",
+                  "right": "Place of protection"
+                },
+                {
+                  "left": "Fortress",
+                  "right": "Strong stronghold"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u1-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the text",
+              "text": "\"He who dwells in the secret place of the Most High, under the shadow of the Almighty _____.\"",
+              "answer": "will rest",
+              "reference": "Psalm 91:1",
+              "options": [
+                "will rest",
+                "will find peace"
+              ]
+            },
+            {
+              "id": "salmos-u1-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "God's protection in Psalm 91 is only for the perfectly righteous.",
+              "isTrue": false,
+              "reference": "Psalm 91",
+              "explanation": "God's protection is available to all those who seek refuge in Him with genuine faith."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u1-l5",
+          "title": "Review - Trust in God",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "salmos-u1-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Which psalm begins with 'The LORD is my shepherd'?",
+              "text": "This is one of the most famous psalms about trust in God.",
+              "options": [
+                "Psalm 23",
+                "Psalm 46",
+                "Psalm 91",
+                "Psalm 27"
+              ],
+              "answer": "Psalm 23",
+              "reference": "Psalm 23:1",
+              "explanation": "Psalm 23 is the most well-known psalm of trust, using the image of shepherd and sheep."
+            },
+            {
+              "id": "salmos-u1-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "All the psalms of trust were written by David.",
+              "isTrue": false,
+              "reference": "Book of Psalms",
+              "explanation": "Many psalms were written by David, but others were written by different authors throughout Israel's history."
+            },
+            {
+              "id": "salmos-u1-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "What image does God use to protect in Psalm 91?",
+              "text": "This comparison expresses maternal care and total protection.",
+              "options": [
+                "A mother's wings",
+                "A shield in war",
+                "A stone wall",
+                "A warrior king"
+              ],
+              "answer": "A mother's wings",
+              "reference": "Psalm 91:4",
+              "explanation": "The image of wings symbolizes God's embracing protection for His children."
+            },
+            {
+              "id": "salmos-u1-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the review verse",
+              "text": "Verse of trust summarized",
+              "tokens": [
+                "The LORD is",
+                "my refuge",
+                "my fortress",
+                "and my God"
+              ],
+              "distractors": [
+                "my judge",
+                "my king",
+                "my glory"
+              ],
+              "reference": "Psalm 46:1, 91:2"
+            },
+            {
+              "id": "salmos-u1-l5-e5",
+              "kind": "listen",
+              "prompt": "Which verse did you hear?",
+              "text": "The LORD is my shepherd, I shall not want.",
+              "options": [
+                "God is my protector",
+                "The LORD is my shepherd",
+                "Trust in the LORD always"
+              ],
+              "answer": "The LORD is my shepherd",
+              "reference": "Psalm 23:1"
+            },
+            {
+              "id": "salmos-u1-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the psalm to the theme",
+              "pairs": [
+                {
+                  "left": "Psalm 23",
+                  "right": "Loving shepherd"
+                },
+                {
+                  "left": "Psalm 46",
+                  "right": "Safe refuge"
+                },
+                {
+                  "left": "Psalm 27",
+                  "right": "Light and salvation"
+                },
+                {
+                  "left": "Psalm 91",
+                  "right": "Divine protection"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u1-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Put in order the characteristics of trust",
+              "text": "Progress of trust in God",
+              "tokens": [
+                "Recognize God as refuge",
+                "Make Him our fortress",
+                "Rest in His protection",
+                "Praise His faithfulness"
+              ]
+            },
+            {
+              "id": "salmos-u1-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Trust in God protects us from all and any suffering.",
+              "isTrue": false,
+              "reference": "Psalm 23:4, 46:5",
+              "explanation": "Trust in God gives us spiritual security and His presence, not elimination of all difficulties."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2",
+      "title": "Unit 2",
+      "subtitle": "Praise and Gratitude",
+      "guide": {
+        "summary": "The Psalms of praise and gratitude teach us to celebrate God's wonderful works and to be grateful for the blessings received. Gratitude transforms us and brings us closer to God.",
+        "keyVerses": [
+          {
+            "reference": "Psalm 100:1",
+            "text": "Make a joyful noise to God, all the earth!"
+          },
+          {
+            "reference": "Psalm 103:1-2",
+            "text": "Bless the LORD, my soul; and all that is within me, bless his holy name."
+          },
+          {
+            "reference": "Psalm 150:4",
+            "text": "Praise him with tambourine and dance."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "salmos-u2-l1",
+          "title": "The Joy of Praise",
+          "icon": "music.note",
+          "exercises": [
+            {
+              "id": "salmos-u2-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Make a joyful noise to God, all the _____.\"",
+              "speaker": "Psalmist",
+              "options": [
+                "earth",
+                "nation",
+                "multitude",
+                "community"
+              ],
+              "answer": "earth",
+              "reference": "Psalm 100:1",
+              "explanation": "Praise to God should be universal and involve all of creation in genuine joy."
+            },
+            {
+              "id": "salmos-u2-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Psalm 100 is a psalm of praise that exhorts people to praise God with joy.",
+              "isTrue": true,
+              "reference": "Psalm 100",
+              "explanation": "Psalm 100 is entirely dedicated to joyful praise and gratitude to God."
+            },
+            {
+              "id": "salmos-u2-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "Why should we praise God according to Psalm 100:5?",
+              "text": "\"For the LORD is good; his mercy is _____.\"",
+              "options": [
+                "everlasting",
+                "matchless",
+                "sufficient",
+                "powerful"
+              ],
+              "answer": "everlasting",
+              "reference": "Psalm 100:5",
+              "explanation": "God's goodness and mercy are constant and never end, reason enough for praise."
+            },
+            {
+              "id": "salmos-u2-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Call to praise in Psalm 100:1-2",
+              "tokens": [
+                "Make a joyful noise",
+                "to God, all the earth",
+                "Serve the LORD",
+                "with gladness"
+              ],
+              "distractors": [
+                "with fear",
+                "with reverence",
+                "with devotion"
+              ],
+              "reference": "Psalm 100:1-2"
+            },
+            {
+              "id": "salmos-u2-l1-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Serve the LORD with gladness!",
+              "options": [
+                "Praise the LORD with gladness",
+                "Serve the LORD with gladness",
+                "Sing to the LORD with power"
+              ],
+              "answer": "Serve the LORD with gladness",
+              "reference": "Psalm 100:2"
+            },
+            {
+              "id": "salmos-u2-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the elements of praise",
+              "pairs": [
+                {
+                  "left": "Joyful noise",
+                  "right": "Expression of gladness"
+                },
+                {
+                  "left": "Serve the LORD",
+                  "right": "Active worship"
+                },
+                {
+                  "left": "Know His goodness",
+                  "right": "Reason for praise"
+                },
+                {
+                  "left": "Enter His courts",
+                  "right": "Drawing near to God"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u2-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"For the LORD is good; his mercy is _____.\"",
+              "answer": "everlasting",
+              "reference": "Psalm 100:5",
+              "options": [
+                "everlasting",
+                "eternal"
+              ]
+            },
+            {
+              "id": "salmos-u2-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Praising God with gladness is only for the good times of life.",
+              "isTrue": false,
+              "reference": "Psalm 100",
+              "explanation": "Psalm 100 calls us to praise with joy regardless of circumstances, as an act of faith."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l2",
+          "title": "Endless Gratitude",
+          "icon": "heart.fill",
+          "exercises": [
+            {
+              "id": "salmos-u2-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Bless the LORD, my soul; and all that is within me bless his _____.\"",
+              "speaker": "David",
+              "options": [
+                "holy name",
+                "throne",
+                "kingdom",
+                "power"
+              ],
+              "answer": "holy name",
+              "reference": "Psalm 103:1",
+              "explanation": "All of our essence should praise and bless God's holy name."
+            },
+            {
+              "id": "salmos-u2-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Psalm 103 is an individual psalm that expresses gratitude for God's works.",
+              "isTrue": true,
+              "reference": "Psalm 103",
+              "explanation": "Psalm 103 is a powerful psalm of thanksgiving for God's blessings and mercies."
+            },
+            {
+              "id": "salmos-u2-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "According to Psalm 103, what is God's attitude toward us?",
+              "text": "\"The LORD is merciful and _____, slow to anger and abounding in steadfast love.\"",
+              "options": [
+                "gracious",
+                "just",
+                "wise",
+                "strong"
+              ],
+              "answer": "gracious",
+              "reference": "Psalm 103:8",
+              "explanation": "God's graciousness means His willingness to forgive and treat us with compassion."
+            },
+            {
+              "id": "salmos-u2-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Call to gratitude in Psalm 103:1-2",
+              "tokens": [
+                "Bless the LORD, my soul",
+                "and do not forget",
+                "all his benefits",
+                "all the benefits"
+              ],
+              "distractors": [
+                "his mercy",
+                "his power",
+                "his works"
+              ],
+              "reference": "Psalm 103:1-2"
+            },
+            {
+              "id": "salmos-u2-l2-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Bless the LORD my soul.",
+              "options": [
+                "Praise the LORD forever",
+                "Bless the LORD my soul",
+                "Exalt the LORD's name"
+              ],
+              "answer": "Bless the LORD my soul",
+              "reference": "Psalm 103:1"
+            },
+            {
+              "id": "salmos-u2-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Match God's blessings",
+              "pairs": [
+                {
+                  "left": "Forgiveness of sins",
+                  "right": "Redemption"
+                },
+                {
+                  "left": "Healing of diseases",
+                  "right": "Restoration"
+                },
+                {
+                  "left": "Crown of mercy",
+                  "right": "Eternal love"
+                },
+                {
+                  "left": "Renewal of youth",
+                  "right": "New life"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u2-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"The LORD is merciful and _____, slow to anger.\"",
+              "answer": "gracious",
+              "reference": "Psalm 103:8",
+              "options": [
+                "gracious",
+                "kind"
+              ]
+            },
+            {
+              "id": "salmos-u2-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "God wants us to forget none of His benefits.",
+              "isTrue": false,
+              "reference": "Psalm 103:2",
+              "explanation": "God wants us to remember ALL of His benefits to keep our gratitude and praise alive."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l3",
+          "title": "Jubilant Praise",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "salmos-u2-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Praise the LORD! For it is good to sing ___ to our God.\"",
+              "speaker": "Psalmist",
+              "options": [
+                "hymns",
+                "melodies",
+                "songs",
+                "psalms"
+              ],
+              "answer": "hymns",
+              "reference": "Psalm 147:1",
+              "explanation": "Singing hymns of praise is a powerful way to express our worship to God."
+            },
+            {
+              "id": "salmos-u2-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Psalm 119 is the longest psalm of the Bible and deals with God's Law.",
+              "isTrue": true,
+              "reference": "Psalm 119",
+              "explanation": "Psalm 119 has 176 verses divided into 22 stanzas, each beginning with a letter of the Hebrew alphabet."
+            },
+            {
+              "id": "salmos-u2-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the main theme of Psalm 119?",
+              "text": "This psalm speaks about the importance of meditating on God's Law.",
+              "options": [
+                "The value of God's Word",
+                "The history of Israel",
+                "The life of David",
+                "The creation of the world"
+              ],
+              "answer": "The value of God's Word",
+              "reference": "Psalm 119",
+              "explanation": "Psalm 119 celebrates God's Law and Word as a source of wisdom, direction, and life."
+            },
+            {
+              "id": "salmos-u2-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Praise for God's Word in Psalm 119:105",
+              "tokens": [
+                "Your word is",
+                "a lamp to my feet",
+                "and a light",
+                "to my path"
+              ],
+              "distractors": [
+                "and a guide",
+                "to my life",
+                "and truth"
+              ],
+              "reference": "Psalm 119:105"
+            },
+            {
+              "id": "salmos-u2-l3-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Your word is a lamp to my feet.",
+              "options": [
+                "Your word is truth",
+                "Your word is a lamp to my feet",
+                "I will keep your law"
+              ],
+              "answer": "Your word is a lamp to my feet",
+              "reference": "Psalm 119:105"
+            },
+            {
+              "id": "salmos-u2-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Match about God's Word",
+              "pairs": [
+                {
+                  "left": "Lamp",
+                  "right": "Illumination for living"
+                },
+                {
+                  "left": "Truth",
+                  "right": "Absolute reliability"
+                },
+                {
+                  "left": "Direction",
+                  "right": "Guide for the way"
+                },
+                {
+                  "left": "Sweetness",
+                  "right": "Delight in obeying"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u2-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"_____ is a lamp to my feet.\"",
+              "answer": "Your word",
+              "reference": "Psalm 119:105",
+              "options": [
+                "Your word",
+                "Word of God"
+              ]
+            },
+            {
+              "id": "salmos-u2-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "God's Word illuminates and guides us on the right path.",
+              "isTrue": true,
+              "reference": "Psalm 119:105",
+              "explanation": "God's Word functions as a lamp that illuminates and guides our steps in life."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l4",
+          "title": "Eternal Praise",
+          "icon": "sun.max.fill",
+          "exercises": [
+            {
+              "id": "salmos-u2-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Praise the LORD, all peoples; praise him, all _____.\"",
+              "speaker": "Psalmist",
+              "options": [
+                "nations",
+                "lands",
+                "multitudes",
+                "souls"
+              ],
+              "answer": "nations",
+              "reference": "Psalm 117:1",
+              "explanation": "Praise to God is universal and should be shared by all peoples of the earth."
+            },
+            {
+              "id": "salmos-u2-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Psalm 117 is the shortest psalm of the Bible with only two verses.",
+              "isTrue": true,
+              "reference": "Psalm 117",
+              "explanation": "Psalm 117 is indeed the shortest of the 150 psalms, containing only two verses of universal praise."
+            },
+            {
+              "id": "salmos-u2-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "According to Psalm 136, what is the reason for each praise?",
+              "text": "Each verse ends with the same declaration.",
+              "options": [
+                "Because His mercy endures forever",
+                "Because He is worthy of praise",
+                "Because He created us",
+                "Because He is powerful"
+              ],
+              "answer": "Because His mercy endures forever",
+              "reference": "Psalm 136",
+              "explanation": "Psalm 136 repeats this statement 26 times, emphasizing the constancy of God's mercy."
+            },
+            {
+              "id": "salmos-u2-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Universal praise in Psalm 117",
+              "tokens": [
+                "For his mercy",
+                "is great over us",
+                "and the truth of the LORD",
+                "endures forever"
+              ],
+              "distractors": [
+                "and his grace",
+                "is infinite",
+                "and his love"
+              ],
+              "reference": "Psalm 117:2"
+            },
+            {
+              "id": "salmos-u2-l4-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "His mercy endures forever.",
+              "options": [
+                "God is eternal",
+                "His mercy endures forever",
+                "His love is infinite"
+              ],
+              "answer": "His mercy endures forever",
+              "reference": "Psalm 136"
+            },
+            {
+              "id": "salmos-u2-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Match God's characteristics",
+              "pairs": [
+                {
+                  "left": "Mercy",
+                  "right": "Eternal compassion"
+                },
+                {
+                  "left": "Truth",
+                  "right": "Absolute faithfulness"
+                },
+                {
+                  "left": "Grace",
+                  "right": "Unmerited favor"
+                },
+                {
+                  "left": "Love",
+                  "right": "Supreme devotion"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u2-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"Because His mercy endures _____.\"",
+              "answer": "forever",
+              "reference": "Psalm 136",
+              "options": [
+                "forever",
+                "eternally"
+              ]
+            },
+            {
+              "id": "salmos-u2-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Praise to God is relevant only at certain special moments.",
+              "isTrue": false,
+              "reference": "Psalm 136",
+              "explanation": "Psalm 136 emphasizes that we should praise God continuously because His mercy endures forever."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l5",
+          "title": "Review - Praise and Gratitude",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "salmos-u2-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the central theme of the psalms of praise?",
+              "text": "These psalms encourage us to express joy and gratitude.",
+              "options": [
+                "Celebrating God's works and goodness",
+                "Asking God for favors",
+                "Confessing sins",
+                "Lamenting losses"
+              ],
+              "answer": "Celebrating God's works and goodness",
+              "reference": "Psalm 100, 103, 119, 150",
+              "explanation": "The psalms of praise focus on celebrating who God is and what He has done for us."
+            },
+            {
+              "id": "salmos-u2-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Gratitude protects us from falling into depression and despair.",
+              "isTrue": true,
+              "reference": "Psalm 100, 103, 136",
+              "explanation": "Recognizing God's blessings and expressing gratitude keeps us focused on His goodness."
+            },
+            {
+              "id": "salmos-u2-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "How should we praise according to Psalm 150?",
+              "text": "This psalm describes instruments and forms of praise.",
+              "options": [
+                "With instruments, dance, and joy",
+                "Only in silent meditation",
+                "Only during worship services",
+                "With reverence and fear"
+              ],
+              "answer": "With instruments, dance, and joy",
+              "reference": "Psalm 150",
+              "explanation": "Psalm 150 invites expressive and joyful praise through various means."
+            },
+            {
+              "id": "salmos-u2-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the review verse",
+              "text": "Summary of the call to praise",
+              "tokens": [
+                "Praise the LORD",
+                "for it is good",
+                "and his mercy",
+                "endures forever"
+              ],
+              "distractors": [
+                "is truth",
+                "is true",
+                "is infinite"
+              ],
+              "reference": "Psalm 100:5, 136:1"
+            },
+            {
+              "id": "salmos-u2-l5-e5",
+              "kind": "listen",
+              "prompt": "Which verse did you hear?",
+              "text": "Make a joyful noise to God all the earth.",
+              "options": [
+                "Praise the LORD with joy",
+                "Make a joyful noise to God",
+                "Sing to the LORD forever"
+              ],
+              "answer": "Make a joyful noise to God",
+              "reference": "Psalm 100:1"
+            },
+            {
+              "id": "salmos-u2-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the psalm to the praise theme",
+              "pairs": [
+                {
+                  "left": "Psalm 100",
+                  "right": "Joy and praise"
+                },
+                {
+                  "left": "Psalm 103",
+                  "right": "Gratitude for blessings"
+                },
+                {
+                  "left": "Psalm 119",
+                  "right": "Praise for God's Word"
+                },
+                {
+                  "left": "Psalm 150",
+                  "right": "Praise with joy"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u2-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Order the forms of praise",
+              "text": "Progression of genuine praise",
+              "tokens": [
+                "Recognize God's works",
+                "Give thanks from the heart",
+                "Express praise in words",
+                "Celebrate with joy"
+              ]
+            },
+            {
+              "id": "salmos-u2-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Praise to God should be a continuous part of our life, not just occasional.",
+              "isTrue": true,
+              "reference": "Psalm 136",
+              "explanation": "Psalm 136 emphasizes continuous praise because God's mercy is constant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salmos-u3",
+      "title": "Unit 3",
+      "subtitle": "Wisdom for Daily Life",
+      "guide": {
+        "summary": "Proverbs teach us practical wisdom for living well. They speak of genuine friendship, honest work, words that heal, and humility. Wisdom fears the LORD and guides us in all decisions.",
+        "keyVerses": [
+          {
+            "reference": "Proverbs 1:7",
+            "text": "The fear of the LORD is the beginning of wisdom."
+          },
+          {
+            "reference": "Proverbs 17:17",
+            "text": "A friend loves at all times, and a brother is born for adversity."
+          },
+          {
+            "reference": "Proverbs 22:6",
+            "text": "Train up a child in the way he should go."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "salmos-u3-l1",
+          "title": "Wisdom and Fear of God",
+          "icon": "lightbulb.fill",
+          "exercises": [
+            {
+              "id": "salmos-u3-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"The fear of the LORD is the beginning of _____.\"",
+              "speaker": "Wisdom",
+              "options": [
+                "wisdom",
+                "truth",
+                "virtue",
+                "knowledge"
+              ],
+              "answer": "wisdom",
+              "reference": "Proverbs 1:7",
+              "explanation": "True wisdom begins with respect and reverence for God."
+            },
+            {
+              "id": "salmos-u3-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Wisdom comes mainly from learning with others.",
+              "isTrue": false,
+              "reference": "Proverbs 1:7",
+              "explanation": "Although we learn from others, true wisdom is rooted in the fear of the LORD."
+            },
+            {
+              "id": "salmos-u3-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "What does 'fear of the LORD' mean?",
+              "text": "This concept does not mean to be afraid as if fleeing, but something different.",
+              "options": [
+                "Reverent respect and loving obedience",
+                "Literal fear of God",
+                "Doubt about His love",
+                "Fear of being punished"
+              ],
+              "answer": "Reverent respect and loving obedience",
+              "reference": "Proverbs 1:7",
+              "explanation": "The fear of the LORD is reverence with love, acknowledging His authority and goodness."
+            },
+            {
+              "id": "salmos-u3-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The foundation of wisdom",
+              "tokens": [
+                "The fear of the LORD",
+                "is the beginning",
+                "of wisdom",
+                "and knowledge of the Holy One"
+              ],
+              "distractors": [
+                "is the way",
+                "of virtue",
+                "and purity"
+              ],
+              "reference": "Proverbs 9:10"
+            },
+            {
+              "id": "salmos-u3-l1-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "The fear of the LORD is the beginning of wisdom.",
+              "options": [
+                "Wisdom comes from learning much",
+                "The fear of the LORD is beginning of wisdom",
+                "God requires perfection from all"
+              ],
+              "answer": "The fear of the LORD is beginning of wisdom",
+              "reference": "Proverbs 1:7"
+            },
+            {
+              "id": "salmos-u3-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the concepts of wisdom",
+              "pairs": [
+                {
+                  "left": "Fear of God",
+                  "right": "Reverent respect"
+                },
+                {
+                  "left": "Wisdom",
+                  "right": "Discerning understanding"
+                },
+                {
+                  "left": "Knowledge",
+                  "right": "Learning from God"
+                },
+                {
+                  "left": "Intelligence",
+                  "right": "Ability to think"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u3-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"The fear of the LORD is the beginning of _____.\"",
+              "answer": "wisdom",
+              "reference": "Proverbs 1:7",
+              "options": [
+                "wisdom",
+                "truth"
+              ]
+            },
+            {
+              "id": "salmos-u3-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "A wise person recognizes that he does not know everything and continues learning.",
+              "isTrue": true,
+              "reference": "Proverbs 1:5, 2:6",
+              "explanation": "True wisdom includes humility and a continuous willingness to learn more."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l2",
+          "title": "Words That Heal",
+          "icon": "drop.fill",
+          "exercises": [
+            {
+              "id": "salmos-u3-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Gracious words are like a honeycomb, sweetness to the soul and health to the _____.\"",
+              "speaker": "Wisdom",
+              "options": [
+                "bones",
+                "heart",
+                "mind",
+                "spirit"
+              ],
+              "answer": "bones",
+              "reference": "Proverbs 16:24",
+              "explanation": "Our words have the power to heal or hurt, to build or destroy."
+            },
+            {
+              "id": "salmos-u3-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Cruel words hurt, but afterward we forget them.",
+              "isTrue": false,
+              "reference": "Proverbs 15:4",
+              "explanation": "Hurtful words cut deeply and leave lasting emotional scars."
+            },
+            {
+              "id": "salmos-u3-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the value of a gentle answer?",
+              "text": "\"A soft answer turns away _____, but a harsh word stirs up anger.\"",
+              "options": [
+                "wrath",
+                "sadness",
+                "fear",
+                "guilt"
+              ],
+              "answer": "wrath",
+              "reference": "Proverbs 15:1",
+              "explanation": "Soft and gentle words can calm even tense situations."
+            },
+            {
+              "id": "salmos-u3-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The power of words in Proverbs 18:21",
+              "tokens": [
+                "Death and life",
+                "are in the power",
+                "of the tongue",
+                "and those who love it"
+              ],
+              "distractors": [
+                "and whoever controls it",
+                "will eat its fruits",
+                "will live happily"
+              ],
+              "reference": "Proverbs 18:21"
+            },
+            {
+              "id": "salmos-u3-l2-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "A soft answer turns away wrath.",
+              "options": [
+                "Harsh words cause anger",
+                "A soft answer turns away wrath",
+                "Silence is gold"
+              ],
+              "answer": "A soft answer turns away wrath",
+              "reference": "Proverbs 15:1"
+            },
+            {
+              "id": "salmos-u3-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Match types of words to their effect",
+              "pairs": [
+                {
+                  "left": "Soft words",
+                  "right": "Heal and build"
+                },
+                {
+                  "left": "Cruel words",
+                  "right": "Hurt and destroy"
+                },
+                {
+                  "left": "Gentle answer",
+                  "right": "Turns away wrath"
+                },
+                {
+                  "left": "Harsh word",
+                  "right": "Stirs up anger"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u3-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"Death and life are in the power of the _____.\"",
+              "answer": "tongue",
+              "reference": "Proverbs 18:21",
+              "options": [
+                "tongue",
+                "mouth"
+              ]
+            },
+            {
+              "id": "salmos-u3-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "We should think about our words before speaking.",
+              "isTrue": true,
+              "reference": "Proverbs 15:4",
+              "explanation": "Our words have consequences, so it is wise to think before speaking."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l3",
+          "title": "True Friendship",
+          "icon": "person.2.fill",
+          "exercises": [
+            {
+              "id": "salmos-u3-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"A friend loves at all times, and a brother is born for _____.\"",
+              "speaker": "Wisdom",
+              "options": [
+                "adversity",
+                "sister",
+                "redeemer",
+                "comfort"
+              ],
+              "answer": "adversity",
+              "reference": "Proverbs 17:17",
+              "explanation": "A true friend is always by our side, especially in difficult times."
+            },
+            {
+              "id": "salmos-u3-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "A true friendship is one that remains only in times of joy.",
+              "isTrue": false,
+              "reference": "Proverbs 17:17",
+              "explanation": "True friendship shows itself especially in moments of difficulty and suffering."
+            },
+            {
+              "id": "salmos-u3-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "How to choose good friends?",
+              "text": "\"Walk with the wise and become wise, but the companion of _____ will suffer.\"",
+              "options": [
+                "fools",
+                "a lonely man",
+                "harsh critics",
+                "silent observers"
+              ],
+              "answer": "fools",
+              "reference": "Proverbs 13:20",
+              "explanation": "Friendships influence our lives, so we should choose companions who help us grow."
+            },
+            {
+              "id": "salmos-u3-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The value of companionship in Proverbs 13:20",
+              "tokens": [
+                "Walk with the wise",
+                "and become wise",
+                "but the companion of fools",
+                "will suffer"
+              ],
+              "distractors": [
+                "will become foolish",
+                "will face harm",
+                "will be punished"
+              ],
+              "reference": "Proverbs 13:20"
+            },
+            {
+              "id": "salmos-u3-l3-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "A friend loves at all times.",
+              "options": [
+                "Friends leave us",
+                "A friend loves at all times",
+                "Friendship is temporary"
+              ],
+              "answer": "A friend loves at all times",
+              "reference": "Proverbs 17:17"
+            },
+            {
+              "id": "salmos-u3-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the characteristics of friendship",
+              "pairs": [
+                {
+                  "left": "Loyalty",
+                  "right": "Present in difficulties"
+                },
+                {
+                  "left": "Constancy",
+                  "right": "Remains all the time"
+                },
+                {
+                  "left": "Positive influence",
+                  "right": "Makes us wise"
+                },
+                {
+                  "left": "Loving rebuke",
+                  "right": "Corrects with care"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u3-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"A friend loves at all _____, and a brother is born for adversity.\"",
+              "answer": "times",
+              "reference": "Proverbs 17:17",
+              "options": [
+                "times",
+                "moments"
+              ]
+            },
+            {
+              "id": "salmos-u3-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Our friendships do not have a significant impact on who we become.",
+              "isTrue": false,
+              "reference": "Proverbs 13:20",
+              "explanation": "Our friendships profoundly influence our character and life decisions."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l4",
+          "title": "Work and Humility",
+          "icon": "tree.fill",
+          "exercises": [
+            {
+              "id": "salmos-u3-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"The sluggard craves and gets nothing, but the desires of the diligent are fully _____.\"",
+              "speaker": "Wisdom",
+              "options": [
+                "satisfied",
+                "rewarded",
+                "blessed",
+                "fulfilled"
+              ],
+              "answer": "satisfied",
+              "reference": "Proverbs 13:4",
+              "explanation": "Diligent and persevering work leads to achievement and success."
+            },
+            {
+              "id": "salmos-u3-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Laziness is seen as a natural weakness in Proverbs.",
+              "isTrue": false,
+              "reference": "Proverbs 13:4, 19:15",
+              "explanation": "Laziness in Proverbs is portrayed as a choice that leads to poverty and failure."
+            },
+            {
+              "id": "salmos-u3-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "What does Proverbs say about humility?",
+              "text": "\"Humility comes before _____.\"",
+              "options": [
+                "honor",
+                "obedience",
+                "virtue",
+                "justice"
+              ],
+              "answer": "honor",
+              "reference": "Proverbs 15:33",
+              "explanation": "Humility precedes any true honor; it is the basis of respectable character."
+            },
+            {
+              "id": "salmos-u3-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Promise about diligent work",
+              "tokens": [
+                "The diligent hand",
+                "will come to power",
+                "but laziness",
+                "leads to forced labor"
+              ],
+              "distractors": [
+                "and oppression",
+                "will suffer",
+                "will be defeated"
+              ],
+              "reference": "Proverbs 12:24"
+            },
+            {
+              "id": "salmos-u3-l4-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "The diligent hand will come to power but laziness leads to forced labor.",
+              "options": [
+                "All have the same result",
+                "The diligent rules the lazy",
+                "Work is important"
+              ],
+              "answer": "The diligent rules the lazy",
+              "reference": "Proverbs 12:24"
+            },
+            {
+              "id": "salmos-u3-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Match attitudes and consequences",
+              "pairs": [
+                {
+                  "left": "Diligence",
+                  "right": "Success and achievement"
+                },
+                {
+                  "left": "Laziness",
+                  "right": "Failure and poverty"
+                },
+                {
+                  "left": "Humility",
+                  "right": "True honor"
+                },
+                {
+                  "left": "Pride",
+                  "right": "Fall and destruction"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u3-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"The sluggard craves and gets nothing, but the desires of the diligent are fully _____.\"",
+              "answer": "satisfied",
+              "reference": "Proverbs 13:4",
+              "options": [
+                "satisfied",
+                "fulfilled"
+              ]
+            },
+            {
+              "id": "salmos-u3-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Humility and hard work are lasting principles in Proverbs.",
+              "isTrue": true,
+              "reference": "Proverbs 13:4, 15:33",
+              "explanation": "Humility and diligence are fundamental values that lead to a successful and honored life."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u3-l5",
+          "title": "Review - Daily Wisdom",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "salmos-u3-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the central theme of Proverbs?",
+              "text": "This book was written mainly to teach how to live well.",
+              "options": [
+                "Practical wisdom for life",
+                "History of ancient kings",
+                "Prophecies about the future",
+                "Criticism of enemies"
+              ],
+              "answer": "Practical wisdom for life",
+              "reference": "Proverbs 1:1-7",
+              "explanation": "Proverbs offers practical advice on how to make good decisions in life."
+            },
+            {
+              "id": "salmos-u3-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Fear of the LORD is important only in religious context.",
+              "isTrue": false,
+              "reference": "Proverbs 1:7, 14:26-27",
+              "explanation": "Fear of the LORD is the foundation for all practical wisdom and wise decisions in life."
+            },
+            {
+              "id": "salmos-u3-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "How should we care with our words?",
+              "text": "Proverbs emphasizes the power and responsibility of speech.",
+              "options": [
+                "Care that they are true and kind",
+                "Speak as much as possible",
+                "Say what others want to hear",
+                "Always stay silent"
+              ],
+              "answer": "Care that they are true and kind",
+              "reference": "Proverbs 15:1, 18:21",
+              "explanation": "Our words have power to heal or hurt, so we should be careful and respectful."
+            },
+            {
+              "id": "salmos-u3-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the review verse",
+              "text": "Summary of practical wisdom",
+              "tokens": [
+                "The fear of the LORD",
+                "is the beginning of wisdom",
+                "as well as",
+                "diligence leads to success"
+              ],
+              "distractors": [
+                "and humility to recognition",
+                "and kindness to praise",
+                "and truth to victory"
+              ],
+              "reference": "Proverbs 1:7, 13:4"
+            },
+            {
+              "id": "salmos-u3-l5-e5",
+              "kind": "listen",
+              "prompt": "Which wisdom did you hear?",
+              "text": "Walk with the wise and become wise.",
+              "options": [
+                "Everyone learns the same way",
+                "Walk with the wise become wise",
+                "Wisdom is solitary"
+              ],
+              "answer": "Walk with the wise become wise",
+              "reference": "Proverbs 13:20"
+            },
+            {
+              "id": "salmos-u3-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the main lessons",
+              "pairs": [
+                {
+                  "left": "Fear of God",
+                  "right": "Root of wisdom"
+                },
+                {
+                  "left": "Wise words",
+                  "right": "Heal and build"
+                },
+                {
+                  "left": "True friends",
+                  "right": "Support in everything"
+                },
+                {
+                  "left": "Diligent work",
+                  "right": "Leads to success"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u3-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Order the principles of wisdom",
+              "text": "Progress in acquiring wisdom",
+              "tokens": [
+                "Fear the LORD",
+                "Listen to wise counsel",
+                "Apply to practical life",
+                "Share with others"
+              ]
+            },
+            {
+              "id": "salmos-u3-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Wisdom is a gift that comes mainly from our experiences.",
+              "isTrue": false,
+              "reference": "Proverbs 1:7",
+              "explanation": "Although we learn from experience, true wisdom originates in the fear of the LORD."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salmos-u4",
+      "title": "Unit 4",
+      "subtitle": "Prayer and Repentance",
+      "guide": {
+        "summary": "Prayer is genuine conversation with God. Repentance is a change of heart that transforms us. Through these, we experience forgiveness, renewal, and intimacy with our Creator.",
+        "keyVerses": [
+          {
+            "reference": "Psalm 51:10",
+            "text": "Create in me a clean heart, O God, and renew a right spirit within me."
+          },
+          {
+            "reference": "Psalm 139:1",
+            "text": "O LORD, you have searched me and known me."
+          },
+          {
+            "reference": "Matthew 6:9-13",
+            "text": "Pray therefore like this: Our Father in heaven..."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "salmos-u4-l1",
+          "title": "Sincere Repentance",
+          "icon": "leaf.fill",
+          "exercises": [
+            {
+              "id": "salmos-u4-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Create in me a clean heart, O God, and renew a right _____ within me.\"",
+              "speaker": "David",
+              "options": [
+                "spirit",
+                "strength",
+                "mind",
+                "soul"
+              ],
+              "answer": "spirit",
+              "reference": "Psalm 51:10",
+              "explanation": "True repentance leads to the desire for a renewed heart and upright spirit."
+            },
+            {
+              "id": "salmos-u4-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Psalm 51 is the most well-known repentance psalm, written by David after his sin.",
+              "isTrue": true,
+              "reference": "Psalm 51",
+              "explanation": "Psalm 51 is a powerful psalm of confession and repentance after David's sin."
+            },
+            {
+              "id": "salmos-u4-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "What does true repentance produce?",
+              "text": "\"Wash me thoroughly from my iniquity, and cleanse me from my _____.\"",
+              "options": [
+                "sin",
+                "guilt",
+                "shame",
+                "rebellion"
+              ],
+              "answer": "sin",
+              "reference": "Psalm 51:2",
+              "explanation": "God washes and cleanses us when we sincerely repent of our sins."
+            },
+            {
+              "id": "salmos-u4-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Prayer of repentance in Psalm 51:1-2",
+              "tokens": [
+                "Have mercy on me, O God",
+                "according to your steadfast love",
+                "wash me thoroughly",
+                "from my iniquity"
+              ],
+              "distractors": [
+                "restore my soul",
+                "renew my spirit",
+                "forgive my sin"
+              ],
+              "reference": "Psalm 51:1-2"
+            },
+            {
+              "id": "salmos-u4-l1-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Create in me a clean heart O God.",
+              "options": [
+                "God cleanses our sins",
+                "Create in me a clean heart",
+                "Restore my renewed spirit"
+              ],
+              "answer": "Create in me a clean heart",
+              "reference": "Psalm 51:10"
+            },
+            {
+              "id": "salmos-u4-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Match elements of repentance",
+              "pairs": [
+                {
+                  "left": "Confession",
+                  "right": "Admit the sin"
+                },
+                {
+                  "left": "Remorse",
+                  "right": "Sorrow for sin"
+                },
+                {
+                  "left": "Change",
+                  "right": "Abandon wickedness"
+                },
+                {
+                  "left": "Forgiveness",
+                  "right": "God's grace"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u4-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"Create in me a _____ heart, O God, and renew a right spirit.\"",
+              "answer": "clean",
+              "reference": "Psalm 51:10",
+              "options": [
+                "clean",
+                "pure"
+              ]
+            },
+            {
+              "id": "salmos-u4-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Repentance is merely feeling remorse for sins.",
+              "isTrue": false,
+              "reference": "Psalm 51",
+              "explanation": "True repentance includes confession, genuine remorse, and change of life."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l2",
+          "title": "God Knows Our Hearts",
+          "icon": "hands.sparkles.fill",
+          "exercises": [
+            {
+              "id": "salmos-u4-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"O LORD, you have searched me and _____.\"",
+              "speaker": "David",
+              "options": [
+                "known me",
+                "judged me",
+                "loved me",
+                "guided me"
+              ],
+              "answer": "known me",
+              "reference": "Psalm 139:1",
+              "explanation": "God knows deeply every aspect of our life and heart."
+            },
+            {
+              "id": "salmos-u4-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Psalm 139 expresses that God is always present and knows us completely.",
+              "isTrue": true,
+              "reference": "Psalm 139",
+              "explanation": "Psalm 139 is a profound psalm about God's omniscience and omnipresence."
+            },
+            {
+              "id": "salmos-u4-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the comfort in Psalm 139:5?",
+              "text": "\"You hem me in, _____, and behind, and lay your hand upon me.\"",
+              "options": [
+                "before",
+                "above",
+                "near",
+                "day and night"
+              ],
+              "answer": "before",
+              "reference": "Psalm 139:5",
+              "explanation": "God surrounds us completely and His presence protects us in all directions."
+            },
+            {
+              "id": "salmos-u4-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "God's presence in Psalm 139:7-8",
+              "tokens": [
+                "Where can I go",
+                "from your Spirit?",
+                "Or where can I flee",
+                "from your presence?"
+              ],
+              "distractors": [
+                "If I ascend to heaven",
+                "If I descend to Sheol",
+                "If I spread my wings"
+              ],
+              "reference": "Psalm 139:7"
+            },
+            {
+              "id": "salmos-u4-l2-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "O LORD you search me and know me.",
+              "options": [
+                "God judges all people",
+                "O LORD you search and know me",
+                "I know God's heart"
+              ],
+              "answer": "O LORD you search and know me",
+              "reference": "Psalm 139:1"
+            },
+            {
+              "id": "salmos-u4-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Match divine attributes",
+              "pairs": [
+                {
+                  "left": "Omniscience",
+                  "right": "God knows all"
+                },
+                {
+                  "left": "Omnipresence",
+                  "right": "God is everywhere"
+                },
+                {
+                  "left": "Omnipotence",
+                  "right": "God has all power"
+                },
+                {
+                  "left": "Eternity",
+                  "right": "God exists always"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u4-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"O LORD, you have searched me and _____.\"",
+              "answer": "known me",
+              "reference": "Psalm 139:1",
+              "options": [
+                "known me",
+                "know me well"
+              ]
+            },
+            {
+              "id": "salmos-u4-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "We can hide our thoughts from God.",
+              "isTrue": false,
+              "reference": "Psalm 139:1-2",
+              "explanation": "God knows not only our actions but also our most secret thoughts."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l3",
+          "title": "The Lord's Prayer",
+          "icon": "hands.sparkles.fill",
+          "exercises": [
+            {
+              "id": "salmos-u4-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Begin the Lord's Prayer",
+              "text": "\"Our Father, who art in _____.\"",
+              "speaker": "Jesus",
+              "options": [
+                "heaven",
+                "throne",
+                "kingdom",
+                "heart"
+              ],
+              "answer": "heaven",
+              "reference": "Matthew 6:9",
+              "explanation": "The prayer begins by recognizing God as our Father in heaven."
+            },
+            {
+              "id": "salmos-u4-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The Lord's Prayer was taught by Jesus as a model for prayer.",
+              "isTrue": true,
+              "reference": "Matthew 6:9-13",
+              "explanation": "Jesus taught us this prayer as an example of how we should pray to the Father."
+            },
+            {
+              "id": "salmos-u4-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the second petition of the Lord's Prayer?",
+              "text": "\"Your kingdom come, your _____ be done, on earth as it is in heaven.\"",
+              "options": [
+                "will",
+                "grace",
+                "mercy",
+                "justice"
+              ],
+              "answer": "will",
+              "reference": "Matthew 6:10",
+              "explanation": "We ask that God's will be done in our lives and in the world."
+            },
+            {
+              "id": "salmos-u4-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Petition for bread in Matthew 6:11",
+              "tokens": [
+                "Our daily bread",
+                "give us today",
+                "and forgive us",
+                "our debts"
+              ],
+              "distractors": [
+                "as we forgive",
+                "our debtors",
+                "and lead us not"
+              ],
+              "reference": "Matthew 6:11-12"
+            },
+            {
+              "id": "salmos-u4-l3-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Your kingdom come your will be done.",
+              "options": [
+                "Your name be hallowed",
+                "Your kingdom come your will done",
+                "Forgiveness and salvation for all"
+              ],
+              "answer": "Your kingdom come your will done",
+              "reference": "Matthew 6:10"
+            },
+            {
+              "id": "salmos-u4-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the petitions of the Lord's Prayer",
+              "pairs": [
+                {
+                  "left": "Hallowing the name",
+                  "right": "Recognize God as holy"
+                },
+                {
+                  "left": "Daily sustenance",
+                  "right": "Ask for our bread"
+                },
+                {
+                  "left": "Forgiveness of sins",
+                  "right": "Reconciliation with God"
+                },
+                {
+                  "left": "Deliverance from evil",
+                  "right": "Divine protection"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u4-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the prayer",
+              "text": "\"Our daily bread give us _____.\"",
+              "answer": "today",
+              "reference": "Matthew 6:11",
+              "options": [
+                "today",
+                "now"
+              ]
+            },
+            {
+              "id": "salmos-u4-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The Lord's Prayer contains petitions only for ourselves.",
+              "isTrue": false,
+              "reference": "Matthew 6:9-13",
+              "explanation": "The Lord's Prayer includes petitions to glorify God, for His kingdom to come, and for forgiveness."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l4",
+          "title": "Time and Eternity",
+          "icon": "moon.stars.fill",
+          "exercises": [
+            {
+              "id": "salmos-u4-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Vanity of vanities, says the Preacher, vanity of vanities; all is _____.\"",
+              "speaker": "Ecclesiastes",
+              "options": [
+                "vanity",
+                "falsehood",
+                "illusion",
+                "deception"
+              ],
+              "answer": "vanity",
+              "reference": "Ecclesiastes 1:2",
+              "explanation": "Ecclesiastes makes us reflect that life without God is empty and without lasting meaning."
+            },
+            {
+              "id": "salmos-u4-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Ecclesiastes teaches that everything we do without God is empty and purposeless.",
+              "isTrue": true,
+              "reference": "Ecclesiastes 1:2, 12:13",
+              "explanation": "Ecclesiastes shows that without God, all our search for meaning is futile."
+            },
+            {
+              "id": "salmos-u4-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the conclusion of Ecclesiastes?",
+              "text": "\"Now all has been heard; here is the conclusion of the matter: Fear God and _____ his commandments.\"",
+              "options": [
+                "keep",
+                "follow",
+                "obey",
+                "fulfill"
+              ],
+              "answer": "keep",
+              "reference": "Ecclesiastes 12:13",
+              "explanation": "After exploring everything in life, the conclusion is that we should fear God and keep His commandments."
+            },
+            {
+              "id": "salmos-u4-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The central message in Ecclesiastes 3:1",
+              "tokens": [
+                "There is a time",
+                "for every purpose",
+                "under heaven",
+                "a time to be born"
+              ],
+              "distractors": [
+                "and a time to die",
+                "a time to weep",
+                "and a time to laugh"
+              ],
+              "reference": "Ecclesiastes 3:1-2"
+            },
+            {
+              "id": "salmos-u4-l4-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "There is a time for everything under heaven.",
+              "options": [
+                "Time is passing and brief",
+                "There is a time for everything heaven",
+                "Time is precious to God"
+              ],
+              "answer": "There is a time for everything heaven",
+              "reference": "Ecclesiastes 3:1"
+            },
+            {
+              "id": "salmos-u4-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the times of Ecclesiastes 3",
+              "pairs": [
+                {
+                  "left": "Time to be born",
+                  "right": "Time to die"
+                },
+                {
+                  "left": "Time to plant",
+                  "right": "Time to reap"
+                },
+                {
+                  "left": "Time to weep",
+                  "right": "Time to laugh"
+                },
+                {
+                  "left": "Time to love",
+                  "right": "Time to hate"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u4-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"There is a time for every purpose under _____.\"",
+              "answer": "heaven",
+              "reference": "Ecclesiastes 3:1",
+              "options": [
+                "heaven",
+                "sun"
+              ]
+            },
+            {
+              "id": "salmos-u4-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Life has meaning when we place God at the center of everything.",
+              "isTrue": true,
+              "reference": "Ecclesiastes 12:13",
+              "explanation": "When we fear God and keep His commandments, our life gains eternal purpose."
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l5",
+          "title": "Review - Prayer and Repentance",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "salmos-u4-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the purpose of repentance?",
+              "text": "Repentance is essential to our relationship with God.",
+              "options": [
+                "Transform our heart and restore us",
+                "Only express guilt",
+                "Avoid God's punishment",
+                "Impress other people"
+              ],
+              "answer": "Transform our heart and restore us",
+              "reference": "Psalm 51:10",
+              "explanation": "True repentance transforms our heart and reconciles us with God."
+            },
+            {
+              "id": "salmos-u4-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "God is always ready to forgive those who repent sincerely.",
+              "isTrue": true,
+              "reference": "Psalm 51:1, 139:1",
+              "explanation": "God is gracious and always opens His heart to genuine repentance."
+            },
+            {
+              "id": "salmos-u4-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "How should we pray according to God's Word?",
+              "text": "Jesus taught us through the Lord's Prayer how to pray correctly.",
+              "options": [
+                "With honesty, faith, and recognition of God",
+                "Only in sacred places",
+                "With many words and formalities",
+                "Only to ask for blessings"
+              ],
+              "answer": "With honesty, faith, and recognition of God",
+              "reference": "Matthew 6:9-13",
+              "explanation": "True prayer is genuine communion with God, acknowledging His holiness and grace."
+            },
+            {
+              "id": "salmos-u4-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the review verse",
+              "text": "Summary of prayer and repentance",
+              "tokens": [
+                "Create in me a clean heart",
+                "O LORD you know me",
+                "Our Father in heaven",
+                "your will be done"
+              ],
+              "distractors": [
+                "restore my soul",
+                "and deliver us from evil",
+                "hallowed be your name"
+              ],
+              "reference": "Psalm 51:10, 139:1, Matthew 6:9-10"
+            },
+            {
+              "id": "salmos-u4-l5-e5",
+              "kind": "listen",
+              "prompt": "Which truth did you hear?",
+              "text": "There is a time for everything under heaven.",
+              "options": [
+                "Time is passing and brief",
+                "There is a time for everything heaven",
+                "There is purpose in each season"
+              ],
+              "answer": "There is a time for everything heaven",
+              "reference": "Ecclesiastes 3:1"
+            },
+            {
+              "id": "salmos-u4-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the final themes",
+              "pairs": [
+                {
+                  "left": "Repentance",
+                  "right": "Change of heart"
+                },
+                {
+                  "left": "Prayer",
+                  "right": "Communion with God"
+                },
+                {
+                  "left": "Knowledge of God",
+                  "right": "Divine omniscience"
+                },
+                {
+                  "left": "Meaning of life",
+                  "right": "Fear God"
+                }
+              ]
+            },
+            {
+              "id": "salmos-u4-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Order the path of transformation",
+              "text": "Journey of spiritual transformation",
+              "tokens": [
+                "Recognize the sin",
+                "Repent sincerely",
+                "Confess to God",
+                "Live transformed"
+              ]
+            },
+            {
+              "id": "salmos-u4-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Prayer and repentance are essential parts of a healthy life with God.",
+              "isTrue": true,
+              "reference": "Psalm 51, 139, Matthew 6:9",
+              "explanation": "Sincere prayer and genuine repentance keep us connected and transformed by God."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
