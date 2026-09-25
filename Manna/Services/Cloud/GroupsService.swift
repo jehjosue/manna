@@ -96,10 +96,10 @@ final class GroupsService: @unchecked Sendable {
     // MARK: - Estado
 
     /// Estado da conta iCloud do usuário.
-    private(set) var accountStatus: CKAccountStatus = .unknown
+    private(set) var accountStatus: CKAccountStatus = .couldNotDetermine
 
     /// ID do usuário atual (ou nil se não autenticado).
-    private(set) var userRecordID: CKRecordID?
+    private(set) var userRecordID: CKRecord.ID?
 
     /// Grupos do usuário (códigos dos grupos em que está, com dados carregados).
     private(set) var myGroups: [MannaGroup] = []

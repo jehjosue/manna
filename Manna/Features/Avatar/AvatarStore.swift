@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 import Observation
 
 // MARK: - Tipos de Accessories

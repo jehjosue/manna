@@ -52,14 +52,14 @@ struct ProfileView: View {
                         // Estatísticas (grade 2x2)
                         VStack(spacing: 12) {
                             HStack(spacing: 12) {
-                                StatCard(
+                                ProfileStatCard(
                                     icon: .bread,
                                     title: "Sequência Atual",
                                     value: "\(game.bread)",
                                     subtitle: "Máximo: \(game.bestBread)"
                                 )
 
-                                StatCard(
+                                ProfileStatCard(
                                     icon: .xp,
                                     title: "XP Total",
                                     value: "\(game.xpTotal)",
@@ -68,14 +68,14 @@ struct ProfileView: View {
                             }
 
                             HStack(spacing: 12) {
-                                StatCard(
+                                ProfileStatCard(
                                     icon: .manna,
                                     title: "Lições",
                                     value: "\(game.completedLessonCount)",
                                     subtitle: "concluídas"
                                 )
 
-                                StatCard(
+                                ProfileStatCard(
                                     icon: .oil,
                                     title: "Taxa de Acertos",
                                     value: game.completedLessonCount > 0
@@ -237,7 +237,7 @@ struct ProfileView: View {
     }
 }
 
-struct StatCard: View {
+struct ProfileStatCard: View {
     let icon: GameIcon
     let title: String
     let value: String

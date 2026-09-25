@@ -280,14 +280,3 @@ struct SheepMiniView: View {
         .background(Theme.cream)
 }
 
-#Preview("Com grupos") {
-    let game = GameState()
-    game.userName = "Maria"
-    game.bread = 7
-    game.xpByDay["2025-01-01"] = 50
-    game.xpByDay["2025-01-02"] = 40
-
-    return GroupsView()
-        .environment(game)
-        .background(Theme.cream)
-}

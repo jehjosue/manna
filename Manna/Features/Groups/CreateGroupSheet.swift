@@ -249,7 +249,6 @@ struct GoalOptionButton: View {
 // MARK: - Preview
 
 #Preview {
-    @State var isPresented = true
-    return CreateGroupSheet(isPresented: $isPresented)
+    CreateGroupSheet(isPresented: .constant(true))
         .environment(GameState())
 }

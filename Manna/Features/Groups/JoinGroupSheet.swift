@@ -282,7 +282,6 @@ struct StatRow: View {
 // MARK: - Preview
 
 #Preview {
-    @State var isPresented = true
-    return JoinGroupSheet(isPresented: $isPresented)
+    JoinGroupSheet(isPresented: .constant(true))
         .environment(GameState())
 }
