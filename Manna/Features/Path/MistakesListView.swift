@@ -11,7 +11,7 @@ struct MistakesListView: View {
     @State private var showLessonView = false
     @State private var reviewLesson: Lesson?
     @State private var showCelebration = false
-    @State private var lastOutcome: LessonOutcome?
+    @State private var lastResult: LessonResult?
 
     var body: some View {
         NavigationStack {
@@ -92,7 +92,7 @@ struct MistakesListView: View {
                     lesson: lesson,
                     mode: .practice,
                     onFinish: { outcome in
-                        lastOutcome = outcome
+                        lastResult = game.completeActivity(outcome, kind: .practice, baseXP: min(30, outcome.correctCount))
                         showLessonView = false
                         showCelebration = true
                     },
@@ -101,8 +101,7 @@ struct MistakesListView: View {
             }
         }
         .fullScreenCover(isPresented: $showCelebration) {
-            if let outcome = lastOutcome {
-                let result = game.completeActivity(outcome, kind: .practice, baseXP: min(30, outcome.correctCount))
+            if let result = lastResult {
                 CelebrationFlowView(result: result) {
                     showCelebration = false
                 }

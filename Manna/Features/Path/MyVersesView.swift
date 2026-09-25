@@ -12,7 +12,7 @@ struct MyVersesView: View {
     @State private var showLessonView = false
     @State private var practiceLessonVerses: Lesson?
     @State private var showCelebration = false
-    @State private var lastOutcome: LessonOutcome?
+    @State private var lastResult: LessonResult?
 
     var filteredVerses: [SavedVerse] {
         let sorted = versesStore.sorted(by: sortBy)
@@ -123,7 +123,7 @@ struct MyVersesView: View {
                     lesson: lesson,
                     mode: .practice,
                     onFinish: { outcome in
-                        lastOutcome = outcome
+                        lastResult = game.completeActivity(outcome, kind: .practice, baseXP: min(30, outcome.correctCount))
                         showLessonView = false
                         showCelebration = true
                     },
@@ -132,8 +132,7 @@ struct MyVersesView: View {
             }
         }
         .fullScreenCover(isPresented: $showCelebration) {
-            if let outcome = lastOutcome {
-                let result = game.completeActivity(outcome, kind: .practice, baseXP: min(30, outcome.correctCount))
+            if let result = lastResult {
                 CelebrationFlowView(result: result) {
                     showCelebration = false
                 }

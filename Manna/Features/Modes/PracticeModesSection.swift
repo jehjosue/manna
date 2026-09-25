@@ -8,6 +8,7 @@ struct PracticeModesSection: View {
     @State private var selectedMode: PracticeModeType?
     @State private var showCelebration = false
     @State private var lastGameScore = 0
+    @State private var gameResult: LessonResult?
 
     enum PracticeModeType { case radio, roleplay, videoCall, miniGame }
 
@@ -120,6 +121,8 @@ struct PracticeModesSection: View {
             case .miniGame:
                 ArkGameView { score in
                     lastGameScore = score
+                    let outcome = LessonOutcome(lessonId: "arca-noe", correctCount: score, totalCount: 5, mistakes: max(0, 5 - score))
+                    gameResult = game.completeActivity(outcome, kind: .challenge, baseXP: score * 8)
                     selectedMode = nil
                     showCelebration = true
                 }
@@ -128,15 +131,10 @@ struct PracticeModesSection: View {
             }
         }
         .fullScreenCover(isPresented: $showCelebration) {
-            let outcome = LessonOutcome(
-                lessonId: "arca-noé",
-                correctCount: lastGameScore,
-                totalCount: 5,
-                mistakes: max(0, 5 - lastGameScore)
-            )
-            let result = game.completeActivity(outcome, kind: .challenge, baseXP: lastGameScore * 8)
-            CelebrationFlowView(result: result) {
-                showCelebration = false
+            if let result = gameResult {
+                CelebrationFlowView(result: result) {
+                    showCelebration = false
+                }
             }
         }
     }

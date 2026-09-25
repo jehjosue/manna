@@ -12,7 +12,8 @@ struct UnitSkipTestView: View {
     @State private var showLessonView = false
     @State private var skipLesson: Lesson?
     @State private var showCelebration = false
-    @State private var lastOutcome: LessonOutcome?
+    @State private var lastResult: LessonResult?
+    @State private var showFailed = false
 
     var body: some View {
         ZStack {
@@ -23,10 +24,15 @@ struct UnitSkipTestView: View {
                     lesson: lesson,
                     mode: .legendary,
                     onFinish: { outcome in
-                        lastOutcome = outcome
                         showLessonView = false
-                        // Se passou (não estourou óleo), marca como concluído
-                        if !game.hasOil { return }  // Falhou: sem óleo
+                        // Passa com pelo menos 80% de acerto na primeira tentativa.
+                        let total = max(outcome.totalCount, 1)
+                        guard Double(outcome.correctCount) / Double(total) >= 0.8 else {
+                            showFailed = true
+                            return
+                        }
+                        lastResult = game.completeActivity(outcome, kind: .practice, baseXP: 40)
+                        game.markLessonsCompleted(unit.lessons.map { $0.id })
                         showCelebration = true
                     },
                     onQuit: {
@@ -66,12 +72,14 @@ struct UnitSkipTestView: View {
                 .padding(24)
             }
         }
+        .alert("Quase lá!", isPresented: $showFailed) {
+            Button("Tentar de novo") { prepareSkipTest() }
+            Button("Voltar", role: .cancel) { onDone() }
+        } message: {
+            Text("Você precisa acertar 80% para pular esta unidade.")
+        }
         .fullScreenCover(isPresented: $showCelebration) {
-            if let outcome = lastOutcome {
-                let result = game.completeActivity(outcome, kind: .practice, baseXP: 40)
-                // Marca todas as lições da unidade como concluídas
-                game.markLessonsCompleted(unit.lessons.map { $0.id })
-
+            if let result = lastResult {
                 CelebrationFlowView(result: result) {
                     showCelebration = false
                     onDone()
