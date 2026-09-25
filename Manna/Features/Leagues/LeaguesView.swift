@@ -348,7 +348,7 @@ struct LeaguePromotionSheet: View {
                 .characterBreathing(size: 120)
                 .characterReaction(.cheering)
                 .opacity(isCelebrating ? 1 : 0)
-                .scale(isCelebrating ? 1 : 0.8, anchor: .center)
+                .scaleEffect(isCelebrating ? 1 : 0.8, anchor: .center)
 
             Spacer()
 
