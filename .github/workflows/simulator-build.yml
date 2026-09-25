@@ -1,0 +1,43 @@
+name: Simulator Build (Appetize)
+
+# Gera o Manna.app para simulador, zipado — é o formato que o Appetize.io aceita
+# para rodar o app no navegador.
+on:
+  workflow_dispatch:
+
+jobs:
+  simulator:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Generate Xcode project
+        run: |
+          brew install xcodegen
+          xcodegen generate
+
+      - name: Build for simulator
+        run: |
+          xcodebuild build \
+            -project Manna.xcodeproj \
+            -scheme Manna \
+            -configuration Release \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Zip app
+        run: |
+          cd build/Build/Products/Release-iphonesimulator
+          ditto -c -k --sequesterRsrc --keepParent Manna.app "$GITHUB_WORKSPACE/Manna-simulator.zip"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Manna-simulator
+          path: Manna-simulator.zip

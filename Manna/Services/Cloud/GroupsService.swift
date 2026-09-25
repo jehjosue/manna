@@ -113,13 +113,13 @@ final class GroupsService: @unchecked Sendable {
     /// Em preview/teste, não chamar CloudKit.
     private let isPreview: Bool
 
-    private let container: CKContainer
-    private let publicDB: CKDatabase
+    // Criados só quando o iCloud está disponível: sem o entitlement, CKContainer derruba o app.
+    @ObservationIgnored private lazy var container = CKContainer(identifier: "iCloud.app.manna.ios")
+    @ObservationIgnored private lazy var publicDB = container.publicCloudDatabase
 
     private init() {
-        self.isPreview = ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1"
-        self.container = CKContainer.default()
-        self.publicDB = container.publicCloudDatabase
+        let inPreview = ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1"
+        self.isPreview = inPreview || !Self.hasCloudKitEntitlement
 
         if !isPreview {
             Task {
@@ -127,6 +127,18 @@ final class GroupsService: @unchecked Sendable {
                 await loadUserRecordID()
             }
         }
+    }
+
+    /// Simulador e instalações sem perfil com iCloud (ex.: Appetize, Apple ID grátis) não têm CloudKit.
+    /// Builds da App Store/TestFlight não trazem embedded.mobileprovision e têm o entitlement.
+    private static var hasCloudKitEntitlement: Bool {
+        #if targetEnvironment(simulator)
+        return false
+        #else
+        guard let path = Bundle.main.path(forResource: "embedded", ofType: "mobileprovision"),
+              let data = FileManager.default.contents(atPath: path) else { return true }
+        return String(decoding: data, as: UTF8.self).contains("iCloud.app.manna.ios")
+        #endif
     }
 
     // MARK: - Operações Públicas
