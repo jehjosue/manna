@@ -1,0 +1,31 @@
+name: Export Localizations
+
+# Extrai todos os textos traduzíveis do app (XLIFF) — base para traduzir a interface.
+on:
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+      - name: Generate Xcode project
+        run: |
+          brew install xcodegen
+          xcodegen generate
+      - name: Export localizations
+        run: |
+          xcodebuild -exportLocalizations \
+            -project Manna.xcodeproj \
+            -localizationPath loc \
+            -exportLanguage pt-BR \
+            -sdk iphonesimulator \
+            CODE_SIGNING_ALLOWED=NO
+          find loc -name "*.xliff" | head
+      - uses: actions/upload-artifact@v4
+        with:
+          name: localizations
+          path: loc
