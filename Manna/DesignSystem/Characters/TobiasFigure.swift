@@ -80,18 +80,18 @@ struct TobiasFigure: View {
     private func cabeleiraRuiva(_ date: Date) -> some View {
         ZStack {
             // Topo espetado (3 pontas)
-            Triangle()
+            TobiasSpike()
                 .fill(Color(hex: 0xD2691E))
                 .frame(width: size * 0.12, height: size * 0.18)
                 .offset(x: -size * 0.08, y: -size * 0.3)
                 .rotationEffect(.degrees(-15))
 
-            Triangle()
+            TobiasSpike()
                 .fill(Color(hex: 0xD2691E))
                 .frame(width: size * 0.14, height: size * 0.22)
                 .offset(x: 0, y: -size * 0.35)
 
-            Triangle()
+            TobiasSpike()
                 .fill(Color(hex: 0xD2691E))
                 .frame(width: size * 0.12, height: size * 0.18)
                 .offset(x: size * 0.08, y: -size * 0.3)
@@ -201,7 +201,9 @@ struct TobiasFigure: View {
     }
 }
 
-private struct Triangle: Shape {
+
+/// Mecha de cabelo espetado (triângulo com a ponta para cima).
+private struct TobiasSpike: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
         path.move(to: CGPoint(x: rect.midX, y: rect.minY))
