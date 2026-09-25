@@ -127,6 +127,8 @@ struct QuestsView: View {
 
 // MARK: - Mission Card
 
+// MARK: - Mission Card
+
 /// Cartão de uma missão diária com ícone, nome, barra de progresso e recompensa.
 struct MissionCard: View {
     let mission: DailyMission
@@ -210,9 +212,11 @@ struct MissionCard: View {
 
 // MARK: - Monthly Challenge View
 
+// MARK: - Monthly Challenge View
+
 struct MonthlyChallengeView: View {
     @Environment(GameState.self) private var game
-    @State private var monthlyStore = MonthlyChallengeStore.shared
+    private let monthlyStore = MonthlyChallengeStore.shared
     @State private var showRewardAnimation = false
 
     var body: some View {

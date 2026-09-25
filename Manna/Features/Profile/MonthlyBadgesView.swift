@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct MonthlyBadgesView: View {
-    @State private var monthlyStore = MonthlyChallengeStore.shared
+    private let monthlyStore = MonthlyChallengeStore.shared
 
     var body: some View {
         NavigationStack {

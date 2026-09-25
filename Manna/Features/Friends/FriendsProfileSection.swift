@@ -76,9 +76,6 @@ struct FriendsProfileSection: View {
                 }
             }
         }
-        .task {
-            await friends.refresh()
-        }
     }
 }
 

@@ -37,6 +37,7 @@ struct ManageJourneysView: View {
                                 JourneyManageCard(
                                     journey: journey,
                                     isHidden: visibilityStore.isHidden(journey.id),
+                                    canHide: canHideJourney(journey.id),
                                     onToggle: {
                                         visibilityStore.toggleVisibility(journey.id)
                                     }
@@ -52,11 +53,19 @@ struct ManageJourneysView: View {
             .navigationBarTitleDisplayMode(.inline)
         }
     }
+
+    private func canHideJourney(_ journeyId: String) -> Bool {
+        let hiddenCount = content.journeys.filter { visibilityStore.isHidden($0.id) }.count
+        let totalCount = content.journeys.count
+        // Pode ocultar se não for a última jornada visível
+        return hiddenCount < totalCount - 1
+    }
 }
 
 struct JourneyManageCard: View {
     let journey: Journey
     let isHidden: Bool
+    let canHide: Bool
     let onToggle: () -> Void
 
     var body: some View {
@@ -93,6 +102,7 @@ struct JourneyManageCard: View {
                             .background(isHidden ? Theme.lineDark : Theme.card)
                             .cornerRadius(8)
                     }
+                    .disabled(!canHide && !isHidden)
 
                     Text(isHidden ? "Oculta" : "Visível")
                         .font(Theme.font(10, .heavy))

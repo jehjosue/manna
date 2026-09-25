@@ -3,7 +3,7 @@ import SwiftUI
 /// Sheet para entrar em um grupo existente usando código.
 struct JoinGroupSheet: View {
     @Environment(GameState.self) private var game
-    @State private var service = GroupsService.shared
+    private let service = GroupsService.shared
 
     @Binding var isPresented: Bool
 
@@ -213,7 +213,7 @@ struct JoinGroupSheet: View {
         errorMessage = nil
 
         Task {
-            let success = await service.joinGroup(code: code)
+            let success = await service.joinGroup(code: code, displayName: game.userName)
 
             DispatchQueue.main.async {
                 isJoining = false

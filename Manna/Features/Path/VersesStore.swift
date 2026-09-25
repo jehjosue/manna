@@ -23,9 +23,10 @@ struct SavedVerse: Codable, Hashable, Identifiable {
 final class VersesStore {
     static let shared = VersesStore()
 
-    private(set) var verses: [SavedVerse] = []
+    private(set) var verses: [SavedVerse] = [] { didSet { save() } }
 
     private let key = "manna.verses.v1"
+    @ObservationIgnored private var isLoading = false
 
     init() {
         load()
@@ -73,6 +74,7 @@ final class VersesStore {
     }
 
     private func save() {
+        guard !isLoading else { return }
         do {
             let data = try JSONEncoder().encode(verses)
             UserDefaults.standard.set(data, forKey: key)
@@ -82,6 +84,8 @@ final class VersesStore {
     }
 
     private func load() {
+        isLoading = true
+        defer { isLoading = false }
         guard let data = UserDefaults.standard.data(forKey: key) else { return }
         do {
             verses = try JSONDecoder().decode([SavedVerse].self, from: data)

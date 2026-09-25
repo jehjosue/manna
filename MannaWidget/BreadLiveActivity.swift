@@ -40,7 +40,7 @@ struct BreadLiveActivity: Widget {
                     VStack(alignment: .leading, spacing: 2) {
                         Text("Pão em risco")
                             .font(.system(size: 12, weight: .heavy, design: .rounded))
-                        Text("(context.state.breadDays) dias")
+                        Text("\(context.state.breadDays) dias")
                             .font(.system(size: 15, weight: .heavy, design: .rounded))
                             .foregroundStyle(Color(hex: 0xD98E3A))
                     }
@@ -68,7 +68,7 @@ struct BreadLiveActivity: Widget {
                 Image(systemName: "flame.fill")
                     .foregroundStyle(Color(hex: 0xD0643F))
             } compactTrailing: {
-                Text("(context.state.breadDays)")
+                Text("\(context.state.breadDays)")
                     .font(.system(size: 13, weight: .heavy, design: .rounded))
                     .foregroundStyle(Color(hex: 0xD98E3A))
             } minimal: {

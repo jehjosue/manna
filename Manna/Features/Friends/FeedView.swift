@@ -35,7 +35,7 @@ struct FeedView: View {
 }
 
 struct FeedEventCard: View {
-    @State var event: MannaFeedEvent
+    let event: MannaFeedEvent
     private let friends = FriendsService.shared
 
     var emojiByKind: String {

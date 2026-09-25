@@ -15,6 +15,7 @@ struct RadioPlayerView: View {
     @State private var correctAnswers = 0
     @State private var totalQuestions = 0
     @State private var showCelebration = false
+    @State private var celebrationResult: LessonResult?
 
     private var currentStep: RadioStep? {
         guard currentStepIndex < episode.steps.count else { return nil }
@@ -162,6 +163,15 @@ struct RadioPlayerView: View {
                 .background(Theme.cream)
             }
         }
+        .fullScreenCover(isPresented: $showCelebration) {
+            if let result = celebrationResult {
+                CelebrationFlowView(result: result) {
+                    showCelebration = false
+                    onClose()
+                }
+            }
+        }
+        .onDisappear { Narrator.stop() }
         .onAppear {
             // Falar primeira narração
             if let step = currentStep, step.kind == .narration {
@@ -197,7 +207,6 @@ struct RadioPlayerView: View {
             }
         } else {
             // Terminou o episódio
-            showCelebration = true
             finishEpisode()
         }
     }
@@ -210,12 +219,9 @@ struct RadioPlayerView: View {
             mistakes: max(0, totalQuestions - correctAnswers)
         )
 
-        let result = game.completeActivity(outcome, kind: .story, baseXP: min(40, correctAnswers * 10))
-
-        // Aguardar celebração
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            onClose()
-        }
+        Narrator.stop()
+        celebrationResult = game.completeActivity(outcome, kind: .story, baseXP: max(10, min(40, correctAnswers * 10)))
+        showCelebration = true
     }
 }
 

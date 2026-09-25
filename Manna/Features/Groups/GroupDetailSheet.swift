@@ -4,7 +4,7 @@ import UIKit
 /// Detalhe de um grupo: barra de progresso, membros, incentivos, ações.
 struct GroupDetailSheet: View {
     @Environment(GameState.self) private var game
-    @State private var service = GroupsService.shared
+    private let service = GroupsService.shared
 
     let group: MannaGroup
     @Binding var isPresented: Bool

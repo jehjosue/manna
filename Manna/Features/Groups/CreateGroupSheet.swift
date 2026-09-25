@@ -3,7 +3,7 @@ import SwiftUI
 /// Sheet para criar um novo grupo.
 struct CreateGroupSheet: View {
     @Environment(GameState.self) private var game
-    @State private var service = GroupsService.shared
+    private let service = GroupsService.shared
 
     @Binding var isPresented: Bool
 
@@ -209,7 +209,7 @@ struct CreateGroupSheet: View {
 
         isCreating = true
         Task {
-            let group = await service.createGroup(name: name, weeklyGoal: selectedGoal)
+            let group = await service.createGroup(name: name, weeklyGoal: selectedGoal, displayName: game.userName)
 
             DispatchQueue.main.async {
                 self.newGroup = group

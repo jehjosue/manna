@@ -6,6 +6,8 @@ struct StoriesListView: View {
     @Environment(GameState.self) private var game
     @Environment(ContentStore.self) private var content
     @State private var selectedStory: Story?
+    @State private var showCelebration = false
+    @State private var lastResult: LessonResult?
 
     var body: some View {
         ZStack {
@@ -67,12 +69,20 @@ struct StoriesListView: View {
                     story: story,
                     onFinish: { outcome in
                         let result = game.completeActivity(outcome, kind: .story, baseXP: 20)
+                        lastResult = result
                         selectedStory = nil
-                        // Aqui o outro agente vai adicionar a navegação para celebração
+                        showCelebration = true
                     },
                     onQuit: { selectedStory = nil }
                 )
             }
+        .fullScreenCover(isPresented: $showCelebration) {
+            if let result = lastResult {
+                CelebrationFlowView(result: result) {
+                    showCelebration = false
+                }
+            }
+        }
     }
 
     private func canAccessStory(_ index: Int) -> Bool {

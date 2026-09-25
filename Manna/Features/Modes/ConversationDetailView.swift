@@ -11,6 +11,7 @@ struct ConversationDetailView: View {
     @State private var showFeedback: String?
     @State private var correctCount = 0
     @State private var totalTurns = 0
+    @State private var wasAnswerCorrect = false
 
     private var currentTurn: ConversationTurn? {
         guard currentTurnIndex < conversation.turns.count else { return nil }
@@ -82,7 +83,8 @@ struct ConversationDetailView: View {
                                     ForEach(options, id: \.self) { option in
                                         Button {
                                             selectedAnswer = option
-                                            goNext()
+                                            showFeedback = "Ótimo!"
+                                            markAnswerCorrect()
                                         } label: {
                                             Text(option)
                                                 .font(Theme.font(14, .semibold))
@@ -158,6 +160,12 @@ struct ConversationDetailView: View {
     }
 
     private func goNext() {
+        // Contabilizar se a pergunta anterior foi respondida corretamente
+        if wasAnswerCorrect {
+            correctCount += 1
+            wasAnswerCorrect = false
+        }
+
         if currentTurnIndex < conversation.turns.count - 1 {
             showFeedback = nil
             selectedAnswer = nil
@@ -169,6 +177,11 @@ struct ConversationDetailView: View {
         } else {
             finishConversation()
         }
+    }
+
+    private func markAnswerCorrect() {
+        wasAnswerCorrect = true
+        totalTurns += 1
     }
 
     private func finishConversation() {

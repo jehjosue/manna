@@ -50,6 +50,6 @@ enum BreadLiveActivityController {
 
     private static func isAfter6PM() -> Bool {
         let hour = Calendar.current.component(.hour, from: Date())
-        return hour >= 18
+        return hour > 18
     }
 }

@@ -132,7 +132,6 @@ struct EditProfileView: View {
                                 .padding(12)
                                 .background(Theme.card)
                                 .cornerRadius(10)
-                                .lineLimit(3)
                         }
                         .padding(.horizontal, 20)
 

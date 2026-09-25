@@ -318,7 +318,7 @@ final class FriendsService: @unchecked Sendable {
         }
     }
 
-    /// Busca usuários por @username.
+    /// Busca usuários por @username (filtra bloqueados).
     func search(username: String) async -> [MannaPublicProfile] {
         guard !isPreview, !username.isEmpty else { return [] }
 
@@ -332,7 +332,9 @@ final class FriendsService: @unchecked Sendable {
             }
 
             return records.compactMap { record in
-                parseMannaProfile(record)
+                guard let profile = parseMannaProfile(record) else { return nil }
+                guard !blockedUsers.contains(profile.id) else { return nil }
+                return profile
             }
         } catch {
             debugPrint("[FriendsService] Erro ao buscar usuários: \(error)")
@@ -377,7 +379,7 @@ final class FriendsService: @unchecked Sendable {
         }
     }
 
-    /// Carrega usuários que sigo.
+    /// Carrega usuários que sigo (filtra bloqueados).
     func loadFollowing() async -> [MannaPublicProfile] {
         guard !isPreview, let myId = userRecordID?.recordName else { return [] }
 
@@ -393,6 +395,7 @@ final class FriendsService: @unchecked Sendable {
             var profiles: [MannaPublicProfile] = []
             for followRecord in followRecords {
                 if let followeeId = followRecord["followeeId"] as? String {
+                    guard !blockedUsers.contains(followeeId) else { continue }
                     if let profile = await loadProfile(userId: followeeId) {
                         profiles.append(profile)
                     }
@@ -406,7 +409,7 @@ final class FriendsService: @unchecked Sendable {
         }
     }
 
-    /// Carrega meus seguidores.
+    /// Carrega meus seguidores (filtra bloqueados).
     func loadFollowers() async -> [MannaPublicProfile] {
         guard !isPreview, let myId = userRecordID?.recordName else { return [] }
 
@@ -422,6 +425,7 @@ final class FriendsService: @unchecked Sendable {
             var profiles: [MannaPublicProfile] = []
             for followRecord in followRecords {
                 if let followerId = followRecord["followerId"] as? String {
+                    guard !blockedUsers.contains(followerId) else { continue }
                     if let profile = await loadProfile(userId: followerId) {
                         profiles.append(profile)
                     }

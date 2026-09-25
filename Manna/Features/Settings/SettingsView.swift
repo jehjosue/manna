@@ -253,12 +253,14 @@ struct SettingsView: View {
                                 .font(Theme.font(13, .regular))
 
                             Button {
-                                // Abrir paywall (implementado no tab Loja)
+                                showPaywall = true
                             } label: {
-                                Text("Assinar Manna Plus")
-                                    .font(Theme.font(14, .heavy))
+                                Text("CONHECER O MANNA PLUS")
+                                    .font(Theme.font(15, .heavy))
+                                    .frame(maxWidth: .infinity)
                             }
                             .buttonStyle(.chunky)
+                            .sheet(isPresented: $showPaywall) { PaywallView() }
                         }
 
                         Button {

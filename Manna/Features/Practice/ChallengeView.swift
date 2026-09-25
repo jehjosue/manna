@@ -5,12 +5,12 @@ struct ChallengeView: View {
     let pairs: [(left: String, right: String)]
     let onFinish: (Int) -> Void  // passa o número de pares acertados
 
-    @State private var timeRemaining: Int = {
+    @State private var baseDuration: Int = {
         let baseTime = 60
         let boost = BoostInventoryStore.shared.consumeTimerBoost() ? 15 : 0
         return baseTime + boost
     }()
-    @State private var baseDuration = 60
+    @State private var timeRemaining: Int = 0
     @State private var pairsMatched = 0
     @State private var leftSelected: Int?
     @State private var rightSelected: Int?
@@ -171,6 +171,7 @@ struct ChallengeView: View {
         let shuffled = pairs.shuffled()
         leftItems = shuffled.map(\.left)
         rightItems = shuffled.map(\.right).shuffled()
+        timeRemaining = baseDuration
     }
 
     private func startChallenge() {

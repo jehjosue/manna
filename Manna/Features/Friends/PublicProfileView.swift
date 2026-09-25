@@ -156,8 +156,7 @@ struct PublicProfileView: View {
             ReportSheet(reportedUser: profile)
         }
         .sheet(isPresented: $showStreakInvite) {
-            Text("Convidar para pão compartilhado")
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+            StreakInviteSheet(toUser: profile)
         }
     }
 }
@@ -246,6 +245,91 @@ struct NudgeSheet: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Cancelar") { dismiss() }
+                }
+            }
+        }
+    }
+}
+
+// MARK: - Streak Invite Sheet
+
+struct StreakInviteSheet: View {
+    let toUser: MannaPublicProfile
+    private let friends = FriendsService.shared
+    @Environment(\.dismiss) var dismiss
+    @State private var isInviting = false
+
+    var body: some View {
+        NavigationStack {
+            VStack(spacing: 16) {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("🍞 Pão Compartilhado")
+                        .font(Theme.font(18, .bold))
+                        .foregroundStyle(Theme.bread)
+
+                    Text("Estudem juntos por dias consecutivos e fortaleçam a comunidade!")
+                        .font(Theme.font(13, .regular))
+                        .foregroundStyle(Theme.inkMuted)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+                VStack(alignment: .leading, spacing: 12) {
+                    HStack(spacing: 8) {
+                        Image(systemName: "checkmark.circle.fill")
+                            .foregroundStyle(Theme.olive)
+                        Text("Convite enviado para \(toUser.displayName)")
+                            .font(Theme.font(13, .semibold))
+                            .foregroundStyle(Theme.olive)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(12)
+                    .background(Theme.oliveLight)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 10)
+                            .strokeBorder(Theme.olive, lineWidth: 1.5)
+                    )
+
+                    Text("Quando \(toUser.displayName) aceitar, você verá a missão na aba Amigos → Pão Compartilhado.")
+                        .font(Theme.font(12, .regular))
+                        .foregroundStyle(Theme.inkMuted)
+                }
+
+                Spacer()
+
+                Button(action: {
+                    Task {
+                        isInviting = true
+                        _ = await friends.inviteFriendStreak(toUserId: toUser.id)
+                        isInviting = false
+                        DispatchQueue.main.async {
+                            dismiss()
+                        }
+                        SoundFX.play(.reward)
+                        Haptics.success()
+                    }
+                }) {
+                    if isInviting {
+                        ProgressView()
+                            .progressViewStyle(.circular)
+                            .tint(.white)
+                    } else {
+                        Text("Enviar Convite")
+                    }
+                }
+                .buttonStyle(.chunky)
+                .disabled(isInviting)
+
+                Button(action: { dismiss() }) {
+                    Text("Cancelar")
+                }
+                .buttonStyle(.chunkyNight)
+            }
+            .padding(16)
+            .background(Theme.cream)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Fechar") { dismiss() }
                 }
             }
         }

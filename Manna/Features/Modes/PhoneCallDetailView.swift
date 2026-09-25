@@ -142,8 +142,8 @@ struct PhoneCallDetailView: View {
                     .padding(.vertical, 20)
                 }
 
-                // Botão continuar (se turno do bot ou feedback)
-                if feedback != nil || !(currentTurn?.isUserTurn ?? false) {
+                // Botão continuar
+                if feedback != nil || (currentTurn?.isUserTurn ?? false) == false {
                     VStack(spacing: 0) {
                         Divider()
                         Button(action: goNext) {

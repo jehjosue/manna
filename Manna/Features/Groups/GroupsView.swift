@@ -4,7 +4,7 @@ import SwiftUI
 /// Gerencia a jornada do usuário: vazio → criar/entrar → lista de grupos → detalhe do grupo.
 struct GroupsView: View {
     @Environment(GameState.self) private var game
-    @State private var service = GroupsService.shared
+    private let service = GroupsService.shared
 
     @State private var showCreateSheet = false
     @State private var showJoinSheet = false

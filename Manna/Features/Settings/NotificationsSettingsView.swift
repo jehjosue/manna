@@ -250,7 +250,7 @@ struct NotificationsSettingsView: View {
             .navigationBarTitleDisplayMode(.inline)
             .onAppear {
                 checkNotificationStatus()
-                // Carregar preferências salvas aqui se necessário
+                loadNotificationPreferences()
             }
         }
     }
@@ -259,6 +259,25 @@ struct NotificationsSettingsView: View {
         UNUserNotificationCenter.current().getNotificationSettings { settings in
             DispatchQueue.main.async {
                 notificationStatus = settings.authorizationStatus
+            }
+        }
+    }
+
+    private func loadNotificationPreferences() {
+        UNUserNotificationCenter.current().getPendingNotificationRequests { requests in
+            DispatchQueue.main.async {
+                dailyReminderEnabled = requests.contains { $0.identifier == "manna.daily.reminder" }
+                breadRiskEnabled = requests.contains { $0.identifier == "manna.bread.risk" }
+                oilFullEnabled = requests.contains { $0.identifier == "manna.oil.warning" }
+                weeklyReviewEnabled = requests.contains { $0.identifier == "manna.weekly.review" }
+
+                // Extrair hora do lembrete diário se estiver agendado
+                if let dailyRequest = requests.first(where: { $0.identifier == "manna.daily.reminder" }) {
+                    if let trigger = dailyRequest.trigger as? UNCalendarNotificationTrigger,
+                       let hour = trigger.dateComponents.hour {
+                        dailyReminderHour = hour
+                    }
+                }
             }
         }
     }

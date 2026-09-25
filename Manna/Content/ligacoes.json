@@ -55,7 +55,7 @@
         "speaker": "Béé",
         "text": "Ótimo! Essas são histórias de pessoas reais que confiaram em Deus. Você já teve um momento onde precisou de coragem?",
         "isUserTurn": true,
-        "keywordMatches": ["sim", "não", "sim já", "nuca", "nunca"]
+        "keywordMatches": ["sim", "não", "sim já", "nunca"]
       },
       {
         "speaker": "Béé",

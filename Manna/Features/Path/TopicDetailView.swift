@@ -12,6 +12,8 @@ struct TopicDetailView: View {
     @State private var syntethicLesson: Lesson?
     @State private var showSkipTest = false
     @State private var readingVerse: KeyVerse?
+    @State private var showCelebration = false
+    @State private var lastResult: LessonResult?
 
     var body: some View {
         ZStack {
@@ -97,11 +99,19 @@ struct TopicDetailView: View {
                     lesson: lesson,
                     onFinish: { outcome in
                         let result = game.completeLesson(outcome)
+                        lastResult = result
                         showLessonView = false
-                        // Aqui poderíamos mostrar celebração, mas para ficar simples no detail, só fechar
+                        showCelebration = true
                     },
                     onQuit: { showLessonView = false }
                 )
+            }
+        }
+        .fullScreenCover(isPresented: $showCelebration) {
+            if let result = lastResult {
+                CelebrationFlowView(result: result) {
+                    showCelebration = false
+                }
             }
         }
         .fullScreenCover(isPresented: $showSkipTest) {

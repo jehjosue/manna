@@ -181,7 +181,7 @@ final class GroupsService: @unchecked Sendable {
     }
 
     /// Cria um novo grupo. Retorna o grupo criado com seu código.
-    func createGroup(name: String, weeklyGoal: Int) async -> MannaGroup? {
+    func createGroup(name: String, weeklyGoal: Int, displayName: String = "") async -> MannaGroup? {
         guard !isPreview, let userId = userRecordID else { return nil }
 
         let code = generateCode()
@@ -206,7 +206,7 @@ final class GroupsService: @unchecked Sendable {
             let memberRecord = CKRecord(recordType: "MannaMember", recordID: CKRecord.ID(recordName: "\(code)-\(userId.recordName)"))
             memberRecord["groupCode"] = code
             memberRecord["memberId"] = userId.recordName
-            memberRecord["displayName"] = ""  // será sincronizado depois via sync(game:)
+            memberRecord["displayName"] = displayName
             memberRecord["weekKey"] = gameWeekKey()
             memberRecord["weeklyXP"] = 0
             memberRecord["bread"] = 0
@@ -228,7 +228,7 @@ final class GroupsService: @unchecked Sendable {
     }
 
     /// Entra em um grupo usando seu código (6 caracteres).
-    func joinGroup(code: String) async -> Bool {
+    func joinGroup(code: String, displayName: String = "") async -> Bool {
         guard !isPreview, let userId = userRecordID else { return false }
 
         let upperCode = code.uppercased()
@@ -252,7 +252,7 @@ final class GroupsService: @unchecked Sendable {
             let memberRecord = CKRecord(recordType: "MannaMember", recordID: CKRecord.ID(recordName: "\(upperCode)-\(userId.recordName)"))
             memberRecord["groupCode"] = upperCode
             memberRecord["memberId"] = userId.recordName
-            memberRecord["displayName"] = ""
+            memberRecord["displayName"] = displayName
             memberRecord["weekKey"] = gameWeekKey()
             memberRecord["weeklyXP"] = 0
             memberRecord["bread"] = 0

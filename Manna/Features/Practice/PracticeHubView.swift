@@ -11,6 +11,7 @@ struct PracticeHubView: View {
     @State private var challengePairs: [(left: String, right: String)] = []
     @State private var showCelebration = false
     @State private var lastOutcome: LessonOutcome?
+    @State private var lastResult: LessonResult?
 
     enum PracticeCard {
         case reviewErrors, verseTraining, challenge, stories
@@ -146,7 +147,9 @@ struct PracticeHubView: View {
                     lesson: lesson,
                     mode: .practice,
                     onFinish: { outcome in
-                        lastOutcome = outcome
+                        let kind: ActivityKind = (outcome.lessonId == "challenge") ? .challenge : .practice
+                        let result = game.completeActivity(outcome, kind: kind, baseXP: min(30, outcome.correctCount))
+                        lastResult = result
                         showLessonView = false
                         showCelebration = true
                     },
@@ -162,15 +165,14 @@ struct PracticeHubView: View {
                     totalCount: challengePairs.count,
                     mistakes: challengePairs.count - score
                 )
-                lastOutcome = outcome
+                let result = game.completeActivity(outcome, kind: .challenge, baseXP: min(30, outcome.correctCount))
+                lastResult = result
                 showChallenge = false
                 showCelebration = true
             }
         }
         .fullScreenCover(isPresented: $showCelebration) {
-            if let outcome = lastOutcome {
-                let kind: ActivityKind = (outcome.lessonId == "challenge") ? .challenge : .practice
-                let result = game.completeActivity(outcome, kind: kind, baseXP: min(30, outcome.correctCount))
+            if let result = lastResult {
                 CelebrationFlowView(result: result) {
                     showCelebration = false
                     selectedCard = nil

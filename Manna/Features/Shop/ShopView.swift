@@ -50,12 +50,14 @@ struct ShopView: View {
 
                                 VStack(spacing: 12) {
                                     // Encher lamparina
-                                    PowerCardView(
-                                        power: .refillOil,
-                                        game: game,
-                                        isDisabled: game.oil == GameState.maxOil || game.isPlus,
-                                        onTap: { showPowerConfirmation = true; confirmationPower = .refillOil }
-                                    )
+                                    if !game.isPlus {
+                                        PowerCardView(
+                                            power: .refillOil,
+                                            game: game,
+                                            isDisabled: game.oil == GameState.maxOil,
+                                            onTap: { showPowerConfirmation = true; confirmationPower = .refillOil }
+                                        )
+                                    }
 
                                     // Dia de descanso
                                     PowerCardView(

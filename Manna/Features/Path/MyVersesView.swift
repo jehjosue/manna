@@ -6,7 +6,7 @@ import SwiftUI
 struct MyVersesView: View {
     @Environment(GameState.self) private var game
     @Environment(ContentStore.self) private var content
-    @State private var versesStore = VersesStore.shared
+    private let versesStore = VersesStore.shared
     @State private var sortBy: VersesStore.SortOption = .recent
     @State private var searchText = ""
     @State private var showLessonView = false

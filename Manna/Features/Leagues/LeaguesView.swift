@@ -137,7 +137,7 @@ struct PromotionProgressView: View {
     var body: some View {
         let current = game.weeklyXP
         let target = leagueStore.currentDivision.promotionThreshold
-        let progress = Double(current) / Double(target)
+        let progress = target > 0 ? Double(current) / Double(target) : 0
 
         VStack(spacing: 8) {
             HStack {
