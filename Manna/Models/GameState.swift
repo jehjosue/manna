@@ -546,8 +546,7 @@ final class GameState {
         }
     }
 
-    #if DEBUG
-    /// Apaga todo o progresso (útil em testes).
+    /// Apaga todo o progresso (Configurações → Apagar meus dados).
     func resetAll() {
         UserDefaults.standard.removeObject(forKey: Self.storageKey)
         isLoading = true
@@ -559,7 +558,6 @@ final class GameState {
         isLoading = false
         save()
     }
-    #endif
 }
 
 /// Dados mínimos compartilhados com o widget da tela inicial.

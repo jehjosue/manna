@@ -157,6 +157,7 @@ struct DeleteDataView: View {
             isDeleting = false
 
             // Resetar GameState e voltar ao onboarding
+            CloudProgressSync.shared.eraseCloud()
             game.resetAll()
             dismiss()
         }

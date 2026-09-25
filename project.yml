@@ -16,6 +16,7 @@ targets:
     platform: iOS
     sources:
       - path: Manna
+      - path: Shared
     dependencies:
       - target: MannaWidget
         embed: true
@@ -53,6 +54,7 @@ targets:
     platform: iOS
     sources:
       - path: MannaWidget
+      - path: Shared
     entitlements:
       path: MannaWidget/MannaWidget.entitlements
       properties:

@@ -5,5 +5,6 @@ import SwiftUI
 struct MannaWidgetBundle: WidgetBundle {
     var body: some Widget {
         MannaWidget()
+        BreadLiveActivity()
     }
 }

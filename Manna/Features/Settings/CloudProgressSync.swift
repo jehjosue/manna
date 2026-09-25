@@ -74,6 +74,15 @@ final class CloudProgressSync {
         hasPendingChanges = false
     }
 
+    /// Apaga a cópia do iCloud (usado em "Apagar meus dados").
+    func eraseCloud() {
+        for key in kvStore.dictionaryRepresentation.keys where key.hasPrefix(Self.prefix) || key.hasPrefix("cloud.") {
+            kvStore.removeObject(forKey: key)
+        }
+        kvStore.synchronize()
+        lastSyncDate = nil
+    }
+
     func markPendingChanges() {
         hasPendingChanges = true
     }

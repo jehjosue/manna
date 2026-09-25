@@ -10,11 +10,12 @@ final class SubscriptionStore {
     // Produtos
     var monthlyProduct: Product?
     var yearlyProduct: Product?
+    var familyYearlyProduct: Product?
 
     var isLoading = false
     var isPlus = false
 
-    private let productIDs = ["app.manna.plus.monthly", "app.manna.plus.yearly"]
+    private let productIDs = ["app.manna.plus.monthly", "app.manna.plus.yearly", "app.manna.plus.family.yearly"]
     private var updateTask: Task<Void, Never>?
 
     init() {
@@ -44,6 +45,8 @@ final class SubscriptionStore {
                     monthlyProduct = product
                 } else if product.id == "app.manna.plus.yearly" {
                     yearlyProduct = product
+                } else if product.id == "app.manna.plus.family.yearly" {
+                    familyYearlyProduct = product
                 }
             }
         } catch {
@@ -102,7 +105,7 @@ final class SubscriptionStore {
 
         for await result in Transaction.currentEntitlements {
             if let transaction = try? result.payloadValue {
-                if transaction.productID == "app.manna.plus.monthly" || transaction.productID == "app.manna.plus.yearly" {
+                if transaction.productID == "app.manna.plus.monthly" || transaction.productID == "app.manna.plus.yearly" || transaction.productID == "app.manna.plus.family.yearly" {
                     hasActiveSubscription = true
                     break
                 }

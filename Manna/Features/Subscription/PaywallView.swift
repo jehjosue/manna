@@ -1,7 +1,7 @@
 import SwiftUI
 import StoreKit
 
-/// Paywall com 2 planos: mensal e anual (anual com desconto).
+/// Paywall com 3 planos: mensal, anual e família.
 struct PaywallView: View {
     @Environment(\.dismiss) private var dismiss
     @State private var selectedPlan: SubscriptionPlan = .yearly
@@ -74,6 +74,12 @@ struct PaywallView: View {
                                 plan: .yearly,
                                 isSelected: selectedPlan == .yearly,
                                 onTap: { selectedPlan = .yearly }
+                            )
+
+                            PlanCardView(
+                                plan: .family,
+                                isSelected: selectedPlan == .family,
+                                onTap: { selectedPlan = .family }
                             )
                         }
                         .padding(.horizontal, 16)
@@ -155,7 +161,14 @@ struct PaywallView: View {
         isLoading = true
         defer { isLoading = false }
 
-        let product = selectedPlan == .monthly ? store.monthlyProduct : store.yearlyProduct
+        let product: Product? = switch selectedPlan {
+        case .monthly:
+            store.monthlyProduct
+        case .yearly:
+            store.yearlyProduct
+        case .family:
+            store.familyYearlyProduct
+        }
         guard let product else { return }
 
         let success = await store.purchase(product)
@@ -170,7 +183,7 @@ struct PaywallView: View {
 }
 
 enum SubscriptionPlan {
-    case monthly, yearly
+    case monthly, yearly, family
 }
 
 struct BenefitRow: View {
@@ -256,18 +269,35 @@ struct PlanCardView: View {
     }
 
     private var planTitle: String {
-        plan == .monthly ? "Mensal" : "Anual"
+        switch plan {
+        case .monthly:
+            "Mensal"
+        case .yearly:
+            "Anual"
+        case .family:
+            "Família"
+        }
     }
 
     private var planSubtitle: String {
-        plan == .monthly ? "Renova todo mês" : "Melhor valor"
+        switch plan {
+        case .monthly:
+            "Renova todo mês"
+        case .yearly:
+            "Melhor valor"
+        case .family:
+            "Até 6 pessoas"
+        }
     }
 
     private var planPrice: String {
-        if plan == .monthly {
-            return store.monthlyProduct?.displayPrice ?? "R$ 19,90"
-        } else {
-            return store.yearlyProduct?.displayPrice ?? "R$ 119,90"
+        switch plan {
+        case .monthly:
+            store.monthlyProduct?.displayPrice ?? "R$ 19,90"
+        case .yearly:
+            store.yearlyProduct?.displayPrice ?? "R$ 119,90"
+        case .family:
+            store.familyYearlyProduct?.displayPrice ?? "R$ 199,90"
         }
     }
 

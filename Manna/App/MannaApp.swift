@@ -45,6 +45,7 @@ struct RootView: View {
             Haptics.isEnabled = game.hapticsEnabled
             _ = GameCenterService.shared   // inicia o login do Game Center
             subscriptions.sync(game: game)
+            BreadLiveActivityController.update(game: game)
             syncOnline()
         }
         .onChange(of: game.soundEnabled) { _, on in SoundFX.isEnabled = on }
@@ -53,14 +54,19 @@ struct RootView: View {
         .onChange(of: game.bread) { _, days in
             Task { await game.publishBreadMilestoneEvent(days: days) }
         }
+        .onChange(of: game.studiedDays) { _, _ in
+            BreadLiveActivityController.update(game: game)
+        }
         .onChange(of: scenePhase) { _, phase in
             switch phase {
             case .active:
                 game.refreshForToday()
+                BreadLiveActivityController.update(game: game)
                 syncOnline()
             case .background:
                 WidgetBridge.reload()
                 CloudProgressSync.shared.syncToCloud(gameState: game)
+                BreadLiveActivityController.update(game: game)
                 syncOnline()
             default:
                 break
