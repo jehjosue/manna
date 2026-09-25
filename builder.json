@@ -1,0 +1,20 @@
+{
+  "project": "manna",
+  "platform": "ios",
+  "github": {
+    "owner": "jehjosue",
+    "repo": "manna"
+  },
+  "provider": "github",
+  "codemagic": {},
+  "bitrise": {},
+  "ios": {
+    "scheme": "Manna"
+  },
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {},
+  "kmp": {},
+  "mobai": {}
+}
