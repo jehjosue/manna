@@ -73,7 +73,6 @@ struct StoriesListView: View {
                     onQuit: { selectedStory = nil }
                 )
             }
-        }
     }
 
     private func canAccessStory(_ index: Int) -> Bool {
