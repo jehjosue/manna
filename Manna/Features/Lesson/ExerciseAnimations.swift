@@ -178,7 +178,7 @@ struct ParticleBurst: View {
                 Image(systemName: "star.fill")
                     .font(.system(size: 12))
                     .foregroundStyle(Theme.bread)
-                    .offset(particle.offset)
+                    .offset(x: particle.offset.x, y: particle.offset.y)
                     .opacity(particle.opacity)
             }
         }
