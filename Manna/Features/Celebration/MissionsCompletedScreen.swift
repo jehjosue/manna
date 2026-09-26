@@ -3,18 +3,22 @@ import SwiftUI
 /// Tela 4: Missões concluídas com recompensas.
 struct MissionsCompletedScreen: View {
     let result: LessonResult
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         VStack(spacing: 24) {
-            SheepView(mood: .happy, size: 100)
+            CharacterView(character: .juda, mood: .cheering, size: 100)
+                .characterReaction(.cheering)
+                .transition(.scale.combined(with: .opacity))
 
             let missionCount = result.completedMissions.count
             Text(missionCount == 1 ? "+\(missionCount) missão concluída!" : "+\(missionCount) missões concluídas!")
                 .font(Theme.font(22, .heavy))
                 .foregroundStyle(Theme.ink)
+                .transition(.opacity)
 
             VStack(spacing: 12) {
-                ForEach(result.completedMissions) { mission in
+                ForEach(Array(result.completedMissions.enumerated()), id: \.element.id) { index, mission in
                     HStack(spacing: 12) {
                         VStack(alignment: .leading, spacing: 4) {
                             Text(mission.title)
@@ -34,10 +38,12 @@ struct MissionsCompletedScreen: View {
                         Image(systemName: "checkmark.circle.fill")
                             .font(.system(size: 24))
                             .foregroundStyle(Theme.olive)
+                            .scaleEffect(1.0)
                     }
                     .padding(12)
                     .background(Theme.oliveLight)
                     .cornerRadius(12)
+                    .transition(.scale.combined(with: .opacity))
                 }
             }
 

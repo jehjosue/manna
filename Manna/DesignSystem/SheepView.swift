@@ -14,6 +14,7 @@ enum SheepMood: String, CaseIterable {
 struct SheepView: View {
     var mood: SheepMood = .happy
     var size: CGFloat = 120
+    var isTalking: Bool = false
 
     @State private var isAnimating = false
 
@@ -138,70 +139,81 @@ struct SheepView: View {
 
     @ViewBuilder
     private var mouthView: some View {
-        switch mood {
-        case .happy:
-            // Sorriso simples
-            Capsule()
-                .stroke(Color(hex: 0x1A1A1A), lineWidth: size * 0.015)
-                .frame(width: size * 0.15, height: size * 0.08)
-                .offset(y: size * 0.05)
+        TimelineView(.animation) { timeline in
+            let mouthOpenAmount = BlinkClock.mouthOpen(at: timeline.date, talking: isTalking)
 
-        case .cheering:
-            // Boca aberta em emoção (pulinho animado)
-            VStack(spacing: 0) {
-                Capsule()
-                    .fill(Color(hex: 0x1A1A1A))
-                    .frame(width: size * 0.12, height: size * 0.04)
-                    .offset(y: size * 0.03)
+            switch mood {
+            case .happy:
+                // Sorriso simples (ou boca aberta se falando)
+                if isTalking && mouthOpenAmount > 0.3 {
+                    Ellipse()
+                        .fill(Color(hex: 0x1A1A1A).opacity(0.6))
+                        .frame(width: size * 0.12, height: size * 0.08 * mouthOpenAmount)
+                        .offset(y: size * 0.05)
+                } else {
+                    Capsule()
+                        .stroke(Color(hex: 0x1A1A1A), lineWidth: size * 0.015)
+                        .frame(width: size * 0.15, height: size * 0.08)
+                        .offset(y: size * 0.05)
+                }
 
-                Text("O")
-                    .font(Theme.font(size * 0.12, .heavy))
-                    .foregroundStyle(Color(hex: 0x1A1A1A))
-                    .offset(y: size * 0.05)
-            }
-            // Pulinho
-            .offset(y: isAnimating ? -size * 0.04 : 0)
-            .animation(.easeInOut(duration: 0.6).repeatForever(autoreverses: true), value: isAnimating)
+            case .cheering:
+                // Boca aberta em emoção (pulinho animado)
+                VStack(spacing: 0) {
+                    Capsule()
+                        .fill(Color(hex: 0x1A1A1A))
+                        .frame(width: size * 0.12, height: size * 0.04)
+                        .offset(y: size * 0.03)
 
-        case .sad:
-            // Sobrancelhas caídas e boca triste
-            Capsule()
-                .stroke(Color(hex: 0x1A1A1A), lineWidth: size * 0.015)
-                .frame(width: size * 0.15, height: size * 0.06)
-                .rotationEffect(.degrees(20))
-                .offset(y: size * 0.08)
+                    Text("O")
+                        .font(Theme.font(size * 0.12, .heavy))
+                        .foregroundStyle(Color(hex: 0x1A1A1A))
+                        .offset(y: size * 0.05)
+                }
+                // Pulinho
+                .offset(y: isAnimating ? -size * 0.04 : 0)
+                .animation(.easeInOut(duration: 0.6).repeatForever(autoreverses: true), value: isAnimating)
 
-        case .thinking:
-            // Olhar de lado e "?" pequeno
-            HStack(spacing: size * 0.05) {
-                Text("?")
-                    .font(Theme.font(size * 0.08, .heavy))
-                    .foregroundStyle(Color(hex: 0x8C8170))
-                    .offset(y: -size * 0.02)
-            }
-            .offset(y: size * 0.02)
-
-        case .sleepy:
-            // Olhos fechados em arco e "z" flutuando
-            ZStack {
-                // Arcos de olhos fechados (subscrito das pupils anteriores)
+            case .sad:
+                // Sobrancelhas caídas e boca triste
                 Capsule()
                     .stroke(Color(hex: 0x1A1A1A), lineWidth: size * 0.015)
-                    .frame(width: size * 0.08, height: size * 0.05)
-                    .offset(x: -size * 0.11, y: -size * 0.1)
+                    .frame(width: size * 0.15, height: size * 0.06)
+                    .rotationEffect(.degrees(20))
+                    .offset(y: size * 0.08)
 
-                Capsule()
-                    .stroke(Color(hex: 0x1A1A1A), lineWidth: size * 0.015)
-                    .frame(width: size * 0.08, height: size * 0.05)
-                    .offset(x: size * 0.11, y: -size * 0.1)
+            case .thinking:
+                // Olhar de lado e "?" pequeno
+                HStack(spacing: size * 0.05) {
+                    Text("?")
+                        .font(Theme.font(size * 0.08, .heavy))
+                        .foregroundStyle(Color(hex: 0x8C8170))
+                        .offset(y: -size * 0.02)
+                }
+                .offset(y: size * 0.02)
 
-                // "z" flutuante
-                Text("z")
-                    .font(Theme.font(size * 0.08, .semibold))
-                    .foregroundStyle(Theme.inkMuted)
-                    .offset(x: size * 0.15, y: -size * 0.18)
-                    .offset(y: isAnimating ? -size * 0.05 : 0)
-                    .animation(.easeInOut(duration: 1.5).repeatForever(autoreverses: true), value: isAnimating)
+            case .sleepy:
+                // Olhos fechados em arco e "z" flutuando
+                ZStack {
+                    // Arcos de olhos fechados (subscrito das pupils anteriores)
+                    Capsule()
+                        .stroke(Color(hex: 0x1A1A1A), lineWidth: size * 0.015)
+                        .frame(width: size * 0.08, height: size * 0.05)
+                        .offset(x: -size * 0.11, y: -size * 0.1)
+
+                    Capsule()
+                        .stroke(Color(hex: 0x1A1A1A), lineWidth: size * 0.015)
+                        .frame(width: size * 0.08, height: size * 0.05)
+                        .offset(x: size * 0.11, y: -size * 0.1)
+
+                    // "z" flutuante
+                    Text("z")
+                        .font(Theme.font(size * 0.08, .semibold))
+                        .foregroundStyle(Theme.inkMuted)
+                        .offset(x: size * 0.15, y: -size * 0.18)
+                        .offset(y: isAnimating ? -size * 0.05 : 0)
+                        .animation(.easeInOut(duration: 1.5).repeatForever(autoreverses: true), value: isAnimating)
+                }
             }
         }
     }

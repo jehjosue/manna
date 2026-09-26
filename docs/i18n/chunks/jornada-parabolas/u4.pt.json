@@ -1,0 +1,624 @@
+{
+  "id": "parabolas-u4",
+  "title": "Unidade 4",
+  "subtitle": "Vigilância e o Fim",
+  "guide": {
+    "summary": "Jesus advertiu seus discípulos a permanecerem vigilantes e preparados para seu retorno. Através de parábolas, ele ensinou que o Reino será completado no fim dos tempos, que há separação final entre justos e injustos, e que a fidelidade diante da incerteza do tempo é virtude suprema.",
+    "keyVerses": [
+      {
+        "reference": "Mateus 25:1-13",
+        "text": "Então o reino dos céus será semelhante a dez virgens que, tomando as suas lâmpadas, saíram ao encontro do noivo. Cinco delas eram insensatas e cinco prudentes."
+      },
+      {
+        "reference": "Mateus 13:24-30",
+        "text": "O reino dos céus é semelhante a um homem que semeou boa semente no seu campo; mas, enquanto os homens dormiam, veio o inimigo, semeou joio entre o trigo, e se foi."
+      },
+      {
+        "reference": "Mateus 13:47-50",
+        "text": "O reino dos céus é também semelhante a uma rede lançada ao mar, que apanha toda sorte de peixes; estando cheia, os pescadores a puxam para a praia e, sentando-se, escolhem os bons para os cestos, mas lançam fora os ruins."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "parabolas-u4-l1",
+      "title": "As Dez Virgens",
+      "icon": "tent.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Quantas virgens eram prudentes?",
+          "text": "Das dez virgens, ___ eram prudentes.",
+          "options": [
+            "cinco",
+            "dez",
+            "três",
+            "sete"
+          ],
+          "answer": "cinco",
+          "reference": "Mateus 25:2"
+        },
+        {
+          "id": "parabolas-u4-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "As virgens prudentes levaram ___ em seus vasos.",
+          "answer": "óleo",
+          "options": [
+            "óleo",
+            "água",
+            "vinho",
+            "perfume"
+          ],
+          "reference": "Mateus 25:4"
+        },
+        {
+          "id": "parabolas-u4-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Advertência às virgens insensatas",
+          "tokens": [
+            "Não vos conheço",
+            "velai pois",
+            "não dormais"
+          ],
+          "distractors": [
+            "descansai",
+            "durmi",
+            "esperai",
+            "repousal"
+          ],
+          "reference": "Mateus 25:12-13"
+        },
+        {
+          "id": "parabolas-u4-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem os eventos",
+          "text": "Sequência da parábola das virgens.",
+          "tokens": [
+            "Dez virgens esperam",
+            "Noivo demora",
+            "Despertam à noite",
+            "Prudentes entram, insensatas ficam"
+          ],
+          "reference": "Mateus 25:1-12"
+        },
+        {
+          "id": "parabolas-u4-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe as características",
+          "pairs": [
+            {
+              "left": "Virgens prudentes",
+              "right": "Óleo preparado"
+            },
+            {
+              "left": "Virgens insensatas",
+              "right": "Sem preparação"
+            },
+            {
+              "left": "Noivo",
+              "right": "Jesus"
+            },
+            {
+              "left": "Bodas",
+              "right": "Reino consumado"
+            }
+          ],
+          "reference": "Mateus 25:1-13"
+        },
+        {
+          "id": "parabolas-u4-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "As virgens insensatas pediram óleo emprestado das prudentes.",
+          "isTrue": true,
+          "reference": "Mateus 25:8-9",
+          "explanation": "As insensatas pediram óleo, mas as prudentes responderam que não havia o suficiente para todas."
+        },
+        {
+          "id": "parabolas-u4-l1-e7",
+          "kind": "listen",
+          "prompt": "O que o noivo disse?",
+          "text": "Ouça: O noivo disse não conhecer as virgens insensatas.",
+          "options": [
+            "Não as conhecia",
+            "As recebeu",
+            "As perdoou",
+            "As abençoou"
+          ],
+          "answer": "Não as conhecia",
+          "reference": "Mateus 25:12"
+        },
+        {
+          "id": "parabolas-u4-l1-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Vigiai, pois não sabeis em que dia vem o noivo.",
+          "reference": "Mateus 25:13"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u4-l2",
+      "title": "O Grande Banquete",
+      "icon": "scroll.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Quem foi convidado ao banquete primeiro?",
+          "text": "O ___ convidou os convivas para o grande banquete.",
+          "options": [
+            "rei",
+            "servo",
+            "grande homem",
+            "senhor"
+          ],
+          "answer": "rei",
+          "reference": "Mateus 22:2"
+        },
+        {
+          "id": "parabolas-u4-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Os convidados se ___ e foram seus caminhos.",
+          "answer": "desculparam",
+          "options": [
+            "desculparam",
+            "recusaram",
+            "afastaram",
+            "afastaram"
+          ],
+          "reference": "Mateus 22:5"
+        },
+        {
+          "id": "parabolas-u4-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Chamada do rei aos pobres",
+          "tokens": [
+            "Vou chamar",
+            "os pobres",
+            "os aleijados"
+          ],
+          "distractors": [
+            "os ricos",
+            "os saudáveis",
+            "os instruídos",
+            "os nobres"
+          ],
+          "reference": "Mateus 22:8-9"
+        },
+        {
+          "id": "parabolas-u4-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem os convites",
+          "text": "Sequência do grande banquete.",
+          "tokens": [
+            "Rei convida notáveis",
+            "Todos se recusam",
+            "Convida pobres",
+            "Casa fica cheia"
+          ],
+          "reference": "Mateus 22:1-14"
+        },
+        {
+          "id": "parabolas-u4-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe as reações",
+          "pairs": [
+            {
+              "left": "Primeiros convidados",
+              "right": "Recusam"
+            },
+            {
+              "left": "Pobres e aleijados",
+              "right": "Aceitam"
+            },
+            {
+              "left": "Casa cheia",
+              "right": "Cumprimento"
+            },
+            {
+              "left": "Banquete",
+              "right": "Reino oferecido"
+            }
+          ],
+          "reference": "Mateus 22:1-14"
+        },
+        {
+          "id": "parabolas-u4-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Todas as pessoas convidadas ao banquete foram bem-vindas.",
+          "isTrue": false,
+          "reference": "Mateus 22:11-14",
+          "explanation": "Um homem sem traje de bodas foi expulso, pois não se preparou adequadamente para o reino."
+        },
+        {
+          "id": "parabolas-u4-l2-e7",
+          "kind": "listen",
+          "prompt": "Quem foi convidado depois?",
+          "text": "Os pobres e necessitados foram convidados.",
+          "options": [
+            "Pobres e necessitados",
+            "Ricos e poderosos",
+            "Escribas e fariseus",
+            "Sacerdotes e levitas"
+          ],
+          "answer": "Pobres e necessitados",
+          "reference": "Mateus 22:9"
+        },
+        {
+          "id": "parabolas-u4-l2-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Muitos são chamados, mas poucos escolhidos.",
+          "reference": "Mateus 22:14"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u4-l3",
+      "title": "O Joio e o Trigo",
+      "icon": "key.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Quem semeou o joio?",
+          "text": "O ___ veio e semeou joio entre o trigo.",
+          "options": [
+            "inimigo",
+            "servo",
+            "diabo",
+            "adversário"
+          ],
+          "answer": "inimigo",
+          "reference": "Mateus 13:25"
+        },
+        {
+          "id": "parabolas-u4-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "O ___ explicou aos discípulos o significado da parábola.",
+          "answer": "Jesus",
+          "options": [
+            "Jesus",
+            "Senhor",
+            "Mestre",
+            "Profeta"
+          ],
+          "reference": "Mateus 13:37-43"
+        },
+        {
+          "id": "parabolas-u4-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Instrução sobre colheita",
+          "tokens": [
+            "Deixai crescer",
+            "ambos juntos",
+            "até a colheita"
+          ],
+          "distractors": [
+            "para sempre",
+            "sem separar",
+            "misturados",
+            "até o fim"
+          ],
+          "reference": "Mateus 13:30"
+        },
+        {
+          "id": "parabolas-u4-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem os acontecimentos",
+          "text": "Sequência do joio e trigo.",
+          "tokens": [
+            "Semeador planta trigo",
+            "Inimigo semeou joio",
+            "Ambos crescem juntos",
+            "Na colheita, são separados"
+          ],
+          "reference": "Mateus 13:24-30"
+        },
+        {
+          "id": "parabolas-u4-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os significados",
+          "pairs": [
+            {
+              "left": "Trigo",
+              "right": "Filhos do Reino"
+            },
+            {
+              "left": "Joio",
+              "right": "Filhos do maligno"
+            },
+            {
+              "left": "Colheita",
+              "right": "Fim do mundo"
+            },
+            {
+              "left": "Ceifadores",
+              "right": "Anjos"
+            }
+          ],
+          "reference": "Mateus 13:37-42"
+        },
+        {
+          "id": "parabolas-u4-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Jesus mandou arrancar o joio imediatamente após semear.",
+          "isTrue": false,
+          "reference": "Mateus 13:28-30",
+          "explanation": "Jesus disse para deixar crescer juntos até a colheita, para não arrancar o trigo por engano."
+        },
+        {
+          "id": "parabolas-u4-l3-e7",
+          "kind": "listen",
+          "prompt": "Quando o joio será separado?",
+          "text": "Ouça: O joio será separado na colheita.",
+          "options": [
+            "Na colheita",
+            "Imediatamente",
+            "Depois de dias",
+            "Nunca"
+          ],
+          "answer": "Na colheita",
+          "reference": "Mateus 13:30"
+        },
+        {
+          "id": "parabolas-u4-l3-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "O trigo reunido em pé, o joio em feixes para queimar.",
+          "reference": "Mateus 13:30"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u4-l4",
+      "title": "A Rede e o Julgamento",
+      "icon": "lightbulb.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "O que apanha a rede?",
+          "text": "A rede apanha ___ espécie de peixe.",
+          "options": [
+            "toda",
+            "boa",
+            "grande",
+            "pequena"
+          ],
+          "answer": "toda",
+          "reference": "Mateus 13:47"
+        },
+        {
+          "id": "parabolas-u4-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Os pescadores escolhem os ___ para os cestos.",
+          "answer": "bons",
+          "options": [
+            "bons",
+            "peixes",
+            "grandes",
+            "pequenos"
+          ],
+          "reference": "Mateus 13:48"
+        },
+        {
+          "id": "parabolas-u4-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "O que acontece aos ruins",
+          "tokens": [
+            "Os ruins",
+            "lançam fora",
+            "completamente"
+          ],
+          "distractors": [
+            "guardam",
+            "vendem",
+            "comem",
+            "devolvem"
+          ],
+          "reference": "Mateus 13:48"
+        },
+        {
+          "id": "parabolas-u4-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem a pesca",
+          "text": "Sequência da rede de pesca.",
+          "tokens": [
+            "Rede lançada ao mar",
+            "Apanha toda espécie",
+            "Rede fica cheia",
+            "Separam bons de ruins"
+          ],
+          "reference": "Mateus 13:47-49"
+        },
+        {
+          "id": "parabolas-u4-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os elementos",
+          "pairs": [
+            {
+              "left": "Rede",
+              "right": "O Reino"
+            },
+            {
+              "left": "Peixes bons",
+              "right": "Os justos"
+            },
+            {
+              "left": "Peixes ruins",
+              "right": "Os injustos"
+            },
+            {
+              "left": "Fornalha",
+              "right": "Julgamento final"
+            }
+          ],
+          "reference": "Mateus 13:47-50"
+        },
+        {
+          "id": "parabolas-u4-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A rede só pega peixes bons.",
+          "isTrue": false,
+          "reference": "Mateus 13:47-48",
+          "explanation": "A rede apanha toda sorte de peixe; somente na separação final escolhem os bons e lançam fora os ruins."
+        },
+        {
+          "id": "parabolas-u4-l4-e7",
+          "kind": "listen",
+          "prompt": "O que acontece aos ruins?",
+          "text": "Os peixes ruins são lançados fora.",
+          "options": [
+            "Lançados fora",
+            "Comidos",
+            "Vendidos",
+            "Guardados"
+          ],
+          "answer": "Lançados fora",
+          "reference": "Mateus 13:48"
+        },
+        {
+          "id": "parabolas-u4-l4-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Na fornalha de fogo haverá choro e ranger de dentes.",
+          "reference": "Mateus 13:50"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u4-l5",
+      "title": "Revisão: Vigilância e o Fim",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual é o tema central desta unidade?",
+          "text": "As parábolas falam sobre ___ até o retorno de Jesus.",
+          "options": [
+            "vigilância",
+            "espera",
+            "arrependimento",
+            "oração"
+          ],
+          "answer": "vigilância",
+          "reference": "Mateus 25 e 13"
+        },
+        {
+          "id": "parabolas-u4-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "No fim dos tempos, haverá ___ entre justos e injustos.",
+          "answer": "separação",
+          "options": [
+            "separação",
+            "julgamento",
+            "condenação",
+            "recompensa"
+          ],
+          "reference": "Mateus 13:47-49"
+        },
+        {
+          "id": "parabolas-u4-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem os temas",
+          "text": "Sequência das 5 parábolas.",
+          "tokens": [
+            "Dez virgens esperam",
+            "Banquete é oferecido",
+            "Joio será separado",
+            "Justos e injustos divididos"
+          ],
+          "reference": "Mateus 25 e 13"
+        },
+        {
+          "id": "parabolas-u4-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Associe cada parábola",
+          "pairs": [
+            {
+              "left": "Dez virgens",
+              "right": "Preparação constante"
+            },
+            {
+              "left": "Grande banquete",
+              "right": "Convite a todos"
+            },
+            {
+              "left": "Joio e trigo",
+              "right": "Paciência divina"
+            },
+            {
+              "left": "Rede de pesca",
+              "right": "Julgamento final"
+            }
+          ],
+          "reference": "Mateus 25 e 13"
+        },
+        {
+          "id": "parabolas-u4-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo-chave",
+          "text": "Essência do ensino",
+          "tokens": [
+            "Velai pois",
+            "não sabeis",
+            "em que dia"
+          ],
+          "distractors": [
+            "quando virá",
+            "como virá",
+            "de que jeito",
+            "por que virá"
+          ],
+          "reference": "Mateus 25:13"
+        },
+        {
+          "id": "parabolas-u4-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Jesus ensinou claramente quando seria o fim dos tempos.",
+          "isTrue": false,
+          "reference": "Mateus 25:13",
+          "explanation": "Jesus advertiu que ninguém sabe o dia nem a hora, por isso devemos estar sempre preparados."
+        },
+        {
+          "id": "parabolas-u4-l5-e7",
+          "kind": "listen",
+          "prompt": "Qual é o maior conselho?",
+          "text": "O maior conselho é estar sempre preparado.",
+          "options": [
+            "Estar preparado",
+            "Ter medo",
+            "Fugir",
+            "Contar o tempo"
+          ],
+          "answer": "Estar preparado",
+          "reference": "Mateus 25:13"
+        },
+        {
+          "id": "parabolas-u4-l5-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Bem-aventurado o servo que o Senhor encontrar atento.",
+          "reference": "Mateus 24:46"
+        }
+      ]
+    }
+  ]
+}

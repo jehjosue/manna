@@ -159,16 +159,25 @@ final class ContentStore {
         let urls = bundle.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
         var errors: [String] = []
         var loaded: [Journey] = []
-        for url in urls where url.lastPathComponent.hasPrefix("jornada-") {
-            do {
-                loaded.append(try JSONDecoder().decode(Journey.self, from: Data(contentsOf: url)))
-            } catch {
-                errors.append("\(url.lastPathComponent): \(error)")
+        // Só os arquivos-base (jornada-x.json); a versão no idioma do conteúdo é escolhida por ContentLanguage.
+        let bases = urls.map { $0.deletingPathExtension().lastPathComponent }
+            .filter { $0.hasPrefix("jornada-") && !$0.contains(".") }
+        for base in Set(bases) {
+            // Tenta o idioma do conteúdo e, se falhar, o original em português.
+            let candidates = [ContentLanguage.url(for: base, bundle: bundle), bundle.url(forResource: base, withExtension: "json")]
+            var decoded: Journey?
+            for case let url? in candidates where decoded == nil {
+                do {
+                    decoded = try JSONDecoder().decode(Journey.self, from: Data(contentsOf: url))
+                } catch {
+                    errors.append("\(url.lastPathComponent): \(error)")
+                }
             }
+            if let decoded { loaded.append(decoded) }
         }
         journeys = loaded.sorted { ($0.order ?? 99, $0.title) < ($1.order ?? 99, $1.title) }
 
-        if let url = bundle.url(forResource: "historias", withExtension: "json") {
+        if let url = ContentLanguage.url(for: "historias", bundle: bundle) {
             do {
                 stories = try JSONDecoder().decode([Story].self, from: Data(contentsOf: url))
             } catch {

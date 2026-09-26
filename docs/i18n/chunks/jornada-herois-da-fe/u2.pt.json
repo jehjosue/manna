@@ -1,0 +1,625 @@
+{
+  "id": "herois-u2",
+  "title": "Unidade 2",
+  "subtitle": "Libertação e Liderança",
+  "guide": {
+    "summary": "Moisés e Josué lideraram o povo de Deus em momentos críticos. Moisés foi escolhido para libertar Israel do Egito através de milagres poderosos; Josué conquistou a terra prometida. Ambos confiam em Deus contra probabilidades impossíveis, revelando que nossas limitações não limitam a Deus.",
+    "keyVerses": [
+      {
+        "reference": "Êxodo 3:10",
+        "text": "Vem, pois, e enviar-te-ei a Faraó, para que tires do Egito o meu povo."
+      },
+      {
+        "reference": "Êxodo 14:13-14",
+        "text": "Respondeu-lhes Moisés: Não tenhais medo; aquietai-vos e vede a salvação do Senhor que hoje vos há de fazer; porque aos egípcios que vedes hoje nunca mais os tornareis a ver. O Senhor pelejará por vós, e vós vos aquietareis."
+      },
+      {
+        "reference": "Josué 6:20",
+        "text": "Então o povo gritou, e os sacerdotes tocaram as trombetas; ouvindo o povo o sonido das trombetas, gritou em grande voz; e a muralha caiu, e o povo subiu à cidade."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "herois-u2-l1",
+      "title": "Moisés e a Sarça Ardente",
+      "icon": "leaf.fill",
+      "exercises": [
+        {
+          "id": "herois-u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "O que viu Moisés no deserto?",
+          "text": "Moisés viu uma ___ que ardia, mas não se consumia.",
+          "options": [
+            "sarça",
+            "árvore",
+            "floresta",
+            "chama"
+          ],
+          "answer": "sarça",
+          "reference": "Êxodo 3:2"
+        },
+        {
+          "id": "herois-u2-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Deus escolheu Moisés para ___ Israel do Egito.",
+          "answer": "libertar",
+          "options": [
+            "libertar",
+            "salvar",
+            "tirar",
+            "resgatar"
+          ],
+          "reference": "Êxodo 3:10"
+        },
+        {
+          "id": "herois-u2-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Identidade de Deus",
+          "tokens": [
+            "Eu sou",
+            "o Deus de Abraão",
+            "o Deus de Isaque",
+            "o Deus de Jacó"
+          ],
+          "distractors": [
+            "dos patriarcas",
+            "de Israel",
+            "de teus pais",
+            "dos hebreus"
+          ],
+          "reference": "Êxodo 3:6"
+        },
+        {
+          "id": "herois-u2-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem os eventos",
+          "text": "Sequência do chamado.",
+          "tokens": [
+            "Moisés vê a sarça",
+            "Deus fala com ele",
+            "Moisés tem medo",
+            "Deus o envia"
+          ],
+          "reference": "Êxodo 3"
+        },
+        {
+          "id": "herois-u2-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os elementos",
+          "pairs": [
+            {
+              "left": "Sarça",
+              "right": "Presença divina"
+            },
+            {
+              "left": "Moisés",
+              "right": "Escolhido"
+            },
+            {
+              "left": "Egito",
+              "right": "Escravidão"
+            },
+            {
+              "left": "Libertação",
+              "right": "Milagre"
+            }
+          ],
+          "reference": "Êxodo 3-4"
+        },
+        {
+          "id": "herois-u2-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Moisés aceitou o chamado de Deus imediatamente sem dúvida.",
+          "isTrue": false,
+          "reference": "Êxodo 3:11,4:1",
+          "explanation": "Moisés questionou Deus várias vezes, tendo medo e insegurança, mas Deus o encorajou e o equipou."
+        },
+        {
+          "id": "herois-u2-l1-e7",
+          "kind": "listen",
+          "prompt": "O que Deus mandou?",
+          "text": "Deus mandou Moisés ir ao Faraó.",
+          "options": [
+            "Ir ao Faraó",
+            "Fugir do Egito",
+            "Construir templo",
+            "Preparar sacrifícios"
+          ],
+          "answer": "Ir ao Faraó",
+          "reference": "Êxodo 3:10"
+        },
+        {
+          "id": "herois-u2-l1-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Eu estarei contigo, e este é o sinal.",
+          "reference": "Êxodo 3:12"
+        }
+      ]
+    },
+    {
+      "id": "herois-u2-l2",
+      "title": "As Dez Pragas",
+      "icon": "drop.fill",
+      "exercises": [
+        {
+          "id": "herois-u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Quantas pragas Deus enviou?",
+          "text": "Deus enviou ___ pragas sobre o Egito.",
+          "options": [
+            "dez",
+            "sete",
+            "nove",
+            "doze"
+          ],
+          "answer": "dez",
+          "reference": "Êxodo 7-12"
+        },
+        {
+          "id": "herois-u2-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "A primeira praga transformou a ___ em sangue.",
+          "answer": "água",
+          "options": [
+            "água",
+            "rio",
+            "Nilo",
+            "corrente"
+          ],
+          "reference": "Êxodo 7:20"
+        },
+        {
+          "id": "herois-u2-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Chamado de Deus ao Faraó",
+          "tokens": [
+            "Deixa ir",
+            "o meu povo",
+            "para que me sirva"
+          ],
+          "distractors": [
+            "no deserto",
+            "a Mim",
+            "em liberdade",
+            "para adorar"
+          ],
+          "reference": "Êxodo 5:1"
+        },
+        {
+          "id": "herois-u2-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque algumas pragas em ordem",
+          "text": "Algumas das dez pragas.",
+          "tokens": [
+            "Água em sangue",
+            "Rãs cobrem terra",
+            "Escuridão total",
+            "Morte dos primogênitos"
+          ],
+          "reference": "Êxodo 7-12"
+        },
+        {
+          "id": "herois-u2-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe as consequências",
+          "pairs": [
+            {
+              "left": "Sangue",
+              "right": "Água poluída"
+            },
+            {
+              "left": "Rãs",
+              "right": "Invasão"
+            },
+            {
+              "left": "Escuridão",
+              "right": "Sem luz"
+            },
+            {
+              "left": "Morte",
+              "right": "Primogênitos"
+            }
+          ],
+          "reference": "Êxodo 7-12"
+        },
+        {
+          "id": "herois-u2-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O Faraó liberou Israel após a primeira praga.",
+          "isTrue": false,
+          "reference": "Êxodo 7-11",
+          "explanation": "O Faraó endureceu seu coração durante várias pragas até a última, que o forçou a deixar ir."
+        },
+        {
+          "id": "herois-u2-l2-e7",
+          "kind": "listen",
+          "prompt": "Qual foi a última praga?",
+          "text": "A morte dos primogênitos foi a última praga.",
+          "options": [
+            "Morte dos primogênitos",
+            "Escuridão",
+            "Saraiva",
+            "Gafanhotos"
+          ],
+          "answer": "Morte dos primogênitos",
+          "reference": "Êxodo 12:29"
+        },
+        {
+          "id": "herois-u2-l2-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Deixa ir meu povo para que me sirva no deserto.",
+          "reference": "Êxodo 7:16"
+        }
+      ]
+    },
+    {
+      "id": "herois-u2-l3",
+      "title": "O Mar Vermelho Aberto",
+      "icon": "water.waves",
+      "exercises": [
+        {
+          "id": "herois-u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Como o povo atravessou o Mar Vermelho?",
+          "text": "Moisés estendeu a mão e o mar se ___ em dois.",
+          "options": [
+            "abriu",
+            "dividiu",
+            "separou",
+            "rasgou"
+          ],
+          "answer": "abriu",
+          "reference": "Êxodo 14:21"
+        },
+        {
+          "id": "herois-u2-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Os israelitas atravessaram em ___ seco.",
+          "answer": "terra",
+          "options": [
+            "terra",
+            "terreno",
+            "solo",
+            "chão"
+          ],
+          "reference": "Êxodo 14:22"
+        },
+        {
+          "id": "herois-u2-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Exortação de Moisés",
+          "tokens": [
+            "Não tenhais medo",
+            "aquietai-vos",
+            "e vede a salvação"
+          ],
+          "distractors": [
+            "correi",
+            "fugi",
+            "esperai",
+            "gritai"
+          ],
+          "reference": "Êxodo 14:13"
+        },
+        {
+          "id": "herois-u2-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem os eventos",
+          "text": "Sequência da travessia.",
+          "tokens": [
+            "Egípcios perseguem",
+            "Povo tem medo",
+            "Moisés estende a mão",
+            "Mar se abre"
+          ],
+          "reference": "Êxodo 14"
+        },
+        {
+          "id": "herois-u2-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os eventos",
+          "pairs": [
+            {
+              "left": "Moisés",
+              "right": "Estende a mão"
+            },
+            {
+              "left": "Mar",
+              "right": "Se abre"
+            },
+            {
+              "left": "Israelitas",
+              "right": "Atravessam"
+            },
+            {
+              "left": "Egípcios",
+              "right": "Afundam"
+            }
+          ],
+          "reference": "Êxodo 14"
+        },
+        {
+          "id": "herois-u2-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Os egípcios foram salvos junto com Israel.",
+          "isTrue": false,
+          "reference": "Êxodo 14:26-28",
+          "explanation": "O mar se fechou novamente e afundou os egípcios que perseguiam Israel, completando a libertação."
+        },
+        {
+          "id": "herois-u2-l3-e7",
+          "kind": "listen",
+          "prompt": "Como atravessaram?",
+          "text": "Atravessaram o mar em terra seca.",
+          "options": [
+            "Em terra seca",
+            "Nadando",
+            "Com barcos",
+            "Em um navio"
+          ],
+          "answer": "Em terra seca",
+          "reference": "Êxodo 14:22"
+        },
+        {
+          "id": "herois-u2-l3-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "O Senhor pelejará por vós, e vós vos aquietareis.",
+          "reference": "Êxodo 14:14"
+        }
+      ]
+    },
+    {
+      "id": "herois-u2-l4",
+      "title": "Josué e Jericó",
+      "icon": "cross.fill",
+      "exercises": [
+        {
+          "id": "herois-u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "O que Josué teve que fazer em Jericó?",
+          "text": "Josué e o povo marcharam ao redor da cidade ___ vezes.",
+          "options": [
+            "sete",
+            "treze",
+            "dez",
+            "quarenta"
+          ],
+          "answer": "sete",
+          "reference": "Josué 6:15"
+        },
+        {
+          "id": "herois-u2-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "Os sacerdotes tocavam as ___ enquanto marchavam.",
+          "answer": "trombetas",
+          "options": [
+            "trombetas",
+            "flautas",
+            "harpas",
+            "liras"
+          ],
+          "reference": "Josué 6:4"
+        },
+        {
+          "id": "herois-u2-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A queda de Jericó",
+          "tokens": [
+            "A muralha caiu",
+            "e o povo subiu",
+            "à cidade"
+          ],
+          "distractors": [
+            "e conquistou",
+            "e invadiu",
+            "e entrou",
+            "e atacou"
+          ],
+          "reference": "Josué 6:20"
+        },
+        {
+          "id": "herois-u2-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem o cerco",
+          "text": "Sequência da tomada de Jericó.",
+          "tokens": [
+            "Josué recebe instruções",
+            "Povo marcha",
+            "Tocam trombetas",
+            "Muralha desaba"
+          ],
+          "reference": "Josué 6"
+        },
+        {
+          "id": "herois-u2-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os elementos",
+          "pairs": [
+            {
+              "left": "Josué",
+              "right": "Líder de Israel"
+            },
+            {
+              "left": "Jericó",
+              "right": "Fortaleza cercada"
+            },
+            {
+              "left": "Trombetas",
+              "right": "Instrumento de Deus"
+            },
+            {
+              "left": "Muralha",
+              "right": "Caiu sobrenaturalmente"
+            }
+          ],
+          "reference": "Josué 6"
+        },
+        {
+          "id": "herois-u2-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "A muralha de Jericó foi conquistada com armas e força.",
+          "isTrue": false,
+          "reference": "Josué 6:15-20",
+          "explanation": "A muralha caiu pelo som das trombetas e pelo clamor do povo, um milagre sobrenatural."
+        },
+        {
+          "id": "herois-u2-l4-e7",
+          "kind": "listen",
+          "prompt": "Como a muralha caiu?",
+          "text": "A muralha caiu quando gritaram.",
+          "options": [
+            "Quando gritaram",
+            "Com armas",
+            "Com fogo",
+            "Com dinamite"
+          ],
+          "answer": "Quando gritaram",
+          "reference": "Josué 6:20"
+        },
+        {
+          "id": "herois-u2-l4-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Somente Deus pode fazer descer uma muralha.",
+          "reference": "Josué 6:20"
+        }
+      ]
+    },
+    {
+      "id": "herois-u2-l5",
+      "title": "Revisão: Libertação",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Qual é o tema desta unidade?",
+          "text": "Moisés e Josué mostraram ___ e liderança.",
+          "options": [
+            "fé",
+            "coragem",
+            "sabedoria",
+            "força"
+          ],
+          "answer": "fé",
+          "reference": "Êxodo-Josué"
+        },
+        {
+          "id": "herois-u2-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Digite a palavra que falta",
+          "text": "O maior inimigo não foi o Faraó, mas a ___ de Israel.",
+          "answer": "escravidão",
+          "options": [
+            "escravidão",
+            "opressão",
+            "servidão",
+            "cativeiro"
+          ],
+          "reference": "Êxodo 1-14"
+        },
+        {
+          "id": "herois-u2-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Coloque em ordem as fases",
+          "text": "Sequência de libertação.",
+          "tokens": [
+            "Moisés chamado",
+            "Pragas enviadas",
+            "Mar se abre",
+            "Terra prometida conquistada"
+          ],
+          "reference": "Êxodo-Josué"
+        },
+        {
+          "id": "herois-u2-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Associe cada líder",
+          "pairs": [
+            {
+              "left": "Moisés",
+              "right": "Libertação"
+            },
+            {
+              "left": "Josué",
+              "right": "Conquista"
+            },
+            {
+              "left": "Fé",
+              "right": "Essência"
+            },
+            {
+              "left": "Deus",
+              "right": "Poder real"
+            }
+          ],
+          "reference": "Êxodo-Josué"
+        },
+        {
+          "id": "herois-u2-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo-chave",
+          "text": "Tema da libertação",
+          "tokens": [
+            "Deixa",
+            "ir meu povo",
+            "agora"
+          ],
+          "distractors": [
+            "para adorar",
+            "para servir",
+            "no deserto",
+            "a Deus"
+          ],
+          "reference": "Êxodo 5:1"
+        },
+        {
+          "id": "herois-u2-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Moisés e Josué conquistaram com força, não com fé.",
+          "isTrue": false,
+          "reference": "Êxodo-Josué",
+          "explanation": "Ambos venceram pela fé em Deus, reconhecendo que somente Ele podia cumprir as impossibilidades."
+        },
+        {
+          "id": "herois-u2-l5-e7",
+          "kind": "listen",
+          "prompt": "Qual é a lição?",
+          "text": "Deus liberta quem crê nele.",
+          "options": [
+            "Liberta quem crê",
+            "Castiga sempre",
+            "Nega ajuda",
+            "Ignora oração"
+          ],
+          "answer": "Liberta quem crê",
+          "reference": "Êxodo-Josué"
+        },
+        {
+          "id": "herois-u2-l5-e8",
+          "kind": "speak",
+          "prompt": "Leia em voz alta",
+          "text": "Com Deus, não há muro que não caia.",
+          "reference": "Josué 6:20"
+        }
+      ]
+    }
+  ]
+}

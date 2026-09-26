@@ -1,0 +1,627 @@
+{
+  "id": "herois-u1",
+  "title": "Unidad 1",
+  "subtitle": "Los Patriarcas",
+  "guide": {
+    "summary": "Los patriarcas Noé, Abraham, Isaac, Jacob y José son ejemplos de fe perseverante. A pesar de sus miedos y debilidades, confiaron en el llamado de Dios. Sus vidas revelan cómo Dios trabaja a través de generaciones, cumpliendo sus promesas incluso cuando todo parecía imposible.",
+    "keyVerses": [
+      {
+        "reference": "Hebreos 11:8-9",
+        "text": "Por fe Abraham, siendo llamado, obedeció para salir al lugar que había de recibir como herencia; y salió sin saber adónde iba. Por fe habitó como extranjero en la tierra de la promesa, como en tierra ajena."
+      },
+      {
+        "reference": "Génesis 12:1-2",
+        "text": "Y dijo Jehová a Abram: Vete de tu tierra y de tu parentela, y de la casa de tu padre, a la tierra que te mostraré; y haré de ti una nación grande."
+      },
+      {
+        "reference": "Génesis 37:28",
+        "text": "Y pasaron unos madianitas mercaderes, y sacaron a José de la cisterna, y lo vendieron a los ismaelitas por veinte siclos de plata."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "herois-u1-l1",
+      "title": "Noé y el Arca",
+      "icon": "star.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué le pidió Dios a Noé que construyera?",
+          "text": "Dios mandó a Noé construir un ___.",
+          "speaker": "Narrador",
+          "options": [
+            "arca",
+            "casa",
+            "templo",
+            "barco"
+          ],
+          "answer": "arca",
+          "reference": "Génesis 6:14"
+        },
+        {
+          "id": "herois-u1-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Noé necesitaba salvar dos de cada ___ viviente.",
+          "answer": "especie",
+          "options": [
+            "especie",
+            "tipo",
+            "género",
+            "clase"
+          ],
+          "reference": "Génesis 6:19"
+        },
+        {
+          "id": "herois-u1-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Noé obedeció completamente",
+          "tokens": [
+            "Así hizo Noé",
+            "conforme a todo",
+            "lo que Dios le mandó"
+          ],
+          "distractors": [
+            "consideró",
+            "argumentó",
+            "discutió",
+            "pensó"
+          ],
+          "reference": "Génesis 6:22"
+        },
+        {
+          "id": "herois-u1-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena la historia",
+          "text": "Secuencia de la vida de Noé.",
+          "tokens": [
+            "Dios elige a Noé",
+            "Noé construye el arca",
+            "Los animales entran",
+            "El diluvio destruye la tierra"
+          ],
+          "reference": "Génesis 6-8"
+        },
+        {
+          "id": "herois-u1-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los elementos",
+          "pairs": [
+            {
+              "left": "Noé",
+              "right": "Justo e íntegro"
+            },
+            {
+              "left": "Arca",
+              "right": "Salvación"
+            },
+            {
+              "left": "Diluvio",
+              "right": "Juicio"
+            },
+            {
+              "left": "Fe",
+              "right": "Obediencia"
+            }
+          ],
+          "reference": "Génesis 6-9"
+        },
+        {
+          "id": "herois-u1-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Noé fue el único hombre justo en su generación.",
+          "isTrue": true,
+          "reference": "Génesis 6:9",
+          "explanation": "Noé era justo, íntegro y perfecto en su generación, y caminaba con Dios."
+        },
+        {
+          "id": "herois-u1-l1-e7",
+          "kind": "listen",
+          "prompt": "¿Qué le pidió Dios?",
+          "text": "Escucha: Dios le pidió a Noé que construyera un arca.",
+          "options": [
+            "Construir un arca",
+            "Dejar la tierra",
+            "Predicar arrepentimiento",
+            "Preparar sacrificios"
+          ],
+          "answer": "Construir un arca",
+          "reference": "Génesis 6:14"
+        },
+        {
+          "id": "herois-u1-l1-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Noé cumplió todo lo que Dios le mandó.",
+          "reference": "Génesis 6:22"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l2",
+      "title": "Abraham: El Padre de la Fe",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿A dónde Dios llamó a Abraham?",
+          "text": "Dios dijo a Abraham: \"Vete de tu tierra y ve a la tierra que te ___\".",
+          "options": [
+            "mostraré",
+            "prometí",
+            "preparé",
+            "di"
+          ],
+          "answer": "mostraré",
+          "reference": "Génesis 12:1"
+        },
+        {
+          "id": "herois-u1-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Abraham creyó a Jehová, y le ___ por justicia.",
+          "answer": "fue contado",
+          "options": [
+            "fue contado",
+            "contó",
+            "se computó",
+            "consideró"
+          ],
+          "reference": "Génesis 15:6"
+        },
+        {
+          "id": "herois-u1-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La promesa a Abraham",
+          "tokens": [
+            "Haré de ti",
+            "una nación grande",
+            "y te bendeciré"
+          ],
+          "distractors": [
+            "harás un pueblo",
+            "serás rey",
+            "tendrás riquezas",
+            "dominarás"
+          ],
+          "reference": "Génesis 12:2"
+        },
+        {
+          "id": "herois-u1-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena los eventos",
+          "text": "Secuencia de Abraham.",
+          "tokens": [
+            "Llamada a Canaán",
+            "Abraham cree en Dios",
+            "Isaac nace",
+            "Prueba del sacrificio"
+          ],
+          "reference": "Génesis 12-22"
+        },
+        {
+          "id": "herois-u1-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia las características",
+          "pairs": [
+            {
+              "left": "Abraham",
+              "right": "Padre de la fe"
+            },
+            {
+              "left": "Promesa",
+              "right": "Nación grande"
+            },
+            {
+              "left": "Simiente",
+              "right": "Isaac"
+            },
+            {
+              "left": "Prueba",
+              "right": "Sacrificio"
+            }
+          ],
+          "reference": "Génesis 12-22"
+        },
+        {
+          "id": "herois-u1-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Abraham era viejo cuando Dios le prometió un hijo.",
+          "isTrue": true,
+          "reference": "Génesis 17:1-3",
+          "explanation": "Abraham tenía 75 años cuando Dios lo llamó, y 99 cuando le hizo la promesa de un hijo."
+        },
+        {
+          "id": "herois-u1-l2-e7",
+          "kind": "listen",
+          "prompt": "¿A dónde fue Abraham?",
+          "text": "Abraham fue a una tierra desconocida.",
+          "options": [
+            "Tierra desconocida",
+            "Egipto",
+            "Mesopotamia",
+            "Judea"
+          ],
+          "answer": "Tierra desconocida",
+          "reference": "Hebreos 11:8"
+        },
+        {
+          "id": "herois-u1-l2-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Abraham creyó en Dios y le fue contado por justicia.",
+          "reference": "Génesis 15:6"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l3",
+      "title": "Isaac: El Hijo de la Promesa",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "herois-u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo nació Isaac?",
+          "text": "Isaac nació de manera ___, cuando sus padres eran viejos.",
+          "options": [
+            "milagrosa",
+            "natural",
+            "ordinaria",
+            "común"
+          ],
+          "answer": "milagrosa",
+          "reference": "Génesis 21:1-2"
+        },
+        {
+          "id": "herois-u1-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Abraham estaba dispuesto a ___ a su único hijo Isaac.",
+          "answer": "sacrificar",
+          "options": [
+            "sacrificar",
+            "ofrecer",
+            "entregar",
+            "dar"
+          ],
+          "reference": "Génesis 22:10"
+        },
+        {
+          "id": "herois-u1-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Dios salva a Isaac",
+          "tokens": [
+            "No extiendas",
+            "tu mano",
+            "sobre el joven"
+          ],
+          "distractors": [
+            "no lo mates",
+            "no lo sacrifiques",
+            "déjalo ir",
+            "guárdalo bien"
+          ],
+          "reference": "Génesis 22:12"
+        },
+        {
+          "id": "herois-u1-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena los eventos",
+          "text": "Secuencia de Isaac.",
+          "tokens": [
+            "Isaac nace",
+            "Abraham es probado",
+            "Dios lo salva",
+            "Isaac se casa"
+          ],
+          "reference": "Génesis 21-26"
+        },
+        {
+          "id": "herois-u1-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los elementos",
+          "pairs": [
+            {
+              "left": "Isaac",
+              "right": "Hijo milagroso"
+            },
+            {
+              "left": "Abraham",
+              "right": "Padre fiel"
+            },
+            {
+              "left": "Prueba",
+              "right": "Sacrificio exigido"
+            },
+            {
+              "left": "Cordero",
+              "right": "Sustituto"
+            }
+          ],
+          "reference": "Génesis 21-22"
+        },
+        {
+          "id": "herois-u1-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Isaac fue efectivamente sacrificado en el altar.",
+          "isTrue": false,
+          "reference": "Génesis 22:12-13",
+          "explanation": "Dios detuvo a Abraham y colocó un cordero como sustituto para ser sacrificado en lugar de Isaac."
+        },
+        {
+          "id": "herois-u1-l3-e7",
+          "kind": "listen",
+          "prompt": "¿Cómo nació Isaac?",
+          "text": "Isaac nació de forma milagrosa.",
+          "options": [
+            "Forma milagrosa",
+            "Naturalmente",
+            "Por adopción",
+            "Por ayuda humana"
+          ],
+          "answer": "Forma milagrosa",
+          "reference": "Génesis 21:1-2"
+        },
+        {
+          "id": "herois-u1-l3-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Dios proveerá el cordero para el sacrificio.",
+          "reference": "Génesis 22:8"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l4",
+      "title": "Jacob: Luchador con Dios",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo es Jacob también conocido?",
+          "text": "Jacob fue llamado ___ en hebreo.",
+          "options": [
+            "Israel",
+            "Isaac",
+            "Judá",
+            "Benjamin"
+          ],
+          "answer": "Israel",
+          "reference": "Génesis 32:28"
+        },
+        {
+          "id": "herois-u1-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Jacob vio una escalera que se extendía hasta el ___.",
+          "answer": "cielo",
+          "options": [
+            "cielo",
+            "nube",
+            "infinito",
+            "alto"
+          ],
+          "reference": "Génesis 28:12"
+        },
+        {
+          "id": "herois-u1-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La lucha de Jacob",
+          "tokens": [
+            "Vi a Dios",
+            "cara a cara",
+            "y fue librada",
+            "mi vida"
+          ],
+          "distractors": [
+            "y morí",
+            "y huí",
+            "y sufrí",
+            "y perecí"
+          ],
+          "reference": "Génesis 32:30"
+        },
+        {
+          "id": "herois-u1-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena los eventos",
+          "text": "Secuencia de Jacob.",
+          "tokens": [
+            "Huye de Esaú",
+            "Ve la escalera",
+            "Lucha con ángel",
+            "Su nombre cambia"
+          ],
+          "reference": "Génesis 28-32"
+        },
+        {
+          "id": "herois-u1-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los momentos",
+          "pairs": [
+            {
+              "left": "Escalera",
+              "right": "Conexión cielo-tierra"
+            },
+            {
+              "left": "Ángel",
+              "right": "Lucha espiritual"
+            },
+            {
+              "left": "Nombre nuevo",
+              "right": "Israel"
+            },
+            {
+              "left": "Reconciliación",
+              "right": "Con Esaú"
+            }
+          ],
+          "reference": "Génesis 28-32"
+        },
+        {
+          "id": "herois-u1-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Jacob y Esaú se reconciliaron después.",
+          "isTrue": true,
+          "reference": "Génesis 33",
+          "explanation": "A pesar de la separación, Jacob y Esaú se encontraron y se abrazaron, mostrando reconciliación."
+        },
+        {
+          "id": "herois-u1-l4-e7",
+          "kind": "listen",
+          "prompt": "¿Qué vio Jacob?",
+          "text": "Jacob vio ángeles subiendo y bajando.",
+          "options": [
+            "Ángeles subiendo",
+            "Dios en la escalera",
+            "Cielo abierto",
+            "Una visión"
+          ],
+          "answer": "Ángeles subiendo",
+          "reference": "Génesis 28:12"
+        },
+        {
+          "id": "herois-u1-l4-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "De aquí en adelante serás llamado Israel.",
+          "reference": "Génesis 32:28"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l5",
+      "title": "José: De Esclavo a Gobernador",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Por qué José fue vendido?",
+          "text": "Los hermanos de José lo vendieron porque tenían ___.",
+          "options": [
+            "celos",
+            "rabia",
+            "envidia",
+            "odio"
+          ],
+          "answer": "celos",
+          "reference": "Génesis 37:11"
+        },
+        {
+          "id": "herois-u1-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Dios estaba con José y lo ___ en todo.",
+          "answer": "bendecía",
+          "options": [
+            "bendecía",
+            "ayudaba",
+            "guardaba",
+            "protegía"
+          ],
+          "reference": "Génesis 39:2"
+        },
+        {
+          "id": "herois-u1-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Mensaje de José a sus hermanos",
+          "tokens": [
+            "No os entristezcáis",
+            "porque me vendisteis",
+            "pues para preservación",
+            "de vida"
+          ],
+          "distractors": [
+            "para condenación",
+            "para castigo",
+            "para muerte",
+            "para punición"
+          ],
+          "reference": "Génesis 45:5"
+        },
+        {
+          "id": "herois-u1-l5-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena el viaje",
+          "text": "Secuencia de José.",
+          "tokens": [
+            "José es vendido",
+            "Trabaja para Potifar",
+            "Interpreta sueños",
+            "Gobierna Egipto"
+          ],
+          "reference": "Génesis 37-41"
+        },
+        {
+          "id": "herois-u1-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los papeles",
+          "pairs": [
+            {
+              "left": "José",
+              "right": "Gobernador"
+            },
+            {
+              "left": "Hermanos",
+              "right": "Envidiosos"
+            },
+            {
+              "left": "Faraón",
+              "right": "Favoreció"
+            },
+            {
+              "left": "Dios",
+              "right": "Providencia"
+            }
+          ],
+          "reference": "Génesis 37-45"
+        },
+        {
+          "id": "herois-u1-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "José perdonó verdaderamente a sus hermanos.",
+          "isTrue": true,
+          "reference": "Génesis 45:5-8",
+          "explanation": "José reconoció que Dios había trabajado a través de aquel mal, y perdonó sinceramente a sus hermanos."
+        },
+        {
+          "id": "herois-u1-l5-e7",
+          "kind": "listen",
+          "prompt": "¿Qué hizo Dios por José?",
+          "text": "Dios bendijo a José en todo lo que hizo.",
+          "options": [
+            "Bendijo todo",
+            "Lo protegió",
+            "Lo liberó",
+            "Lo elevó"
+          ],
+          "answer": "Bendijo todo",
+          "reference": "Génesis 39:2"
+        },
+        {
+          "id": "herois-u1-l5-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Vosotros pensasteis mal contra mí, mas Dios lo encaminó a bien.",
+          "reference": "Génesis 50:20"
+        }
+      ]
+    }
+  ]
+}

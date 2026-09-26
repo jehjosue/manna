@@ -1,0 +1,625 @@
+{
+  "id": "herois-u4",
+  "title": "Unidad 4",
+  "subtitle": "Profetas y Fidelidad",
+  "guide": {
+    "summary": "Elías, Ester, Daniel y Jonás demuestran cómo Dios honra la fidelidad incluso en las situaciones más extremas. Elías enfrentó reyes; Ester salvó a su pueblo del genocidio; Daniel rechazó el compromiso con la idolatría; Jonás predicó arrepentimiento incluso contra su voluntad. Sus vidas testimonian que no hay circunstancia tan adversa que la fidelidad a Dios no pueda transformar.",
+    "keyVerses": [
+      {
+        "reference": "1 Reyes 18:21",
+        "text": "Entonces Elías se acercó a todo el pueblo, y dijo: ¿Hasta cuándo cojearéis vosotros entre dos opiniones? Si Jehová es Dios, seguidle; y si Baal, seguidle."
+      },
+      {
+        "reference": "Ester 4:16",
+        "text": "Anda, reúne a todos los judíos que se hallan en Susa, y ayunad por mí, y no comáis ni bebáis en tres días, noche y día; yo también con mis doncellas ayunaré igual, y entonces entraré a ver al rey, aunque no sea conforme a la ley; y si perezco, que perezca."
+      },
+      {
+        "reference": "Daniel 3:17-18",
+        "text": "He aquí nuestro Dios a quien servimos puede librarnos del horno de fuego ardiente; y de tu mano, oh rey, nos librará. Y si no, sepa, oh rey, que no serviremos a tus dioses, ni tampoco adoraremos la estatua de oro que has levantado."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "herois-u4-l1",
+      "title": "Elías: El Profeta Valiente",
+      "icon": "mountain.2.fill",
+      "exercises": [
+        {
+          "id": "herois-u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿A qué rey confrontó Elías?",
+          "text": "Elías confrontó al rey ___.",
+          "options": [
+            "Acab",
+            "Salomón",
+            "David",
+            "Josafat"
+          ],
+          "answer": "Acab",
+          "reference": "1 Reyes 17:1"
+        },
+        {
+          "id": "herois-u4-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Elías fue alimentado por ___ en el desierto.",
+          "answer": "cuervos",
+          "options": [
+            "cuervos",
+            "ángeles",
+            "pueblo",
+            "siervos"
+          ],
+          "reference": "1 Reyes 17:4-5"
+        },
+        {
+          "id": "herois-u4-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Pregunta decisiva de Elías",
+          "tokens": [
+            "Si Jehová es Dios",
+            "seguidle",
+            "y si Baal",
+            "seguidle"
+          ],
+          "distractors": [
+            "adoradle",
+            "creed en él",
+            "alabad",
+            "temedle"
+          ],
+          "reference": "1 Reyes 18:21"
+        },
+        {
+          "id": "herois-u4-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena los eventos",
+          "text": "Secuencia de Elías.",
+          "tokens": [
+            "Elías confronta a Acab",
+            "Desafía a profetas de Baal",
+            "Fuego desciende",
+            "Profetas son destruidos"
+          ],
+          "reference": "1 Reyes 17-18"
+        },
+        {
+          "id": "herois-u4-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los momentos",
+          "pairs": [
+            {
+              "left": "Elías",
+              "right": "Profeta valiente"
+            },
+            {
+              "left": "Acab",
+              "right": "Rey idólatra"
+            },
+            {
+              "left": "Baal",
+              "right": "Dios falso"
+            },
+            {
+              "left": "Fuego",
+              "right": "Poder de Dios"
+            }
+          ],
+          "reference": "1 Reyes 18"
+        },
+        {
+          "id": "herois-u4-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Los profetas de Baal lograron hacer descender fuego.",
+          "isTrue": false,
+          "reference": "1 Reyes 18:24-29",
+          "explanation": "Solo el Dios de Elías respondió con fuego, probando que era el único Dios verdadero."
+        },
+        {
+          "id": "herois-u4-l1-e7",
+          "kind": "listen",
+          "prompt": "¿Qué pidió Elías?",
+          "text": "Elías pidió que el pueblo eligiera entre Dios y Baal.",
+          "options": [
+            "Elegir entre Dios",
+            "Adorar a Baal",
+            "Seguir a Acab",
+            "Abandonar la fe"
+          ],
+          "answer": "Elegir entre Dios",
+          "reference": "1 Reyes 18:21"
+        },
+        {
+          "id": "herois-u4-l1-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "No hay Dios como el Dios de Israel.",
+          "reference": "1 Reyes 18:39"
+        }
+      ]
+    },
+    {
+      "id": "herois-u4-l2",
+      "title": "Ester: La Reina Libertadora",
+      "icon": "gift.fill",
+      "exercises": [
+        {
+          "id": "herois-u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Por qué fue elegida Ester reina?",
+          "text": "Ester agradó al rey más que todas las otras ___.",
+          "options": [
+            "doncellas",
+            "reinas",
+            "mujeres",
+            "princesas"
+          ],
+          "answer": "doncellas",
+          "reference": "Ester 2:17"
+        },
+        {
+          "id": "herois-u4-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Amán planeaba ___ a todos los judíos del reino.",
+          "answer": "destruir",
+          "options": [
+            "destruir",
+            "exiliar",
+            "esclavizar",
+            "desterrar"
+          ],
+          "reference": "Ester 3:6"
+        },
+        {
+          "id": "herois-u4-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Decisión de Ester",
+          "tokens": [
+            "Y si perezco,",
+            "que perezca",
+            "entraré a ver al rey"
+          ],
+          "distractors": [
+            "huiré",
+            "me esconderé",
+            "me rendición",
+            "desistiré"
+          ],
+          "reference": "Ester 4:16"
+        },
+        {
+          "id": "herois-u4-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena los eventos",
+          "text": "Secuencia de Ester.",
+          "tokens": [
+            "Ester es elegida",
+            "Amán planea muerte",
+            "Ester intercede",
+            "Judíos son salvos"
+          ],
+          "reference": "Ester"
+        },
+        {
+          "id": "herois-u4-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los personajes",
+          "pairs": [
+            {
+              "left": "Ester",
+              "right": "Reina valiente"
+            },
+            {
+              "left": "Amán",
+              "right": "Enemigo de judíos"
+            },
+            {
+              "left": "Mardoqueo",
+              "right": "Primo protector"
+            },
+            {
+              "left": "Ayuno",
+              "right": "Arma de oración"
+            }
+          ],
+          "reference": "Ester"
+        },
+        {
+          "id": "herois-u4-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Ester fue abierta sobre su identidad judía desde el inicio.",
+          "isTrue": false,
+          "reference": "Ester 2:10",
+          "explanation": "Mardoqueo pidió a Ester que no revelara su nacionalidad y su familia."
+        },
+        {
+          "id": "herois-u4-l2-e7",
+          "kind": "listen",
+          "prompt": "¿Qué hizo Ester?",
+          "text": "Ester ayunó e intercedió por los judíos.",
+          "options": [
+            "Ayunó e intercedió",
+            "Huyó del reino",
+            "Traicionó a su pueblo",
+            "Pidió perdón"
+          ],
+          "answer": "Ayunó e intercedió",
+          "reference": "Ester 4:16"
+        },
+        {
+          "id": "herois-u4-l2-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Si perezco, perezco por la salvación de mi pueblo.",
+          "reference": "Ester 4:16"
+        }
+      ]
+    },
+    {
+      "id": "herois-u4-l3",
+      "title": "Daniel en la Cueva de los Leones",
+      "icon": "cross.fill",
+      "exercises": [
+        {
+          "id": "herois-u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Por qué fue condenado Daniel?",
+          "text": "Daniel fue condenado porque se ___ a renunciar a Dios.",
+          "options": [
+            "negó a renunciar",
+            "negó",
+            "olvidó",
+            "abandonó"
+          ],
+          "answer": "negó a renunciar",
+          "reference": "Daniel 6:10-13"
+        },
+        {
+          "id": "herois-u4-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Daniel fue lanzado a la cueva de los ___.",
+          "answer": "leones",
+          "options": [
+            "leones",
+            "tigres",
+            "osos",
+            "serpientes"
+          ],
+          "reference": "Daniel 6:16"
+        },
+        {
+          "id": "herois-u4-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Fe de los compañeros",
+          "tokens": [
+            "Y si no,",
+            "sepa oh rey",
+            "que no serviremos a tus dioses"
+          ],
+          "distractors": [
+            "aunque muramos",
+            "ni adoraremos",
+            "ni bendeciremos",
+            "ni glorificaremos"
+          ],
+          "reference": "Daniel 3:18"
+        },
+        {
+          "id": "herois-u4-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena los eventos",
+          "text": "Secuencia de Daniel.",
+          "tokens": [
+            "Daniel rechaza idolatría",
+            "Es condenado a muerte",
+            "Lanzado a los leones",
+            "Dios lo libra"
+          ],
+          "reference": "Daniel 6"
+        },
+        {
+          "id": "herois-u4-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los elementos",
+          "pairs": [
+            {
+              "left": "Daniel",
+              "right": "Fiel aunque amenazado"
+            },
+            {
+              "left": "Leones",
+              "right": "Prueba suprema"
+            },
+            {
+              "left": "Darío",
+              "right": "Rey impresionado"
+            },
+            {
+              "left": "Oración",
+              "right": "Arma de resistencia"
+            }
+          ],
+          "reference": "Daniel 6"
+        },
+        {
+          "id": "herois-u4-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Daniel fue matado por los leones.",
+          "isTrue": false,
+          "reference": "Daniel 6:22-23",
+          "explanation": "Dios protegió a Daniel y cerró la boca de los leones; él fue ileso y libertado a la mañana siguiente."
+        },
+        {
+          "id": "herois-u4-l3-e7",
+          "kind": "listen",
+          "prompt": "¿Por qué Daniel fue salvado?",
+          "text": "Dios protegió a Daniel por su fidelidad.",
+          "options": [
+            "Por fidelidad",
+            "Por fuerza",
+            "Por magia",
+            "Por suerte"
+          ],
+          "answer": "Por fidelidad",
+          "reference": "Daniel 6:22"
+        },
+        {
+          "id": "herois-u4-l3-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Nadie puede separarnos de la fidelidad a Dios.",
+          "reference": "Daniel 6:22-23"
+        }
+      ]
+    },
+    {
+      "id": "herois-u4-l4",
+      "title": "Jonás: El Profeta Reluctante",
+      "icon": "tent.fill",
+      "exercises": [
+        {
+          "id": "herois-u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿A dónde Dios mandó a Jonás que fuera?",
+          "text": "Dios mandó a Jonás predicar en ___.",
+          "options": [
+            "Nínive",
+            "Tiro",
+            "Sidón",
+            "Babilonia"
+          ],
+          "answer": "Nínive",
+          "reference": "Jonás 1:2"
+        },
+        {
+          "id": "herois-u4-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Jonás huyó en un ___ en el mar.",
+          "answer": "barco",
+          "options": [
+            "barco",
+            "bote",
+            "navío",
+            "nao"
+          ],
+          "reference": "Jonás 1:3"
+        },
+        {
+          "id": "herois-u4-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Orden divina a Jonás",
+          "tokens": [
+            "Levántate,",
+            "vete a Nínive",
+            "y pregona contra ella"
+          ],
+          "distractors": [
+            "y predica",
+            "y juzga",
+            "y condena",
+            "y anuncia"
+          ],
+          "reference": "Jonás 1:2"
+        },
+        {
+          "id": "herois-u4-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena la historia",
+          "text": "Secuencia de Jonás.",
+          "tokens": [
+            "Jonás huye",
+            "Tormenta surge",
+            "Jonás en la ballena",
+            "Predica en Nínive"
+          ],
+          "reference": "Jonás 1-3"
+        },
+        {
+          "id": "herois-u4-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los elementos",
+          "pairs": [
+            {
+              "left": "Jonás",
+              "right": "Profeta reluctante"
+            },
+            {
+              "left": "Nínive",
+              "right": "Ciudad de enemigos"
+            },
+            {
+              "left": "Ballena",
+              "right": "Instrumento de Dios"
+            },
+            {
+              "left": "Arrepentimiento",
+              "right": "De la ciudad"
+            }
+          ],
+          "reference": "Jonás"
+        },
+        {
+          "id": "herois-u4-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Jonás aceptó inmediatamente el llamado de Dios.",
+          "isTrue": false,
+          "reference": "Jonás 1:3",
+          "explanation": "Jonás huyó, rechazando el llamado, pero Dios lo trajo de vuelta a través de la ballena."
+        },
+        {
+          "id": "herois-u4-l4-e7",
+          "kind": "listen",
+          "prompt": "¿Qué sucedió?",
+          "text": "Nínive se arrepintió cuando Jonás predicó.",
+          "options": [
+            "Se arrepintió",
+            "Rechazó",
+            "Lo atacó",
+            "Lo mató"
+          ],
+          "answer": "Se arrepintió",
+          "reference": "Jonás 3:5-10"
+        },
+        {
+          "id": "herois-u4-l4-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Dios continúa llamando incluso cuando huimos.",
+          "reference": "Jonás 1-3"
+        }
+      ]
+    },
+    {
+      "id": "herois-u4-l5",
+      "title": "Revisión: Profetas y Fidelidad",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el tema de esta unidad?",
+          "text": "Todos los héroes mostraron ___ en situaciones extremas.",
+          "options": [
+            "fidelidad",
+            "coraje",
+            "inteligencia",
+            "fuerza"
+          ],
+          "answer": "fidelidad",
+          "reference": "1 Reyes-Jonás"
+        },
+        {
+          "id": "herois-u4-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Dios siempre ___ a quien permanece fiel.",
+          "answer": "honra",
+          "options": [
+            "honra",
+            "recompensa",
+            "exalta",
+            "protege"
+          ],
+          "reference": "1 Reyes-Jonás"
+        },
+        {
+          "id": "herois-u4-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Ordena los profetas",
+          "text": "Secuencia de profetas.",
+          "tokens": [
+            "Elías confronta a Acab",
+            "Ester salva judíos",
+            "Daniel enfrenta leones",
+            "Jonás predica conversión"
+          ],
+          "reference": "1 Reyes-Jonás"
+        },
+        {
+          "id": "herois-u4-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Asocia cada héroe",
+          "pairs": [
+            {
+              "left": "Elías",
+              "right": "Profeta osado"
+            },
+            {
+              "left": "Ester",
+              "right": "Reina libertadora"
+            },
+            {
+              "left": "Daniel",
+              "right": "Fiel inquebrantable"
+            },
+            {
+              "left": "Jonás",
+              "right": "Mensajero reluctante"
+            }
+          ],
+          "reference": "1 Reyes-Jonás"
+        },
+        {
+          "id": "herois-u4-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo clave",
+          "text": "Esencia de la fidelidad",
+          "tokens": [
+            "Y si perezco",
+            "aun así",
+            "perezco en fe"
+          ],
+          "distractors": [
+            "si sobrevivo",
+            "si logro",
+            "si huyo",
+            "si me rindo"
+          ],
+          "reference": "Ester 4:16"
+        },
+        {
+          "id": "herois-u4-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Los cuatro héroes enfrentaron circunstancias que parecían imposibles.",
+          "isTrue": true,
+          "reference": "1 Reyes-Jonás",
+          "explanation": "De confrontación de dioses a genocidio planeado a leones a huida, todos enfrentaron lo imposible con fidelidad."
+        },
+        {
+          "id": "herois-u4-l5-e7",
+          "kind": "listen",
+          "prompt": "¿Cuál es la lección común?",
+          "text": "La lección es nunca abandonar a Dios en ninguna circunstancia.",
+          "options": [
+            "Nunca abandonar a Dios",
+            "Abandonar cuando es difícil",
+            "Confiar en hombres",
+            "Seguir tus instintos"
+          ],
+          "answer": "Nunca abandonar a Dios",
+          "reference": "1 Reyes-Jonás"
+        },
+        {
+          "id": "herois-u4-l5-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "La fidelidad a Dios nunca queda sin recompensa.",
+          "reference": "1 Reyes-Jonás"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "id": "herois-u4",
+  "title": "Unit 4",
+  "subtitle": "Prophets and Faithfulness",
+  "guide": {
+    "summary": "Elijah, Esther, Daniel, and Jonah demonstrate how God honors faithfulness even in the most extreme situations. Elijah confronted kings; Esther saved her people from genocide; Daniel refused compromise with idolatry; Jonah preached repentance even against his will. Their lives testify that no circumstance is so adverse that faithfulness to God cannot transform it.",
+    "keyVerses": [
+      {
+        "reference": "1 Kings 18:21",
+        "text": "Elijah came near to all the people and said, 'How long are you going to hesitate between two opinions? If the Lord is God, follow him. If Baal is god, follow him.'"
+      },
+      {
+        "reference": "Esther 4:16",
+        "text": "Go, gather together all the Jews who are present in Susa, and fast for me. Don't eat or drink for three days, night or day. I and my young women will fast the same way. After that I will go in to the king, even though it is against the law; and if I perish, I perish."
+      },
+      {
+        "reference": "Daniel 3:17-18",
+        "text": "If it is so, our God whom we serve is able to deliver us from the burning fiery furnace. He will deliver us out of your hand, O king. But even if he doesn't, let it be known to you, O king, that we will not serve your gods or worship the golden image that you have set up."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "herois-u4-l1",
+      "title": "Elijah: The Courageous Prophet",
+      "icon": "mountain.2.fill",
+      "exercises": [
+        {
+          "id": "herois-u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Which king did Elijah confront?",
+          "text": "Elijah confronted king ___.",
+          "options": [
+            "Ahab",
+            "Solomon",
+            "David",
+            "Jehoshaphat"
+          ],
+          "answer": "Ahab",
+          "reference": "1 Kings 17:1"
+        },
+        {
+          "id": "herois-u4-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Elijah was fed by ___ in the desert.",
+          "answer": "ravens",
+          "options": [
+            "ravens",
+            "angels",
+            "people",
+            "servants"
+          ],
+          "reference": "1 Kings 17:4-5"
+        },
+        {
+          "id": "herois-u4-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Elijah's decisive question",
+          "tokens": [
+            "If the Lord is God",
+            "follow him",
+            "if Baal is god",
+            "follow him"
+          ],
+          "distractors": [
+            "worship him",
+            "believe in him",
+            "praise him",
+            "fear him"
+          ],
+          "reference": "1 Kings 18:21"
+        },
+        {
+          "id": "herois-u4-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of Elijah.",
+          "tokens": [
+            "Elijah confronts Ahab",
+            "Challenges Baal's prophets",
+            "Fire comes down",
+            "Prophets are destroyed"
+          ],
+          "reference": "1 Kings 17-18"
+        },
+        {
+          "id": "herois-u4-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the moments",
+          "pairs": [
+            {
+              "left": "Elijah",
+              "right": "Courageous prophet"
+            },
+            {
+              "left": "Ahab",
+              "right": "Idolatrous king"
+            },
+            {
+              "left": "Baal",
+              "right": "False god"
+            },
+            {
+              "left": "Fire",
+              "right": "God's power"
+            }
+          ],
+          "reference": "1 Kings 18"
+        },
+        {
+          "id": "herois-u4-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Baal's prophets were able to make fire come down.",
+          "isTrue": false,
+          "reference": "1 Kings 18:24-29",
+          "explanation": "Only Elijah's God answered with fire, proving that He alone was the true God."
+        },
+        {
+          "id": "herois-u4-l1-e7",
+          "kind": "listen",
+          "prompt": "What did Elijah ask?",
+          "text": "Elijah asked the people to choose between God and Baal.",
+          "options": [
+            "Choose between God",
+            "Worship Baal",
+            "Follow Ahab",
+            "Abandon faith"
+          ],
+          "answer": "Choose between God",
+          "reference": "1 Kings 18:21"
+        },
+        {
+          "id": "herois-u4-l1-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "There is no God like the God of Israel.",
+          "reference": "1 Kings 18:39"
+        }
+      ]
+    },
+    {
+      "id": "herois-u4-l2",
+      "title": "Esther: The Queen Deliverer",
+      "icon": "gift.fill",
+      "exercises": [
+        {
+          "id": "herois-u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Why was Esther chosen to be queen?",
+          "text": "Esther pleased the king more than all the other ___.",
+          "options": [
+            "maidens",
+            "queens",
+            "women",
+            "princesses"
+          ],
+          "answer": "maidens",
+          "reference": "Esther 2:17"
+        },
+        {
+          "id": "herois-u4-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Haman planned to ___ all the Jews in the kingdom.",
+          "answer": "destroy",
+          "options": [
+            "destroy",
+            "exile",
+            "enslave",
+            "banish"
+          ],
+          "reference": "Esther 3:6"
+        },
+        {
+          "id": "herois-u4-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Esther's decision",
+          "tokens": [
+            "If I perish,",
+            "I perish",
+            "I will go to the king"
+          ],
+          "distractors": [
+            "flee",
+            "hide myself",
+            "surrender",
+            "give up"
+          ],
+          "reference": "Esther 4:16"
+        },
+        {
+          "id": "herois-u4-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of Esther.",
+          "tokens": [
+            "Esther is chosen",
+            "Haman plans death",
+            "Esther intercedes",
+            "Jews are saved"
+          ],
+          "reference": "Esther"
+        },
+        {
+          "id": "herois-u4-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the characters",
+          "pairs": [
+            {
+              "left": "Esther",
+              "right": "Courageous queen"
+            },
+            {
+              "left": "Haman",
+              "right": "Enemy of Jews"
+            },
+            {
+              "left": "Mordecai",
+              "right": "Protective cousin"
+            },
+            {
+              "left": "Fasting",
+              "right": "Weapon of prayer"
+            }
+          ],
+          "reference": "Esther"
+        },
+        {
+          "id": "herois-u4-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Esther was open about her Jewish identity from the beginning.",
+          "isTrue": false,
+          "reference": "Esther 2:10",
+          "explanation": "Mordecai asked Esther not to reveal her nationality and her family."
+        },
+        {
+          "id": "herois-u4-l2-e7",
+          "kind": "listen",
+          "prompt": "What did Esther do?",
+          "text": "Esther fasted and interceded for the Jews.",
+          "options": [
+            "Fasted and interceded",
+            "Fled the kingdom",
+            "Betrayed her people",
+            "Asked forgiveness"
+          ],
+          "answer": "Fasted and interceded",
+          "reference": "Esther 4:16"
+        },
+        {
+          "id": "herois-u4-l2-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "If I perish, I perish for the salvation of my people.",
+          "reference": "Esther 4:16"
+        }
+      ]
+    },
+    {
+      "id": "herois-u4-l3",
+      "title": "Daniel in the Lion's Den",
+      "icon": "cross.fill",
+      "exercises": [
+        {
+          "id": "herois-u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Why was Daniel condemned?",
+          "text": "Daniel was condemned because he ___ to deny God.",
+          "options": [
+            "refused",
+            "denied",
+            "forgot",
+            "abandoned"
+          ],
+          "answer": "refused",
+          "reference": "Daniel 6:10-13"
+        },
+        {
+          "id": "herois-u4-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Daniel was thrown into the den of ___.",
+          "answer": "lions",
+          "options": [
+            "lions",
+            "tigers",
+            "bears",
+            "snakes"
+          ],
+          "reference": "Daniel 6:16"
+        },
+        {
+          "id": "herois-u4-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Faith of the companions",
+          "tokens": [
+            "Even if he does not",
+            "deliver us",
+            "we will not serve your gods"
+          ],
+          "distractors": [
+            "even if we die",
+            "nor worship",
+            "nor bless",
+            "nor glorify"
+          ],
+          "reference": "Daniel 3:18"
+        },
+        {
+          "id": "herois-u4-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of Daniel.",
+          "tokens": [
+            "Daniel refuses idolatry",
+            "Is condemned to death",
+            "Thrown to the lions",
+            "God delivers him"
+          ],
+          "reference": "Daniel 6"
+        },
+        {
+          "id": "herois-u4-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the elements",
+          "pairs": [
+            {
+              "left": "Daniel",
+              "right": "Faithful even threatened"
+            },
+            {
+              "left": "Lions",
+              "right": "Supreme test"
+            },
+            {
+              "left": "Darius",
+              "right": "Impressed king"
+            },
+            {
+              "left": "Prayer",
+              "right": "Weapon of resistance"
+            }
+          ],
+          "reference": "Daniel 6"
+        },
+        {
+          "id": "herois-u4-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Daniel was killed by the lions.",
+          "isTrue": false,
+          "reference": "Daniel 6:22-23",
+          "explanation": "God protected Daniel and shut the lions' mouths; he was unharmed and freed the next morning."
+        },
+        {
+          "id": "herois-u4-l3-e7",
+          "kind": "listen",
+          "prompt": "Why was Daniel saved?",
+          "text": "God protected Daniel because of his faithfulness.",
+          "options": [
+            "Because of faithfulness",
+            "Because of strength",
+            "Because of magic",
+            "Because of luck"
+          ],
+          "answer": "Because of faithfulness",
+          "reference": "Daniel 6:22"
+        },
+        {
+          "id": "herois-u4-l3-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "No one can separate us from faithfulness to God.",
+          "reference": "Daniel 6:22-23"
+        }
+      ]
+    },
+    {
+      "id": "herois-u4-l4",
+      "title": "Jonah: The Reluctant Prophet",
+      "icon": "tent.fill",
+      "exercises": [
+        {
+          "id": "herois-u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Where did God send Jonah?",
+          "text": "God sent Jonah to preach in ___.",
+          "options": [
+            "Nineveh",
+            "Tyre",
+            "Sidon",
+            "Babylon"
+          ],
+          "answer": "Nineveh",
+          "reference": "Jonah 1:2"
+        },
+        {
+          "id": "herois-u4-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Jonah fled in a ___ on the sea.",
+          "answer": "ship",
+          "options": [
+            "ship",
+            "boat",
+            "dinghy",
+            "vessel"
+          ],
+          "reference": "Jonah 1:3"
+        },
+        {
+          "id": "herois-u4-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Divine order to Jonah",
+          "tokens": [
+            "Arise,",
+            "go to Nineveh",
+            "and cry out against it"
+          ],
+          "distractors": [
+            "and preach",
+            "and judge",
+            "and condemn",
+            "and announce"
+          ],
+          "reference": "Jonah 1:2"
+        },
+        {
+          "id": "herois-u4-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the story in order",
+          "text": "Sequence of Jonah.",
+          "tokens": [
+            "Jonah flees",
+            "Storm arises",
+            "Jonah in the whale",
+            "Preaches in Nineveh"
+          ],
+          "reference": "Jonah 1-3"
+        },
+        {
+          "id": "herois-u4-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the elements",
+          "pairs": [
+            {
+              "left": "Jonah",
+              "right": "Reluctant prophet"
+            },
+            {
+              "left": "Nineveh",
+              "right": "City of enemies"
+            },
+            {
+              "left": "Whale",
+              "right": "God's instrument"
+            },
+            {
+              "left": "Repentance",
+              "right": "Of the city"
+            }
+          ],
+          "reference": "Jonah"
+        },
+        {
+          "id": "herois-u4-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jonah immediately accepted God's calling.",
+          "isTrue": false,
+          "reference": "Jonah 1:3",
+          "explanation": "Jonah fled, refusing the calling, but God brought him back through the whale."
+        },
+        {
+          "id": "herois-u4-l4-e7",
+          "kind": "listen",
+          "prompt": "What happened?",
+          "text": "Nineveh repented when Jonah preached.",
+          "options": [
+            "Repented",
+            "Rejected",
+            "Attacked him",
+            "Killed him"
+          ],
+          "answer": "Repented",
+          "reference": "Jonah 3:5-10"
+        },
+        {
+          "id": "herois-u4-l4-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "God keeps calling even when we flee.",
+          "reference": "Jonah 1-3"
+        }
+      ]
+    },
+    {
+      "id": "herois-u4-l5",
+      "title": "Review: Prophets and Faithfulness",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the theme of this unit?",
+          "text": "All heroes showed ___ in extreme situations.",
+          "options": [
+            "faithfulness",
+            "courage",
+            "intelligence",
+            "strength"
+          ],
+          "answer": "faithfulness",
+          "reference": "1 Kings-Jonah"
+        },
+        {
+          "id": "herois-u4-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "God always ___ those who remain faithful.",
+          "answer": "honors",
+          "options": [
+            "honors",
+            "rewards",
+            "exalts",
+            "protects"
+          ],
+          "reference": "1 Kings-Jonah"
+        },
+        {
+          "id": "herois-u4-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Put the prophets in order",
+          "text": "Sequence of prophets.",
+          "tokens": [
+            "Elijah confronts Ahab",
+            "Esther saves Jews",
+            "Daniel faces lions",
+            "Jonah preaches repentance"
+          ],
+          "reference": "1 Kings-Jonah"
+        },
+        {
+          "id": "herois-u4-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Match each hero",
+          "pairs": [
+            {
+              "left": "Elijah",
+              "right": "Daring prophet"
+            },
+            {
+              "left": "Esther",
+              "right": "Queen deliverer"
+            },
+            {
+              "left": "Daniel",
+              "right": "Steadfast faithful"
+            },
+            {
+              "left": "Jonah",
+              "right": "Reluctant messenger"
+            }
+          ],
+          "reference": "1 Kings-Jonah"
+        },
+        {
+          "id": "herois-u4-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Assemble the key verse",
+          "text": "Essence of faithfulness",
+          "tokens": [
+            "If I perish",
+            "even so",
+            "I perish in faith"
+          ],
+          "distractors": [
+            "if I survive",
+            "if I succeed",
+            "if I flee",
+            "if I surrender"
+          ],
+          "reference": "Esther 4:16"
+        },
+        {
+          "id": "herois-u4-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "All four heroes faced circumstances that seemed impossible.",
+          "isTrue": true,
+          "reference": "1 Kings-Jonah",
+          "explanation": "From divine confrontation to planned genocide to lions to fleeing, all faced the impossible with faithfulness."
+        },
+        {
+          "id": "herois-u4-l5-e7",
+          "kind": "listen",
+          "prompt": "What is the common lesson?",
+          "text": "The lesson is to never abandon God under any circumstance.",
+          "options": [
+            "Never abandon God",
+            "Abandon when hard",
+            "Trust in men",
+            "Follow your instincts"
+          ],
+          "answer": "Never abandon God",
+          "reference": "1 Kings-Jonah"
+        },
+        {
+          "id": "herois-u4-l5-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Faithfulness to God never goes without reward.",
+          "reference": "1 Kings-Jonah"
+        }
+      ]
+    }
+  ]
+}

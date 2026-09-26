@@ -1,0 +1,627 @@
+{
+  "id": "herois-u1",
+  "title": "Unit 1",
+  "subtitle": "The Patriarchs",
+  "guide": {
+    "summary": "The patriarchs Noah, Abraham, Isaac, Jacob, and Joseph are examples of persevering faith. Despite their fears and weaknesses, they trusted in God's calling. Their lives reveal how God works through generations, fulfilling His promises even when everything seemed impossible.",
+    "keyVerses": [
+      {
+        "reference": "Hebrews 11:8-9",
+        "text": "By faith Abraham, when he was called, obeyed by going out to a place which he was to receive for an inheritance; and he went out, not knowing where he was going. By faith he lived as an alien in the land of promise, as in a foreign land."
+      },
+      {
+        "reference": "Genesis 12:1-2",
+        "text": "Now the Lord said to Abram, 'Get out of your country, away from your relatives, and away from your father's house, to a land that I will show you. I will make you into a great nation.'"
+      },
+      {
+        "reference": "Genesis 37:28",
+        "text": "Then some Midianite traders passed by, so they pulled Joseph up and lifted him out of the pit, and sold him to the Ishmaelites for twenty pieces of silver."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "herois-u1-l1",
+      "title": "Noah and the Ark",
+      "icon": "star.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "What did God ask Noah to build?",
+          "text": "God commanded Noah to build an ___.",
+          "speaker": "Narrator",
+          "options": [
+            "ark",
+            "house",
+            "temple",
+            "ship"
+          ],
+          "answer": "ark",
+          "reference": "Genesis 6:14"
+        },
+        {
+          "id": "herois-u1-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Noah needed to save two of each ___ of living creature.",
+          "answer": "kind",
+          "options": [
+            "kind",
+            "type",
+            "species",
+            "class"
+          ],
+          "reference": "Genesis 6:19"
+        },
+        {
+          "id": "herois-u1-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Noah obeyed completely",
+          "tokens": [
+            "So Noah did",
+            "according to all",
+            "that God had commanded him"
+          ],
+          "distractors": [
+            "considered",
+            "argued",
+            "discussed",
+            "thought"
+          ],
+          "reference": "Genesis 6:22"
+        },
+        {
+          "id": "herois-u1-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the story in order",
+          "text": "Sequence of Noah's life.",
+          "tokens": [
+            "God chooses Noah",
+            "Noah builds the ark",
+            "Animals enter",
+            "Flood destroys the earth"
+          ],
+          "reference": "Genesis 6-8"
+        },
+        {
+          "id": "herois-u1-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the elements",
+          "pairs": [
+            {
+              "left": "Noah",
+              "right": "Righteous and blameless"
+            },
+            {
+              "left": "Ark",
+              "right": "Salvation"
+            },
+            {
+              "left": "Flood",
+              "right": "Judgment"
+            },
+            {
+              "left": "Faith",
+              "right": "Obedience"
+            }
+          ],
+          "reference": "Genesis 6-9"
+        },
+        {
+          "id": "herois-u1-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Noah was the only righteous man in his generation.",
+          "isTrue": true,
+          "reference": "Genesis 6:9",
+          "explanation": "Noah was righteous, blameless, and perfect in his generation, and he walked with God."
+        },
+        {
+          "id": "herois-u1-l1-e7",
+          "kind": "listen",
+          "prompt": "What did God ask?",
+          "text": "Listen: God asked Noah to build an ark.",
+          "options": [
+            "Build an ark",
+            "Leave the land",
+            "Preach repentance",
+            "Prepare sacrifices"
+          ],
+          "answer": "Build an ark",
+          "reference": "Genesis 6:14"
+        },
+        {
+          "id": "herois-u1-l1-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Noah did all that God commanded him.",
+          "reference": "Genesis 6:22"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l2",
+      "title": "Abraham: The Father of Faith",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Where did God call Abraham?",
+          "text": "God said to Abraham: 'Leave your land and go to the land I will ___ you.'",
+          "options": [
+            "show",
+            "promise",
+            "prepare",
+            "give"
+          ],
+          "answer": "show",
+          "reference": "Genesis 12:1"
+        },
+        {
+          "id": "herois-u1-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Abraham believed the Lord and the Lord ___ it to him as righteousness.",
+          "answer": "credited",
+          "options": [
+            "credited",
+            "counted",
+            "computed",
+            "considered"
+          ],
+          "reference": "Genesis 15:6"
+        },
+        {
+          "id": "herois-u1-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "The promise to Abraham",
+          "tokens": [
+            "I will make",
+            "you into",
+            "a great nation"
+          ],
+          "distractors": [
+            "you a people",
+            "you a king",
+            "you rich",
+            "you a ruler"
+          ],
+          "reference": "Genesis 12:2"
+        },
+        {
+          "id": "herois-u1-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of Abraham.",
+          "tokens": [
+            "Called to Canaan",
+            "Abraham believes God",
+            "Isaac is born",
+            "Test of sacrifice"
+          ],
+          "reference": "Genesis 12-22"
+        },
+        {
+          "id": "herois-u1-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the characteristics",
+          "pairs": [
+            {
+              "left": "Abraham",
+              "right": "Father of faith"
+            },
+            {
+              "left": "Promise",
+              "right": "Great nation"
+            },
+            {
+              "left": "Seed",
+              "right": "Isaac"
+            },
+            {
+              "left": "Test",
+              "right": "Sacrifice"
+            }
+          ],
+          "reference": "Genesis 12-22"
+        },
+        {
+          "id": "herois-u1-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Abraham was old when God promised him a son.",
+          "isTrue": true,
+          "reference": "Genesis 17:1-3",
+          "explanation": "Abraham was 75 years old when God called him, and 99 when God promised him a son."
+        },
+        {
+          "id": "herois-u1-l2-e7",
+          "kind": "listen",
+          "prompt": "Where did Abraham go?",
+          "text": "Abraham went to an unknown land.",
+          "options": [
+            "Unknown land",
+            "Egypt",
+            "Mesopotamia",
+            "Judea"
+          ],
+          "answer": "Unknown land",
+          "reference": "Hebrews 11:8"
+        },
+        {
+          "id": "herois-u1-l2-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Abraham believed God and it was credited to him as righteousness.",
+          "reference": "Genesis 15:6"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l3",
+      "title": "Isaac: The Son of Promise",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "herois-u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "How was Isaac born?",
+          "text": "Isaac was born in a ___ way, when his parents were old.",
+          "options": [
+            "miraculous",
+            "natural",
+            "ordinary",
+            "common"
+          ],
+          "answer": "miraculous",
+          "reference": "Genesis 21:1-2"
+        },
+        {
+          "id": "herois-u1-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Abraham was willing to ___ his only son Isaac.",
+          "answer": "sacrifice",
+          "options": [
+            "sacrifice",
+            "offer",
+            "give",
+            "surrender"
+          ],
+          "reference": "Genesis 22:10"
+        },
+        {
+          "id": "herois-u1-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "God saves Isaac",
+          "tokens": [
+            "Do not lay",
+            "your hand",
+            "on the boy"
+          ],
+          "distractors": [
+            "do not kill him",
+            "do not sacrifice him",
+            "let him go",
+            "keep him safe"
+          ],
+          "reference": "Genesis 22:12"
+        },
+        {
+          "id": "herois-u1-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of Isaac.",
+          "tokens": [
+            "Isaac is born",
+            "Abraham is tested",
+            "God saves him",
+            "Isaac gets married"
+          ],
+          "reference": "Genesis 21-26"
+        },
+        {
+          "id": "herois-u1-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the elements",
+          "pairs": [
+            {
+              "left": "Isaac",
+              "right": "Miraculous son"
+            },
+            {
+              "left": "Abraham",
+              "right": "Faithful father"
+            },
+            {
+              "left": "Test",
+              "right": "Sacrifice required"
+            },
+            {
+              "left": "Ram",
+              "right": "Substitute"
+            }
+          ],
+          "reference": "Genesis 21-22"
+        },
+        {
+          "id": "herois-u1-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Isaac was actually sacrificed on the altar.",
+          "isTrue": false,
+          "reference": "Genesis 22:12-13",
+          "explanation": "God stopped Abraham and placed a ram as a substitute to be sacrificed in place of Isaac."
+        },
+        {
+          "id": "herois-u1-l3-e7",
+          "kind": "listen",
+          "prompt": "How was Isaac born?",
+          "text": "Isaac was born in a miraculous way.",
+          "options": [
+            "Miraculous way",
+            "Naturally",
+            "By adoption",
+            "By human help"
+          ],
+          "answer": "Miraculous way",
+          "reference": "Genesis 21:1-2"
+        },
+        {
+          "id": "herois-u1-l3-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "God will provide the lamb for the sacrifice.",
+          "reference": "Genesis 22:8"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l4",
+      "title": "Jacob: Wrestler with God",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "How is Jacob also known?",
+          "text": "Jacob was called ___ in Hebrew.",
+          "options": [
+            "Israel",
+            "Isaac",
+            "Judah",
+            "Benjamin"
+          ],
+          "answer": "Israel",
+          "reference": "Genesis 32:28"
+        },
+        {
+          "id": "herois-u1-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Jacob saw a ladder that stretched to the ___.",
+          "answer": "heaven",
+          "options": [
+            "heaven",
+            "cloud",
+            "infinity",
+            "sky"
+          ],
+          "reference": "Genesis 28:12"
+        },
+        {
+          "id": "herois-u1-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Jacob's struggle",
+          "tokens": [
+            "I have seen God",
+            "face to face",
+            "and my life",
+            "has been preserved"
+          ],
+          "distractors": [
+            "and I died",
+            "and I fled",
+            "and I suffered",
+            "and I perished"
+          ],
+          "reference": "Genesis 32:30"
+        },
+        {
+          "id": "herois-u1-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of Jacob.",
+          "tokens": [
+            "Flees from Esau",
+            "Sees the ladder",
+            "Wrestles with angel",
+            "His name changes"
+          ],
+          "reference": "Genesis 28-32"
+        },
+        {
+          "id": "herois-u1-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the moments",
+          "pairs": [
+            {
+              "left": "Ladder",
+              "right": "Heaven-earth connection"
+            },
+            {
+              "left": "Angel",
+              "right": "Spiritual struggle"
+            },
+            {
+              "left": "New name",
+              "right": "Israel"
+            },
+            {
+              "left": "Reconciliation",
+              "right": "With Esau"
+            }
+          ],
+          "reference": "Genesis 28-32"
+        },
+        {
+          "id": "herois-u1-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jacob and Esau reconciled later.",
+          "isTrue": true,
+          "reference": "Genesis 33",
+          "explanation": "Despite their separation, Jacob and Esau met and embraced, showing reconciliation."
+        },
+        {
+          "id": "herois-u1-l4-e7",
+          "kind": "listen",
+          "prompt": "What did Jacob see?",
+          "text": "Jacob saw angels going up and down.",
+          "options": [
+            "Angels going up",
+            "God on the ladder",
+            "Heaven opened",
+            "A vision"
+          ],
+          "answer": "Angels going up",
+          "reference": "Genesis 28:12"
+        },
+        {
+          "id": "herois-u1-l4-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "From now on you will be called Israel.",
+          "reference": "Genesis 32:28"
+        }
+      ]
+    },
+    {
+      "id": "herois-u1-l5",
+      "title": "Joseph: From Slave to Governor",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Why was Joseph sold?",
+          "text": "Joseph's brothers sold him because they were ___.",
+          "options": [
+            "jealous",
+            "angry",
+            "envious",
+            "hateful"
+          ],
+          "answer": "jealous",
+          "reference": "Genesis 37:11"
+        },
+        {
+          "id": "herois-u1-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "God was with Joseph and ___ him in all he did.",
+          "answer": "blessed",
+          "options": [
+            "blessed",
+            "helped",
+            "watched",
+            "protected"
+          ],
+          "reference": "Genesis 39:2"
+        },
+        {
+          "id": "herois-u1-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Joseph's message to his brothers",
+          "tokens": [
+            "Do not be sad",
+            "that you sold me",
+            "because God sent me",
+            "to preserve life"
+          ],
+          "distractors": [
+            "to condemn",
+            "to punish",
+            "to destroy",
+            "to judge"
+          ],
+          "reference": "Genesis 45:5"
+        },
+        {
+          "id": "herois-u1-l5-e4",
+          "kind": "orderEvents",
+          "prompt": "Put Joseph's journey in order",
+          "text": "Sequence of Joseph.",
+          "tokens": [
+            "Joseph is sold",
+            "Works for Potiphar",
+            "Interprets dreams",
+            "Governs Egypt"
+          ],
+          "reference": "Genesis 37-41"
+        },
+        {
+          "id": "herois-u1-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the roles",
+          "pairs": [
+            {
+              "left": "Joseph",
+              "right": "Governor"
+            },
+            {
+              "left": "Brothers",
+              "right": "Jealous"
+            },
+            {
+              "left": "Pharaoh",
+              "right": "Favored him"
+            },
+            {
+              "left": "God",
+              "right": "Providence"
+            }
+          ],
+          "reference": "Genesis 37-45"
+        },
+        {
+          "id": "herois-u1-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Joseph truly forgave his brothers.",
+          "isTrue": true,
+          "reference": "Genesis 45:5-8",
+          "explanation": "Joseph recognized that God had worked through that evil, and he sincerely forgave his brothers."
+        },
+        {
+          "id": "herois-u1-l5-e7",
+          "kind": "listen",
+          "prompt": "What did God do for Joseph?",
+          "text": "God blessed Joseph in everything he did.",
+          "options": [
+            "Blessed everything",
+            "Protected him",
+            "Freed him",
+            "Exalted him"
+          ],
+          "answer": "Blessed everything",
+          "reference": "Genesis 39:2"
+        },
+        {
+          "id": "herois-u1-l5-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "You meant evil against me, but God meant it for good.",
+          "reference": "Genesis 50:20"
+        }
+      ]
+    }
+  ]
+}

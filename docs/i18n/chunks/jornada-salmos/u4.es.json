@@ -1,0 +1,633 @@
+{
+  "id": "salmos-u4",
+  "title": "Unidad 4",
+  "subtitle": "Oración y Arrepentimiento",
+  "guide": {
+    "summary": "La oración es conversación genuina con Dios. El arrepentimiento es cambio de corazón que nos transforma. A través de estos, experimentamos perdón, renovación e intimidad con nuestro Creador.",
+    "keyVerses": [
+      {
+        "reference": "Salmo 51:10",
+        "text": "Crea en mí, oh Dios, un corazón limpio, y renueva un espíritu recto dentro de mí."
+      },
+      {
+        "reference": "Salmo 139:1",
+        "text": "Señor, tú me sondas y me conoces."
+      },
+      {
+        "reference": "Mateo 6:9-13",
+        "text": "Por lo tanto, oren así: Padre nuestro, que estás en los cielos..."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "salmos-u4-l1",
+      "title": "Arrepentimiento Sincero",
+      "icon": "leaf.fill",
+      "exercises": [
+        {
+          "id": "salmos-u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Crea en mí, oh Dios, un corazón limpio, y renueva un espíritu _____.",
+          "speaker": "David",
+          "options": [
+            "recto",
+            "fuerte",
+            "nuevo",
+            "humilde"
+          ],
+          "answer": "recto",
+          "reference": "Salmo 51:10",
+          "explanation": "El arrepentimiento verdadero lleva al deseo de un corazón renovado y un espíritu correcto."
+        },
+        {
+          "id": "salmos-u4-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El Salmo 51 es el salmo de arrepentimiento más conocido, escrito por David tras su pecado.",
+          "isTrue": true,
+          "reference": "Salmo 51",
+          "explanation": "El Salmo 51 es un poderoso salmo de confesión y arrepentimiento tras el pecado de David."
+        },
+        {
+          "id": "salmos-u4-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué produce el arrepentimiento verdadero?",
+          "text": "\"Lávame completamente de mi maldad y purifícame de mi _____.",
+          "options": [
+            "pecado",
+            "culpa",
+            "vergüenza",
+            "rebeldía"
+          ],
+          "answer": "pecado",
+          "reference": "Salmo 51:2",
+          "explanation": "Dios nos lava y purifica cuando nos arrepentimos sinceramente de nuestros pecados."
+        },
+        {
+          "id": "salmos-u4-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Oración de arrepentimiento en Salmo 51:1-2",
+          "tokens": [
+            "Ten misericordia de mí, oh Dios",
+            "conforme a tu benignidad",
+            "lávame completamente",
+            "de mi maldad"
+          ],
+          "distractors": [
+            "restaura mi alma",
+            "renueva mi espíritu",
+            "perdona mi pecado"
+          ],
+          "reference": "Salmo 51:1-2"
+        },
+        {
+          "id": "salmos-u4-l1-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Crea en mí, oh Dios, un corazón limpio.",
+          "options": [
+            "Dios purifica nuestros pecados",
+            "Crea en mí un corazón limpio",
+            "Restaura mi espíritu renovado"
+          ],
+          "answer": "Crea en mí un corazón limpio",
+          "reference": "Salmo 51:10"
+        },
+        {
+          "id": "salmos-u4-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia los elementos del arrepentimiento",
+          "pairs": [
+            {
+              "left": "Confesión",
+              "right": "Admitir el pecado"
+            },
+            {
+              "left": "Remordimiento",
+              "right": "Tristeza por el pecado"
+            },
+            {
+              "left": "Cambio",
+              "right": "Abandonar la maldad"
+            },
+            {
+              "left": "Perdón",
+              "right": "Gracia de Dios"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Crea en mí, oh Dios, un corazón ___, y renueva un espíritu recto.\"",
+          "answer": "limpio",
+          "reference": "Salmo 51:10",
+          "options": [
+            "limpio",
+            "puro"
+          ]
+        },
+        {
+          "id": "salmos-u4-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El arrepentimiento es solo sentir remordimiento por los pecados.",
+          "isTrue": false,
+          "reference": "Salmo 51",
+          "explanation": "El arrepentimiento verdadero incluye confesión, remordimiento genuino y cambio de vida."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u4-l2",
+      "title": "Dios Conoce Nuestros Corazones",
+      "icon": "hands.sparkles.fill",
+      "exercises": [
+        {
+          "id": "salmos-u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Señor, tú me sondas y me _____.",
+          "speaker": "David",
+          "options": [
+            "conoces",
+            "juzgas",
+            "amas",
+            "guías"
+          ],
+          "answer": "conoces",
+          "reference": "Salmo 139:1",
+          "explanation": "Dios conoce profundamente cada aspecto de nuestra vida y corazón."
+        },
+        {
+          "id": "salmos-u4-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El Salmo 139 expresa que Dios está siempre presente y nos conoce completamente.",
+          "isTrue": true,
+          "reference": "Salmo 139",
+          "explanation": "El Salmo 139 es un salmo profundo sobre la omnisciencia y omnipresencia de Dios."
+        },
+        {
+          "id": "salmos-u4-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el consuelo en Salmo 139:5?",
+          "text": "\"Me rodeaste por ___, y pusiste tu mano sobre mí.\"",
+          "options": [
+            "atrás y por delante",
+            "arriba y abajo",
+            "cerca y lejos",
+            "día y noche"
+          ],
+          "answer": "atrás y por delante",
+          "reference": "Salmo 139:5",
+          "explanation": "Dios nos rodea completamente y Su presencia nos protege en todas las direcciones."
+        },
+        {
+          "id": "salmos-u4-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Presencia de Dios en Salmo 139:7-8",
+          "tokens": [
+            "¿A dónde iré de tu Espíritu?",
+            "¿A dónde huiré de tu presencia?",
+            "Si subo al cielo allí estás tú",
+            "Si desciendo al sepulcro allí estás"
+          ],
+          "distractors": [
+            "Si tomo las alas del alba",
+            "Si me siento en lo más profundo",
+            "Si extiendo mis alas"
+          ],
+          "reference": "Salmo 139:7-8"
+        },
+        {
+          "id": "salmos-u4-l2-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Señor, tú me sondas y me conoces.",
+          "options": [
+            "Dios juzga a todos los hombres",
+            "Señor, tú me sondas y conoces",
+            "Conozco el corazón de Dios"
+          ],
+          "answer": "Señor, tú me sondas y conoces",
+          "reference": "Salmo 139:1"
+        },
+        {
+          "id": "salmos-u4-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia los atributos divinos",
+          "pairs": [
+            {
+              "left": "Omnisciencia",
+              "right": "Dios sabe todo"
+            },
+            {
+              "left": "Omnipresencia",
+              "right": "Dios está en todas partes"
+            },
+            {
+              "left": "Omnipotencia",
+              "right": "Dios tiene todo poder"
+            },
+            {
+              "left": "Eternidad",
+              "right": "Dios existe siempre"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Señor, tú me sondas y me _____.",
+          "answer": "conoces",
+          "reference": "Salmo 139:1",
+          "options": [
+            "conoces",
+            "conoces bien"
+          ]
+        },
+        {
+          "id": "salmos-u4-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Podemos ocultar nuestros pensamientos de Dios.",
+          "isTrue": false,
+          "reference": "Salmo 139:1-2",
+          "explanation": "Dios conoce no solo nuestras acciones, sino también nuestros pensamientos más secretos."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u4-l3",
+      "title": "El Padrenuestro",
+      "icon": "hands.sparkles.fill",
+      "exercises": [
+        {
+          "id": "salmos-u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Comienza la oración del Padrenuestro",
+          "text": "\"Padre nuestro, que estás en los _____.",
+          "speaker": "Jesús",
+          "options": [
+            "cielos",
+            "trono",
+            "reino",
+            "corazón"
+          ],
+          "answer": "cielos",
+          "reference": "Mateo 6:9",
+          "explanation": "La oración comienza reconociendo a Dios como nuestro Padre en los cielos."
+        },
+        {
+          "id": "salmos-u4-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La oración del Padrenuestro fue enseñada por Jesús como modelo de oración.",
+          "isTrue": true,
+          "reference": "Mateo 6:9-13",
+          "explanation": "Jesús nos enseñó esta oración como ejemplo de cómo debemos orar al Padre."
+        },
+        {
+          "id": "salmos-u4-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es la segunda petición del Padrenuestro?",
+          "text": "\"Venga tu reino, sea hecha tu _____ en la tierra como en el cielo.\"",
+          "options": [
+            "voluntad",
+            "gracia",
+            "misericordia",
+            "justicia"
+          ],
+          "answer": "voluntad",
+          "reference": "Mateo 6:10",
+          "explanation": "Pedimos que la voluntad de Dios se haga en nuestras vidas y en el mundo."
+        },
+        {
+          "id": "salmos-u4-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Petición por el pan en Mateo 6:11",
+          "tokens": [
+            "El pan nuestro de cada día",
+            "dánoslo hoy",
+            "y perdónanos",
+            "nuestras deudas"
+          ],
+          "distractors": [
+            "como nosotros perdonamos",
+            "a nuestros deudores",
+            "y no nos dejes caer"
+          ],
+          "reference": "Mateo 6:11-12"
+        },
+        {
+          "id": "salmos-u4-l3-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Venga tu reino sea hecha tu voluntad.",
+          "options": [
+            "Sea santificado tu nombre",
+            "Venga tu reino tu voluntad",
+            "Perdón y salvación para todos"
+          ],
+          "answer": "Venga tu reino tu voluntad",
+          "reference": "Mateo 6:10"
+        },
+        {
+          "id": "salmos-u4-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia las peticiones del Padrenuestro",
+          "pairs": [
+            {
+              "left": "Santificación del nombre",
+              "right": "Reconocer a Dios como santo"
+            },
+            {
+              "left": "Sustento diario",
+              "right": "Pedir nuestro pan"
+            },
+            {
+              "left": "Perdón de pecados",
+              "right": "Reconciliación con Dios"
+            },
+            {
+              "left": "Liberación del mal",
+              "right": "Protección divina"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la oración",
+          "text": "\"El pan nuestro de cada día dánoslo _____.",
+          "answer": "hoy",
+          "reference": "Mateo 6:11",
+          "options": [
+            "hoy",
+            "ahora"
+          ]
+        },
+        {
+          "id": "salmos-u4-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El Padrenuestro contiene peticiones solo para nosotros mismos.",
+          "isTrue": false,
+          "reference": "Mateo 6:9-13",
+          "explanation": "El Padrenuestro incluye peticiones para glorificar a Dios, para que Su reino venga y para perdón."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u4-l4",
+      "title": "Tiempo y Eternidad",
+      "icon": "moon.stars.fill",
+      "exercises": [
+        {
+          "id": "salmos-u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Vanidad de vanidades, dice el Predicador, vanidad de vanidades; todo es _____.",
+          "speaker": "Eclesiastés",
+          "options": [
+            "vanidad",
+            "mentira",
+            "ilusión",
+            "engaño"
+          ],
+          "answer": "vanidad",
+          "reference": "Eclesiastés 1:2",
+          "explanation": "Eclesiastés nos hace reflexionar que la vida sin Dios es vacía y sin significado duradero."
+        },
+        {
+          "id": "salmos-u4-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Eclesiastés enseña que todo lo que hacemos sin Dios es vacío y sin propósito.",
+          "isTrue": true,
+          "reference": "Eclesiastés 1:2, 12:13",
+          "explanation": "Eclesiastés muestra que sin Dios, toda nuestra búsqueda de significado es en vano."
+        },
+        {
+          "id": "salmos-u4-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es la conclusión de Eclesiastés?",
+          "text": "\"Ya se oye el final del asunto: Teme a Dios y _____ sus mandamientos.\"",
+          "options": [
+            "guarda",
+            "sigue",
+            "obedece",
+            "cumple"
+          ],
+          "answer": "guarda",
+          "reference": "Eclesiastés 12:13",
+          "explanation": "Tras explorar todo en la vida, la conclusión es que debemos temer a Dios y guardar Sus mandamientos."
+        },
+        {
+          "id": "salmos-u4-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "El mensaje central en Eclesiastés 3:1",
+          "tokens": [
+            "Todo tiene su tiempo",
+            "y hay tiempo para todo propósito",
+            "bajo el cielo",
+            "hay tiempo de nacer"
+          ],
+          "distractors": [
+            "y tiempo de morir",
+            "hay tiempo de llorar",
+            "y tiempo de reír"
+          ],
+          "reference": "Eclesiastés 3:1-2"
+        },
+        {
+          "id": "salmos-u4-l4-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Todo tiene su tiempo bajo el cielo.",
+          "options": [
+            "El tiempo es pasajero y breve",
+            "Todo tiene su tiempo bajo cielo",
+            "Hay propósito en cada estación"
+          ],
+          "answer": "Todo tiene su tiempo bajo cielo",
+          "reference": "Eclesiastés 3:1"
+        },
+        {
+          "id": "salmos-u4-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia los tiempos de Eclesiastés 3",
+          "pairs": [
+            {
+              "left": "Tiempo de nacer",
+              "right": "Tiempo de morir"
+            },
+            {
+              "left": "Tiempo de plantar",
+              "right": "Tiempo de cosechar"
+            },
+            {
+              "left": "Tiempo de llorar",
+              "right": "Tiempo de reír"
+            },
+            {
+              "left": "Tiempo de amar",
+              "right": "Tiempo de aborrecer"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Todo tiene su tiempo, y hay tiempo para todo propósito bajo el _____.",
+          "answer": "cielo",
+          "reference": "Eclesiastés 3:1",
+          "options": [
+            "cielo",
+            "sol"
+          ]
+        },
+        {
+          "id": "salmos-u4-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La vida tiene significado cuando colocamos a Dios en el centro de todo.",
+          "isTrue": true,
+          "reference": "Eclesiastés 12:13",
+          "explanation": "Cuando tememos a Dios y guardamos Sus mandamientos, nuestra vida gana propósito eterno."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u4-l5",
+      "title": "Repaso - Oración y Arrepentimiento",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "salmos-u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el propósito del arrepentimiento?",
+          "text": "El arrepentimiento es esencial para nuestra relación con Dios.",
+          "options": [
+            "Transformar nuestro corazón y restaurarnos",
+            "Solo expresar culpa",
+            "Evitar castigo de Dios",
+            "Impresionar a otras personas"
+          ],
+          "answer": "Transformar nuestro corazón y restaurarnos",
+          "reference": "Salmo 51:10",
+          "explanation": "El arrepentimiento verdadero transforma nuestro corazón y nos reconcilia con Dios."
+        },
+        {
+          "id": "salmos-u4-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Dios siempre está listo para perdonar a quienes se arrepienten sinceramente.",
+          "isTrue": true,
+          "reference": "Salmo 51:1, 139:1",
+          "explanation": "Dios es clemente y siempre abre Su corazón para el arrepentimiento genuino."
+        },
+        {
+          "id": "salmos-u4-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo debemos orar según la Palabra de Dios?",
+          "text": "Jesús nos enseñó a través del Padrenuestro cómo orar correctamente.",
+          "options": [
+            "Con honestidad, fe y reconocimiento de Dios",
+            "Solo en lugares sagrados",
+            "Con muchas palabras y formalidades",
+            "Solo para pedir bendiciones"
+          ],
+          "answer": "Con honestidad, fe y reconocimiento de Dios",
+          "reference": "Mateo 6:9-13",
+          "explanation": "La oración verdadera es comunión genuina con Dios, reconociendo Su santidad y gracia."
+        },
+        {
+          "id": "salmos-u4-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo de repaso",
+          "text": "Resumen de oración y arrepentimiento",
+          "tokens": [
+            "Crea en mí un corazón limpio",
+            "Señor, tú me conoces",
+            "Padre nuestro en los cielos",
+            "sea hecha tu voluntad"
+          ],
+          "distractors": [
+            "restaura mi alma",
+            "y líbranos del mal",
+            "santificado sea tu nombre"
+          ],
+          "reference": "Salmo 51:10, 139:1, Mateo 6:9-10"
+        },
+        {
+          "id": "salmos-u4-l5-e5",
+          "kind": "listen",
+          "prompt": "¿Qué verdad escuchaste?",
+          "text": "Todo tiene su tiempo bajo el cielo.",
+          "options": [
+            "El tiempo es pasajero y breve",
+            "Todo tiene su tiempo bajo cielo",
+            "Hay propósito en cada estación"
+          ],
+          "answer": "Todo tiene su tiempo bajo cielo",
+          "reference": "Eclesiastés 3:1"
+        },
+        {
+          "id": "salmos-u4-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia los temas finales",
+          "pairs": [
+            {
+              "left": "Arrepentimiento",
+              "right": "Cambio de corazón"
+            },
+            {
+              "left": "Oración",
+              "right": "Comunión con Dios"
+            },
+            {
+              "left": "Conocimiento de Dios",
+              "right": "Omnisciencia divina"
+            },
+            {
+              "left": "Significado de la vida",
+              "right": "Temor a Dios"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u4-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordena el camino de la transformación",
+          "text": "Jornada de transformación espiritual",
+          "tokens": [
+            "Reconocer el pecado",
+            "Arrepentirse sinceramente",
+            "Confesar a Dios",
+            "Vivir transformado"
+          ]
+        },
+        {
+          "id": "salmos-u4-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La oración y el arrepentimiento son partes esenciales de una vida sana con Dios.",
+          "isTrue": true,
+          "reference": "Salmo 51, 139, Mateo 6:9",
+          "explanation": "La oración sincera y el arrepentimiento genuino nos mantienen conectados y transformados por Dios."
+        }
+      ]
+    }
+  ]
+}

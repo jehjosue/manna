@@ -1,0 +1,650 @@
+{
+  "id": "u2",
+  "title": "Unit 2",
+  "subtitle": "The beginning of ministry",
+  "guide": {
+    "summary": "Jesus' ministry begins with his baptism and the confirmation of the Father. He overcomes the temptations in the wilderness and calls his first disciples. His first miracle in Cana reveals his power. Nicodemus learns about being born again. Everything converges on the central truth: God loves the world and offers eternal life through the Son.",
+    "keyVerses": [
+      {
+        "reference": "Matthew 3:16-17",
+        "text": "Jesus, when he was baptized, went up directly from the water; and behold, the heavens were opened to him. He saw the Spirit of God descending as a dove, coming on him. And behold, a voice out of the heavens said, \"This is my beloved Son, in whom I am well pleased.\""
+      },
+      {
+        "reference": "John 3:16",
+        "text": "For God so loved the world, that he gave his only begotten Son, that whoever believes in him should not perish, but have eternal life."
+      },
+      {
+        "reference": "John 1:1",
+        "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u2-l1",
+      "title": "John the Baptist and Baptism",
+      "icon": "drop.fill",
+      "exercises": [
+        {
+          "id": "u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"I indeed baptize you with water for repentance, but he who comes after me is mightier than I, whose shoes I am not worthy to carry. He will baptize you with the ___ and with fire.\"",
+          "speaker": "John the Baptist",
+          "options": [
+            "Holy Spirit",
+            "spirit",
+            "power",
+            "fire"
+          ],
+          "answer": "Holy Spirit",
+          "reference": "Matthew 3:11"
+        },
+        {
+          "id": "u2-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "John the Baptist was the Messiah.",
+          "isTrue": false,
+          "reference": "John 1:20",
+          "explanation": "John explicitly denied that he was the Christ (John 1:20), saying he was merely a voice preparing the way."
+        },
+        {
+          "id": "u2-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "John's preparation for Jesus",
+          "tokens": [
+            "Prepare the way",
+            "of the Lord",
+            "make straight",
+            "his paths"
+          ],
+          "distractors": [
+            "cleanse",
+            "of the king",
+            "lift up",
+            "the roads"
+          ],
+          "reference": "Matthew 3:3"
+        },
+        {
+          "id": "u2-l1-e4",
+          "kind": "multipleChoice",
+          "prompt": "Where was Jesus baptized?",
+          "text": "Jesus was baptized in the river ___.",
+          "options": [
+            "Jordan",
+            "Nile",
+            "Euphrates",
+            "Tigris"
+          ],
+          "answer": "Jordan",
+          "reference": "Matthew 3:13"
+        },
+        {
+          "id": "u2-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "John the Baptist",
+              "right": "Prepares the way"
+            },
+            {
+              "left": "Jesus",
+              "right": "Fulfills righteousness"
+            },
+            {
+              "left": "Holy Spirit",
+              "right": "Descends in form"
+            },
+            {
+              "left": "Voice of God",
+              "right": "Approves the Son"
+            }
+          ],
+          "reference": "Matthew 3"
+        },
+        {
+          "id": "u2-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "At Jesus' baptism, a voice from heaven confirmed that he was the Son of God.",
+          "isTrue": true,
+          "reference": "Matthew 3:17",
+          "explanation": "A voice from heaven said: \"This is my beloved Son, in whom I am well pleased\" (Matthew 3:17)."
+        },
+        {
+          "id": "u2-l1-e7",
+          "kind": "multipleChoice",
+          "prompt": "In what form did the Holy Spirit descend on Jesus?",
+          "text": "The Holy Spirit descended on Jesus in the form of a ___.",
+          "options": [
+            "dove",
+            "light",
+            "fire",
+            "wind"
+          ],
+          "answer": "dove",
+          "reference": "Matthew 3:16"
+        },
+        {
+          "id": "u2-l1-e8",
+          "kind": "multipleChoice",
+          "prompt": "Who baptized in the Jordan river?",
+          "text": "___ baptized people for repentance of their sins.",
+          "speaker": "Narrator",
+          "options": [
+            "John",
+            "Peter",
+            "Andrew",
+            "Philip"
+          ],
+          "answer": "John",
+          "reference": "Matthew 3:6"
+        }
+      ]
+    },
+    {
+      "id": "u2-l2",
+      "title": "The Temptation in the Wilderness",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Then Jesus was led up by the Spirit into the wilderness to be tempted by the ___. When he had fasted forty days and forty nights, he was hungry.\"",
+          "options": [
+            "devil",
+            "people",
+            "high priest",
+            "king"
+          ],
+          "answer": "devil",
+          "reference": "Matthew 4:1-2"
+        },
+        {
+          "id": "u2-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus went to the wilderness because he wanted to hide from his enemies.",
+          "isTrue": false,
+          "reference": "Matthew 4:1",
+          "explanation": "Jesus was led by the Spirit into the wilderness to be tempted by the devil, not to hide."
+        },
+        {
+          "id": "u2-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Jesus' response to the first temptation",
+          "tokens": [
+            "Man shall not live",
+            "by bread alone",
+            "but by every",
+            "word that proceeds",
+            "from the mouth of God"
+          ],
+          "distractors": [
+            "by works",
+            "of the Spirit",
+            "by faith",
+            "by his grace"
+          ],
+          "reference": "Matthew 4:4"
+        },
+        {
+          "id": "u2-l2-e4",
+          "kind": "multipleChoice",
+          "prompt": "What was the first temptation offered to Jesus?",
+          "text": "The devil asked Jesus to turn the ___ into bread.",
+          "options": [
+            "stones",
+            "sand",
+            "rocks",
+            "ground"
+          ],
+          "answer": "stones",
+          "reference": "Matthew 4:3"
+        },
+        {
+          "id": "u2-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "First temptation",
+              "right": "Bread of wilderness"
+            },
+            {
+              "left": "Second temptation",
+              "right": "Power of kingdoms"
+            },
+            {
+              "left": "Third temptation",
+              "right": "Throw from temple"
+            },
+            {
+              "left": "Scripture",
+              "right": "Weapon against devil"
+            }
+          ],
+          "reference": "Matthew 4:1-11"
+        },
+        {
+          "id": "u2-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The devil offered Jesus all the kingdoms of the world if he would worship him.",
+          "isTrue": true,
+          "reference": "Matthew 4:8-9",
+          "explanation": "The devil took Jesus to a high mountain and showed him all the kingdoms, offering them for worship (Matthew 4:8-9)."
+        },
+        {
+          "id": "u2-l2-e7",
+          "kind": "multipleChoice",
+          "prompt": "How did Jesus always respond to the temptations?",
+          "text": "Jesus responded with verses from the ___.",
+          "options": [
+            "Scripture",
+            "tradition",
+            "wisdom",
+            "oral law"
+          ],
+          "answer": "Scripture",
+          "reference": "Matthew 4:4,7,10"
+        },
+        {
+          "id": "u2-l2-e8",
+          "kind": "multipleChoice",
+          "prompt": "How many days did Jesus fast in the wilderness?",
+          "text": "Jesus fasted for ___ days and ___ nights.",
+          "options": [
+            "forty and forty",
+            "thirty and thirty",
+            "twenty and twenty",
+            "ten and ten"
+          ],
+          "answer": "forty and forty",
+          "reference": "Matthew 4:2"
+        }
+      ]
+    },
+    {
+      "id": "u2-l3",
+      "title": "Calling of the Disciples",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Jesus said to him: Follow me, and let the ___ bury their dead.\"",
+          "speaker": "Jesus",
+          "options": [
+            "dead",
+            "sinners",
+            "living",
+            "ungodly"
+          ],
+          "answer": "dead",
+          "reference": "Matthew 8:22"
+        },
+        {
+          "id": "u2-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Peter, Andrew, James, and John were fishermen when Jesus called them.",
+          "isTrue": true,
+          "reference": "Matthew 4:18-22",
+          "explanation": "Peter and Andrew were casting nets into the sea, and James and John were in the boat with Zebedee, their father (Matthew 4:18-22)."
+        },
+        {
+          "id": "u2-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Jesus' promise to the first disciples",
+          "tokens": [
+            "Come after me",
+            "and I will make you",
+            "fishers of men"
+          ],
+          "distractors": [
+            "and you will become",
+            "apostles",
+            "wise",
+            "kings"
+          ],
+          "reference": "Matthew 4:19"
+        },
+        {
+          "id": "u2-l3-e4",
+          "kind": "multipleChoice",
+          "prompt": "What was Matthew's profession before he followed Jesus?",
+          "text": "Matthew was a ___ of taxes.",
+          "options": [
+            "collector",
+            "guardian",
+            "lord",
+            "servant"
+          ],
+          "answer": "collector",
+          "reference": "Matthew 9:9"
+        },
+        {
+          "id": "u2-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Peter",
+              "right": "Simon Peter"
+            },
+            {
+              "left": "Matthew",
+              "right": "Tax collector"
+            },
+            {
+              "left": "John",
+              "right": "Beloved disciple"
+            },
+            {
+              "left": "Judas",
+              "right": "Traitor"
+            }
+          ],
+          "reference": "Matthew 10:1-4"
+        },
+        {
+          "id": "u2-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus chose twelve disciples to be with him.",
+          "isTrue": true,
+          "reference": "Mark 3:14",
+          "explanation": "Jesus appointed twelve disciples to be with him and to send them out to preach (Mark 3:14)."
+        },
+        {
+          "id": "u2-l3-e7",
+          "kind": "multipleChoice",
+          "prompt": "What name did Jesus give to Simon?",
+          "text": "Jesus gave Simon the name ___.",
+          "options": [
+            "Peter",
+            "Cephas",
+            "Rock",
+            "all above"
+          ],
+          "answer": "all above",
+          "reference": "Matthew 16:18"
+        },
+        {
+          "id": "u2-l3-e8",
+          "kind": "multipleChoice",
+          "prompt": "What did the first disciples leave to follow Jesus?",
+          "text": "Peter and Andrew left their ___ and followed Jesus.",
+          "options": [
+            "nets",
+            "boats",
+            "houses",
+            "families"
+          ],
+          "answer": "nets",
+          "reference": "Matthew 4:20"
+        }
+      ]
+    },
+    {
+      "id": "u2-l4",
+      "title": "Wedding at Cana and Nicodemus",
+      "icon": "gift.fill",
+      "exercises": [
+        {
+          "id": "u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Jesus said to them: Fill these jars with water. And they filled them up to the ___.\"",
+          "speaker": "Jesus",
+          "options": [
+            "brim",
+            "middle",
+            "end",
+            "edge"
+          ],
+          "answer": "brim",
+          "reference": "John 2:7"
+        },
+        {
+          "id": "u2-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "This was Jesus' first miracle, performed at Cana of Galilee.",
+          "isTrue": true,
+          "reference": "John 2:11",
+          "explanation": "This was the first of the signs that Jesus performed, at Cana of Galilee (John 2:11)."
+        },
+        {
+          "id": "u2-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The most important conversation in the Bible with Nicodemus",
+          "tokens": [
+            "For God",
+            "so loved the world",
+            "that he gave",
+            "his only begotten",
+            "Son"
+          ],
+          "distractors": [
+            "sent",
+            "sacrificed",
+            "his firstborn",
+            "to save"
+          ],
+          "reference": "John 3:16"
+        },
+        {
+          "id": "u2-l4-e4",
+          "kind": "multipleChoice",
+          "prompt": "Who was Nicodemus?",
+          "text": "Nicodemus was a ___ of the Jews.",
+          "options": [
+            "Pharisee",
+            "scribe",
+            "priest",
+            "Levite"
+          ],
+          "answer": "Pharisee",
+          "reference": "John 3:1"
+        },
+        {
+          "id": "u2-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Wedding at Cana",
+              "right": "First miracle"
+            },
+            {
+              "left": "Water",
+              "right": "Turned to wine"
+            },
+            {
+              "left": "Nicodemus",
+              "right": "Born again"
+            },
+            {
+              "left": "John 3:16",
+              "right": "God's love"
+            }
+          ],
+          "reference": "John 2 and 3"
+        },
+        {
+          "id": "u2-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Nicodemus came to speak with Jesus at night.",
+          "isTrue": true,
+          "reference": "John 3:2",
+          "explanation": "Nicodemus came to Jesus by night, for fear of the Jews (John 3:2)."
+        },
+        {
+          "id": "u2-l4-e7",
+          "kind": "multipleChoice",
+          "prompt": "What did Jesus turn into wine?",
+          "text": "Jesus turned ___ into wine at the wedding of Cana.",
+          "options": [
+            "water",
+            "juice",
+            "milk",
+            "oil"
+          ],
+          "answer": "water",
+          "reference": "John 2:9"
+        },
+        {
+          "id": "u2-l4-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse about the one who believes",
+          "text": "\"He who believes in the Son has eternal life; but he who doesn't obey the Son won't see life, but God's wrath remains on ___\".",
+          "options": [
+            "him",
+            "him and the Son",
+            "God the Father",
+            "God Almighty"
+          ],
+          "answer": "him",
+          "reference": "John 3:36"
+        }
+      ]
+    },
+    {
+      "id": "u2-l5",
+      "title": "The Great Love of God",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"For God so loved the world, that he gave his ___ Son, that whoever believes in him should not perish, but have eternal life.\"",
+          "options": [
+            "only begotten",
+            "firstborn",
+            "servant",
+            "prophet"
+          ],
+          "answer": "only begotten",
+          "reference": "John 3:16"
+        },
+        {
+          "id": "u2-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "John 3:16 expresses the foundation of God's love for all humanity.",
+          "isTrue": true,
+          "reference": "John 3:16",
+          "explanation": "This verse is a perfect summary of the Gospel and God's grace."
+        },
+        {
+          "id": "u2-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The reason for Jesus' death",
+          "tokens": [
+            "For God",
+            "so loved the world",
+            "that he gave",
+            "his only begotten",
+            "Son"
+          ],
+          "distractors": [
+            "to judge it",
+            "to stone it",
+            "to destroy it",
+            "to punish"
+          ],
+          "reference": "John 3:16"
+        },
+        {
+          "id": "u2-l5-e4",
+          "kind": "multipleChoice",
+          "prompt": "What happens to the one who believes in Jesus?",
+          "text": "The one who believes in Jesus does not ___.",
+          "options": [
+            "perish",
+            "die",
+            "suffer",
+            "is judged"
+          ],
+          "answer": "perish",
+          "reference": "John 3:16"
+        },
+        {
+          "id": "u2-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "God",
+              "right": "So loved the world"
+            },
+            {
+              "left": "His Son",
+              "right": "To save"
+            },
+            {
+              "left": "The one who believes",
+              "right": "Has eternal life"
+            },
+            {
+              "left": "The message",
+              "right": "Hope and love"
+            }
+          ],
+          "reference": "John 3:16"
+        },
+        {
+          "id": "u2-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "God's purpose in sending his Son was to condemn the world.",
+          "isTrue": false,
+          "reference": "John 3:17",
+          "explanation": "God didn't send his Son to condemn the world, but that the world through him might be saved (John 3:17)."
+        },
+        {
+          "id": "u2-l5-e7",
+          "kind": "multipleChoice",
+          "prompt": "What is the consequence of not believing in Jesus?",
+          "text": "The one who doesn't believe is already ___.",
+          "options": [
+            "condemned",
+            "cursed",
+            "separated",
+            "lost"
+          ],
+          "answer": "condemned",
+          "reference": "John 3:18"
+        },
+        {
+          "id": "u2-l5-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete the promise of eternal life",
+          "text": "\"He who believes in the Son has eternal ___; but he who doesn't obey the Son won't see life, but God's wrath remains on him.\"",
+          "options": [
+            "life",
+            "endless time",
+            "life of the Father",
+            "infinite life"
+          ],
+          "answer": "life",
+          "reference": "John 3:36"
+        }
+      ]
+    }
+  ]
+}

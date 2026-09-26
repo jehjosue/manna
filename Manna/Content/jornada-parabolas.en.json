@@ -1,0 +1,2515 @@
+{
+  "id": "parabolas",
+  "title": "Jesus' Parables",
+  "subtitle": "Stories that teach the Kingdom",
+  "icon": "leaf.fill",
+  "order": 2,
+  "units": [
+    {
+      "id": "parabolas-u1",
+      "title": "Unit 1",
+      "subtitle": "The Kingdom of God",
+      "guide": {
+        "summary": "Jesus taught about the nature of the Kingdom through parables about growth, small beginnings, and great value. The Kingdom starts small as a seed, grows imperceptibly, and is of incalculable value to those who discover it.",
+        "keyVerses": [
+          {
+            "reference": "Matthew 13:31-32",
+            "text": "The kingdom of heaven is like a grain of mustard seed, which a man took, and sowed in his field; which indeed is smaller than all seeds. But when it is grown, it is greater than the herbs, and becomes a tree, so that the birds of the sky come and lodge in its branches."
+          },
+          {
+            "reference": "Matthew 13:44",
+            "text": "Again, the kingdom of heaven is like a treasure hidden in the field, which a man found, and hid. In his joy, he goes and sells all that he has, and buys that field."
+          },
+          {
+            "reference": "Matthew 13:45-46",
+            "text": "Again, the kingdom of heaven is like a merchant seeking fine pearls; and having found one pearl of great value, he went and sold all that he had, and bought it."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "parabolas-u1-l1",
+          "title": "The Sower",
+          "icon": "star.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u1-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the seed in the Parable of the Sower?",
+              "text": "In the Parable of the Sower, the seed represents the ___ of God.",
+              "speaker": "Jesus",
+              "options": [
+                "Word",
+                "will",
+                "creation",
+                "action"
+              ],
+              "answer": "Word",
+              "reference": "Matthew 13:19",
+              "explanation": "The seed in the parable represents the Word of the Kingdom, which the sower plants in hearts."
+            },
+            {
+              "id": "parabolas-u1-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "\"The one who sowed the good seed is the ___.\"",
+              "answer": "Son",
+              "options": [
+                "Son",
+                "son",
+                "Son of Man",
+                "Savior"
+              ],
+              "reference": "Matthew 13:37",
+              "explanation": "Jesus explained that the one who sowed the good seed is the Son of Man, referring to himself."
+            },
+            {
+              "id": "parabolas-u1-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Different types of soil in the parable",
+              "tokens": [
+                "Whoever has ears",
+                "to hear",
+                "let him hear"
+              ],
+              "distractors": [
+                "to understand",
+                "read",
+                "comprehend",
+                "see"
+              ],
+              "reference": "Matthew 13:9"
+            },
+            {
+              "id": "parabolas-u1-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the types of soil in order",
+              "text": "In the Parable of the Sower, Jesus describes four types of soil where the seed falls.",
+              "tokens": [
+                "Seed falls on the path",
+                "Seed falls on rocky ground",
+                "Seed falls among thorns",
+                "Seed falls on good soil"
+              ],
+              "reference": "Matthew 13:4-8"
+            },
+            {
+              "id": "parabolas-u1-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the types of soil",
+              "pairs": [
+                {
+                  "left": "Path",
+                  "right": "Word is stolen"
+                },
+                {
+                  "left": "Rocky ground",
+                  "right": "Shallow faith"
+                },
+                {
+                  "left": "Thorns",
+                  "right": "Worldly worries"
+                },
+                {
+                  "left": "Good soil",
+                  "right": "Receptive heart"
+                }
+              ],
+              "reference": "Matthew 13:19-23"
+            },
+            {
+              "id": "parabolas-u1-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "In the Parable of the Sower, every seed that falls produces a great harvest.",
+              "isTrue": false,
+              "reference": "Matthew 13:4-9",
+              "explanation": "Not every seed produces a harvest. Only the seed that falls on good soil produces abundant fruit."
+            },
+            {
+              "id": "parabolas-u1-l1-e7",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Listen to what Jesus said: The seed is the word of God.",
+              "options": [
+                "The seed is the word of God",
+                "The seed is wisdom",
+                "The seed is love",
+                "The seed is forgiveness"
+              ],
+              "answer": "The seed is the word of God",
+              "reference": "Luke 8:11"
+            },
+            {
+              "id": "parabolas-u1-l1-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Whoever has ears to hear, let him hear.",
+              "reference": "Matthew 13:9"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u1-l2",
+          "title": "The Grain of Mustard",
+          "icon": "book.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u1-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the smallest seed?",
+              "text": "The mustard seed is ___ of all seeds.",
+              "options": [
+                "the smallest",
+                "the hardest",
+                "the rarest",
+                "the lightest"
+              ],
+              "answer": "the smallest",
+              "reference": "Matthew 13:32"
+            },
+            {
+              "id": "parabolas-u1-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "\"When it is grown, it is the greatest of the herbs and becomes a ___.\"",
+              "answer": "tree",
+              "options": [
+                "tree",
+                "plant",
+                "shrub",
+                "bush"
+              ],
+              "reference": "Matthew 13:32"
+            },
+            {
+              "id": "parabolas-u1-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The growth of the mustard seed",
+              "tokens": [
+                "It is the smallest",
+                "of all seeds",
+                "but when grown",
+                "it is the greatest"
+              ],
+              "distractors": [
+                "of all trees",
+                "in the world",
+                "in the field",
+                "of all plants"
+              ],
+              "reference": "Matthew 13:32"
+            },
+            {
+              "id": "parabolas-u1-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Put in order by size",
+              "text": "Evolution of the mustard seed in the parable.",
+              "tokens": [
+                "Very small seed",
+                "Grows slowly",
+                "Becomes larger than vegetables",
+                "Becomes a tree"
+              ],
+              "reference": "Matthew 13:31-32"
+            },
+            {
+              "id": "parabolas-u1-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the concepts",
+              "pairs": [
+                {
+                  "left": "Mustard seed",
+                  "right": "Symbol of the Kingdom"
+                },
+                {
+                  "left": "Small beginning",
+                  "right": "Remarkable growth"
+                },
+                {
+                  "left": "Birds of the sky",
+                  "right": "Rest in the branches"
+                },
+                {
+                  "left": "Small faith",
+                  "right": "Great results"
+                }
+              ],
+              "reference": "Matthew 13:31-32"
+            },
+            {
+              "id": "parabolas-u1-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "In the parable, the mustard seed grows quickly to become a tree.",
+              "isTrue": false,
+              "reference": "Matthew 13:31-32",
+              "explanation": "The parable does not mention speed; only that from a small grain, it grows to be a great tree where birds rest."
+            },
+            {
+              "id": "parabolas-u1-l2-e7",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Listen: The Kingdom is like a small seed.",
+              "options": [
+                "The Kingdom is like a small seed",
+                "The Kingdom is like a treasure",
+                "The Kingdom is like a pearl",
+                "The Kingdom is like a feast"
+              ],
+              "answer": "The Kingdom is like a small seed",
+              "reference": "Matthew 13:31"
+            },
+            {
+              "id": "parabolas-u1-l2-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "The Kingdom of heaven is like a grain.",
+              "reference": "Matthew 13:31"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u1-l3",
+          "title": "The Leaven in the Dough",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "parabolas-u1-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "What did the woman mix with the flour?",
+              "text": "A woman took ___ and mixed it with three measures of flour.",
+              "options": [
+                "leaven",
+                "salt",
+                "oil",
+                "water"
+              ],
+              "answer": "leaven",
+              "reference": "Matthew 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "\"The Kingdom is like leaven that a woman takes and mixes in the ___.\"",
+              "answer": "dough",
+              "options": [
+                "dough",
+                "flour",
+                "recipe",
+                "pan"
+              ],
+              "reference": "Matthew 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The effect of leaven on the dough",
+              "tokens": [
+                "A woman",
+                "took leaven",
+                "until all was leavened"
+              ],
+              "distractors": [
+                "it swelled",
+                "it rose",
+                "it lifted",
+                "it changed"
+              ],
+              "reference": "Matthew 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Put in order the process",
+              "text": "Sequence of the Parable of the Leaven.",
+              "tokens": [
+                "Woman takes leaven",
+                "Mixes with flour",
+                "Puts in the dough",
+                "All leavens"
+              ],
+              "reference": "Matthew 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the elements",
+              "pairs": [
+                {
+                  "left": "Leaven",
+                  "right": "Agent of change"
+                },
+                {
+                  "left": "Woman",
+                  "right": "Mixes it all"
+                },
+                {
+                  "left": "Dough",
+                  "right": "Transformed world"
+                },
+                {
+                  "left": "Leavening",
+                  "right": "Invisible change"
+                }
+              ],
+              "reference": "Matthew 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "In the parable, the leaven transforms all the dough from the inside out.",
+              "isTrue": true,
+              "reference": "Matthew 13:33",
+              "explanation": "The leaven works invisibly and gradually, transforming all the dough until everything is leavened."
+            },
+            {
+              "id": "parabolas-u1-l3-e7",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "The Kingdom works like leaven in dough.",
+              "options": [
+                "The Kingdom works like leaven",
+                "The Kingdom is a tree",
+                "The Kingdom is a treasure",
+                "The Kingdom is a seed"
+              ],
+              "answer": "The Kingdom works like leaven",
+              "reference": "Matthew 13:33"
+            },
+            {
+              "id": "parabolas-u1-l3-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Leaven transforms the dough invisibly and completely.",
+              "reference": "Matthew 13:33"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u1-l4",
+          "title": "The Treasure and the Pearl",
+          "icon": "person.2.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u1-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "What did the person sell to buy the treasure?",
+              "text": "The man sold everything he had to buy the ___.",
+              "options": [
+                "field",
+                "gold",
+                "kingdom",
+                "palace"
+              ],
+              "answer": "field",
+              "reference": "Matthew 13:44"
+            },
+            {
+              "id": "parabolas-u1-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "\"In his ___, he goes and sells all that he has.\"",
+              "answer": "joy",
+              "options": [
+                "joy",
+                "haste",
+                "greed",
+                "urgency"
+              ],
+              "reference": "Matthew 13:44"
+            },
+            {
+              "id": "parabolas-u1-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse about the pearl",
+              "text": "Action of the merchant when finding the pearl",
+              "tokens": [
+                "Goes and sells",
+                "all that he has",
+                "and buys it"
+              ],
+              "distractors": [
+                "keeps it",
+                "hides it",
+                "examines it",
+                "offers it"
+              ],
+              "reference": "Matthew 13:46"
+            },
+            {
+              "id": "parabolas-u1-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Put in order the discovery",
+              "text": "Sequence of the two parables of value.",
+              "tokens": [
+                "Man finds treasure",
+                "Hides it again",
+                "Sells everything",
+                "Buys the field"
+              ],
+              "reference": "Matthew 13:44"
+            },
+            {
+              "id": "parabolas-u1-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the characters",
+              "pairs": [
+                {
+                  "left": "Hidden treasure",
+                  "right": "Found by chance"
+                },
+                {
+                  "left": "Merchant",
+                  "right": "Seeks pearls"
+                },
+                {
+                  "left": "Pearl of great value",
+                  "right": "Worth everything"
+                },
+                {
+                  "left": "Selling everything",
+                  "right": "True priority"
+                }
+              ],
+              "reference": "Matthew 13:44-46"
+            },
+            {
+              "id": "parabolas-u1-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "In both the treasure and the pearl, the person gave up everything to obtain them.",
+              "isTrue": true,
+              "reference": "Matthew 13:44,46",
+              "explanation": "Both parables show people willing to sell all they have to acquire what has true value."
+            },
+            {
+              "id": "parabolas-u1-l4-e7",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "The Kingdom is like a merchant seeking pearls.",
+              "options": [
+                "A merchant seeks pearls",
+                "A man finds treasure",
+                "The pearl is rare",
+                "The field has value"
+              ],
+              "answer": "A merchant seeks pearls",
+              "reference": "Matthew 13:45"
+            },
+            {
+              "id": "parabolas-u1-l4-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "It is worth selling everything for the Kingdom.",
+              "reference": "Matthew 13:44-46"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u1-l5",
+          "title": "Review: The Kingdom",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u1-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What does the seed represent in the Parable of the Sower?",
+              "text": "The seed represents the ___ of God.",
+              "options": [
+                "Word",
+                "will",
+                "wisdom",
+                "strength"
+              ],
+              "answer": "Word",
+              "reference": "Matthew 13:19"
+            },
+            {
+              "id": "parabolas-u1-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The Kingdom is like a grain of ___ very small.",
+              "answer": "mustard",
+              "options": [
+                "mustard",
+                "salt",
+                "wheat",
+                "barley"
+              ],
+              "reference": "Matthew 13:31"
+            },
+            {
+              "id": "parabolas-u1-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Put the parables in order",
+              "text": "Order of the 5 parables of the Kingdom.",
+              "tokens": [
+                "Sower plants the word",
+                "Grain grows invisibly",
+                "Leaven transforms",
+                "Treasure waits to be discovered"
+              ],
+              "reference": "Matthew 13:1-46"
+            },
+            {
+              "id": "parabolas-u1-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Match the teachings",
+              "pairs": [
+                {
+                  "left": "Sower",
+                  "right": "Receives the word"
+                },
+                {
+                  "left": "Mustard",
+                  "right": "Small becomes great"
+                },
+                {
+                  "left": "Leaven",
+                  "right": "Transforms everything"
+                },
+                {
+                  "left": "Treasure",
+                  "right": "Worth everything"
+                }
+              ],
+              "reference": "Matthew 13"
+            },
+            {
+              "id": "parabolas-u1-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Build the verse for review",
+              "text": "Central theme of the parables of the Kingdom",
+              "tokens": [
+                "The Kingdom",
+                "of heaven is",
+                "like"
+              ],
+              "distractors": [
+                "The kingdom is",
+                "The Kingdom will be",
+                "The Kingdom will come",
+                "The Kingdom seemed"
+              ],
+              "reference": "Matthew 13"
+            },
+            {
+              "id": "parabolas-u1-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "All the parables of the Kingdom talk about something that grows or transforms gradually.",
+              "isTrue": true,
+              "reference": "Matthew 13:1-46",
+              "explanation": "From the sower to the treasure, the parables show processes of transformation, growth, or revelation."
+            },
+            {
+              "id": "parabolas-u1-l5-e7",
+              "kind": "listen",
+              "prompt": "What is the theme of the parables?",
+              "text": "All the parables teach about the Kingdom of God.",
+              "options": [
+                "About the Kingdom of God",
+                "About judgment",
+                "About death",
+                "About sin"
+              ],
+              "answer": "About the Kingdom of God",
+              "reference": "Matthew 13"
+            },
+            {
+              "id": "parabolas-u1-l5-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "The Kingdom of God is more valuable than anything.",
+              "reference": "Matthew 13:44-46"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u2",
+      "title": "Unit 2",
+      "subtitle": "Forgiveness and Grace",
+      "guide": {
+        "summary": "Jesus revealed the depth of God's grace through parables about forgiveness. He showed that God forgives infinitely, celebrates the return of sinners, and invites the hardened heart to surrender to his immeasurable love.",
+        "keyVerses": [
+          {
+            "reference": "Luke 15:20-24",
+            "text": "He arose, and came to his father. But while he was still far off, his father saw him, and was moved with compassion, and ran, and fell on his neck, and kissed him. The son said to him, 'Father, I have sinned against heaven, and in your sight. I am no more worthy to be called your son.' But the father said to his servants, 'Bring out the best robe, and put it on him. Put a ring on his hand, and shoes on his feet.'"
+          },
+          {
+            "reference": "Luke 15:32",
+            "text": "It was appropriate to celebrate and be glad, for this your brother was dead, and is alive again. He was lost, and is found."
+          },
+          {
+            "reference": "Matthew 18:21-22",
+            "text": "Then Peter came and said to him, 'Lord, how often shall my brother sin against me, and I forgive him? Until seven times?' Jesus said to him, 'I don't tell you until seven times, but until seventy times seven.'"
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "parabolas-u2-l1",
+          "title": "The Prodigal Son",
+          "icon": "heart.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u2-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "What did the prodigal son ask his father?",
+              "text": "\"Father, give me my share of the ___\".",
+              "speaker": "Prodigal son",
+              "options": [
+                "inheritance",
+                "house",
+                "property",
+                "wealth"
+              ],
+              "answer": "inheritance",
+              "reference": "Luke 15:12"
+            },
+            {
+              "id": "parabolas-u2-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The prodigal son went to live in a ___ country and lost everything.",
+              "answer": "distant",
+              "options": [
+                "distant",
+                "faraway",
+                "remote",
+                "foreign"
+              ],
+              "reference": "Luke 15:13"
+            },
+            {
+              "id": "parabolas-u2-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse of decision",
+              "text": "When the son returns",
+              "tokens": [
+                "Rising up",
+                "went to",
+                "his father"
+              ],
+              "distractors": [
+                "left the road",
+                "ran away",
+                "went ahead",
+                "departed far"
+              ],
+              "reference": "Luke 15:20"
+            },
+            {
+              "id": "parabolas-u2-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the story in order",
+              "text": "Sequence of the Parable of the Prodigal Son.",
+              "tokens": [
+                "Son asks for inheritance",
+                "Squanders it in vice",
+                "Returns in repentance",
+                "Father celebrates his return"
+              ],
+              "reference": "Luke 15:11-32"
+            },
+            {
+              "id": "parabolas-u2-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the elements",
+              "pairs": [
+                {
+                  "left": "Prodigal son",
+                  "right": "Returns in repentance"
+                },
+                {
+                  "left": "Loving father",
+                  "right": "Receives with grace"
+                },
+                {
+                  "left": "Older son",
+                  "right": "Resentment"
+                },
+                {
+                  "left": "Feast",
+                  "right": "Celebration of forgiveness"
+                }
+              ],
+              "reference": "Luke 15:11-32"
+            },
+            {
+              "id": "parabolas-u2-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The father rejected the prodigal son because of his sins.",
+              "isTrue": false,
+              "reference": "Luke 15:20-24",
+              "explanation": "The father ran to meet him, kissed him, and celebrated his return with a great feast."
+            },
+            {
+              "id": "parabolas-u2-l1-e7",
+              "kind": "listen",
+              "prompt": "What did the father do?",
+              "text": "Listen: The father celebrated the son's return with joy.",
+              "options": [
+                "Celebrated with joy",
+                "Rejected the son",
+                "Demanded explanations",
+                "Apologized"
+              ],
+              "answer": "Celebrated with joy",
+              "reference": "Luke 15:23-24"
+            },
+            {
+              "id": "parabolas-u2-l1-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "This my son was dead, and is alive again.",
+              "reference": "Luke 15:24"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u2-l2",
+          "title": "The Lost Sheep",
+          "icon": "leaf.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u2-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "How many sheep did the shepherd leave?",
+              "text": "The shepherd left ___ sheep to look for the lost one.",
+              "options": [
+                "ninety-nine",
+                "one hundred",
+                "ninety",
+                "eighty"
+              ],
+              "answer": "ninety-nine",
+              "reference": "Luke 15:4"
+            },
+            {
+              "id": "parabolas-u2-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "\"If he finds it, he rejoices over it more than over the ninety ___\".",
+              "answer": "nine",
+              "options": [
+                "nine",
+                "nine that",
+                "that didn't get lost",
+                "remaining"
+              ],
+              "reference": "Matthew 18:13"
+            },
+            {
+              "id": "parabolas-u2-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The joy of the shepherd when finding",
+              "tokens": [
+                "There is more joy",
+                "in heaven",
+                "over one sinner",
+                "who repents"
+              ],
+              "distractors": [
+                "over the sheep found",
+                "in the fields",
+                "among men",
+                "forever"
+              ],
+              "reference": "Luke 15:7"
+            },
+            {
+              "id": "parabolas-u2-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the search in order",
+              "text": "Sequence of the Lost Sheep.",
+              "tokens": [
+                "Shepherd notices one missing",
+                "Leaves the ninety-nine",
+                "Searches until he finds",
+                "Carries it on his shoulders"
+              ],
+              "reference": "Luke 15:4-6"
+            },
+            {
+              "id": "parabolas-u2-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the meanings",
+              "pairs": [
+                {
+                  "left": "Shepherd",
+                  "right": "God seeking"
+                },
+                {
+                  "left": "Lost sheep",
+                  "right": "Sinner far away"
+                },
+                {
+                  "left": "Diligent search",
+                  "right": "Active grace"
+                },
+                {
+                  "left": "Heavenly joy",
+                  "right": "Repentance"
+                }
+              ],
+              "reference": "Luke 15:3-7"
+            },
+            {
+              "id": "parabolas-u2-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The shepherd was happy only because he found the lost sheep.",
+              "isTrue": false,
+              "reference": "Luke 15:6-7",
+              "explanation": "There was special joy in heaven among the angels when the sheep repented, not just from finding it."
+            },
+            {
+              "id": "parabolas-u2-l2-e7",
+              "kind": "listen",
+              "prompt": "What did the shepherd do?",
+              "text": "Listen: The shepherd searches for the sheep until he finds it.",
+              "options": [
+                "Searches until he finds it",
+                "Waits for it to return",
+                "Forgets about it",
+                "Sells it"
+              ],
+              "answer": "Searches until he finds it",
+              "reference": "Luke 15:4"
+            },
+            {
+              "id": "parabolas-u2-l2-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "There is joy in heaven when one sinner repents.",
+              "reference": "Luke 15:7"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u2-l3",
+          "title": "The Lost Coin",
+          "icon": "drop.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u2-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "How many coins did the woman have?",
+              "text": "The woman had ___ silver coins.",
+              "options": [
+                "ten",
+                "five",
+                "seven",
+                "twelve"
+              ],
+              "answer": "ten",
+              "reference": "Luke 15:8"
+            },
+            {
+              "id": "parabolas-u2-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The woman ___ the house to look for the coin.",
+              "answer": "swept",
+              "options": [
+                "swept",
+                "searched",
+                "cleaned",
+                "lit"
+              ],
+              "reference": "Luke 15:8"
+            },
+            {
+              "id": "parabolas-u2-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The woman's reaction when finding",
+              "tokens": [
+                "Called her friends",
+                "and neighbors",
+                "saying: Rejoice with me"
+              ],
+              "distractors": [
+                "Celebrated in secret",
+                "Kept it for herself",
+                "Wept with joy",
+                "Gave it to the poor"
+              ],
+              "reference": "Luke 15:9"
+            },
+            {
+              "id": "parabolas-u2-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the search in order",
+              "text": "Sequence of the Lost Coin.",
+              "tokens": [
+                "Woman loses one coin",
+                "Searches diligently",
+                "Finds the coin",
+                "Celebrates with friends"
+              ],
+              "reference": "Luke 15:8-9"
+            },
+            {
+              "id": "parabolas-u2-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the meanings",
+              "pairs": [
+                {
+                  "left": "Woman",
+                  "right": "God seeking"
+                },
+                {
+                  "left": "Lost coin",
+                  "right": "Person far away"
+                },
+                {
+                  "left": "Careful search",
+                  "right": "Determination"
+                },
+                {
+                  "left": "Shared joy",
+                  "right": "Heaven celebrates"
+                }
+              ],
+              "reference": "Luke 15:8-10"
+            },
+            {
+              "id": "parabolas-u2-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The woman gave up looking for the coin and bought another.",
+              "isTrue": false,
+              "reference": "Luke 15:8",
+              "explanation": "The woman searched diligently until she found the lost coin and celebrated finding it."
+            },
+            {
+              "id": "parabolas-u2-l3-e7",
+              "kind": "listen",
+              "prompt": "What did the woman do?",
+              "text": "Listen: The woman searched for the lost coin with determination.",
+              "options": [
+                "Searched with determination",
+                "Forgot about it",
+                "Gave it up for lost",
+                "Asked for help"
+              ],
+              "answer": "Searched with determination",
+              "reference": "Luke 15:8"
+            },
+            {
+              "id": "parabolas-u2-l3-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "I have found the coin that I had lost.",
+              "reference": "Luke 15:9"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u2-l4",
+          "title": "The Servant Who Did Not Forgive",
+          "icon": "flame.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u2-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "How much did the servant owe the king?",
+              "text": "The servant owed the king ten thousand ___.",
+              "options": [
+                "talents",
+                "coins",
+                "denarii",
+                "gold"
+              ],
+              "answer": "talents",
+              "reference": "Matthew 18:24"
+            },
+            {
+              "id": "parabolas-u2-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The king was moved with compassion and ___ the servant's debt.",
+              "answer": "forgave",
+              "options": [
+                "forgave",
+                "cancelled",
+                "erased",
+                "released"
+              ],
+              "reference": "Matthew 18:27"
+            },
+            {
+              "id": "parabolas-u2-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse about lack of forgiveness",
+              "text": "Behavior of the ungrateful servant",
+              "tokens": [
+                "Finding a servant",
+                "who owed",
+                "one hundred denarii",
+                "seized him by the throat"
+              ],
+              "distractors": [
+                "kissed him",
+                "forgave him",
+                "freed him",
+                "strangled him"
+              ],
+              "reference": "Matthew 18:28"
+            },
+            {
+              "id": "parabolas-u2-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of the Parable of the Servant.",
+              "tokens": [
+                "Servant owes much",
+                "King forgives the debt",
+                "Servant doesn't forgive little",
+                "King punishes him"
+              ],
+              "reference": "Matthew 18:23-35"
+            },
+            {
+              "id": "parabolas-u2-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the details",
+              "pairs": [
+                {
+                  "left": "Ten thousand talents",
+                  "right": "Servant's debt to the king"
+                },
+                {
+                  "left": "One hundred denarii",
+                  "right": "Smaller debt"
+                },
+                {
+                  "left": "Compassionate king",
+                  "right": "Offers grace"
+                },
+                {
+                  "left": "Merciless servant",
+                  "right": "Does not forgive"
+                }
+              ],
+              "reference": "Matthew 18:23-35"
+            },
+            {
+              "id": "parabolas-u2-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The servant forgave his companion just as he was forgiven.",
+              "isTrue": false,
+              "reference": "Matthew 18:28-30",
+              "explanation": "The servant, despite being forgiven a huge debt, did not forgive a small debt of his companion."
+            },
+            {
+              "id": "parabolas-u2-l4-e7",
+              "kind": "listen",
+              "prompt": "What did the king do?",
+              "text": "Listen: The king completely forgave the debt.",
+              "options": [
+                "Completely forgave",
+                "Reduced the debt",
+                "Increased the debt",
+                "Strangled the servant"
+              ],
+              "answer": "Completely forgave",
+              "reference": "Matthew 18:27"
+            },
+            {
+              "id": "parabolas-u2-l4-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Forgive as we have been forgiven by God.",
+              "reference": "Matthew 18:35"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u2-l5",
+          "title": "Review: Forgiveness and Grace",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u2-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the common theme of these parables?",
+              "text": "All speak about God's ___.",
+              "options": [
+                "forgiveness",
+                "power",
+                "judgment",
+                "reign"
+              ],
+              "answer": "forgiveness",
+              "reference": "Luke 15"
+            },
+            {
+              "id": "parabolas-u2-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "We should forgive seventy times ___.",
+              "answer": "seven",
+              "options": [
+                "seven",
+                "seventy",
+                "seven times",
+                "always"
+              ],
+              "reference": "Matthew 18:22"
+            },
+            {
+              "id": "parabolas-u2-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Put the parables in order",
+              "text": "Sequence of the 5 parables.",
+              "tokens": [
+                "Prodigal son returns",
+                "Lost sheep is found",
+                "Lost coin is found",
+                "Servant does not forgive"
+              ],
+              "reference": "Luke 15 and Matthew 18"
+            },
+            {
+              "id": "parabolas-u2-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Match each parable",
+              "pairs": [
+                {
+                  "left": "Prodigal son",
+                  "right": "Returns home"
+                },
+                {
+                  "left": "Sheep",
+                  "right": "Shepherd seeks"
+                },
+                {
+                  "left": "Coin",
+                  "right": "Woman searches"
+                },
+                {
+                  "left": "Servant",
+                  "right": "Does not forgive"
+                }
+              ],
+              "reference": "Luke 15 and Matthew 18"
+            },
+            {
+              "id": "parabolas-u2-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Build the key verse",
+              "text": "Theme of forgiveness",
+              "tokens": [
+                "So also",
+                "will my",
+                "heavenly Father"
+              ],
+              "distractors": [
+                "will to all",
+                "will always",
+                "will in secret",
+                "will later"
+              ],
+              "reference": "Matthew 18:35"
+            },
+            {
+              "id": "parabolas-u2-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The parables show that God always seeks and receives those who repent.",
+              "isTrue": true,
+              "reference": "Luke 15 and Matthew 18:35",
+              "explanation": "Each parable demonstrates God's gracious activity in seeking the lost and offering infinite forgiveness."
+            },
+            {
+              "id": "parabolas-u2-l5-e7",
+              "kind": "listen",
+              "prompt": "What is the message?",
+              "text": "God forgives infinitely those who repent.",
+              "options": [
+                "Forgives infinitely",
+                "Always condemns",
+                "Will judge severely",
+                "Will demand payment"
+              ],
+              "answer": "Forgives infinitely",
+              "reference": "Matthew 18:21-22"
+            },
+            {
+              "id": "parabolas-u2-l5-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "We should always forgive just as God forgave us.",
+              "reference": "Matthew 18:35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u3",
+      "title": "Unit 3",
+      "subtitle": "Love of Neighbor and Stewardship",
+      "guide": {
+        "summary": "Jesus taught the importance of loving neighbor and administering well the gifts received from God. Through parables, he revealed that true faith is expressed in concrete actions of compassion, generosity, and responsibility toward what is entrusted to us.",
+        "keyVerses": [
+          {
+            "reference": "Luke 10:36-37",
+            "text": "Which of these three, do you think, proved to be a neighbor to the man who fell among robbers? He said, 'The one who showed him mercy.' Jesus said to him, 'Go and do likewise.'"
+          },
+          {
+            "reference": "Matthew 25:31-40",
+            "text": "When the Son of Man comes in his glory, and all the angels with him, then he will sit on his glorious throne. All the nations will be gathered before him, and he will separate people one from another as a shepherd separates the sheep from the goats."
+          },
+          {
+            "reference": "Matthew 25:14-30",
+            "text": "For it is as when a man, going into another country, called his own servants, and entrusted his goods to them. To one he gave five talents, to another two, to another one; to each according to his ability."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "parabolas-u3-l1",
+          "title": "The Good Samaritan",
+          "icon": "sun.max.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u3-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Who passed first and did not help?",
+              "text": "A ___ went up that road and saw the wounded man.",
+              "options": [
+                "priest",
+                "Levite",
+                "scribe",
+                "Pharisee"
+              ],
+              "answer": "priest",
+              "reference": "Luke 10:31"
+            },
+            {
+              "id": "parabolas-u3-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The Samaritan sold his ___ to pay for the care.",
+              "answer": "donkey",
+              "options": [
+                "donkey",
+                "purse",
+                "clothes",
+                "property"
+              ],
+              "reference": "Luke 10:34"
+            },
+            {
+              "id": "parabolas-u3-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Jesus' instruction at the end",
+              "tokens": [
+                "Go",
+                "and do",
+                "likewise"
+              ],
+              "distractors": [
+                "Go and wait",
+                "Go and preach",
+                "Go and judge",
+                "Go and announce"
+              ],
+              "reference": "Luke 10:37"
+            },
+            {
+              "id": "parabolas-u3-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of the parable.",
+              "tokens": [
+                "Man is robbed",
+                "Priest passes by",
+                "Levite passes by",
+                "Samaritan helps"
+              ],
+              "reference": "Luke 10:30-35"
+            },
+            {
+              "id": "parabolas-u3-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the actions",
+              "pairs": [
+                {
+                  "left": "Priest",
+                  "right": "Passed by"
+                },
+                {
+                  "left": "Levite",
+                  "right": "Did not stop"
+                },
+                {
+                  "left": "Samaritan",
+                  "right": "Helped the wounded"
+                },
+                {
+                  "left": "Neighbor",
+                  "right": "One who acts with love"
+                }
+              ],
+              "reference": "Luke 10:31-37"
+            },
+            {
+              "id": "parabolas-u3-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "A Samaritan showed more compassion than the Jewish religious leaders.",
+              "isTrue": true,
+              "reference": "Luke 10:33-35",
+              "explanation": "While the priest and Levite ignored the wounded man, the Samaritan cared for him with oil, wine, and lodging."
+            },
+            {
+              "id": "parabolas-u3-l1-e7",
+              "kind": "listen",
+              "prompt": "Who was the neighbor?",
+              "text": "The Samaritan was the one who acted with mercy.",
+              "options": [
+                "The Samaritan",
+                "The priest",
+                "The Levite",
+                "The robber"
+              ],
+              "answer": "The Samaritan",
+              "reference": "Luke 10:37"
+            },
+            {
+              "id": "parabolas-u3-l1-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "A neighbor is one who acts with compassion.",
+              "reference": "Luke 10:37"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u3-l2",
+          "title": "The Talents",
+          "icon": "moon.stars.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u3-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "How much did the first servant receive?",
+              "text": "One servant received ___ talents.",
+              "options": [
+                "five",
+                "two",
+                "one",
+                "ten"
+              ],
+              "answer": "five",
+              "reference": "Matthew 25:15"
+            },
+            {
+              "id": "parabolas-u3-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The faithful servant earned more ___ by trading.",
+              "answer": "talents",
+              "options": [
+                "talents",
+                "coins",
+                "gold",
+                "money"
+              ],
+              "reference": "Matthew 25:16-17"
+            },
+            {
+              "id": "parabolas-u3-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The master's praise",
+              "tokens": [
+                "Well done, good",
+                "and faithful servant",
+                "enter",
+                "into the joy of your master"
+              ],
+              "distractors": [
+                "into the house",
+                "into the kingdom",
+                "into glory",
+                "into paradise"
+              ],
+              "reference": "Matthew 25:21"
+            },
+            {
+              "id": "parabolas-u3-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the distributions in order",
+              "text": "Sequence of receiving and settling accounts.",
+              "tokens": [
+                "Master distributes talents",
+                "Servants use their gifts",
+                "Master returns",
+                "Evaluates how they used them"
+              ],
+              "reference": "Matthew 25:14-30"
+            },
+            {
+              "id": "parabolas-u3-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the servants",
+              "pairs": [
+                {
+                  "left": "First servant",
+                  "right": "Five talents"
+                },
+                {
+                  "left": "Second servant",
+                  "right": "Two talents"
+                },
+                {
+                  "left": "Third servant",
+                  "right": "One talent (buried)"
+                },
+                {
+                  "left": "Faithful stewardship",
+                  "right": "Rewarded"
+                }
+              ],
+              "reference": "Matthew 25:14-30"
+            },
+            {
+              "id": "parabolas-u3-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The servant who buried his talent was praised as faithful.",
+              "isTrue": false,
+              "reference": "Matthew 25:24-30",
+              "explanation": "The servant was called wicked and lazy for not using his talent; he was punished while the faithful were rewarded."
+            },
+            {
+              "id": "parabolas-u3-l2-e7",
+              "kind": "listen",
+              "prompt": "What did the faithful servant do?",
+              "text": "Listen: The faithful servants multiplied their talents.",
+              "options": [
+                "Multiplied talents",
+                "Hid talents",
+                "Lost talents",
+                "Gave away talents"
+              ],
+              "answer": "Multiplied talents",
+              "reference": "Matthew 25:16-17"
+            },
+            {
+              "id": "parabolas-u3-l2-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "To the one with much, much will be given; from the one with little, even that will be taken.",
+              "reference": "Matthew 25:29"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u3-l3",
+          "title": "The Rich Fool",
+          "icon": "hands.sparkles.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u3-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Why was the rich man's harvest so large?",
+              "text": "The harvest was so great that his ___ could not hold it.",
+              "options": [
+                "harvests",
+                "crops",
+                "barns",
+                "storehouses"
+              ],
+              "answer": "harvests",
+              "reference": "Luke 12:17"
+            },
+            {
+              "id": "parabolas-u3-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The rich man planned to ___ and enjoy his goods.",
+              "answer": "retire",
+              "options": [
+                "retire",
+                "withdraw",
+                "rest",
+                "depart"
+              ],
+              "reference": "Luke 12:18-19"
+            },
+            {
+              "id": "parabolas-u3-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Reflection on greed",
+              "tokens": [
+                "Life",
+                "does not consist",
+                "in the abundance",
+                "of possessions"
+              ],
+              "distractors": [
+                "in enjoyment",
+                "in money",
+                "in wealth",
+                "in pleasure"
+              ],
+              "reference": "Luke 12:15"
+            },
+            {
+              "id": "parabolas-u3-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the story in order",
+              "text": "Sequence of the Parable of the Rich Fool.",
+              "tokens": [
+                "Large harvest is gathered",
+                "Rich man plans to build",
+                "Prepares to rest",
+                "Dies that night"
+              ],
+              "reference": "Luke 12:16-20"
+            },
+            {
+              "id": "parabolas-u3-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the meanings",
+              "pairs": [
+                {
+                  "left": "Abundant harvest",
+                  "right": "God's blessing"
+                },
+                {
+                  "left": "Greed",
+                  "right": "Spiritual emptiness"
+                },
+                {
+                  "left": "Sudden death",
+                  "right": "Takes nothing"
+                },
+                {
+                  "left": "Generosity",
+                  "right": "True wealth"
+                }
+              ],
+              "reference": "Luke 12:16-21"
+            },
+            {
+              "id": "parabolas-u3-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The rich fool shared his harvest with the needy.",
+              "isTrue": false,
+              "reference": "Luke 12:18-19",
+              "explanation": "He only thought of himself: storing everything and enjoying it for himself, without thinking of God or neighbor."
+            },
+            {
+              "id": "parabolas-u3-l3-e7",
+              "kind": "listen",
+              "prompt": "What was the rich man's plan?",
+              "text": "The rich man plans to rest and enjoy his goods.",
+              "options": [
+                "Rest and enjoy",
+                "Work more",
+                "Help the poor",
+                "Pray to God"
+              ],
+              "answer": "Rest and enjoy",
+              "reference": "Luke 12:18-19"
+            },
+            {
+              "id": "parabolas-u3-l3-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "No one can take their riches when they die.",
+              "reference": "Luke 12:15-21"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u3-l4",
+          "title": "Sheep and Goats",
+          "icon": "bird.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u3-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Who is on the right hand of the Son of Man?",
+              "text": "On the right are the ___.",
+              "options": [
+                "sheep",
+                "goats",
+                "people",
+                "nations"
+              ],
+              "answer": "sheep",
+              "reference": "Matthew 25:31-33"
+            },
+            {
+              "id": "parabolas-u3-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "\"I was hungry and you ___, I was thirsty and you gave me drink.\"",
+              "answer": "fed me",
+              "options": [
+                "fed me",
+                "nourished me",
+                "killed me",
+                "gave me"
+              ],
+              "reference": "Matthew 25:35"
+            },
+            {
+              "id": "parabolas-u3-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Promise to the faithful sheep",
+              "tokens": [
+                "Come, blessed",
+                "of my Father",
+                "possess the kingdom",
+                "prepared for you"
+              ],
+              "distractors": [
+                "of the heavens",
+                "of the world",
+                "forever",
+                "of glory"
+              ],
+              "reference": "Matthew 25:34"
+            },
+            {
+              "id": "parabolas-u3-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the judgment in order",
+              "text": "Sequence of the Final Judgment.",
+              "tokens": [
+                "Son of Man is seated",
+                "Separates sheep from goats",
+                "Judges the hearts",
+                "Gives his sentence"
+              ],
+              "reference": "Matthew 25:31-46"
+            },
+            {
+              "id": "parabolas-u3-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the actions",
+              "pairs": [
+                {
+                  "left": "I was hungry",
+                  "right": "You fed me"
+                },
+                {
+                  "left": "I was a stranger",
+                  "right": "You welcomed me"
+                },
+                {
+                  "left": "I was in prison",
+                  "right": "You visited me"
+                },
+                {
+                  "left": "Sheep",
+                  "right": "Inherit the kingdom"
+                }
+              ],
+              "reference": "Matthew 25:35-40"
+            },
+            {
+              "id": "parabolas-u3-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Helping the neighbor is the same as helping Jesus.",
+              "isTrue": true,
+              "reference": "Matthew 25:40",
+              "explanation": "Jesus said: 'Whenever you did it for one of the least of these brothers and sisters of mine, you did it for me.'"
+            },
+            {
+              "id": "parabolas-u3-l4-e7",
+              "kind": "listen",
+              "prompt": "Who will be separated?",
+              "text": "The Son of Man will separate sheep from goats.",
+              "options": [
+                "Sheep from goats",
+                "Good from bad",
+                "Rich from poor",
+                "Righteous from unrighteous"
+              ],
+              "answer": "Sheep from goats",
+              "reference": "Matthew 25:32-33"
+            },
+            {
+              "id": "parabolas-u3-l4-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Whatever you did for the least of these, you did for me.",
+              "reference": "Matthew 25:40"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u3-l5",
+          "title": "Review: Love and Stewardship",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u3-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the central theme of these parables?",
+              "text": "All teach about ___ for the neighbor.",
+              "options": [
+                "love",
+                "judgment",
+                "wealth",
+                "death"
+              ],
+              "answer": "love",
+              "reference": "Luke 10 and Matthew 25"
+            },
+            {
+              "id": "parabolas-u3-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The Good Samaritan acted with ___.",
+              "answer": "compassion",
+              "options": [
+                "compassion",
+                "mercy",
+                "love",
+                "charity"
+              ],
+              "reference": "Luke 10:33"
+            },
+            {
+              "id": "parabolas-u3-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Put the lessons in order",
+              "text": "Sequence of the 5 parables.",
+              "tokens": [
+                "Love your neighbor",
+                "Use our gifts well",
+                "Avoid greed",
+                "Serve the needy"
+              ],
+              "reference": "Luke 10 and Matthew 25"
+            },
+            {
+              "id": "parabolas-u3-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Match each lesson",
+              "pairs": [
+                {
+                  "left": "Good Samaritan",
+                  "right": "Active compassion"
+                },
+                {
+                  "left": "Talents",
+                  "right": "Faithful stewardship"
+                },
+                {
+                  "left": "Rich fool",
+                  "right": "Empty greed"
+                },
+                {
+                  "left": "Sheep and goats",
+                  "right": "Judgment by deeds"
+                }
+              ],
+              "reference": "Luke 10 and Matthew 25"
+            },
+            {
+              "id": "parabolas-u3-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Build the key verse",
+              "text": "Essence of the teaching",
+              "tokens": [
+                "Go",
+                "and do",
+                "likewise"
+              ],
+              "distractors": [
+                "Go and preach",
+                "Go and judge",
+                "Go and pray",
+                "Go and wait"
+              ],
+              "reference": "Luke 10:37"
+            },
+            {
+              "id": "parabolas-u3-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "True faith is expressed in concrete actions of love.",
+              "isTrue": true,
+              "reference": "Luke 10 and Matthew 25",
+              "explanation": "All the parables show that true faith results in compassion, generosity, and responsible stewardship."
+            },
+            {
+              "id": "parabolas-u3-l5-e7",
+              "kind": "listen",
+              "prompt": "What does it mean to be a neighbor?",
+              "text": "Being a neighbor means acting with compassion.",
+              "options": [
+                "Acting with compassion",
+                "Knowing the person",
+                "Being nearby",
+                "Being a relative"
+              ],
+              "answer": "Acting with compassion",
+              "reference": "Luke 10:36-37"
+            },
+            {
+              "id": "parabolas-u3-l5-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Love of neighbor is as important as loving God.",
+              "reference": "Luke 10:27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u4",
+      "title": "Unit 4",
+      "subtitle": "Watchfulness and the End",
+      "guide": {
+        "summary": "Jesus warned his disciples to remain watchful and prepared for his return. Through parables, he taught that the Kingdom will be completed at the end of time, that there is final separation between righteous and unrighteous, and that faithfulness in the face of uncertain timing is supreme virtue.",
+        "keyVerses": [
+          {
+            "reference": "Matthew 25:1-13",
+            "text": "Then the kingdom of heaven will be like ten virgins who took their lamps and went out to meet the bridegroom. Five of them were foolish and five were wise."
+          },
+          {
+            "reference": "Matthew 13:24-30",
+            "text": "The kingdom of heaven is like a man who sowed good seed in his field, but while people were sleeping, his enemy came and sowed weeds among the wheat, and went away."
+          },
+          {
+            "reference": "Matthew 13:47-50",
+            "text": "The kingdom of heaven is like a net that was let down into the lake and caught all kinds of fish. When it was full, the fishermen pulled it up on the shore. Then they sat down and collected the good fish in baskets, but threw the bad away."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "parabolas-u4-l1",
+          "title": "The Ten Virgins",
+          "icon": "tent.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u4-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "How many virgins were wise?",
+              "text": "Of the ten virgins, ___ were wise.",
+              "options": [
+                "five",
+                "ten",
+                "three",
+                "seven"
+              ],
+              "answer": "five",
+              "reference": "Matthew 25:2"
+            },
+            {
+              "id": "parabolas-u4-l1-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The wise virgins carried ___ in their jars.",
+              "answer": "oil",
+              "options": [
+                "oil",
+                "water",
+                "wine",
+                "perfume"
+              ],
+              "reference": "Matthew 25:4"
+            },
+            {
+              "id": "parabolas-u4-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Warning to the foolish virgins",
+              "tokens": [
+                "I don't know you",
+                "watch therefore",
+                "do not sleep"
+              ],
+              "distractors": [
+                "rest",
+                "sleep",
+                "wait",
+                "relax"
+              ],
+              "reference": "Matthew 25:12-13"
+            },
+            {
+              "id": "parabolas-u4-l1-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of the Parable of the Virgins.",
+              "tokens": [
+                "Ten virgins wait",
+                "Bridegroom delays",
+                "They awake at night",
+                "Wise enter, foolish stay out"
+              ],
+              "reference": "Matthew 25:1-12"
+            },
+            {
+              "id": "parabolas-u4-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the characteristics",
+              "pairs": [
+                {
+                  "left": "Wise virgins",
+                  "right": "Oil prepared"
+                },
+                {
+                  "left": "Foolish virgins",
+                  "right": "No preparation"
+                },
+                {
+                  "left": "Bridegroom",
+                  "right": "Jesus"
+                },
+                {
+                  "left": "Wedding feast",
+                  "right": "Kingdom fulfilled"
+                }
+              ],
+              "reference": "Matthew 25:1-13"
+            },
+            {
+              "id": "parabolas-u4-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The foolish virgins asked to borrow oil from the wise ones.",
+              "isTrue": true,
+              "reference": "Matthew 25:8-9",
+              "explanation": "The foolish virgins asked for oil, but the wise answered there was not enough for everyone."
+            },
+            {
+              "id": "parabolas-u4-l1-e7",
+              "kind": "listen",
+              "prompt": "What did the bridegroom say?",
+              "text": "Listen: The bridegroom said he did not know the foolish virgins.",
+              "options": [
+                "Did not know them",
+                "Received them",
+                "Forgave them",
+                "Blessed them"
+              ],
+              "answer": "Did not know them",
+              "reference": "Matthew 25:12"
+            },
+            {
+              "id": "parabolas-u4-l1-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Watch, therefore, for you do not know on what day your Lord will come.",
+              "reference": "Matthew 25:13"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u4-l2",
+          "title": "The Great Feast",
+          "icon": "scroll.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u4-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Who was invited to the feast first?",
+              "text": "The ___ invited guests to the great feast.",
+              "options": [
+                "king",
+                "servant",
+                "great man",
+                "lord"
+              ],
+              "answer": "king",
+              "reference": "Matthew 22:2"
+            },
+            {
+              "id": "parabolas-u4-l2-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The invited guests ___ and went their ways.",
+              "answer": "excused themselves",
+              "options": [
+                "excused themselves",
+                "refused",
+                "departed",
+                "withdrew"
+              ],
+              "reference": "Matthew 22:5"
+            },
+            {
+              "id": "parabolas-u4-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The king's call to the poor",
+              "tokens": [
+                "Go out into",
+                "the poor",
+                "the lame"
+              ],
+              "distractors": [
+                "the rich",
+                "the healthy",
+                "the learned",
+                "the noble"
+              ],
+              "reference": "Matthew 22:8-9"
+            },
+            {
+              "id": "parabolas-u4-l2-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the invitations in order",
+              "text": "Sequence of the Great Feast.",
+              "tokens": [
+                "King invites the notable",
+                "All refuse",
+                "Invites the poor",
+                "House becomes full"
+              ],
+              "reference": "Matthew 22:1-14"
+            },
+            {
+              "id": "parabolas-u4-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the reactions",
+              "pairs": [
+                {
+                  "left": "First invited",
+                  "right": "Refuse"
+                },
+                {
+                  "left": "Poor and lame",
+                  "right": "Accept"
+                },
+                {
+                  "left": "House full",
+                  "right": "Fulfillment"
+                },
+                {
+                  "left": "Feast",
+                  "right": "Kingdom offered"
+                }
+              ],
+              "reference": "Matthew 22:1-14"
+            },
+            {
+              "id": "parabolas-u4-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "All people invited to the feast were welcomed.",
+              "isTrue": false,
+              "reference": "Matthew 22:11-14",
+              "explanation": "A man without wedding clothes was cast out, for he did not prepare himself adequately for the kingdom."
+            },
+            {
+              "id": "parabolas-u4-l2-e7",
+              "kind": "listen",
+              "prompt": "Who was invited next?",
+              "text": "The poor and needy were invited.",
+              "options": [
+                "Poor and needy",
+                "Rich and powerful",
+                "Scribes and Pharisees",
+                "Priests and Levites"
+              ],
+              "answer": "Poor and needy",
+              "reference": "Matthew 22:9"
+            },
+            {
+              "id": "parabolas-u4-l2-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Many are called, but few are chosen.",
+              "reference": "Matthew 22:14"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u4-l3",
+          "title": "The Weeds and the Wheat",
+          "icon": "key.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u4-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Who sowed the weeds?",
+              "text": "The ___ came and sowed weeds among the wheat.",
+              "options": [
+                "enemy",
+                "servant",
+                "devil",
+                "adversary"
+              ],
+              "answer": "enemy",
+              "reference": "Matthew 13:25"
+            },
+            {
+              "id": "parabolas-u4-l3-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "___ explained to the disciples the meaning of the parable.",
+              "answer": "Jesus",
+              "options": [
+                "Jesus",
+                "Lord",
+                "Master",
+                "Prophet"
+              ],
+              "reference": "Matthew 13:37-43"
+            },
+            {
+              "id": "parabolas-u4-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Instruction about harvest",
+              "tokens": [
+                "Let both grow",
+                "together",
+                "until the harvest"
+              ],
+              "distractors": [
+                "forever",
+                "without separating",
+                "mixed",
+                "until the end"
+              ],
+              "reference": "Matthew 13:30"
+            },
+            {
+              "id": "parabolas-u4-l3-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the events in order",
+              "text": "Sequence of weeds and wheat.",
+              "tokens": [
+                "Sower plants wheat",
+                "Enemy sowed weeds",
+                "Both grow together",
+                "At harvest, they are separated"
+              ],
+              "reference": "Matthew 13:24-30"
+            },
+            {
+              "id": "parabolas-u4-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the meanings",
+              "pairs": [
+                {
+                  "left": "Wheat",
+                  "right": "Children of the Kingdom"
+                },
+                {
+                  "left": "Weeds",
+                  "right": "Children of the evil one"
+                },
+                {
+                  "left": "Harvest",
+                  "right": "End of the world"
+                },
+                {
+                  "left": "Reapers",
+                  "right": "Angels"
+                }
+              ],
+              "reference": "Matthew 13:37-42"
+            },
+            {
+              "id": "parabolas-u4-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus ordered to pull up the weeds immediately after sowing.",
+              "isTrue": false,
+              "reference": "Matthew 13:28-30",
+              "explanation": "Jesus said to let them grow together until harvest, lest in pulling up the weeds you root up the wheat along with them."
+            },
+            {
+              "id": "parabolas-u4-l3-e7",
+              "kind": "listen",
+              "prompt": "When will the weeds be separated?",
+              "text": "Listen: The weeds will be separated at harvest.",
+              "options": [
+                "At harvest",
+                "Immediately",
+                "After days",
+                "Never"
+              ],
+              "answer": "At harvest",
+              "reference": "Matthew 13:30"
+            },
+            {
+              "id": "parabolas-u4-l3-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "The wheat gathered into his barn, the weeds bundled to be burned.",
+              "reference": "Matthew 13:30"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u4-l4",
+          "title": "The Net and the Judgment",
+          "icon": "lightbulb.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u4-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "What does the net catch?",
+              "text": "The net catches ___ kind of fish.",
+              "options": [
+                "every",
+                "good",
+                "large",
+                "small"
+              ],
+              "answer": "every",
+              "reference": "Matthew 13:47"
+            },
+            {
+              "id": "parabolas-u4-l4-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "The fishermen choose the ___ for the baskets.",
+              "answer": "good",
+              "options": [
+                "good",
+                "fish",
+                "large",
+                "small"
+              ],
+              "reference": "Matthew 13:48"
+            },
+            {
+              "id": "parabolas-u4-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "What happens to the bad",
+              "tokens": [
+                "The bad",
+                "they throw out",
+                "completely"
+              ],
+              "distractors": [
+                "they keep",
+                "they sell",
+                "they eat",
+                "they return"
+              ],
+              "reference": "Matthew 13:48"
+            },
+            {
+              "id": "parabolas-u4-l4-e4",
+              "kind": "orderEvents",
+              "prompt": "Put the fishing in order",
+              "text": "Sequence of the Fishing Net.",
+              "tokens": [
+                "Net thrown into the sea",
+                "Catches every kind",
+                "Net becomes full",
+                "Separate good from bad"
+              ],
+              "reference": "Matthew 13:47-49"
+            },
+            {
+              "id": "parabolas-u4-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the elements",
+              "pairs": [
+                {
+                  "left": "Net",
+                  "right": "The Kingdom"
+                },
+                {
+                  "left": "Good fish",
+                  "right": "The righteous"
+                },
+                {
+                  "left": "Bad fish",
+                  "right": "The unrighteous"
+                },
+                {
+                  "left": "Furnace",
+                  "right": "Final judgment"
+                }
+              ],
+              "reference": "Matthew 13:47-50"
+            },
+            {
+              "id": "parabolas-u4-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The net only catches good fish.",
+              "isTrue": false,
+              "reference": "Matthew 13:47-48",
+              "explanation": "The net catches every kind of fish; only in the final separation do they choose the good and throw out the bad."
+            },
+            {
+              "id": "parabolas-u4-l4-e7",
+              "kind": "listen",
+              "prompt": "What happens to the bad?",
+              "text": "The bad fish are thrown out.",
+              "options": [
+                "Thrown out",
+                "Eaten",
+                "Sold",
+                "Kept"
+              ],
+              "answer": "Thrown out",
+              "reference": "Matthew 13:48"
+            },
+            {
+              "id": "parabolas-u4-l4-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "In the furnace of fire there will be weeping and gnashing of teeth.",
+              "reference": "Matthew 13:50"
+            }
+          ]
+        },
+        {
+          "id": "parabolas-u4-l5",
+          "title": "Review: Watchfulness and the End",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "parabolas-u4-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the central theme of this unit?",
+              "text": "The parables speak about ___ until Jesus returns.",
+              "options": [
+                "watchfulness",
+                "waiting",
+                "repentance",
+                "prayer"
+              ],
+              "answer": "watchfulness",
+              "reference": "Matthew 25 and 13"
+            },
+            {
+              "id": "parabolas-u4-l5-e2",
+              "kind": "typeAnswer",
+              "prompt": "Type the missing word",
+              "text": "At the end of time, there will be ___ between righteous and unrighteous.",
+              "answer": "separation",
+              "options": [
+                "separation",
+                "judgment",
+                "condemnation",
+                "reward"
+              ],
+              "reference": "Matthew 13:47-49"
+            },
+            {
+              "id": "parabolas-u4-l5-e3",
+              "kind": "orderEvents",
+              "prompt": "Put the themes in order",
+              "text": "Sequence of the 5 parables.",
+              "tokens": [
+                "Ten virgins wait",
+                "Feast is offered",
+                "Weeds will be separated",
+                "Righteous and unrighteous divided"
+              ],
+              "reference": "Matthew 25 and 13"
+            },
+            {
+              "id": "parabolas-u4-l5-e4",
+              "kind": "matchPairs",
+              "prompt": "Match each parable",
+              "pairs": [
+                {
+                  "left": "Ten virgins",
+                  "right": "Constant preparation"
+                },
+                {
+                  "left": "Great feast",
+                  "right": "Invitation for all"
+                },
+                {
+                  "left": "Weeds and wheat",
+                  "right": "Divine patience"
+                },
+                {
+                  "left": "Fishing net",
+                  "right": "Final judgment"
+                }
+              ],
+              "reference": "Matthew 25 and 13"
+            },
+            {
+              "id": "parabolas-u4-l5-e5",
+              "kind": "buildVerse",
+              "prompt": "Build the key verse",
+              "text": "Essence of the teaching",
+              "tokens": [
+                "Watch therefore",
+                "you don't know",
+                "on what day"
+              ],
+              "distractors": [
+                "when he comes",
+                "how he comes",
+                "in what way",
+                "why he comes"
+              ],
+              "reference": "Matthew 25:13"
+            },
+            {
+              "id": "parabolas-u4-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus clearly taught when the end of time would be.",
+              "isTrue": false,
+              "reference": "Matthew 25:13",
+              "explanation": "Jesus warned that no one knows the day or the hour, so we should always be prepared."
+            },
+            {
+              "id": "parabolas-u4-l5-e7",
+              "kind": "listen",
+              "prompt": "What is the greatest advice?",
+              "text": "The greatest advice is to always be prepared.",
+              "options": [
+                "Be prepared",
+                "Be afraid",
+                "Flee",
+                "Count the time"
+              ],
+              "answer": "Be prepared",
+              "reference": "Matthew 25:13"
+            },
+            {
+              "id": "parabolas-u4-l5-e8",
+              "kind": "speak",
+              "prompt": "Read aloud",
+              "text": "Blessed is the servant whom his master will find alert.",
+              "reference": "Matthew 24:46"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,628 @@
+{
+  "id": "parabolas-u1",
+  "title": "Unit 1",
+  "subtitle": "The Kingdom of God",
+  "guide": {
+    "summary": "Jesus taught about the nature of the Kingdom through parables about growth, small beginnings, and great value. The Kingdom starts small as a seed, grows imperceptibly, and is of incalculable value to those who discover it.",
+    "keyVerses": [
+      {
+        "reference": "Matthew 13:31-32",
+        "text": "The kingdom of heaven is like a grain of mustard seed, which a man took, and sowed in his field; which indeed is smaller than all seeds. But when it is grown, it is greater than the herbs, and becomes a tree, so that the birds of the sky come and lodge in its branches."
+      },
+      {
+        "reference": "Matthew 13:44",
+        "text": "Again, the kingdom of heaven is like a treasure hidden in the field, which a man found, and hid. In his joy, he goes and sells all that he has, and buys that field."
+      },
+      {
+        "reference": "Matthew 13:45-46",
+        "text": "Again, the kingdom of heaven is like a merchant seeking fine pearls; and having found one pearl of great value, he went and sold all that he had, and bought it."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "parabolas-u1-l1",
+      "title": "The Sower",
+      "icon": "star.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the seed in the Parable of the Sower?",
+          "text": "In the Parable of the Sower, the seed represents the ___ of God.",
+          "speaker": "Jesus",
+          "options": [
+            "Word",
+            "will",
+            "creation",
+            "action"
+          ],
+          "answer": "Word",
+          "reference": "Matthew 13:19",
+          "explanation": "The seed in the parable represents the Word of the Kingdom, which the sower plants in hearts."
+        },
+        {
+          "id": "parabolas-u1-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "\"The one who sowed the good seed is the ___.\"",
+          "answer": "Son",
+          "options": [
+            "Son",
+            "son",
+            "Son of Man",
+            "Savior"
+          ],
+          "reference": "Matthew 13:37",
+          "explanation": "Jesus explained that the one who sowed the good seed is the Son of Man, referring to himself."
+        },
+        {
+          "id": "parabolas-u1-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Different types of soil in the parable",
+          "tokens": [
+            "Whoever has ears",
+            "to hear",
+            "let him hear"
+          ],
+          "distractors": [
+            "to understand",
+            "read",
+            "comprehend",
+            "see"
+          ],
+          "reference": "Matthew 13:9"
+        },
+        {
+          "id": "parabolas-u1-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the types of soil in order",
+          "text": "In the Parable of the Sower, Jesus describes four types of soil where the seed falls.",
+          "tokens": [
+            "Seed falls on the path",
+            "Seed falls on rocky ground",
+            "Seed falls among thorns",
+            "Seed falls on good soil"
+          ],
+          "reference": "Matthew 13:4-8"
+        },
+        {
+          "id": "parabolas-u1-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the types of soil",
+          "pairs": [
+            {
+              "left": "Path",
+              "right": "Word is stolen"
+            },
+            {
+              "left": "Rocky ground",
+              "right": "Shallow faith"
+            },
+            {
+              "left": "Thorns",
+              "right": "Worldly worries"
+            },
+            {
+              "left": "Good soil",
+              "right": "Receptive heart"
+            }
+          ],
+          "reference": "Matthew 13:19-23"
+        },
+        {
+          "id": "parabolas-u1-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "In the Parable of the Sower, every seed that falls produces a great harvest.",
+          "isTrue": false,
+          "reference": "Matthew 13:4-9",
+          "explanation": "Not every seed produces a harvest. Only the seed that falls on good soil produces abundant fruit."
+        },
+        {
+          "id": "parabolas-u1-l1-e7",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Listen to what Jesus said: The seed is the word of God.",
+          "options": [
+            "The seed is the word of God",
+            "The seed is wisdom",
+            "The seed is love",
+            "The seed is forgiveness"
+          ],
+          "answer": "The seed is the word of God",
+          "reference": "Luke 8:11"
+        },
+        {
+          "id": "parabolas-u1-l1-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Whoever has ears to hear, let him hear.",
+          "reference": "Matthew 13:9"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u1-l2",
+      "title": "The Grain of Mustard",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the smallest seed?",
+          "text": "The mustard seed is ___ of all seeds.",
+          "options": [
+            "the smallest",
+            "the hardest",
+            "the rarest",
+            "the lightest"
+          ],
+          "answer": "the smallest",
+          "reference": "Matthew 13:32"
+        },
+        {
+          "id": "parabolas-u1-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "\"When it is grown, it is the greatest of the herbs and becomes a ___.\"",
+          "answer": "tree",
+          "options": [
+            "tree",
+            "plant",
+            "shrub",
+            "bush"
+          ],
+          "reference": "Matthew 13:32"
+        },
+        {
+          "id": "parabolas-u1-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The growth of the mustard seed",
+          "tokens": [
+            "It is the smallest",
+            "of all seeds",
+            "but when grown",
+            "it is the greatest"
+          ],
+          "distractors": [
+            "of all trees",
+            "in the world",
+            "in the field",
+            "of all plants"
+          ],
+          "reference": "Matthew 13:32"
+        },
+        {
+          "id": "parabolas-u1-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Put in order by size",
+          "text": "Evolution of the mustard seed in the parable.",
+          "tokens": [
+            "Very small seed",
+            "Grows slowly",
+            "Becomes larger than vegetables",
+            "Becomes a tree"
+          ],
+          "reference": "Matthew 13:31-32"
+        },
+        {
+          "id": "parabolas-u1-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the concepts",
+          "pairs": [
+            {
+              "left": "Mustard seed",
+              "right": "Symbol of the Kingdom"
+            },
+            {
+              "left": "Small beginning",
+              "right": "Remarkable growth"
+            },
+            {
+              "left": "Birds of the sky",
+              "right": "Rest in the branches"
+            },
+            {
+              "left": "Small faith",
+              "right": "Great results"
+            }
+          ],
+          "reference": "Matthew 13:31-32"
+        },
+        {
+          "id": "parabolas-u1-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "In the parable, the mustard seed grows quickly to become a tree.",
+          "isTrue": false,
+          "reference": "Matthew 13:31-32",
+          "explanation": "The parable does not mention speed; only that from a small grain, it grows to be a great tree where birds rest."
+        },
+        {
+          "id": "parabolas-u1-l2-e7",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Listen: The Kingdom is like a small seed.",
+          "options": [
+            "The Kingdom is like a small seed",
+            "The Kingdom is like a treasure",
+            "The Kingdom is like a pearl",
+            "The Kingdom is like a feast"
+          ],
+          "answer": "The Kingdom is like a small seed",
+          "reference": "Matthew 13:31"
+        },
+        {
+          "id": "parabolas-u1-l2-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "The Kingdom of heaven is like a grain.",
+          "reference": "Matthew 13:31"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u1-l3",
+      "title": "The Leaven in the Dough",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "parabolas-u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "What did the woman mix with the flour?",
+          "text": "A woman took ___ and mixed it with three measures of flour.",
+          "options": [
+            "leaven",
+            "salt",
+            "oil",
+            "water"
+          ],
+          "answer": "leaven",
+          "reference": "Matthew 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "\"The Kingdom is like leaven that a woman takes and mixes in the ___.\"",
+          "answer": "dough",
+          "options": [
+            "dough",
+            "flour",
+            "recipe",
+            "pan"
+          ],
+          "reference": "Matthew 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The effect of leaven on the dough",
+          "tokens": [
+            "A woman",
+            "took leaven",
+            "until all was leavened"
+          ],
+          "distractors": [
+            "it swelled",
+            "it rose",
+            "it lifted",
+            "it changed"
+          ],
+          "reference": "Matthew 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Put in order the process",
+          "text": "Sequence of the Parable of the Leaven.",
+          "tokens": [
+            "Woman takes leaven",
+            "Mixes with flour",
+            "Puts in the dough",
+            "All leavens"
+          ],
+          "reference": "Matthew 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the elements",
+          "pairs": [
+            {
+              "left": "Leaven",
+              "right": "Agent of change"
+            },
+            {
+              "left": "Woman",
+              "right": "Mixes it all"
+            },
+            {
+              "left": "Dough",
+              "right": "Transformed world"
+            },
+            {
+              "left": "Leavening",
+              "right": "Invisible change"
+            }
+          ],
+          "reference": "Matthew 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "In the parable, the leaven transforms all the dough from the inside out.",
+          "isTrue": true,
+          "reference": "Matthew 13:33",
+          "explanation": "The leaven works invisibly and gradually, transforming all the dough until everything is leavened."
+        },
+        {
+          "id": "parabolas-u1-l3-e7",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "The Kingdom works like leaven in dough.",
+          "options": [
+            "The Kingdom works like leaven",
+            "The Kingdom is a tree",
+            "The Kingdom is a treasure",
+            "The Kingdom is a seed"
+          ],
+          "answer": "The Kingdom works like leaven",
+          "reference": "Matthew 13:33"
+        },
+        {
+          "id": "parabolas-u1-l3-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Leaven transforms the dough invisibly and completely.",
+          "reference": "Matthew 13:33"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u1-l4",
+      "title": "The Treasure and the Pearl",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "What did the person sell to buy the treasure?",
+          "text": "The man sold everything he had to buy the ___.",
+          "options": [
+            "field",
+            "gold",
+            "kingdom",
+            "palace"
+          ],
+          "answer": "field",
+          "reference": "Matthew 13:44"
+        },
+        {
+          "id": "parabolas-u1-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "\"In his ___, he goes and sells all that he has.\"",
+          "answer": "joy",
+          "options": [
+            "joy",
+            "haste",
+            "greed",
+            "urgency"
+          ],
+          "reference": "Matthew 13:44"
+        },
+        {
+          "id": "parabolas-u1-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse about the pearl",
+          "text": "Action of the merchant when finding the pearl",
+          "tokens": [
+            "Goes and sells",
+            "all that he has",
+            "and buys it"
+          ],
+          "distractors": [
+            "keeps it",
+            "hides it",
+            "examines it",
+            "offers it"
+          ],
+          "reference": "Matthew 13:46"
+        },
+        {
+          "id": "parabolas-u1-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Put in order the discovery",
+          "text": "Sequence of the two parables of value.",
+          "tokens": [
+            "Man finds treasure",
+            "Hides it again",
+            "Sells everything",
+            "Buys the field"
+          ],
+          "reference": "Matthew 13:44"
+        },
+        {
+          "id": "parabolas-u1-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the characters",
+          "pairs": [
+            {
+              "left": "Hidden treasure",
+              "right": "Found by chance"
+            },
+            {
+              "left": "Merchant",
+              "right": "Seeks pearls"
+            },
+            {
+              "left": "Pearl of great value",
+              "right": "Worth everything"
+            },
+            {
+              "left": "Selling everything",
+              "right": "True priority"
+            }
+          ],
+          "reference": "Matthew 13:44-46"
+        },
+        {
+          "id": "parabolas-u1-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "In both the treasure and the pearl, the person gave up everything to obtain them.",
+          "isTrue": true,
+          "reference": "Matthew 13:44,46",
+          "explanation": "Both parables show people willing to sell all they have to acquire what has true value."
+        },
+        {
+          "id": "parabolas-u1-l4-e7",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "The Kingdom is like a merchant seeking pearls.",
+          "options": [
+            "A merchant seeks pearls",
+            "A man finds treasure",
+            "The pearl is rare",
+            "The field has value"
+          ],
+          "answer": "A merchant seeks pearls",
+          "reference": "Matthew 13:45"
+        },
+        {
+          "id": "parabolas-u1-l4-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "It is worth selling everything for the Kingdom.",
+          "reference": "Matthew 13:44-46"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u1-l5",
+      "title": "Review: The Kingdom",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What does the seed represent in the Parable of the Sower?",
+          "text": "The seed represents the ___ of God.",
+          "options": [
+            "Word",
+            "will",
+            "wisdom",
+            "strength"
+          ],
+          "answer": "Word",
+          "reference": "Matthew 13:19"
+        },
+        {
+          "id": "parabolas-u1-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The Kingdom is like a grain of ___ very small.",
+          "answer": "mustard",
+          "options": [
+            "mustard",
+            "salt",
+            "wheat",
+            "barley"
+          ],
+          "reference": "Matthew 13:31"
+        },
+        {
+          "id": "parabolas-u1-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Put the parables in order",
+          "text": "Order of the 5 parables of the Kingdom.",
+          "tokens": [
+            "Sower plants the word",
+            "Grain grows invisibly",
+            "Leaven transforms",
+            "Treasure waits to be discovered"
+          ],
+          "reference": "Matthew 13:1-46"
+        },
+        {
+          "id": "parabolas-u1-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Match the teachings",
+          "pairs": [
+            {
+              "left": "Sower",
+              "right": "Receives the word"
+            },
+            {
+              "left": "Mustard",
+              "right": "Small becomes great"
+            },
+            {
+              "left": "Leaven",
+              "right": "Transforms everything"
+            },
+            {
+              "left": "Treasure",
+              "right": "Worth everything"
+            }
+          ],
+          "reference": "Matthew 13"
+        },
+        {
+          "id": "parabolas-u1-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Build the verse for review",
+          "text": "Central theme of the parables of the Kingdom",
+          "tokens": [
+            "The Kingdom",
+            "of heaven is",
+            "like"
+          ],
+          "distractors": [
+            "The kingdom is",
+            "The Kingdom will be",
+            "The Kingdom will come",
+            "The Kingdom seemed"
+          ],
+          "reference": "Matthew 13"
+        },
+        {
+          "id": "parabolas-u1-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "All the parables of the Kingdom talk about something that grows or transforms gradually.",
+          "isTrue": true,
+          "reference": "Matthew 13:1-46",
+          "explanation": "From the sower to the treasure, the parables show processes of transformation, growth, or revelation."
+        },
+        {
+          "id": "parabolas-u1-l5-e7",
+          "kind": "listen",
+          "prompt": "What is the theme of the parables?",
+          "text": "All the parables teach about the Kingdom of God.",
+          "options": [
+            "About the Kingdom of God",
+            "About judgment",
+            "About death",
+            "About sin"
+          ],
+          "answer": "About the Kingdom of God",
+          "reference": "Matthew 13"
+        },
+        {
+          "id": "parabolas-u1-l5-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "The Kingdom of God is more valuable than anything.",
+          "reference": "Matthew 13:44-46"
+        }
+      ]
+    }
+  ]
+}

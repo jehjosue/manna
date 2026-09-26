@@ -1,0 +1,479 @@
+[
+  {
+    "id": "radio-episodio-1",
+    "title": "The Ten Commandments",
+    "subtitle": "Episode 1",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Welcome to Manna Radio. Today we will explore the Ten Commandments that God gave to Moses on Mount Sinai."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Hi! I'm Béé! I'm so happy to be here learning with you!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "The first commandments talk about loving God. We should put him first in our lives."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "That's cool! That means God is super important to us."
+      },
+      {
+        "kind": "question",
+        "text": "What is the theme of today's episode?",
+        "options": [
+          "The Ten Commandments",
+          "Noah's story",
+          "The kingdom of Israel"
+        ],
+        "answer": "The Ten Commandments"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Exactly! The commandments guide us to live well, respecting God and one another."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "And that makes us a better person!"
+      },
+      {
+        "kind": "question",
+        "text": "Where did God give the Ten Commandments to Moses?",
+        "options": [
+          "In Egypt",
+          "On Mount Sinai",
+          "In the desert"
+        ],
+        "answer": "On Mount Sinai"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Great! You've learned a lot today. See you in the next episode!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-2",
+    "title": "Noah's Ark",
+    "subtitle": "Episode 2",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Welcome back to Manna Radio! Today we will learn about Noah and the Great Flood."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Yay! I love this story! There are animals everywhere!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "God asked Noah to build an ark to save his family and the animals from the flood."
+      },
+      {
+        "kind": "question",
+        "text": "What was God's request to Noah?",
+        "options": [
+          "Flee the country",
+          "Build an ark",
+          "Preach to the people"
+        ],
+        "answer": "Build an ark"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "And Noah was very old, but he trusted in God anyway!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "The ark was very large and carried two animals of each species, a pair. Noah worked for many years building it with faith in God."
+      },
+      {
+        "kind": "question",
+        "text": "How long did it rain during the flood?",
+        "options": [
+          "7 days",
+          "40 days",
+          "100 days"
+        ],
+        "answer": "40 days"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "When the rain stopped, God made a rainbow appear as a promise that there would never be another flood."
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-3",
+    "title": "Moses and the Red Sea",
+    "subtitle": "Episode 3",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Welcome to the third episode of Manna Radio! Today we will talk about Moses and the miracle of the Red Sea."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "That's awesome! Water that splits? That's like magic!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "It's not magic, it's a miracle from God! Moses led the Hebrew people to escape from Egypt, where they were slaves."
+      },
+      {
+        "kind": "question",
+        "text": "Why did the people need to leave Egypt?",
+        "options": [
+          "Because it was too hot",
+          "Because they were slaves",
+          "Because there was no food"
+        ],
+        "answer": "Because they were slaves"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "And Moses used a staff to do incredible things!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "When Pharaoh chased the people, Moses raised his staff and the waters of the Red Sea split, forming a dry path."
+      },
+      {
+        "kind": "question",
+        "text": "What did Moses do with his staff at the Red Sea?",
+        "options": [
+          "Caught fish",
+          "Split the waters",
+          "Created rain"
+        ],
+        "answer": "Split the waters"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "The people walked between the waters and reached safety on the other side. Thank you for joining us!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-4",
+    "title": "Samson, the Strong Man",
+    "subtitle": "Episode 4",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Welcome to the fourth episode of Manna Radio! Today we will talk about Samson and his extraordinary strength."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Samson? Oh yes! He was very, very strong!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Samson received superhuman strength from God. He could defeat hundreds of enemies by himself."
+      },
+      {
+        "kind": "question",
+        "text": "Where did Samson's strength come from?",
+        "options": [
+          "From his special training",
+          "From his long hair",
+          "From God"
+        ],
+        "answer": "From God"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "But there was a secret... His hair was important in some way!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Yes! Samson's hair was a sign of his promise with God. As long as his hair wasn't cut, he kept his strength."
+      },
+      {
+        "kind": "question",
+        "text": "What happened to Samson's strength if his hair was cut?",
+        "options": [
+          "Nothing changed",
+          "He lost it",
+          "He became even stronger"
+        ],
+        "answer": "He lost it"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Samson teaches us that trusting in God gives us power, but we also need to be faithful. See you soon!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-5",
+    "title": "Esther, the Courageous Queen",
+    "subtitle": "Episode 5",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Welcome to Manna Radio! Today we will talk about Esther, a courageous woman who saved her people."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Esther? What a beautiful name! What's her story?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Esther was a Jewish woman who became queen of a powerful kingdom, even though she was an orphan."
+      },
+      {
+        "kind": "question",
+        "text": "How did Esther become queen?",
+        "options": [
+          "She was born into a royal family",
+          "She was chosen by the king",
+          "She fought against enemies"
+        ],
+        "answer": "She was chosen by the king"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "So what? What challenge did she face?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "An evil man named Haman wanted to destroy all the Jews. Esther, even though afraid, went to the king and revealed the truth."
+      },
+      {
+        "kind": "question",
+        "text": "What did Esther do to save her people?",
+        "options": [
+          "She went to war",
+          "She was courageous and revealed the truth to the king",
+          "She fled the kingdom"
+        ],
+        "answer": "She was courageous and revealed the truth to the king"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Esther shows us that courage comes from within, and we can make a difference even when facing obstacles. See you next time!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-6",
+    "title": "Abraham and Faith",
+    "subtitle": "Episode 6",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Welcome to the sixth episode! Today we will talk about Abraham and how his faith changed history."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Abraham! He traveled a lot, didn't he? He left his home and everything!"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Exactly! God called Abraham to leave his land and his family to go to a place he didn't know."
+      },
+      {
+        "kind": "question",
+        "text": "Why did Abraham leave his land?",
+        "options": [
+          "To flee from enemies",
+          "Because God called him",
+          "To seek riches"
+        ],
+        "answer": "Because God called him"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "But then? How did he trust if he didn't know where he was going?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Abraham had one special thing: faith. He trusted that God would take care of him, even without knowing the way."
+      },
+      {
+        "kind": "question",
+        "text": "What is the main quality Abraham showed?",
+        "options": [
+          "Strength",
+          "Wealth",
+          "Faith"
+        ],
+        "answer": "Faith"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "And so Abraham became the father of a multitude! Trusting in God opens incredible doors. Thank you for being with us!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-7",
+    "title": "Job and Patience",
+    "subtitle": "Episode 7",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Welcome to the seventh episode of Manna Radio! Today we will talk about Job, a man who faced great difficulties with patience."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Difficulties? What kind of difficulties?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Job was a very rich and respected man. But suddenly he lost everything: his family, his animals, his wealth."
+      },
+      {
+        "kind": "question",
+        "text": "How did Job react when he lost everything?",
+        "options": [
+          "He gave up on God",
+          "He remained confident and patient",
+          "He left the kingdom"
+        ],
+        "answer": "He remained confident and patient"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "That's incredible! How did he manage to keep faith even losing everything?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Job knew that faith doesn't depend on having many things, but on trusting in God above all."
+      },
+      {
+        "kind": "question",
+        "text": "What is the main lesson from Job's story?",
+        "options": [
+          "Money is everything",
+          "Patience and faith sustain us",
+          "It's not worth trusting"
+        ],
+        "answer": "Patience and faith sustain us"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Job teaches us that even in the worst situations, we can find strength in faith. See you in the next episode!"
+      }
+    ]
+  },
+  {
+    "id": "radio-episodio-8",
+    "title": "Peter, the Rock",
+    "subtitle": "Episode 8",
+    "icon": "mic.fill",
+    "duration": 240,
+    "steps": [
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Welcome to the final episode of this season of Manna Radio! Today we will meet Peter, a disciple of Jesus."
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "Peter? He was important, wasn't he?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Very much! Peter was a fisherman when Jesus called him. He became one of the most dedicated apostles."
+      },
+      {
+        "kind": "question",
+        "text": "What was Peter's profession before following Jesus?",
+        "options": [
+          "Carpenter",
+          "Fisherman",
+          "Soldier"
+        ],
+        "answer": "Fisherman"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Béé",
+        "text": "And why did Jesus choose to give him the name 'Rock'?"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Jesus called Peter 'Cephas', which means 'Rock', because he would be firm and dependable in serving God."
+      },
+      {
+        "kind": "question",
+        "text": "What does the name 'Rock' symbolize in Peter's story?",
+        "options": [
+          "Hardness of heart",
+          "Firmness and strength of character",
+          "Weight of responsibilities"
+        ],
+        "answer": "Firmness and strength of character"
+      },
+      {
+        "kind": "narration",
+        "speaker": "Narrator",
+        "text": "Peter teaches us that we all can change and become stronger through faith. Thank you for following Manna Radio!"
+      }
+    ]
+  }
+]

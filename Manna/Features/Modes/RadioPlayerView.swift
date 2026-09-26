@@ -16,6 +16,9 @@ struct RadioPlayerView: View {
     @State private var totalQuestions = 0
     @State private var showCelebration = false
     @State private var celebrationResult: LessonResult?
+    @State private var animateContent = false
+    private let narratorState = Narrator.state
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private var currentStep: RadioStep? {
         guard currentStepIndex < episode.steps.count else { return nil }
@@ -52,16 +55,49 @@ struct RadioPlayerView: View {
                     VStack(spacing: 24) {
                         Spacer(minLength: 20)
 
-                        // Ícone e título
-                        VStack(spacing: 12) {
-                            Image(systemName: "waveform.circle.fill")
-                                .font(.system(size: 64))
-                                .foregroundStyle(Theme.wheat)
+                        // Apresentadores animados (Béé e Pastor Davi)
+                        HStack(spacing: 16) {
+                            VStack(spacing: 8) {
+                                CharacterView(
+                                    character: .bee,
+                                    mood: .happy,
+                                    size: 100,
+                                    isTalking: narratorState.isSpeaking && (currentStep?.speaker ?? "Béé").contains("Béé")
+                                )
+                                .characterBreathing(size: 100)
+                                .scaleEffect(narratorState.isSpeaking && (currentStep?.speaker ?? "Béé").contains("Béé") ? 1.05 : 1)
+                                .animation(.easeInOut(duration: 0.3), value: narratorState.isSpeaking)
 
-                            Text(episode.title)
-                                .font(Theme.font(20, .heavy))
-                                .foregroundStyle(Theme.ink)
-                                .multilineTextAlignment(.center)
+                                Text("Béé")
+                                    .font(Theme.font(12, .semibold))
+                                    .foregroundStyle(Theme.wheat)
+                            }
+
+                            VStack(spacing: 8) {
+                                CharacterView(
+                                    character: .pastorDavi,
+                                    mood: .happy,
+                                    size: 100,
+                                    isTalking: narratorState.isSpeaking && (currentStep?.speaker ?? "").contains("Davi")
+                                )
+                                .characterBreathing(size: 100)
+                                .scaleEffect(narratorState.isSpeaking && (currentStep?.speaker ?? "").contains("Davi") ? 1.05 : 1)
+                                .animation(.easeInOut(duration: 0.3), value: narratorState.isSpeaking)
+
+                                Text("Pastor Davi")
+                                    .font(Theme.font(12, .semibold))
+                                    .foregroundStyle(Theme.night)
+                            }
+
+                            Spacer()
+                        }
+                        .padding(.horizontal, 16)
+
+                        // Onda sonora animada
+                        if narratorState.isSpeaking {
+                            SoundWaveView()
+                                .frame(height: 40)
+                                .padding(.horizontal, 16)
                         }
 
                         Spacer(minLength: 12)
@@ -75,9 +111,11 @@ struct RadioPlayerView: View {
                                         .font(Theme.font(18, .heavy))
                                         .foregroundStyle(Theme.ink)
                                         .multilineTextAlignment(.center)
+                                        .opacity(animateContent ? 1 : 0)
+                                        .offset(y: animateContent ? 0 : 10)
 
                                     VStack(spacing: 8) {
-                                        ForEach(step.options ?? [], id: \.self) { option in
+                                        ForEach(Array((step.options ?? []).enumerated()), id: \.element) { index, option in
                                             Button {
                                                 selectedAnswer = option
                                                 checkAnswer(option, correctAnswer: step.answer ?? "")
@@ -94,11 +132,17 @@ struct RadioPlayerView: View {
                                                     )
                                                     .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                                             }
+                                            .opacity(animateContent ? 1 : 0)
+                                            .offset(y: animateContent ? 0 : 10)
+                                            .animation(
+                                                reduceMotion ? .none : .easeOut(duration: 0.4).delay(Double(index + 1) * 0.08),
+                                                value: animateContent
+                                            )
                                         }
                                     }
                                 }
                             } else {
-                                // Narração
+                                // Narração com balão animado
                                 VStack(spacing: 12) {
                                     Text(step.speaker ?? "Narrador")
                                         .font(Theme.font(14, .semibold))
@@ -113,6 +157,8 @@ struct RadioPlayerView: View {
                                 .padding(16)
                                 .background(Theme.card)
                                 .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                                .opacity(animateContent ? 1 : 0)
+                                .scaleEffect(animateContent ? 1 : 0.8, anchor: .center)
                             }
 
                             // Feedback
@@ -129,6 +175,7 @@ struct RadioPlayerView: View {
                                 .padding(12)
                                 .background(feedback.isCorrect ? Theme.oliveLight : Theme.terracottaLight)
                                 .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                                .transition(.scale.combined(with: .opacity))
                             }
                         }
 
@@ -171,9 +218,30 @@ struct RadioPlayerView: View {
                 }
             }
         }
+        .onChange(of: currentStepIndex) { _, _ in
+            animateContent = false
+            if !reduceMotion {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                    withAnimation(.easeOut(duration: 0.4)) {
+                        animateContent = true
+                    }
+                }
+            } else {
+                animateContent = true
+            }
+        }
         .onDisappear { Narrator.stop() }
         .onAppear {
-            // Falar primeira narração
+            if !reduceMotion {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                    withAnimation(.easeOut(duration: 0.4)) {
+                        animateContent = true
+                    }
+                }
+            } else {
+                animateContent = true
+            }
+
             if let step = currentStep, step.kind == .narration {
                 Narrator.speak(step.text, slow: false)
             }

@@ -99,7 +99,7 @@ struct VideoCallView: View {
     }
 
     private func loadPhoneCalls() {
-        guard let url = Bundle.main.url(forResource: "ligacoes", withExtension: "json"),
+        guard let url = ContentLanguage.url(for: "ligacoes"),
               let data = try? Data(contentsOf: url),
               let loaded = try? JSONDecoder().decode([PhoneCall].self, from: data) else {
             loadError = "Erro ao carregar ligações"

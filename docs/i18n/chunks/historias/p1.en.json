@@ -1,0 +1,502 @@
+[
+  {
+    "id": "historia-davi-golias",
+    "title": "David and Goliath",
+    "subtitle": "A young shepherd defeats an invincible giant",
+    "icon": "person.2.fill",
+    "reference": "1 Samuel 17",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "In a valley between two mountains, two armies stood face to face: the Israelites and the Philistines. Everyone trembled with fear."
+      },
+      {
+        "kind": "line",
+        "speaker": "Goliath",
+        "text": "Do you have the courage to face a giant? Send your best warrior! But I doubt anyone is as strong as I am."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Goliath was nearly three meters tall. No one dared to approach him. For forty days the giant had been challenging the army of Israel."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why were the Israelites afraid of Goliath?",
+        "options": [
+          "Because he was very large and strong",
+          "Because he was the king's friend",
+          "Because he had magic weapons"
+        ],
+        "answer": "Because he was very large and strong"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "David was a young shepherd who took care of his father's sheep. When his father sent him to bring food to his brothers in war, David saw Goliath."
+      },
+      {
+        "kind": "line",
+        "speaker": "David",
+        "text": "Why are you afraid? I will fight this giant! The Lord will help me, for he is with me."
+      },
+      {
+        "kind": "line",
+        "speaker": "Soldier",
+        "text": "You are too young! Goliath is a trained warrior. He will crush you like an insect!"
+      },
+      {
+        "kind": "line",
+        "speaker": "David",
+        "text": "The Lord delivered me from the paws of the lion and the bear when I was a shepherd. He will also save me from Goliath."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What previous experience was David talking about?",
+        "options": [
+          "Fights he faced while protecting his sheep",
+          "Battles he participated in in Saul's kingdom",
+          "Special training for war"
+        ],
+        "answer": "Fights he faced while protecting his sheep"
+      },
+      {
+        "kind": "line",
+        "speaker": "King Saul",
+        "text": "Can you fight Goliath? Use my armor and my sword. Thus you will be protected."
+      },
+      {
+        "kind": "line",
+        "speaker": "David",
+        "text": "Thank you, but I cannot fight with this armor. I'm not used to it. I prefer to trust in the Lord."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "David took his sling and five smooth stones from the river. Then he walked confidently toward Goliath."
+      },
+      {
+        "kind": "line",
+        "speaker": "Goliath",
+        "text": "You come to defeat me with a sling? What a foolish boy! I will make you return!"
+      },
+      {
+        "kind": "line",
+        "speaker": "David",
+        "text": "You come against me with sword and spear. But I come in the name of the Lord of Hosts!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What did David trust in to defeat Goliath?",
+        "options": [
+          "In the Lord and his faith",
+          "In the strength of his own arm",
+          "In the help of the soldiers"
+        ],
+        "answer": "In the Lord and his faith"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "David put a stone in his sling and threw it with force. The stone flew through the air and struck Goliath's forehead."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The giant fell like a pine tree in a storm. Goliath never rose again. All the nation of Israel saw God's miracle."
+      },
+      {
+        "kind": "line",
+        "speaker": "People",
+        "text": "David! David! He defeated Goliath! The Lord is with him!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What was the main lesson of this story?",
+        "options": [
+          "Faith in God is more powerful than any giant",
+          "You don't need armor to fight",
+          "Children are better warriors than adults"
+        ],
+        "answer": "Faith in God is more powerful than any giant"
+      }
+    ]
+  },
+  {
+    "id": "historia-daniel-leoes",
+    "title": "Daniel in the Lion's Den",
+    "subtitle": "A man of faith faces death with courage",
+    "icon": "shield.fill",
+    "reference": "Daniel 6",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Daniel was a wise young man in the kingdom of Babylon. King Nebuchadnezzar loved him and made him one of the most powerful princes."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jealous Princes",
+        "text": "Daniel has too much power! We need to find a reason to accuse him to the king and remove him from his position."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The princes looked for flaws in Daniel's character. But he was honorable and faithful. Every day, Daniel prayed to God."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why did the princes want to defeat Daniel?",
+        "options": [
+          "Because they were jealous of his power and wisdom",
+          "Because Daniel stole gold from the kingdom",
+          "Because Daniel was a foreigner"
+        ],
+        "answer": "Because they were jealous of his power and wisdom"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jealous Princes",
+        "text": "We know how to defeat Daniel! Let's ask the king to make a decree. No one can pray to anyone except the king for thirty days!"
+      },
+      {
+        "kind": "line",
+        "speaker": "King Darius",
+        "text": "Very well. Anyone who prays will be cast into the lion's den."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Daniel heard about the decree. But he did not stop praying to God. He continued praying three times a day, as he had always done."
+      },
+      {
+        "kind": "line",
+        "speaker": "Daniel",
+        "text": "My God is more important than my life. I will not stop praying to Him, no matter what the cost."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did Daniel respond to the king's decree?",
+        "options": [
+          "He continued praying to God faithfully",
+          "He stopped praying to save his life",
+          "He prayed only in secret at night"
+        ],
+        "answer": "He continued praying to God faithfully"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jealous Princes",
+        "text": "King! Daniel disobeys your decree! He prayed to his God three times today! According to your law, he must be cast into the lion's den!"
+      },
+      {
+        "kind": "line",
+        "speaker": "King Darius",
+        "text": "No! Daniel is a just and wise man. But my own law compels me. May the God of Daniel save you!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Daniel was taken to the lion's den. A great stone was placed over the opening. The king sealed the den with his ring to ensure that no one would save him."
+      },
+      {
+        "kind": "line",
+        "speaker": "King Darius",
+        "text": "Daniel, may your God protect you. I spent the whole night praying for you."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The king awoke before dawn, troubled. He ran quickly to the lion's den. There, he called out for Daniel."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What did the king do when he woke up?",
+        "options": [
+          "He ran to the den to see if Daniel was alive",
+          "He slept until late",
+          "He ate his breakfast normally"
+        ],
+        "answer": "He ran to the den to see if Daniel was alive"
+      },
+      {
+        "kind": "line",
+        "speaker": "King Darius",
+        "text": "Daniel! Are you alive? Could your God save you?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Daniel",
+        "text": "My king! My God sent an angel and closed the mouths of the lions. They did not harm me because I am innocent before God and the king."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Daniel was brought back alive! Not even a thread of his clothing was damaged. The lions respected him and protected him!"
+      },
+      {
+        "kind": "line",
+        "speaker": "King Darius",
+        "text": "Let all kingdoms know! The God of Daniel is the living and true God. He saves those who believe in Him!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What miracle did God perform for Daniel?",
+        "options": [
+          "He sent an angel and closed the mouths of the lions",
+          "The lions became vegetarians",
+          "Daniel flew out of the den"
+        ],
+        "answer": "He sent an angel and closed the mouths of the lions"
+      }
+    ]
+  },
+  {
+    "id": "historia-ester-rainha",
+    "title": "Esther Before the King",
+    "subtitle": "A queen's courage saves her people",
+    "icon": "crown.fill",
+    "reference": "Esther 1-7",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Esther was a very beautiful and wise young Jewish woman. She became queen of the Persian Empire, but kept her Jewish identity secret."
+      },
+      {
+        "kind": "line",
+        "speaker": "Mordecai",
+        "text": "Esther, I need to tell you something terrible. An evil man named Haman convinced the king to order the death of all Jews in the kingdom!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Esther",
+        "text": "This is horrible! My people will be destroyed! What can I do?"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mordecai",
+        "text": "Perhaps God put you on the throne for just this moment. You are the only one who can speak to the king and ask for your people's lives."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why did Mordecai believe Esther could save her people?",
+        "options": [
+          "Because she was queen and had access to the king",
+          "Because she was very beautiful",
+          "Because she was the king's daughter"
+        ],
+        "answer": "Because she was queen and had access to the king"
+      },
+      {
+        "kind": "line",
+        "speaker": "Esther",
+        "text": "But there is a problem. No one can approach the king without being invited. If he does not extend his golden scepter, I can be condemned to death!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Mordecai",
+        "text": "Esther, you must be courageous. First, ask all the Jews to fast and pray. Then go before the king."
+      },
+      {
+        "kind": "line",
+        "speaker": "Esther",
+        "text": "Yes, I will do this. Even if I die, I will die trying to save my people."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Esther gathered her strength and prepared for a special meal with the king. She wore her finest clothes and presented herself before him."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did Esther prepare to speak to the king?",
+        "options": [
+          "She asked people to pray for her and prepared herself with grace",
+          "She shouted and demanded her right",
+          "She tried to deceive the king with lies"
+        ],
+        "answer": "She asked people to pray for her and prepared herself with grace"
+      },
+      {
+        "kind": "line",
+        "speaker": "King",
+        "text": "My Queen Esther! Welcome! What do you wish? I can grant you even half of my kingdom!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Esther",
+        "text": "My king, I ask that you and Haman come to a banquet that I have prepared especially."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Esther invited the king and Haman to a banquet. That night, she gathered courage to reveal the truth."
+      },
+      {
+        "kind": "line",
+        "speaker": "Esther",
+        "text": "My king! I ask for my life and the life of my people! Someone wants to destroy us! It is Haman, that evil man!"
+      },
+      {
+        "kind": "line",
+        "speaker": "King",
+        "text": "What? Haman wants to destroy you? Esther, you are my queen! No one will harm you while I live!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "How did the king respond when he learned of Haman's plan?",
+        "options": [
+          "He was against Haman and defended Queen Esther",
+          "He said Esther was lying",
+          "He apologized to Haman"
+        ],
+        "answer": "He was against Haman and defended Queen Esther"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The king issued a new decree. All the Jews were saved from Haman's plan. Esther became a heroine, and her courage saved her people."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jewish People",
+        "text": "Hallelujah! Esther is our queen! She was courageous and saved us! Praise be to the Lord!"
+      }
+    ]
+  },
+  {
+    "id": "historia-jonas-peixe",
+    "title": "Jonah and the Great Fish",
+    "subtitle": "A prophet learns about obedience and compassion",
+    "icon": "fish.fill",
+    "reference": "Jonah 1-4",
+    "steps": [
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "God spoke to Jonah: 'Go to the city of Nineveh and warn the people that if they do not repent of their sins, the city will be destroyed.'"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonah",
+        "text": "I will not! Nineveh is an enemy of my people. Let God destroy them! I will flee in this boat."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Jonah fled from God, but the Lord is faster. A great storm began to stir the sea."
+      },
+      {
+        "kind": "line",
+        "speaker": "Sailor 1",
+        "text": "What is happening? I have sailed for forty years and never seen a storm so horrible!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "Why did the storm begin?",
+        "options": [
+          "Because God sent it to bring Jonah back",
+          "Because there was a natural hurricane in that region",
+          "Because the sailors did something wrong"
+        ],
+        "answer": "Because God sent it to bring Jonah back"
+      },
+      {
+        "kind": "line",
+        "speaker": "Sailor 2",
+        "text": "Is there someone here who fled from his God? The storm is punishing someone!"
+      },
+      {
+        "kind": "line",
+        "text": "Yes, it was me. I fled from my God. Take me and throw me into the sea. Then the storm will stop.",
+        "speaker": "Jonah"
+      },
+      {
+        "kind": "line",
+        "text": "Are you sure? You don't want to live?",
+        "speaker": "Sailor 1"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonah",
+        "text": "God is more important than my life. Let me pay for my sin."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "The sailors, sadly, threw Jonah into the turbulent sea. But God prepared a great fish to swallow him."
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What happened to Jonah when he was thrown into the sea?",
+        "options": [
+          "A great fish swallowed him, but he did not die",
+          "He drowned immediately",
+          "A great bird saved him"
+        ],
+        "answer": "A great fish swallowed him, but he did not die"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonah",
+        "text": "I am in the belly of a huge fish! It is so dark here. But God is still with me. I will pray and repent."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "Jonah was in the belly of the fish for three days and three nights. In that dark time, he learned an important lesson."
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonah",
+        "text": "God, I was wrong! You are merciful. I will go to Nineveh and do what you asked. I will preach your repentance."
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "God heard Jonah's prayer. The great fish spat him back onto dry land. Jonah was alive!"
+      },
+      {
+        "kind": "question",
+        "speaker": null,
+        "text": "What did Jonah learn during his experience?",
+        "options": [
+          "That God is merciful and deserves obedience",
+          "That he should never obey God",
+          "That the sea is dangerous"
+        ],
+        "answer": "That God is merciful and deserves obedience"
+      },
+      {
+        "kind": "line",
+        "speaker": "Jonah",
+        "text": "Now I will go to Nineveh as God asked. I still don't like them, but I must warn them that they must repent."
+      },
+      {
+        "kind": "line",
+        "speaker": "People of Nineveh",
+        "text": "Listen! Jonah says our city will be destroyed if we don't repent! Let's all repent and ask the God of Jonah to forgive us!"
+      },
+      {
+        "kind": "line",
+        "speaker": "Narrator",
+        "text": "All the people of Nineveh heard and repented. God had compassion on them and forgave the city. God's will was fulfilled."
+      }
+    ]
+  }
+]

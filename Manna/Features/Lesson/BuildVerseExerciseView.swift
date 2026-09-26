@@ -2,14 +2,33 @@ import SwiftUI
 
 /// Exercício: montar o versículo tocando nos blocos.
 /// Tocar no banco leva o bloco para a resposta (deixando um espaço cinza); tocar na resposta devolve.
+/// Personagem reage conforme monta.
 struct BuildVerseExerciseView: View {
     let exercise: Exercise
     let vm: LessonViewModel
+    @State private var selectedCharacter: MannaCharacter
+
+    init(exercise: Exercise, vm: LessonViewModel) {
+        self.exercise = exercise
+        self.vm = vm
+        _selectedCharacter = State(initialValue: characterForExercise(exercise.id))
+    }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
+        VStack(alignment: .center, spacing: 20) {
+            // Personagem com instrução
             if let text = exercise.text {
-                SpeakerLine(speaker: exercise.speaker ?? "Béé", text: text)
+                CharacterDisplay(
+                    character: selectedCharacter,
+                    mood: vm.built.isEmpty ? .happy : .thinking,
+                    text: text
+                )
+            } else {
+                CharacterDisplay(
+                    character: selectedCharacter,
+                    mood: .happy,
+                    text: "Monte o versículo arrastando as palavras"
+                )
             }
 
             // Área de resposta com linhas de pauta

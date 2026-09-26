@@ -1,24 +1,26 @@
 import SwiftUI
 
 /// Exercício: verdadeiro ou falso.
+/// Personagem reage com expressões conforme interage.
 struct TrueFalseExerciseView: View {
     let exercise: Exercise
     @Bindable var vm: LessonViewModel
+    @State private var selectedCharacter: MannaCharacter
+
+    init(exercise: Exercise, vm: LessonViewModel) {
+        self.exercise = exercise
+        self.vm = vm
+        _selectedCharacter = State(initialValue: characterForExercise(exercise.id))
+    }
 
     var body: some View {
         VStack(spacing: 24) {
-            Text(exercise.statement ?? "")
-                .font(Theme.font(21, .heavy))
-                .foregroundStyle(Theme.ink)
-                .multilineTextAlignment(.center)
-                .fixedSize(horizontal: false, vertical: true)
-                .frame(maxWidth: .infinity)
-                .padding(20)
-                .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Theme.cream))
-                .overlay(
-                    RoundedRectangle(cornerRadius: 18, style: .continuous)
-                        .strokeBorder(Theme.line, lineWidth: 2)
-                )
+            // Personagem com a afirmação
+            CharacterDisplay(
+                character: selectedCharacter,
+                mood: vm.selectedBool != nil ? .thinking : .happy,
+                text: exercise.statement ?? ""
+            )
 
             HStack(spacing: 12) {
                 choice(true, label: "Verdadeiro", icon: "checkmark")

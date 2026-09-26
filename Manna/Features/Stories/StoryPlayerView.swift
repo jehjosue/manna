@@ -151,24 +151,44 @@ struct StoryLineView: View {
     let soundEnabled: Bool
 
     @State private var isSpeaking = false
+    @State private var showBubble = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    private let narratorState = Narrator.state
 
     var body: some View {
         VStack(spacing: 16) {
-            // Avatar do personagem
-            ZStack {
-                Circle()
-                    .fill(avatarColor.opacity(0.2))
-                    .frame(width: 90, height: 90)
-
-                if let speaker = step.speaker, speaker != "Narrador" {
-                    Text(String(speaker.prefix(1)))
-                        .font(Theme.font(36, .heavy))
-                        .foregroundStyle(avatarColor)
+            // Personagem animado
+            if let speaker = step.speaker, speaker != "Narrador" {
+                // Procura pelo personagem correspondente no elenco
+                if let character = findCharacter(for: speaker) {
+                    CharacterView(
+                        character: character,
+                        mood: .happy,
+                        size: 120,
+                        isTalking: narratorState.isSpeaking
+                    )
+                    .characterBreathing(size: 120)
                 } else {
-                    Image(systemName: "book.fill")
-                        .font(.system(size: 36, weight: .bold))
-                        .foregroundStyle(avatarColor)
+                    // Avatar circular como fallback
+                    ZStack {
+                        Circle()
+                            .fill(avatarColor.opacity(0.2))
+                            .frame(width: 90, height: 90)
+
+                        Text(String(speaker.prefix(1)))
+                            .font(Theme.font(36, .heavy))
+                            .foregroundStyle(avatarColor)
+                    }
                 }
+            } else {
+                // Béé como narrador padrão
+                CharacterView(
+                    character: .bee,
+                    mood: .thinking,
+                    size: 120,
+                    isTalking: narratorState.isSpeaking
+                )
+                .characterBreathing(size: 120)
             }
 
             // Nome do personagem
@@ -177,10 +197,14 @@ struct StoryLineView: View {
                     .font(Theme.font(14, .semibold))
                     .foregroundStyle(Theme.inkMuted)
                     .textCase(.uppercase)
+                    .opacity(showBubble ? 1 : 0.3)
             }
 
-            // Balão de fala
-            SpeechBubble(text: step.text)
+            // Balão de fala com animação
+            if showBubble {
+                SpeechBubble(text: step.text)
+                    .transition(.scale(scale: 0.8).combined(with: .opacity))
+            }
 
             // Botão de áudio
             if soundEnabled {
@@ -195,21 +219,33 @@ struct StoryLineView: View {
                 .buttonStyle(.chunkyNight)
             }
         }
+        .onAppear {
+            if !reduceMotion {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                    withAnimation(.easeOut(duration: 0.5)) {
+                        showBubble = true
+                    }
+                }
+            } else {
+                showBubble = true
+            }
+        }
     }
 
     private var avatarColor: Color {
         guard let speaker = step.speaker else { return Theme.night }
-        // Cores diferentes por personagem
         let colors: [Color] = [Theme.wheat, Theme.olive, Theme.night, Theme.terracotta, Theme.rest]
         let hash = speaker.hashValue % colors.count
         return colors[abs(hash)]
     }
 
+    private func findCharacter(for speaker: String) -> MannaCharacter? {
+        MannaCharacter.cast.first { $0.displayName.lowercased() == speaker.lowercased() }
+    }
+
     private func playAudio(_ text: String) {
         isSpeaking = true
-        Narrator.speak(text, slow: true)
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + Double(text.count) * 0.05) {
+        Narrator.speak(text, slow: true) {
             isSpeaking = false
         }
     }
@@ -224,27 +260,26 @@ struct StoryQuestionView: View {
     let soundEnabled: Bool
 
     @State private var selectedOption: String?
+    @State private var animateOptions = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         VStack(spacing: 16) {
-            // Ícone de pergunta
-            ZStack {
-                Circle()
-                    .fill(Theme.night.opacity(0.2))
-                    .frame(width: 90, height: 90)
-
-                Image(systemName: "questionmark")
-                    .font(.system(size: 40, weight: .bold))
-                    .foregroundStyle(Theme.night)
-            }
+            // Béé fazendo pergunta
+            CharacterView(
+                character: .bee,
+                mood: .thinking,
+                size: 120
+            )
+            .characterBreathing(size: 120)
 
             // Texto da pergunta
             SpeechBubble(text: step.text)
 
-            // Opções de resposta
+            // Opções de resposta com animação escalonada
             if let options = step.options {
                 VStack(spacing: 12) {
-                    ForEach(options, id: \.self) { option in
+                    ForEach(Array(options.enumerated()), id: \.element) { index, option in
                         ChoiceOptionButton(
                             text: option,
                             isSelected: selectedOption == option,
@@ -256,8 +291,23 @@ struct StoryQuestionView: View {
                                 onSelect(option, option == step.answer)
                             }
                         )
+                        .opacity(animateOptions ? 1 : 0)
+                        .offset(y: animateOptions ? 0 : 10)
+                        .animation(
+                            reduceMotion ? .none : .easeOut(duration: 0.4).delay(Double(index) * 0.08),
+                            value: animateOptions
+                        )
                     }
                 }
+            }
+        }
+        .onAppear {
+            if !reduceMotion {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                    animateOptions = true
+                }
+            } else {
+                animateOptions = true
             }
         }
     }

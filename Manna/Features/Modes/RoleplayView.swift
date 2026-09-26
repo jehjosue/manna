@@ -94,7 +94,7 @@ struct RoleplayView: View {
     }
 
     private func loadConversations() {
-        guard let url = Bundle.main.url(forResource: "conversas", withExtension: "json"),
+        guard let url = ContentLanguage.url(for: "conversas"),
               let data = try? Data(contentsOf: url),
               let loaded = try? JSONDecoder().decode([Conversation].self, from: data) else {
             loadError = "Erro ao carregar conversas"

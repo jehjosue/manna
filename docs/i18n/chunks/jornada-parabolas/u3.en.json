@@ -1,0 +1,627 @@
+{
+  "id": "parabolas-u3",
+  "title": "Unit 3",
+  "subtitle": "Love of Neighbor and Stewardship",
+  "guide": {
+    "summary": "Jesus taught the importance of loving neighbor and administering well the gifts received from God. Through parables, he revealed that true faith is expressed in concrete actions of compassion, generosity, and responsibility toward what is entrusted to us.",
+    "keyVerses": [
+      {
+        "reference": "Luke 10:36-37",
+        "text": "Which of these three, do you think, proved to be a neighbor to the man who fell among robbers? He said, 'The one who showed him mercy.' Jesus said to him, 'Go and do likewise.'"
+      },
+      {
+        "reference": "Matthew 25:31-40",
+        "text": "When the Son of Man comes in his glory, and all the angels with him, then he will sit on his glorious throne. All the nations will be gathered before him, and he will separate people one from another as a shepherd separates the sheep from the goats."
+      },
+      {
+        "reference": "Matthew 25:14-30",
+        "text": "For it is as when a man, going into another country, called his own servants, and entrusted his goods to them. To one he gave five talents, to another two, to another one; to each according to his ability."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "parabolas-u3-l1",
+      "title": "The Good Samaritan",
+      "icon": "sun.max.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Who passed first and did not help?",
+          "text": "A ___ went up that road and saw the wounded man.",
+          "options": [
+            "priest",
+            "Levite",
+            "scribe",
+            "Pharisee"
+          ],
+          "answer": "priest",
+          "reference": "Luke 10:31"
+        },
+        {
+          "id": "parabolas-u3-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The Samaritan sold his ___ to pay for the care.",
+          "answer": "donkey",
+          "options": [
+            "donkey",
+            "purse",
+            "clothes",
+            "property"
+          ],
+          "reference": "Luke 10:34"
+        },
+        {
+          "id": "parabolas-u3-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Jesus' instruction at the end",
+          "tokens": [
+            "Go",
+            "and do",
+            "likewise"
+          ],
+          "distractors": [
+            "Go and wait",
+            "Go and preach",
+            "Go and judge",
+            "Go and announce"
+          ],
+          "reference": "Luke 10:37"
+        },
+        {
+          "id": "parabolas-u3-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of the parable.",
+          "tokens": [
+            "Man is robbed",
+            "Priest passes by",
+            "Levite passes by",
+            "Samaritan helps"
+          ],
+          "reference": "Luke 10:30-35"
+        },
+        {
+          "id": "parabolas-u3-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the actions",
+          "pairs": [
+            {
+              "left": "Priest",
+              "right": "Passed by"
+            },
+            {
+              "left": "Levite",
+              "right": "Did not stop"
+            },
+            {
+              "left": "Samaritan",
+              "right": "Helped the wounded"
+            },
+            {
+              "left": "Neighbor",
+              "right": "One who acts with love"
+            }
+          ],
+          "reference": "Luke 10:31-37"
+        },
+        {
+          "id": "parabolas-u3-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "A Samaritan showed more compassion than the Jewish religious leaders.",
+          "isTrue": true,
+          "reference": "Luke 10:33-35",
+          "explanation": "While the priest and Levite ignored the wounded man, the Samaritan cared for him with oil, wine, and lodging."
+        },
+        {
+          "id": "parabolas-u3-l1-e7",
+          "kind": "listen",
+          "prompt": "Who was the neighbor?",
+          "text": "The Samaritan was the one who acted with mercy.",
+          "options": [
+            "The Samaritan",
+            "The priest",
+            "The Levite",
+            "The robber"
+          ],
+          "answer": "The Samaritan",
+          "reference": "Luke 10:37"
+        },
+        {
+          "id": "parabolas-u3-l1-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "A neighbor is one who acts with compassion.",
+          "reference": "Luke 10:37"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u3-l2",
+      "title": "The Talents",
+      "icon": "moon.stars.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "How much did the first servant receive?",
+          "text": "One servant received ___ talents.",
+          "options": [
+            "five",
+            "two",
+            "one",
+            "ten"
+          ],
+          "answer": "five",
+          "reference": "Matthew 25:15"
+        },
+        {
+          "id": "parabolas-u3-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The faithful servant earned more ___ by trading.",
+          "answer": "talents",
+          "options": [
+            "talents",
+            "coins",
+            "gold",
+            "money"
+          ],
+          "reference": "Matthew 25:16-17"
+        },
+        {
+          "id": "parabolas-u3-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The master's praise",
+          "tokens": [
+            "Well done, good",
+            "and faithful servant",
+            "enter",
+            "into the joy of your master"
+          ],
+          "distractors": [
+            "into the house",
+            "into the kingdom",
+            "into glory",
+            "into paradise"
+          ],
+          "reference": "Matthew 25:21"
+        },
+        {
+          "id": "parabolas-u3-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the distributions in order",
+          "text": "Sequence of receiving and settling accounts.",
+          "tokens": [
+            "Master distributes talents",
+            "Servants use their gifts",
+            "Master returns",
+            "Evaluates how they used them"
+          ],
+          "reference": "Matthew 25:14-30"
+        },
+        {
+          "id": "parabolas-u3-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the servants",
+          "pairs": [
+            {
+              "left": "First servant",
+              "right": "Five talents"
+            },
+            {
+              "left": "Second servant",
+              "right": "Two talents"
+            },
+            {
+              "left": "Third servant",
+              "right": "One talent (buried)"
+            },
+            {
+              "left": "Faithful stewardship",
+              "right": "Rewarded"
+            }
+          ],
+          "reference": "Matthew 25:14-30"
+        },
+        {
+          "id": "parabolas-u3-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The servant who buried his talent was praised as faithful.",
+          "isTrue": false,
+          "reference": "Matthew 25:24-30",
+          "explanation": "The servant was called wicked and lazy for not using his talent; he was punished while the faithful were rewarded."
+        },
+        {
+          "id": "parabolas-u3-l2-e7",
+          "kind": "listen",
+          "prompt": "What did the faithful servant do?",
+          "text": "Listen: The faithful servants multiplied their talents.",
+          "options": [
+            "Multiplied talents",
+            "Hid talents",
+            "Lost talents",
+            "Gave away talents"
+          ],
+          "answer": "Multiplied talents",
+          "reference": "Matthew 25:16-17"
+        },
+        {
+          "id": "parabolas-u3-l2-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "To the one with much, much will be given; from the one with little, even that will be taken.",
+          "reference": "Matthew 25:29"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u3-l3",
+      "title": "The Rich Fool",
+      "icon": "hands.sparkles.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Why was the rich man's harvest so large?",
+          "text": "The harvest was so great that his ___ could not hold it.",
+          "options": [
+            "harvests",
+            "crops",
+            "barns",
+            "storehouses"
+          ],
+          "answer": "harvests",
+          "reference": "Luke 12:17"
+        },
+        {
+          "id": "parabolas-u3-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The rich man planned to ___ and enjoy his goods.",
+          "answer": "retire",
+          "options": [
+            "retire",
+            "withdraw",
+            "rest",
+            "depart"
+          ],
+          "reference": "Luke 12:18-19"
+        },
+        {
+          "id": "parabolas-u3-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Reflection on greed",
+          "tokens": [
+            "Life",
+            "does not consist",
+            "in the abundance",
+            "of possessions"
+          ],
+          "distractors": [
+            "in enjoyment",
+            "in money",
+            "in wealth",
+            "in pleasure"
+          ],
+          "reference": "Luke 12:15"
+        },
+        {
+          "id": "parabolas-u3-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the story in order",
+          "text": "Sequence of the Parable of the Rich Fool.",
+          "tokens": [
+            "Large harvest is gathered",
+            "Rich man plans to build",
+            "Prepares to rest",
+            "Dies that night"
+          ],
+          "reference": "Luke 12:16-20"
+        },
+        {
+          "id": "parabolas-u3-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the meanings",
+          "pairs": [
+            {
+              "left": "Abundant harvest",
+              "right": "God's blessing"
+            },
+            {
+              "left": "Greed",
+              "right": "Spiritual emptiness"
+            },
+            {
+              "left": "Sudden death",
+              "right": "Takes nothing"
+            },
+            {
+              "left": "Generosity",
+              "right": "True wealth"
+            }
+          ],
+          "reference": "Luke 12:16-21"
+        },
+        {
+          "id": "parabolas-u3-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The rich fool shared his harvest with the needy.",
+          "isTrue": false,
+          "reference": "Luke 12:18-19",
+          "explanation": "He only thought of himself: storing everything and enjoying it for himself, without thinking of God or neighbor."
+        },
+        {
+          "id": "parabolas-u3-l3-e7",
+          "kind": "listen",
+          "prompt": "What was the rich man's plan?",
+          "text": "The rich man plans to rest and enjoy his goods.",
+          "options": [
+            "Rest and enjoy",
+            "Work more",
+            "Help the poor",
+            "Pray to God"
+          ],
+          "answer": "Rest and enjoy",
+          "reference": "Luke 12:18-19"
+        },
+        {
+          "id": "parabolas-u3-l3-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "No one can take their riches when they die.",
+          "reference": "Luke 12:15-21"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u3-l4",
+      "title": "Sheep and Goats",
+      "icon": "bird.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Who is on the right hand of the Son of Man?",
+          "text": "On the right are the ___.",
+          "options": [
+            "sheep",
+            "goats",
+            "people",
+            "nations"
+          ],
+          "answer": "sheep",
+          "reference": "Matthew 25:31-33"
+        },
+        {
+          "id": "parabolas-u3-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "\"I was hungry and you ___, I was thirsty and you gave me drink.\"",
+          "answer": "fed me",
+          "options": [
+            "fed me",
+            "nourished me",
+            "killed me",
+            "gave me"
+          ],
+          "reference": "Matthew 25:35"
+        },
+        {
+          "id": "parabolas-u3-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Promise to the faithful sheep",
+          "tokens": [
+            "Come, blessed",
+            "of my Father",
+            "possess the kingdom",
+            "prepared for you"
+          ],
+          "distractors": [
+            "of the heavens",
+            "of the world",
+            "forever",
+            "of glory"
+          ],
+          "reference": "Matthew 25:34"
+        },
+        {
+          "id": "parabolas-u3-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the judgment in order",
+          "text": "Sequence of the Final Judgment.",
+          "tokens": [
+            "Son of Man is seated",
+            "Separates sheep from goats",
+            "Judges the hearts",
+            "Gives his sentence"
+          ],
+          "reference": "Matthew 25:31-46"
+        },
+        {
+          "id": "parabolas-u3-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the actions",
+          "pairs": [
+            {
+              "left": "I was hungry",
+              "right": "You fed me"
+            },
+            {
+              "left": "I was a stranger",
+              "right": "You welcomed me"
+            },
+            {
+              "left": "I was in prison",
+              "right": "You visited me"
+            },
+            {
+              "left": "Sheep",
+              "right": "Inherit the kingdom"
+            }
+          ],
+          "reference": "Matthew 25:35-40"
+        },
+        {
+          "id": "parabolas-u3-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Helping the neighbor is the same as helping Jesus.",
+          "isTrue": true,
+          "reference": "Matthew 25:40",
+          "explanation": "Jesus said: 'Whenever you did it for one of the least of these brothers and sisters of mine, you did it for me.'"
+        },
+        {
+          "id": "parabolas-u3-l4-e7",
+          "kind": "listen",
+          "prompt": "Who will be separated?",
+          "text": "The Son of Man will separate sheep from goats.",
+          "options": [
+            "Sheep from goats",
+            "Good from bad",
+            "Rich from poor",
+            "Righteous from unrighteous"
+          ],
+          "answer": "Sheep from goats",
+          "reference": "Matthew 25:32-33"
+        },
+        {
+          "id": "parabolas-u3-l4-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Whatever you did for the least of these, you did for me.",
+          "reference": "Matthew 25:40"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u3-l5",
+      "title": "Review: Love and Stewardship",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the central theme of these parables?",
+          "text": "All teach about ___ for the neighbor.",
+          "options": [
+            "love",
+            "judgment",
+            "wealth",
+            "death"
+          ],
+          "answer": "love",
+          "reference": "Luke 10 and Matthew 25"
+        },
+        {
+          "id": "parabolas-u3-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The Good Samaritan acted with ___.",
+          "answer": "compassion",
+          "options": [
+            "compassion",
+            "mercy",
+            "love",
+            "charity"
+          ],
+          "reference": "Luke 10:33"
+        },
+        {
+          "id": "parabolas-u3-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Put the lessons in order",
+          "text": "Sequence of the 5 parables.",
+          "tokens": [
+            "Love your neighbor",
+            "Use our gifts well",
+            "Avoid greed",
+            "Serve the needy"
+          ],
+          "reference": "Luke 10 and Matthew 25"
+        },
+        {
+          "id": "parabolas-u3-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Match each lesson",
+          "pairs": [
+            {
+              "left": "Good Samaritan",
+              "right": "Active compassion"
+            },
+            {
+              "left": "Talents",
+              "right": "Faithful stewardship"
+            },
+            {
+              "left": "Rich fool",
+              "right": "Empty greed"
+            },
+            {
+              "left": "Sheep and goats",
+              "right": "Judgment by deeds"
+            }
+          ],
+          "reference": "Luke 10 and Matthew 25"
+        },
+        {
+          "id": "parabolas-u3-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Build the key verse",
+          "text": "Essence of the teaching",
+          "tokens": [
+            "Go",
+            "and do",
+            "likewise"
+          ],
+          "distractors": [
+            "Go and preach",
+            "Go and judge",
+            "Go and pray",
+            "Go and wait"
+          ],
+          "reference": "Luke 10:37"
+        },
+        {
+          "id": "parabolas-u3-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "True faith is expressed in concrete actions of love.",
+          "isTrue": true,
+          "reference": "Luke 10 and Matthew 25",
+          "explanation": "All the parables show that true faith results in compassion, generosity, and responsible stewardship."
+        },
+        {
+          "id": "parabolas-u3-l5-e7",
+          "kind": "listen",
+          "prompt": "What does it mean to be a neighbor?",
+          "text": "Being a neighbor means acting with compassion.",
+          "options": [
+            "Acting with compassion",
+            "Knowing the person",
+            "Being nearby",
+            "Being a relative"
+          ],
+          "answer": "Acting with compassion",
+          "reference": "Luke 10:36-37"
+        },
+        {
+          "id": "parabolas-u3-l5-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Love of neighbor is as important as loving God.",
+          "reference": "Luke 10:27"
+        }
+      ]
+    }
+  ]
+}

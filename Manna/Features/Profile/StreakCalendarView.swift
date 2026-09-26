@@ -101,7 +101,7 @@ struct StreakCalendarView: View {
 
     private var monthTitle: String {
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "pt_BR")
+        formatter.locale = Locale.current
         formatter.dateFormat = "MMMM 'de' yyyy"
         return formatter.string(from: currentDate)
     }

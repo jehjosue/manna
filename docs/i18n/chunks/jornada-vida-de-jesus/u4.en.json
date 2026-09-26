@@ -1,0 +1,653 @@
+{
+  "id": "u4",
+  "title": "Unit 4",
+  "subtitle": "Death and resurrection",
+  "guide": {
+    "summary": "The climax of Jesus' life: his triumphal entry into Jerusalem, Last Supper, unjust trial, and sacrificial death. The disciples abandon him at the cross. But on the third day he rises, defeating death and sin. He appears to the disciples, commissions them, and returns to the Father, leaving the Holy Spirit as comforter.",
+    "keyVerses": [
+      {
+        "reference": "John 11:25-26",
+        "text": "Jesus said to her, \"I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live; and everyone who lives and believes in me shall never die.\""
+      },
+      {
+        "reference": "Romans 6:9",
+        "text": "We know that Christ, being raised from the dead, dies no more. Death no longer has dominion over him."
+      },
+      {
+        "reference": "1 Corinthians 15:57",
+        "text": "But thanks be to God, who gives us the victory through our Lord Jesus Christ."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u4-l1",
+      "title": "Triumphal Entry",
+      "icon": "music.note",
+      "exercises": [
+        {
+          "id": "u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Tell the daughter of Zion, Behold, your King comes to you, humble, and mounted on a donkey, and on a colt, the ___ of a beast of burden.\"",
+          "options": [
+            "offspring",
+            "young animal",
+            "baby",
+            "foal"
+          ],
+          "answer": "offspring",
+          "reference": "Matthew 21:5"
+        },
+        {
+          "id": "u4-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "At the triumphal entry, people spread palm branches and cloaks on the road.",
+          "isTrue": true,
+          "reference": "John 12:13",
+          "explanation": "The crowd took palm branches and went out to meet Jesus, crying: Hosanna (John 12:13)."
+        },
+        {
+          "id": "u4-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The praise of the crowds",
+          "tokens": [
+            "Hosanna to the Son",
+            "of David",
+            "Blessed is",
+            "he who comes",
+            "in the name of the Lord"
+          ],
+          "distractors": [
+            "to the king",
+            "to the Messiah",
+            "who comes",
+            "to the Most High"
+          ],
+          "reference": "Matthew 21:9"
+        },
+        {
+          "id": "u4-l1-e4",
+          "kind": "multipleChoice",
+          "prompt": "On what day of the week did Jesus enter Jerusalem?",
+          "text": "The triumphal entry happened on ___.",
+          "options": [
+            "Sunday",
+            "Monday",
+            "Saturday",
+            "Friday"
+          ],
+          "answer": "Sunday",
+          "reference": "John 12:1"
+        },
+        {
+          "id": "u4-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Jesus",
+              "right": "Mounted on a donkey"
+            },
+            {
+              "left": "Crowd",
+              "right": "Hosanna"
+            },
+            {
+              "left": "Branches",
+              "right": "Spread out"
+            },
+            {
+              "left": "Prophecy",
+              "right": "Fulfilled"
+            }
+          ],
+          "reference": "Matthew 21, John 12"
+        },
+        {
+          "id": "u4-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The triumphal entry fulfilled the prophecies of the Messiah in Zechariah.",
+          "isTrue": true,
+          "reference": "Zechariah 9:9",
+          "explanation": "Zechariah prophesied that the Messiah would come riding on a donkey (Zechariah 9:9)."
+        },
+        {
+          "id": "u4-l1-e7",
+          "kind": "multipleChoice",
+          "prompt": "What were people shouting to Jesus?",
+          "text": "The crowd shouted: \"___ to the Son of David!\"",
+          "options": [
+            "Hosanna",
+            "Hallelujah",
+            "Blessings",
+            "Glory"
+          ],
+          "answer": "Hosanna",
+          "reference": "Matthew 21:9"
+        },
+        {
+          "id": "u4-l1-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete about the disciples' praise",
+          "text": "\"Blessed is he who comes in the name of the ___!\"",
+          "options": [
+            "Lord",
+            "Father",
+            "God",
+            "King"
+          ],
+          "answer": "Lord",
+          "reference": "Matthew 21:9"
+        }
+      ]
+    },
+    {
+      "id": "u4-l2",
+      "title": "Last Supper and Gethsemane",
+      "icon": "water.waves",
+      "exercises": [
+        {
+          "id": "u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"And when he had taken bread and given thanks, he broke it and gave it to them, saying: This is my ___, which is given for you; do this in remembrance of me.\"",
+          "speaker": "Jesus",
+          "options": [
+            "body",
+            "heart",
+            "blood",
+            "sacrifice"
+          ],
+          "answer": "body",
+          "reference": "Luke 22:19"
+        },
+        {
+          "id": "u4-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "At the Last Supper, Jesus instituted the ceremony of communion with his disciples.",
+          "isTrue": true,
+          "reference": "Luke 22:19-20",
+          "explanation": "Jesus taught that the bread and wine represent his body and blood poured out."
+        },
+        {
+          "id": "u4-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Jesus' prayer in Gethsemane",
+          "tokens": [
+            "Abba",
+            "Father",
+            "all things",
+            "are possible for you",
+            "remove this",
+            "cup from me"
+          ],
+          "distractors": [
+            "my Father",
+            "pass this",
+            "the chalice",
+            "this suffering"
+          ],
+          "reference": "Mark 14:36"
+        },
+        {
+          "id": "u4-l2-e4",
+          "kind": "multipleChoice",
+          "prompt": "For what Jewish festival was the Last Supper?",
+          "text": "Jesus' Last Supper was at the feast of ___.",
+          "options": [
+            "Passover",
+            "Pentecost",
+            "Tabernacles",
+            "Atonement"
+          ],
+          "answer": "Passover",
+          "reference": "Luke 22:15"
+        },
+        {
+          "id": "u4-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Last Supper",
+              "right": "Passover"
+            },
+            {
+              "left": "Gethsemane",
+              "right": "Prayer and anguish"
+            },
+            {
+              "left": "Bread",
+              "right": "Body of Christ"
+            },
+            {
+              "left": "Wine",
+              "right": "Blood of Christ"
+            }
+          ],
+          "reference": "Luke 22, Mark 14"
+        },
+        {
+          "id": "u4-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus sweat drops of blood in Gethsemane from his anguish.",
+          "isTrue": true,
+          "reference": "Luke 22:44",
+          "explanation": "Jesus prayed so intensely that his sweat became like great drops of blood (Luke 22:44)."
+        },
+        {
+          "id": "u4-l2-e7",
+          "kind": "multipleChoice",
+          "prompt": "What was the name of the place where Jesus prayed?",
+          "text": "Jesus went to a place called ___ to pray.",
+          "options": [
+            "Gethsemane",
+            "Mount of Olives",
+            "Bethany",
+            "Capernaum"
+          ],
+          "answer": "Gethsemane",
+          "reference": "Luke 22:39"
+        },
+        {
+          "id": "u4-l2-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete about the wine of the covenant",
+          "text": "\"Similarly, after he had supped, he took the cup, saying: This cup is the new covenant in my ___, which is poured out for you.\"",
+          "options": [
+            "blood",
+            "body",
+            "heart",
+            "sacrifice"
+          ],
+          "answer": "blood",
+          "reference": "Luke 22:20"
+        }
+      ]
+    },
+    {
+      "id": "u4-l3",
+      "title": "The Crucifixion",
+      "icon": "cross.fill",
+      "exercises": [
+        {
+          "id": "u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"When they came to the place called Skull, there they crucified him, and the criminals, one on his right and one on his ___.\"",
+          "options": [
+            "left",
+            "front",
+            "back",
+            "head"
+          ],
+          "answer": "left",
+          "reference": "Luke 23:33"
+        },
+        {
+          "id": "u4-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus died alone, with no one by his side.",
+          "isTrue": false,
+          "reference": "John 19:25-27",
+          "explanation": "Mary, Jesus' mother, and the beloved disciple were near the cross (John 19:25-27)."
+        },
+        {
+          "id": "u4-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Jesus' last words on the cross",
+          "tokens": [
+            "Father",
+            "into your hands",
+            "I commit my spirit",
+            "and saying this",
+            "he breathed his last"
+          ],
+          "distractors": [
+            "my God",
+            "entrust",
+            "departed",
+            "fell asleep",
+            "gave up"
+          ],
+          "reference": "Luke 23:46"
+        },
+        {
+          "id": "u4-l3-e4",
+          "kind": "multipleChoice",
+          "prompt": "For what did the soldiers cast lots?",
+          "text": "The soldiers cast lots for Jesus' ___.",
+          "options": [
+            "garment",
+            "cloak",
+            "tunic",
+            "life"
+          ],
+          "answer": "garment",
+          "reference": "Luke 23:34"
+        },
+        {
+          "id": "u4-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Crucifixion",
+              "right": "Place of Skull"
+            },
+            {
+              "left": "Death of Jesus",
+              "right": "Salvation"
+            },
+            {
+              "left": "Temple curtain",
+              "right": "Torn"
+            },
+            {
+              "left": "Resurrection",
+              "right": "God's power"
+            }
+          ],
+          "reference": "Luke 23, John 19"
+        },
+        {
+          "id": "u4-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The temple curtain tore from top to bottom when Jesus died.",
+          "isTrue": true,
+          "reference": "Luke 23:45",
+          "explanation": "The curtain of the temple was torn in two when Jesus expired (Luke 23:45)."
+        },
+        {
+          "id": "u4-l3-e7",
+          "kind": "multipleChoice",
+          "prompt": "Which criminal went to paradise?",
+          "text": "One of the criminals confessed Jesus and went ___ that day.",
+          "options": [
+            "with Jesus to paradise",
+            "forgiven",
+            "resurrected",
+            "saved"
+          ],
+          "answer": "with Jesus to paradise",
+          "reference": "Luke 23:43"
+        },
+        {
+          "id": "u4-l3-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete about Jesus' sacrifice",
+          "text": "\"For God so loved the world that he gave his only begotten Son, that whoever believes in him should not perish, but have eternal ___.\"",
+          "options": [
+            "life",
+            "existence",
+            "life of the Father",
+            "infinity"
+          ],
+          "answer": "life",
+          "reference": "John 3:16"
+        }
+      ]
+    },
+    {
+      "id": "u4-l4",
+      "title": "Resurrection and Ascension",
+      "icon": "moon.stars.fill",
+      "exercises": [
+        {
+          "id": "u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"For Christ died for our sins according to the Scriptures; and that he was ___; according to the Scriptures.\"",
+          "options": [
+            "raised",
+            "lifted up",
+            "ascended",
+            "glorified"
+          ],
+          "answer": "raised",
+          "reference": "1 Corinthians 15:3-4"
+        },
+        {
+          "id": "u4-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Mary Magdalene was one of the first to see the risen Jesus.",
+          "isTrue": true,
+          "reference": "John 20:14-16",
+          "explanation": "Mary Magdalene went to the tomb and saw the risen Jesus, though at first she didn't recognize him (John 20:14-16)."
+        },
+        {
+          "id": "u4-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The word of the risen Jesus",
+          "tokens": [
+            "Peace I leave you",
+            "my peace",
+            "I give you",
+            "not as the world",
+            "gives"
+          ],
+          "distractors": [
+            "I make for you",
+            "I offer",
+            "by lottery",
+            "as the earth"
+          ],
+          "reference": "John 14:27"
+        },
+        {
+          "id": "u4-l4-e4",
+          "kind": "multipleChoice",
+          "prompt": "After how many days did Jesus rise?",
+          "text": "Jesus rose on the ___ day.",
+          "options": [
+            "third",
+            "first",
+            "second",
+            "fourth"
+          ],
+          "answer": "third",
+          "reference": "1 Corinthians 15:4"
+        },
+        {
+          "id": "u4-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Resurrection",
+              "right": "Third day"
+            },
+            {
+              "left": "Ascension",
+              "right": "Heaven"
+            },
+            {
+              "left": "Pentecost",
+              "right": "Holy Spirit"
+            },
+            {
+              "left": "Hope",
+              "right": "Eternal life"
+            }
+          ],
+          "reference": "1 Corinthians 15, Acts 1"
+        },
+        {
+          "id": "u4-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus appeared to his disciples after the resurrection.",
+          "isTrue": true,
+          "reference": "John 20:19-22",
+          "explanation": "Jesus appeared in the midst of the disciples and showed them his hands and side (John 20:19-22)."
+        },
+        {
+          "id": "u4-l4-e7",
+          "kind": "multipleChoice",
+          "prompt": "Where was Jesus taken at the ascension?",
+          "text": "Jesus was taken to the ___ of the heavens.",
+          "options": [
+            "kingdom",
+            "place",
+            "throne",
+            "bosom"
+          ],
+          "answer": "kingdom",
+          "reference": "Acts 1:9-11"
+        },
+        {
+          "id": "u4-l4-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete about Jesus' promise",
+          "text": "\"For Christ died for our sins according to the Scriptures; and that he was raised on the third day according to the Scriptures; and that he appeared to Cephas, and then to the ___ disciples.\"",
+          "options": [
+            "twelve",
+            "eleven",
+            "seventy",
+            "fifty"
+          ],
+          "answer": "twelve",
+          "reference": "1 Corinthians 15:5"
+        }
+      ]
+    },
+    {
+      "id": "u4-l5",
+      "title": "Great Commission and Farewell",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Therefore, go, teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy ___; teaching them to observe all things that I have commanded you.\"",
+          "speaker": "Jesus",
+          "options": [
+            "Spirit",
+            "Divine",
+            "Celestial",
+            "Eternal"
+          ],
+          "answer": "Spirit",
+          "reference": "Matthew 28:19-20"
+        },
+        {
+          "id": "u4-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The Great Commission orders the disciples to go to all nations.",
+          "isTrue": true,
+          "reference": "Matthew 28:19",
+          "explanation": "Jesus commanded the disciples to go and make disciples of all nations (Matthew 28:19)."
+        },
+        {
+          "id": "u4-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Jesus' promise until the end of time",
+          "tokens": [
+            "And behold, I",
+            "am with you",
+            "all the days",
+            "until the end",
+            "of the age"
+          ],
+          "distractors": [
+            "with you all",
+            "each moment",
+            "end of the world",
+            "forever"
+          ],
+          "reference": "Matthew 28:20"
+        },
+        {
+          "id": "u4-l5-e4",
+          "kind": "multipleChoice",
+          "prompt": "To whom did Jesus appear on the Mount of Olives?",
+          "text": "Jesus appeared to the apostles on the Mount of ___.",
+          "options": [
+            "Olives",
+            "Calvary",
+            "Zion",
+            "Moriah"
+          ],
+          "answer": "Olives",
+          "reference": "Acts 1:12"
+        },
+        {
+          "id": "u4-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Great Commission",
+              "right": "Disciple all nations"
+            },
+            {
+              "left": "Ascension",
+              "right": "Return to the Father"
+            },
+            {
+              "left": "Holy Spirit",
+              "right": "Pentecost"
+            },
+            {
+              "left": "Gospel",
+              "right": "To all nations"
+            }
+          ],
+          "reference": "Matthew 28, Acts 1"
+        },
+        {
+          "id": "u4-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus promised to be with the disciples all days until the end of time.",
+          "isTrue": true,
+          "reference": "Matthew 28:20",
+          "explanation": "Jesus assured that he would be with the disciples all the days until the end of the age (Matthew 28:20)."
+        },
+        {
+          "id": "u4-l5-e7",
+          "kind": "multipleChoice",
+          "prompt": "What was Jesus' final command?",
+          "text": "Jesus commanded to baptize in the name of the Father, the Son, and the ___.",
+          "options": [
+            "Holy Spirit",
+            "God",
+            "Love",
+            "Kingdom"
+          ],
+          "answer": "Holy Spirit",
+          "reference": "Matthew 28:19"
+        },
+        {
+          "id": "u4-l5-e8",
+          "kind": "multipleChoice",
+          "prompt": "What does it mean to disciple the nations?",
+          "text": "Discipling means ___ and ___ to observe Jesus' commandments.",
+          "options": [
+            "teach and persuade",
+            "convert and subdue",
+            "preach and convert",
+            "condemn and save"
+          ],
+          "answer": "teach and persuade",
+          "reference": "Matthew 28:20"
+        }
+      ]
+    }
+  ]
+}

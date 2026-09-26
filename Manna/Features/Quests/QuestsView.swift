@@ -132,6 +132,8 @@ struct QuestsView: View {
 /// Cartão de uma missão diária com ícone, nome, barra de progresso e recompensa.
 struct MissionCard: View {
     let mission: DailyMission
+    @State private var animatedProgress: Double = 0
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var progress: Double {
         Double(mission.progress) / Double(mission.target)
@@ -176,7 +178,7 @@ struct MissionCard: View {
             }
 
             // Barra de progresso
-            ProgressView(value: min(1, progress))
+            ProgressView(value: min(1, animatedProgress))
                 .tint(missionColor)
                 .frame(height: 8)
         }
@@ -187,6 +189,25 @@ struct MissionCard: View {
             RoundedRectangle(cornerRadius: 14, style: .continuous)
                 .strokeBorder(Theme.line, lineWidth: 1)
         )
+        .transition(.scale.combined(with: .opacity))
+        .onAppear {
+            if !reduceMotion {
+                withAnimation(.easeOut(duration: 0.8)) {
+                    animatedProgress = min(1, progress)
+                }
+            } else {
+                animatedProgress = min(1, progress)
+            }
+        }
+        .onChange(of: progress) { oldValue, newValue in
+            if !reduceMotion {
+                withAnimation(.easeOut(duration: 0.5)) {
+                    animatedProgress = min(1, newValue)
+                }
+            } else {
+                animatedProgress = min(1, newValue)
+            }
+        }
     }
 
     private var missionColor: Color {
@@ -218,6 +239,8 @@ struct MonthlyChallengeView: View {
     @Environment(GameState.self) private var game
     private let monthlyStore = MonthlyChallengeStore.shared
     @State private var showRewardAnimation = false
+    @State private var medalScale: CGFloat = 0.8
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         let completed = monthlyStore.completedMissionsThisMonth()
@@ -253,8 +276,10 @@ struct MonthlyChallengeView: View {
                         Text("\(completed)")
                             .font(Theme.font(28, .heavy))
                             .foregroundStyle(.white)
+                            .contentTransition(.numericText())
                     }
                 }
+                .scaleEffect(medalScale)
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text("Desafio de \(monthName(Date()))")
@@ -299,12 +324,33 @@ struct MonthlyChallengeView: View {
             RoundedRectangle(cornerRadius: 14, style: .continuous)
                 .strokeBorder(Theme.line, lineWidth: 1)
         )
+        .onAppear {
+            if !reduceMotion {
+                withAnimation(.spring(response: 0.4, dampingFraction: 0.7)) {
+                    medalScale = 1.0
+                }
+            } else {
+                medalScale = 1.0
+            }
+        }
+        .onChange(of: completed) { _, _ in
+            if !reduceMotion {
+                withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
+                    medalScale = 1.1
+                }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
+                        medalScale = 1.0
+                    }
+                }
+            }
+        }
     }
 
     private func monthName(_ date: Date) -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "MMMM"
-        formatter.locale = Locale(identifier: "pt_BR")
+        formatter.locale = Locale.current
         return formatter.string(from: date).capitalized
     }
 }
@@ -313,6 +359,7 @@ struct MonthlyChallengeView: View {
 
 struct BreadStreakView: View {
     @Environment(GameState.self) private var game
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         let lastSeven = game.lastSevenDays
@@ -338,6 +385,7 @@ struct BreadStreakView: View {
                             }
                         }
                         .frame(width: 40, height: 40)
+                        .transition(.scale.combined(with: .opacity))
                     }
                 }
             }
@@ -348,11 +396,13 @@ struct BreadStreakView: View {
                 Text("\(game.restDays) dia\(game.restDays == 1 ? "" : "s") de descanso")
                     .font(Theme.font(14, .semibold))
                     .foregroundStyle(Theme.ink)
+                    .contentTransition(.numericText())
                 Spacer()
             }
             .padding(12)
             .background(Theme.rest.opacity(0.1))
             .cornerRadius(10)
+            .transition(.scale.combined(with: .opacity))
         }
         .padding(14)
         .background(Theme.card)
@@ -361,13 +411,14 @@ struct BreadStreakView: View {
             RoundedRectangle(cornerRadius: 14, style: .continuous)
                 .strokeBorder(Theme.line, lineWidth: 1)
         )
+        .transition(.scale.combined(with: .opacity))
     }
 
     private func dayName(offset: Int) -> String {
         let date = Calendar.current.date(byAdding: .day, value: offset, to: Date())!
         let formatter = DateFormatter()
         formatter.dateFormat = "EEE"
-        formatter.locale = Locale(identifier: "pt_BR")
+        formatter.locale = Locale.current
         return formatter.string(from: date).uppercased()
     }
 }

@@ -1,0 +1,646 @@
+{
+  "id": "u3",
+  "title": "Unit 3",
+  "subtitle": "Teachings and miracles",
+  "guide": {
+    "summary": "Jesus teaches the way to the Kingdom through the Beatitudes and the Lord's Prayer, revealing that true life consists in trusting him. His parables challenge crowds to think about faith and priorities. His miracles demonstrate compassion and divine power: he feeds thousands, walks on water, heals the sick, and raises the dead.",
+    "keyVerses": [
+      {
+        "reference": "Matthew 5:3",
+        "text": "Blessed are the poor in spirit, for theirs is the kingdom of heaven."
+      },
+      {
+        "reference": "Matthew 6:9-10",
+        "text": "Therefore, pray like this: Our Father in heaven, may your name be kept holy. Let your kingdom come. Let your will be done, as in heaven, so on earth."
+      },
+      {
+        "reference": "Matthew 14:27",
+        "text": "But immediately Jesus spoke to them, saying, \"Take courage, it is I! Don't be afraid.\""
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u3-l1",
+      "title": "Sermon on the Mount",
+      "icon": "mountain.2.fill",
+      "exercises": [
+        {
+          "id": "u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Blessed are the poor in ___; for theirs is the kingdom of heaven.\"",
+          "speaker": "Jesus",
+          "options": [
+            "spirit",
+            "heart",
+            "soul",
+            "faith"
+          ],
+          "answer": "spirit",
+          "reference": "Matthew 5:3"
+        },
+        {
+          "id": "u3-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The Beatitudes teach qualities that bring spiritual happiness.",
+          "isTrue": true,
+          "reference": "Matthew 5:3-12",
+          "explanation": "The Beatitudes describe God's blessings on those who live according to his values."
+        },
+        {
+          "id": "u3-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "One of the Beatitudes of the Sermon",
+          "tokens": [
+            "Blessed",
+            "are those who mourn",
+            "for they will",
+            "be comforted"
+          ],
+          "distractors": [
+            "those who laugh",
+            "will receive",
+            "will be judged",
+            "the happy"
+          ],
+          "reference": "Matthew 5:4"
+        },
+        {
+          "id": "u3-l1-e4",
+          "kind": "multipleChoice",
+          "prompt": "Who are blessed according to Jesus?",
+          "text": "Blessed are the ___, for theirs is the kingdom of heaven.",
+          "options": [
+            "meek",
+            "rich",
+            "powerful",
+            "wise"
+          ],
+          "answer": "meek",
+          "reference": "Matthew 5:5"
+        },
+        {
+          "id": "u3-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Poor in spirit",
+              "right": "Kingdom of heaven"
+            },
+            {
+              "left": "The meek",
+              "right": "Will inherit the earth"
+            },
+            {
+              "left": "Hungry for righteousness",
+              "right": "Will be satisfied"
+            },
+            {
+              "left": "The merciful",
+              "right": "Will obtain mercy"
+            }
+          ],
+          "reference": "Matthew 5:3-7"
+        },
+        {
+          "id": "u3-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus taught that the peacemakers will be called sons of God.",
+          "isTrue": true,
+          "reference": "Matthew 5:9",
+          "explanation": "Blessed are the peacemakers, for they will be called children of God (Matthew 5:9)."
+        },
+        {
+          "id": "u3-l1-e7",
+          "kind": "multipleChoice",
+          "prompt": "How many Beatitudes did Jesus pronounce?",
+          "text": "In the Sermon on the Mount, Jesus taught approximately ___ Beatitudes.",
+          "options": [
+            "eight",
+            "ten",
+            "five",
+            "twelve"
+          ],
+          "answer": "eight",
+          "reference": "Matthew 5:3-12"
+        },
+        {
+          "id": "u3-l1-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete the Beatitude about mercy",
+          "text": "\"Blessed are the merciful, for they will obtain ___\".",
+          "options": [
+            "mercy",
+            "forgiveness",
+            "blessing",
+            "grace"
+          ],
+          "answer": "mercy",
+          "reference": "Matthew 5:7"
+        }
+      ]
+    },
+    {
+      "id": "u3-l2",
+      "title": "The Lord's Prayer",
+      "icon": "hands.sparkles.fill",
+      "exercises": [
+        {
+          "id": "u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Therefore, pray like this: Our Father in the ___, may your name be kept holy.\"",
+          "speaker": "Jesus",
+          "options": [
+            "heavens",
+            "heaven",
+            "throne",
+            "temple"
+          ],
+          "answer": "heavens",
+          "reference": "Matthew 6:9"
+        },
+        {
+          "id": "u3-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The Lord's Prayer is a prayer that Jesus taught his disciples.",
+          "isTrue": true,
+          "reference": "Matthew 6:9-13",
+          "explanation": "Jesus taught this prayer as a model for how his disciples should pray."
+        },
+        {
+          "id": "u3-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Request for daily bread",
+          "tokens": [
+            "Give us today",
+            "our daily",
+            "bread"
+          ],
+          "distractors": [
+            "of each month",
+            "give us always",
+            "that belongs to us",
+            "that we sow"
+          ],
+          "reference": "Matthew 6:11"
+        },
+        {
+          "id": "u3-l2-e4",
+          "kind": "multipleChoice",
+          "prompt": "What did Jesus ask to be sanctified?",
+          "text": "\"May your ___ be kept holy.\"",
+          "options": [
+            "name",
+            "throne",
+            "people",
+            "kingdom"
+          ],
+          "answer": "name",
+          "reference": "Matthew 6:9"
+        },
+        {
+          "id": "u3-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Sanctified be",
+              "right": "Your name"
+            },
+            {
+              "left": "Let your kingdom",
+              "right": "Come"
+            },
+            {
+              "left": "Let your will",
+              "right": "Be done"
+            },
+            {
+              "left": "Forgive us",
+              "right": "Our debts"
+            }
+          ],
+          "reference": "Matthew 6:9-13"
+        },
+        {
+          "id": "u3-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "In the Lord's Prayer, we ask God to forgive our offenses.",
+          "isTrue": true,
+          "reference": "Matthew 6:12",
+          "explanation": "\"Forgive us our debts, as we forgive our debtors\" (Matthew 6:12)."
+        },
+        {
+          "id": "u3-l2-e7",
+          "kind": "multipleChoice",
+          "prompt": "How did Jesus ask us to pray for sustenance?",
+          "text": "\"Give us today our daily ___\".",
+          "options": [
+            "bread",
+            "food",
+            "sustenance",
+            "provision"
+          ],
+          "answer": "bread",
+          "reference": "Matthew 6:11"
+        },
+        {
+          "id": "u3-l2-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete the prayer about forgiveness",
+          "text": "\"Forgive us our debts, as we forgive our ___; and don't lead us into temptation, but deliver us from evil.\"",
+          "options": [
+            "debtors",
+            "enemies",
+            "sinners",
+            "critics"
+          ],
+          "answer": "debtors",
+          "reference": "Matthew 6:12"
+        }
+      ]
+    },
+    {
+      "id": "u3-l3",
+      "title": "Parables of Jesus",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse about the parable",
+          "text": "\"The parable of the prodigal son: A certain man had two ___; and the younger said to his father: Father, give me my share of the inheritance.\"",
+          "speaker": "Jesus",
+          "options": [
+            "sons",
+            "daughters",
+            "servants",
+            "heirs"
+          ],
+          "answer": "sons",
+          "reference": "Luke 15:11-12"
+        },
+        {
+          "id": "u3-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "In the parable of the prodigal son, the father rejected him when he returned.",
+          "isTrue": false,
+          "reference": "Luke 15:20",
+          "explanation": "The father ran to embrace the son and received him with joy (Luke 15:20)."
+        },
+        {
+          "id": "u3-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The father's reaction when he saw his son return",
+          "tokens": [
+            "Rising up",
+            "he ran",
+            "to his son",
+            "and kissed him"
+          ],
+          "distractors": [
+            "called the servant",
+            "gave him money",
+            "asked for explanation",
+            "rebuked him"
+          ],
+          "reference": "Luke 15:20"
+        },
+        {
+          "id": "u3-l3-e4",
+          "kind": "multipleChoice",
+          "prompt": "What was the lesson of the parable of the lost sheep?",
+          "text": "The parable of the lost sheep teaches that there is ___ in heaven over a sinner who repents.",
+          "options": [
+            "joy",
+            "sadness",
+            "judgment",
+            "condemnation"
+          ],
+          "answer": "joy",
+          "reference": "Luke 15:7"
+        },
+        {
+          "id": "u3-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Prodigal son",
+              "right": "Returns to father"
+            },
+            {
+              "left": "Lost sheep",
+              "right": "Shepherd searches"
+            },
+            {
+              "left": "Good Samaritan",
+              "right": "Helps the wounded"
+            },
+            {
+              "left": "Parable",
+              "right": "Teaching through story"
+            }
+          ],
+          "reference": "Luke 15, Matthew 18 and Luke 10"
+        },
+        {
+          "id": "u3-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "In the parable of the Good Samaritan, a priest helped the wounded man.",
+          "isTrue": false,
+          "reference": "Luke 10:31-32",
+          "explanation": "The priest and the Levite passed by and didn't help. It was the Samaritan who helped (Luke 10:31-37)."
+        },
+        {
+          "id": "u3-l3-e7",
+          "kind": "multipleChoice",
+          "prompt": "How many sheep did the shepherd leave to search for one?",
+          "text": "In the parable, the shepherd left ___ sheep to search for the lost one.",
+          "options": [
+            "ninety-nine",
+            "a hundred",
+            "fifty",
+            "ten"
+          ],
+          "answer": "ninety-nine",
+          "reference": "Luke 15:4"
+        },
+        {
+          "id": "u3-l3-e8",
+          "kind": "multipleChoice",
+          "prompt": "What people did the priest and Levite belong to?",
+          "text": "The Good Samaritan helped a man that the ___ did not help.",
+          "options": [
+            "Jews",
+            "scribes",
+            "Pharisees",
+            "Romans"
+          ],
+          "answer": "Jews",
+          "reference": "Luke 10:25-37"
+        }
+      ]
+    },
+    {
+      "id": "u3-l4",
+      "title": "Miracles of Jesus",
+      "icon": "sun.max.fill",
+      "exercises": [
+        {
+          "id": "u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse about multiplication",
+          "text": "\"Then Jesus took the five loaves and the two fish, and looking up to heaven, he blessed them and broke them and gave them to his disciples to ___ to the crowd.\"",
+          "speaker": "Jesus",
+          "options": [
+            "distribute",
+            "keep",
+            "eat",
+            "bring"
+          ],
+          "answer": "distribute",
+          "reference": "Matthew 14:19"
+        },
+        {
+          "id": "u3-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus walked on the water of the sea to reach the disciples.",
+          "isTrue": true,
+          "reference": "Matthew 14:25-26",
+          "explanation": "In the fourth watch of the night, Jesus came walking on the sea toward the disciples (Matthew 14:25-26)."
+        },
+        {
+          "id": "u3-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "What Jesus said while walking on the water",
+          "tokens": [
+            "Take courage",
+            "it is I",
+            "don't be afraid"
+          ],
+          "distractors": [
+            "I go",
+            "it's all good",
+            "don't fear",
+            "I am here"
+          ],
+          "reference": "Matthew 14:27"
+        },
+        {
+          "id": "u3-l4-e4",
+          "kind": "multipleChoice",
+          "prompt": "How many people were fed when Jesus multiplied the loaves?",
+          "text": "When Jesus multiplied the loaves, approximately ___ people ate.",
+          "options": [
+            "five thousand",
+            "ten thousand",
+            "a thousand",
+            "three thousand"
+          ],
+          "answer": "five thousand",
+          "reference": "Matthew 14:21"
+        },
+        {
+          "id": "u3-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Multiplication",
+              "right": "Five thousand"
+            },
+            {
+              "left": "Walking on water",
+              "right": "Take courage"
+            },
+            {
+              "left": "Blind man healed",
+              "right": "Could see"
+            },
+            {
+              "left": "Lazarus",
+              "right": "Raised up"
+            }
+          ],
+          "reference": "Matthew 14, John 9 and 11"
+        },
+        {
+          "id": "u3-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus raised Lazarus who had been dead for four days.",
+          "isTrue": true,
+          "reference": "John 11:39",
+          "explanation": "Lazarus had already been in the tomb four days when Jesus called him to come out (John 11:39-44)."
+        },
+        {
+          "id": "u3-l4-e7",
+          "kind": "multipleChoice",
+          "prompt": "How did Jesus heal the blind man?",
+          "text": "Jesus put ___ on the blind man's eyes to heal him.",
+          "options": [
+            "mud",
+            "oil",
+            "water",
+            "wine"
+          ],
+          "answer": "mud",
+          "reference": "John 9:6"
+        },
+        {
+          "id": "u3-l4-e8",
+          "kind": "multipleChoice",
+          "prompt": "How long had Lazarus been dead?",
+          "text": "Lazarus had been dead for ___ days.",
+          "options": [
+            "four",
+            "three",
+            "five",
+            "seven"
+          ],
+          "answer": "four",
+          "reference": "John 11:39"
+        }
+      ]
+    },
+    {
+      "id": "u3-l5",
+      "title": "Review: Teachings and Miracles",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the Beatitude of the meek?",
+          "text": "Blessed are the meek, for ___.",
+          "options": [
+            "they will inherit the earth",
+            "they will see God",
+            "they will receive mercy",
+            "they will be comforted"
+          ],
+          "answer": "they will inherit the earth",
+          "reference": "Matthew 5:5"
+        },
+        {
+          "id": "u3-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The Lord's Prayer is a prayer of forgiveness and dependence on God.",
+          "isTrue": true,
+          "reference": "Matthew 6:9-13",
+          "explanation": "The Lord's Prayer teaches trusting God for daily sustenance and asking forgiveness for our offenses."
+        },
+        {
+          "id": "u3-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The Beatitude of the merciful",
+          "tokens": [
+            "Blessed are",
+            "the merciful",
+            "for they will obtain",
+            "mercy"
+          ],
+          "distractors": [
+            "will receive",
+            "will find",
+            "the compassionate",
+            "blessing"
+          ],
+          "reference": "Matthew 5:7"
+        },
+        {
+          "id": "u3-l5-e4",
+          "kind": "multipleChoice",
+          "prompt": "Which parable teaches about repentance?",
+          "text": "The parable of the ___ tells of a man who wasted his inheritance but returned to his father.",
+          "options": [
+            "prodigal son",
+            "Good Samaritan",
+            "lost sheep",
+            "sower"
+          ],
+          "answer": "prodigal son",
+          "reference": "Luke 15:11-32"
+        },
+        {
+          "id": "u3-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Sermon on the Mount",
+              "right": "Beatitudes"
+            },
+            {
+              "left": "Parables",
+              "right": "Teachings through stories"
+            },
+            {
+              "left": "Miracles",
+              "right": "Divine power"
+            },
+            {
+              "left": "Prayer",
+              "right": "Relationship with God"
+            }
+          ],
+          "reference": "Matthew 5-7, Luke 15, John 9-11"
+        },
+        {
+          "id": "u3-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus' miracles proved his power and his identity as the Messiah.",
+          "isTrue": true,
+          "reference": "John 20:30-31",
+          "explanation": "The signs were written that we might believe that Jesus is the Christ and have life in him."
+        },
+        {
+          "id": "u3-l5-e7",
+          "kind": "multipleChoice",
+          "prompt": "Complete about the Good Samaritan",
+          "text": "In the parable of the Good Samaritan, the ___ was the one who showed compassion.",
+          "options": [
+            "Samaritan",
+            "priest",
+            "Levite",
+            "Jew"
+          ],
+          "answer": "Samaritan",
+          "reference": "Luke 10:33-35"
+        },
+        {
+          "id": "u3-l5-e8",
+          "kind": "multipleChoice",
+          "prompt": "How many disciples did Jesus choose?",
+          "text": "Jesus appointed ___ disciples to be with him.",
+          "options": [
+            "twelve",
+            "seventy",
+            "ten",
+            "fourteen"
+          ],
+          "answer": "twelve",
+          "reference": "Mark 3:14"
+        }
+      ]
+    }
+  ]
+}

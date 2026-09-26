@@ -21,6 +21,8 @@ jobs:
           brew install xcodegen
           xcodegen generate
 
+      # Simuladores em Apple Silicon recusam código sem assinatura; a assinatura
+      # ad-hoc ("-") dispensa conta Apple e mantém os entitlements no binário.
       - name: Build for simulator
         run: |
           xcodebuild build \
@@ -30,7 +32,17 @@ jobs:
             -sdk iphonesimulator \
             -destination 'generic/platform=iOS Simulator' \
             -derivedDataPath build \
-            CODE_SIGNING_ALLOWED=NO
+            CODE_SIGN_STYLE=Manual \
+            CODE_SIGN_IDENTITY=- \
+            AD_HOC_CODE_SIGNING_ALLOWED=YES \
+            DEVELOPMENT_TEAM= \
+            PROVISIONING_PROFILE_SPECIFIER=
+
+      - name: Verify signature
+        run: |
+          APP=build/Build/Products/Release-iphonesimulator/Manna.app
+          codesign --verify --deep --strict --verbose=2 "$APP"
+          codesign -d --entitlements - "$APP" || true
 
       - name: Zip app
         run: |
@@ -41,3 +53,37 @@ jobs:
         with:
           name: Manna-simulator
           path: Manna-simulator.zip
+
+      - name: Smoke test (install, launch, screenshot)
+        run: |
+          set -e
+          UDID=$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          devs = json.load(sys.stdin)["devices"]
+          ios = sorted((r for r in devs if "iOS" in r), key=lambda r: [int(x) for x in r.split("iOS-")[1].split("-")])
+          for runtime in reversed(ios):
+              for d in devs[runtime]:
+                  if d["name"].startswith("iPhone"):
+                      print(d["udid"]); sys.exit()
+          ')
+          echo "Simulator: $UDID"
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID" -b
+          xcrun simctl install "$UDID" build/Build/Products/Release-iphonesimulator/Manna.app
+          xcrun simctl launch "$UDID" app.manna.ios
+          sleep 15
+          xcrun simctl io "$UDID" screenshot screenshot.png
+          if xcrun simctl spawn "$UDID" launchctl list | grep -q app.manna.ios; then
+            echo "Manna está rodando após 15s"
+          else
+            echo "::error::Manna fechou depois de abrir"
+            xcrun simctl spawn "$UDID" log show --last 2m --predicate 'process == "Manna"' --style compact | tail -80 || true
+            exit 1
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshot
+          path: screenshot.png
+          if-no-files-found: ignore

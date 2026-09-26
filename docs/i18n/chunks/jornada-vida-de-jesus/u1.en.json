@@ -1,0 +1,654 @@
+{
+  "id": "u1",
+  "title": "Unit 1",
+  "subtitle": "The birth of Jesus",
+  "guide": {
+    "summary": "Jesus' birth fulfills centuries of prophetic promises. Mary is chosen as the mother of the Savior, announced by an angel, visited by shepherds and magi. Simeon and Anna recognize the arrival of the long-awaited Messiah. Jesus the child grew in wisdom and grace, as the true Son of God.",
+    "keyVerses": [
+      {
+        "reference": "Luke 1:26-27",
+        "text": "In the sixth month the angel Gabriel was sent from God to a city of Galilee named Nazareth, to a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin's name was Mary."
+      },
+      {
+        "reference": "Luke 2:10-11",
+        "text": "The angel said to them, \"Don't be afraid, for behold, I bring you good news of great joy which will be to all people. For there is born to you, this day, in the city of David, a Savior, who is Christ the Lord.\""
+      },
+      {
+        "reference": "Luke 2:40",
+        "text": "The child grew and became strong, filled with wisdom, and God's grace was upon him."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u1-l1",
+      "title": "The Annunciation",
+      "icon": "star.fill",
+      "exercises": [
+        {
+          "id": "u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Don't be afraid, Mary, for you have found favor with ___, and you will conceive and bear a son.\"",
+          "speaker": "Gabriel",
+          "options": [
+            "God",
+            "the king",
+            "the priest",
+            "the temple"
+          ],
+          "answer": "God",
+          "reference": "Luke 1:30",
+          "explanation": "The angel Gabriel announces to Mary that she was chosen by God to be the mother of Jesus."
+        },
+        {
+          "id": "u1-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Mary accepted God's plan immediately without any doubts.",
+          "isTrue": false,
+          "reference": "Luke 1:29",
+          "explanation": "Mary was troubled when she heard the angel and wondered what kind of greeting this might be (Luke 1:29)."
+        },
+        {
+          "id": "u1-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "Who said this?",
+          "text": "\"Behold, I am the servant of the Lord; let it be done to me according to your word.\"",
+          "speaker": "Mary",
+          "options": [
+            "Mary",
+            "Elizabeth",
+            "John the Baptist's mother",
+            "Zacharias' wife"
+          ],
+          "answer": "Mary",
+          "reference": "Luke 1:38"
+        },
+        {
+          "id": "u1-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Mary's response to the angel Gabriel",
+          "tokens": [
+            "Behold",
+            "I am the servant of the Lord",
+            "let it be done",
+            "to me",
+            "according to",
+            "your word"
+          ],
+          "distractors": [
+            "goodness",
+            "of the kingdom",
+            "may it be",
+            "in heaven"
+          ],
+          "reference": "Luke 1:38"
+        },
+        {
+          "id": "u1-l1-e5",
+          "kind": "multipleChoice",
+          "prompt": "Where was Mary when the angel appeared?",
+          "text": "Mary was in her ___ in the city of Nazareth.",
+          "options": [
+            "house",
+            "synagogue",
+            "workshop",
+            "spring"
+          ],
+          "answer": "house",
+          "reference": "Luke 1:26-27"
+        },
+        {
+          "id": "u1-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Angel Gabriel",
+              "right": "Announces to Jesus"
+            },
+            {
+              "left": "Mary",
+              "right": "Accepts the will"
+            },
+            {
+              "left": "Zacharias",
+              "right": "Doubts the angel"
+            },
+            {
+              "left": "Elizabeth",
+              "right": "Mother of John"
+            }
+          ],
+          "reference": "Luke 1"
+        },
+        {
+          "id": "u1-l1-e7",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The angel told Mary that her son would be called Son of the Most High.",
+          "isTrue": true,
+          "reference": "Luke 1:32",
+          "explanation": "The angel prophesied: \"He will be great, and will be called the Son of the Most High\" (Luke 1:32)."
+        },
+        {
+          "id": "u1-l1-e8",
+          "kind": "multipleChoice",
+          "prompt": "What was the name of Mary's fiancé?",
+          "text": "Mary's husband was called ___.",
+          "options": [
+            "Joseph",
+            "John",
+            "Simon",
+            "James"
+          ],
+          "answer": "Joseph",
+          "reference": "Luke 1:27"
+        }
+      ]
+    },
+    {
+      "id": "u1-l2",
+      "title": "Birth in Bethlehem",
+      "icon": "house.fill",
+      "exercises": [
+        {
+          "id": "u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"In those days a decree went out from Caesar ___, that all the world should be enrolled.\"",
+          "options": [
+            "Augustus",
+            "Tiberius",
+            "Caius",
+            "Nero"
+          ],
+          "answer": "Augustus",
+          "reference": "Luke 2:1"
+        },
+        {
+          "id": "u1-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus was born in Nazareth, the city where Mary lived.",
+          "isTrue": false,
+          "reference": "Luke 2:4-7",
+          "explanation": "Jesus was born in Bethlehem, because Joseph and Mary had to register there for the census (Luke 2:4-7)."
+        },
+        {
+          "id": "u1-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "About the place of Jesus' birth",
+          "tokens": [
+            "And she gave birth",
+            "to her firstborn son",
+            "and wrapped him",
+            "in swaddling clothes",
+            "and laid him",
+            "in a manger"
+          ],
+          "distractors": [
+            "in a crib",
+            "with fine cloth",
+            "in gold",
+            "in curtains"
+          ],
+          "reference": "Luke 2:7"
+        },
+        {
+          "id": "u1-l2-e4",
+          "kind": "multipleChoice",
+          "prompt": "Where was Jesus placed when he was born?",
+          "text": "Jesus was placed in a ___ because there was no room in the inn.",
+          "options": [
+            "manger",
+            "bed",
+            "hammock",
+            "cradle of straw"
+          ],
+          "answer": "manger",
+          "reference": "Luke 2:7"
+        },
+        {
+          "id": "u1-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Bethlehem",
+              "right": "City of birth"
+            },
+            {
+              "left": "Manger",
+              "right": "Jesus' cradle"
+            },
+            {
+              "left": "Nazareth",
+              "right": "Mary's city"
+            },
+            {
+              "left": "Swaddling clothes",
+              "right": "Baby's wrappings"
+            }
+          ],
+          "reference": "Luke 2"
+        },
+        {
+          "id": "u1-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "There were many guests in the inn when Jesus was born.",
+          "isTrue": false,
+          "reference": "Luke 2:7",
+          "explanation": "There was no room for them in the inn (Luke 2:7), so Jesus was born in a manger."
+        },
+        {
+          "id": "u1-l2-e7",
+          "kind": "multipleChoice",
+          "prompt": "Who was the carpenter who raised Jesus?",
+          "text": "___ was the carpenter who served as the earthly father of Jesus.",
+          "speaker": "Narrator",
+          "options": [
+            "Joseph",
+            "Simon",
+            "James",
+            "John"
+          ],
+          "answer": "Joseph",
+          "reference": "Matthew 1:24-25"
+        },
+        {
+          "id": "u1-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus' parents stayed in Bethlehem for his entire life.",
+          "isTrue": false,
+          "reference": "Matthew 2:22-23",
+          "explanation": "After events in Bethlehem, the family moved to Nazareth (Matthew 2:22-23)."
+        }
+      ]
+    },
+    {
+      "id": "u1-l3",
+      "title": "The Shepherds and the Magi",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Be not afraid; for behold, I bring you good news of great joy, which will be to all ___; for there is born to you, this day, in the city of David, a Savior, who is Christ, the Lord.\"",
+          "speaker": "Angel",
+          "options": [
+            "people",
+            "world",
+            "kingdom",
+            "Israel"
+          ],
+          "answer": "people",
+          "reference": "Luke 2:10-11"
+        },
+        {
+          "id": "u1-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The shepherds saw a multitude of angels praising God.",
+          "isTrue": true,
+          "reference": "Luke 2:13",
+          "explanation": "Suddenly there appeared with the angel a multitude of the heavenly host, praising God (Luke 2:13)."
+        },
+        {
+          "id": "u1-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The praise of the angels in heaven",
+          "tokens": [
+            "Glory to God",
+            "in the highest",
+            "peace on earth",
+            "good will",
+            "toward men"
+          ],
+          "distractors": [
+            "in the temple",
+            "in the city",
+            "grace and truth",
+            "eternal power"
+          ],
+          "reference": "Luke 2:14"
+        },
+        {
+          "id": "u1-l3-e4",
+          "kind": "multipleChoice",
+          "prompt": "What guided the magi to Jesus?",
+          "text": "The magi saw a ___ when Jesus was born.",
+          "options": [
+            "star",
+            "flame",
+            "light from heaven",
+            "voice of an angel"
+          ],
+          "answer": "star",
+          "reference": "Matthew 2:2"
+        },
+        {
+          "id": "u1-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Shepherds",
+              "right": "Hear from the angel"
+            },
+            {
+              "left": "Magi",
+              "right": "Follow the star"
+            },
+            {
+              "left": "Incense",
+              "right": "Gift of the magi"
+            },
+            {
+              "left": "Gold",
+              "right": "Gift to the king"
+            }
+          ],
+          "reference": "Luke 2 and Matthew 2"
+        },
+        {
+          "id": "u1-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The magi gave Jesus gold, incense, and myrrh.",
+          "isTrue": true,
+          "reference": "Matthew 2:11",
+          "explanation": "Opening their treasures, they offered him gifts: gold, incense, and myrrh (Matthew 2:11)."
+        },
+        {
+          "id": "u1-l3-e7",
+          "kind": "multipleChoice",
+          "prompt": "Who tried to find Jesus to kill him?",
+          "text": "King ___ wanted to find Jesus to destroy him.",
+          "speaker": "Narrator",
+          "options": [
+            "Herod",
+            "Agrippa",
+            "Pilate",
+            "Cleopatra"
+          ],
+          "answer": "Herod",
+          "reference": "Matthew 2:8"
+        },
+        {
+          "id": "u1-l3-e8",
+          "kind": "multipleChoice",
+          "prompt": "Where were the magi warned not to return?",
+          "text": "The magi were warned in a dream not to return to ___.",
+          "options": [
+            "Herod",
+            "Jerusalem",
+            "Bethlehem",
+            "the kingdom"
+          ],
+          "answer": "Herod",
+          "reference": "Matthew 2:12"
+        }
+      ]
+    },
+    {
+      "id": "u1-l4",
+      "title": "Presentation at the Temple",
+      "icon": "hands.sparkles.fill",
+      "exercises": [
+        {
+          "id": "u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"When the days of her purification according to the law of Moses were fulfilled, they brought him up to Jerusalem to present him to the Lord.\"",
+          "options": [
+            "Mary and Jesus",
+            "Jesus",
+            "the child",
+            "the mother"
+          ],
+          "answer": "the child",
+          "reference": "Luke 2:22"
+        },
+        {
+          "id": "u1-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Simeon was an old man who waited for the consolation of Israel.",
+          "isTrue": true,
+          "reference": "Luke 2:25-26",
+          "explanation": "Simeon was righteous and devout, looking for the consolation of Israel, with the promise of the Holy Spirit to see the Christ."
+        },
+        {
+          "id": "u1-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Simeon's prophecy about Jesus",
+          "tokens": [
+            "Behold, this child",
+            "will cause",
+            "the falling",
+            "and rising",
+            "of many in Israel"
+          ],
+          "distractors": [
+            "will be king",
+            "will save the world",
+            "will gather",
+            "all nations to the Father"
+          ],
+          "reference": "Luke 2:34"
+        },
+        {
+          "id": "u1-l4-e4",
+          "kind": "multipleChoice",
+          "prompt": "Who else recognized Jesus at the temple?",
+          "text": "___ was a widow who lived in the temple with prayer and fasting.",
+          "speaker": "Narrator",
+          "options": [
+            "Anna",
+            "Mary Magdalene",
+            "Salome",
+            "Joanna"
+          ],
+          "answer": "Anna",
+          "reference": "Luke 2:36"
+        },
+        {
+          "id": "u1-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Simeon",
+              "right": "Recognizes Jesus"
+            },
+            {
+              "left": "Anna",
+              "right": "Devout prophetess"
+            },
+            {
+              "left": "Law of Moses",
+              "right": "Purification"
+            },
+            {
+              "left": "Holy Spirit",
+              "right": "Reveals to Simeon"
+            }
+          ],
+          "reference": "Luke 2:22-38"
+        },
+        {
+          "id": "u1-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus' presentation at the temple occurred 40 days after his birth.",
+          "isTrue": true,
+          "reference": "Luke 2:22",
+          "explanation": "When the days of her purification according to the law of Moses were fulfilled (40 days), they brought Jesus to Jerusalem (Luke 2:22)."
+        },
+        {
+          "id": "u1-l4-e7",
+          "kind": "multipleChoice",
+          "prompt": "What did Simeon say would pierce Mary's soul?",
+          "text": "Simeon prophesied that a ___ would pierce Mary's soul.",
+          "options": [
+            "sword",
+            "spear",
+            "pain",
+            "tribulation"
+          ],
+          "answer": "sword",
+          "reference": "Luke 2:35"
+        },
+        {
+          "id": "u1-l4-e8",
+          "kind": "multipleChoice",
+          "prompt": "How long had Anna been a widow?",
+          "text": "Anna had been a widow for about ___ years.",
+          "options": [
+            "84",
+            "70",
+            "60",
+            "40"
+          ],
+          "answer": "84",
+          "reference": "Luke 2:37"
+        }
+      ]
+    },
+    {
+      "id": "u1-l5",
+      "title": "Jesus at Twelve Years Old",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"When Jesus was twelve years old, they went up, according to the custom of the feast, and the ___ stayed behind without his parents knowing it.\"",
+          "options": [
+            "boy",
+            "son",
+            "Jesus",
+            "body"
+          ],
+          "answer": "boy",
+          "reference": "Luke 2:42-43"
+        },
+        {
+          "id": "u1-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus was in the temple talking with the teachers of the law.",
+          "isTrue": true,
+          "reference": "Luke 2:46",
+          "explanation": "Jesus was in the temple, sitting among the teachers, listening to them and asking them questions (Luke 2:46)."
+        },
+        {
+          "id": "u1-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Jesus' answer to his parents",
+          "tokens": [
+            "Why were you looking for me?",
+            "Didn't you know",
+            "that I must be",
+            "in my Father's",
+            "house?"
+          ],
+          "distractors": [
+            "in the temple",
+            "in the kingdom",
+            "at work",
+            "in the synagogue"
+          ],
+          "reference": "Luke 2:49"
+        },
+        {
+          "id": "u1-l5-e4",
+          "kind": "multipleChoice",
+          "prompt": "Where did Jesus' parents find him?",
+          "text": "Jesus was found in the ___, sitting among the teachers.",
+          "options": [
+            "temple",
+            "synagogue",
+            "marketplace",
+            "neighborhood"
+          ],
+          "answer": "temple",
+          "reference": "Luke 2:46"
+        },
+        {
+          "id": "u1-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the pairs",
+          "pairs": [
+            {
+              "left": "Jesus",
+              "right": "Wise boy"
+            },
+            {
+              "left": "Teachers",
+              "right": "Amazed"
+            },
+            {
+              "left": "Mary",
+              "right": "Anxious search"
+            },
+            {
+              "left": "Feast",
+              "right": "Passover"
+            }
+          ],
+          "reference": "Luke 2:41-50"
+        },
+        {
+          "id": "u1-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Mary fully understood everything that Jesus meant by his answer.",
+          "isTrue": false,
+          "reference": "Luke 2:50",
+          "explanation": "His parents didn't understand the saying which he spoke to them (Luke 2:50)."
+        },
+        {
+          "id": "u1-l5-e7",
+          "kind": "multipleChoice",
+          "prompt": "Who kept all these things in her heart?",
+          "text": "___ kept all these things in her heart.",
+          "speaker": "Narrator",
+          "options": [
+            "Mary",
+            "Joseph",
+            "the teachers",
+            "the city"
+          ],
+          "answer": "Mary",
+          "reference": "Luke 2:51"
+        },
+        {
+          "id": "u1-l5-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse about Jesus' growth",
+          "text": "\"And Jesus increased in ___, in stature, and in grace before God and men.\"",
+          "options": [
+            "wisdom",
+            "strength",
+            "knowledge",
+            "faith"
+          ],
+          "answer": "wisdom",
+          "reference": "Luke 2:52"
+        }
+      ]
+    }
+  ]
+}

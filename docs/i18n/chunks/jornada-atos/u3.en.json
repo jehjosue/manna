@@ -1,0 +1,629 @@
+{
+  "id": "atos-u3",
+  "title": "Unit 3",
+  "subtitle": "Paul's Conversion and Travels",
+  "guide": {
+    "summary": "Saul was persecuting Christians when Jesus encountered him on the Damascus road. Transformed into apostle Paul, he traveled throughout the Greco-Roman world founding churches. His letters continue to guide Christian faith today.",
+    "keyVerses": [
+      {
+        "reference": "Acts 9:15",
+        "text": "Go, because this man is my chosen instrument to proclaim my name to the Gentiles."
+      },
+      {
+        "reference": "Acts 20:24",
+        "text": "But I do not account my life of any value, if only I may finish my course."
+      },
+      {
+        "reference": "Acts 17:24-25",
+        "text": "The God who made the world does not dwell in temples built by human hands."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u3-l1",
+      "title": "The Encounter on the Road",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "atos-u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "What was Saul doing when Jesus encountered him?",
+          "text": "Saul had a purpose that would be transformed.",
+          "options": [
+            "Persecuting Christians on the way to Damascus",
+            "Preaching in the temple",
+            "Teaching the law of the Pharisees",
+            "Praying in secret"
+          ],
+          "answer": "Persecuting Christians on the way to Damascus",
+          "reference": "Acts 9:1-2",
+          "explanation": "Saul was zealously fighting against the Church when his encounter with Jesus changed everything."
+        },
+        {
+          "id": "atos-u3-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus personally appeared to Saul on the Damascus road.",
+          "isTrue": true,
+          "reference": "Acts 9:3-7",
+          "explanation": "The risen Jesus Himself appeared to Saul, asking why he persecuted Him."
+        },
+        {
+          "id": "atos-u3-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "What was the first consequence of the vision?",
+          "text": "The transformation began with a loss followed by recovery.",
+          "options": [
+            "Saul was blinded and his sight was restored",
+            "Saul fell from his horse and was injured",
+            "Saul lost his faith immediately",
+            "Saul disappeared for three years"
+          ],
+          "answer": "Saul was blinded and his sight was restored",
+          "reference": "Acts 9:8-18",
+          "explanation": "Saul's blindness was symbolic: he needed to be restored spiritually."
+        },
+        {
+          "id": "atos-u3-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Paul's calling in Acts 9:15",
+          "tokens": [
+            "Go, because this man is",
+            "my chosen instrument",
+            "to proclaim my name",
+            "to the Gentiles"
+          ],
+          "distractors": [
+            "and to the Jews",
+            "and to the kings",
+            "and to the people"
+          ],
+          "reference": "Acts 9:15"
+        },
+        {
+          "id": "atos-u3-l1-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "This is my chosen instrument to proclaim my name.",
+          "options": [
+            "Paul will be a great apostle",
+            "Chosen instrument proclaim name",
+            "Jesus chose him for something"
+          ],
+          "answer": "Chosen instrument proclaim name",
+          "reference": "Acts 9:15"
+        },
+        {
+          "id": "atos-u3-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Match stages of conversion",
+          "pairs": [
+            {
+              "left": "Vision of Jesus",
+              "right": "Transformative encounter"
+            },
+            {
+              "left": "Blindness",
+              "right": "Symbol of change"
+            },
+            {
+              "left": "Sight restored",
+              "right": "Spiritual regeneration"
+            },
+            {
+              "left": "Baptism",
+              "right": "Seal of conversion"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"This is my chosen instrument to proclaim my name to the _____.",
+          "answer": "Gentiles",
+          "reference": "Acts 9:15",
+          "options": [
+            "Gentiles",
+            "nations"
+          ]
+        },
+        {
+          "id": "atos-u3-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Paul's conversion was merely an event with no lasting change.",
+          "isTrue": false,
+          "reference": "Acts 9-28",
+          "explanation": "Paul spent the rest of his life dedicated to Jesus and the gospel."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l2",
+      "title": "The Three Missionary Journeys",
+      "icon": "tent.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "What was Paul's method on his journeys?",
+          "text": "Paul had a clear strategy for evangelizing.",
+          "options": [
+            "Going to Jewish synagogues and then to the Gentiles",
+            "Speaking only with wealthy people",
+            "Completely avoiding the Jews",
+            "Preaching only in large cities"
+          ],
+          "answer": "Going to Jewish synagogues and then to the Gentiles",
+          "reference": "Acts 13:14, 17:22-23",
+          "explanation": "Paul always started in synagogues, presenting Jesus first to the Jews."
+        },
+        {
+          "id": "atos-u3-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Paul traveled alone on his missions.",
+          "isTrue": false,
+          "reference": "Acts 13-21",
+          "explanation": "Paul had companions like Barnabas, Silas and Timothy on his journeys."
+        },
+        {
+          "id": "atos-u3-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "What did Paul face during his travels?",
+          "text": "Paul's journeys were marked by continuous persecution.",
+          "options": [
+            "Persecution, imprisonments, beatings and shipwreck",
+            "Material well-being and recognition",
+            "Complete silence",
+            "Unrestricted support from everyone"
+          ],
+          "answer": "Persecution, imprisonments, beatings and shipwreck",
+          "reference": "Acts 14-28, 2 Corinthians 11:24-27",
+          "explanation": "Paul suffered greatly for the gospel, but never gave up."
+        },
+        {
+          "id": "atos-u3-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Paul's commitment in Acts 20:24",
+          "tokens": [
+            "But I do not account",
+            "my life of any value",
+            "if only I may finish",
+            "my course"
+          ],
+          "distractors": [
+            "and complete the task",
+            "the Lord Jesus gave me",
+            "to testify to the gospel"
+          ],
+          "reference": "Acts 20:24"
+        },
+        {
+          "id": "atos-u3-l2-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "My life is not of value to me.",
+          "options": [
+            "Paul valued his life lightly",
+            "Not value life to me",
+            "Life has no meaning"
+          ],
+          "answer": "Not value life to me",
+          "reference": "Acts 20:24"
+        },
+        {
+          "id": "atos-u3-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Match aspects of the journeys",
+          "pairs": [
+            {
+              "left": "Strategy",
+              "right": "Synagogue then Gentiles"
+            },
+            {
+              "left": "Companions",
+              "right": "Barnabas, Silas, Timothy"
+            },
+            {
+              "left": "Challenges",
+              "right": "Continuous persecution"
+            },
+            {
+              "left": "Motivation",
+              "right": "Fulfilling Jesus' commission"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"If only I may finish my _____.\"",
+          "answer": "course",
+          "reference": "Acts 20:24",
+          "options": [
+            "course",
+            "mission"
+          ]
+        },
+        {
+          "id": "atos-u3-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Paul established churches in multiple regions during his travels.",
+          "isTrue": true,
+          "reference": "Acts 13-21",
+          "explanation": "Paul founded churches in Antioch, Corinth, Ephesus and many other places."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l3",
+      "title": "The Areopagus: Preaching in Athens",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Where did Paul deliver his famous speech?",
+          "text": "A city known for philosophy and multiple gods.",
+          "options": [
+            "At the Areopagus in Athens",
+            "In the temple of Ephesus",
+            "In the synagogue of Corinth",
+            "In the prison of Rome"
+          ],
+          "answer": "At the Areopagus in Athens",
+          "reference": "Acts 17:22-31",
+          "explanation": "Athens was an intellectual center where Paul confronted pagan philosophies."
+        },
+        {
+          "id": "atos-u3-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Paul recognized the altar to the unknown god in Athens.",
+          "isTrue": true,
+          "reference": "Acts 17:23",
+          "explanation": "Paul used this altar as a starting point to preach about Jesus."
+        },
+        {
+          "id": "atos-u3-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "What was the central message of the speech at the Areopagus?",
+          "text": "Paul presented truths about God to the Greeks.",
+          "options": [
+            "God does not dwell in temples made with human hands",
+            "The idols are superior to God",
+            "God needs human sacrifices",
+            "The Greek gods are true"
+          ],
+          "answer": "God does not dwell in temples made with human hands",
+          "reference": "Acts 17:24-25",
+          "explanation": "Paul confronted polytheism with the truth about the one true God."
+        },
+        {
+          "id": "atos-u3-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Truth about God in Acts 17:24-25",
+          "tokens": [
+            "The God who made the world",
+            "does not dwell in temples",
+            "made with human hands",
+            "nor is he served by human hands"
+          ],
+          "distractors": [
+            "as though he needed anything",
+            "since he himself gives",
+            "to all mankind life and breath"
+          ],
+          "reference": "Acts 17:24-25"
+        },
+        {
+          "id": "atos-u3-l3-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "The God who made the world does not dwell in temples.",
+          "options": [
+            "God is spirit and omnipresent",
+            "God does not dwell temples",
+            "Temples cannot contain God"
+          ],
+          "answer": "God does not dwell temples",
+          "reference": "Acts 17:24"
+        },
+        {
+          "id": "atos-u3-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Match elements of the speech",
+          "pairs": [
+            {
+              "left": "Unknown altar",
+              "right": "Opening for gospel"
+            },
+            {
+              "left": "Creator",
+              "right": "One true God"
+            },
+            {
+              "left": "Temples",
+              "right": "Cannot contain God"
+            },
+            {
+              "left": "Resurrection",
+              "right": "Christian hope"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"The God who made the world does not dwell in ___ made with hands.\"",
+          "answer": "temples",
+          "reference": "Acts 17:24",
+          "options": [
+            "temples",
+            "buildings"
+          ]
+        },
+        {
+          "id": "atos-u3-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Everyone in Athens immediately accepted Paul's message.",
+          "isTrue": false,
+          "reference": "Acts 17:32-33",
+          "explanation": "Some mocked, but others believed and joined Paul."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l4",
+      "title": "The Journey to Rome",
+      "icon": "scroll.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "How was Paul brought to Rome?",
+          "text": "A dramatic journey marked the end of Acts.",
+          "options": [
+            "As a prisoner under Roman guard",
+            "As an invited visitor",
+            "As a voluntary emigrant",
+            "As a fugitive fleeing"
+          ],
+          "answer": "As a prisoner under Roman guard",
+          "reference": "Acts 27-28",
+          "explanation": "Paul was imprisoned, tried and sent to Rome to appeal to Caesar."
+        },
+        {
+          "id": "atos-u3-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "During the journey to Rome, Paul faced a shipwreck.",
+          "isTrue": true,
+          "reference": "Acts 27:39-44",
+          "explanation": "A ship on which Paul was traveling was wrecked during a storm."
+        },
+        {
+          "id": "atos-u3-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "What was Paul's hope while imprisoned?",
+          "text": "Paul maintained a faithful stance even while in prison.",
+          "options": [
+            "To testify in Rome and be with Jesus",
+            "To escape from prison",
+            "Oblivion and retirement",
+            "Revenge against his enemies"
+          ],
+          "answer": "To testify in Rome and be with Jesus",
+          "reference": "Acts 28:30-31",
+          "explanation": "Paul spent two years in Rome preaching and teaching about Jesus."
+        },
+        {
+          "id": "atos-u3-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The final journey in Acts 27:23-24",
+          "tokens": [
+            "Last night there stood",
+            "by my side an angel",
+            "of the God to whom",
+            "I belong and whom I serve"
+          ],
+          "distractors": [
+            "and said Do not be afraid",
+            "for it is necessary",
+            "that you appear before Caesar"
+          ],
+          "reference": "Acts 27:23-24"
+        },
+        {
+          "id": "atos-u3-l4-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "An angel of the God whom I serve stood by me.",
+          "options": [
+            "Paul serves only Jesus",
+            "Angel of God whom serve",
+            "Paul's faith is unshakeable"
+          ],
+          "answer": "Angel of God whom serve",
+          "reference": "Acts 27:23"
+        },
+        {
+          "id": "atos-u3-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Match final events",
+          "pairs": [
+            {
+              "left": "Prison",
+              "right": "Trial by authorities"
+            },
+            {
+              "left": "Ship",
+              "right": "Wrecked in storm"
+            },
+            {
+              "left": "Rome",
+              "right": "Testimony and preaching"
+            },
+            {
+              "left": "Hope",
+              "right": "To be with Jesus"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"It is necessary that you appear before _____.",
+          "answer": "Caesar",
+          "reference": "Acts 27:24",
+          "options": [
+            "Caesar",
+            "emperor"
+          ]
+        },
+        {
+          "id": "atos-u3-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Paul's imprisonment interrupted his preaching ministry.",
+          "isTrue": false,
+          "reference": "Acts 28:30-31",
+          "explanation": "Paul continued preaching even in prison, showing that nothing can silence the gospel."
+        }
+      ]
+    },
+    {
+      "id": "atos-u3-l5",
+      "title": "Review - Conversion and Travels",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "How did Jesus transform Saul?",
+          "text": "A radical transformation began on the Damascus road.",
+          "options": [
+            "Through a personal encounter on the road",
+            "Slowly over years",
+            "Through friends who evangelized him",
+            "He never really was transformed"
+          ],
+          "answer": "Through a personal encounter on the road",
+          "reference": "Acts 9:1-18",
+          "explanation": "Jesus personally appeared to Saul, transforming him instantly."
+        },
+        {
+          "id": "atos-u3-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Paul faced difficulties in sharing the gospel.",
+          "isTrue": true,
+          "reference": "Acts 13-28",
+          "explanation": "Paul experienced rejection, persecution and imprisonment, but never gave up."
+        },
+        {
+          "id": "atos-u3-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "What was God's purpose for Paul?",
+          "text": "God had a specific plan for this apostle.",
+          "options": [
+            "To be a chosen instrument to proclaim the gospel to the Gentiles",
+            "To be king of Israel",
+            "To be priest of the temple",
+            "To be a Greek philosopher"
+          ],
+          "answer": "To be a chosen instrument to proclaim the gospel to the Gentiles",
+          "reference": "Acts 9:15",
+          "explanation": "Paul was specially called to reach the Gentiles with the gospel."
+        },
+        {
+          "id": "atos-u3-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the review verse",
+          "text": "Summary of Paul's journey",
+          "tokens": [
+            "This is for me",
+            "a chosen instrument",
+            "nor do I account my life",
+            "of value if only I finish the course"
+          ],
+          "distractors": [
+            "that Jesus gave me",
+            "to testify",
+            "to His grace"
+          ],
+          "reference": "Acts 9:15, 20:24"
+        },
+        {
+          "id": "atos-u3-l5-e5",
+          "kind": "listen",
+          "prompt": "Which truth did you hear?",
+          "text": "This is my chosen instrument to proclaim my name.",
+          "options": [
+            "God chooses tools for His kingdom",
+            "Chosen instrument proclaim name",
+            "Paul is special to God"
+          ],
+          "answer": "Chosen instrument proclaim name",
+          "reference": "Acts 9:15"
+        },
+        {
+          "id": "atos-u3-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Match phases of Paul's life",
+          "pairs": [
+            {
+              "left": "Conversion",
+              "right": "Encounter with Jesus"
+            },
+            {
+              "left": "Travels",
+              "right": "Founding of churches"
+            },
+            {
+              "left": "Preaching",
+              "right": "Appeal to the gospel"
+            },
+            {
+              "left": "Prison",
+              "right": "Testimony in Rome"
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Order Paul's journey",
+          "text": "Apostolic chronology",
+          "tokens": [
+            "Encounter with Jesus in Damascus",
+            "First missionary journeys",
+            "Speech at the Areopagus",
+            "Journey to Rome as prisoner"
+          ]
+        },
+        {
+          "id": "atos-u3-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Paul's life demonstrates that God can transform anyone.",
+          "isTrue": true,
+          "reference": "Acts 9-28",
+          "explanation": "Paul is the greatest example of transformation and dedication to Jesus in the Bible."
+        }
+      ]
+    }
+  ]
+}

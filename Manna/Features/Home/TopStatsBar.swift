@@ -5,9 +5,13 @@ struct TopStatsBar: View {
     @Environment(GameState.self) private var game
     @Environment(ContentStore.self) private var content
     @Environment(\.selectAppTab) private var selectTab
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var showCourseSheet = false
     @State private var showOilSheet = false
     @State private var showBibleLevel = false
+    @State private var breadBounce = false
+    @State private var mannaBounce = false
+    @State private var oilBounce = false
 
     var body: some View {
         HStack(spacing: 12) {
@@ -37,6 +41,17 @@ struct TopStatsBar: View {
                 value: "\(game.bread)",
                 dimmed: !game.studiedToday
             )
+            .scaleEffect(breadBounce && !reduceMotion ? 1.15 : 1.0)
+            .onChange(of: game.bread) { _, _ in
+                if !reduceMotion {
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
+                        breadBounce = true
+                    }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        breadBounce = false
+                    }
+                }
+            }
 
             Spacer(minLength: 8)
 
@@ -57,12 +72,34 @@ struct TopStatsBar: View {
                     StatBadge(icon: .manna, value: "\(game.manna)")
                 }
             }
+            .scaleEffect(mannaBounce && !reduceMotion ? 1.15 : 1.0)
+            .onChange(of: game.manna) { _, _ in
+                if !reduceMotion {
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
+                        mannaBounce = true
+                    }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        mannaBounce = false
+                    }
+                }
+            }
 
             Spacer(minLength: 8)
 
             // MARK: - Óleo (tocável)
             Button(action: { showOilSheet = true }) {
                 StatBadge(icon: .oil, value: "\(game.oil)")
+            }
+            .scaleEffect(oilBounce && !reduceMotion ? 1.15 : 1.0)
+            .onChange(of: game.oil) { _, _ in
+                if !reduceMotion {
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
+                        oilBounce = true
+                    }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        oilBounce = false
+                    }
+                }
             }
 
             // MARK: - Badge Plus (se ativo)

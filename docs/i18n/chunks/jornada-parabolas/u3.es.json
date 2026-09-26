@@ -1,0 +1,627 @@
+{
+  "id": "parabolas-u3",
+  "title": "Unidad 3",
+  "subtitle": "Amor al Prójimo y Mayordomía",
+  "guide": {
+    "summary": "Jesús enseñó la importancia de amar al prójimo y administrar bien los dones recibidos de Dios. A través de parábolas, reveló que verdadera fe se expresa en acciones concretas de compasión, generosidad y responsabilidad ante lo que nos es confiado.",
+    "keyVerses": [
+      {
+        "reference": "Lucas 10:36-37",
+        "text": "¿Cuál, pues, de estos tres te parece que fue prójimo del que cayó en manos de los ladrones? Y él dijo: El que usó de misericordia con él. Entonces Jesús le dijo: Anda, y haz tú lo mismo."
+      },
+      {
+        "reference": "Mateo 25:31-40",
+        "text": "Cuando el Hijo del Hombre venga en su gloria, y todos los ángeles con él, entonces se sentará en el trono de su gloria; y serán reunidas delante de él todas las naciones; y apartará los unos de los otros, como aparta el pastor las ovejas de los cabritos."
+      },
+      {
+        "reference": "Mateo 25:14-30",
+        "text": "Porque el reino de los cielos es como un hombre que yéndose lejos, llamó a sus siervos y les entregó sus bienes. A uno dio cinco talentos, y al otro dos, y al otro uno, a cada uno según su capacidad."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "parabolas-u3-l1",
+      "title": "El Buen Samaritano",
+      "icon": "sun.max.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Quién pasó primero sin ayudar?",
+          "text": "Un ___ bajaba por aquel camino y vio al hombre herido.",
+          "options": [
+            "sacerdote",
+            "levita",
+            "escriba",
+            "fariseo"
+          ],
+          "answer": "sacerdote",
+          "reference": "Lucas 10:31"
+        },
+        {
+          "id": "parabolas-u3-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "El samaritano vendió su ___ para pagar por los cuidados.",
+          "answer": "caballo",
+          "options": [
+            "caballo",
+            "bolsa",
+            "ropa",
+            "propiedad"
+          ],
+          "reference": "Lucas 10:34"
+        },
+        {
+          "id": "parabolas-u3-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Instrucción de Jesús al final",
+          "tokens": [
+            "Anda",
+            "y haz",
+            "tú lo mismo"
+          ],
+          "distractors": [
+            "Anda y espera",
+            "Anda y predica",
+            "Anda y juzga",
+            "Anda y anuncia"
+          ],
+          "reference": "Lucas 10:37"
+        },
+        {
+          "id": "parabolas-u3-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena los eventos",
+          "text": "Secuencia de la parábola.",
+          "tokens": [
+            "Hombre es asaltado",
+            "Sacerdote pasa",
+            "Levita pasa",
+            "Samaritano ayuda"
+          ],
+          "reference": "Lucas 10:30-35"
+        },
+        {
+          "id": "parabolas-u3-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia las acciones",
+          "pairs": [
+            {
+              "left": "Sacerdote",
+              "right": "Pasó de lado"
+            },
+            {
+              "left": "Levita",
+              "right": "No se detuvo"
+            },
+            {
+              "left": "Samaritano",
+              "right": "Ayudó al herido"
+            },
+            {
+              "left": "Prójimo",
+              "right": "Quien actúa con amor"
+            }
+          ],
+          "reference": "Lucas 10:31-37"
+        },
+        {
+          "id": "parabolas-u3-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Un samaritano demostró más compasión que los religiosos judíos.",
+          "isTrue": true,
+          "reference": "Lucas 10:33-35",
+          "explanation": "Mientras sacerdote y levita ignoraron al herido, el samaritano lo cuidó con aceites, vino y hospedaje."
+        },
+        {
+          "id": "parabolas-u3-l1-e7",
+          "kind": "listen",
+          "prompt": "¿Quién fue el prójimo?",
+          "text": "El samaritano fue quien actuó con misericordia.",
+          "options": [
+            "El samaritano",
+            "El sacerdote",
+            "El levita",
+            "El robador"
+          ],
+          "answer": "El samaritano",
+          "reference": "Lucas 10:37"
+        },
+        {
+          "id": "parabolas-u3-l1-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "El prójimo es quien actúa con compasión.",
+          "reference": "Lucas 10:37"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u3-l2",
+      "title": "Los Talentos",
+      "icon": "moon.stars.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuánto recibió el primer siervo?",
+          "text": "Un siervo recibió ___ talentos.",
+          "options": [
+            "cinco",
+            "dos",
+            "uno",
+            "diez"
+          ],
+          "answer": "cinco",
+          "reference": "Mateo 25:15"
+        },
+        {
+          "id": "parabolas-u3-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "El siervo fiel ganó más ___ negociando.",
+          "answer": "talentos",
+          "options": [
+            "talentos",
+            "monedas",
+            "oro",
+            "dinero"
+          ],
+          "reference": "Mateo 25:16-17"
+        },
+        {
+          "id": "parabolas-u3-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Elogio del señor",
+          "tokens": [
+            "Bien, siervo bueno",
+            "y fiel",
+            "entra",
+            "en el gozo de tu señor"
+          ],
+          "distractors": [
+            "en la casa",
+            "en el reino",
+            "en la gloria",
+            "en el paraíso"
+          ],
+          "reference": "Mateo 25:21"
+        },
+        {
+          "id": "parabolas-u3-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena las distribuciones",
+          "text": "Secuencia de recibimientos y cuentas.",
+          "tokens": [
+            "Señor distribuye talentos",
+            "Siervos usan sus dones",
+            "Señor regresa",
+            "Evalúa cómo los usaron"
+          ],
+          "reference": "Mateo 25:14-30"
+        },
+        {
+          "id": "parabolas-u3-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los siervos",
+          "pairs": [
+            {
+              "left": "Primer siervo",
+              "right": "Cinco talentos"
+            },
+            {
+              "left": "Segundo siervo",
+              "right": "Dos talentos"
+            },
+            {
+              "left": "Tercer siervo",
+              "right": "Un talento (enterrado)"
+            },
+            {
+              "left": "Mayordomía fiel",
+              "right": "Recompensada"
+            }
+          ],
+          "reference": "Mateo 25:14-30"
+        },
+        {
+          "id": "parabolas-u3-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El siervo que enterró su talento fue elogiado como fiel.",
+          "isTrue": false,
+          "reference": "Mateo 25:24-30",
+          "explanation": "El siervo fue llamado malvado e indolente por no usar su talento; fue castigado mientras los fieles fueron recompensados."
+        },
+        {
+          "id": "parabolas-u3-l2-e7",
+          "kind": "listen",
+          "prompt": "¿Qué hicieron los siervos fieles?",
+          "text": "Escucha: Los siervos fieles multiplicaron sus talentos.",
+          "options": [
+            "Multiplicaron talentos",
+            "Escondieron talentos",
+            "Perdieron talentos",
+            "Donaron talentos"
+          ],
+          "answer": "Multiplicaron talentos",
+          "reference": "Mateo 25:16-17"
+        },
+        {
+          "id": "parabolas-u3-l2-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Al que tiene, le será dado más; al que no tiene, aun lo que tiene le será quitado.",
+          "reference": "Mateo 25:29"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u3-l3",
+      "title": "El Rico Insensato",
+      "icon": "hands.sparkles.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Por qué fue tan abundante la cosecha del rico?",
+          "text": "La cosecha fue tan grande que sus ___ no podían contenerla.",
+          "options": [
+            "graneros",
+            "silos",
+            "depósitos",
+            "bodegas"
+          ],
+          "answer": "graneros",
+          "reference": "Lucas 12:17"
+        },
+        {
+          "id": "parabolas-u3-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "El rico planeó ___ y disfrutar de sus bienes.",
+          "answer": "descansar",
+          "options": [
+            "descansar",
+            "retirarse",
+            "reposar",
+            "alejarse"
+          ],
+          "reference": "Lucas 12:18-19"
+        },
+        {
+          "id": "parabolas-u3-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Reflexión sobre la avaricia",
+          "tokens": [
+            "La vida",
+            "no consiste",
+            "en la abundancia",
+            "de bienes"
+          ],
+          "distractors": [
+            "en el gozo",
+            "en el dinero",
+            "en la riqueza",
+            "en el placer"
+          ],
+          "reference": "Lucas 12:15"
+        },
+        {
+          "id": "parabolas-u3-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena la historia",
+          "text": "Secuencia de la parábola del rico.",
+          "tokens": [
+            "Gran cosecha es recogida",
+            "Rico planea construir",
+            "Se prepara para descansar",
+            "Muere esa misma noche"
+          ],
+          "reference": "Lucas 12:16-20"
+        },
+        {
+          "id": "parabolas-u3-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los significados",
+          "pairs": [
+            {
+              "left": "Cosecha abundante",
+              "right": "Bendición de Dios"
+            },
+            {
+              "left": "Avaricia",
+              "right": "Vacío espiritual"
+            },
+            {
+              "left": "Muerte repentina",
+              "right": "No llevará nada"
+            },
+            {
+              "left": "Generosidad",
+              "right": "Riqueza verdadera"
+            }
+          ],
+          "reference": "Lucas 12:16-21"
+        },
+        {
+          "id": "parabolas-u3-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El rico insensato compartió su cosecha con los necesitados.",
+          "isTrue": false,
+          "reference": "Lucas 12:18-19",
+          "explanation": "Solo pensaba en sí mismo: guardar todo y disfrutar para sí, sin pensar en Dios ni en el prójimo."
+        },
+        {
+          "id": "parabolas-u3-l3-e7",
+          "kind": "listen",
+          "prompt": "¿Cuál fue el plan del rico?",
+          "text": "El rico planea descansar y disfrutar de sus bienes.",
+          "options": [
+            "Descansar y disfrutar",
+            "Trabajar más",
+            "Ayudar a pobres",
+            "Orar a Dios"
+          ],
+          "answer": "Descansar y disfrutar",
+          "reference": "Lucas 12:18-19"
+        },
+        {
+          "id": "parabolas-u3-l3-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Nadie puede llevar sus riquezas cuando muere.",
+          "reference": "Lucas 12:15-21"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u3-l4",
+      "title": "Ovejas y Cabritos",
+      "icon": "bird.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Quién está a la mano derecha del Hijo del Hombre?",
+          "text": "A su derecha están las ___.",
+          "options": [
+            "ovejas",
+            "cabritos",
+            "personas",
+            "naciones"
+          ],
+          "answer": "ovejas",
+          "reference": "Mateo 25:31-33"
+        },
+        {
+          "id": "parabolas-u3-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "\"Tuve hambre y me ___, tuve sed y me disteis de beber.\"",
+          "answer": "disteis",
+          "options": [
+            "disteis",
+            "alimentasteis",
+            "mataste",
+            "ofrecisteis"
+          ],
+          "reference": "Mateo 25:35"
+        },
+        {
+          "id": "parabolas-u3-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Promesa a las ovejas fieles",
+          "tokens": [
+            "Venid, benditos",
+            "de mi Padre",
+            "heredad el reino",
+            "desde el origen"
+          ],
+          "distractors": [
+            "de los cielos",
+            "del mundo",
+            "eternamente",
+            "de la gloria"
+          ],
+          "reference": "Mateo 25:34"
+        },
+        {
+          "id": "parabolas-u3-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena el juicio",
+          "text": "Secuencia del juicio final.",
+          "tokens": [
+            "Hijo del Hombre se sienta",
+            "Separa ovejas de cabritos",
+            "Juzga los corazones",
+            "Pronuncia su sentencia"
+          ],
+          "reference": "Mateo 25:31-46"
+        },
+        {
+          "id": "parabolas-u3-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia las acciones",
+          "pairs": [
+            {
+              "left": "Tuve hambre",
+              "right": "Me alimentasteis"
+            },
+            {
+              "left": "Fui extranjero",
+              "right": "Me recogisteis"
+            },
+            {
+              "left": "Estuve preso",
+              "right": "Me visitasteis"
+            },
+            {
+              "left": "Ovejas",
+              "right": "Heredan el reino"
+            }
+          ],
+          "reference": "Mateo 25:35-40"
+        },
+        {
+          "id": "parabolas-u3-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Ayudar al prójimo es lo mismo que ayudar a Jesús.",
+          "isTrue": true,
+          "reference": "Mateo 25:40",
+          "explanation": "Jesús dijo: 'Siempre que lo hicisteis a uno de estos mis hermanos más pequeños, a mí lo hicisteis.'"
+        },
+        {
+          "id": "parabolas-u3-l4-e7",
+          "kind": "listen",
+          "prompt": "¿Quién será separado?",
+          "text": "El Hijo del Hombre separará ovejas de cabritos.",
+          "options": [
+            "Ovejas de cabritos",
+            "Buenos de malos",
+            "Ricos de pobres",
+            "Justos de injustos"
+          ],
+          "answer": "Ovejas de cabritos",
+          "reference": "Mateo 25:32-33"
+        },
+        {
+          "id": "parabolas-u3-l4-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Al más pequeño de estos mis hermanos, a mí lo hicisteis.",
+          "reference": "Mateo 25:40"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u3-l5",
+      "title": "Revisión: Amor y Mayordomía",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el tema central de estas parábolas?",
+          "text": "Todas enseñan sobre ___ al prójimo.",
+          "options": [
+            "amor",
+            "juicio",
+            "riqueza",
+            "muerte"
+          ],
+          "answer": "amor",
+          "reference": "Lucas 10 y Mateo 25"
+        },
+        {
+          "id": "parabolas-u3-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "El buen samaritano actuó con ___.",
+          "answer": "compasión",
+          "options": [
+            "compasión",
+            "misericordia",
+            "amor",
+            "caridad"
+          ],
+          "reference": "Lucas 10:33"
+        },
+        {
+          "id": "parabolas-u3-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Ordena las lecciones",
+          "text": "Secuencia de las 5 parábolas.",
+          "tokens": [
+            "Amar al prójimo",
+            "Usar bien nuestros dones",
+            "Evitar la avaricia",
+            "Servir al necesitado"
+          ],
+          "reference": "Lucas 10 y Mateo 25"
+        },
+        {
+          "id": "parabolas-u3-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Asocia cada lección",
+          "pairs": [
+            {
+              "left": "Buen samaritano",
+              "right": "Compasión activa"
+            },
+            {
+              "left": "Talentos",
+              "right": "Mayordomía fiel"
+            },
+            {
+              "left": "Rico insensato",
+              "right": "Avaricia vacía"
+            },
+            {
+              "left": "Ovejas y cabritos",
+              "right": "Juicio por hechos"
+            }
+          ],
+          "reference": "Lucas 10 y Mateo 25"
+        },
+        {
+          "id": "parabolas-u3-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo clave",
+          "text": "Esencia de la enseñanza",
+          "tokens": [
+            "Anda",
+            "y haz bien",
+            "tú lo mismo"
+          ],
+          "distractors": [
+            "Anda y predica",
+            "Anda y juzga",
+            "Anda y reza",
+            "Anda y espera"
+          ],
+          "reference": "Lucas 10:37"
+        },
+        {
+          "id": "parabolas-u3-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La fe verdadera se expresa en acciones concretas de amor.",
+          "isTrue": true,
+          "reference": "Lucas 10 y Mateo 25",
+          "explanation": "Todas las parábolas muestran que verdadera fe resulta en compasión, generosidad y mayordomía responsable."
+        },
+        {
+          "id": "parabolas-u3-l5-e7",
+          "kind": "listen",
+          "prompt": "¿Qué significa ser prójimo?",
+          "text": "Ser prójimo significa actuar con compasión.",
+          "options": [
+            "Actuar con compasión",
+            "Conocer a la persona",
+            "Estar cerca",
+            "Ser pariente"
+          ],
+          "answer": "Actuar con compasión",
+          "reference": "Lucas 10:36-37"
+        },
+        {
+          "id": "parabolas-u3-l5-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "El amor al prójimo es tan importante como amar a Dios.",
+          "reference": "Lucas 10:27"
+        }
+      ]
+    }
+  ]
+}

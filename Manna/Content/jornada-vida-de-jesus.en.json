@@ -1,0 +1,2612 @@
+{
+  "id": "vida-de-jesus",
+  "title": "Life of Jesus",
+  "subtitle": "From birth to resurrection",
+  "icon": "star.fill",
+  "order": 1,
+  "units": [
+    {
+      "id": "u1",
+      "title": "Unit 1",
+      "subtitle": "The birth of Jesus",
+      "guide": {
+        "summary": "Jesus' birth fulfills centuries of prophetic promises. Mary is chosen as the mother of the Savior, announced by an angel, visited by shepherds and magi. Simeon and Anna recognize the arrival of the long-awaited Messiah. Jesus the child grew in wisdom and grace, as the true Son of God.",
+        "keyVerses": [
+          {
+            "reference": "Luke 1:26-27",
+            "text": "In the sixth month the angel Gabriel was sent from God to a city of Galilee named Nazareth, to a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin's name was Mary."
+          },
+          {
+            "reference": "Luke 2:10-11",
+            "text": "The angel said to them, \"Don't be afraid, for behold, I bring you good news of great joy which will be to all people. For there is born to you, this day, in the city of David, a Savior, who is Christ the Lord.\""
+          },
+          {
+            "reference": "Luke 2:40",
+            "text": "The child grew and became strong, filled with wisdom, and God's grace was upon him."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "u1-l1",
+          "title": "The Annunciation",
+          "icon": "star.fill",
+          "exercises": [
+            {
+              "id": "u1-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Don't be afraid, Mary, for you have found favor with ___, and you will conceive and bear a son.\"",
+              "speaker": "Gabriel",
+              "options": [
+                "God",
+                "the king",
+                "the priest",
+                "the temple"
+              ],
+              "answer": "God",
+              "reference": "Luke 1:30",
+              "explanation": "The angel Gabriel announces to Mary that she was chosen by God to be the mother of Jesus."
+            },
+            {
+              "id": "u1-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Mary accepted God's plan immediately without any doubts.",
+              "isTrue": false,
+              "reference": "Luke 1:29",
+              "explanation": "Mary was troubled when she heard the angel and wondered what kind of greeting this might be (Luke 1:29)."
+            },
+            {
+              "id": "u1-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "Who said this?",
+              "text": "\"Behold, I am the servant of the Lord; let it be done to me according to your word.\"",
+              "speaker": "Mary",
+              "options": [
+                "Mary",
+                "Elizabeth",
+                "John the Baptist's mother",
+                "Zacharias' wife"
+              ],
+              "answer": "Mary",
+              "reference": "Luke 1:38"
+            },
+            {
+              "id": "u1-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Mary's response to the angel Gabriel",
+              "tokens": [
+                "Behold",
+                "I am the servant of the Lord",
+                "let it be done",
+                "to me",
+                "according to",
+                "your word"
+              ],
+              "distractors": [
+                "goodness",
+                "of the kingdom",
+                "may it be",
+                "in heaven"
+              ],
+              "reference": "Luke 1:38"
+            },
+            {
+              "id": "u1-l1-e5",
+              "kind": "multipleChoice",
+              "prompt": "Where was Mary when the angel appeared?",
+              "text": "Mary was in her ___ in the city of Nazareth.",
+              "options": [
+                "house",
+                "synagogue",
+                "workshop",
+                "spring"
+              ],
+              "answer": "house",
+              "reference": "Luke 1:26-27"
+            },
+            {
+              "id": "u1-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Angel Gabriel",
+                  "right": "Announces to Jesus"
+                },
+                {
+                  "left": "Mary",
+                  "right": "Accepts the will"
+                },
+                {
+                  "left": "Zacharias",
+                  "right": "Doubts the angel"
+                },
+                {
+                  "left": "Elizabeth",
+                  "right": "Mother of John"
+                }
+              ],
+              "reference": "Luke 1"
+            },
+            {
+              "id": "u1-l1-e7",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The angel told Mary that her son would be called Son of the Most High.",
+              "isTrue": true,
+              "reference": "Luke 1:32",
+              "explanation": "The angel prophesied: \"He will be great, and will be called the Son of the Most High\" (Luke 1:32)."
+            },
+            {
+              "id": "u1-l1-e8",
+              "kind": "multipleChoice",
+              "prompt": "What was the name of Mary's fiancé?",
+              "text": "Mary's husband was called ___.",
+              "options": [
+                "Joseph",
+                "John",
+                "Simon",
+                "James"
+              ],
+              "answer": "Joseph",
+              "reference": "Luke 1:27"
+            }
+          ]
+        },
+        {
+          "id": "u1-l2",
+          "title": "Birth in Bethlehem",
+          "icon": "house.fill",
+          "exercises": [
+            {
+              "id": "u1-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"In those days a decree went out from Caesar ___, that all the world should be enrolled.\"",
+              "options": [
+                "Augustus",
+                "Tiberius",
+                "Caius",
+                "Nero"
+              ],
+              "answer": "Augustus",
+              "reference": "Luke 2:1"
+            },
+            {
+              "id": "u1-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus was born in Nazareth, the city where Mary lived.",
+              "isTrue": false,
+              "reference": "Luke 2:4-7",
+              "explanation": "Jesus was born in Bethlehem, because Joseph and Mary had to register there for the census (Luke 2:4-7)."
+            },
+            {
+              "id": "u1-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "About the place of Jesus' birth",
+              "tokens": [
+                "And she gave birth",
+                "to her firstborn son",
+                "and wrapped him",
+                "in swaddling clothes",
+                "and laid him",
+                "in a manger"
+              ],
+              "distractors": [
+                "in a crib",
+                "with fine cloth",
+                "in gold",
+                "in curtains"
+              ],
+              "reference": "Luke 2:7"
+            },
+            {
+              "id": "u1-l2-e4",
+              "kind": "multipleChoice",
+              "prompt": "Where was Jesus placed when he was born?",
+              "text": "Jesus was placed in a ___ because there was no room in the inn.",
+              "options": [
+                "manger",
+                "bed",
+                "hammock",
+                "cradle of straw"
+              ],
+              "answer": "manger",
+              "reference": "Luke 2:7"
+            },
+            {
+              "id": "u1-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Bethlehem",
+                  "right": "City of birth"
+                },
+                {
+                  "left": "Manger",
+                  "right": "Jesus' cradle"
+                },
+                {
+                  "left": "Nazareth",
+                  "right": "Mary's city"
+                },
+                {
+                  "left": "Swaddling clothes",
+                  "right": "Baby's wrappings"
+                }
+              ],
+              "reference": "Luke 2"
+            },
+            {
+              "id": "u1-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "There were many guests in the inn when Jesus was born.",
+              "isTrue": false,
+              "reference": "Luke 2:7",
+              "explanation": "There was no room for them in the inn (Luke 2:7), so Jesus was born in a manger."
+            },
+            {
+              "id": "u1-l2-e7",
+              "kind": "multipleChoice",
+              "prompt": "Who was the carpenter who raised Jesus?",
+              "text": "___ was the carpenter who served as the earthly father of Jesus.",
+              "speaker": "Narrator",
+              "options": [
+                "Joseph",
+                "Simon",
+                "James",
+                "John"
+              ],
+              "answer": "Joseph",
+              "reference": "Matthew 1:24-25"
+            },
+            {
+              "id": "u1-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus' parents stayed in Bethlehem for his entire life.",
+              "isTrue": false,
+              "reference": "Matthew 2:22-23",
+              "explanation": "After events in Bethlehem, the family moved to Nazareth (Matthew 2:22-23)."
+            }
+          ]
+        },
+        {
+          "id": "u1-l3",
+          "title": "The Shepherds and the Magi",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "u1-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Be not afraid; for behold, I bring you good news of great joy, which will be to all ___; for there is born to you, this day, in the city of David, a Savior, who is Christ, the Lord.\"",
+              "speaker": "Angel",
+              "options": [
+                "people",
+                "world",
+                "kingdom",
+                "Israel"
+              ],
+              "answer": "people",
+              "reference": "Luke 2:10-11"
+            },
+            {
+              "id": "u1-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The shepherds saw a multitude of angels praising God.",
+              "isTrue": true,
+              "reference": "Luke 2:13",
+              "explanation": "Suddenly there appeared with the angel a multitude of the heavenly host, praising God (Luke 2:13)."
+            },
+            {
+              "id": "u1-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The praise of the angels in heaven",
+              "tokens": [
+                "Glory to God",
+                "in the highest",
+                "peace on earth",
+                "good will",
+                "toward men"
+              ],
+              "distractors": [
+                "in the temple",
+                "in the city",
+                "grace and truth",
+                "eternal power"
+              ],
+              "reference": "Luke 2:14"
+            },
+            {
+              "id": "u1-l3-e4",
+              "kind": "multipleChoice",
+              "prompt": "What guided the magi to Jesus?",
+              "text": "The magi saw a ___ when Jesus was born.",
+              "options": [
+                "star",
+                "flame",
+                "light from heaven",
+                "voice of an angel"
+              ],
+              "answer": "star",
+              "reference": "Matthew 2:2"
+            },
+            {
+              "id": "u1-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Shepherds",
+                  "right": "Hear from the angel"
+                },
+                {
+                  "left": "Magi",
+                  "right": "Follow the star"
+                },
+                {
+                  "left": "Incense",
+                  "right": "Gift of the magi"
+                },
+                {
+                  "left": "Gold",
+                  "right": "Gift to the king"
+                }
+              ],
+              "reference": "Luke 2 and Matthew 2"
+            },
+            {
+              "id": "u1-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The magi gave Jesus gold, incense, and myrrh.",
+              "isTrue": true,
+              "reference": "Matthew 2:11",
+              "explanation": "Opening their treasures, they offered him gifts: gold, incense, and myrrh (Matthew 2:11)."
+            },
+            {
+              "id": "u1-l3-e7",
+              "kind": "multipleChoice",
+              "prompt": "Who tried to find Jesus to kill him?",
+              "text": "King ___ wanted to find Jesus to destroy him.",
+              "speaker": "Narrator",
+              "options": [
+                "Herod",
+                "Agrippa",
+                "Pilate",
+                "Cleopatra"
+              ],
+              "answer": "Herod",
+              "reference": "Matthew 2:8"
+            },
+            {
+              "id": "u1-l3-e8",
+              "kind": "multipleChoice",
+              "prompt": "Where were the magi warned not to return?",
+              "text": "The magi were warned in a dream not to return to ___.",
+              "options": [
+                "Herod",
+                "Jerusalem",
+                "Bethlehem",
+                "the kingdom"
+              ],
+              "answer": "Herod",
+              "reference": "Matthew 2:12"
+            }
+          ]
+        },
+        {
+          "id": "u1-l4",
+          "title": "Presentation at the Temple",
+          "icon": "hands.sparkles.fill",
+          "exercises": [
+            {
+              "id": "u1-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"When the days of her purification according to the law of Moses were fulfilled, they brought him up to Jerusalem to present him to the Lord.\"",
+              "options": [
+                "Mary and Jesus",
+                "Jesus",
+                "the child",
+                "the mother"
+              ],
+              "answer": "the child",
+              "reference": "Luke 2:22"
+            },
+            {
+              "id": "u1-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Simeon was an old man who waited for the consolation of Israel.",
+              "isTrue": true,
+              "reference": "Luke 2:25-26",
+              "explanation": "Simeon was righteous and devout, looking for the consolation of Israel, with the promise of the Holy Spirit to see the Christ."
+            },
+            {
+              "id": "u1-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Simeon's prophecy about Jesus",
+              "tokens": [
+                "Behold, this child",
+                "will cause",
+                "the falling",
+                "and rising",
+                "of many in Israel"
+              ],
+              "distractors": [
+                "will be king",
+                "will save the world",
+                "will gather",
+                "all nations to the Father"
+              ],
+              "reference": "Luke 2:34"
+            },
+            {
+              "id": "u1-l4-e4",
+              "kind": "multipleChoice",
+              "prompt": "Who else recognized Jesus at the temple?",
+              "text": "___ was a widow who lived in the temple with prayer and fasting.",
+              "speaker": "Narrator",
+              "options": [
+                "Anna",
+                "Mary Magdalene",
+                "Salome",
+                "Joanna"
+              ],
+              "answer": "Anna",
+              "reference": "Luke 2:36"
+            },
+            {
+              "id": "u1-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Simeon",
+                  "right": "Recognizes Jesus"
+                },
+                {
+                  "left": "Anna",
+                  "right": "Devout prophetess"
+                },
+                {
+                  "left": "Law of Moses",
+                  "right": "Purification"
+                },
+                {
+                  "left": "Holy Spirit",
+                  "right": "Reveals to Simeon"
+                }
+              ],
+              "reference": "Luke 2:22-38"
+            },
+            {
+              "id": "u1-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus' presentation at the temple occurred 40 days after his birth.",
+              "isTrue": true,
+              "reference": "Luke 2:22",
+              "explanation": "When the days of her purification according to the law of Moses were fulfilled (40 days), they brought Jesus to Jerusalem (Luke 2:22)."
+            },
+            {
+              "id": "u1-l4-e7",
+              "kind": "multipleChoice",
+              "prompt": "What did Simeon say would pierce Mary's soul?",
+              "text": "Simeon prophesied that a ___ would pierce Mary's soul.",
+              "options": [
+                "sword",
+                "spear",
+                "pain",
+                "tribulation"
+              ],
+              "answer": "sword",
+              "reference": "Luke 2:35"
+            },
+            {
+              "id": "u1-l4-e8",
+              "kind": "multipleChoice",
+              "prompt": "How long had Anna been a widow?",
+              "text": "Anna had been a widow for about ___ years.",
+              "options": [
+                "84",
+                "70",
+                "60",
+                "40"
+              ],
+              "answer": "84",
+              "reference": "Luke 2:37"
+            }
+          ]
+        },
+        {
+          "id": "u1-l5",
+          "title": "Jesus at Twelve Years Old",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "u1-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"When Jesus was twelve years old, they went up, according to the custom of the feast, and the ___ stayed behind without his parents knowing it.\"",
+              "options": [
+                "boy",
+                "son",
+                "Jesus",
+                "body"
+              ],
+              "answer": "boy",
+              "reference": "Luke 2:42-43"
+            },
+            {
+              "id": "u1-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus was in the temple talking with the teachers of the law.",
+              "isTrue": true,
+              "reference": "Luke 2:46",
+              "explanation": "Jesus was in the temple, sitting among the teachers, listening to them and asking them questions (Luke 2:46)."
+            },
+            {
+              "id": "u1-l5-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Jesus' answer to his parents",
+              "tokens": [
+                "Why were you looking for me?",
+                "Didn't you know",
+                "that I must be",
+                "in my Father's",
+                "house?"
+              ],
+              "distractors": [
+                "in the temple",
+                "in the kingdom",
+                "at work",
+                "in the synagogue"
+              ],
+              "reference": "Luke 2:49"
+            },
+            {
+              "id": "u1-l5-e4",
+              "kind": "multipleChoice",
+              "prompt": "Where did Jesus' parents find him?",
+              "text": "Jesus was found in the ___, sitting among the teachers.",
+              "options": [
+                "temple",
+                "synagogue",
+                "marketplace",
+                "neighborhood"
+              ],
+              "answer": "temple",
+              "reference": "Luke 2:46"
+            },
+            {
+              "id": "u1-l5-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Jesus",
+                  "right": "Wise boy"
+                },
+                {
+                  "left": "Teachers",
+                  "right": "Amazed"
+                },
+                {
+                  "left": "Mary",
+                  "right": "Anxious search"
+                },
+                {
+                  "left": "Feast",
+                  "right": "Passover"
+                }
+              ],
+              "reference": "Luke 2:41-50"
+            },
+            {
+              "id": "u1-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Mary fully understood everything that Jesus meant by his answer.",
+              "isTrue": false,
+              "reference": "Luke 2:50",
+              "explanation": "His parents didn't understand the saying which he spoke to them (Luke 2:50)."
+            },
+            {
+              "id": "u1-l5-e7",
+              "kind": "multipleChoice",
+              "prompt": "Who kept all these things in her heart?",
+              "text": "___ kept all these things in her heart.",
+              "speaker": "Narrator",
+              "options": [
+                "Mary",
+                "Joseph",
+                "the teachers",
+                "the city"
+              ],
+              "answer": "Mary",
+              "reference": "Luke 2:51"
+            },
+            {
+              "id": "u1-l5-e8",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse about Jesus' growth",
+              "text": "\"And Jesus increased in ___, in stature, and in grace before God and men.\"",
+              "options": [
+                "wisdom",
+                "strength",
+                "knowledge",
+                "faith"
+              ],
+              "answer": "wisdom",
+              "reference": "Luke 2:52"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Unit 2",
+      "subtitle": "The beginning of ministry",
+      "guide": {
+        "summary": "Jesus' ministry begins with his baptism and the confirmation of the Father. He overcomes the temptations in the wilderness and calls his first disciples. His first miracle in Cana reveals his power. Nicodemus learns about being born again. Everything converges on the central truth: God loves the world and offers eternal life through the Son.",
+        "keyVerses": [
+          {
+            "reference": "Matthew 3:16-17",
+            "text": "Jesus, when he was baptized, went up directly from the water; and behold, the heavens were opened to him. He saw the Spirit of God descending as a dove, coming on him. And behold, a voice out of the heavens said, \"This is my beloved Son, in whom I am well pleased.\""
+          },
+          {
+            "reference": "John 3:16",
+            "text": "For God so loved the world, that he gave his only begotten Son, that whoever believes in him should not perish, but have eternal life."
+          },
+          {
+            "reference": "John 1:1",
+            "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "u2-l1",
+          "title": "John the Baptist and Baptism",
+          "icon": "drop.fill",
+          "exercises": [
+            {
+              "id": "u2-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"I indeed baptize you with water for repentance, but he who comes after me is mightier than I, whose shoes I am not worthy to carry. He will baptize you with the ___ and with fire.\"",
+              "speaker": "John the Baptist",
+              "options": [
+                "Holy Spirit",
+                "spirit",
+                "power",
+                "fire"
+              ],
+              "answer": "Holy Spirit",
+              "reference": "Matthew 3:11"
+            },
+            {
+              "id": "u2-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "John the Baptist was the Messiah.",
+              "isTrue": false,
+              "reference": "John 1:20",
+              "explanation": "John explicitly denied that he was the Christ (John 1:20), saying he was merely a voice preparing the way."
+            },
+            {
+              "id": "u2-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "John's preparation for Jesus",
+              "tokens": [
+                "Prepare the way",
+                "of the Lord",
+                "make straight",
+                "his paths"
+              ],
+              "distractors": [
+                "cleanse",
+                "of the king",
+                "lift up",
+                "the roads"
+              ],
+              "reference": "Matthew 3:3"
+            },
+            {
+              "id": "u2-l1-e4",
+              "kind": "multipleChoice",
+              "prompt": "Where was Jesus baptized?",
+              "text": "Jesus was baptized in the river ___.",
+              "options": [
+                "Jordan",
+                "Nile",
+                "Euphrates",
+                "Tigris"
+              ],
+              "answer": "Jordan",
+              "reference": "Matthew 3:13"
+            },
+            {
+              "id": "u2-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "John the Baptist",
+                  "right": "Prepares the way"
+                },
+                {
+                  "left": "Jesus",
+                  "right": "Fulfills righteousness"
+                },
+                {
+                  "left": "Holy Spirit",
+                  "right": "Descends in form"
+                },
+                {
+                  "left": "Voice of God",
+                  "right": "Approves the Son"
+                }
+              ],
+              "reference": "Matthew 3"
+            },
+            {
+              "id": "u2-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "At Jesus' baptism, a voice from heaven confirmed that he was the Son of God.",
+              "isTrue": true,
+              "reference": "Matthew 3:17",
+              "explanation": "A voice from heaven said: \"This is my beloved Son, in whom I am well pleased\" (Matthew 3:17)."
+            },
+            {
+              "id": "u2-l1-e7",
+              "kind": "multipleChoice",
+              "prompt": "In what form did the Holy Spirit descend on Jesus?",
+              "text": "The Holy Spirit descended on Jesus in the form of a ___.",
+              "options": [
+                "dove",
+                "light",
+                "fire",
+                "wind"
+              ],
+              "answer": "dove",
+              "reference": "Matthew 3:16"
+            },
+            {
+              "id": "u2-l1-e8",
+              "kind": "multipleChoice",
+              "prompt": "Who baptized in the Jordan river?",
+              "text": "___ baptized people for repentance of their sins.",
+              "speaker": "Narrator",
+              "options": [
+                "John",
+                "Peter",
+                "Andrew",
+                "Philip"
+              ],
+              "answer": "John",
+              "reference": "Matthew 3:6"
+            }
+          ]
+        },
+        {
+          "id": "u2-l2",
+          "title": "The Temptation in the Wilderness",
+          "icon": "flame.fill",
+          "exercises": [
+            {
+              "id": "u2-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Then Jesus was led up by the Spirit into the wilderness to be tempted by the ___. When he had fasted forty days and forty nights, he was hungry.\"",
+              "options": [
+                "devil",
+                "people",
+                "high priest",
+                "king"
+              ],
+              "answer": "devil",
+              "reference": "Matthew 4:1-2"
+            },
+            {
+              "id": "u2-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus went to the wilderness because he wanted to hide from his enemies.",
+              "isTrue": false,
+              "reference": "Matthew 4:1",
+              "explanation": "Jesus was led by the Spirit into the wilderness to be tempted by the devil, not to hide."
+            },
+            {
+              "id": "u2-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Jesus' response to the first temptation",
+              "tokens": [
+                "Man shall not live",
+                "by bread alone",
+                "but by every",
+                "word that proceeds",
+                "from the mouth of God"
+              ],
+              "distractors": [
+                "by works",
+                "of the Spirit",
+                "by faith",
+                "by his grace"
+              ],
+              "reference": "Matthew 4:4"
+            },
+            {
+              "id": "u2-l2-e4",
+              "kind": "multipleChoice",
+              "prompt": "What was the first temptation offered to Jesus?",
+              "text": "The devil asked Jesus to turn the ___ into bread.",
+              "options": [
+                "stones",
+                "sand",
+                "rocks",
+                "ground"
+              ],
+              "answer": "stones",
+              "reference": "Matthew 4:3"
+            },
+            {
+              "id": "u2-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "First temptation",
+                  "right": "Bread of wilderness"
+                },
+                {
+                  "left": "Second temptation",
+                  "right": "Power of kingdoms"
+                },
+                {
+                  "left": "Third temptation",
+                  "right": "Throw from temple"
+                },
+                {
+                  "left": "Scripture",
+                  "right": "Weapon against devil"
+                }
+              ],
+              "reference": "Matthew 4:1-11"
+            },
+            {
+              "id": "u2-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The devil offered Jesus all the kingdoms of the world if he would worship him.",
+              "isTrue": true,
+              "reference": "Matthew 4:8-9",
+              "explanation": "The devil took Jesus to a high mountain and showed him all the kingdoms, offering them for worship (Matthew 4:8-9)."
+            },
+            {
+              "id": "u2-l2-e7",
+              "kind": "multipleChoice",
+              "prompt": "How did Jesus always respond to the temptations?",
+              "text": "Jesus responded with verses from the ___.",
+              "options": [
+                "Scripture",
+                "tradition",
+                "wisdom",
+                "oral law"
+              ],
+              "answer": "Scripture",
+              "reference": "Matthew 4:4,7,10"
+            },
+            {
+              "id": "u2-l2-e8",
+              "kind": "multipleChoice",
+              "prompt": "How many days did Jesus fast in the wilderness?",
+              "text": "Jesus fasted for ___ days and ___ nights.",
+              "options": [
+                "forty and forty",
+                "thirty and thirty",
+                "twenty and twenty",
+                "ten and ten"
+              ],
+              "answer": "forty and forty",
+              "reference": "Matthew 4:2"
+            }
+          ]
+        },
+        {
+          "id": "u2-l3",
+          "title": "Calling of the Disciples",
+          "icon": "person.2.fill",
+          "exercises": [
+            {
+              "id": "u2-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Jesus said to him: Follow me, and let the ___ bury their dead.\"",
+              "speaker": "Jesus",
+              "options": [
+                "dead",
+                "sinners",
+                "living",
+                "ungodly"
+              ],
+              "answer": "dead",
+              "reference": "Matthew 8:22"
+            },
+            {
+              "id": "u2-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Peter, Andrew, James, and John were fishermen when Jesus called them.",
+              "isTrue": true,
+              "reference": "Matthew 4:18-22",
+              "explanation": "Peter and Andrew were casting nets into the sea, and James and John were in the boat with Zebedee, their father (Matthew 4:18-22)."
+            },
+            {
+              "id": "u2-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Jesus' promise to the first disciples",
+              "tokens": [
+                "Come after me",
+                "and I will make you",
+                "fishers of men"
+              ],
+              "distractors": [
+                "and you will become",
+                "apostles",
+                "wise",
+                "kings"
+              ],
+              "reference": "Matthew 4:19"
+            },
+            {
+              "id": "u2-l3-e4",
+              "kind": "multipleChoice",
+              "prompt": "What was Matthew's profession before he followed Jesus?",
+              "text": "Matthew was a ___ of taxes.",
+              "options": [
+                "collector",
+                "guardian",
+                "lord",
+                "servant"
+              ],
+              "answer": "collector",
+              "reference": "Matthew 9:9"
+            },
+            {
+              "id": "u2-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Peter",
+                  "right": "Simon Peter"
+                },
+                {
+                  "left": "Matthew",
+                  "right": "Tax collector"
+                },
+                {
+                  "left": "John",
+                  "right": "Beloved disciple"
+                },
+                {
+                  "left": "Judas",
+                  "right": "Traitor"
+                }
+              ],
+              "reference": "Matthew 10:1-4"
+            },
+            {
+              "id": "u2-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus chose twelve disciples to be with him.",
+              "isTrue": true,
+              "reference": "Mark 3:14",
+              "explanation": "Jesus appointed twelve disciples to be with him and to send them out to preach (Mark 3:14)."
+            },
+            {
+              "id": "u2-l3-e7",
+              "kind": "multipleChoice",
+              "prompt": "What name did Jesus give to Simon?",
+              "text": "Jesus gave Simon the name ___.",
+              "options": [
+                "Peter",
+                "Cephas",
+                "Rock",
+                "all above"
+              ],
+              "answer": "all above",
+              "reference": "Matthew 16:18"
+            },
+            {
+              "id": "u2-l3-e8",
+              "kind": "multipleChoice",
+              "prompt": "What did the first disciples leave to follow Jesus?",
+              "text": "Peter and Andrew left their ___ and followed Jesus.",
+              "options": [
+                "nets",
+                "boats",
+                "houses",
+                "families"
+              ],
+              "answer": "nets",
+              "reference": "Matthew 4:20"
+            }
+          ]
+        },
+        {
+          "id": "u2-l4",
+          "title": "Wedding at Cana and Nicodemus",
+          "icon": "gift.fill",
+          "exercises": [
+            {
+              "id": "u2-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Jesus said to them: Fill these jars with water. And they filled them up to the ___.\"",
+              "speaker": "Jesus",
+              "options": [
+                "brim",
+                "middle",
+                "end",
+                "edge"
+              ],
+              "answer": "brim",
+              "reference": "John 2:7"
+            },
+            {
+              "id": "u2-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "This was Jesus' first miracle, performed at Cana of Galilee.",
+              "isTrue": true,
+              "reference": "John 2:11",
+              "explanation": "This was the first of the signs that Jesus performed, at Cana of Galilee (John 2:11)."
+            },
+            {
+              "id": "u2-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The most important conversation in the Bible with Nicodemus",
+              "tokens": [
+                "For God",
+                "so loved the world",
+                "that he gave",
+                "his only begotten",
+                "Son"
+              ],
+              "distractors": [
+                "sent",
+                "sacrificed",
+                "his firstborn",
+                "to save"
+              ],
+              "reference": "John 3:16"
+            },
+            {
+              "id": "u2-l4-e4",
+              "kind": "multipleChoice",
+              "prompt": "Who was Nicodemus?",
+              "text": "Nicodemus was a ___ of the Jews.",
+              "options": [
+                "Pharisee",
+                "scribe",
+                "priest",
+                "Levite"
+              ],
+              "answer": "Pharisee",
+              "reference": "John 3:1"
+            },
+            {
+              "id": "u2-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Wedding at Cana",
+                  "right": "First miracle"
+                },
+                {
+                  "left": "Water",
+                  "right": "Turned to wine"
+                },
+                {
+                  "left": "Nicodemus",
+                  "right": "Born again"
+                },
+                {
+                  "left": "John 3:16",
+                  "right": "God's love"
+                }
+              ],
+              "reference": "John 2 and 3"
+            },
+            {
+              "id": "u2-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Nicodemus came to speak with Jesus at night.",
+              "isTrue": true,
+              "reference": "John 3:2",
+              "explanation": "Nicodemus came to Jesus by night, for fear of the Jews (John 3:2)."
+            },
+            {
+              "id": "u2-l4-e7",
+              "kind": "multipleChoice",
+              "prompt": "What did Jesus turn into wine?",
+              "text": "Jesus turned ___ into wine at the wedding of Cana.",
+              "options": [
+                "water",
+                "juice",
+                "milk",
+                "oil"
+              ],
+              "answer": "water",
+              "reference": "John 2:9"
+            },
+            {
+              "id": "u2-l4-e8",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse about the one who believes",
+              "text": "\"He who believes in the Son has eternal life; but he who doesn't obey the Son won't see life, but God's wrath remains on ___\".",
+              "options": [
+                "him",
+                "him and the Son",
+                "God the Father",
+                "God Almighty"
+              ],
+              "answer": "him",
+              "reference": "John 3:36"
+            }
+          ]
+        },
+        {
+          "id": "u2-l5",
+          "title": "The Great Love of God",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "u2-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"For God so loved the world, that he gave his ___ Son, that whoever believes in him should not perish, but have eternal life.\"",
+              "options": [
+                "only begotten",
+                "firstborn",
+                "servant",
+                "prophet"
+              ],
+              "answer": "only begotten",
+              "reference": "John 3:16"
+            },
+            {
+              "id": "u2-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "John 3:16 expresses the foundation of God's love for all humanity.",
+              "isTrue": true,
+              "reference": "John 3:16",
+              "explanation": "This verse is a perfect summary of the Gospel and God's grace."
+            },
+            {
+              "id": "u2-l5-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The reason for Jesus' death",
+              "tokens": [
+                "For God",
+                "so loved the world",
+                "that he gave",
+                "his only begotten",
+                "Son"
+              ],
+              "distractors": [
+                "to judge it",
+                "to stone it",
+                "to destroy it",
+                "to punish"
+              ],
+              "reference": "John 3:16"
+            },
+            {
+              "id": "u2-l5-e4",
+              "kind": "multipleChoice",
+              "prompt": "What happens to the one who believes in Jesus?",
+              "text": "The one who believes in Jesus does not ___.",
+              "options": [
+                "perish",
+                "die",
+                "suffer",
+                "is judged"
+              ],
+              "answer": "perish",
+              "reference": "John 3:16"
+            },
+            {
+              "id": "u2-l5-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "God",
+                  "right": "So loved the world"
+                },
+                {
+                  "left": "His Son",
+                  "right": "To save"
+                },
+                {
+                  "left": "The one who believes",
+                  "right": "Has eternal life"
+                },
+                {
+                  "left": "The message",
+                  "right": "Hope and love"
+                }
+              ],
+              "reference": "John 3:16"
+            },
+            {
+              "id": "u2-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "God's purpose in sending his Son was to condemn the world.",
+              "isTrue": false,
+              "reference": "John 3:17",
+              "explanation": "God didn't send his Son to condemn the world, but that the world through him might be saved (John 3:17)."
+            },
+            {
+              "id": "u2-l5-e7",
+              "kind": "multipleChoice",
+              "prompt": "What is the consequence of not believing in Jesus?",
+              "text": "The one who doesn't believe is already ___.",
+              "options": [
+                "condemned",
+                "cursed",
+                "separated",
+                "lost"
+              ],
+              "answer": "condemned",
+              "reference": "John 3:18"
+            },
+            {
+              "id": "u2-l5-e8",
+              "kind": "multipleChoice",
+              "prompt": "Complete the promise of eternal life",
+              "text": "\"He who believes in the Son has eternal ___; but he who doesn't obey the Son won't see life, but God's wrath remains on him.\"",
+              "options": [
+                "life",
+                "endless time",
+                "life of the Father",
+                "infinite life"
+              ],
+              "answer": "life",
+              "reference": "John 3:36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Unit 3",
+      "subtitle": "Teachings and miracles",
+      "guide": {
+        "summary": "Jesus teaches the way to the Kingdom through the Beatitudes and the Lord's Prayer, revealing that true life consists in trusting him. His parables challenge crowds to think about faith and priorities. His miracles demonstrate compassion and divine power: he feeds thousands, walks on water, heals the sick, and raises the dead.",
+        "keyVerses": [
+          {
+            "reference": "Matthew 5:3",
+            "text": "Blessed are the poor in spirit, for theirs is the kingdom of heaven."
+          },
+          {
+            "reference": "Matthew 6:9-10",
+            "text": "Therefore, pray like this: Our Father in heaven, may your name be kept holy. Let your kingdom come. Let your will be done, as in heaven, so on earth."
+          },
+          {
+            "reference": "Matthew 14:27",
+            "text": "But immediately Jesus spoke to them, saying, \"Take courage, it is I! Don't be afraid.\""
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "u3-l1",
+          "title": "Sermon on the Mount",
+          "icon": "mountain.2.fill",
+          "exercises": [
+            {
+              "id": "u3-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Blessed are the poor in ___; for theirs is the kingdom of heaven.\"",
+              "speaker": "Jesus",
+              "options": [
+                "spirit",
+                "heart",
+                "soul",
+                "faith"
+              ],
+              "answer": "spirit",
+              "reference": "Matthew 5:3"
+            },
+            {
+              "id": "u3-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The Beatitudes teach qualities that bring spiritual happiness.",
+              "isTrue": true,
+              "reference": "Matthew 5:3-12",
+              "explanation": "The Beatitudes describe God's blessings on those who live according to his values."
+            },
+            {
+              "id": "u3-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "One of the Beatitudes of the Sermon",
+              "tokens": [
+                "Blessed",
+                "are those who mourn",
+                "for they will",
+                "be comforted"
+              ],
+              "distractors": [
+                "those who laugh",
+                "will receive",
+                "will be judged",
+                "the happy"
+              ],
+              "reference": "Matthew 5:4"
+            },
+            {
+              "id": "u3-l1-e4",
+              "kind": "multipleChoice",
+              "prompt": "Who are blessed according to Jesus?",
+              "text": "Blessed are the ___, for theirs is the kingdom of heaven.",
+              "options": [
+                "meek",
+                "rich",
+                "powerful",
+                "wise"
+              ],
+              "answer": "meek",
+              "reference": "Matthew 5:5"
+            },
+            {
+              "id": "u3-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Poor in spirit",
+                  "right": "Kingdom of heaven"
+                },
+                {
+                  "left": "The meek",
+                  "right": "Will inherit the earth"
+                },
+                {
+                  "left": "Hungry for righteousness",
+                  "right": "Will be satisfied"
+                },
+                {
+                  "left": "The merciful",
+                  "right": "Will obtain mercy"
+                }
+              ],
+              "reference": "Matthew 5:3-7"
+            },
+            {
+              "id": "u3-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus taught that the peacemakers will be called sons of God.",
+              "isTrue": true,
+              "reference": "Matthew 5:9",
+              "explanation": "Blessed are the peacemakers, for they will be called children of God (Matthew 5:9)."
+            },
+            {
+              "id": "u3-l1-e7",
+              "kind": "multipleChoice",
+              "prompt": "How many Beatitudes did Jesus pronounce?",
+              "text": "In the Sermon on the Mount, Jesus taught approximately ___ Beatitudes.",
+              "options": [
+                "eight",
+                "ten",
+                "five",
+                "twelve"
+              ],
+              "answer": "eight",
+              "reference": "Matthew 5:3-12"
+            },
+            {
+              "id": "u3-l1-e8",
+              "kind": "multipleChoice",
+              "prompt": "Complete the Beatitude about mercy",
+              "text": "\"Blessed are the merciful, for they will obtain ___\".",
+              "options": [
+                "mercy",
+                "forgiveness",
+                "blessing",
+                "grace"
+              ],
+              "answer": "mercy",
+              "reference": "Matthew 5:7"
+            }
+          ]
+        },
+        {
+          "id": "u3-l2",
+          "title": "The Lord's Prayer",
+          "icon": "hands.sparkles.fill",
+          "exercises": [
+            {
+              "id": "u3-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Therefore, pray like this: Our Father in the ___, may your name be kept holy.\"",
+              "speaker": "Jesus",
+              "options": [
+                "heavens",
+                "heaven",
+                "throne",
+                "temple"
+              ],
+              "answer": "heavens",
+              "reference": "Matthew 6:9"
+            },
+            {
+              "id": "u3-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The Lord's Prayer is a prayer that Jesus taught his disciples.",
+              "isTrue": true,
+              "reference": "Matthew 6:9-13",
+              "explanation": "Jesus taught this prayer as a model for how his disciples should pray."
+            },
+            {
+              "id": "u3-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Request for daily bread",
+              "tokens": [
+                "Give us today",
+                "our daily",
+                "bread"
+              ],
+              "distractors": [
+                "of each month",
+                "give us always",
+                "that belongs to us",
+                "that we sow"
+              ],
+              "reference": "Matthew 6:11"
+            },
+            {
+              "id": "u3-l2-e4",
+              "kind": "multipleChoice",
+              "prompt": "What did Jesus ask to be sanctified?",
+              "text": "\"May your ___ be kept holy.\"",
+              "options": [
+                "name",
+                "throne",
+                "people",
+                "kingdom"
+              ],
+              "answer": "name",
+              "reference": "Matthew 6:9"
+            },
+            {
+              "id": "u3-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Sanctified be",
+                  "right": "Your name"
+                },
+                {
+                  "left": "Let your kingdom",
+                  "right": "Come"
+                },
+                {
+                  "left": "Let your will",
+                  "right": "Be done"
+                },
+                {
+                  "left": "Forgive us",
+                  "right": "Our debts"
+                }
+              ],
+              "reference": "Matthew 6:9-13"
+            },
+            {
+              "id": "u3-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "In the Lord's Prayer, we ask God to forgive our offenses.",
+              "isTrue": true,
+              "reference": "Matthew 6:12",
+              "explanation": "\"Forgive us our debts, as we forgive our debtors\" (Matthew 6:12)."
+            },
+            {
+              "id": "u3-l2-e7",
+              "kind": "multipleChoice",
+              "prompt": "How did Jesus ask us to pray for sustenance?",
+              "text": "\"Give us today our daily ___\".",
+              "options": [
+                "bread",
+                "food",
+                "sustenance",
+                "provision"
+              ],
+              "answer": "bread",
+              "reference": "Matthew 6:11"
+            },
+            {
+              "id": "u3-l2-e8",
+              "kind": "multipleChoice",
+              "prompt": "Complete the prayer about forgiveness",
+              "text": "\"Forgive us our debts, as we forgive our ___; and don't lead us into temptation, but deliver us from evil.\"",
+              "options": [
+                "debtors",
+                "enemies",
+                "sinners",
+                "critics"
+              ],
+              "answer": "debtors",
+              "reference": "Matthew 6:12"
+            }
+          ]
+        },
+        {
+          "id": "u3-l3",
+          "title": "Parables of Jesus",
+          "icon": "book.fill",
+          "exercises": [
+            {
+              "id": "u3-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse about the parable",
+              "text": "\"The parable of the prodigal son: A certain man had two ___; and the younger said to his father: Father, give me my share of the inheritance.\"",
+              "speaker": "Jesus",
+              "options": [
+                "sons",
+                "daughters",
+                "servants",
+                "heirs"
+              ],
+              "answer": "sons",
+              "reference": "Luke 15:11-12"
+            },
+            {
+              "id": "u3-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "In the parable of the prodigal son, the father rejected him when he returned.",
+              "isTrue": false,
+              "reference": "Luke 15:20",
+              "explanation": "The father ran to embrace the son and received him with joy (Luke 15:20)."
+            },
+            {
+              "id": "u3-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The father's reaction when he saw his son return",
+              "tokens": [
+                "Rising up",
+                "he ran",
+                "to his son",
+                "and kissed him"
+              ],
+              "distractors": [
+                "called the servant",
+                "gave him money",
+                "asked for explanation",
+                "rebuked him"
+              ],
+              "reference": "Luke 15:20"
+            },
+            {
+              "id": "u3-l3-e4",
+              "kind": "multipleChoice",
+              "prompt": "What was the lesson of the parable of the lost sheep?",
+              "text": "The parable of the lost sheep teaches that there is ___ in heaven over a sinner who repents.",
+              "options": [
+                "joy",
+                "sadness",
+                "judgment",
+                "condemnation"
+              ],
+              "answer": "joy",
+              "reference": "Luke 15:7"
+            },
+            {
+              "id": "u3-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Prodigal son",
+                  "right": "Returns to father"
+                },
+                {
+                  "left": "Lost sheep",
+                  "right": "Shepherd searches"
+                },
+                {
+                  "left": "Good Samaritan",
+                  "right": "Helps the wounded"
+                },
+                {
+                  "left": "Parable",
+                  "right": "Teaching through story"
+                }
+              ],
+              "reference": "Luke 15, Matthew 18 and Luke 10"
+            },
+            {
+              "id": "u3-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "In the parable of the Good Samaritan, a priest helped the wounded man.",
+              "isTrue": false,
+              "reference": "Luke 10:31-32",
+              "explanation": "The priest and the Levite passed by and didn't help. It was the Samaritan who helped (Luke 10:31-37)."
+            },
+            {
+              "id": "u3-l3-e7",
+              "kind": "multipleChoice",
+              "prompt": "How many sheep did the shepherd leave to search for one?",
+              "text": "In the parable, the shepherd left ___ sheep to search for the lost one.",
+              "options": [
+                "ninety-nine",
+                "a hundred",
+                "fifty",
+                "ten"
+              ],
+              "answer": "ninety-nine",
+              "reference": "Luke 15:4"
+            },
+            {
+              "id": "u3-l3-e8",
+              "kind": "multipleChoice",
+              "prompt": "What people did the priest and Levite belong to?",
+              "text": "The Good Samaritan helped a man that the ___ did not help.",
+              "options": [
+                "Jews",
+                "scribes",
+                "Pharisees",
+                "Romans"
+              ],
+              "answer": "Jews",
+              "reference": "Luke 10:25-37"
+            }
+          ]
+        },
+        {
+          "id": "u3-l4",
+          "title": "Miracles of Jesus",
+          "icon": "sun.max.fill",
+          "exercises": [
+            {
+              "id": "u3-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse about multiplication",
+              "text": "\"Then Jesus took the five loaves and the two fish, and looking up to heaven, he blessed them and broke them and gave them to his disciples to ___ to the crowd.\"",
+              "speaker": "Jesus",
+              "options": [
+                "distribute",
+                "keep",
+                "eat",
+                "bring"
+              ],
+              "answer": "distribute",
+              "reference": "Matthew 14:19"
+            },
+            {
+              "id": "u3-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus walked on the water of the sea to reach the disciples.",
+              "isTrue": true,
+              "reference": "Matthew 14:25-26",
+              "explanation": "In the fourth watch of the night, Jesus came walking on the sea toward the disciples (Matthew 14:25-26)."
+            },
+            {
+              "id": "u3-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "What Jesus said while walking on the water",
+              "tokens": [
+                "Take courage",
+                "it is I",
+                "don't be afraid"
+              ],
+              "distractors": [
+                "I go",
+                "it's all good",
+                "don't fear",
+                "I am here"
+              ],
+              "reference": "Matthew 14:27"
+            },
+            {
+              "id": "u3-l4-e4",
+              "kind": "multipleChoice",
+              "prompt": "How many people were fed when Jesus multiplied the loaves?",
+              "text": "When Jesus multiplied the loaves, approximately ___ people ate.",
+              "options": [
+                "five thousand",
+                "ten thousand",
+                "a thousand",
+                "three thousand"
+              ],
+              "answer": "five thousand",
+              "reference": "Matthew 14:21"
+            },
+            {
+              "id": "u3-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Multiplication",
+                  "right": "Five thousand"
+                },
+                {
+                  "left": "Walking on water",
+                  "right": "Take courage"
+                },
+                {
+                  "left": "Blind man healed",
+                  "right": "Could see"
+                },
+                {
+                  "left": "Lazarus",
+                  "right": "Raised up"
+                }
+              ],
+              "reference": "Matthew 14, John 9 and 11"
+            },
+            {
+              "id": "u3-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus raised Lazarus who had been dead for four days.",
+              "isTrue": true,
+              "reference": "John 11:39",
+              "explanation": "Lazarus had already been in the tomb four days when Jesus called him to come out (John 11:39-44)."
+            },
+            {
+              "id": "u3-l4-e7",
+              "kind": "multipleChoice",
+              "prompt": "How did Jesus heal the blind man?",
+              "text": "Jesus put ___ on the blind man's eyes to heal him.",
+              "options": [
+                "mud",
+                "oil",
+                "water",
+                "wine"
+              ],
+              "answer": "mud",
+              "reference": "John 9:6"
+            },
+            {
+              "id": "u3-l4-e8",
+              "kind": "multipleChoice",
+              "prompt": "How long had Lazarus been dead?",
+              "text": "Lazarus had been dead for ___ days.",
+              "options": [
+                "four",
+                "three",
+                "five",
+                "seven"
+              ],
+              "answer": "four",
+              "reference": "John 11:39"
+            }
+          ]
+        },
+        {
+          "id": "u3-l5",
+          "title": "Review: Teachings and Miracles",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "u3-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the Beatitude of the meek?",
+              "text": "Blessed are the meek, for ___.",
+              "options": [
+                "they will inherit the earth",
+                "they will see God",
+                "they will receive mercy",
+                "they will be comforted"
+              ],
+              "answer": "they will inherit the earth",
+              "reference": "Matthew 5:5"
+            },
+            {
+              "id": "u3-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The Lord's Prayer is a prayer of forgiveness and dependence on God.",
+              "isTrue": true,
+              "reference": "Matthew 6:9-13",
+              "explanation": "The Lord's Prayer teaches trusting God for daily sustenance and asking forgiveness for our offenses."
+            },
+            {
+              "id": "u3-l5-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The Beatitude of the merciful",
+              "tokens": [
+                "Blessed are",
+                "the merciful",
+                "for they will obtain",
+                "mercy"
+              ],
+              "distractors": [
+                "will receive",
+                "will find",
+                "the compassionate",
+                "blessing"
+              ],
+              "reference": "Matthew 5:7"
+            },
+            {
+              "id": "u3-l5-e4",
+              "kind": "multipleChoice",
+              "prompt": "Which parable teaches about repentance?",
+              "text": "The parable of the ___ tells of a man who wasted his inheritance but returned to his father.",
+              "options": [
+                "prodigal son",
+                "Good Samaritan",
+                "lost sheep",
+                "sower"
+              ],
+              "answer": "prodigal son",
+              "reference": "Luke 15:11-32"
+            },
+            {
+              "id": "u3-l5-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Sermon on the Mount",
+                  "right": "Beatitudes"
+                },
+                {
+                  "left": "Parables",
+                  "right": "Teachings through stories"
+                },
+                {
+                  "left": "Miracles",
+                  "right": "Divine power"
+                },
+                {
+                  "left": "Prayer",
+                  "right": "Relationship with God"
+                }
+              ],
+              "reference": "Matthew 5-7, Luke 15, John 9-11"
+            },
+            {
+              "id": "u3-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus' miracles proved his power and his identity as the Messiah.",
+              "isTrue": true,
+              "reference": "John 20:30-31",
+              "explanation": "The signs were written that we might believe that Jesus is the Christ and have life in him."
+            },
+            {
+              "id": "u3-l5-e7",
+              "kind": "multipleChoice",
+              "prompt": "Complete about the Good Samaritan",
+              "text": "In the parable of the Good Samaritan, the ___ was the one who showed compassion.",
+              "options": [
+                "Samaritan",
+                "priest",
+                "Levite",
+                "Jew"
+              ],
+              "answer": "Samaritan",
+              "reference": "Luke 10:33-35"
+            },
+            {
+              "id": "u3-l5-e8",
+              "kind": "multipleChoice",
+              "prompt": "How many disciples did Jesus choose?",
+              "text": "Jesus appointed ___ disciples to be with him.",
+              "options": [
+                "twelve",
+                "seventy",
+                "ten",
+                "fourteen"
+              ],
+              "answer": "twelve",
+              "reference": "Mark 3:14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Unit 4",
+      "subtitle": "Death and resurrection",
+      "guide": {
+        "summary": "The climax of Jesus' life: his triumphal entry into Jerusalem, Last Supper, unjust trial, and sacrificial death. The disciples abandon him at the cross. But on the third day he rises, defeating death and sin. He appears to the disciples, commissions them, and returns to the Father, leaving the Holy Spirit as comforter.",
+        "keyVerses": [
+          {
+            "reference": "John 11:25-26",
+            "text": "Jesus said to her, \"I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live; and everyone who lives and believes in me shall never die.\""
+          },
+          {
+            "reference": "Romans 6:9",
+            "text": "We know that Christ, being raised from the dead, dies no more. Death no longer has dominion over him."
+          },
+          {
+            "reference": "1 Corinthians 15:57",
+            "text": "But thanks be to God, who gives us the victory through our Lord Jesus Christ."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "u4-l1",
+          "title": "Triumphal Entry",
+          "icon": "music.note",
+          "exercises": [
+            {
+              "id": "u4-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Tell the daughter of Zion, Behold, your King comes to you, humble, and mounted on a donkey, and on a colt, the ___ of a beast of burden.\"",
+              "options": [
+                "offspring",
+                "young animal",
+                "baby",
+                "foal"
+              ],
+              "answer": "offspring",
+              "reference": "Matthew 21:5"
+            },
+            {
+              "id": "u4-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "At the triumphal entry, people spread palm branches and cloaks on the road.",
+              "isTrue": true,
+              "reference": "John 12:13",
+              "explanation": "The crowd took palm branches and went out to meet Jesus, crying: Hosanna (John 12:13)."
+            },
+            {
+              "id": "u4-l1-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The praise of the crowds",
+              "tokens": [
+                "Hosanna to the Son",
+                "of David",
+                "Blessed is",
+                "he who comes",
+                "in the name of the Lord"
+              ],
+              "distractors": [
+                "to the king",
+                "to the Messiah",
+                "who comes",
+                "to the Most High"
+              ],
+              "reference": "Matthew 21:9"
+            },
+            {
+              "id": "u4-l1-e4",
+              "kind": "multipleChoice",
+              "prompt": "On what day of the week did Jesus enter Jerusalem?",
+              "text": "The triumphal entry happened on ___.",
+              "options": [
+                "Sunday",
+                "Monday",
+                "Saturday",
+                "Friday"
+              ],
+              "answer": "Sunday",
+              "reference": "John 12:1"
+            },
+            {
+              "id": "u4-l1-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Jesus",
+                  "right": "Mounted on a donkey"
+                },
+                {
+                  "left": "Crowd",
+                  "right": "Hosanna"
+                },
+                {
+                  "left": "Branches",
+                  "right": "Spread out"
+                },
+                {
+                  "left": "Prophecy",
+                  "right": "Fulfilled"
+                }
+              ],
+              "reference": "Matthew 21, John 12"
+            },
+            {
+              "id": "u4-l1-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The triumphal entry fulfilled the prophecies of the Messiah in Zechariah.",
+              "isTrue": true,
+              "reference": "Zechariah 9:9",
+              "explanation": "Zechariah prophesied that the Messiah would come riding on a donkey (Zechariah 9:9)."
+            },
+            {
+              "id": "u4-l1-e7",
+              "kind": "multipleChoice",
+              "prompt": "What were people shouting to Jesus?",
+              "text": "The crowd shouted: \"___ to the Son of David!\"",
+              "options": [
+                "Hosanna",
+                "Hallelujah",
+                "Blessings",
+                "Glory"
+              ],
+              "answer": "Hosanna",
+              "reference": "Matthew 21:9"
+            },
+            {
+              "id": "u4-l1-e8",
+              "kind": "multipleChoice",
+              "prompt": "Complete about the disciples' praise",
+              "text": "\"Blessed is he who comes in the name of the ___!\"",
+              "options": [
+                "Lord",
+                "Father",
+                "God",
+                "King"
+              ],
+              "answer": "Lord",
+              "reference": "Matthew 21:9"
+            }
+          ]
+        },
+        {
+          "id": "u4-l2",
+          "title": "Last Supper and Gethsemane",
+          "icon": "water.waves",
+          "exercises": [
+            {
+              "id": "u4-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"And when he had taken bread and given thanks, he broke it and gave it to them, saying: This is my ___, which is given for you; do this in remembrance of me.\"",
+              "speaker": "Jesus",
+              "options": [
+                "body",
+                "heart",
+                "blood",
+                "sacrifice"
+              ],
+              "answer": "body",
+              "reference": "Luke 22:19"
+            },
+            {
+              "id": "u4-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "At the Last Supper, Jesus instituted the ceremony of communion with his disciples.",
+              "isTrue": true,
+              "reference": "Luke 22:19-20",
+              "explanation": "Jesus taught that the bread and wine represent his body and blood poured out."
+            },
+            {
+              "id": "u4-l2-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Jesus' prayer in Gethsemane",
+              "tokens": [
+                "Abba",
+                "Father",
+                "all things",
+                "are possible for you",
+                "remove this",
+                "cup from me"
+              ],
+              "distractors": [
+                "my Father",
+                "pass this",
+                "the chalice",
+                "this suffering"
+              ],
+              "reference": "Mark 14:36"
+            },
+            {
+              "id": "u4-l2-e4",
+              "kind": "multipleChoice",
+              "prompt": "For what Jewish festival was the Last Supper?",
+              "text": "Jesus' Last Supper was at the feast of ___.",
+              "options": [
+                "Passover",
+                "Pentecost",
+                "Tabernacles",
+                "Atonement"
+              ],
+              "answer": "Passover",
+              "reference": "Luke 22:15"
+            },
+            {
+              "id": "u4-l2-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Last Supper",
+                  "right": "Passover"
+                },
+                {
+                  "left": "Gethsemane",
+                  "right": "Prayer and anguish"
+                },
+                {
+                  "left": "Bread",
+                  "right": "Body of Christ"
+                },
+                {
+                  "left": "Wine",
+                  "right": "Blood of Christ"
+                }
+              ],
+              "reference": "Luke 22, Mark 14"
+            },
+            {
+              "id": "u4-l2-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus sweat drops of blood in Gethsemane from his anguish.",
+              "isTrue": true,
+              "reference": "Luke 22:44",
+              "explanation": "Jesus prayed so intensely that his sweat became like great drops of blood (Luke 22:44)."
+            },
+            {
+              "id": "u4-l2-e7",
+              "kind": "multipleChoice",
+              "prompt": "What was the name of the place where Jesus prayed?",
+              "text": "Jesus went to a place called ___ to pray.",
+              "options": [
+                "Gethsemane",
+                "Mount of Olives",
+                "Bethany",
+                "Capernaum"
+              ],
+              "answer": "Gethsemane",
+              "reference": "Luke 22:39"
+            },
+            {
+              "id": "u4-l2-e8",
+              "kind": "multipleChoice",
+              "prompt": "Complete about the wine of the covenant",
+              "text": "\"Similarly, after he had supped, he took the cup, saying: This cup is the new covenant in my ___, which is poured out for you.\"",
+              "options": [
+                "blood",
+                "body",
+                "heart",
+                "sacrifice"
+              ],
+              "answer": "blood",
+              "reference": "Luke 22:20"
+            }
+          ]
+        },
+        {
+          "id": "u4-l3",
+          "title": "The Crucifixion",
+          "icon": "cross.fill",
+          "exercises": [
+            {
+              "id": "u4-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"When they came to the place called Skull, there they crucified him, and the criminals, one on his right and one on his ___.\"",
+              "options": [
+                "left",
+                "front",
+                "back",
+                "head"
+              ],
+              "answer": "left",
+              "reference": "Luke 23:33"
+            },
+            {
+              "id": "u4-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus died alone, with no one by his side.",
+              "isTrue": false,
+              "reference": "John 19:25-27",
+              "explanation": "Mary, Jesus' mother, and the beloved disciple were near the cross (John 19:25-27)."
+            },
+            {
+              "id": "u4-l3-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Jesus' last words on the cross",
+              "tokens": [
+                "Father",
+                "into your hands",
+                "I commit my spirit",
+                "and saying this",
+                "he breathed his last"
+              ],
+              "distractors": [
+                "my God",
+                "entrust",
+                "departed",
+                "fell asleep",
+                "gave up"
+              ],
+              "reference": "Luke 23:46"
+            },
+            {
+              "id": "u4-l3-e4",
+              "kind": "multipleChoice",
+              "prompt": "For what did the soldiers cast lots?",
+              "text": "The soldiers cast lots for Jesus' ___.",
+              "options": [
+                "garment",
+                "cloak",
+                "tunic",
+                "life"
+              ],
+              "answer": "garment",
+              "reference": "Luke 23:34"
+            },
+            {
+              "id": "u4-l3-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Crucifixion",
+                  "right": "Place of Skull"
+                },
+                {
+                  "left": "Death of Jesus",
+                  "right": "Salvation"
+                },
+                {
+                  "left": "Temple curtain",
+                  "right": "Torn"
+                },
+                {
+                  "left": "Resurrection",
+                  "right": "God's power"
+                }
+              ],
+              "reference": "Luke 23, John 19"
+            },
+            {
+              "id": "u4-l3-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The temple curtain tore from top to bottom when Jesus died.",
+              "isTrue": true,
+              "reference": "Luke 23:45",
+              "explanation": "The curtain of the temple was torn in two when Jesus expired (Luke 23:45)."
+            },
+            {
+              "id": "u4-l3-e7",
+              "kind": "multipleChoice",
+              "prompt": "Which criminal went to paradise?",
+              "text": "One of the criminals confessed Jesus and went ___ that day.",
+              "options": [
+                "with Jesus to paradise",
+                "forgiven",
+                "resurrected",
+                "saved"
+              ],
+              "answer": "with Jesus to paradise",
+              "reference": "Luke 23:43"
+            },
+            {
+              "id": "u4-l3-e8",
+              "kind": "multipleChoice",
+              "prompt": "Complete about Jesus' sacrifice",
+              "text": "\"For God so loved the world that he gave his only begotten Son, that whoever believes in him should not perish, but have eternal ___.\"",
+              "options": [
+                "life",
+                "existence",
+                "life of the Father",
+                "infinity"
+              ],
+              "answer": "life",
+              "reference": "John 3:16"
+            }
+          ]
+        },
+        {
+          "id": "u4-l4",
+          "title": "Resurrection and Ascension",
+          "icon": "moon.stars.fill",
+          "exercises": [
+            {
+              "id": "u4-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"For Christ died for our sins according to the Scriptures; and that he was ___; according to the Scriptures.\"",
+              "options": [
+                "raised",
+                "lifted up",
+                "ascended",
+                "glorified"
+              ],
+              "answer": "raised",
+              "reference": "1 Corinthians 15:3-4"
+            },
+            {
+              "id": "u4-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Mary Magdalene was one of the first to see the risen Jesus.",
+              "isTrue": true,
+              "reference": "John 20:14-16",
+              "explanation": "Mary Magdalene went to the tomb and saw the risen Jesus, though at first she didn't recognize him (John 20:14-16)."
+            },
+            {
+              "id": "u4-l4-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The word of the risen Jesus",
+              "tokens": [
+                "Peace I leave you",
+                "my peace",
+                "I give you",
+                "not as the world",
+                "gives"
+              ],
+              "distractors": [
+                "I make for you",
+                "I offer",
+                "by lottery",
+                "as the earth"
+              ],
+              "reference": "John 14:27"
+            },
+            {
+              "id": "u4-l4-e4",
+              "kind": "multipleChoice",
+              "prompt": "After how many days did Jesus rise?",
+              "text": "Jesus rose on the ___ day.",
+              "options": [
+                "third",
+                "first",
+                "second",
+                "fourth"
+              ],
+              "answer": "third",
+              "reference": "1 Corinthians 15:4"
+            },
+            {
+              "id": "u4-l4-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Resurrection",
+                  "right": "Third day"
+                },
+                {
+                  "left": "Ascension",
+                  "right": "Heaven"
+                },
+                {
+                  "left": "Pentecost",
+                  "right": "Holy Spirit"
+                },
+                {
+                  "left": "Hope",
+                  "right": "Eternal life"
+                }
+              ],
+              "reference": "1 Corinthians 15, Acts 1"
+            },
+            {
+              "id": "u4-l4-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus appeared to his disciples after the resurrection.",
+              "isTrue": true,
+              "reference": "John 20:19-22",
+              "explanation": "Jesus appeared in the midst of the disciples and showed them his hands and side (John 20:19-22)."
+            },
+            {
+              "id": "u4-l4-e7",
+              "kind": "multipleChoice",
+              "prompt": "Where was Jesus taken at the ascension?",
+              "text": "Jesus was taken to the ___ of the heavens.",
+              "options": [
+                "kingdom",
+                "place",
+                "throne",
+                "bosom"
+              ],
+              "answer": "kingdom",
+              "reference": "Acts 1:9-11"
+            },
+            {
+              "id": "u4-l4-e8",
+              "kind": "multipleChoice",
+              "prompt": "Complete about Jesus' promise",
+              "text": "\"For Christ died for our sins according to the Scriptures; and that he was raised on the third day according to the Scriptures; and that he appeared to Cephas, and then to the ___ disciples.\"",
+              "options": [
+                "twelve",
+                "eleven",
+                "seventy",
+                "fifty"
+              ],
+              "answer": "twelve",
+              "reference": "1 Corinthians 15:5"
+            }
+          ]
+        },
+        {
+          "id": "u4-l5",
+          "title": "Great Commission and Farewell",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "u4-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Therefore, go, teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy ___; teaching them to observe all things that I have commanded you.\"",
+              "speaker": "Jesus",
+              "options": [
+                "Spirit",
+                "Divine",
+                "Celestial",
+                "Eternal"
+              ],
+              "answer": "Spirit",
+              "reference": "Matthew 28:19-20"
+            },
+            {
+              "id": "u4-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The Great Commission orders the disciples to go to all nations.",
+              "isTrue": true,
+              "reference": "Matthew 28:19",
+              "explanation": "Jesus commanded the disciples to go and make disciples of all nations (Matthew 28:19)."
+            },
+            {
+              "id": "u4-l5-e3",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Jesus' promise until the end of time",
+              "tokens": [
+                "And behold, I",
+                "am with you",
+                "all the days",
+                "until the end",
+                "of the age"
+              ],
+              "distractors": [
+                "with you all",
+                "each moment",
+                "end of the world",
+                "forever"
+              ],
+              "reference": "Matthew 28:20"
+            },
+            {
+              "id": "u4-l5-e4",
+              "kind": "multipleChoice",
+              "prompt": "To whom did Jesus appear on the Mount of Olives?",
+              "text": "Jesus appeared to the apostles on the Mount of ___.",
+              "options": [
+                "Olives",
+                "Calvary",
+                "Zion",
+                "Moriah"
+              ],
+              "answer": "Olives",
+              "reference": "Acts 1:12"
+            },
+            {
+              "id": "u4-l5-e5",
+              "kind": "matchPairs",
+              "prompt": "Match the pairs",
+              "pairs": [
+                {
+                  "left": "Great Commission",
+                  "right": "Disciple all nations"
+                },
+                {
+                  "left": "Ascension",
+                  "right": "Return to the Father"
+                },
+                {
+                  "left": "Holy Spirit",
+                  "right": "Pentecost"
+                },
+                {
+                  "left": "Gospel",
+                  "right": "To all nations"
+                }
+              ],
+              "reference": "Matthew 28, Acts 1"
+            },
+            {
+              "id": "u4-l5-e6",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus promised to be with the disciples all days until the end of time.",
+              "isTrue": true,
+              "reference": "Matthew 28:20",
+              "explanation": "Jesus assured that he would be with the disciples all the days until the end of the age (Matthew 28:20)."
+            },
+            {
+              "id": "u4-l5-e7",
+              "kind": "multipleChoice",
+              "prompt": "What was Jesus' final command?",
+              "text": "Jesus commanded to baptize in the name of the Father, the Son, and the ___.",
+              "options": [
+                "Holy Spirit",
+                "God",
+                "Love",
+                "Kingdom"
+              ],
+              "answer": "Holy Spirit",
+              "reference": "Matthew 28:19"
+            },
+            {
+              "id": "u4-l5-e8",
+              "kind": "multipleChoice",
+              "prompt": "What does it mean to disciple the nations?",
+              "text": "Discipling means ___ and ___ to observe Jesus' commandments.",
+              "options": [
+                "teach and persuade",
+                "convert and subdue",
+                "preach and convert",
+                "condemn and save"
+              ],
+              "answer": "teach and persuade",
+              "reference": "Matthew 28:20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

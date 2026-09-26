@@ -1,0 +1,632 @@
+{
+  "id": "atos-u1",
+  "title": "Unit 1",
+  "subtitle": "Pentecost and the Early Church",
+  "guide": {
+    "summary": "After Jesus' ascension, the Holy Spirit descended at Pentecost transforming timid disciples into courageous apostles. The early Church was born with power, unity and authenticity, growing exponentially despite persecution.",
+    "keyVerses": [
+      {
+        "reference": "Acts 1:8",
+        "text": "But you will receive power when the Holy Spirit has come upon you."
+      },
+      {
+        "reference": "Acts 2:4",
+        "text": "They were all filled with the Holy Spirit and began to speak in other languages."
+      },
+      {
+        "reference": "Acts 2:42",
+        "text": "They continued steadfastly in the apostles' teaching and fellowship."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u1-l1",
+      "title": "The Promise of the Spirit",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"But you will receive power when the Holy Spirit has come upon _____.",
+          "speaker": "Jesus",
+          "options": [
+            "you",
+            "us",
+            "the Church",
+            "the apostles"
+          ],
+          "answer": "you",
+          "reference": "Acts 1:8",
+          "explanation": "Jesus promises that the Holy Spirit will come upon the disciples to empower them."
+        },
+        {
+          "id": "atos-u1-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The promise of the Holy Spirit was fulfilled immediately after Jesus' resurrection.",
+          "isTrue": false,
+          "reference": "Acts 1:4-8, 2:1-4",
+          "explanation": "The disciples had to wait several days until Pentecost to receive the Holy Spirit."
+        },
+        {
+          "id": "atos-u1-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "Why did Jesus ask the disciples to wait?",
+          "text": "Jesus asked them to remain in Jerusalem for the promise of the Father.",
+          "options": [
+            "To receive the Holy Spirit",
+            "To obtain funds",
+            "To recruit more followers",
+            "To train more"
+          ],
+          "answer": "To receive the Holy Spirit",
+          "reference": "Acts 1:4-5",
+          "explanation": "The Holy Spirit would be the power needed for them to be witnesses of Jesus."
+        },
+        {
+          "id": "atos-u1-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Promise of power in Acts 1:8",
+          "tokens": [
+            "You will receive power",
+            "when the Holy Spirit",
+            "has come upon you",
+            "and you will be my witnesses"
+          ],
+          "distractors": [
+            "in Jerusalem",
+            "in Judea",
+            "to the ends of the earth"
+          ],
+          "reference": "Acts 1:8"
+        },
+        {
+          "id": "atos-u1-l1-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "You will receive power when the Holy Spirit has come upon you.",
+          "options": [
+            "The Holy Spirit will empower us",
+            "Receive power from the Holy Spirit",
+            "God promises His Spirit"
+          ],
+          "answer": "Receive power from the Holy Spirit",
+          "reference": "Acts 1:8"
+        },
+        {
+          "id": "atos-u1-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Match elements of the promise",
+          "pairs": [
+            {
+              "left": "Holy Spirit",
+              "right": "Divine power"
+            },
+            {
+              "left": "Witnesses",
+              "right": "Proclaimers of faith"
+            },
+            {
+              "left": "Power",
+              "right": "Ability to act"
+            },
+            {
+              "left": "Promise of the Father",
+              "right": "Fulfilled at Pentecost"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"You will receive power when the Holy Spirit has come upon _____.\"",
+          "answer": "you",
+          "reference": "Acts 1:8",
+          "options": [
+            "you",
+            "all"
+          ]
+        },
+        {
+          "id": "atos-u1-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The Holy Spirit empowers us to do everything God calls us to do.",
+          "isTrue": true,
+          "reference": "Acts 1:8",
+          "explanation": "The Holy Spirit is the power that makes us effective witnesses of Christ."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l2",
+      "title": "The Day of Pentecost",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"They were all filled with the Holy Spirit and began to speak in other _____.\"",
+          "speaker": "Luke",
+          "options": [
+            "languages",
+            "voices",
+            "words",
+            "idioms"
+          ],
+          "answer": "languages",
+          "reference": "Acts 2:4",
+          "explanation": "The visible and audible sign of Pentecost was that all began to speak in other languages."
+        },
+        {
+          "id": "atos-u1-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Pentecost marks the official birth of the Christian Church.",
+          "isTrue": true,
+          "reference": "Acts 2:1-47",
+          "explanation": "Pentecost is when the first 3,000 were converted and the Church began."
+        },
+        {
+          "id": "atos-u1-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "What happened when Peter preached at Pentecost?",
+          "text": "The first sermon after the Holy Spirit descended resulted in many converts.",
+          "options": [
+            "About 3,000 people were converted",
+            "Only the apostles believed",
+            "Nobody wanted to listen",
+            "Only 12 people believed"
+          ],
+          "answer": "About 3,000 people were converted",
+          "reference": "Acts 2:41",
+          "explanation": "Peter's preaching resulted in 3,000 disciples being added to the newborn Church."
+        },
+        {
+          "id": "atos-u1-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The sign of Pentecost in Acts 2:2-3",
+          "tokens": [
+            "And suddenly there came",
+            "a sound from heaven",
+            "like a mighty rushing wind",
+            "and it filled"
+          ],
+          "distractors": [
+            "all the house",
+            "tongues of fire",
+            "the whole place"
+          ],
+          "reference": "Acts 2:2-3"
+        },
+        {
+          "id": "atos-u1-l2-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "They were all filled with the Holy Spirit.",
+          "options": [
+            "The Holy Spirit descended",
+            "Filled with the Holy Spirit",
+            "A wind from heaven"
+          ],
+          "answer": "Filled with the Holy Spirit",
+          "reference": "Acts 2:4"
+        },
+        {
+          "id": "atos-u1-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the signs of Pentecost",
+          "pairs": [
+            {
+              "left": "Sound of wind",
+              "right": "Divine power"
+            },
+            {
+              "left": "Tongues of fire",
+              "right": "Purification and presence"
+            },
+            {
+              "left": "Speaking in languages",
+              "right": "Supernatural empowerment"
+            },
+            {
+              "left": "3,000 conversions",
+              "right": "Success of preaching"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"They were all filled with the Holy Spirit and began to speak in other _____.\"",
+          "answer": "languages",
+          "reference": "Acts 2:4",
+          "options": [
+            "languages",
+            "tongues"
+          ]
+        },
+        {
+          "id": "atos-u1-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Pentecost was a unique event that never happened again.",
+          "isTrue": false,
+          "reference": "Acts 2, 8, 10",
+          "explanation": "While Pentecost is the initial event, the filling of the Holy Spirit repeated several times in Acts."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l3",
+      "title": "The Early Church",
+      "icon": "house.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"They devoted themselves to the apostles' teaching and to fellowship with one _____.\"",
+          "speaker": "Luke",
+          "options": [
+            "another",
+            "alike",
+            "neighbor",
+            "brother"
+          ],
+          "answer": "another",
+          "reference": "Acts 2:42",
+          "explanation": "The early Church was characterized by apostolic teaching and genuine fellowship."
+        },
+        {
+          "id": "atos-u1-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The early Church held all things in common and sold properties to help the needy.",
+          "isTrue": true,
+          "reference": "Acts 2:44-45",
+          "explanation": "The generosity of the early Church was remarkable, sharing everything freely."
+        },
+        {
+          "id": "atos-u1-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "What was the people's attitude toward the early Church?",
+          "text": "Luke describes the reputation and growth of the newborn Church.",
+          "options": [
+            "They had favor with the people and grew",
+            "They were hated by everyone",
+            "Nobody cared",
+            "They were constantly expelled"
+          ],
+          "answer": "They had favor with the people and grew",
+          "reference": "Acts 2:47",
+          "explanation": "The Church had favor with the people and the Lord added new converts daily."
+        },
+        {
+          "id": "atos-u1-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Characteristics of the early Church",
+          "tokens": [
+            "They devoted themselves",
+            "to the apostles' teaching",
+            "to fellowship",
+            "to the breaking of bread"
+          ],
+          "distractors": [
+            "to prayer",
+            "to praise",
+            "to worship"
+          ],
+          "reference": "Acts 2:42"
+        },
+        {
+          "id": "atos-u1-l3-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "They devoted themselves to the apostles' teaching.",
+          "options": [
+            "They learned the words of Jesus",
+            "Devoted to apostles' teaching",
+            "They maintained the received faith"
+          ],
+          "answer": "Devoted to apostles' teaching",
+          "reference": "Acts 2:42"
+        },
+        {
+          "id": "atos-u1-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the characteristics of the Church",
+          "pairs": [
+            {
+              "left": "Fellowship",
+              "right": "Unity among believers"
+            },
+            {
+              "left": "Apostolic teaching",
+              "right": "Authentic instruction"
+            },
+            {
+              "left": "Breaking of bread",
+              "right": "Celebration of communion"
+            },
+            {
+              "left": "Continual prayer",
+              "right": "Dependence on God"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"They devoted themselves to the apostles' teaching and to fellowship with one _____.\"",
+          "answer": "another",
+          "reference": "Acts 2:42",
+          "options": [
+            "another",
+            "alike"
+          ]
+        },
+        {
+          "id": "atos-u1-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The early Church was selfish and everyone cared only for themselves.",
+          "isTrue": false,
+          "reference": "Acts 2:44-45",
+          "explanation": "The early Church was characterized by altruism and generous sharing of resources."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l4",
+      "title": "Acts of Power",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "atos-u1-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Who was healed first by the apostles after Pentecost?",
+          "text": "A dramatic miracle opened the way for more preaching.",
+          "options": [
+            "A lame beggar at the Beautiful Gate",
+            "A woman with fever",
+            "A man blind from birth",
+            "A paralyzed man"
+          ],
+          "answer": "A lame beggar at the Beautiful Gate",
+          "reference": "Acts 3:1-10",
+          "explanation": "Peter healed a man who had never walked, causing general amazement."
+        },
+        {
+          "id": "atos-u1-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The miracles of the early Church were performed in the name of Jesus Christ.",
+          "isTrue": true,
+          "reference": "Acts 3:6, 16",
+          "explanation": "Peter emphasizes that miracles occur through faith in the name of Jesus."
+        },
+        {
+          "id": "atos-u1-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "Why were the apostles arrested?",
+          "text": "Their preaching attracted authorities who feared their influence.",
+          "options": [
+            "They preached about Jesus and performed miracles",
+            "They stole from the temple",
+            "They incited political revolution",
+            "They violated food laws"
+          ],
+          "answer": "They preached about Jesus and performed miracles",
+          "reference": "Acts 4:1-3",
+          "explanation": "Religious authorities feared that the message about Jesus would spread."
+        },
+        {
+          "id": "atos-u1-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Power in the name of Jesus in Acts 3:6",
+          "tokens": [
+            "Then Peter said",
+            "Silver and gold I do not have",
+            "but what I do have I give you",
+            "In the name of Jesus Christ"
+          ],
+          "distractors": [
+            "Rise up and walk",
+            "of Nazareth, walk",
+            "take your bed"
+          ],
+          "reference": "Acts 3:6"
+        },
+        {
+          "id": "atos-u1-l4-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Silver and gold I do not have but I give you in the name of Jesus.",
+          "options": [
+            "Silver and gold have no value",
+            "No silver give in Jesus name",
+            "Material wealth is invisible"
+          ],
+          "answer": "No silver give in Jesus name",
+          "reference": "Acts 3:6"
+        },
+        {
+          "id": "atos-u1-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the miracles to their results",
+          "pairs": [
+            {
+              "left": "Healing of the lame",
+              "right": "General amazement"
+            },
+            {
+              "left": "Prayer of the apostles",
+              "right": "Power of the Spirit"
+            },
+            {
+              "left": "Peter's preaching",
+              "right": "Conversion of many"
+            },
+            {
+              "left": "Apostolic presence",
+              "right": "Signs and wonders"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"In the name of Jesus Christ of Nazareth, _____.",
+          "answer": "walk",
+          "reference": "Acts 3:6",
+          "options": [
+            "walk",
+            "rise up"
+          ]
+        },
+        {
+          "id": "atos-u1-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The apostles' miracles happened even when they faced opposition.",
+          "isTrue": true,
+          "reference": "Acts 3-5",
+          "explanation": "Persecution did not stop the power and miracles of the early Church."
+        }
+      ]
+    },
+    {
+      "id": "atos-u1-l5",
+      "title": "Review - Pentecost and Early Church",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u1-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "How did Jesus prepare His disciples for Pentecost?",
+          "text": "After His resurrection, Jesus gave specific instructions.",
+          "options": [
+            "He promised that the Holy Spirit would come with power",
+            "He said they would be persecuted",
+            "He ordered them to leave immediately",
+            "He did not specially prepare them"
+          ],
+          "answer": "He promised that the Holy Spirit would come with power",
+          "reference": "Acts 1:4-8",
+          "explanation": "Jesus promised the Holy Spirit and power to be witnesses."
+        },
+        {
+          "id": "atos-u1-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The early Church faced persecution but continued growing.",
+          "isTrue": true,
+          "reference": "Acts 1-7",
+          "explanation": "Despite arrests and threats, the early Church grew exponentially."
+        },
+        {
+          "id": "atos-u1-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "What was the secret of the early Church's success?",
+          "text": "Several factors contributed to its extraordinary growth.",
+          "options": [
+            "Apostolic teaching, fellowship, prayer and miracles",
+            "Material wealth",
+            "Political support",
+            "Construction of great temples"
+          ],
+          "answer": "Apostolic teaching, fellowship, prayer and miracles",
+          "reference": "Acts 2:42-47",
+          "explanation": "The foundation was spiritual, not material or political."
+        },
+        {
+          "id": "atos-u1-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the review verse",
+          "text": "Summary of Pentecost and Church",
+          "tokens": [
+            "You will receive power",
+            "when the Holy Spirit",
+            "they devoted themselves to teaching",
+            "with great power"
+          ],
+          "distractors": [
+            "and in fellowship",
+            "in prayer",
+            "in the breaking of bread"
+          ],
+          "reference": "Acts 1:8, 2:42"
+        },
+        {
+          "id": "atos-u1-l5-e5",
+          "kind": "listen",
+          "prompt": "Which verse did you hear?",
+          "text": "You will receive power when the Holy Spirit has come.",
+          "options": [
+            "God will give His Spirit",
+            "Receive power from Holy Spirit",
+            "The Spirit empowers us"
+          ],
+          "answer": "Receive power from Holy Spirit",
+          "reference": "Acts 1:8"
+        },
+        {
+          "id": "atos-u1-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the main elements",
+          "pairs": [
+            {
+              "left": "Pentecost",
+              "right": "Birth of the Church"
+            },
+            {
+              "left": "Holy Spirit",
+              "right": "Power to witness"
+            },
+            {
+              "left": "Miracles",
+              "right": "Confirmation of faith"
+            },
+            {
+              "left": "Fellowship",
+              "right": "Unity in faith"
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Order the events of Pentecost",
+          "text": "Sequence of Acts 1-2",
+          "tokens": [
+            "Jesus promises the Spirit",
+            "Disciples wait in Jerusalem",
+            "The Spirit descends with signs",
+            "3,000 are converted"
+          ]
+        },
+        {
+          "id": "atos-u1-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The history of the early Church is a model for Christian faith today.",
+          "isTrue": true,
+          "reference": "Acts 1-2",
+          "explanation": "The power, unity and growth of the early Church continue to inspire us."
+        }
+      ]
+    }
+  ]
+}

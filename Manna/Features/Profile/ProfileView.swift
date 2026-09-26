@@ -196,6 +196,47 @@ struct ProfileView: View {
                             }
                         }
 
+                        // Galeria de Personagens
+                        VStack(alignment: .leading, spacing: 12) {
+                            HStack {
+                                Text("A Turma")
+                                    .font(Theme.font(16, .bold))
+                                    .foregroundStyle(Theme.ink)
+
+                                Spacer()
+
+                                NavigationLink(destination: CharacterGalleryView()) {
+                                    Text("Ver todos")
+                                        .font(Theme.font(12, .bold))
+                                        .foregroundStyle(Theme.wheat)
+                                }
+                            }
+                            .padding(.horizontal, 20)
+
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 12) {
+                                    ForEach(MannaCharacter.cast.prefix(5)) { character in
+                                        NavigationLink(destination: CharacterDetailView(character: character)) {
+                                            VStack(spacing: 8) {
+                                                CharacterView(character: character, mood: .happy, size: 70)
+                                                    .characterBreathing(size: 70)
+
+                                                Text(character.displayName)
+                                                    .font(Theme.font(11, .bold))
+                                                    .foregroundStyle(Theme.ink)
+                                                    .lineLimit(1)
+                                            }
+                                            .frame(width: 90)
+                                            .padding(8)
+                                            .background(Theme.card)
+                                            .cornerRadius(10)
+                                        }
+                                    }
+                                }
+                                .padding(.horizontal, 20)
+                            }
+                        }
+
                         // Amigos (Game Center / Social)
                         VStack(alignment: .leading, spacing: 12) {
                             HStack {
@@ -263,7 +304,7 @@ struct ProfileView: View {
 
     private func formatDate(_ date: Date) -> String {
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "pt_BR")
+        formatter.locale = Locale.current
         formatter.dateFormat = "MMMM 'de' yyyy"
         return formatter.string(from: date)
     }

@@ -4,13 +4,14 @@ import UserNotifications
 /// Constante com o nome da mascote.
 private let mascotName = "Béé"
 
-/// Máquina de estados para o onboarding em 6 etapas.
+/// Máquina de estados para o onboarding em 7 etapas.
 private enum OnboardingStep: Equatable {
     case welcome
     case name(String)
     case knowledge(String)
     case dailyGoal(Int)
     case reminder(Int?)
+    case characters
     case complete
 }
 
@@ -40,6 +41,9 @@ struct OnboardingView: View {
                     progressBar
                         .padding(.horizontal, 16)
                         .padding(.vertical, 12)
+                } else {
+                    Spacer()
+                        .frame(height: 16)
                 }
 
                 Spacer()
@@ -57,6 +61,8 @@ struct OnboardingView: View {
                         dailyGoalScreen
                     case .reminder:
                         reminderScreen
+                    case .characters:
+                        charactersScreen
                     case .complete:
                         completeScreen
                     }
@@ -288,9 +294,43 @@ struct OnboardingView: View {
         }
     }
 
+    private var charactersScreen: some View {
+        VStack(spacing: 20) {
+            SpeechBubble(text: "Conheça a turma que te acompanha!")
+
+            // Carrossel dos personagens com entrada escalonada
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 12) {
+                    ForEach(Array(MannaCharacter.cast.enumerated()), id: \.element.id) { index, character in
+                        VStack(spacing: 8) {
+                            CharacterView(character: character, mood: .cheering, size: 70)
+                                .characterBreathing(size: 70)
+
+                            Text(character.displayName)
+                                .font(Theme.font(11, .bold))
+                                .foregroundStyle(Theme.ink)
+                                .lineLimit(1)
+                        }
+                        .frame(width: 90)
+                        .padding(8)
+                        .background(Theme.card)
+                        .cornerRadius(10)
+                        .transition(.scale.combined(with: .opacity))
+                    }
+                }
+                .padding(.horizontal, 24)
+            }
+
+            Spacer()
+        }
+        .padding(.horizontal, 24)
+    }
+
     private var completeScreen: some View {
         VStack(spacing: 24) {
-            SheepView(mood: .cheering, size: 150)
+            CharacterView(character: .bee, mood: .cheering, size: 150)
+                .characterBreathing(size: 150)
+                .characterReaction(.cheering)
 
             VStack(spacing: 12) {
                 Text("Tudo pronto, \(tempName.isEmpty ? "amigo" : tempName)! ")
@@ -330,7 +370,8 @@ struct OnboardingView: View {
             case .knowledge: step = .name(tempName)
             case .dailyGoal: step = .knowledge(tempKnowledge)
             case .reminder: step = .dailyGoal(tempDailyGoal)
-            case .complete: step = .reminder(tempReminder)
+            case .characters: step = .reminder(tempReminder)
+            case .complete: step = .characters
             }
         }
     }
@@ -347,6 +388,8 @@ struct OnboardingView: View {
             case .dailyGoal:
                 step = .reminder(20)
             case .reminder:
+                step = .characters
+            case .characters:
                 // Solicita permissão e agenda notificação
                 if let reminderHour = tempReminder {
                     NotificationScheduler.shared.requestPermission { granted in
@@ -377,7 +420,8 @@ struct OnboardingView: View {
         case .knowledge: 3
         case .dailyGoal: 4
         case .reminder: 5
-        case .complete: 6
+        case .characters: 6
+        case .complete: 7
         }
     }
 
@@ -392,6 +436,7 @@ struct OnboardingView: View {
         case .knowledge: !tempKnowledge.isEmpty
         case .dailyGoal: true
         case .reminder: true
+        case .characters: true
         case .complete: true
         }
     }

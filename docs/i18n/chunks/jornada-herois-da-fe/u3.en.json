@@ -1,0 +1,627 @@
+{
+  "id": "herois-u3",
+  "title": "Unit 3",
+  "subtitle": "Judges and Kings",
+  "guide": {
+    "summary": "Deborah, Gideon, Ruth, Samuel, and David exemplify diverse leadership in the period of judges and kings. Each responded to the calling in unique ways: as a warrior prophetess, reluctant warrior, loyal widow, intercessor prophet, and king after God's own heart. Their confrontations with physical enemies reveal greater spiritual battles.",
+    "keyVerses": [
+      {
+        "reference": "Judges 4:8-9",
+        "text": "Barak said to her, 'If you will go with me, then I will go; but if you will not go with me, I will not go.' She said, 'I will surely go with you; however, the road you are taking will not lead to your glory. For the Lord will hand Sisera over to a woman.'"
+      },
+      {
+        "reference": "Judges 6:14",
+        "text": "The Lord turned to him and said, 'Go in this might of yours and save Israel from the hand of Midian. Haven't I sent you?'"
+      },
+      {
+        "reference": "1 Samuel 17:45",
+        "text": "Then David said to the Philistine, 'You come to me with a sword, a spear, and a javelin; but I come to you in the name of the Lord of Armies, the God of the armies of Israel, whom you have taunted.'"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "herois-u3-l1",
+      "title": "Deborah: The Warrior Prophetess",
+      "icon": "mountain.2.fill",
+      "exercises": [
+        {
+          "id": "herois-u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "What was Deborah's role?",
+          "text": "Deborah was a ___ and judge of Israel.",
+          "options": [
+            "prophetess",
+            "queen",
+            "priestess",
+            "general"
+          ],
+          "answer": "prophetess",
+          "reference": "Judges 4:4"
+        },
+        {
+          "id": "herois-u3-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Deborah called for ___ to lead the army.",
+          "answer": "Barak",
+          "options": [
+            "Barak",
+            "Sisera",
+            "Gideon",
+            "Abimelech"
+          ],
+          "reference": "Judges 4:6"
+        },
+        {
+          "id": "herois-u3-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Deborah's word to Barak",
+          "tokens": [
+            "Go,",
+            "because God",
+            "has delivered to you",
+            "victory"
+          ],
+          "distractors": [
+            "will bless you",
+            "will guard you",
+            "will protect you",
+            "will strengthen you"
+          ],
+          "reference": "Judges 4:7"
+        },
+        {
+          "id": "herois-u3-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of liberation by Deborah.",
+          "tokens": [
+            "Deborah prophesies",
+            "Barak summons troops",
+            "Battle against Sisera",
+            "Israel is freed"
+          ],
+          "reference": "Judges 4"
+        },
+        {
+          "id": "herois-u3-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the characters",
+          "pairs": [
+            {
+              "left": "Deborah",
+              "right": "Prophetess"
+            },
+            {
+              "left": "Barak",
+              "right": "General"
+            },
+            {
+              "left": "Sisera",
+              "right": "Enemy"
+            },
+            {
+              "left": "Jael",
+              "right": "Heroine"
+            }
+          ],
+          "reference": "Judges 4-5"
+        },
+        {
+          "id": "herois-u3-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Barak refused to go to battle without Deborah.",
+          "isTrue": true,
+          "reference": "Judges 4:8",
+          "explanation": "Barak said he would only go if Deborah went with him; she agreed but warned that the glory would not be his."
+        },
+        {
+          "id": "herois-u3-l1-e7",
+          "kind": "listen",
+          "prompt": "Who killed Sisera?",
+          "text": "Jael killed the general Sisera.",
+          "options": [
+            "Jael",
+            "Barak",
+            "Deborah",
+            "A soldier"
+          ],
+          "answer": "Jael",
+          "reference": "Judges 4:21"
+        },
+        {
+          "id": "herois-u3-l1-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "A wise woman builds her house with words of prophecy.",
+          "reference": "Judges 4-5"
+        }
+      ]
+    },
+    {
+      "id": "herois-u3-l2",
+      "title": "Gideon: The Reluctant Warrior",
+      "icon": "house.fill",
+      "exercises": [
+        {
+          "id": "herois-u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "What was Gideon doing when he was called?",
+          "text": "Gideon was ___ wheat when the angel called him.",
+          "options": [
+            "threshing",
+            "sowing",
+            "harvesting",
+            "selling"
+          ],
+          "answer": "threshing",
+          "reference": "Judges 6:11"
+        },
+        {
+          "id": "herois-u3-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "God reduced Gideon's army to just ___ men.",
+          "answer": "three hundred",
+          "options": [
+            "three hundred",
+            "three thousand",
+            "thirty",
+            "three"
+          ],
+          "reference": "Judges 7:6-7"
+        },
+        {
+          "id": "herois-u3-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Calling to Gideon",
+          "tokens": [
+            "Go in this",
+            "strength of yours",
+            "and save Israel"
+          ],
+          "distractors": [
+            "from the hand of Midian",
+            "but I send you",
+            "by my strength",
+            "from their enemies"
+          ],
+          "reference": "Judges 6:14"
+        },
+        {
+          "id": "herois-u3-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the story in order",
+          "text": "Sequence of Gideon.",
+          "tokens": [
+            "Gideon is called",
+            "Army is reduced",
+            "Torches are distributed",
+            "Midianites are defeated"
+          ],
+          "reference": "Judges 6-7"
+        },
+        {
+          "id": "herois-u3-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the details",
+          "pairs": [
+            {
+              "left": "Gideon",
+              "right": "Hesitant warrior"
+            },
+            {
+              "left": "Three hundred",
+              "right": "Chosen soldiers"
+            },
+            {
+              "left": "Torches",
+              "right": "Weapon of victory"
+            },
+            {
+              "left": "God",
+              "right": "True strength"
+            }
+          ],
+          "reference": "Judges 6-7"
+        },
+        {
+          "id": "herois-u3-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Gideon wanted to increase his army for a better chance of victory.",
+          "isTrue": false,
+          "reference": "Judges 7:2-7",
+          "explanation": "God reduced the army from 32,000 to 300 to make clear that victory was only His."
+        },
+        {
+          "id": "herois-u3-l2-e7",
+          "kind": "listen",
+          "prompt": "What did Gideon do?",
+          "text": "Gideon attacked at night with torches and trumpets.",
+          "options": [
+            "At night with torches",
+            "By day with weapons",
+            "Alone and secretly",
+            "With a large army"
+          ],
+          "answer": "At night with torches",
+          "reference": "Judges 7:20"
+        },
+        {
+          "id": "herois-u3-l2-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "God is stronger than any army.",
+          "reference": "Judges 7:2"
+        }
+      ]
+    },
+    {
+      "id": "herois-u3-l3",
+      "title": "Ruth: The Loyal Widow",
+      "icon": "gift.fill",
+      "exercises": [
+        {
+          "id": "herois-u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Where was Ruth from?",
+          "text": "Ruth was from ___.",
+          "options": [
+            "Moab",
+            "Judah",
+            "Canaan",
+            "Egypt"
+          ],
+          "answer": "Moab",
+          "reference": "Ruth 1:4"
+        },
+        {
+          "id": "herois-u3-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Ruth followed her mother-in-law ___ to Judah.",
+          "answer": "Naomi",
+          "options": [
+            "Naomi",
+            "Noemah",
+            "Naomis",
+            "Noemis"
+          ],
+          "reference": "Ruth 1:16"
+        },
+        {
+          "id": "herois-u3-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "Ruth's commitment",
+          "tokens": [
+            "Wherever you go,",
+            "I will go;",
+            "and wherever you live,",
+            "I will live"
+          ],
+          "distractors": [
+            "your people will be",
+            "your God will be",
+            "always with you",
+            "my God"
+          ],
+          "reference": "Ruth 1:16"
+        },
+        {
+          "id": "herois-u3-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the story in order",
+          "text": "Sequence of Ruth.",
+          "tokens": [
+            "Ruth becomes a widow",
+            "Goes with Naomi",
+            "Works in the fields",
+            "Marries Boaz"
+          ],
+          "reference": "Ruth 1-4"
+        },
+        {
+          "id": "herois-u3-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the characters",
+          "pairs": [
+            {
+              "left": "Ruth",
+              "right": "Loyal widow"
+            },
+            {
+              "left": "Naomi",
+              "right": "Beloved mother-in-law"
+            },
+            {
+              "left": "Boaz",
+              "right": "Redeemer"
+            },
+            {
+              "left": "Obed",
+              "right": "Blessed son"
+            }
+          ],
+          "reference": "Ruth"
+        },
+        {
+          "id": "herois-u3-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Ruth was a Moabite who married a Jew.",
+          "isTrue": true,
+          "reference": "Ruth 1:4-5",
+          "explanation": "Ruth married Elimelech, an Israelite, and after his death, she married Boaz, his relative."
+        },
+        {
+          "id": "herois-u3-l3-e7",
+          "kind": "listen",
+          "prompt": "What did Ruth do?",
+          "text": "Ruth worked in the fields gathering grain.",
+          "options": [
+            "Gathered grain",
+            "Sold cloth",
+            "Made bread",
+            "Tended sheep"
+          ],
+          "answer": "Gathered grain",
+          "reference": "Ruth 2:3"
+        },
+        {
+          "id": "herois-u3-l3-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Your people will be my people and your God my God.",
+          "reference": "Ruth 1:16"
+        }
+      ]
+    },
+    {
+      "id": "herois-u3-l4",
+      "title": "David: The King After God's Own Heart",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "How old was David when he was anointed?",
+          "text": "David was just a ___ when Samuel anointed him.",
+          "options": [
+            "youth",
+            "man",
+            "old man",
+            "prince"
+          ],
+          "answer": "youth",
+          "reference": "1 Samuel 16:11-13"
+        },
+        {
+          "id": "herois-u3-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "David defeated Goliath with a ___ and a stone.",
+          "answer": "sling",
+          "options": [
+            "sling",
+            "spear",
+            "sword",
+            "bow"
+          ],
+          "reference": "1 Samuel 17:50"
+        },
+        {
+          "id": "herois-u3-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Assemble the verse",
+          "text": "David's confidence",
+          "tokens": [
+            "You come against me",
+            "in the name",
+            "of the Lord",
+            "of Armies"
+          ],
+          "distractors": [
+            "with weapons",
+            "with strength",
+            "with power",
+            "with riches"
+          ],
+          "reference": "1 Samuel 17:45"
+        },
+        {
+          "id": "herois-u3-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the rise in order",
+          "text": "Sequence of David.",
+          "tokens": [
+            "David is anointed",
+            "Faces Goliath",
+            "Becomes king",
+            "Establishes kingdom"
+          ],
+          "reference": "1 Samuel 16-2 Samuel"
+        },
+        {
+          "id": "herois-u3-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the elements",
+          "pairs": [
+            {
+              "left": "David",
+              "right": "Chosen king"
+            },
+            {
+              "left": "Goliath",
+              "right": "Defeated giant"
+            },
+            {
+              "left": "Stone",
+              "right": "Weapon of faith"
+            },
+            {
+              "left": "Heart",
+              "right": "God's purpose"
+            }
+          ],
+          "reference": "1 Samuel"
+        },
+        {
+          "id": "herois-u3-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "David was chosen because he was the eldest son.",
+          "isTrue": false,
+          "reference": "1 Samuel 16:6-12",
+          "explanation": "Samuel looked at the older sons, but God chose David, the youngest, for his heart."
+        },
+        {
+          "id": "herois-u3-l4-e7",
+          "kind": "listen",
+          "prompt": "How did David win?",
+          "text": "David won with faith in God.",
+          "options": [
+            "With faith in God",
+            "With strength",
+            "With weapons",
+            "With help"
+          ],
+          "answer": "With faith in God",
+          "reference": "1 Samuel 17:45-49"
+        },
+        {
+          "id": "herois-u3-l4-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "The Lord will save Israel by David's hands.",
+          "reference": "1 Samuel 17:37"
+        }
+      ]
+    },
+    {
+      "id": "herois-u3-l5",
+      "title": "Review: Judges and Kings",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the theme of this unit?",
+          "text": "Diverse leadership aimed at ___.",
+          "options": [
+            "serving God",
+            "gaining power",
+            "conquering land",
+            "accumulating wealth"
+          ],
+          "answer": "serving God",
+          "reference": "Judges-1 Samuel"
+        },
+        {
+          "id": "herois-u3-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "Each leader responded with personal ___ to the calling.",
+          "answer": "faith",
+          "options": [
+            "faith",
+            "courage",
+            "strength",
+            "wisdom"
+          ],
+          "reference": "Judges-1 Samuel"
+        },
+        {
+          "id": "herois-u3-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Put the leaders in order",
+          "text": "Sequence of leaders.",
+          "tokens": [
+            "Deborah leads",
+            "Gideon wins",
+            "Ruth shows loyalty",
+            "David reigns"
+          ],
+          "reference": "Judges-1 Samuel"
+        },
+        {
+          "id": "herois-u3-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Match each leader",
+          "pairs": [
+            {
+              "left": "Deborah",
+              "right": "Warrior-prophetess"
+            },
+            {
+              "left": "Gideon",
+              "right": "Reluctant warrior"
+            },
+            {
+              "left": "Ruth",
+              "right": "Loyal widow"
+            },
+            {
+              "left": "David",
+              "right": "King of heart"
+            }
+          ],
+          "reference": "Judges-1 Samuel"
+        },
+        {
+          "id": "herois-u3-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Assemble the key verse",
+          "text": "Essence of leadership",
+          "tokens": [
+            "Go",
+            "with this your",
+            "strength now"
+          ],
+          "distractors": [
+            "and win",
+            "and save",
+            "and reign",
+            "and prosper"
+          ],
+          "reference": "Judges 6:14"
+        },
+        {
+          "id": "herois-u3-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "All leaders trusted completely in God from the beginning.",
+          "isTrue": false,
+          "reference": "Judges-1 Samuel",
+          "explanation": "Some like Gideon had doubts and would ask for signs; but all completed the journey with faith."
+        },
+        {
+          "id": "herois-u3-l5-e7",
+          "kind": "listen",
+          "prompt": "What is the common lesson?",
+          "text": "The lesson is to trust God completely.",
+          "options": [
+            "Trust God",
+            "Use own strength",
+            "Follow instinct",
+            "Accumulate power"
+          ],
+          "answer": "Trust God",
+          "reference": "Judges-1 Samuel"
+        },
+        {
+          "id": "herois-u3-l5-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "With God, any weak man defeats giants.",
+          "reference": "1 Samuel 17:45-50"
+        }
+      ]
+    }
+  ]
+}

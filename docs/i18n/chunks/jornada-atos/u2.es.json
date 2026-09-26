@@ -1,0 +1,629 @@
+{
+  "id": "atos-u2",
+  "title": "Unidad 2",
+  "subtitle": "Pedro, Juan y Esteban",
+  "guide": {
+    "summary": "Pedro fue transformado de hombre que negó a Jesús en líder valiente de la Iglesia. Juan fue su compañero fiel. Esteban fue el primer mártir, demostrando que la fe vale más que la vida. Estos héroes nos enseñan sobre coraje, fidelidad y sacrificio.",
+    "keyVerses": [
+      {
+        "reference": "Hechos 4:19-20",
+        "text": "Mas Pedro y Juan respondieron: Juzgamos que es justo obedecer a Dios antes que a los hombres."
+      },
+      {
+        "reference": "Hechos 5:41",
+        "text": "Y ellos se fueron de la presencia del consejo, gozosos de haber sido tenidos por dignos de padecer deshonra por la causa de Jesús."
+      },
+      {
+        "reference": "Hechos 7:59",
+        "text": "Y apedreaban a Esteban, que invocaba y decía: Señor Jesús, recibe mi espíritu."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u2-l1",
+      "title": "Pedro Audaz",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo era Pedro antes de Pentecostés?",
+          "text": "Pedro tenía una característica muy marcada antes de recibir el Espíritu Santo.",
+          "options": [
+            "Miedo y negación de Jesús",
+            "Líder confiado",
+            "Guerrero violento",
+            "Predicador elocuente"
+          ],
+          "answer": "Miedo y negación de Jesús",
+          "reference": "Mateo 26:69-75, Hechos 1",
+          "explanation": "Pedro había negado a Jesús tres veces por miedo, pero después se transformó."
+        },
+        {
+          "id": "atos-u2-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Después de Pentecostés, Pedro se convirtió en un hombre valiente y sin temor.",
+          "isTrue": true,
+          "reference": "Hechos 2-5",
+          "explanation": "La transformación de Pedro es dramática: de negador a predicador audaz."
+        },
+        {
+          "id": "atos-u2-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál fue la respuesta de Pedro cuando le ordenaron que no predicara?",
+          "text": "Las autoridades intentaron silenciar a Pedro, pero él respondió con valentía.",
+          "options": [
+            "Juzgamos que es justo obedecer a Dios antes que a los hombres",
+            "Voy a obedecer y dejaré de predicar",
+            "Voy a esconderme",
+            "Voy a hacer una rebelión"
+          ],
+          "answer": "Juzgamos que es justo obedecer a Dios antes que a los hombres",
+          "reference": "Hechos 4:19-20",
+          "explanation": "Pedro afirmó que su obediencia a Dios es más importante que obedecer a los hombres."
+        },
+        {
+          "id": "atos-u2-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La respuesta valiente de Pedro",
+          "tokens": [
+            "Mas Pedro y Juan respondieron",
+            "Juzgamos que es justo obedecer a Dios",
+            "antes que a los hombres",
+            "porque hemos visto y oído"
+          ],
+          "distractors": [
+            "y testificamos",
+            "de lo que fue revelado",
+            "a todos"
+          ],
+          "reference": "Hechos 4:19-20"
+        },
+        {
+          "id": "atos-u2-l1-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Juzgamos que es justo obedecer a Dios antes que a los hombres.",
+          "options": [
+            "Dios es más importante",
+            "Juzgamos obedecer a Dios",
+            "Los hombres no deben mandar"
+          ],
+          "answer": "Juzgamos obedecer a Dios",
+          "reference": "Hechos 4:19"
+        },
+        {
+          "id": "atos-u2-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia la transformación de Pedro",
+          "pairs": [
+            {
+              "left": "Antes",
+              "right": "Miedo y negación"
+            },
+            {
+              "left": "Pentecostés",
+              "right": "Llenamiento del Espíritu"
+            },
+            {
+              "left": "Después",
+              "right": "Valentía y liderazgo"
+            },
+            {
+              "left": "Resultado",
+              "right": "Multitudes se convierten"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Juzgamos que es justo obedecer a Dios antes que a los _____.\"",
+          "answer": "hombres",
+          "reference": "Hechos 4:19",
+          "options": [
+            "hombres",
+            "líderes"
+          ]
+        },
+        {
+          "id": "atos-u2-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La valentía de Pedro vino de su fuerza personal y determinación.",
+          "isTrue": false,
+          "reference": "Hechos 4:8, 1:8",
+          "explanation": "La valentía de Pedro vino del Espíritu Santo, no de su propia fuerza."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l2",
+      "title": "Juan, el Compañero",
+      "icon": "book.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál era la relación entre Pedro y Juan?",
+          "text": "Estos dos apóstoles trabajaron juntos frecuentemente en los Hechos.",
+          "options": [
+            "Eran compañeros inseparables en la obra",
+            "Eran rivales",
+            "No tenían contacto",
+            "Tenían opiniones opuestas"
+          ],
+          "answer": "Eran compañeros inseparables en la obra",
+          "reference": "Hechos 3:1, 4:13, 8:14",
+          "explanation": "Pedro y Juan trabajaron juntos predicando, sanando y enfrentando persecución."
+        },
+        {
+          "id": "atos-u2-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Juan era un hombre sin educación formal, pero había encontrado a Jesús.",
+          "isTrue": true,
+          "reference": "Hechos 4:13",
+          "explanation": "Lucas observa que Pedro y Juan eran hombres sin letras, pero la valentía venía de Jesús."
+        },
+        {
+          "id": "atos-u2-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué sorprendió a los líderes en Pedro y Juan?",
+          "text": "Aunque sin educación formal, impresionaban con su mensaje.",
+          "options": [
+            "Su valentía y confianza en Jesús",
+            "Su riqueza material",
+            "Su conocimiento de la ley",
+            "Su apoyo político"
+          ],
+          "answer": "Su valentía y confianza en Jesús",
+          "reference": "Hechos 4:13",
+          "explanation": "Estaba claro que su autoridad provenía de un encuentro real con Jesús."
+        },
+        {
+          "id": "atos-u2-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Observación sobre Pedro y Juan en Hechos 4:13",
+          "tokens": [
+            "Entonces, viendo la osadía",
+            "de Pedro y de Juan",
+            "y considerando que eran",
+            "hombres sin letras"
+          ],
+          "distractors": [
+            "y sin instrucción",
+            "reconocieron",
+            "que habían estado con Jesús"
+          ],
+          "reference": "Hechos 4:13"
+        },
+        {
+          "id": "atos-u2-l2-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Reconocieron que habían estado con Jesús.",
+          "options": [
+            "Fueron discípulos de un rabino",
+            "Habían estado con Jesús",
+            "Aprendieron filosofía griega"
+          ],
+          "answer": "Habían estado con Jesús",
+          "reference": "Hechos 4:13"
+        },
+        {
+          "id": "atos-u2-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia características de Juan",
+          "pairs": [
+            {
+              "left": "Compañero",
+              "right": "Siempre con Pedro"
+            },
+            {
+              "left": "Sin letras",
+              "right": "Sin educación formal"
+            },
+            {
+              "left": "Osadía",
+              "right": "Valentía en Jesús"
+            },
+            {
+              "left": "Encuentro con Jesús",
+              "right": "Fuente de poder"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Reconocieron que habían estado con _____.\"",
+          "answer": "Jesús",
+          "reference": "Hechos 4:13",
+          "options": [
+            "Jesús",
+            "el Señor"
+          ]
+        },
+        {
+          "id": "atos-u2-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La fidelidad de Juan a Pedro es un ejemplo de compañerismo cristiano.",
+          "isTrue": true,
+          "reference": "Hechos 3-5",
+          "explanation": "Juan permanecía al lado de Pedro en la predicación, sanidad e incluso en la prisión."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l3",
+      "title": "Esteban, el Primer Mártir",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Quién fue Esteban?",
+          "text": "Un hombre lleno de fe y del Espíritu Santo en la Iglesia primitiva.",
+          "options": [
+            "Un diácono elegido para servir",
+            "Un apóstol de los doce",
+            "Un sacerdote del templo",
+            "Un escriba de la ley"
+          ],
+          "answer": "Un diácono elegido para servir",
+          "reference": "Hechos 6:1-6",
+          "explanation": "Esteban fue elegido entre los siete diáconos para servir a las viudas."
+        },
+        {
+          "id": "atos-u2-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Esteban realizaba señales y maravillas y enfrentaba oposición verbal.",
+          "isTrue": true,
+          "reference": "Hechos 6:8, 6:9-10",
+          "explanation": "Esteban no solo servía, sino que también obraba milagros y testificaba."
+        },
+        {
+          "id": "atos-u2-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo murió Esteban?",
+          "text": "Su muerte fue una prueba extrema de su fe en Jesús.",
+          "options": [
+            "Apedreado por opositores",
+            "Crucificado como Jesús",
+            "Encarcelado y murió en la cárcel",
+            "Murió de enfermedad"
+          ],
+          "answer": "Apedreado por opositores",
+          "reference": "Hechos 7:57-60",
+          "explanation": "Esteban fue el primer cristiano martirizado, apedreado por su fe."
+        },
+        {
+          "id": "atos-u2-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Última oración de Esteban en Hechos 7:59-60",
+          "tokens": [
+            "Señor Jesús",
+            "recibe mi espíritu",
+            "y no les tomes",
+            "en cuenta este pecado"
+          ],
+          "distractors": [
+            "se arrodilló",
+            "y clamó",
+            "con gran voz"
+          ],
+          "reference": "Hechos 7:59-60"
+        },
+        {
+          "id": "atos-u2-l3-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Señor Jesús recibe mi espíritu.",
+          "options": [
+            "Padre perdona sus pecados",
+            "Señor Jesús recibe espíritu",
+            "Veo los cielos abiertos"
+          ],
+          "answer": "Señor Jesús recibe espíritu",
+          "reference": "Hechos 7:59"
+        },
+        {
+          "id": "atos-u2-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia características de Esteban",
+          "pairs": [
+            {
+              "left": "Siervo fiel",
+              "right": "Diácono generoso"
+            },
+            {
+              "left": "Operador de milagros",
+              "right": "Señales y maravillas"
+            },
+            {
+              "left": "Martirizado",
+              "right": "Apedreado"
+            },
+            {
+              "left": "Perdón",
+              "right": "No tomar en cuenta el pecado"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Señor Jesús, recibe mi _____.\"",
+          "answer": "espíritu",
+          "reference": "Hechos 7:59",
+          "options": [
+            "espíritu",
+            "alma"
+          ]
+        },
+        {
+          "id": "atos-u2-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Esteban enfrentó la muerte con miedo y arrepentimiento de su fe.",
+          "isTrue": false,
+          "reference": "Hechos 7:55-60",
+          "explanation": "Esteban enfrentó la muerte con paz, visión del cielo y perdón para sus asesinos."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l4",
+      "title": "Lecciones de Valentía",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es la lección principal sobre la persecución en los Hechos?",
+          "text": "Pedro, Juan y Esteban enfrentaron oposición de formas diferentes.",
+          "options": [
+            "La fe nos sostiene incluso en la adversidad",
+            "Debemos evitar la persecución a cualquier precio",
+            "La fe no importa cuando hay oposición",
+            "Debemos usar violencia para defendernos"
+          ],
+          "answer": "La fe nos sostiene incluso en la adversidad",
+          "reference": "Hechos 2-7",
+          "explanation": "Los tres permanecieron fieles, demostrando que la fe trasciende la persecución."
+        },
+        {
+          "id": "atos-u2-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Dios abandona a Sus siervos cuando enfrentan persecución grave.",
+          "isTrue": false,
+          "reference": "Hechos 2-7",
+          "explanation": "Dios estaba presente y capacitaba a Sus siervos incluso durante la persecución más severa."
+        },
+        {
+          "id": "atos-u2-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué mostraron Pedro y Juan cuando fueron encarcelados?",
+          "text": "Su reacción demuestra lo que significa verdadera fe.",
+          "options": [
+            "Gozo por sufrir por la fe en Cristo",
+            "Tristeza y arrepentimiento",
+            "Huida y escondite",
+            "Negociación con las autoridades"
+          ],
+          "answer": "Gozo por sufrir por la fe en Cristo",
+          "reference": "Hechos 5:41",
+          "explanation": "Se retiraron de la prisión regocijándose por ser dignos de sufrir por Jesús."
+        },
+        {
+          "id": "atos-u2-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La actitud de Pedro y Juan frente al sufrimiento",
+          "tokens": [
+            "Y salieron de la presencia",
+            "del consejo",
+            "gozosos",
+            "de haber sido tenidos por dignos"
+          ],
+          "distractors": [
+            "de padecer deshonra",
+            "por la causa de Jesús",
+            "y continuaron predicando"
+          ],
+          "reference": "Hechos 5:41"
+        },
+        {
+          "id": "atos-u2-l4-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Gozosos de haber sido tenidos por dignos.",
+          "options": [
+            "Sufrir por la fe es privilegio",
+            "Gozosos dignos sufrir",
+            "Felices con persecución"
+          ],
+          "answer": "Gozosos dignos sufrir",
+          "reference": "Hechos 5:41"
+        },
+        {
+          "id": "atos-u2-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia lecciones de valentía",
+          "pairs": [
+            {
+              "left": "Pedro",
+              "right": "Obediencia a Dios ante todo"
+            },
+            {
+              "left": "Juan",
+              "right": "Compañerismo fiel"
+            },
+            {
+              "left": "Esteban",
+              "right": "Perdón hasta el final"
+            },
+            {
+              "left": "Los tres",
+              "right": "Gozo en el sufrimiento"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Salieron de la presencia del consejo, gozosos de haber sido tenidos por dignos de padecer deshonra por la causa de _____.\"",
+          "answer": "Jesús",
+          "reference": "Hechos 5:41",
+          "options": [
+            "Jesús",
+            "Dios"
+          ]
+        },
+        {
+          "id": "atos-u2-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La valentía de estos héroes es un modelo inspirador para cristianos de todas las épocas.",
+          "isTrue": true,
+          "reference": "Hechos 2-7",
+          "explanation": "Sus vidas continúan inspirando a cristianos a permanecer fieles en cualquier circunstancia."
+        }
+      ]
+    },
+    {
+      "id": "atos-u2-l5",
+      "title": "Repaso - Pedro, Juan y Esteban",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cómo fue transformado Pedro?",
+          "text": "La jornada de Pedro es una de las mayores transformaciones bíblicas.",
+          "options": [
+            "Del miedo a la valentía a través del Espíritu Santo",
+            "A través de su propio esfuerzo",
+            "Por la influencia de Juan",
+            "Por la aprobación de las autoridades"
+          ],
+          "answer": "Del miedo a la valentía a través del Espíritu Santo",
+          "reference": "Hechos 1-2",
+          "explanation": "Pentecostés marcó la transformación dramática de Pedro."
+        },
+        {
+          "id": "atos-u2-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Pedro y Juan enfrentaron encarcelamiento pero continuaron predicando.",
+          "isTrue": true,
+          "reference": "Hechos 4-5",
+          "explanation": "Ninguna amenaza silenció a estos héroes de la fe primitiva."
+        },
+        {
+          "id": "atos-u2-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál fue el legado de Esteban?",
+          "text": "Aunque murió joven, su impacto fue grande.",
+          "options": [
+            "Testimonio de fe hasta el martirio e influencia en el joven Saulo",
+            "Establecimiento de una comunidad cristiana",
+            "Escritura de libros importantes",
+            "Conversión de las autoridades"
+          ],
+          "answer": "Testimonio de fe hasta el martirio e influencia en el joven Saulo",
+          "reference": "Hechos 7, 8:1",
+          "explanation": "Saulo presenció la muerte de Esteban y después se convirtió en Pablo, el gran apóstol."
+        },
+        {
+          "id": "atos-u2-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo de repaso",
+          "text": "Resumen de heroísmo en los Hechos",
+          "tokens": [
+            "Juzgamos obedecer a Dios",
+            "regocijándose en sufrir",
+            "y perdonando a los enemigos",
+            "así se vivía la fe primitiva"
+          ],
+          "distractors": [
+            "y proclamando a Jesús",
+            "con valentía",
+            "hasta la muerte"
+          ],
+          "reference": "Hechos 4:19, 5:41, 7:60"
+        },
+        {
+          "id": "atos-u2-l5-e5",
+          "kind": "listen",
+          "prompt": "¿Qué lección escuchaste?",
+          "text": "Juzgamos que es justo obedecer a Dios antes que a los hombres.",
+          "options": [
+            "La autoridad de Dios es suprema",
+            "Juzgamos obedecer a Dios",
+            "Respeto por el orden humano"
+          ],
+          "answer": "Juzgamos obedecer a Dios",
+          "reference": "Hechos 4:19"
+        },
+        {
+          "id": "atos-u2-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia las vidas impactantes",
+          "pairs": [
+            {
+              "left": "Pedro",
+              "right": "Líder valiente"
+            },
+            {
+              "left": "Juan",
+              "right": "Compañero fiel"
+            },
+            {
+              "left": "Esteban",
+              "right": "Primer mártir"
+            },
+            {
+              "left": "Legado",
+              "right": "Inspiración hasta hoy"
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordena los eventos principales",
+          "text": "Cronología de valentía en Hechos 2-7",
+          "tokens": [
+            "Pentecostés y valentía de Pedro",
+            "Encarcelamiento y liberación",
+            "Elección de Esteban como diácono",
+            "Martirio de Esteban"
+          ]
+        },
+        {
+          "id": "atos-u2-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Los ejemplos de Pedro, Juan y Esteban muestran que la verdadera fe persevera.",
+          "isTrue": true,
+          "reference": "Hechos 2-7",
+          "explanation": "Estos tres hombres demostraron que la fe cristiana es duradera y transformadora."
+        }
+      ]
+    }
+  ]
+}

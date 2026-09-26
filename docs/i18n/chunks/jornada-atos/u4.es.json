@@ -1,0 +1,632 @@
+{
+  "id": "atos-u4",
+  "title": "Unidad 4",
+  "subtitle": "Pablo en Roma y Sus Cartas",
+  "guide": {
+    "summary": "Las cartas de Pablo escritas durante su ministerio contienen la esencia de la fe cristiana. Romanos 8 habla de esperanza en Cristo, 1 Corintios 13 exalta el amor, Filipenses 4 enseña alegría, Gálatas 5 habla de libertad, Efesios 6 sobre la armadura de Dios. Estas continúan transformando vidas.",
+    "keyVerses": [
+      {
+        "reference": "Romanos 8:28",
+        "text": "Y sabemos que a los que aman a Dios, todas las cosas les ayudan a bien."
+      },
+      {
+        "reference": "1 Corintios 13:4",
+        "text": "El amor es sufrido, es benigno; el amor no tiene envidia."
+      },
+      {
+        "reference": "Efesios 6:10",
+        "text": "Por lo demás, hermanos míos, fortaleceos en el Señor y en el poder de su fuerza."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "atos-u4-l1",
+      "title": "Esperanza en Cristo - Romanos 8",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Y sabemos que a los que aman a Dios, todas las cosas les ayudan a _____.\"",
+          "speaker": "Pablo",
+          "options": [
+            "bien",
+            "Jesús",
+            "ley",
+            "Espíritu"
+          ],
+          "answer": "bien",
+          "reference": "Romanos 8:28",
+          "explanation": "Pablo afirma que Dios trabaja todas las circunstancias para el bien de los que Lo aman."
+        },
+        {
+          "id": "atos-u4-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Romanos 8:28 significa que la vida cristiana no tendrá dificultades.",
+          "isTrue": false,
+          "reference": "Romanos 8:28",
+          "explanation": "El versículo no dice que no habrá dificultades, sino que Dios trabaja en ellas para el bien."
+        },
+        {
+          "id": "atos-u4-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el mensaje central de Romanos 8?",
+          "text": "Pablo escribe sobre seguridad eterna en Cristo.",
+          "options": [
+            "Nada nos puede separar del amor de Dios en Cristo",
+            "Debemos obedecer la ley perfectamente",
+            "El cuerpo es malo y debe ser rechazado",
+            "Todos serán condenados en el juicio"
+          ],
+          "answer": "Nada nos puede separar del amor de Dios en Cristo",
+          "reference": "Romanos 8:35-39",
+          "explanation": "Romanos 8 es celebración de la seguridad y esperanza que tenemos en Jesús."
+        },
+        {
+          "id": "atos-u4-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Seguridad en Cristo en Romanos 8:35",
+          "tokens": [
+            "¿Quién nos separará",
+            "del amor de Cristo?",
+            "¿La tribulación, o la angustia",
+            "o la persecución?"
+          ],
+          "distractors": [
+            "o la muerte",
+            "o la vida",
+            "o alguna otra criatura"
+          ],
+          "reference": "Romanos 8:35"
+        },
+        {
+          "id": "atos-u4-l1-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Todas las cosas les ayudan a bien.",
+          "options": [
+            "Dios controla todas las circunstancias",
+            "Todas cosas ayudan bien",
+            "Todo siempre es fácil"
+          ],
+          "answer": "Todas cosas ayudan bien",
+          "reference": "Romanos 8:28"
+        },
+        {
+          "id": "atos-u4-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia verdades de Romanos 8",
+          "pairs": [
+            {
+              "left": "Redención",
+              "right": "En Cristo Jesús"
+            },
+            {
+              "left": "Esperanza",
+              "right": "Seguridad eterna"
+            },
+            {
+              "left": "Amor",
+              "right": "Inseparable de Cristo"
+            },
+            {
+              "left": "Adopción",
+              "right": "Hijos de Dios"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Y sabemos que a los que aman a Dios, todas las cosas les ayudan a _____.\"",
+          "answer": "bien",
+          "reference": "Romanos 8:28",
+          "options": [
+            "bien",
+            "Señor"
+          ]
+        },
+        {
+          "id": "atos-u4-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Nada nos puede separar del amor de Dios en Cristo.",
+          "isTrue": true,
+          "reference": "Romanos 8:35-39",
+          "explanation": "Pablo afirma con certeza que nada puede alejarnos del amor de Cristo."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l2",
+      "title": "El Himno del Amor - 1 Corintios 13",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"El amor es _____, es benigno; el amor no tiene envidia.\"",
+          "speaker": "Pablo",
+          "options": [
+            "sufrido",
+            "fuerte",
+            "eterno",
+            "verdadero"
+          ],
+          "answer": "sufrido",
+          "reference": "1 Corintios 13:4",
+          "explanation": "Pablo comienza describiendo el amor como paciente y gentil, no envidioso."
+        },
+        {
+          "id": "atos-u4-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "1 Corintios 13 es solo sobre amor romántico.",
+          "isTrue": false,
+          "reference": "1 Corintios 13",
+          "explanation": "1 Corintios 13 trata del amor cristiano (ágape), que es más profundo que el romance."
+        },
+        {
+          "id": "atos-u4-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es la conclusión de 1 Corintios 13:13?",
+          "text": "Pablo termina con una afirmación memorable sobre virtudes cristianas.",
+          "options": [
+            "La caridad permanece, y es mayor que la caridad",
+            "La ley es el mayor mandamiento",
+            "El conocimiento es supremo",
+            "La fe nunca fallará"
+          ],
+          "answer": "La caridad permanece, y es mayor que la caridad",
+          "reference": "1 Corintios 13:13",
+          "explanation": "La fe, esperanza y caridad permanecen, pero la caridad es la mayor."
+        },
+        {
+          "id": "atos-u4-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "El amor nunca falla en 1 Corintios 13:8",
+          "tokens": [
+            "La caridad nunca falla",
+            "pero si hay profecías",
+            "desaparecerán",
+            "si hay lenguas"
+          ],
+          "distractors": [
+            "cesarán",
+            "si hay conocimiento",
+            "pasará"
+          ],
+          "reference": "1 Corintios 13:8"
+        },
+        {
+          "id": "atos-u4-l2-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "El amor es sufrido y benigno.",
+          "options": [
+            "El amor tiene cualidades especiales",
+            "El amor sufrido y benigno",
+            "Paciencia y gentileza definen"
+          ],
+          "answer": "El amor sufrido y benigno",
+          "reference": "1 Corintios 13:4"
+        },
+        {
+          "id": "atos-u4-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia cualidades del amor",
+          "pairs": [
+            {
+              "left": "Paciencia",
+              "right": "Sufrimiento largo"
+            },
+            {
+              "left": "Benignidad",
+              "right": "Gentileza para todos"
+            },
+            {
+              "left": "Humildad",
+              "right": "No se envanece"
+            },
+            {
+              "left": "Eternidad",
+              "right": "Nunca falla"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"La caridad nunca _____.\"",
+          "answer": "falla",
+          "reference": "1 Corintios 13:8",
+          "options": [
+            "falla",
+            "cesa"
+          ]
+        },
+        {
+          "id": "atos-u4-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El amor cristiano es superior incluso a otras virtudes como la fe y la esperanza.",
+          "isTrue": true,
+          "reference": "1 Corintios 13:13",
+          "explanation": "Pablo afirma que la caridad permanece y es mayor que la fe y la esperanza."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l3",
+      "title": "Alegría en Cristo - Filipenses 4",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "atos-u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el tema principal de Filipenses?",
+          "text": "Pablo escribe de manera personal y cálida a los filipenses.",
+          "options": [
+            "Alegría en Cristo a pesar de las circunstancias",
+            "Crítica severa de la comunidad",
+            "Instrucciones legales rígidas",
+            "Predicciones de castigo"
+          ],
+          "answer": "Alegría en Cristo a pesar de las circunstancias",
+          "reference": "Filipenses 1-4",
+          "explanation": "Filipenses es la carta más alegre de Pablo, escrita incluso de la prisión."
+        },
+        {
+          "id": "atos-u4-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Pablo escribió Filipenses mientras era prisionero.",
+          "isTrue": true,
+          "reference": "Filipenses 1:7-14",
+          "explanation": "Aun en la prisión, Pablo escribe con alegría y esperanza."
+        },
+        {
+          "id": "atos-u4-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el primer mandamiento en Filipenses 4:4?",
+          "text": "Pablo comienza con una exhortación simple pero poderosa.",
+          "options": [
+            "Regocijaos siempre en el Señor",
+            "Obedeced a las autoridades",
+            "Trabajad con diligencia",
+            "Guardad los mandamientos"
+          ],
+          "answer": "Regocijaos siempre en el Señor",
+          "reference": "Filipenses 4:4",
+          "explanation": "La alegría en el Señor es central en Filipenses, incluso en la adversidad."
+        },
+        {
+          "id": "atos-u4-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Llamado a la paz en Filipenses 4:6-7",
+          "tokens": [
+            "No estéis ansiosos",
+            "de cosa alguna",
+            "sino que en toda oración",
+            "vuestras peticiones sean conocidas"
+          ],
+          "distractors": [
+            "delante de Dios",
+            "en oración",
+            "con acción de gracias"
+          ],
+          "reference": "Filipenses 4:6-7"
+        },
+        {
+          "id": "atos-u4-l3-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Regocijaos siempre en el Señor.",
+          "options": [
+            "Alegría permanente en Jesús",
+            "Regocijaos siempre Señor",
+            "Vuestra alegría se manifieste"
+          ],
+          "answer": "Regocijaos siempre Señor",
+          "reference": "Filipenses 4:4"
+        },
+        {
+          "id": "atos-u4-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia ensinanzas de Filipenses",
+          "pairs": [
+            {
+              "left": "Alegría",
+              "right": "En Cristo siempre"
+            },
+            {
+              "left": "Oración",
+              "right": "Con acción de gracias"
+            },
+            {
+              "left": "Paz",
+              "right": "Guarda el corazón"
+            },
+            {
+              "left": "Pensamientos",
+              "right": "Sobre cosas nobles"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Regocijaos siempre en el _____.\"",
+          "answer": "Señor",
+          "reference": "Filipenses 4:4",
+          "options": [
+            "Señor",
+            "Dios"
+          ]
+        },
+        {
+          "id": "atos-u4-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La alegría cristiana depende de las circunstancias externas.",
+          "isTrue": false,
+          "reference": "Filipenses 4:4-7",
+          "explanation": "Pablo enseña que la verdadera alegría está en Cristo, independiente de las circunstancias."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l4",
+      "title": "Armadura de Dios - Efesios 6",
+      "icon": "shield.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Por lo demás, hermanos míos, fortaleceos en el Señor y en el poder de su _____.\"",
+          "speaker": "Pablo",
+          "options": [
+            "fuerza",
+            "mano",
+            "ley",
+            "verdad"
+          ],
+          "answer": "fuerza",
+          "reference": "Efesios 6:10",
+          "explanation": "Pablo comienza exhortando a los efesios a fortalecerse en el poder de Dios."
+        },
+        {
+          "id": "atos-u4-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Efesios 6 describe la armadura espiritual del cristiano.",
+          "isTrue": true,
+          "reference": "Efesios 6:10-18",
+          "explanation": "Efesios 6 enumera siete piezas de la armadura espiritual para resistir al mal."
+        },
+        {
+          "id": "atos-u4-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el arma más importante en la armadura?",
+          "text": "Pablo lista varias piezas, pero destaca una especialmente.",
+          "options": [
+            "La espada del Espíritu, que es la Palabra de Dios",
+            "El escudo de David",
+            "La armadura de Goliat",
+            "El hacha de guerra"
+          ],
+          "answer": "La espada del Espíritu, que es la Palabra de Dios",
+          "reference": "Efesios 6:17",
+          "explanation": "La Palabra de Dios es la única arma ofensiva completa en la armadura."
+        },
+        {
+          "id": "atos-u4-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Armadura completa en Efesios 6:14-17",
+          "tokens": [
+            "Estad pues firmes",
+            "con la verdad",
+            "ceñida vuestra cintura",
+            "y la peto de justicia"
+          ],
+          "distractors": [
+            "y vuestros pies calzados",
+            "con el evangelio de paz",
+            "tomando el escudo de la fe"
+          ],
+          "reference": "Efesios 6:14-17"
+        },
+        {
+          "id": "atos-u4-l4-e5",
+          "kind": "listen",
+          "prompt": "¿Qué escuchaste?",
+          "text": "Fortaleceos en el poder de su fuerza.",
+          "options": [
+            "Dios nos hace fuertes",
+            "Fortaleceos poder fuerza",
+            "El poder de Dios nos sustenta"
+          ],
+          "answer": "Fortaleceos poder fuerza",
+          "reference": "Efesios 6:10"
+        },
+        {
+          "id": "atos-u4-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia piezas de la armadura",
+          "pairs": [
+            {
+              "left": "Cinto",
+              "right": "Verdad"
+            },
+            {
+              "left": "Peto",
+              "right": "Justicia"
+            },
+            {
+              "left": "Escudo",
+              "right": "Fe"
+            },
+            {
+              "left": "Espada",
+              "right": "Palabra de Dios"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Completa la frase",
+          "text": "\"Fortaleceos en el Señor y en el poder de su _____.\"",
+          "answer": "fuerza",
+          "reference": "Efesios 6:10",
+          "options": [
+            "fuerza",
+            "poder"
+          ]
+        },
+        {
+          "id": "atos-u4-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La armadura de Dios nos protege de toda tentación espiritual.",
+          "isTrue": true,
+          "reference": "Efesios 6:10-18",
+          "explanation": "Cuando estamos vestidos con la armadura completa, estamos protegidos contra los ataques del enemigo."
+        }
+      ]
+    },
+    {
+      "id": "atos-u4-l5",
+      "title": "Repaso - Pablo en Roma y Sus Cartas",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "atos-u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es la importancia de las cartas de Pablo?",
+          "text": "Sus escritos definieron la teología cristiana por siglos.",
+          "options": [
+            "Forman la mitad del Nuevo Testamento y guían la fe cristiana",
+            "Son solo historias personales",
+            "No tienen valor para cristianos modernos",
+            "Fueron descartadas por la Iglesia"
+          ],
+          "answer": "Forman la mitad del Nuevo Testamento y guían la fe cristiana",
+          "reference": "Romanos-Filemón",
+          "explanation": "Las 13 cartas de Pablo son esenciales para comprender la fe cristiana."
+        },
+        {
+          "id": "atos-u4-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Todas las cartas de Pablo tratan de problemas específicos en iglesias locales.",
+          "isTrue": true,
+          "reference": "Romanos-1 Timoteo",
+          "explanation": "Pablo escribió para iglesias e individuos específicos, pero sus lecciones son universales."
+        },
+        {
+          "id": "atos-u4-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el tema central de las cartas de Pablo?",
+          "text": "A pesar de la variedad, hay una unidad temática.",
+          "options": [
+            "Salvación en Cristo y vida transformada por el Espíritu",
+            "Crítica severa de las leyes judaicas",
+            "Instrucciones sobre gobierno político",
+            "Predicciones detalladas sobre el fin"
+          ],
+          "answer": "Salvación en Cristo y vida transformada por el Espíritu",
+          "reference": "Romanos 1:16, 1 Corintios 15:1-4",
+          "explanation": "Cristo y la transformación en Su Espíritu son el corazón de todo lo que Pablo escribe."
+        },
+        {
+          "id": "atos-u4-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo de repaso",
+          "text": "Resumen de la sabiduría paulina",
+          "tokens": [
+            "Todas las cosas ayudan",
+            "a bien",
+            "la caridad nunca falla",
+            "regocijaos en el Señor"
+          ],
+          "distractors": [
+            "y en Su gracia",
+            "fortaleceos",
+            "en el poder de Su fuerza"
+          ],
+          "reference": "Romanos 8:28, 1 Corintios 13:8, Filipenses 4:4"
+        },
+        {
+          "id": "atos-u4-l5-e5",
+          "kind": "listen",
+          "prompt": "¿Qué enseñanza escuchaste?",
+          "text": "Sabemos que todas las cosas les ayudan a bien.",
+          "options": [
+            "Dios cuida de los detalles",
+            "Todas cosas ayudan bien",
+            "Confianza en Dios siempre"
+          ],
+          "answer": "Todas cosas ayudan bien",
+          "reference": "Romanos 8:28"
+        },
+        {
+          "id": "atos-u4-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Asocia cartas y temas",
+          "pairs": [
+            {
+              "left": "Romanos 8",
+              "right": "Esperanza en Cristo"
+            },
+            {
+              "left": "1 Corintios 13",
+              "right": "Primacía del amor"
+            },
+            {
+              "left": "Filipenses 4",
+              "right": "Alegría siempre"
+            },
+            {
+              "left": "Efesios 6",
+              "right": "Armadura espiritual"
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Ordena cronológicamente las cartas",
+          "text": "Período de correspondencia paulina",
+          "tokens": [
+            "Primeras cartas de Tesalónica",
+            "Grandes cartas: Romanos, Gálatas",
+            "Cartas de la prisión: Filipenses, Efesios",
+            "Cartas pastorales tardías"
+          ]
+        },
+        {
+          "id": "atos-u4-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Las cartas de Pablo continúan transformando vidas y guiando la fe cristiana.",
+          "isTrue": true,
+          "reference": "Romanos-Filemón",
+          "explanation": "Siglos después, las palabras de Pablo hablan al corazón y transforman a cristianos."
+        }
+      ]
+    }
+  ]
+}

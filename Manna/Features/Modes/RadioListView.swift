@@ -99,7 +99,7 @@ struct RadioListView: View {
     }
 
     private func loadEpisodes() {
-        guard let url = Bundle.main.url(forResource: "radio", withExtension: "json"),
+        guard let url = ContentLanguage.url(for: "radio"),
               let data = try? Data(contentsOf: url),
               let loaded = try? JSONDecoder().decode([RadioEpisode].self, from: data) else {
             loadError = "Erro ao carregar episódios"

@@ -1,0 +1,245 @@
+[
+  {
+    "id": "ligacao-bemvindo",
+    "title": "¡Bienvenido, amigo!",
+    "subtitle": "Llamada 1",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "¡Hola! ¡Qué gusto hablar contigo! ¿Cómo estás?",
+        "isUserTurn": false,
+        "keywordMatches": [
+          "bien",
+          "excelente",
+          "feliz",
+          "bueno"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "¡Qué bueno! Sabes, me encanta aprender historias bíblicas contigo. ¿Cuál es tu historia favorita de la Biblia?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "jesus",
+          "david",
+          "noé",
+          "moisés",
+          "abraham"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "¡Qué genial! Esas historias son tan inspiradoras. ¿Crees en Dios?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "sí",
+          "creo",
+          "crea",
+          "dios"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "¡Qué maravilloso! Tu fe es muy importante. ¡Continúa aprendiendo y creciendo espiritualmente!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-coragem",
+    "title": "Sobre Valentía y Fe",
+    "subtitle": "Llamada 2",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "¡Hola! ¿Qué tal? ¿Estás sintiendo miedo de algo hoy?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "Entiendo... Sabes, la Biblia habla mucho sobre valentía. ¿Conoces alguna historia de valentía?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "david",
+          "ester",
+          "pedro",
+          "sansón",
+          "noé"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "¡Excelente! Esas son historias de personas reales que confiaron en Dios. ¿Alguna vez necesitaste valentía?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "sí",
+          "no",
+          "sí ya",
+          "nunca"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "De cualquier forma, sabe que Dios siempre está contigo, así como lo estuvo con David, Ester y muchos otros. ¡No estás solo!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-bondade",
+    "title": "El Poder de la Bondad",
+    "subtitle": "Llamada 3",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "¡Hola! Hoy quiero hablar sobre bondad contigo. ¿Hiciste algo gentil hoy?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "¿Cómo así? ¿Ayudaste a alguien? ¿Contaste una historia divertida? ¡Cuéntame más!",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "sí",
+          "no",
+          "quizás",
+          "ayudé",
+          "hice",
+          "no hice"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Sabe que incluso los actos pequeños de bondad hacen una gran diferencia. Jesús enseñó que amar al prójimo es esencial.",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "¿Qué tal, hoy, intentas hacer un acto de bondad? Puede ser algo simple como ayudar a alguien, sonreír o escuchar.",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "voy a intentar",
+          "sí",
+          "claro",
+          "ok",
+          "puede ser"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "¡Perfecto! La bondad siempre regresa. ¡Continúa siendo gentil y esparce amor por donde vayas!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-perdao",
+    "title": "El Poder del Perdón",
+    "subtitle": "Llamada 4",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "¡Hola amigo! Hoy vamos a hablar sobre perdón. ¿Alguien te lastimó o tú lastimaste a alguien?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "Ah, entiendo. El perdón es difícil, pero muy importante. ¡Jesús enseñó que debemos perdonar setenta veces siete!",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "sí",
+          "lastimé",
+          "me lastimaron",
+          "no",
+          "sí, me lastimaron"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "¿Crees que puedas perdonar a esa persona? ¿O a ti mismo si cometiste un error?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "sí",
+          "puedo",
+          "voy a intentar",
+          "quizás",
+          "no sé",
+          "creo que sí"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "El perdón libera el corazón y trae paz. Cuando perdonas, ya no cargas ese peso. ¡Intenta!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  },
+  {
+    "id": "ligacao-esperanca",
+    "title": "La Esperanza en el Corazón",
+    "subtitle": "Llamada 5",
+    "icon": "phone.fill",
+    "duration": 120,
+    "turns": [
+      {
+        "speaker": "Béé",
+        "text": "¡Hola! ¿Qué tal? Hoy es un día especial para hablar sobre esperanza. ¿Qué te trae esperanza?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "¡Qué bonito! La esperanza es poderosa. Sabes, muchas personas en la Biblia tuvieron esperanza incluso en tiempos difíciles.",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "dios",
+          "fe",
+          "familia",
+          "amigos",
+          "futuro",
+          "vida"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "¿Ya leíste sobre Job? Perdió todo pero mantuvo su esperanza y fe. ¿Te inspiras en historias así?",
+        "isUserTurn": true,
+        "keywordMatches": [
+          "sí",
+          "no",
+          "quizás",
+          "oí hablar",
+          "no conozco"
+        ]
+      },
+      {
+        "speaker": "Béé",
+        "text": "Entonces déjame contarte: Job sufrió mucho, pero nunca perdió la fe en Dios. ¿Eso no es inspirador?",
+        "isUserTurn": false,
+        "keywordMatches": []
+      },
+      {
+        "speaker": "Béé",
+        "text": "¡Mantén la esperanza viva en tu corazón! ¡Dios tiene buenos planes para ti! ¡Hasta la próxima!",
+        "isUserTurn": false,
+        "keywordMatches": []
+      }
+    ]
+  }
+]

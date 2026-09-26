@@ -41,29 +41,14 @@ struct LessonHeader: View {
             .padding(.horizontal, 16)
 
             // Barra de progresso com "N SEGUIDAS"
-            VStack(spacing: 8) {
+            VStack(spacing: 12) {
+                AnimatedProgressBar(progress: progress, isCorrect: nil)
+
                 if consecutiveCorrect >= 3 {
-                    Text("\(consecutiveCorrect) SEGUIDAS")
-                        .font(Theme.font(13, .heavy))
-                        .foregroundStyle(Theme.wheat)
+                    StreakBadge(count: consecutiveCorrect, isVisible: true)
+                        .frame(height: 100)
                         .transition(.scale.combined(with: .opacity))
                 }
-
-                GeometryReader { geo in
-                    ZStack(alignment: .leading) {
-                        RoundedRectangle(cornerRadius: 8, style: .continuous)
-                            .fill(Theme.line)
-
-                        RoundedRectangle(cornerRadius: 8, style: .continuous)
-                            .fill(
-                                consecutiveCorrect >= 3
-                                    ? Theme.wheat.opacity(0.8)
-                                    : Theme.wheat
-                            )
-                            .frame(width: geo.size.width * progress)
-                    }
-                }
-                .frame(height: 12)
             }
             .padding(.horizontal, 16)
         }

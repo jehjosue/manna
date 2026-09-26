@@ -1,0 +1,2531 @@
+{
+  "id": "atos",
+  "title": "Acts of the Apostles",
+  "subtitle": "The Birth of the Church",
+  "icon": "flame.fill",
+  "order": 5,
+  "units": [
+    {
+      "id": "atos-u1",
+      "title": "Unit 1",
+      "subtitle": "Pentecost and the Early Church",
+      "guide": {
+        "summary": "After Jesus' ascension, the Holy Spirit descended at Pentecost transforming timid disciples into courageous apostles. The early Church was born with power, unity and authenticity, growing exponentially despite persecution.",
+        "keyVerses": [
+          {
+            "reference": "Acts 1:8",
+            "text": "But you will receive power when the Holy Spirit has come upon you."
+          },
+          {
+            "reference": "Acts 2:4",
+            "text": "They were all filled with the Holy Spirit and began to speak in other languages."
+          },
+          {
+            "reference": "Acts 2:42",
+            "text": "They continued steadfastly in the apostles' teaching and fellowship."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "atos-u1-l1",
+          "title": "The Promise of the Spirit",
+          "icon": "flame.fill",
+          "exercises": [
+            {
+              "id": "atos-u1-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"But you will receive power when the Holy Spirit has come upon _____.",
+              "speaker": "Jesus",
+              "options": [
+                "you",
+                "us",
+                "the Church",
+                "the apostles"
+              ],
+              "answer": "you",
+              "reference": "Acts 1:8",
+              "explanation": "Jesus promises that the Holy Spirit will come upon the disciples to empower them."
+            },
+            {
+              "id": "atos-u1-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The promise of the Holy Spirit was fulfilled immediately after Jesus' resurrection.",
+              "isTrue": false,
+              "reference": "Acts 1:4-8, 2:1-4",
+              "explanation": "The disciples had to wait several days until Pentecost to receive the Holy Spirit."
+            },
+            {
+              "id": "atos-u1-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "Why did Jesus ask the disciples to wait?",
+              "text": "Jesus asked them to remain in Jerusalem for the promise of the Father.",
+              "options": [
+                "To receive the Holy Spirit",
+                "To obtain funds",
+                "To recruit more followers",
+                "To train more"
+              ],
+              "answer": "To receive the Holy Spirit",
+              "reference": "Acts 1:4-5",
+              "explanation": "The Holy Spirit would be the power needed for them to be witnesses of Jesus."
+            },
+            {
+              "id": "atos-u1-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Promise of power in Acts 1:8",
+              "tokens": [
+                "You will receive power",
+                "when the Holy Spirit",
+                "has come upon you",
+                "and you will be my witnesses"
+              ],
+              "distractors": [
+                "in Jerusalem",
+                "in Judea",
+                "to the ends of the earth"
+              ],
+              "reference": "Acts 1:8"
+            },
+            {
+              "id": "atos-u1-l1-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "You will receive power when the Holy Spirit has come upon you.",
+              "options": [
+                "The Holy Spirit will empower us",
+                "Receive power from the Holy Spirit",
+                "God promises His Spirit"
+              ],
+              "answer": "Receive power from the Holy Spirit",
+              "reference": "Acts 1:8"
+            },
+            {
+              "id": "atos-u1-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Match elements of the promise",
+              "pairs": [
+                {
+                  "left": "Holy Spirit",
+                  "right": "Divine power"
+                },
+                {
+                  "left": "Witnesses",
+                  "right": "Proclaimers of faith"
+                },
+                {
+                  "left": "Power",
+                  "right": "Ability to act"
+                },
+                {
+                  "left": "Promise of the Father",
+                  "right": "Fulfilled at Pentecost"
+                }
+              ]
+            },
+            {
+              "id": "atos-u1-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"You will receive power when the Holy Spirit has come upon _____.\"",
+              "answer": "you",
+              "reference": "Acts 1:8",
+              "options": [
+                "you",
+                "all"
+              ]
+            },
+            {
+              "id": "atos-u1-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The Holy Spirit empowers us to do everything God calls us to do.",
+              "isTrue": true,
+              "reference": "Acts 1:8",
+              "explanation": "The Holy Spirit is the power that makes us effective witnesses of Christ."
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l2",
+          "title": "The Day of Pentecost",
+          "icon": "flame.fill",
+          "exercises": [
+            {
+              "id": "atos-u1-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"They were all filled with the Holy Spirit and began to speak in other _____.\"",
+              "speaker": "Luke",
+              "options": [
+                "languages",
+                "voices",
+                "words",
+                "idioms"
+              ],
+              "answer": "languages",
+              "reference": "Acts 2:4",
+              "explanation": "The visible and audible sign of Pentecost was that all began to speak in other languages."
+            },
+            {
+              "id": "atos-u1-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Pentecost marks the official birth of the Christian Church.",
+              "isTrue": true,
+              "reference": "Acts 2:1-47",
+              "explanation": "Pentecost is when the first 3,000 were converted and the Church began."
+            },
+            {
+              "id": "atos-u1-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "What happened when Peter preached at Pentecost?",
+              "text": "The first sermon after the Holy Spirit descended resulted in many converts.",
+              "options": [
+                "About 3,000 people were converted",
+                "Only the apostles believed",
+                "Nobody wanted to listen",
+                "Only 12 people believed"
+              ],
+              "answer": "About 3,000 people were converted",
+              "reference": "Acts 2:41",
+              "explanation": "Peter's preaching resulted in 3,000 disciples being added to the newborn Church."
+            },
+            {
+              "id": "atos-u1-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The sign of Pentecost in Acts 2:2-3",
+              "tokens": [
+                "And suddenly there came",
+                "a sound from heaven",
+                "like a mighty rushing wind",
+                "and it filled"
+              ],
+              "distractors": [
+                "all the house",
+                "tongues of fire",
+                "the whole place"
+              ],
+              "reference": "Acts 2:2-3"
+            },
+            {
+              "id": "atos-u1-l2-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "They were all filled with the Holy Spirit.",
+              "options": [
+                "The Holy Spirit descended",
+                "Filled with the Holy Spirit",
+                "A wind from heaven"
+              ],
+              "answer": "Filled with the Holy Spirit",
+              "reference": "Acts 2:4"
+            },
+            {
+              "id": "atos-u1-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the signs of Pentecost",
+              "pairs": [
+                {
+                  "left": "Sound of wind",
+                  "right": "Divine power"
+                },
+                {
+                  "left": "Tongues of fire",
+                  "right": "Purification and presence"
+                },
+                {
+                  "left": "Speaking in languages",
+                  "right": "Supernatural empowerment"
+                },
+                {
+                  "left": "3,000 conversions",
+                  "right": "Success of preaching"
+                }
+              ]
+            },
+            {
+              "id": "atos-u1-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"They were all filled with the Holy Spirit and began to speak in other _____.\"",
+              "answer": "languages",
+              "reference": "Acts 2:4",
+              "options": [
+                "languages",
+                "tongues"
+              ]
+            },
+            {
+              "id": "atos-u1-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Pentecost was a unique event that never happened again.",
+              "isTrue": false,
+              "reference": "Acts 2, 8, 10",
+              "explanation": "While Pentecost is the initial event, the filling of the Holy Spirit repeated several times in Acts."
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l3",
+          "title": "The Early Church",
+          "icon": "house.fill",
+          "exercises": [
+            {
+              "id": "atos-u1-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"They devoted themselves to the apostles' teaching and to fellowship with one _____.\"",
+              "speaker": "Luke",
+              "options": [
+                "another",
+                "alike",
+                "neighbor",
+                "brother"
+              ],
+              "answer": "another",
+              "reference": "Acts 2:42",
+              "explanation": "The early Church was characterized by apostolic teaching and genuine fellowship."
+            },
+            {
+              "id": "atos-u1-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The early Church held all things in common and sold properties to help the needy.",
+              "isTrue": true,
+              "reference": "Acts 2:44-45",
+              "explanation": "The generosity of the early Church was remarkable, sharing everything freely."
+            },
+            {
+              "id": "atos-u1-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "What was the people's attitude toward the early Church?",
+              "text": "Luke describes the reputation and growth of the newborn Church.",
+              "options": [
+                "They had favor with the people and grew",
+                "They were hated by everyone",
+                "Nobody cared",
+                "They were constantly expelled"
+              ],
+              "answer": "They had favor with the people and grew",
+              "reference": "Acts 2:47",
+              "explanation": "The Church had favor with the people and the Lord added new converts daily."
+            },
+            {
+              "id": "atos-u1-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Characteristics of the early Church",
+              "tokens": [
+                "They devoted themselves",
+                "to the apostles' teaching",
+                "to fellowship",
+                "to the breaking of bread"
+              ],
+              "distractors": [
+                "to prayer",
+                "to praise",
+                "to worship"
+              ],
+              "reference": "Acts 2:42"
+            },
+            {
+              "id": "atos-u1-l3-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "They devoted themselves to the apostles' teaching.",
+              "options": [
+                "They learned the words of Jesus",
+                "Devoted to apostles' teaching",
+                "They maintained the received faith"
+              ],
+              "answer": "Devoted to apostles' teaching",
+              "reference": "Acts 2:42"
+            },
+            {
+              "id": "atos-u1-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the characteristics of the Church",
+              "pairs": [
+                {
+                  "left": "Fellowship",
+                  "right": "Unity among believers"
+                },
+                {
+                  "left": "Apostolic teaching",
+                  "right": "Authentic instruction"
+                },
+                {
+                  "left": "Breaking of bread",
+                  "right": "Celebration of communion"
+                },
+                {
+                  "left": "Continual prayer",
+                  "right": "Dependence on God"
+                }
+              ]
+            },
+            {
+              "id": "atos-u1-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"They devoted themselves to the apostles' teaching and to fellowship with one _____.\"",
+              "answer": "another",
+              "reference": "Acts 2:42",
+              "options": [
+                "another",
+                "alike"
+              ]
+            },
+            {
+              "id": "atos-u1-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The early Church was selfish and everyone cared only for themselves.",
+              "isTrue": false,
+              "reference": "Acts 2:44-45",
+              "explanation": "The early Church was characterized by altruism and generous sharing of resources."
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l4",
+          "title": "Acts of Power",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "atos-u1-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Who was healed first by the apostles after Pentecost?",
+              "text": "A dramatic miracle opened the way for more preaching.",
+              "options": [
+                "A lame beggar at the Beautiful Gate",
+                "A woman with fever",
+                "A man blind from birth",
+                "A paralyzed man"
+              ],
+              "answer": "A lame beggar at the Beautiful Gate",
+              "reference": "Acts 3:1-10",
+              "explanation": "Peter healed a man who had never walked, causing general amazement."
+            },
+            {
+              "id": "atos-u1-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The miracles of the early Church were performed in the name of Jesus Christ.",
+              "isTrue": true,
+              "reference": "Acts 3:6, 16",
+              "explanation": "Peter emphasizes that miracles occur through faith in the name of Jesus."
+            },
+            {
+              "id": "atos-u1-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "Why were the apostles arrested?",
+              "text": "Their preaching attracted authorities who feared their influence.",
+              "options": [
+                "They preached about Jesus and performed miracles",
+                "They stole from the temple",
+                "They incited political revolution",
+                "They violated food laws"
+              ],
+              "answer": "They preached about Jesus and performed miracles",
+              "reference": "Acts 4:1-3",
+              "explanation": "Religious authorities feared that the message about Jesus would spread."
+            },
+            {
+              "id": "atos-u1-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Power in the name of Jesus in Acts 3:6",
+              "tokens": [
+                "Then Peter said",
+                "Silver and gold I do not have",
+                "but what I do have I give you",
+                "In the name of Jesus Christ"
+              ],
+              "distractors": [
+                "Rise up and walk",
+                "of Nazareth, walk",
+                "take your bed"
+              ],
+              "reference": "Acts 3:6"
+            },
+            {
+              "id": "atos-u1-l4-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Silver and gold I do not have but I give you in the name of Jesus.",
+              "options": [
+                "Silver and gold have no value",
+                "No silver give in Jesus name",
+                "Material wealth is invisible"
+              ],
+              "answer": "No silver give in Jesus name",
+              "reference": "Acts 3:6"
+            },
+            {
+              "id": "atos-u1-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the miracles to their results",
+              "pairs": [
+                {
+                  "left": "Healing of the lame",
+                  "right": "General amazement"
+                },
+                {
+                  "left": "Prayer of the apostles",
+                  "right": "Power of the Spirit"
+                },
+                {
+                  "left": "Peter's preaching",
+                  "right": "Conversion of many"
+                },
+                {
+                  "left": "Apostolic presence",
+                  "right": "Signs and wonders"
+                }
+              ]
+            },
+            {
+              "id": "atos-u1-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"In the name of Jesus Christ of Nazareth, _____.",
+              "answer": "walk",
+              "reference": "Acts 3:6",
+              "options": [
+                "walk",
+                "rise up"
+              ]
+            },
+            {
+              "id": "atos-u1-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The apostles' miracles happened even when they faced opposition.",
+              "isTrue": true,
+              "reference": "Acts 3-5",
+              "explanation": "Persecution did not stop the power and miracles of the early Church."
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l5",
+          "title": "Review - Pentecost and Early Church",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "atos-u1-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "How did Jesus prepare His disciples for Pentecost?",
+              "text": "After His resurrection, Jesus gave specific instructions.",
+              "options": [
+                "He promised that the Holy Spirit would come with power",
+                "He said they would be persecuted",
+                "He ordered them to leave immediately",
+                "He did not specially prepare them"
+              ],
+              "answer": "He promised that the Holy Spirit would come with power",
+              "reference": "Acts 1:4-8",
+              "explanation": "Jesus promised the Holy Spirit and power to be witnesses."
+            },
+            {
+              "id": "atos-u1-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The early Church faced persecution but continued growing.",
+              "isTrue": true,
+              "reference": "Acts 1-7",
+              "explanation": "Despite arrests and threats, the early Church grew exponentially."
+            },
+            {
+              "id": "atos-u1-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "What was the secret of the early Church's success?",
+              "text": "Several factors contributed to its extraordinary growth.",
+              "options": [
+                "Apostolic teaching, fellowship, prayer and miracles",
+                "Material wealth",
+                "Political support",
+                "Construction of great temples"
+              ],
+              "answer": "Apostolic teaching, fellowship, prayer and miracles",
+              "reference": "Acts 2:42-47",
+              "explanation": "The foundation was spiritual, not material or political."
+            },
+            {
+              "id": "atos-u1-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the review verse",
+              "text": "Summary of Pentecost and Church",
+              "tokens": [
+                "You will receive power",
+                "when the Holy Spirit",
+                "they devoted themselves to teaching",
+                "with great power"
+              ],
+              "distractors": [
+                "and in fellowship",
+                "in prayer",
+                "in the breaking of bread"
+              ],
+              "reference": "Acts 1:8, 2:42"
+            },
+            {
+              "id": "atos-u1-l5-e5",
+              "kind": "listen",
+              "prompt": "Which verse did you hear?",
+              "text": "You will receive power when the Holy Spirit has come.",
+              "options": [
+                "God will give His Spirit",
+                "Receive power from Holy Spirit",
+                "The Spirit empowers us"
+              ],
+              "answer": "Receive power from Holy Spirit",
+              "reference": "Acts 1:8"
+            },
+            {
+              "id": "atos-u1-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the main elements",
+              "pairs": [
+                {
+                  "left": "Pentecost",
+                  "right": "Birth of the Church"
+                },
+                {
+                  "left": "Holy Spirit",
+                  "right": "Power to witness"
+                },
+                {
+                  "left": "Miracles",
+                  "right": "Confirmation of faith"
+                },
+                {
+                  "left": "Fellowship",
+                  "right": "Unity in faith"
+                }
+              ]
+            },
+            {
+              "id": "atos-u1-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Order the events of Pentecost",
+              "text": "Sequence of Acts 1-2",
+              "tokens": [
+                "Jesus promises the Spirit",
+                "Disciples wait in Jerusalem",
+                "The Spirit descends with signs",
+                "3,000 are converted"
+              ]
+            },
+            {
+              "id": "atos-u1-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The history of the early Church is a model for Christian faith today.",
+              "isTrue": true,
+              "reference": "Acts 1-2",
+              "explanation": "The power, unity and growth of the early Church continue to inspire us."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atos-u2",
+      "title": "Unit 2",
+      "subtitle": "Peter, John and Stephen",
+      "guide": {
+        "summary": "Peter was transformed from a man who denied Jesus into a courageous leader of the Church. John was his faithful companion. Stephen was the first martyr, demonstrating that faith is worth more than life. These heroes teach us about courage, faithfulness and sacrifice.",
+        "keyVerses": [
+          {
+            "reference": "Acts 4:19-20",
+            "text": "But Peter and John answered: We must obey God rather than men."
+          },
+          {
+            "reference": "Acts 5:41",
+            "text": "The apostles left the presence of the council, rejoicing that they were counted worthy to suffer shame for His name."
+          },
+          {
+            "reference": "Acts 7:59",
+            "text": "And they stoned Stephen as he called out: Lord Jesus, receive my spirit."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "atos-u2-l1",
+          "title": "Bold Peter",
+          "icon": "person.2.fill",
+          "exercises": [
+            {
+              "id": "atos-u2-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "What was Peter like before Pentecost?",
+              "text": "Peter had a very distinctive characteristic before receiving the Holy Spirit.",
+              "options": [
+                "Fear and denial of Jesus",
+                "Confident leader",
+                "Violent warrior",
+                "Eloquent preacher"
+              ],
+              "answer": "Fear and denial of Jesus",
+              "reference": "Matthew 26:69-75, Acts 1",
+              "explanation": "Peter had denied Jesus three times out of fear, but then he was transformed."
+            },
+            {
+              "id": "atos-u2-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "After Pentecost, Peter became a courageous and fearless man.",
+              "isTrue": true,
+              "reference": "Acts 2-5",
+              "explanation": "Peter's transformation is dramatic: from denier to bold preacher."
+            },
+            {
+              "id": "atos-u2-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "What was Peter's response when ordered not to preach?",
+              "text": "The authorities tried to silence Peter, but he answered with courage.",
+              "options": [
+                "We must obey God rather than men",
+                "I will obey and stop preaching",
+                "I will hide myself",
+                "I will stage a rebellion"
+              ],
+              "answer": "We must obey God rather than men",
+              "reference": "Acts 4:19-20",
+              "explanation": "Peter declared that his obedience to God is more important than obedience to men."
+            },
+            {
+              "id": "atos-u2-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Peter's courageous response",
+              "tokens": [
+                "But Peter and John answered",
+                "Whether it is right in the sight of God",
+                "to listen to you more than to God",
+                "you must judge"
+              ],
+              "distractors": [
+                "For we cannot help",
+                "speaking about what we have seen",
+                "and heard"
+              ],
+              "reference": "Acts 4:19-20"
+            },
+            {
+              "id": "atos-u2-l1-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "We must obey God rather than men.",
+              "options": [
+                "God is more important",
+                "Obey God over men",
+                "Men should not command"
+              ],
+              "answer": "Obey God over men",
+              "reference": "Acts 4:19"
+            },
+            {
+              "id": "atos-u2-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Match Peter's transformation",
+              "pairs": [
+                {
+                  "left": "Before",
+                  "right": "Fear and denial"
+                },
+                {
+                  "left": "Pentecost",
+                  "right": "Filling of the Spirit"
+                },
+                {
+                  "left": "After",
+                  "right": "Courage and leadership"
+                },
+                {
+                  "left": "Result",
+                  "right": "Multitudes converted"
+                }
+              ]
+            },
+            {
+              "id": "atos-u2-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"We must obey God rather than _____.",
+              "answer": "men",
+              "reference": "Acts 4:19",
+              "options": [
+                "men",
+                "authorities"
+              ]
+            },
+            {
+              "id": "atos-u2-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Peter's courage came from his personal strength and determination.",
+              "isTrue": false,
+              "reference": "Acts 4:8, 1:8",
+              "explanation": "Peter's courage came from the Holy Spirit, not from his own strength."
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l2",
+          "title": "John, the Companion",
+          "icon": "book.fill",
+          "exercises": [
+            {
+              "id": "atos-u2-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "What was the relationship between Peter and John?",
+              "text": "These two apostles worked together frequently in Acts.",
+              "options": [
+                "They were inseparable companions in the work",
+                "They were rivals",
+                "They had no contact",
+                "They had opposite opinions"
+              ],
+              "answer": "They were inseparable companions in the work",
+              "reference": "Acts 3:1, 4:13, 8:14",
+              "explanation": "Peter and John worked together preaching, healing and facing persecution."
+            },
+            {
+              "id": "atos-u2-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "John was an unschooled man, but had met with Jesus.",
+              "isTrue": true,
+              "reference": "Acts 4:13",
+              "explanation": "Luke observes that Peter and John were unschooled men, but the courage came from Jesus."
+            },
+            {
+              "id": "atos-u2-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "What surprised the leaders about Peter and John?",
+              "text": "Even without formal education, they impressed with their message.",
+              "options": [
+                "Their courage and confidence in Jesus",
+                "Their material wealth",
+                "Their knowledge of the law",
+                "Their political support"
+              ],
+              "answer": "Their courage and confidence in Jesus",
+              "reference": "Acts 4:13",
+              "explanation": "It was clear that their authority came from a real encounter with Jesus."
+            },
+            {
+              "id": "atos-u2-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Observation about Peter and John in Acts 4:13",
+              "tokens": [
+                "When they saw the boldness",
+                "of Peter and John",
+                "and realized that they were",
+                "unschooled ordinary men"
+              ],
+              "distractors": [
+                "they were astonished",
+                "and took note",
+                "that these men had been with Jesus"
+              ],
+              "reference": "Acts 4:13"
+            },
+            {
+              "id": "atos-u2-l2-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "They realized these men had been with Jesus.",
+              "options": [
+                "They were disciples of a rabbi",
+                "Had been with Jesus",
+                "They learned Greek philosophy"
+              ],
+              "answer": "Had been with Jesus",
+              "reference": "Acts 4:13"
+            },
+            {
+              "id": "atos-u2-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Match characteristics of John",
+              "pairs": [
+                {
+                  "left": "Companion",
+                  "right": "Always with Peter"
+                },
+                {
+                  "left": "Unschooled",
+                  "right": "Without formal education"
+                },
+                {
+                  "left": "Boldness",
+                  "right": "Courage in Jesus"
+                },
+                {
+                  "left": "Encounter with Jesus",
+                  "right": "Source of power"
+                }
+              ]
+            },
+            {
+              "id": "atos-u2-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"They realized these men had been with _____.",
+              "answer": "Jesus",
+              "reference": "Acts 4:13",
+              "options": [
+                "Jesus",
+                "the Lord"
+              ]
+            },
+            {
+              "id": "atos-u2-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "John's faithfulness to Peter is an example of Christian companionship.",
+              "isTrue": true,
+              "reference": "Acts 3-5",
+              "explanation": "John remained by Peter's side in preaching, healing and even imprisonment."
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l3",
+          "title": "Stephen, the First Martyr",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "atos-u2-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Who was Stephen?",
+              "text": "A man full of faith and the Holy Spirit in the early Church.",
+              "options": [
+                "A deacon chosen to serve",
+                "One of the twelve apostles",
+                "A priest of the temple",
+                "A scribe of the law"
+              ],
+              "answer": "A deacon chosen to serve",
+              "reference": "Acts 6:1-6",
+              "explanation": "Stephen was chosen among the seven deacons to serve the widows."
+            },
+            {
+              "id": "atos-u2-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Stephen performed signs and wonders and faced verbal opposition.",
+              "isTrue": true,
+              "reference": "Acts 6:8, 6:9-10",
+              "explanation": "Stephen not only served, but also performed miracles and testified."
+            },
+            {
+              "id": "atos-u2-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "How did Stephen die?",
+              "text": "His death was an extreme test of his faith in Jesus.",
+              "options": [
+                "Stoned by opponents",
+                "Crucified like Jesus",
+                "Imprisoned and died in jail",
+                "Died of illness"
+              ],
+              "answer": "Stoned by opponents",
+              "reference": "Acts 7:57-60",
+              "explanation": "Stephen was the first Christian martyred, stoned for his faith."
+            },
+            {
+              "id": "atos-u2-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Stephen's last prayer in Acts 7:59-60",
+              "tokens": [
+                "Lord Jesus",
+                "receive my spirit",
+                "and do not hold",
+                "this sin against them"
+              ],
+              "distractors": [
+                "he knelt down",
+                "and cried out",
+                "with a loud voice"
+              ],
+              "reference": "Acts 7:59-60"
+            },
+            {
+              "id": "atos-u2-l3-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Lord Jesus receive my spirit.",
+              "options": [
+                "Father forgive their sins",
+                "Lord Jesus receive spirit",
+                "I see the heavens opened"
+              ],
+              "answer": "Lord Jesus receive spirit",
+              "reference": "Acts 7:59"
+            },
+            {
+              "id": "atos-u2-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Match characteristics of Stephen",
+              "pairs": [
+                {
+                  "left": "Faithful servant",
+                  "right": "Generous deacon"
+                },
+                {
+                  "left": "Performer of miracles",
+                  "right": "Signs and wonders"
+                },
+                {
+                  "left": "Martyred",
+                  "right": "Stoned"
+                },
+                {
+                  "left": "Forgiveness",
+                  "right": "Not holding sin against them"
+                }
+              ]
+            },
+            {
+              "id": "atos-u2-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"Lord Jesus, receive my _____.",
+              "answer": "spirit",
+              "reference": "Acts 7:59",
+              "options": [
+                "spirit",
+                "soul"
+              ]
+            },
+            {
+              "id": "atos-u2-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Stephen faced death with fear and regret of his faith.",
+              "isTrue": false,
+              "reference": "Acts 7:55-60",
+              "explanation": "Stephen faced death with peace, a vision of heaven and forgiveness for his killers."
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l4",
+          "title": "Lessons of Courage",
+          "icon": "flame.fill",
+          "exercises": [
+            {
+              "id": "atos-u2-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the main lesson about persecution in Acts?",
+              "text": "Peter, John and Stephen faced opposition in different ways.",
+              "options": [
+                "Faith sustains us even in adversity",
+                "We must avoid persecution at any cost",
+                "Faith does not matter when there is opposition",
+                "We should use violence to defend ourselves"
+              ],
+              "answer": "Faith sustains us even in adversity",
+              "reference": "Acts 2-7",
+              "explanation": "All three remained faithful, demonstrating that faith transcends persecution."
+            },
+            {
+              "id": "atos-u2-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "God abandons His servants when they face severe persecution.",
+              "isTrue": false,
+              "reference": "Acts 2-7",
+              "explanation": "God was present and empowered His servants even during the most severe persecution."
+            },
+            {
+              "id": "atos-u2-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "What did Peter and John show when imprisoned?",
+              "text": "Their reaction demonstrates what true faith means.",
+              "options": [
+                "Rejoicing to suffer for faith in Christ",
+                "Sadness and regret",
+                "Escape and hiding",
+                "Negotiation with authorities"
+              ],
+              "answer": "Rejoicing to suffer for faith in Christ",
+              "reference": "Acts 5:41",
+              "explanation": "They left prison rejoicing that they were counted worthy to suffer for Jesus."
+            },
+            {
+              "id": "atos-u2-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The attitude of Peter and John facing suffering",
+              "tokens": [
+                "The apostles left the council",
+                "rejoicing",
+                "that they had been counted worthy",
+                "of suffering disgrace for the Name"
+              ],
+              "distractors": [
+                "they knelt down",
+                "and continued preaching",
+                "every day"
+              ],
+              "reference": "Acts 5:41"
+            },
+            {
+              "id": "atos-u2-l4-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Rejoicing that they were counted worthy to suffer.",
+              "options": [
+                "Suffering for faith is a privilege",
+                "Rejoiced worthy suffer",
+                "Happy about persecution"
+              ],
+              "answer": "Rejoiced worthy suffer",
+              "reference": "Acts 5:41"
+            },
+            {
+              "id": "atos-u2-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Match lessons of courage",
+              "pairs": [
+                {
+                  "left": "Peter",
+                  "right": "Obedience to God above all"
+                },
+                {
+                  "left": "John",
+                  "right": "Faithful companionship"
+                },
+                {
+                  "left": "Stephen",
+                  "right": "Forgiveness unto the end"
+                },
+                {
+                  "left": "All three",
+                  "right": "Rejoicing in suffering"
+                }
+              ]
+            },
+            {
+              "id": "atos-u2-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"Left the council, rejoicing that they were counted worthy to suffer disgrace for the name of _____.",
+              "answer": "Jesus",
+              "reference": "Acts 5:41",
+              "options": [
+                "Jesus",
+                "God"
+              ]
+            },
+            {
+              "id": "atos-u2-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The courage of these heroes is an inspiring model for Christians of all ages.",
+              "isTrue": true,
+              "reference": "Acts 2-7",
+              "explanation": "Their lives continue to inspire Christians to remain faithful in any circumstance."
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l5",
+          "title": "Review - Peter, John and Stephen",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "atos-u2-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "How was Peter transformed?",
+              "text": "Peter's journey is one of the greatest transformations in the Bible.",
+              "options": [
+                "From fear to courage through the Holy Spirit",
+                "Through his own effort",
+                "By the influence of John",
+                "By approval of the authorities"
+              ],
+              "answer": "From fear to courage through the Holy Spirit",
+              "reference": "Acts 1-2",
+              "explanation": "Pentecost marked Peter's dramatic transformation."
+            },
+            {
+              "id": "atos-u2-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Peter and John faced imprisonment but continued preaching.",
+              "isTrue": true,
+              "reference": "Acts 4-5",
+              "explanation": "No threat silenced these heroes of the primitive faith."
+            },
+            {
+              "id": "atos-u2-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "What was Stephen's legacy?",
+              "text": "Although he died young, his impact was great.",
+              "options": [
+                "Witness of faith unto martyrdom and influence on young Saul",
+                "Establishment of a Christian community",
+                "Writing of important books",
+                "Conversion of the authorities"
+              ],
+              "answer": "Witness of faith unto martyrdom and influence on young Saul",
+              "reference": "Acts 7, 8:1",
+              "explanation": "Saul witnessed Stephen's death and later became Paul, the great apostle."
+            },
+            {
+              "id": "atos-u2-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the review verse",
+              "text": "Summary of heroism in Acts",
+              "tokens": [
+                "We must obey God",
+                "rejoicing in suffering",
+                "and forgiving enemies",
+                "thus the primitive faith lived"
+              ],
+              "distractors": [
+                "and proclaiming Jesus",
+                "with courage",
+                "unto death"
+              ],
+              "reference": "Acts 4:19, 5:41, 7:60"
+            },
+            {
+              "id": "atos-u2-l5-e5",
+              "kind": "listen",
+              "prompt": "Which lesson did you hear?",
+              "text": "We must obey God rather than men.",
+              "options": [
+                "God's authority is supreme",
+                "Obey God rather men",
+                "Respect for human order"
+              ],
+              "answer": "Obey God rather men",
+              "reference": "Acts 4:19"
+            },
+            {
+              "id": "atos-u2-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Match the impactful lives",
+              "pairs": [
+                {
+                  "left": "Peter",
+                  "right": "Courageous leader"
+                },
+                {
+                  "left": "John",
+                  "right": "Faithful companion"
+                },
+                {
+                  "left": "Stephen",
+                  "right": "First martyr"
+                },
+                {
+                  "left": "Legacy",
+                  "right": "Inspiration today"
+                }
+              ]
+            },
+            {
+              "id": "atos-u2-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Order the main events",
+              "text": "Chronology of courage in Acts 2-7",
+              "tokens": [
+                "Pentecost and Peter's boldness",
+                "Imprisonment and liberation",
+                "Choosing Stephen as deacon",
+                "Martyrdom of Stephen"
+              ]
+            },
+            {
+              "id": "atos-u2-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The examples of Peter, John and Stephen show that true faith perseveres.",
+              "isTrue": true,
+              "reference": "Acts 2-7",
+              "explanation": "These three men demonstrated that Christian faith is enduring and transformative."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atos-u3",
+      "title": "Unit 3",
+      "subtitle": "Paul's Conversion and Travels",
+      "guide": {
+        "summary": "Saul was persecuting Christians when Jesus encountered him on the Damascus road. Transformed into apostle Paul, he traveled throughout the Greco-Roman world founding churches. His letters continue to guide Christian faith today.",
+        "keyVerses": [
+          {
+            "reference": "Acts 9:15",
+            "text": "Go, because this man is my chosen instrument to proclaim my name to the Gentiles."
+          },
+          {
+            "reference": "Acts 20:24",
+            "text": "But I do not account my life of any value, if only I may finish my course."
+          },
+          {
+            "reference": "Acts 17:24-25",
+            "text": "The God who made the world does not dwell in temples built by human hands."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "atos-u3-l1",
+          "title": "The Encounter on the Road",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "atos-u3-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "What was Saul doing when Jesus encountered him?",
+              "text": "Saul had a purpose that would be transformed.",
+              "options": [
+                "Persecuting Christians on the way to Damascus",
+                "Preaching in the temple",
+                "Teaching the law of the Pharisees",
+                "Praying in secret"
+              ],
+              "answer": "Persecuting Christians on the way to Damascus",
+              "reference": "Acts 9:1-2",
+              "explanation": "Saul was zealously fighting against the Church when his encounter with Jesus changed everything."
+            },
+            {
+              "id": "atos-u3-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Jesus personally appeared to Saul on the Damascus road.",
+              "isTrue": true,
+              "reference": "Acts 9:3-7",
+              "explanation": "The risen Jesus Himself appeared to Saul, asking why he persecuted Him."
+            },
+            {
+              "id": "atos-u3-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "What was the first consequence of the vision?",
+              "text": "The transformation began with a loss followed by recovery.",
+              "options": [
+                "Saul was blinded and his sight was restored",
+                "Saul fell from his horse and was injured",
+                "Saul lost his faith immediately",
+                "Saul disappeared for three years"
+              ],
+              "answer": "Saul was blinded and his sight was restored",
+              "reference": "Acts 9:8-18",
+              "explanation": "Saul's blindness was symbolic: he needed to be restored spiritually."
+            },
+            {
+              "id": "atos-u3-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Paul's calling in Acts 9:15",
+              "tokens": [
+                "Go, because this man is",
+                "my chosen instrument",
+                "to proclaim my name",
+                "to the Gentiles"
+              ],
+              "distractors": [
+                "and to the Jews",
+                "and to the kings",
+                "and to the people"
+              ],
+              "reference": "Acts 9:15"
+            },
+            {
+              "id": "atos-u3-l1-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "This is my chosen instrument to proclaim my name.",
+              "options": [
+                "Paul will be a great apostle",
+                "Chosen instrument proclaim name",
+                "Jesus chose him for something"
+              ],
+              "answer": "Chosen instrument proclaim name",
+              "reference": "Acts 9:15"
+            },
+            {
+              "id": "atos-u3-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Match stages of conversion",
+              "pairs": [
+                {
+                  "left": "Vision of Jesus",
+                  "right": "Transformative encounter"
+                },
+                {
+                  "left": "Blindness",
+                  "right": "Symbol of change"
+                },
+                {
+                  "left": "Sight restored",
+                  "right": "Spiritual regeneration"
+                },
+                {
+                  "left": "Baptism",
+                  "right": "Seal of conversion"
+                }
+              ]
+            },
+            {
+              "id": "atos-u3-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"This is my chosen instrument to proclaim my name to the _____.",
+              "answer": "Gentiles",
+              "reference": "Acts 9:15",
+              "options": [
+                "Gentiles",
+                "nations"
+              ]
+            },
+            {
+              "id": "atos-u3-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Paul's conversion was merely an event with no lasting change.",
+              "isTrue": false,
+              "reference": "Acts 9-28",
+              "explanation": "Paul spent the rest of his life dedicated to Jesus and the gospel."
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l2",
+          "title": "The Three Missionary Journeys",
+          "icon": "tent.fill",
+          "exercises": [
+            {
+              "id": "atos-u3-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "What was Paul's method on his journeys?",
+              "text": "Paul had a clear strategy for evangelizing.",
+              "options": [
+                "Going to Jewish synagogues and then to the Gentiles",
+                "Speaking only with wealthy people",
+                "Completely avoiding the Jews",
+                "Preaching only in large cities"
+              ],
+              "answer": "Going to Jewish synagogues and then to the Gentiles",
+              "reference": "Acts 13:14, 17:22-23",
+              "explanation": "Paul always started in synagogues, presenting Jesus first to the Jews."
+            },
+            {
+              "id": "atos-u3-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Paul traveled alone on his missions.",
+              "isTrue": false,
+              "reference": "Acts 13-21",
+              "explanation": "Paul had companions like Barnabas, Silas and Timothy on his journeys."
+            },
+            {
+              "id": "atos-u3-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "What did Paul face during his travels?",
+              "text": "Paul's journeys were marked by continuous persecution.",
+              "options": [
+                "Persecution, imprisonments, beatings and shipwreck",
+                "Material well-being and recognition",
+                "Complete silence",
+                "Unrestricted support from everyone"
+              ],
+              "answer": "Persecution, imprisonments, beatings and shipwreck",
+              "reference": "Acts 14-28, 2 Corinthians 11:24-27",
+              "explanation": "Paul suffered greatly for the gospel, but never gave up."
+            },
+            {
+              "id": "atos-u3-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Paul's commitment in Acts 20:24",
+              "tokens": [
+                "But I do not account",
+                "my life of any value",
+                "if only I may finish",
+                "my course"
+              ],
+              "distractors": [
+                "and complete the task",
+                "the Lord Jesus gave me",
+                "to testify to the gospel"
+              ],
+              "reference": "Acts 20:24"
+            },
+            {
+              "id": "atos-u3-l2-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "My life is not of value to me.",
+              "options": [
+                "Paul valued his life lightly",
+                "Not value life to me",
+                "Life has no meaning"
+              ],
+              "answer": "Not value life to me",
+              "reference": "Acts 20:24"
+            },
+            {
+              "id": "atos-u3-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Match aspects of the journeys",
+              "pairs": [
+                {
+                  "left": "Strategy",
+                  "right": "Synagogue then Gentiles"
+                },
+                {
+                  "left": "Companions",
+                  "right": "Barnabas, Silas, Timothy"
+                },
+                {
+                  "left": "Challenges",
+                  "right": "Continuous persecution"
+                },
+                {
+                  "left": "Motivation",
+                  "right": "Fulfilling Jesus' commission"
+                }
+              ]
+            },
+            {
+              "id": "atos-u3-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"If only I may finish my _____.\"",
+              "answer": "course",
+              "reference": "Acts 20:24",
+              "options": [
+                "course",
+                "mission"
+              ]
+            },
+            {
+              "id": "atos-u3-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Paul established churches in multiple regions during his travels.",
+              "isTrue": true,
+              "reference": "Acts 13-21",
+              "explanation": "Paul founded churches in Antioch, Corinth, Ephesus and many other places."
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l3",
+          "title": "The Areopagus: Preaching in Athens",
+          "icon": "book.fill",
+          "exercises": [
+            {
+              "id": "atos-u3-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Where did Paul deliver his famous speech?",
+              "text": "A city known for philosophy and multiple gods.",
+              "options": [
+                "At the Areopagus in Athens",
+                "In the temple of Ephesus",
+                "In the synagogue of Corinth",
+                "In the prison of Rome"
+              ],
+              "answer": "At the Areopagus in Athens",
+              "reference": "Acts 17:22-31",
+              "explanation": "Athens was an intellectual center where Paul confronted pagan philosophies."
+            },
+            {
+              "id": "atos-u3-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Paul recognized the altar to the unknown god in Athens.",
+              "isTrue": true,
+              "reference": "Acts 17:23",
+              "explanation": "Paul used this altar as a starting point to preach about Jesus."
+            },
+            {
+              "id": "atos-u3-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "What was the central message of the speech at the Areopagus?",
+              "text": "Paul presented truths about God to the Greeks.",
+              "options": [
+                "God does not dwell in temples made with human hands",
+                "The idols are superior to God",
+                "God needs human sacrifices",
+                "The Greek gods are true"
+              ],
+              "answer": "God does not dwell in temples made with human hands",
+              "reference": "Acts 17:24-25",
+              "explanation": "Paul confronted polytheism with the truth about the one true God."
+            },
+            {
+              "id": "atos-u3-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Truth about God in Acts 17:24-25",
+              "tokens": [
+                "The God who made the world",
+                "does not dwell in temples",
+                "made with human hands",
+                "nor is he served by human hands"
+              ],
+              "distractors": [
+                "as though he needed anything",
+                "since he himself gives",
+                "to all mankind life and breath"
+              ],
+              "reference": "Acts 17:24-25"
+            },
+            {
+              "id": "atos-u3-l3-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "The God who made the world does not dwell in temples.",
+              "options": [
+                "God is spirit and omnipresent",
+                "God does not dwell temples",
+                "Temples cannot contain God"
+              ],
+              "answer": "God does not dwell temples",
+              "reference": "Acts 17:24"
+            },
+            {
+              "id": "atos-u3-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Match elements of the speech",
+              "pairs": [
+                {
+                  "left": "Unknown altar",
+                  "right": "Opening for gospel"
+                },
+                {
+                  "left": "Creator",
+                  "right": "One true God"
+                },
+                {
+                  "left": "Temples",
+                  "right": "Cannot contain God"
+                },
+                {
+                  "left": "Resurrection",
+                  "right": "Christian hope"
+                }
+              ]
+            },
+            {
+              "id": "atos-u3-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"The God who made the world does not dwell in ___ made with hands.\"",
+              "answer": "temples",
+              "reference": "Acts 17:24",
+              "options": [
+                "temples",
+                "buildings"
+              ]
+            },
+            {
+              "id": "atos-u3-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Everyone in Athens immediately accepted Paul's message.",
+              "isTrue": false,
+              "reference": "Acts 17:32-33",
+              "explanation": "Some mocked, but others believed and joined Paul."
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l4",
+          "title": "The Journey to Rome",
+          "icon": "scroll.fill",
+          "exercises": [
+            {
+              "id": "atos-u3-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "How was Paul brought to Rome?",
+              "text": "A dramatic journey marked the end of Acts.",
+              "options": [
+                "As a prisoner under Roman guard",
+                "As an invited visitor",
+                "As a voluntary emigrant",
+                "As a fugitive fleeing"
+              ],
+              "answer": "As a prisoner under Roman guard",
+              "reference": "Acts 27-28",
+              "explanation": "Paul was imprisoned, tried and sent to Rome to appeal to Caesar."
+            },
+            {
+              "id": "atos-u3-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "During the journey to Rome, Paul faced a shipwreck.",
+              "isTrue": true,
+              "reference": "Acts 27:39-44",
+              "explanation": "A ship on which Paul was traveling was wrecked during a storm."
+            },
+            {
+              "id": "atos-u3-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "What was Paul's hope while imprisoned?",
+              "text": "Paul maintained a faithful stance even while in prison.",
+              "options": [
+                "To testify in Rome and be with Jesus",
+                "To escape from prison",
+                "Oblivion and retirement",
+                "Revenge against his enemies"
+              ],
+              "answer": "To testify in Rome and be with Jesus",
+              "reference": "Acts 28:30-31",
+              "explanation": "Paul spent two years in Rome preaching and teaching about Jesus."
+            },
+            {
+              "id": "atos-u3-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "The final journey in Acts 27:23-24",
+              "tokens": [
+                "Last night there stood",
+                "by my side an angel",
+                "of the God to whom",
+                "I belong and whom I serve"
+              ],
+              "distractors": [
+                "and said Do not be afraid",
+                "for it is necessary",
+                "that you appear before Caesar"
+              ],
+              "reference": "Acts 27:23-24"
+            },
+            {
+              "id": "atos-u3-l4-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "An angel of the God whom I serve stood by me.",
+              "options": [
+                "Paul serves only Jesus",
+                "Angel of God whom serve",
+                "Paul's faith is unshakeable"
+              ],
+              "answer": "Angel of God whom serve",
+              "reference": "Acts 27:23"
+            },
+            {
+              "id": "atos-u3-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Match final events",
+              "pairs": [
+                {
+                  "left": "Prison",
+                  "right": "Trial by authorities"
+                },
+                {
+                  "left": "Ship",
+                  "right": "Wrecked in storm"
+                },
+                {
+                  "left": "Rome",
+                  "right": "Testimony and preaching"
+                },
+                {
+                  "left": "Hope",
+                  "right": "To be with Jesus"
+                }
+              ]
+            },
+            {
+              "id": "atos-u3-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"It is necessary that you appear before _____.",
+              "answer": "Caesar",
+              "reference": "Acts 27:24",
+              "options": [
+                "Caesar",
+                "emperor"
+              ]
+            },
+            {
+              "id": "atos-u3-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Paul's imprisonment interrupted his preaching ministry.",
+              "isTrue": false,
+              "reference": "Acts 28:30-31",
+              "explanation": "Paul continued preaching even in prison, showing that nothing can silence the gospel."
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l5",
+          "title": "Review - Conversion and Travels",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "atos-u3-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "How did Jesus transform Saul?",
+              "text": "A radical transformation began on the Damascus road.",
+              "options": [
+                "Through a personal encounter on the road",
+                "Slowly over years",
+                "Through friends who evangelized him",
+                "He never really was transformed"
+              ],
+              "answer": "Through a personal encounter on the road",
+              "reference": "Acts 9:1-18",
+              "explanation": "Jesus personally appeared to Saul, transforming him instantly."
+            },
+            {
+              "id": "atos-u3-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Paul faced difficulties in sharing the gospel.",
+              "isTrue": true,
+              "reference": "Acts 13-28",
+              "explanation": "Paul experienced rejection, persecution and imprisonment, but never gave up."
+            },
+            {
+              "id": "atos-u3-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "What was God's purpose for Paul?",
+              "text": "God had a specific plan for this apostle.",
+              "options": [
+                "To be a chosen instrument to proclaim the gospel to the Gentiles",
+                "To be king of Israel",
+                "To be priest of the temple",
+                "To be a Greek philosopher"
+              ],
+              "answer": "To be a chosen instrument to proclaim the gospel to the Gentiles",
+              "reference": "Acts 9:15",
+              "explanation": "Paul was specially called to reach the Gentiles with the gospel."
+            },
+            {
+              "id": "atos-u3-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the review verse",
+              "text": "Summary of Paul's journey",
+              "tokens": [
+                "This is for me",
+                "a chosen instrument",
+                "nor do I account my life",
+                "of value if only I finish the course"
+              ],
+              "distractors": [
+                "that Jesus gave me",
+                "to testify",
+                "to His grace"
+              ],
+              "reference": "Acts 9:15, 20:24"
+            },
+            {
+              "id": "atos-u3-l5-e5",
+              "kind": "listen",
+              "prompt": "Which truth did you hear?",
+              "text": "This is my chosen instrument to proclaim my name.",
+              "options": [
+                "God chooses tools for His kingdom",
+                "Chosen instrument proclaim name",
+                "Paul is special to God"
+              ],
+              "answer": "Chosen instrument proclaim name",
+              "reference": "Acts 9:15"
+            },
+            {
+              "id": "atos-u3-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Match phases of Paul's life",
+              "pairs": [
+                {
+                  "left": "Conversion",
+                  "right": "Encounter with Jesus"
+                },
+                {
+                  "left": "Travels",
+                  "right": "Founding of churches"
+                },
+                {
+                  "left": "Preaching",
+                  "right": "Appeal to the gospel"
+                },
+                {
+                  "left": "Prison",
+                  "right": "Testimony in Rome"
+                }
+              ]
+            },
+            {
+              "id": "atos-u3-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Order Paul's journey",
+              "text": "Apostolic chronology",
+              "tokens": [
+                "Encounter with Jesus in Damascus",
+                "First missionary journeys",
+                "Speech at the Areopagus",
+                "Journey to Rome as prisoner"
+              ]
+            },
+            {
+              "id": "atos-u3-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Paul's life demonstrates that God can transform anyone.",
+              "isTrue": true,
+              "reference": "Acts 9-28",
+              "explanation": "Paul is the greatest example of transformation and dedication to Jesus in the Bible."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atos-u4",
+      "title": "Unit 4",
+      "subtitle": "Paul in Rome and His Letters",
+      "guide": {
+        "summary": "Paul's letters written during his ministry contain the essence of Christian faith. Romans 8 speaks of hope in Christ, 1 Corinthians 13 exalts love, Philippians 4 teaches joy, Galatians 5 speaks of freedom, Ephesians 6 about the armor of God. These continue to transform lives.",
+        "keyVerses": [
+          {
+            "reference": "Romans 8:28",
+            "text": "And we know that in all things God works for good with those who love him."
+          },
+          {
+            "reference": "1 Corinthians 13:4",
+            "text": "Love is patient and kind; love is not envious."
+          },
+          {
+            "reference": "Ephesians 6:10",
+            "text": "Finally, be strong in the Lord and in the strength of his might."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "atos-u4-l1",
+          "title": "Hope in Christ - Romans 8",
+          "icon": "heart.fill",
+          "exercises": [
+            {
+              "id": "atos-u4-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"And we know that in all things God works for good with those who love _____.\"",
+              "speaker": "Paul",
+              "options": [
+                "God",
+                "Jesus",
+                "the law",
+                "the Spirit"
+              ],
+              "answer": "God",
+              "reference": "Romans 8:28",
+              "explanation": "Paul affirms that God works all circumstances for good for those who love Him."
+            },
+            {
+              "id": "atos-u4-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Romans 8:28 means the Christian life will have no difficulties.",
+              "isTrue": false,
+              "reference": "Romans 8:28",
+              "explanation": "The verse does not say there will be no difficulties, but that God works in them for good."
+            },
+            {
+              "id": "atos-u4-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the central message of Romans 8?",
+              "text": "Paul writes about eternal security in Christ.",
+              "options": [
+                "Nothing can separate us from God's love in Christ",
+                "We must obey the law perfectly",
+                "The body is evil and must be rejected",
+                "Everyone will be condemned in judgment"
+              ],
+              "answer": "Nothing can separate us from God's love in Christ",
+              "reference": "Romans 8:35-39",
+              "explanation": "Romans 8 is a celebration of the security and hope we have in Jesus."
+            },
+            {
+              "id": "atos-u4-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Security in Christ in Romans 8:35",
+              "tokens": [
+                "Who can separate us",
+                "from the love of Christ?",
+                "Tribulation, or distress",
+                "or persecution?"
+              ],
+              "distractors": [
+                "or death",
+                "or life",
+                "or any creature"
+              ],
+              "reference": "Romans 8:35"
+            },
+            {
+              "id": "atos-u4-l1-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "All things work together for good.",
+              "options": [
+                "God controls all circumstances",
+                "All things work for good",
+                "Everything is always easy"
+              ],
+              "answer": "All things work for good",
+              "reference": "Romans 8:28"
+            },
+            {
+              "id": "atos-u4-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Match truths from Romans 8",
+              "pairs": [
+                {
+                  "left": "Redemption",
+                  "right": "In Christ Jesus"
+                },
+                {
+                  "left": "Hope",
+                  "right": "Eternal security"
+                },
+                {
+                  "left": "Love",
+                  "right": "Inseparable from Christ"
+                },
+                {
+                  "left": "Adoption",
+                  "right": "Children of God"
+                }
+              ]
+            },
+            {
+              "id": "atos-u4-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"And we know that in all things God works for good with those who love _____.",
+              "answer": "God",
+              "reference": "Romans 8:28",
+              "options": [
+                "God",
+                "the Lord"
+              ]
+            },
+            {
+              "id": "atos-u4-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Nothing can separate us from God's love in Christ.",
+              "isTrue": true,
+              "reference": "Romans 8:35-39",
+              "explanation": "Paul asserts with certainty that nothing can keep us away from Christ's love."
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l2",
+          "title": "The Hymn of Love - 1 Corinthians 13",
+          "icon": "heart.fill",
+          "exercises": [
+            {
+              "id": "atos-u4-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Love is _____, and is kind; love is not envious.\"",
+              "speaker": "Paul",
+              "options": [
+                "patient",
+                "strong",
+                "eternal",
+                "true"
+              ],
+              "answer": "patient",
+              "reference": "1 Corinthians 13:4",
+              "explanation": "Paul begins by describing love as patient and kind, not envious."
+            },
+            {
+              "id": "atos-u4-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "1 Corinthians 13 is only about romantic love.",
+              "isTrue": false,
+              "reference": "1 Corinthians 13",
+              "explanation": "1 Corinthians 13 treats Christian love (agape), which is deeper than romance."
+            },
+            {
+              "id": "atos-u4-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the conclusion of 1 Corinthians 13:13?",
+              "text": "Paul ends with a memorable statement about Christian virtues.",
+              "options": [
+                "Faith, hope and love remain, but the greatest of these is love",
+                "The law is the greatest commandment",
+                "Knowledge is supreme",
+                "Faith never fails"
+              ],
+              "answer": "Faith, hope and love remain, but the greatest of these is love",
+              "reference": "1 Corinthians 13:13",
+              "explanation": "Faith, hope and love remain, but love is the greatest."
+            },
+            {
+              "id": "atos-u4-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Love never fails in 1 Corinthians 13:8",
+              "tokens": [
+                "Love never ends",
+                "but as for prophecies",
+                "they will come to an end",
+                "as for languages"
+              ],
+              "distractors": [
+                "they will cease",
+                "as for knowledge",
+                "it will pass away"
+              ],
+              "reference": "1 Corinthians 13:8"
+            },
+            {
+              "id": "atos-u4-l2-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Love is patient and kind.",
+              "options": [
+                "Love has special qualities",
+                "Love patient and kind",
+                "Patience and kindness define"
+              ],
+              "answer": "Love patient and kind",
+              "reference": "1 Corinthians 13:4"
+            },
+            {
+              "id": "atos-u4-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Match qualities of love",
+              "pairs": [
+                {
+                  "left": "Patience",
+                  "right": "Long-suffering"
+                },
+                {
+                  "left": "Kindness",
+                  "right": "Gentleness for all"
+                },
+                {
+                  "left": "Humility",
+                  "right": "Does not boast"
+                },
+                {
+                  "left": "Eternity",
+                  "right": "Never fails"
+                }
+              ]
+            },
+            {
+              "id": "atos-u4-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"Love never _____.",
+              "answer": "ends",
+              "reference": "1 Corinthians 13:8",
+              "options": [
+                "ends",
+                "ceases"
+              ]
+            },
+            {
+              "id": "atos-u4-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Christian love is superior even to other virtues like faith and hope.",
+              "isTrue": true,
+              "reference": "1 Corinthians 13:13",
+              "explanation": "Paul affirms that love remains and is greater than faith and hope."
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l3",
+          "title": "Joy in Christ - Philippians 4",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "atos-u4-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the main theme of Philippians?",
+              "text": "Paul writes in a personal and warm way to the Philippians.",
+              "options": [
+                "Joy in Christ despite circumstances",
+                "Severe criticism of the community",
+                "Rigid legal instructions",
+                "Predictions of punishment"
+              ],
+              "answer": "Joy in Christ despite circumstances",
+              "reference": "Philippians 1-4",
+              "explanation": "Philippians is Paul's most joyful letter, written even from prison."
+            },
+            {
+              "id": "atos-u4-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Paul wrote Philippians while imprisoned.",
+              "isTrue": true,
+              "reference": "Philippians 1:7-14",
+              "explanation": "Even in prison, Paul writes with joy and hope."
+            },
+            {
+              "id": "atos-u4-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the first command in Philippians 4:4?",
+              "text": "Paul begins with a simple but powerful exhortation.",
+              "options": [
+                "Rejoice in the Lord always",
+                "Obey the authorities",
+                "Work with diligence",
+                "Keep the commandments"
+              ],
+              "answer": "Rejoice in the Lord always",
+              "reference": "Philippians 4:4",
+              "explanation": "Joy in the Lord is central in Philippians, even in adversity."
+            },
+            {
+              "id": "atos-u4-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Call to peace in Philippians 4:6-7",
+              "tokens": [
+                "Do not be anxious about anything",
+                "but in every situation",
+                "by prayer and petition",
+                "present your requests to God"
+              ],
+              "distractors": [
+                "with thanksgiving",
+                "and the peace of God",
+                "will guard your hearts"
+              ],
+              "reference": "Philippians 4:6-7"
+            },
+            {
+              "id": "atos-u4-l3-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Rejoice in the Lord always.",
+              "options": [
+                "Permanent joy in Jesus",
+                "Rejoice always Lord",
+                "Your joy is manifest"
+              ],
+              "answer": "Rejoice always Lord",
+              "reference": "Philippians 4:4"
+            },
+            {
+              "id": "atos-u4-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Match teachings of Philippians",
+              "pairs": [
+                {
+                  "left": "Joy",
+                  "right": "Always in Christ"
+                },
+                {
+                  "left": "Prayer",
+                  "right": "With thanksgiving"
+                },
+                {
+                  "left": "Peace",
+                  "right": "Guards the heart"
+                },
+                {
+                  "left": "Thoughts",
+                  "right": "On noble things"
+                }
+              ]
+            },
+            {
+              "id": "atos-u4-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"Rejoice always in the _____.",
+              "answer": "Lord",
+              "reference": "Philippians 4:4",
+              "options": [
+                "Lord",
+                "God"
+              ]
+            },
+            {
+              "id": "atos-u4-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Christian joy depends on external circumstances.",
+              "isTrue": false,
+              "reference": "Philippians 4:4-7",
+              "explanation": "Paul teaches that true joy is in Christ, independent of circumstances."
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l4",
+          "title": "The Armor of God - Ephesians 6",
+          "icon": "shield.fill",
+          "exercises": [
+            {
+              "id": "atos-u4-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Complete the verse",
+              "text": "\"Finally, be strong in the Lord and in the strength of His _____.",
+              "speaker": "Paul",
+              "options": [
+                "might",
+                "hand",
+                "law",
+                "truth"
+              ],
+              "answer": "might",
+              "reference": "Ephesians 6:10",
+              "explanation": "Paul begins by exhorting the Ephesians to be strengthened in God's power."
+            },
+            {
+              "id": "atos-u4-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Ephesians 6 describes the spiritual armor of the Christian.",
+              "isTrue": true,
+              "reference": "Ephesians 6:10-18",
+              "explanation": "Ephesians 6 lists seven pieces of spiritual armor to resist evil."
+            },
+            {
+              "id": "atos-u4-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the most important weapon in the armor?",
+              "text": "Paul lists several pieces, but emphasizes one especially.",
+              "options": [
+                "The sword of the Spirit, which is the Word of God",
+                "David's shield",
+                "Goliath's armor",
+                "The ax of war"
+              ],
+              "answer": "The sword of the Spirit, which is the Word of God",
+              "reference": "Ephesians 6:17",
+              "explanation": "God's Word is the only complete offensive weapon in the armor."
+            },
+            {
+              "id": "atos-u4-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the verse",
+              "text": "Complete armor in Ephesians 6:14-17",
+              "tokens": [
+                "Stand firm therefore",
+                "with the belt of truth",
+                "fastened around your waist",
+                "and put on the breastplate of righteousness"
+              ],
+              "distractors": [
+                "as shoes for your feet",
+                "prepared by the gospel of peace",
+                "take up the shield of faith"
+              ],
+              "reference": "Ephesians 6:14-17"
+            },
+            {
+              "id": "atos-u4-l4-e5",
+              "kind": "listen",
+              "prompt": "What did you hear?",
+              "text": "Be strong in the strength of His might.",
+              "options": [
+                "God makes us strong",
+                "Strong strength might",
+                "Power of God sustains us"
+              ],
+              "answer": "Strong strength might",
+              "reference": "Ephesians 6:10"
+            },
+            {
+              "id": "atos-u4-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Match pieces of armor",
+              "pairs": [
+                {
+                  "left": "Belt",
+                  "right": "Truth"
+                },
+                {
+                  "left": "Breastplate",
+                  "right": "Righteousness"
+                },
+                {
+                  "left": "Shield",
+                  "right": "Faith"
+                },
+                {
+                  "left": "Sword",
+                  "right": "Word of God"
+                }
+              ]
+            },
+            {
+              "id": "atos-u4-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Complete the phrase",
+              "text": "\"Be strong in the Lord and in the strength of His _____.",
+              "answer": "might",
+              "reference": "Ephesians 6:10",
+              "options": [
+                "might",
+                "power"
+              ]
+            },
+            {
+              "id": "atos-u4-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "The armor of God protects us from all spiritual temptation.",
+              "isTrue": true,
+              "reference": "Ephesians 6:10-18",
+              "explanation": "When clothed with complete armor, we are protected against the enemy's attacks."
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l5",
+          "title": "Review - Paul in Rome and His Letters",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "atos-u4-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "What is the importance of Paul's letters?",
+              "text": "His writings defined Christian theology for centuries.",
+              "options": [
+                "They comprise half the New Testament and guide Christian faith",
+                "They are only personal stories",
+                "They have no value for modern Christians",
+                "They were discarded by the Church"
+              ],
+              "answer": "They comprise half the New Testament and guide Christian faith",
+              "reference": "Romans-Philemon",
+              "explanation": "Paul's 13 letters are essential for understanding Christian faith."
+            },
+            {
+              "id": "atos-u4-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "All of Paul's letters address specific problems in local churches.",
+              "isTrue": true,
+              "reference": "Romans-1 Timothy",
+              "explanation": "Paul wrote to specific churches and individuals, but his lessons are universal."
+            },
+            {
+              "id": "atos-u4-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "What is the central theme of Paul's letters?",
+              "text": "Despite variety, there is a thematic unity.",
+              "options": [
+                "Salvation in Christ and life transformed by the Spirit",
+                "Severe criticism of Jewish laws",
+                "Instructions about political government",
+                "Detailed predictions about the end"
+              ],
+              "answer": "Salvation in Christ and life transformed by the Spirit",
+              "reference": "Romans 1:16, 1 Corinthians 15:1-4",
+              "explanation": "Christ and transformation by His Spirit are the heart of all Paul writes."
+            },
+            {
+              "id": "atos-u4-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Build the review verse",
+              "text": "Summary of Pauline wisdom",
+              "tokens": [
+                "All things work together",
+                "for good",
+                "love never ends",
+                "rejoice in the Lord"
+              ],
+              "distractors": [
+                "and in His grace",
+                "be strong",
+                "in the strength of His might"
+              ],
+              "reference": "Romans 8:28, 1 Corinthians 13:8, Philippians 4:4"
+            },
+            {
+              "id": "atos-u4-l5-e5",
+              "kind": "listen",
+              "prompt": "Which teaching did you hear?",
+              "text": "We know that all things work together for good.",
+              "options": [
+                "God cares for details",
+                "All things work good",
+                "Trust in God always"
+              ],
+              "answer": "All things work good",
+              "reference": "Romans 8:28"
+            },
+            {
+              "id": "atos-u4-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Match letters and themes",
+              "pairs": [
+                {
+                  "left": "Romans 8",
+                  "right": "Hope in Christ"
+                },
+                {
+                  "left": "1 Corinthians 13",
+                  "right": "Primacy of love"
+                },
+                {
+                  "left": "Philippians 4",
+                  "right": "Always rejoice"
+                },
+                {
+                  "left": "Ephesians 6",
+                  "right": "Spiritual armor"
+                }
+              ]
+            },
+            {
+              "id": "atos-u4-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Order chronologically Paul's letters",
+              "text": "Period of Pauline correspondence",
+              "tokens": [
+                "Early letters of Thessalonians",
+                "Great letters: Romans, Galatians",
+                "Prison letters: Philippians, Ephesians",
+                "Late pastoral letters"
+              ]
+            },
+            {
+              "id": "atos-u4-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "True or false?",
+              "statement": "Paul's letters continue to transform lives and guide Christian faith.",
+              "isTrue": true,
+              "reference": "Romans-Philemon",
+              "explanation": "Centuries later, Paul's words speak to hearts and transform Christians."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

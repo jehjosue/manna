@@ -1,0 +1,627 @@
+{
+  "id": "herois-u3",
+  "title": "Unidad 3",
+  "subtitle": "Jueces y Reyes",
+  "guide": {
+    "summary": "Débora, Gedeón, Rut, Samuel y David ejemplifican liderazgo diverso en el período de los jueces y reyes. Cada uno respondió al llamado de maneras únicas: como profetisa guerrera, guerrero reluctante, viuda leal, profeta intercesor, y rey según el corazón. Sus confrontaciones con enemigos físicos revelan batallas espirituales mayores.",
+    "keyVerses": [
+      {
+        "reference": "Jueces 4:8-9",
+        "text": "Y Barac le respondió: Si tú fueres conmigo, yo iré; mas si no fueres conmigo, no iré. Y ella dijo: Iré contigo; aunque no te traerá honor en el camino que vas, porque Jehová venderá a Sísara en mano de mujer."
+      },
+      {
+        "reference": "Jueces 6:14",
+        "text": "Y mirándole Jehová, le dijo: Ve con esta tu fuerza, y salvarás a Israel de la mano de los madianitas. ¿No te envío yo?"
+      },
+      {
+        "reference": "1 Samuel 17:45",
+        "text": "Entonces dijo David al filisteo: Tú vienes a mí con espada y lanza y jabalina; mas yo vengo a ti en el nombre de Jehová de los ejércitos, el Dios de los escuadrones de Israel."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "herois-u3-l1",
+      "title": "Débora: La Profetisa Guerrera",
+      "icon": "mountain.2.fill",
+      "exercises": [
+        {
+          "id": "herois-u3-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál era el papel de Débora?",
+          "text": "Débora era ___ y jueza de Israel.",
+          "options": [
+            "profetisa",
+            "reina",
+            "sacerdotisa",
+            "general"
+          ],
+          "answer": "profetisa",
+          "reference": "Jueces 4:4"
+        },
+        {
+          "id": "herois-u3-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Débora mandó llamar a ___ para liderar el ejército.",
+          "answer": "Barac",
+          "options": [
+            "Barac",
+            "Sísara",
+            "Gedeón",
+            "Abimelec"
+          ],
+          "reference": "Jueces 4:6"
+        },
+        {
+          "id": "herois-u3-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Palabra de Débora a Barac",
+          "tokens": [
+            "Ve,",
+            "porque Dios",
+            "te ha entregado",
+            "la victoria"
+          ],
+          "distractors": [
+            "te bendecirá",
+            "te guardará",
+            "te protegerá",
+            "te fortalecerá"
+          ],
+          "reference": "Jueces 4:7"
+        },
+        {
+          "id": "herois-u3-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena los eventos",
+          "text": "Secuencia de la liberación por Débora.",
+          "tokens": [
+            "Débora profetiza",
+            "Barac convoca tropas",
+            "Batalla contra Sísara",
+            "Israel es liberado"
+          ],
+          "reference": "Jueces 4"
+        },
+        {
+          "id": "herois-u3-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los personajes",
+          "pairs": [
+            {
+              "left": "Débora",
+              "right": "Profetisa"
+            },
+            {
+              "left": "Barac",
+              "right": "General"
+            },
+            {
+              "left": "Sísara",
+              "right": "Enemigo"
+            },
+            {
+              "left": "Jael",
+              "right": "Heroína"
+            }
+          ],
+          "reference": "Jueces 4-5"
+        },
+        {
+          "id": "herois-u3-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Barac rechazó ir a la batalla sin Débora.",
+          "isTrue": true,
+          "reference": "Jueces 4:8",
+          "explanation": "Barac dijo que solo iría si Débora iba con él; ella accedió pero le advirtió que la gloria no sería suya."
+        },
+        {
+          "id": "herois-u3-l1-e7",
+          "kind": "listen",
+          "prompt": "¿Quién mató a Sísara?",
+          "text": "Jael mató al general Sísara.",
+          "options": [
+            "Jael",
+            "Barac",
+            "Débora",
+            "Un soldado"
+          ],
+          "answer": "Jael",
+          "reference": "Jueces 4:21"
+        },
+        {
+          "id": "herois-u3-l1-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Mujer sabia construye su casa con palabras de profecía.",
+          "reference": "Jueces 4-5"
+        }
+      ]
+    },
+    {
+      "id": "herois-u3-l2",
+      "title": "Gedeón: El Guerrero Reluctante",
+      "icon": "house.fill",
+      "exercises": [
+        {
+          "id": "herois-u3-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué estaba haciendo Gedeón cuando fue llamado?",
+          "text": "Gedeón estaba ___ trigo cuando el ángel lo llamó.",
+          "options": [
+            "trillando",
+            "sembrando",
+            "cosechando",
+            "vendiendo"
+          ],
+          "answer": "trillando",
+          "reference": "Jueces 6:11"
+        },
+        {
+          "id": "herois-u3-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Dios redujo el ejército de Gedeón a solo ___ hombres.",
+          "answer": "trescientos",
+          "options": [
+            "trescientos",
+            "tres mil",
+            "treinta",
+            "tres"
+          ],
+          "reference": "Jueces 7:6-7"
+        },
+        {
+          "id": "herois-u3-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Llamado a Gedeón",
+          "tokens": [
+            "Ve con esta",
+            "tu fuerza",
+            "y salvarás a Israel"
+          ],
+          "distractors": [
+            "de la mano de Madián",
+            "pero yo te envío",
+            "por mi fuerza",
+            "de sus enemigos"
+          ],
+          "reference": "Jueces 6:14"
+        },
+        {
+          "id": "herois-u3-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena la historia",
+          "text": "Secuencia de Gedeón.",
+          "tokens": [
+            "Gedeón es llamado",
+            "Ejército reducido",
+            "Distribuyen antorchas",
+            "Madianitas son derrotados"
+          ],
+          "reference": "Jueces 6-7"
+        },
+        {
+          "id": "herois-u3-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los detalles",
+          "pairs": [
+            {
+              "left": "Gedeón",
+              "right": "Guerrero vacilante"
+            },
+            {
+              "left": "Trescientos",
+              "right": "Soldados elegidos"
+            },
+            {
+              "left": "Antorchas",
+              "right": "Arma de la victoria"
+            },
+            {
+              "left": "Dios",
+              "right": "Verdadera fuerza"
+            }
+          ],
+          "reference": "Jueces 6-7"
+        },
+        {
+          "id": "herois-u3-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Gedeón quiso aumentar su ejército para mayor oportunidad de victoria.",
+          "isTrue": false,
+          "reference": "Jueces 7:2-7",
+          "explanation": "Dios redujo el ejército de 32 mil a 300 para dejar claro que la victoria era solo suya."
+        },
+        {
+          "id": "herois-u3-l2-e7",
+          "kind": "listen",
+          "prompt": "¿Qué hizo Gedeón?",
+          "text": "Gedeón atacó de noche con antorchas y trompetas.",
+          "options": [
+            "De noche con antorchas",
+            "De día con armas",
+            "Solo y sigilosamente",
+            "Con gran ejército"
+          ],
+          "answer": "De noche con antorchas",
+          "reference": "Jueces 7:20"
+        },
+        {
+          "id": "herois-u3-l2-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Dios es más fuerte que cualquier ejército.",
+          "reference": "Jueces 7:2"
+        }
+      ]
+    },
+    {
+      "id": "herois-u3-l3",
+      "title": "Rut: La Viuda Leal",
+      "icon": "gift.fill",
+      "exercises": [
+        {
+          "id": "herois-u3-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿De dónde era Rut?",
+          "text": "Rut era de ___.",
+          "options": [
+            "Moab",
+            "Judá",
+            "Canaán",
+            "Egipto"
+          ],
+          "answer": "Moab",
+          "reference": "Rut 1:4"
+        },
+        {
+          "id": "herois-u3-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Rut siguió a su suegra ___ a Judá.",
+          "answer": "Noemí",
+          "options": [
+            "Noemí",
+            "Noemá",
+            "Noemi",
+            "Noemis"
+          ],
+          "reference": "Rut 1:16"
+        },
+        {
+          "id": "herois-u3-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Compromiso de Rut",
+          "tokens": [
+            "A donde quiera que tú vayas,",
+            "yo iré;",
+            "y donde quiera que habites,",
+            "habitaré"
+          ],
+          "distractors": [
+            "tu pueblo será",
+            "tu Dios será",
+            "siempre contigo",
+            "mi Dios"
+          ],
+          "reference": "Rut 1:16"
+        },
+        {
+          "id": "herois-u3-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena la historia",
+          "text": "Secuencia de Rut.",
+          "tokens": [
+            "Rut queda viuda",
+            "Va con Noemí",
+            "Trabaja en los campos",
+            "Se casa con Boaz"
+          ],
+          "reference": "Rut 1-4"
+        },
+        {
+          "id": "herois-u3-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los personajes",
+          "pairs": [
+            {
+              "left": "Rut",
+              "right": "Viuda leal"
+            },
+            {
+              "left": "Noemí",
+              "right": "Suegra amada"
+            },
+            {
+              "left": "Boaz",
+              "right": "Redentor"
+            },
+            {
+              "left": "Obed",
+              "right": "Hijo bendito"
+            }
+          ],
+          "reference": "Rut"
+        },
+        {
+          "id": "herois-u3-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Rut era una moabita que se casó con un judío.",
+          "isTrue": true,
+          "reference": "Rut 1:4-5",
+          "explanation": "Rut se casó con Elimelec, un israelita, y después de su muerte, se casó con Boaz, su pariente."
+        },
+        {
+          "id": "herois-u3-l3-e7",
+          "kind": "listen",
+          "prompt": "¿Qué hizo Rut?",
+          "text": "Rut trabajó en los campos recogiendo espigadoras.",
+          "options": [
+            "Recogió espigas",
+            "Vendió telas",
+            "Hizo pan",
+            "Pastoreaba ovejas"
+          ],
+          "answer": "Recogió espigas",
+          "reference": "Rut 2:3"
+        },
+        {
+          "id": "herois-u3-l3-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Tu pueblo será mi pueblo y tu Dios mi Dios.",
+          "reference": "Rut 1:16"
+        }
+      ]
+    },
+    {
+      "id": "herois-u3-l4",
+      "title": "David: El Rey Según el Corazón",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u3-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuántos años tenía David cuando fue ungido?",
+          "text": "David era solo un ___ cuando Samuel lo ungió.",
+          "options": [
+            "muchacho",
+            "hombre",
+            "viejo",
+            "príncipe"
+          ],
+          "answer": "muchacho",
+          "reference": "1 Samuel 16:11-13"
+        },
+        {
+          "id": "herois-u3-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "David venció a Goliat con una ___ y una piedra.",
+          "answer": "honda",
+          "options": [
+            "honda",
+            "lanza",
+            "espada",
+            "arco"
+          ],
+          "reference": "1 Samuel 17:50"
+        },
+        {
+          "id": "herois-u3-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Confianza de David",
+          "tokens": [
+            "Tú vienes a mí",
+            "en el nombre",
+            "de Jehová",
+            "de los ejércitos"
+          ],
+          "distractors": [
+            "con armas",
+            "en fuerza",
+            "con poder",
+            "en riquezas"
+          ],
+          "reference": "1 Samuel 17:45"
+        },
+        {
+          "id": "herois-u3-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Ordena la ascensión",
+          "text": "Secuencia de David.",
+          "tokens": [
+            "David es ungido",
+            "Enfrenta a Goliat",
+            "Se convierte en rey",
+            "Establece el reino"
+          ],
+          "reference": "1 Samuel 16-2 Samuel"
+        },
+        {
+          "id": "herois-u3-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los elementos",
+          "pairs": [
+            {
+              "left": "David",
+              "right": "Rey elegido"
+            },
+            {
+              "left": "Goliat",
+              "right": "Gigante derrotado"
+            },
+            {
+              "left": "Piedra",
+              "right": "Arma de fe"
+            },
+            {
+              "left": "Corazón",
+              "right": "Propósito de Dios"
+            }
+          ],
+          "reference": "1 Samuel"
+        },
+        {
+          "id": "herois-u3-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "David fue elegido por ser el hijo mayor.",
+          "isTrue": false,
+          "reference": "1 Samuel 16:6-12",
+          "explanation": "Samuel buscó entre los hijos mayores, pero Dios eligió a David, el menor, por su corazón."
+        },
+        {
+          "id": "herois-u3-l4-e7",
+          "kind": "listen",
+          "prompt": "¿Cómo venció David?",
+          "text": "David venció con fe en Dios.",
+          "options": [
+            "Con fe en Dios",
+            "Con fuerza",
+            "Con armas",
+            "Con ayuda"
+          ],
+          "answer": "Con fe en Dios",
+          "reference": "1 Samuel 17:45-49"
+        },
+        {
+          "id": "herois-u3-l4-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Jehová salvará a Israel por las manos de David.",
+          "reference": "1 Samuel 17:37"
+        }
+      ]
+    },
+    {
+      "id": "herois-u3-l5",
+      "title": "Revisión: Jueces y Reyes",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "herois-u3-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál es el tema de esta unidad?",
+          "text": "Liderazgo diverso orientado a ___.",
+          "options": [
+            "servir a Dios",
+            "ganar poder",
+            "conquistar tierra",
+            "acumular riqueza"
+          ],
+          "answer": "servir a Dios",
+          "reference": "Jueces-1 Samuel"
+        },
+        {
+          "id": "herois-u3-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Escribe la palabra que falta",
+          "text": "Cada líder respondió con ___ personal al llamado.",
+          "answer": "fe",
+          "options": [
+            "fe",
+            "coraje",
+            "fuerza",
+            "sabiduría"
+          ],
+          "reference": "Jueces-1 Samuel"
+        },
+        {
+          "id": "herois-u3-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Ordena los líderes",
+          "text": "Secuencia de líderes.",
+          "tokens": [
+            "Débora lidera",
+            "Gedeón vence",
+            "Rut muestra lealtad",
+            "David reina"
+          ],
+          "reference": "Jueces-1 Samuel"
+        },
+        {
+          "id": "herois-u3-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Asocia cada líder",
+          "pairs": [
+            {
+              "left": "Débora",
+              "right": "Profetisa-guerrera"
+            },
+            {
+              "left": "Gedeón",
+              "right": "Guerrero reluctante"
+            },
+            {
+              "left": "Rut",
+              "right": "Viuda leal"
+            },
+            {
+              "left": "David",
+              "right": "Rey del corazón"
+            }
+          ],
+          "reference": "Jueces-1 Samuel"
+        },
+        {
+          "id": "herois-u3-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo clave",
+          "text": "Esencia del liderazgo",
+          "tokens": [
+            "Ve",
+            "con esta tu",
+            "fuerza ahora"
+          ],
+          "distractors": [
+            "y vence",
+            "y salva",
+            "y reina",
+            "y prospera"
+          ],
+          "reference": "Jueces 6:14"
+        },
+        {
+          "id": "herois-u3-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Todos los líderes confiaron completamente en Dios desde el inicio.",
+          "isTrue": false,
+          "reference": "Jueces-1 Samuel",
+          "explanation": "Algunos como Gedeón tuvieron dudas y pidieron señales; pero todos completaron el viaje con fe."
+        },
+        {
+          "id": "herois-u3-l5-e7",
+          "kind": "listen",
+          "prompt": "¿Cuál es la lección común?",
+          "text": "La lección es confiar completamente en Dios.",
+          "options": [
+            "Confiar en Dios",
+            "Usar fuerza propia",
+            "Seguir instinto",
+            "Acumular poder"
+          ],
+          "answer": "Confiar en Dios",
+          "reference": "Jueces-1 Samuel"
+        },
+        {
+          "id": "herois-u3-l5-e8",
+          "kind": "speak",
+          "prompt": "Lee en voz alta",
+          "text": "Con Dios, cualquier hombre débil vence gigantes.",
+          "reference": "1 Samuel 17:45-50"
+        }
+      ]
+    }
+  ]
+}

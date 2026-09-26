@@ -1,0 +1,624 @@
+{
+  "id": "parabolas-u4",
+  "title": "Unit 4",
+  "subtitle": "Watchfulness and the End",
+  "guide": {
+    "summary": "Jesus warned his disciples to remain watchful and prepared for his return. Through parables, he taught that the Kingdom will be completed at the end of time, that there is final separation between righteous and unrighteous, and that faithfulness in the face of uncertain timing is supreme virtue.",
+    "keyVerses": [
+      {
+        "reference": "Matthew 25:1-13",
+        "text": "Then the kingdom of heaven will be like ten virgins who took their lamps and went out to meet the bridegroom. Five of them were foolish and five were wise."
+      },
+      {
+        "reference": "Matthew 13:24-30",
+        "text": "The kingdom of heaven is like a man who sowed good seed in his field, but while people were sleeping, his enemy came and sowed weeds among the wheat, and went away."
+      },
+      {
+        "reference": "Matthew 13:47-50",
+        "text": "The kingdom of heaven is like a net that was let down into the lake and caught all kinds of fish. When it was full, the fishermen pulled it up on the shore. Then they sat down and collected the good fish in baskets, but threw the bad away."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "parabolas-u4-l1",
+      "title": "The Ten Virgins",
+      "icon": "tent.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "How many virgins were wise?",
+          "text": "Of the ten virgins, ___ were wise.",
+          "options": [
+            "five",
+            "ten",
+            "three",
+            "seven"
+          ],
+          "answer": "five",
+          "reference": "Matthew 25:2"
+        },
+        {
+          "id": "parabolas-u4-l1-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The wise virgins carried ___ in their jars.",
+          "answer": "oil",
+          "options": [
+            "oil",
+            "water",
+            "wine",
+            "perfume"
+          ],
+          "reference": "Matthew 25:4"
+        },
+        {
+          "id": "parabolas-u4-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Warning to the foolish virgins",
+          "tokens": [
+            "I don't know you",
+            "watch therefore",
+            "do not sleep"
+          ],
+          "distractors": [
+            "rest",
+            "sleep",
+            "wait",
+            "relax"
+          ],
+          "reference": "Matthew 25:12-13"
+        },
+        {
+          "id": "parabolas-u4-l1-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of the Parable of the Virgins.",
+          "tokens": [
+            "Ten virgins wait",
+            "Bridegroom delays",
+            "They awake at night",
+            "Wise enter, foolish stay out"
+          ],
+          "reference": "Matthew 25:1-12"
+        },
+        {
+          "id": "parabolas-u4-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the characteristics",
+          "pairs": [
+            {
+              "left": "Wise virgins",
+              "right": "Oil prepared"
+            },
+            {
+              "left": "Foolish virgins",
+              "right": "No preparation"
+            },
+            {
+              "left": "Bridegroom",
+              "right": "Jesus"
+            },
+            {
+              "left": "Wedding feast",
+              "right": "Kingdom fulfilled"
+            }
+          ],
+          "reference": "Matthew 25:1-13"
+        },
+        {
+          "id": "parabolas-u4-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The foolish virgins asked to borrow oil from the wise ones.",
+          "isTrue": true,
+          "reference": "Matthew 25:8-9",
+          "explanation": "The foolish virgins asked for oil, but the wise answered there was not enough for everyone."
+        },
+        {
+          "id": "parabolas-u4-l1-e7",
+          "kind": "listen",
+          "prompt": "What did the bridegroom say?",
+          "text": "Listen: The bridegroom said he did not know the foolish virgins.",
+          "options": [
+            "Did not know them",
+            "Received them",
+            "Forgave them",
+            "Blessed them"
+          ],
+          "answer": "Did not know them",
+          "reference": "Matthew 25:12"
+        },
+        {
+          "id": "parabolas-u4-l1-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Watch, therefore, for you do not know on what day your Lord will come.",
+          "reference": "Matthew 25:13"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u4-l2",
+      "title": "The Great Feast",
+      "icon": "scroll.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Who was invited to the feast first?",
+          "text": "The ___ invited guests to the great feast.",
+          "options": [
+            "king",
+            "servant",
+            "great man",
+            "lord"
+          ],
+          "answer": "king",
+          "reference": "Matthew 22:2"
+        },
+        {
+          "id": "parabolas-u4-l2-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The invited guests ___ and went their ways.",
+          "answer": "excused themselves",
+          "options": [
+            "excused themselves",
+            "refused",
+            "departed",
+            "withdrew"
+          ],
+          "reference": "Matthew 22:5"
+        },
+        {
+          "id": "parabolas-u4-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "The king's call to the poor",
+          "tokens": [
+            "Go out into",
+            "the poor",
+            "the lame"
+          ],
+          "distractors": [
+            "the rich",
+            "the healthy",
+            "the learned",
+            "the noble"
+          ],
+          "reference": "Matthew 22:8-9"
+        },
+        {
+          "id": "parabolas-u4-l2-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the invitations in order",
+          "text": "Sequence of the Great Feast.",
+          "tokens": [
+            "King invites the notable",
+            "All refuse",
+            "Invites the poor",
+            "House becomes full"
+          ],
+          "reference": "Matthew 22:1-14"
+        },
+        {
+          "id": "parabolas-u4-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the reactions",
+          "pairs": [
+            {
+              "left": "First invited",
+              "right": "Refuse"
+            },
+            {
+              "left": "Poor and lame",
+              "right": "Accept"
+            },
+            {
+              "left": "House full",
+              "right": "Fulfillment"
+            },
+            {
+              "left": "Feast",
+              "right": "Kingdom offered"
+            }
+          ],
+          "reference": "Matthew 22:1-14"
+        },
+        {
+          "id": "parabolas-u4-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "All people invited to the feast were welcomed.",
+          "isTrue": false,
+          "reference": "Matthew 22:11-14",
+          "explanation": "A man without wedding clothes was cast out, for he did not prepare himself adequately for the kingdom."
+        },
+        {
+          "id": "parabolas-u4-l2-e7",
+          "kind": "listen",
+          "prompt": "Who was invited next?",
+          "text": "The poor and needy were invited.",
+          "options": [
+            "Poor and needy",
+            "Rich and powerful",
+            "Scribes and Pharisees",
+            "Priests and Levites"
+          ],
+          "answer": "Poor and needy",
+          "reference": "Matthew 22:9"
+        },
+        {
+          "id": "parabolas-u4-l2-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Many are called, but few are chosen.",
+          "reference": "Matthew 22:14"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u4-l3",
+      "title": "The Weeds and the Wheat",
+      "icon": "key.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Who sowed the weeds?",
+          "text": "The ___ came and sowed weeds among the wheat.",
+          "options": [
+            "enemy",
+            "servant",
+            "devil",
+            "adversary"
+          ],
+          "answer": "enemy",
+          "reference": "Matthew 13:25"
+        },
+        {
+          "id": "parabolas-u4-l3-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "___ explained to the disciples the meaning of the parable.",
+          "answer": "Jesus",
+          "options": [
+            "Jesus",
+            "Lord",
+            "Master",
+            "Prophet"
+          ],
+          "reference": "Matthew 13:37-43"
+        },
+        {
+          "id": "parabolas-u4-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Instruction about harvest",
+          "tokens": [
+            "Let both grow",
+            "together",
+            "until the harvest"
+          ],
+          "distractors": [
+            "forever",
+            "without separating",
+            "mixed",
+            "until the end"
+          ],
+          "reference": "Matthew 13:30"
+        },
+        {
+          "id": "parabolas-u4-l3-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the events in order",
+          "text": "Sequence of weeds and wheat.",
+          "tokens": [
+            "Sower plants wheat",
+            "Enemy sowed weeds",
+            "Both grow together",
+            "At harvest, they are separated"
+          ],
+          "reference": "Matthew 13:24-30"
+        },
+        {
+          "id": "parabolas-u4-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the meanings",
+          "pairs": [
+            {
+              "left": "Wheat",
+              "right": "Children of the Kingdom"
+            },
+            {
+              "left": "Weeds",
+              "right": "Children of the evil one"
+            },
+            {
+              "left": "Harvest",
+              "right": "End of the world"
+            },
+            {
+              "left": "Reapers",
+              "right": "Angels"
+            }
+          ],
+          "reference": "Matthew 13:37-42"
+        },
+        {
+          "id": "parabolas-u4-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus ordered to pull up the weeds immediately after sowing.",
+          "isTrue": false,
+          "reference": "Matthew 13:28-30",
+          "explanation": "Jesus said to let them grow together until harvest, lest in pulling up the weeds you root up the wheat along with them."
+        },
+        {
+          "id": "parabolas-u4-l3-e7",
+          "kind": "listen",
+          "prompt": "When will the weeds be separated?",
+          "text": "Listen: The weeds will be separated at harvest.",
+          "options": [
+            "At harvest",
+            "Immediately",
+            "After days",
+            "Never"
+          ],
+          "answer": "At harvest",
+          "reference": "Matthew 13:30"
+        },
+        {
+          "id": "parabolas-u4-l3-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "The wheat gathered into his barn, the weeds bundled to be burned.",
+          "reference": "Matthew 13:30"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u4-l4",
+      "title": "The Net and the Judgment",
+      "icon": "lightbulb.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "What does the net catch?",
+          "text": "The net catches ___ kind of fish.",
+          "options": [
+            "every",
+            "good",
+            "large",
+            "small"
+          ],
+          "answer": "every",
+          "reference": "Matthew 13:47"
+        },
+        {
+          "id": "parabolas-u4-l4-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "The fishermen choose the ___ for the baskets.",
+          "answer": "good",
+          "options": [
+            "good",
+            "fish",
+            "large",
+            "small"
+          ],
+          "reference": "Matthew 13:48"
+        },
+        {
+          "id": "parabolas-u4-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "What happens to the bad",
+          "tokens": [
+            "The bad",
+            "they throw out",
+            "completely"
+          ],
+          "distractors": [
+            "they keep",
+            "they sell",
+            "they eat",
+            "they return"
+          ],
+          "reference": "Matthew 13:48"
+        },
+        {
+          "id": "parabolas-u4-l4-e4",
+          "kind": "orderEvents",
+          "prompt": "Put the fishing in order",
+          "text": "Sequence of the Fishing Net.",
+          "tokens": [
+            "Net thrown into the sea",
+            "Catches every kind",
+            "Net becomes full",
+            "Separate good from bad"
+          ],
+          "reference": "Matthew 13:47-49"
+        },
+        {
+          "id": "parabolas-u4-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Match the elements",
+          "pairs": [
+            {
+              "left": "Net",
+              "right": "The Kingdom"
+            },
+            {
+              "left": "Good fish",
+              "right": "The righteous"
+            },
+            {
+              "left": "Bad fish",
+              "right": "The unrighteous"
+            },
+            {
+              "left": "Furnace",
+              "right": "Final judgment"
+            }
+          ],
+          "reference": "Matthew 13:47-50"
+        },
+        {
+          "id": "parabolas-u4-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "The net only catches good fish.",
+          "isTrue": false,
+          "reference": "Matthew 13:47-48",
+          "explanation": "The net catches every kind of fish; only in the final separation do they choose the good and throw out the bad."
+        },
+        {
+          "id": "parabolas-u4-l4-e7",
+          "kind": "listen",
+          "prompt": "What happens to the bad?",
+          "text": "The bad fish are thrown out.",
+          "options": [
+            "Thrown out",
+            "Eaten",
+            "Sold",
+            "Kept"
+          ],
+          "answer": "Thrown out",
+          "reference": "Matthew 13:48"
+        },
+        {
+          "id": "parabolas-u4-l4-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "In the furnace of fire there will be weeping and gnashing of teeth.",
+          "reference": "Matthew 13:50"
+        }
+      ]
+    },
+    {
+      "id": "parabolas-u4-l5",
+      "title": "Review: Watchfulness and the End",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "parabolas-u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the central theme of this unit?",
+          "text": "The parables speak about ___ until Jesus returns.",
+          "options": [
+            "watchfulness",
+            "waiting",
+            "repentance",
+            "prayer"
+          ],
+          "answer": "watchfulness",
+          "reference": "Matthew 25 and 13"
+        },
+        {
+          "id": "parabolas-u4-l5-e2",
+          "kind": "typeAnswer",
+          "prompt": "Type the missing word",
+          "text": "At the end of time, there will be ___ between righteous and unrighteous.",
+          "answer": "separation",
+          "options": [
+            "separation",
+            "judgment",
+            "condemnation",
+            "reward"
+          ],
+          "reference": "Matthew 13:47-49"
+        },
+        {
+          "id": "parabolas-u4-l5-e3",
+          "kind": "orderEvents",
+          "prompt": "Put the themes in order",
+          "text": "Sequence of the 5 parables.",
+          "tokens": [
+            "Ten virgins wait",
+            "Feast is offered",
+            "Weeds will be separated",
+            "Righteous and unrighteous divided"
+          ],
+          "reference": "Matthew 25 and 13"
+        },
+        {
+          "id": "parabolas-u4-l5-e4",
+          "kind": "matchPairs",
+          "prompt": "Match each parable",
+          "pairs": [
+            {
+              "left": "Ten virgins",
+              "right": "Constant preparation"
+            },
+            {
+              "left": "Great feast",
+              "right": "Invitation for all"
+            },
+            {
+              "left": "Weeds and wheat",
+              "right": "Divine patience"
+            },
+            {
+              "left": "Fishing net",
+              "right": "Final judgment"
+            }
+          ],
+          "reference": "Matthew 25 and 13"
+        },
+        {
+          "id": "parabolas-u4-l5-e5",
+          "kind": "buildVerse",
+          "prompt": "Build the key verse",
+          "text": "Essence of the teaching",
+          "tokens": [
+            "Watch therefore",
+            "you don't know",
+            "on what day"
+          ],
+          "distractors": [
+            "when he comes",
+            "how he comes",
+            "in what way",
+            "why he comes"
+          ],
+          "reference": "Matthew 25:13"
+        },
+        {
+          "id": "parabolas-u4-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Jesus clearly taught when the end of time would be.",
+          "isTrue": false,
+          "reference": "Matthew 25:13",
+          "explanation": "Jesus warned that no one knows the day or the hour, so we should always be prepared."
+        },
+        {
+          "id": "parabolas-u4-l5-e7",
+          "kind": "listen",
+          "prompt": "What is the greatest advice?",
+          "text": "The greatest advice is to always be prepared.",
+          "options": [
+            "Be prepared",
+            "Be afraid",
+            "Flee",
+            "Count the time"
+          ],
+          "answer": "Be prepared",
+          "reference": "Matthew 25:13"
+        },
+        {
+          "id": "parabolas-u4-l5-e8",
+          "kind": "speak",
+          "prompt": "Read aloud",
+          "text": "Blessed is the servant whom his master will find alert.",
+          "reference": "Matthew 24:46"
+        }
+      ]
+    }
+  ]
+}

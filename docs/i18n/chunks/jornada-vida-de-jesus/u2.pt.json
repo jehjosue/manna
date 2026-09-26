@@ -1,0 +1,650 @@
+{
+  "id": "u2",
+  "title": "Unidade 2",
+  "subtitle": "O início do ministério",
+  "guide": {
+    "summary": "O ministério de Jesus começa com seu batismo e a confirmação do Pai. Vence as tentações do deserto e chama seus primeiros discípulos. Seu primeiro milagre em Caná revela seu poder. Nicodemos aprende sobre novo nascimento. Tudo converge para a verdade central: Deus ama o mundo e oferece vida eterna pelo Filho.",
+    "keyVerses": [
+      {
+        "reference": "Mateus 3:16-17",
+        "text": "Batizado Jesus, saiu logo da água, e eis que se lhe abriram os céus, e viu o Espírito de Deus descendo como pomba e vindo sobre ele. E eis uma voz dos céus, que dizia: Este é o meu Filho amado, em quem tenho prazer."
+      },
+      {
+        "reference": "João 3:16",
+        "text": "Porque Deus amou o mundo de tal maneira que deu seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna."
+      },
+      {
+        "reference": "João 1:1",
+        "text": "No princípio era a Palavra, e a Palavra estava com Deus, e a Palavra era Deus."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u2-l1",
+      "title": "João Batista e o Batismo",
+      "icon": "drop.fill",
+      "exercises": [
+        {
+          "id": "u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Eu, em verdade, vos batizo com água para arrependimento; mas aquele que vem após mim é mais poderoso do que eu; cujos sapatos não sou digno de levar; ele vos batizará com o ___ e com fogo.\"",
+          "speaker": "João Batista",
+          "options": [
+            "Espírito Santo",
+            "espírito",
+            "poder",
+            "fogo"
+          ],
+          "answer": "Espírito Santo",
+          "reference": "Mateus 3:11"
+        },
+        {
+          "id": "u2-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "João Batista era o Messias.",
+          "isTrue": false,
+          "reference": "João 1:20",
+          "explanation": "João explicitamente negou ser o Cristo (João 1:20), dizendo que era apenas uma voz preparando o caminho."
+        },
+        {
+          "id": "u2-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A preparação de João para Jesus",
+          "tokens": [
+            "Preparai o caminho",
+            "do Senhor",
+            "endireitai",
+            "as suas veredas"
+          ],
+          "distractors": [
+            "limpai",
+            "do rei",
+            "levantai",
+            "os caminhos"
+          ],
+          "reference": "Mateus 3:3"
+        },
+        {
+          "id": "u2-l1-e4",
+          "kind": "multipleChoice",
+          "prompt": "Onde Jesus foi batizado?",
+          "text": "Jesus foi batizado no rio ___.",
+          "options": [
+            "Jordão",
+            "Nilo",
+            "Eufrates",
+            "Tigre"
+          ],
+          "answer": "Jordão",
+          "reference": "Mateus 3:13"
+        },
+        {
+          "id": "u2-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "João Batista",
+              "right": "Prepara o caminho"
+            },
+            {
+              "left": "Jesus",
+              "right": "Cumpre a justiça"
+            },
+            {
+              "left": "Espírito Santo",
+              "right": "Desce em forma"
+            },
+            {
+              "left": "Voz de Deus",
+              "right": "Aprova o Filho"
+            }
+          ],
+          "reference": "Mateus 3"
+        },
+        {
+          "id": "u2-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "No batismo de Jesus, uma voz do céu confirmou que ele era o Filho de Deus.",
+          "isTrue": true,
+          "reference": "Mateus 3:17",
+          "explanation": "Ouviu-se uma voz do céu que dizia: \"Este é o meu Filho amado, em quem tenho prazer\" (Mateus 3:17)."
+        },
+        {
+          "id": "u2-l1-e7",
+          "kind": "multipleChoice",
+          "prompt": "Em que forma o Espírito Santo desceu sobre Jesus?",
+          "text": "O Espírito Santo desceu sobre Jesus em forma de ___.",
+          "options": [
+            "pomba",
+            "luz",
+            "fogo",
+            "vento"
+          ],
+          "answer": "pomba",
+          "reference": "Mateus 3:16"
+        },
+        {
+          "id": "u2-l1-e8",
+          "kind": "multipleChoice",
+          "prompt": "Quem batizava no rio Jordão?",
+          "text": "___ batizava as pessoas para arrependimento de seus pecados.",
+          "speaker": "Narrador",
+          "options": [
+            "João",
+            "Pedro",
+            "André",
+            "Filipe"
+          ],
+          "answer": "João",
+          "reference": "Mateus 3:6"
+        }
+      ]
+    },
+    {
+      "id": "u2-l2",
+      "title": "A Tentação no Deserto",
+      "icon": "flame.fill",
+      "exercises": [
+        {
+          "id": "u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Então Jesus foi levado pelo Espírito ao deserto, para ser tentado pelo ___. E, tendo jejuado quarenta dias e quarenta noites, depois teve fome.\"",
+          "options": [
+            "diabo",
+            "povo",
+            "sumo sacerdote",
+            "rei"
+          ],
+          "answer": "diabo",
+          "reference": "Mateus 4:1-2"
+        },
+        {
+          "id": "u2-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Jesus foi para o deserto porque quis se esconder de seus inimigos.",
+          "isTrue": false,
+          "reference": "Mateus 4:1",
+          "explanation": "Jesus foi levado pelo Espírito ao deserto para ser tentado pelo diabo, não para se esconder."
+        },
+        {
+          "id": "u2-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A resposta de Jesus à primeira tentação",
+          "tokens": [
+            "Nem só de pão",
+            "viverá o homem",
+            "mas de toda",
+            "palavra que procede",
+            "da boca de Deus"
+          ],
+          "distractors": [
+            "por obra",
+            "do Espírito",
+            "pela fé",
+            "por sua graça"
+          ],
+          "reference": "Mateus 4:4"
+        },
+        {
+          "id": "u2-l2-e4",
+          "kind": "multipleChoice",
+          "prompt": "Qual foi a primeira tentação oferecida a Jesus?",
+          "text": "O diabo pediu a Jesus que transformasse as ___ em pão.",
+          "options": [
+            "pedras",
+            "areias",
+            "rochas",
+            "terras"
+          ],
+          "answer": "pedras",
+          "reference": "Mateus 4:3"
+        },
+        {
+          "id": "u2-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "Primeira tentação",
+              "right": "Pão do deserto"
+            },
+            {
+              "left": "Segunda tentação",
+              "right": "Poder nos reinos"
+            },
+            {
+              "left": "Terceira tentação",
+              "right": "Lançar do templo"
+            },
+            {
+              "left": "Escritura",
+              "right": "Arma contra diabo"
+            }
+          ],
+          "reference": "Mateus 4:1-11"
+        },
+        {
+          "id": "u2-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O diabo ofereceu a Jesus todos os reinos do mundo se ele se prostasse diante dele.",
+          "isTrue": true,
+          "reference": "Mateus 4:8-9",
+          "explanation": "O diabo levou Jesus ao monte e mostrou todos os reinos, ofertando-os por adoração (Mateus 4:8-9)."
+        },
+        {
+          "id": "u2-l2-e7",
+          "kind": "multipleChoice",
+          "prompt": "De que forma Jesus sempre respondeu às tentações?",
+          "text": "Jesus respondeu com versículos da ___.",
+          "options": [
+            "Escritura",
+            "tradição",
+            "sabedoria",
+            "Lei oral"
+          ],
+          "answer": "Escritura",
+          "reference": "Mateus 4:4,7,10"
+        },
+        {
+          "id": "u2-l2-e8",
+          "kind": "multipleChoice",
+          "prompt": "Quantos dias Jesus jejuou no deserto?",
+          "text": "Jesus jejuou por ___ dias e ___ noites.",
+          "options": [
+            "quarenta e quarenta",
+            "trinta e trinta",
+            "vinte e vinte",
+            "dez e dez"
+          ],
+          "answer": "quarenta e quarenta",
+          "reference": "Mateus 4:2"
+        }
+      ]
+    },
+    {
+      "id": "u2-l3",
+      "title": "Chamado dos Discípulos",
+      "icon": "person.2.fill",
+      "exercises": [
+        {
+          "id": "u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Disse-lhe Jesus: Segue-me, e deixa que os ___ enterrem seus mortos.\"",
+          "speaker": "Jesus",
+          "options": [
+            "mortos",
+            "pecadores",
+            "vivos",
+            "ímpios"
+          ],
+          "answer": "mortos",
+          "reference": "Mateus 8:22"
+        },
+        {
+          "id": "u2-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Pedro, André, Tiago e João eram pescadores quando Jesus os chamou.",
+          "isTrue": true,
+          "reference": "Mateus 4:18-22",
+          "explanation": "Pedro e André estavam lançando redes ao mar, e Tiago e João estavam no barco com Zebedeu, seu pai (Mateus 4:18-22)."
+        },
+        {
+          "id": "u2-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "Promessa de Jesus aos primeiros discípulos",
+          "tokens": [
+            "Vinde após mim",
+            "e eu vos farei",
+            "pescadores de homens"
+          ],
+          "distractors": [
+            "e vos tornarei",
+            "apóstolos",
+            "sábios",
+            "reis"
+          ],
+          "reference": "Mateus 4:19"
+        },
+        {
+          "id": "u2-l3-e4",
+          "kind": "multipleChoice",
+          "prompt": "Qual foi a profissão de Mateus antes de seguir Jesus?",
+          "text": "Mateus era um ___ de impostos.",
+          "options": [
+            "cobrador",
+            "guardião",
+            "senhor",
+            "servo"
+          ],
+          "answer": "cobrador",
+          "reference": "Mateus 9:9"
+        },
+        {
+          "id": "u2-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "Pedro",
+              "right": "Simão Pedro"
+            },
+            {
+              "left": "Mateus",
+              "right": "Cobrador"
+            },
+            {
+              "left": "João",
+              "right": "Discípulo amado"
+            },
+            {
+              "left": "Judas",
+              "right": "Traidor"
+            }
+          ],
+          "reference": "Mateus 10:1-4"
+        },
+        {
+          "id": "u2-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Jesus escolheu doze discípulos para estar com ele.",
+          "isTrue": true,
+          "reference": "Marcos 3:14",
+          "explanation": "Jesus designou doze discípulos para estarem com ele e os enviaria a pregar (Marcos 3:14)."
+        },
+        {
+          "id": "u2-l3-e7",
+          "kind": "multipleChoice",
+          "prompt": "Quem Jesus apelidou de 'Pedra'?",
+          "text": "Jesus deu o nome ___ a Simão.",
+          "options": [
+            "Pedro",
+            "Kephas",
+            "Cefas",
+            "todos acima"
+          ],
+          "answer": "todos acima",
+          "reference": "Mateus 16:18"
+        },
+        {
+          "id": "u2-l3-e8",
+          "kind": "multipleChoice",
+          "prompt": "O que os primeiros discípulos deixaram para seguir Jesus?",
+          "text": "Pedro e André deixaram suas ___ e seguiram Jesus.",
+          "options": [
+            "redes",
+            "barcos",
+            "casas",
+            "famílias"
+          ],
+          "answer": "redes",
+          "reference": "Mateus 4:20"
+        }
+      ]
+    },
+    {
+      "id": "u2-l4",
+      "title": "Bodas de Caná e Nicodemos",
+      "icon": "gift.fill",
+      "exercises": [
+        {
+          "id": "u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Jesus lhes disse: Enchei de água estas talhas. E encheram-nas até ao ___.\"",
+          "speaker": "Jesus",
+          "options": [
+            "topo",
+            "meio",
+            "fim",
+            "borda"
+          ],
+          "answer": "topo",
+          "reference": "João 2:7"
+        },
+        {
+          "id": "u2-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Este foi o primeiro milagre de Jesus, realizado em Caná da Galileia.",
+          "isTrue": true,
+          "reference": "João 2:11",
+          "explanation": "Este foi o primeiro dos sinais que Jesus realizou, em Caná da Galileia (João 2:11)."
+        },
+        {
+          "id": "u2-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A mais importante conversa da Bíblia com Nicodemos",
+          "tokens": [
+            "Porque Deus",
+            "amou o mundo",
+            "de tal maneira",
+            "que deu",
+            "seu Filho unigênito"
+          ],
+          "distractors": [
+            "enviou",
+            "sacrificou",
+            "seu primogênito",
+            "para salvar"
+          ],
+          "reference": "João 3:16"
+        },
+        {
+          "id": "u2-l4-e4",
+          "kind": "multipleChoice",
+          "prompt": "Quem era Nicodemos?",
+          "text": "Nicodemos era um ___ dos judeus.",
+          "options": [
+            "fariseu",
+            "escriba",
+            "sacerdote",
+            "levita"
+          ],
+          "answer": "fariseu",
+          "reference": "João 3:1"
+        },
+        {
+          "id": "u2-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "Bodas de Caná",
+              "right": "Primeiro milagre"
+            },
+            {
+              "left": "Água",
+              "right": "Vinho novo"
+            },
+            {
+              "left": "Nicodemos",
+              "right": "Nascer de novo"
+            },
+            {
+              "left": "João 3:16",
+              "right": "Amor de Deus"
+            }
+          ],
+          "reference": "João 2 e 3"
+        },
+        {
+          "id": "u2-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "Nicodemos veio falar com Jesus à noite.",
+          "isTrue": true,
+          "reference": "João 3:2",
+          "explanation": "Nicodemos veio ter com Jesus de noite, por medo dos judeus (João 3:2)."
+        },
+        {
+          "id": "u2-l4-e7",
+          "kind": "multipleChoice",
+          "prompt": "O que Jesus transformou em vinho?",
+          "text": "Jesus transformou ___ em vinho nas bodas de Caná.",
+          "options": [
+            "água",
+            "suco",
+            "leite",
+            "óleo"
+          ],
+          "answer": "água",
+          "reference": "João 2:9"
+        },
+        {
+          "id": "u2-l4-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo sobre aquele que crê",
+          "text": "\"Quem crê no Filho tem a vida eterna; aquele, porém, que não obedece ao Filho não verá a vida, mas sobre ele permanece a ira de ___.\"",
+          "options": [
+            "Deus",
+            "Deus e do Filho",
+            "Deus Pai",
+            "Deus Todo-Poderoso"
+          ],
+          "answer": "Deus",
+          "reference": "João 3:36"
+        }
+      ]
+    },
+    {
+      "id": "u2-l5",
+      "title": "O Grande Amor de Deus",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete o versículo",
+          "text": "\"Porque Deus amou o mundo de tal maneira que deu seu Filho ___, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.\"",
+          "options": [
+            "unigênito",
+            "primogênito",
+            "servo",
+            "profeta"
+          ],
+          "answer": "unigênito",
+          "reference": "João 3:16"
+        },
+        {
+          "id": "u2-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "João 3:16 expressa o fundamento do amor de Deus por toda a humanidade.",
+          "isTrue": true,
+          "reference": "João 3:16",
+          "explanation": "Este versículo é um resumo perfeito do Evangelho e da graça de Deus."
+        },
+        {
+          "id": "u2-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Monte o versículo",
+          "text": "A razão da morte de Jesus",
+          "tokens": [
+            "Porque Deus",
+            "amou o mundo",
+            "de tal maneira",
+            "que deu",
+            "seu Filho unigênito"
+          ],
+          "distractors": [
+            "para julgá-lo",
+            "para apedrejá-lo",
+            "para destruí-lo",
+            "para punir"
+          ],
+          "reference": "João 3:16"
+        },
+        {
+          "id": "u2-l5-e4",
+          "kind": "multipleChoice",
+          "prompt": "O que acontece com aquele que crê em Jesus?",
+          "text": "Quem crê em Jesus não ___.",
+          "options": [
+            "perece",
+            "morre",
+            "sofre",
+            "é julgado"
+          ],
+          "answer": "perece",
+          "reference": "João 3:16"
+        },
+        {
+          "id": "u2-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Associe os pares",
+          "pairs": [
+            {
+              "left": "Deus",
+              "right": "Amou o mundo"
+            },
+            {
+              "left": "Seu Filho",
+              "right": "Para salvar"
+            },
+            {
+              "left": "Aquele que crê",
+              "right": "Tem vida eterna"
+            },
+            {
+              "left": "A mensagem",
+              "right": "Esperança e amor"
+            }
+          ],
+          "reference": "João 3:16"
+        },
+        {
+          "id": "u2-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "Verdadeiro ou falso?",
+          "statement": "O propósito de Deus ao enviar seu Filho era condenar o mundo.",
+          "isTrue": false,
+          "reference": "João 3:17",
+          "explanation": "Deus não enviou seu Filho para condenar o mundo, mas para que o mundo fosse salvo por ele (João 3:17)."
+        },
+        {
+          "id": "u2-l5-e7",
+          "kind": "multipleChoice",
+          "prompt": "Qual é a consequência de não crer em Jesus?",
+          "text": "Aquele que não crê já está ___.",
+          "options": [
+            "condenado",
+            "maldito",
+            "separado",
+            "perdido"
+          ],
+          "answer": "condenado",
+          "reference": "João 3:18"
+        },
+        {
+          "id": "u2-l5-e8",
+          "kind": "multipleChoice",
+          "prompt": "Complete a promessa de vida eterna",
+          "text": "\"Quem crê no Filho tem a vida ___; aquele, porém, que não obedece ao Filho não verá a vida, mas sobre ele permanece a ira de Deus.\"",
+          "options": [
+            "eterna",
+            "sem fim",
+            "do Pai",
+            "infinita"
+          ],
+          "answer": "eterna",
+          "reference": "João 3:36"
+        }
+      ]
+    }
+  ]
+}

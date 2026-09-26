@@ -1,0 +1,2531 @@
+{
+  "id": "atos",
+  "title": "Hechos de los Apóstoles",
+  "subtitle": "El nacimiento de la Iglesia",
+  "icon": "flame.fill",
+  "order": 5,
+  "units": [
+    {
+      "id": "atos-u1",
+      "title": "Unidad 1",
+      "subtitle": "Pentecostés y la Iglesia Primitiva",
+      "guide": {
+        "summary": "Tras la ascensión de Jesús, el Espíritu Santo descendió en Pentecostés transformando a los discípulos tímidos en apóstoles valientes. La Iglesia primitiva nació con poder, unidad y autenticidad, creciendo exponencialmente a pesar de la persecución.",
+        "keyVerses": [
+          {
+            "reference": "Hechos 1:8",
+            "text": "Pero recibiréis poder del Espíritu Santo que vendrá sobre vosotros."
+          },
+          {
+            "reference": "Hechos 2:4",
+            "text": "Y todos fueron llenos del Espíritu Santo y comenzaron a hablar en otras lenguas."
+          },
+          {
+            "reference": "Hechos 2:42",
+            "text": "Y perseveraban en la doctrina de los apóstoles y en la comunión unos con otros."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "atos-u1-l1",
+          "title": "La Promesa del Espíritu",
+          "icon": "flame.fill",
+          "exercises": [
+            {
+              "id": "atos-u1-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Pero recibiréis poder del Espíritu Santo que vendrá sobre _____.\"",
+              "speaker": "Jesús",
+              "options": [
+                "vosotros",
+                "nosotros",
+                "la Iglesia",
+                "los apóstoles"
+              ],
+              "answer": "vosotros",
+              "reference": "Hechos 1:8",
+              "explanation": "Jesús promete que el Espíritu Santo vendrá sobre los discípulos para capacitarlos."
+            },
+            {
+              "id": "atos-u1-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La promesa del Espíritu Santo se cumplió inmediatamente después de la resurrección de Jesús.",
+              "isTrue": false,
+              "reference": "Hechos 1:4-8, 2:1-4",
+              "explanation": "Los discípulos tuvieron que esperar algunos días hasta Pentecostés para recibir el Espíritu Santo."
+            },
+            {
+              "id": "atos-u1-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Por qué Jesús pidió que los discípulos esperaran?",
+              "text": "Jesús pidió que esperaran en Jerusalén la promesa del Padre.",
+              "options": [
+                "Para recibir el Espíritu Santo",
+                "Para conseguir fondos",
+                "Para reclutar más seguidores",
+                "Para entrenar más"
+              ],
+              "answer": "Para recibir el Espíritu Santo",
+              "reference": "Hechos 1:4-5",
+              "explanation": "El Espíritu Santo sería el poder necesario para ser testigos de Jesús."
+            },
+            {
+              "id": "atos-u1-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Promesa de poder en Hechos 1:8",
+              "tokens": [
+                "Recibiréis poder",
+                "del Espíritu Santo",
+                "y seréis mis testigos",
+                "en Jerusalén"
+              ],
+              "distractors": [
+                "y en toda Judea",
+                "y en Samaria",
+                "hasta lo postrero"
+              ],
+              "reference": "Hechos 1:8"
+            },
+            {
+              "id": "atos-u1-l1-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Recibiréis poder del Espíritu Santo que vendrá sobre vosotros.",
+              "options": [
+                "El Espíritu Santo nos capacitará",
+                "Recibiréis poder del Espíritu Santo",
+                "Dios promete Su Espíritu"
+              ],
+              "answer": "Recibiréis poder del Espíritu Santo",
+              "reference": "Hechos 1:8"
+            },
+            {
+              "id": "atos-u1-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia elementos de la promesa",
+              "pairs": [
+                {
+                  "left": "Espíritu Santo",
+                  "right": "Poder divino"
+                },
+                {
+                  "left": "Testigos",
+                  "right": "Propagadores de la fe"
+                },
+                {
+                  "left": "Poder",
+                  "right": "Capacidad de actuar"
+                },
+                {
+                  "left": "Promesa del Padre",
+                  "right": "Se cumple en Pentecostés"
+                }
+              ]
+            },
+            {
+              "id": "atos-u1-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Recibiréis poder del Espíritu Santo que vendrá sobre _____.\"",
+              "answer": "vosotros",
+              "reference": "Hechos 1:8",
+              "options": [
+                "vosotros",
+                "ustedes"
+              ]
+            },
+            {
+              "id": "atos-u1-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "El Espíritu Santo nos capacita para hacer todo lo que Dios nos llama a hacer.",
+              "isTrue": true,
+              "reference": "Hechos 1:8",
+              "explanation": "El Espíritu Santo es el poder que nos hace capaces de ser testigos eficaces de Cristo."
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l2",
+          "title": "El Día de Pentecostés",
+          "icon": "flame.fill",
+          "exercises": [
+            {
+              "id": "atos-u1-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Y todos fueron llenos del Espíritu Santo y comenzaron a hablar en otras _____.\"",
+              "speaker": "Lucas",
+              "options": [
+                "lenguas",
+                "voces",
+                "palabras",
+                "idiomas"
+              ],
+              "answer": "lenguas",
+              "reference": "Hechos 2:4",
+              "explanation": "La señal visible y audible de Pentecostés fue que todos comenzaron a hablar en otras lenguas."
+            },
+            {
+              "id": "atos-u1-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Pentecostés marca el nacimiento oficial de la Iglesia Cristiana.",
+              "isTrue": true,
+              "reference": "Hechos 2:1-47",
+              "explanation": "Pentecostés es cuando los primeros 3.000 se convirtieron y la Iglesia comenzó."
+            },
+            {
+              "id": "atos-u1-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué pasó cuando Pedro predicó en Pentecostés?",
+              "text": "El primer mensaje después de que el Espíritu Santo descendiera resultó en muchos convertidos.",
+              "options": [
+                "Aproximadamente 3.000 personas se convirtieron",
+                "Solo los apóstoles creyeron",
+                "Nadie quiso escuchar",
+                "Solo 12 personas creyeron"
+              ],
+              "answer": "Aproximadamente 3.000 personas se convirtieron",
+              "reference": "Hechos 2:41",
+              "explanation": "La predicación de Pedro resultó en la adición de 3.000 discípulos a la Iglesia naciente."
+            },
+            {
+              "id": "atos-u1-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La señal de Pentecostés en Hechos 2:2-3",
+              "tokens": [
+                "Y de repente vino",
+                "un sonido del cielo",
+                "como de un viento recio",
+                "e impetuoso"
+              ],
+              "distractors": [
+                "y llenó",
+                "toda la casa",
+                "lenguas de fuego"
+              ],
+              "reference": "Hechos 2:2-3"
+            },
+            {
+              "id": "atos-u1-l2-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Y todos fueron llenos del Espíritu Santo.",
+              "options": [
+                "El Espíritu Santo descendió",
+                "Y todos llenos del Espíritu Santo",
+                "Un viento del cielo"
+              ],
+              "answer": "Y todos llenos del Espíritu Santo",
+              "reference": "Hechos 2:4"
+            },
+            {
+              "id": "atos-u1-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia las señales de Pentecostés",
+              "pairs": [
+                {
+                  "left": "Sonido de viento",
+                  "right": "Poder divino"
+                },
+                {
+                  "left": "Lenguas de fuego",
+                  "right": "Purificación y presencia"
+                },
+                {
+                  "left": "Hablar en lenguas",
+                  "right": "Capacitación sobrenatural"
+                },
+                {
+                  "left": "3.000 conversiones",
+                  "right": "Éxito de la predicación"
+                }
+              ]
+            },
+            {
+              "id": "atos-u1-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Y todos fueron llenos del Espíritu Santo y comenzaron a hablar en otras _____.\"",
+              "answer": "lenguas",
+              "reference": "Hechos 2:4",
+              "options": [
+                "lenguas",
+                "lenguajes"
+              ]
+            },
+            {
+              "id": "atos-u1-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Pentecostés fue un evento único que nunca volvió a suceder.",
+              "isTrue": false,
+              "reference": "Hechos 2, 8, 10",
+              "explanation": "Aunque Pentecostés es el evento inicial, el llenamiento del Espíritu Santo se repitió varias veces en los Hechos."
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l3",
+          "title": "La Iglesia Primitiva",
+          "icon": "house.fill",
+          "exercises": [
+            {
+              "id": "atos-u1-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Y perseveraban en la doctrina de los apóstoles y en la comunión unos con los _____.\"",
+              "speaker": "Lucas",
+              "options": [
+                "otros",
+                "semejantes",
+                "vecinos",
+                "hermanos"
+              ],
+              "answer": "otros",
+              "reference": "Hechos 2:42",
+              "explanation": "La Iglesia primitiva se caracterizaba por la enseñanza apostólica y la comunión genuina."
+            },
+            {
+              "id": "atos-u1-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La Iglesia primitiva poseía todos sus bienes en común y vendía propiedades para ayudar a los necesitados.",
+              "isTrue": true,
+              "reference": "Hechos 2:44-45",
+              "explanation": "La generosidad de la Iglesia primitiva era notable, compartiendo todo libremente."
+            },
+            {
+              "id": "atos-u1-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál era la actitud del pueblo hacia la Iglesia primitiva?",
+              "text": "Lucas describe la reputación y el crecimiento de la Iglesia naciente.",
+              "options": [
+                "Tenían favor con el pueblo y crecían",
+                "Eran odiados por todos",
+                "A nadie le importaba",
+                "Eran expulsados constantemente"
+              ],
+              "answer": "Tenían favor con el pueblo y crecían",
+              "reference": "Hechos 2:47",
+              "explanation": "La Iglesia tenía favor con el pueblo y el Señor añadía nuevos convertidos continuamente."
+            },
+            {
+              "id": "atos-u1-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Características de la Iglesia primitiva",
+              "tokens": [
+                "Y perseveraban",
+                "en la doctrina de los apóstoles",
+                "en la comunión",
+                "en el partimiento del pan"
+              ],
+              "distractors": [
+                "en las oraciones",
+                "en las alabanzas",
+                "en la oración"
+              ],
+              "reference": "Hechos 2:42"
+            },
+            {
+              "id": "atos-u1-l3-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Y perseveraban en la doctrina de los apóstoles.",
+              "options": [
+                "Aprendían las palabras de Jesús",
+                "Perseveraban en la doctrina apóstoles",
+                "Mantenían la fe recibida"
+              ],
+              "answer": "Perseveraban en la doctrina apóstoles",
+              "reference": "Hechos 2:42"
+            },
+            {
+              "id": "atos-u1-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia las características de la Iglesia",
+              "pairs": [
+                {
+                  "left": "Comunión",
+                  "right": "Unidad entre hermanos"
+                },
+                {
+                  "left": "Doctrina apostólica",
+                  "right": "Enseñanza auténtica"
+                },
+                {
+                  "left": "Partimiento del pan",
+                  "right": "Celebración de la Cena"
+                },
+                {
+                  "left": "Oración continua",
+                  "right": "Dependencia de Dios"
+                }
+              ]
+            },
+            {
+              "id": "atos-u1-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Y perseveraban en la doctrina de los apóstoles y en la comunión unos con los _____.\"",
+              "answer": "otros",
+              "reference": "Hechos 2:42",
+              "options": [
+                "otros",
+                "semejantes"
+              ]
+            },
+            {
+              "id": "atos-u1-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La Iglesia primitiva era egoísta y cada uno cuidaba solo de sí mismo.",
+              "isTrue": false,
+              "reference": "Hechos 2:44-45",
+              "explanation": "La Iglesia primitiva se caracterizaba por el altruismo y el compartir generoso de recursos."
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l4",
+          "title": "Actos de Poder",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "atos-u1-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Quién fue curado primero por los apóstoles después de Pentecostés?",
+              "text": "Un milagro dramático abrió las puertas para más predicación.",
+              "options": [
+                "Un mendigo cojo en la Puerta Hermosa",
+                "Una mujer con fiebre",
+                "Un ciego de nacimiento",
+                "Un paralítico"
+              ],
+              "answer": "Un mendigo cojo en la Puerta Hermosa",
+              "reference": "Hechos 3:1-10",
+              "explanation": "Pedro sanó a un hombre que nunca había caminado, causando admiración general."
+            },
+            {
+              "id": "atos-u1-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Los milagros de la Iglesia primitiva eran realizados en nombre de Jesucristo.",
+              "isTrue": true,
+              "reference": "Hechos 3:6, 16",
+              "explanation": "Pedro enfatiza que los milagros ocurren a través de la fe en el nombre de Jesús."
+            },
+            {
+              "id": "atos-u1-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Por qué los apóstoles fueron encarcelados?",
+              "text": "Su predicación atrajo a autoridades que temían su influencia.",
+              "options": [
+                "Predicaban sobre Jesús y hacían milagros",
+                "Robaban del templo",
+                "Incitaban revolución política",
+                "Violaban leyes alimentarias"
+              ],
+              "answer": "Predicaban sobre Jesús y hacían milagros",
+              "reference": "Hechos 4:1-3",
+              "explanation": "Las autoridades religiosas temían que el mensaje sobre Jesús se propagara."
+            },
+            {
+              "id": "atos-u1-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Poder en nombre de Jesús en Hechos 3:6",
+              "tokens": [
+                "Entonces Pedro dijo",
+                "No tengo oro ni plata",
+                "pero lo que tengo te doy",
+                "En el nombre de Jesucristo"
+              ],
+              "distractors": [
+                "Levántate y anda",
+                "de Nazaret, anda",
+                "toma tu camilla"
+              ],
+              "reference": "Hechos 3:6"
+            },
+            {
+              "id": "atos-u1-l4-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "No tengo oro ni plata pero te doy en nombre de Jesús.",
+              "options": [
+                "Oro y plata no tienen valor",
+                "No tengo oro doy en nombre de Jesús",
+                "La riqueza material es invisible"
+              ],
+              "answer": "No tengo oro doy en nombre de Jesús",
+              "reference": "Hechos 3:6"
+            },
+            {
+              "id": "atos-u1-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia los milagros con los resultados",
+              "pairs": [
+                {
+                  "left": "Sanidad del cojo",
+                  "right": "Admiración general"
+                },
+                {
+                  "left": "Oración de los apóstoles",
+                  "right": "Poder del Espíritu"
+                },
+                {
+                  "left": "Predicación de Pedro",
+                  "right": "Conversión de muchos"
+                },
+                {
+                  "left": "Presencia apostólica",
+                  "right": "Señales y maravillas"
+                }
+              ]
+            },
+            {
+              "id": "atos-u1-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"En nombre de Jesucristo de Nazaret, _____.\"",
+              "answer": "anda",
+              "reference": "Hechos 3:6",
+              "options": [
+                "anda",
+                "levántate"
+              ]
+            },
+            {
+              "id": "atos-u1-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Los milagros de los apóstoles sucedían incluso cuando enfrentaban oposición.",
+              "isTrue": true,
+              "reference": "Hechos 3-5",
+              "explanation": "La persecución no interrumpió el poder y los milagros de la Iglesia primitiva."
+            }
+          ]
+        },
+        {
+          "id": "atos-u1-l5",
+          "title": "Repaso - Pentecostés e Iglesia Primitiva",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "atos-u1-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cómo Jesús preparó a Sus discípulos para Pentecostés?",
+              "text": "Después de Su resurrección, Jesús dio instrucciones específicas.",
+              "options": [
+                "Prometió que el Espíritu Santo vendría con poder",
+                "Dijo que serían perseguidos",
+                "Ordenó que salieran inmediatamente",
+                "No los preparó de forma especial"
+              ],
+              "answer": "Prometió que el Espíritu Santo vendría con poder",
+              "reference": "Hechos 1:4-8",
+              "explanation": "Jesús prometió el Espíritu Santo y el poder para ser testigos."
+            },
+            {
+              "id": "atos-u1-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La Iglesia primitiva enfrentó persecución pero continuó creciendo.",
+              "isTrue": true,
+              "reference": "Hechos 1-7",
+              "explanation": "A pesar de las encarcelaciones y amenazas, la Iglesia primitiva creció exponencialmente."
+            },
+            {
+              "id": "atos-u1-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál era el secreto del éxito de la Iglesia primitiva?",
+              "text": "Varios factores contribuyeron a su crecimiento extraordinario.",
+              "options": [
+                "Doctrina apostólica, comunión, oración y milagros",
+                "Riqueza material",
+                "Apoyo político",
+                "Construcción de grandes templos"
+              ],
+              "answer": "Doctrina apostólica, comunión, oración y milagros",
+              "reference": "Hechos 2:42-47",
+              "explanation": "El fundamento era espiritual, no material o político."
+            },
+            {
+              "id": "atos-u1-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo de repaso",
+              "text": "Resumen de Pentecostés e Iglesia",
+              "tokens": [
+                "Recibiréis poder",
+                "del Espíritu Santo",
+                "y perseveraban en la doctrina",
+                "con mucho poder"
+              ],
+              "distractors": [
+                "y en comunión",
+                "en la oración",
+                "en el partimiento del pan"
+              ],
+              "reference": "Hechos 1:8, 2:42"
+            },
+            {
+              "id": "atos-u1-l5-e5",
+              "kind": "listen",
+              "prompt": "¿Qué versículo escuchaste?",
+              "text": "Pero recibiréis poder del Espíritu Santo.",
+              "options": [
+                "Dios dará Su Espíritu",
+                "Recibiréis poder del Espíritu Santo",
+                "El Espíritu nos capacita"
+              ],
+              "answer": "Recibiréis poder del Espíritu Santo",
+              "reference": "Hechos 1:8"
+            },
+            {
+              "id": "atos-u1-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia los elementos principales",
+              "pairs": [
+                {
+                  "left": "Pentecostés",
+                  "right": "Nacimiento de la Iglesia"
+                },
+                {
+                  "left": "Espíritu Santo",
+                  "right": "Poder para testificar"
+                },
+                {
+                  "left": "Milagros",
+                  "right": "Confirmación de la fe"
+                },
+                {
+                  "left": "Comunión",
+                  "right": "Unidad en la fe"
+                }
+              ]
+            },
+            {
+              "id": "atos-u1-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Ordena los eventos de Pentecostés",
+              "text": "Secuencia de Hechos 1-2",
+              "tokens": [
+                "Jesús promete el Espíritu",
+                "Discípulos esperan en Jerusalén",
+                "El Espíritu desciende con señales",
+                "3.000 se convierten"
+              ]
+            },
+            {
+              "id": "atos-u1-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La historia de la Iglesia primitiva es un modelo para la fe cristiana hoy.",
+              "isTrue": true,
+              "reference": "Hechos 1-2",
+              "explanation": "El poder, la unidad y el crecimiento de la Iglesia primitiva continúan inspirándonos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atos-u2",
+      "title": "Unidad 2",
+      "subtitle": "Pedro, Juan y Esteban",
+      "guide": {
+        "summary": "Pedro fue transformado de hombre que negó a Jesús en líder valiente de la Iglesia. Juan fue su compañero fiel. Esteban fue el primer mártir, demostrando que la fe vale más que la vida. Estos héroes nos enseñan sobre coraje, fidelidad y sacrificio.",
+        "keyVerses": [
+          {
+            "reference": "Hechos 4:19-20",
+            "text": "Mas Pedro y Juan respondieron: Juzgamos que es justo obedecer a Dios antes que a los hombres."
+          },
+          {
+            "reference": "Hechos 5:41",
+            "text": "Y ellos se fueron de la presencia del consejo, gozosos de haber sido tenidos por dignos de padecer deshonra por la causa de Jesús."
+          },
+          {
+            "reference": "Hechos 7:59",
+            "text": "Y apedreaban a Esteban, que invocaba y decía: Señor Jesús, recibe mi espíritu."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "atos-u2-l1",
+          "title": "Pedro Audaz",
+          "icon": "person.2.fill",
+          "exercises": [
+            {
+              "id": "atos-u2-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cómo era Pedro antes de Pentecostés?",
+              "text": "Pedro tenía una característica muy marcada antes de recibir el Espíritu Santo.",
+              "options": [
+                "Miedo y negación de Jesús",
+                "Líder confiado",
+                "Guerrero violento",
+                "Predicador elocuente"
+              ],
+              "answer": "Miedo y negación de Jesús",
+              "reference": "Mateo 26:69-75, Hechos 1",
+              "explanation": "Pedro había negado a Jesús tres veces por miedo, pero después se transformó."
+            },
+            {
+              "id": "atos-u2-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Después de Pentecostés, Pedro se convirtió en un hombre valiente y sin temor.",
+              "isTrue": true,
+              "reference": "Hechos 2-5",
+              "explanation": "La transformación de Pedro es dramática: de negador a predicador audaz."
+            },
+            {
+              "id": "atos-u2-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál fue la respuesta de Pedro cuando le ordenaron que no predicara?",
+              "text": "Las autoridades intentaron silenciar a Pedro, pero él respondió con valentía.",
+              "options": [
+                "Juzgamos que es justo obedecer a Dios antes que a los hombres",
+                "Voy a obedecer y dejaré de predicar",
+                "Voy a esconderme",
+                "Voy a hacer una rebelión"
+              ],
+              "answer": "Juzgamos que es justo obedecer a Dios antes que a los hombres",
+              "reference": "Hechos 4:19-20",
+              "explanation": "Pedro afirmó que su obediencia a Dios es más importante que obedecer a los hombres."
+            },
+            {
+              "id": "atos-u2-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La respuesta valiente de Pedro",
+              "tokens": [
+                "Mas Pedro y Juan respondieron",
+                "Juzgamos que es justo obedecer a Dios",
+                "antes que a los hombres",
+                "porque hemos visto y oído"
+              ],
+              "distractors": [
+                "y testificamos",
+                "de lo que fue revelado",
+                "a todos"
+              ],
+              "reference": "Hechos 4:19-20"
+            },
+            {
+              "id": "atos-u2-l1-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Juzgamos que es justo obedecer a Dios antes que a los hombres.",
+              "options": [
+                "Dios es más importante",
+                "Juzgamos obedecer a Dios",
+                "Los hombres no deben mandar"
+              ],
+              "answer": "Juzgamos obedecer a Dios",
+              "reference": "Hechos 4:19"
+            },
+            {
+              "id": "atos-u2-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia la transformación de Pedro",
+              "pairs": [
+                {
+                  "left": "Antes",
+                  "right": "Miedo y negación"
+                },
+                {
+                  "left": "Pentecostés",
+                  "right": "Llenamiento del Espíritu"
+                },
+                {
+                  "left": "Después",
+                  "right": "Valentía y liderazgo"
+                },
+                {
+                  "left": "Resultado",
+                  "right": "Multitudes se convierten"
+                }
+              ]
+            },
+            {
+              "id": "atos-u2-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Juzgamos que es justo obedecer a Dios antes que a los _____.\"",
+              "answer": "hombres",
+              "reference": "Hechos 4:19",
+              "options": [
+                "hombres",
+                "líderes"
+              ]
+            },
+            {
+              "id": "atos-u2-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La valentía de Pedro vino de su fuerza personal y determinación.",
+              "isTrue": false,
+              "reference": "Hechos 4:8, 1:8",
+              "explanation": "La valentía de Pedro vino del Espíritu Santo, no de su propia fuerza."
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l2",
+          "title": "Juan, el Compañero",
+          "icon": "book.fill",
+          "exercises": [
+            {
+              "id": "atos-u2-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál era la relación entre Pedro y Juan?",
+              "text": "Estos dos apóstoles trabajaron juntos frecuentemente en los Hechos.",
+              "options": [
+                "Eran compañeros inseparables en la obra",
+                "Eran rivales",
+                "No tenían contacto",
+                "Tenían opiniones opuestas"
+              ],
+              "answer": "Eran compañeros inseparables en la obra",
+              "reference": "Hechos 3:1, 4:13, 8:14",
+              "explanation": "Pedro y Juan trabajaron juntos predicando, sanando y enfrentando persecución."
+            },
+            {
+              "id": "atos-u2-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Juan era un hombre sin educación formal, pero había encontrado a Jesús.",
+              "isTrue": true,
+              "reference": "Hechos 4:13",
+              "explanation": "Lucas observa que Pedro y Juan eran hombres sin letras, pero la valentía venía de Jesús."
+            },
+            {
+              "id": "atos-u2-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué sorprendió a los líderes en Pedro y Juan?",
+              "text": "Aunque sin educación formal, impresionaban con su mensaje.",
+              "options": [
+                "Su valentía y confianza en Jesús",
+                "Su riqueza material",
+                "Su conocimiento de la ley",
+                "Su apoyo político"
+              ],
+              "answer": "Su valentía y confianza en Jesús",
+              "reference": "Hechos 4:13",
+              "explanation": "Estaba claro que su autoridad provenía de un encuentro real con Jesús."
+            },
+            {
+              "id": "atos-u2-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Observación sobre Pedro y Juan en Hechos 4:13",
+              "tokens": [
+                "Entonces, viendo la osadía",
+                "de Pedro y de Juan",
+                "y considerando que eran",
+                "hombres sin letras"
+              ],
+              "distractors": [
+                "y sin instrucción",
+                "reconocieron",
+                "que habían estado con Jesús"
+              ],
+              "reference": "Hechos 4:13"
+            },
+            {
+              "id": "atos-u2-l2-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Reconocieron que habían estado con Jesús.",
+              "options": [
+                "Fueron discípulos de un rabino",
+                "Habían estado con Jesús",
+                "Aprendieron filosofía griega"
+              ],
+              "answer": "Habían estado con Jesús",
+              "reference": "Hechos 4:13"
+            },
+            {
+              "id": "atos-u2-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia características de Juan",
+              "pairs": [
+                {
+                  "left": "Compañero",
+                  "right": "Siempre con Pedro"
+                },
+                {
+                  "left": "Sin letras",
+                  "right": "Sin educación formal"
+                },
+                {
+                  "left": "Osadía",
+                  "right": "Valentía en Jesús"
+                },
+                {
+                  "left": "Encuentro con Jesús",
+                  "right": "Fuente de poder"
+                }
+              ]
+            },
+            {
+              "id": "atos-u2-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Reconocieron que habían estado con _____.\"",
+              "answer": "Jesús",
+              "reference": "Hechos 4:13",
+              "options": [
+                "Jesús",
+                "el Señor"
+              ]
+            },
+            {
+              "id": "atos-u2-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La fidelidad de Juan a Pedro es un ejemplo de compañerismo cristiano.",
+              "isTrue": true,
+              "reference": "Hechos 3-5",
+              "explanation": "Juan permanecía al lado de Pedro en la predicación, sanidad e incluso en la prisión."
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l3",
+          "title": "Esteban, el Primer Mártir",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "atos-u2-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Quién fue Esteban?",
+              "text": "Un hombre lleno de fe y del Espíritu Santo en la Iglesia primitiva.",
+              "options": [
+                "Un diácono elegido para servir",
+                "Un apóstol de los doce",
+                "Un sacerdote del templo",
+                "Un escriba de la ley"
+              ],
+              "answer": "Un diácono elegido para servir",
+              "reference": "Hechos 6:1-6",
+              "explanation": "Esteban fue elegido entre los siete diáconos para servir a las viudas."
+            },
+            {
+              "id": "atos-u2-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Esteban realizaba señales y maravillas y enfrentaba oposición verbal.",
+              "isTrue": true,
+              "reference": "Hechos 6:8, 6:9-10",
+              "explanation": "Esteban no solo servía, sino que también obraba milagros y testificaba."
+            },
+            {
+              "id": "atos-u2-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cómo murió Esteban?",
+              "text": "Su muerte fue una prueba extrema de su fe en Jesús.",
+              "options": [
+                "Apedreado por opositores",
+                "Crucificado como Jesús",
+                "Encarcelado y murió en la cárcel",
+                "Murió de enfermedad"
+              ],
+              "answer": "Apedreado por opositores",
+              "reference": "Hechos 7:57-60",
+              "explanation": "Esteban fue el primer cristiano martirizado, apedreado por su fe."
+            },
+            {
+              "id": "atos-u2-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Última oración de Esteban en Hechos 7:59-60",
+              "tokens": [
+                "Señor Jesús",
+                "recibe mi espíritu",
+                "y no les tomes",
+                "en cuenta este pecado"
+              ],
+              "distractors": [
+                "se arrodilló",
+                "y clamó",
+                "con gran voz"
+              ],
+              "reference": "Hechos 7:59-60"
+            },
+            {
+              "id": "atos-u2-l3-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Señor Jesús recibe mi espíritu.",
+              "options": [
+                "Padre perdona sus pecados",
+                "Señor Jesús recibe espíritu",
+                "Veo los cielos abiertos"
+              ],
+              "answer": "Señor Jesús recibe espíritu",
+              "reference": "Hechos 7:59"
+            },
+            {
+              "id": "atos-u2-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia características de Esteban",
+              "pairs": [
+                {
+                  "left": "Siervo fiel",
+                  "right": "Diácono generoso"
+                },
+                {
+                  "left": "Operador de milagros",
+                  "right": "Señales y maravillas"
+                },
+                {
+                  "left": "Martirizado",
+                  "right": "Apedreado"
+                },
+                {
+                  "left": "Perdón",
+                  "right": "No tomar en cuenta el pecado"
+                }
+              ]
+            },
+            {
+              "id": "atos-u2-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Señor Jesús, recibe mi _____.\"",
+              "answer": "espíritu",
+              "reference": "Hechos 7:59",
+              "options": [
+                "espíritu",
+                "alma"
+              ]
+            },
+            {
+              "id": "atos-u2-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Esteban enfrentó la muerte con miedo y arrepentimiento de su fe.",
+              "isTrue": false,
+              "reference": "Hechos 7:55-60",
+              "explanation": "Esteban enfrentó la muerte con paz, visión del cielo y perdón para sus asesinos."
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l4",
+          "title": "Lecciones de Valentía",
+          "icon": "flame.fill",
+          "exercises": [
+            {
+              "id": "atos-u2-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál es la lección principal sobre la persecución en los Hechos?",
+              "text": "Pedro, Juan y Esteban enfrentaron oposición de formas diferentes.",
+              "options": [
+                "La fe nos sostiene incluso en la adversidad",
+                "Debemos evitar la persecución a cualquier precio",
+                "La fe no importa cuando hay oposición",
+                "Debemos usar violencia para defendernos"
+              ],
+              "answer": "La fe nos sostiene incluso en la adversidad",
+              "reference": "Hechos 2-7",
+              "explanation": "Los tres permanecieron fieles, demostrando que la fe trasciende la persecución."
+            },
+            {
+              "id": "atos-u2-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Dios abandona a Sus siervos cuando enfrentan persecución grave.",
+              "isTrue": false,
+              "reference": "Hechos 2-7",
+              "explanation": "Dios estaba presente y capacitaba a Sus siervos incluso durante la persecución más severa."
+            },
+            {
+              "id": "atos-u2-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué mostraron Pedro y Juan cuando fueron encarcelados?",
+              "text": "Su reacción demuestra lo que significa verdadera fe.",
+              "options": [
+                "Gozo por sufrir por la fe en Cristo",
+                "Tristeza y arrepentimiento",
+                "Huida y escondite",
+                "Negociación con las autoridades"
+              ],
+              "answer": "Gozo por sufrir por la fe en Cristo",
+              "reference": "Hechos 5:41",
+              "explanation": "Se retiraron de la prisión regocijándose por ser dignos de sufrir por Jesús."
+            },
+            {
+              "id": "atos-u2-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La actitud de Pedro y Juan frente al sufrimiento",
+              "tokens": [
+                "Y salieron de la presencia",
+                "del consejo",
+                "gozosos",
+                "de haber sido tenidos por dignos"
+              ],
+              "distractors": [
+                "de padecer deshonra",
+                "por la causa de Jesús",
+                "y continuaron predicando"
+              ],
+              "reference": "Hechos 5:41"
+            },
+            {
+              "id": "atos-u2-l4-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Gozosos de haber sido tenidos por dignos.",
+              "options": [
+                "Sufrir por la fe es privilegio",
+                "Gozosos dignos sufrir",
+                "Felices con persecución"
+              ],
+              "answer": "Gozosos dignos sufrir",
+              "reference": "Hechos 5:41"
+            },
+            {
+              "id": "atos-u2-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia lecciones de valentía",
+              "pairs": [
+                {
+                  "left": "Pedro",
+                  "right": "Obediencia a Dios ante todo"
+                },
+                {
+                  "left": "Juan",
+                  "right": "Compañerismo fiel"
+                },
+                {
+                  "left": "Esteban",
+                  "right": "Perdón hasta el final"
+                },
+                {
+                  "left": "Los tres",
+                  "right": "Gozo en el sufrimiento"
+                }
+              ]
+            },
+            {
+              "id": "atos-u2-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Salieron de la presencia del consejo, gozosos de haber sido tenidos por dignos de padecer deshonra por la causa de _____.\"",
+              "answer": "Jesús",
+              "reference": "Hechos 5:41",
+              "options": [
+                "Jesús",
+                "Dios"
+              ]
+            },
+            {
+              "id": "atos-u2-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La valentía de estos héroes es un modelo inspirador para cristianos de todas las épocas.",
+              "isTrue": true,
+              "reference": "Hechos 2-7",
+              "explanation": "Sus vidas continúan inspirando a cristianos a permanecer fieles en cualquier circunstancia."
+            }
+          ]
+        },
+        {
+          "id": "atos-u2-l5",
+          "title": "Repaso - Pedro, Juan y Esteban",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "atos-u2-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cómo fue transformado Pedro?",
+              "text": "La jornada de Pedro es una de las mayores transformaciones bíblicas.",
+              "options": [
+                "Del miedo a la valentía a través del Espíritu Santo",
+                "A través de su propio esfuerzo",
+                "Por la influencia de Juan",
+                "Por la aprobación de las autoridades"
+              ],
+              "answer": "Del miedo a la valentía a través del Espíritu Santo",
+              "reference": "Hechos 1-2",
+              "explanation": "Pentecostés marcó la transformación dramática de Pedro."
+            },
+            {
+              "id": "atos-u2-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Pedro y Juan enfrentaron encarcelamiento pero continuaron predicando.",
+              "isTrue": true,
+              "reference": "Hechos 4-5",
+              "explanation": "Ninguna amenaza silenció a estos héroes de la fe primitiva."
+            },
+            {
+              "id": "atos-u2-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál fue el legado de Esteban?",
+              "text": "Aunque murió joven, su impacto fue grande.",
+              "options": [
+                "Testimonio de fe hasta el martirio e influencia en el joven Saulo",
+                "Establecimiento de una comunidad cristiana",
+                "Escritura de libros importantes",
+                "Conversión de las autoridades"
+              ],
+              "answer": "Testimonio de fe hasta el martirio e influencia en el joven Saulo",
+              "reference": "Hechos 7, 8:1",
+              "explanation": "Saulo presenció la muerte de Esteban y después se convirtió en Pablo, el gran apóstol."
+            },
+            {
+              "id": "atos-u2-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo de repaso",
+              "text": "Resumen de heroísmo en los Hechos",
+              "tokens": [
+                "Juzgamos obedecer a Dios",
+                "regocijándose en sufrir",
+                "y perdonando a los enemigos",
+                "así se vivía la fe primitiva"
+              ],
+              "distractors": [
+                "y proclamando a Jesús",
+                "con valentía",
+                "hasta la muerte"
+              ],
+              "reference": "Hechos 4:19, 5:41, 7:60"
+            },
+            {
+              "id": "atos-u2-l5-e5",
+              "kind": "listen",
+              "prompt": "¿Qué lección escuchaste?",
+              "text": "Juzgamos que es justo obedecer a Dios antes que a los hombres.",
+              "options": [
+                "La autoridad de Dios es suprema",
+                "Juzgamos obedecer a Dios",
+                "Respeto por el orden humano"
+              ],
+              "answer": "Juzgamos obedecer a Dios",
+              "reference": "Hechos 4:19"
+            },
+            {
+              "id": "atos-u2-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia las vidas impactantes",
+              "pairs": [
+                {
+                  "left": "Pedro",
+                  "right": "Líder valiente"
+                },
+                {
+                  "left": "Juan",
+                  "right": "Compañero fiel"
+                },
+                {
+                  "left": "Esteban",
+                  "right": "Primer mártir"
+                },
+                {
+                  "left": "Legado",
+                  "right": "Inspiración hasta hoy"
+                }
+              ]
+            },
+            {
+              "id": "atos-u2-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Ordena los eventos principales",
+              "text": "Cronología de valentía en Hechos 2-7",
+              "tokens": [
+                "Pentecostés y valentía de Pedro",
+                "Encarcelamiento y liberación",
+                "Elección de Esteban como diácono",
+                "Martirio de Esteban"
+              ]
+            },
+            {
+              "id": "atos-u2-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Los ejemplos de Pedro, Juan y Esteban muestran que la verdadera fe persevera.",
+              "isTrue": true,
+              "reference": "Hechos 2-7",
+              "explanation": "Estos tres hombres demostraron que la fe cristiana es duradera y transformadora."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atos-u3",
+      "title": "Unidad 3",
+      "subtitle": "Conversión y Viajes de Pablo",
+      "guide": {
+        "summary": "Saulo era perseguidor de cristianos cuando Jesús lo encontró en el camino de Damasco. Transformado en apóstol Pablo, viajó por todo el mundo grecorromano fundando iglesias. Sus cartas continúan guiando la fe cristiana hasta hoy.",
+        "keyVerses": [
+          {
+            "reference": "Hechos 9:15",
+            "text": "Vete, porque este es para mí un instrumento escogido para llevar mi nombre delante de los gentiles."
+          },
+          {
+            "reference": "Hechos 20:24",
+            "text": "Pero de nada hago caso, ni estimo preciosa mi vida para mí, con tal que termine mi carrera."
+          },
+          {
+            "reference": "Hechos 17:24-25",
+            "text": "El Dios que hizo el mundo no habita en templos hechos de mano."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "atos-u3-l1",
+          "title": "El Encuentro en el Camino",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "atos-u3-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué estaba haciendo Saulo cuando Jesús lo encontró?",
+              "text": "Saulo tenía un propósito que sería transformado.",
+              "options": [
+                "Persiguiendo cristianos hacia Damasco",
+                "Predicando en el templo",
+                "Enseñando la ley de los fariseos",
+                "Orando en secreto"
+              ],
+              "answer": "Persiguiendo cristianos hacia Damasco",
+              "reference": "Hechos 9:1-2",
+              "explanation": "Saulo estaba luchando activamente contra la Iglesia cuando su encuentro con Jesús lo cambió todo."
+            },
+            {
+              "id": "atos-u3-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Jesús se le apareció personalmente a Saulo en el camino de Damasco.",
+              "isTrue": true,
+              "reference": "Hechos 9:3-7",
+              "explanation": "El mismo Jesús resucitado se le apareció a Saulo, preguntándole por qué lo perseguía."
+            },
+            {
+              "id": "atos-u3-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál fue la primera consecuencia de la visión?",
+              "text": "La transformación comenzó con una pérdida seguida de recuperación.",
+              "options": [
+                "Saulo quedó ciego y su vista fue restaurada",
+                "Saulo cayó del caballo y se lastimó",
+                "Saulo perdió la fe inmediatamente",
+                "Saulo desapareció por tres años"
+              ],
+              "answer": "Saulo quedó ciego y su vista fue restaurada",
+              "reference": "Hechos 9:8-18",
+              "explanation": "La ceguera de Saulo era simbólica: necesitaba ser restaurado espiritualmente."
+            },
+            {
+              "id": "atos-u3-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "La vocación de Pablo en Hechos 9:15",
+              "tokens": [
+                "Vete, porque este es",
+                "para mí un instrumento escogido",
+                "para llevar mi nombre",
+                "delante de los gentiles"
+              ],
+              "distractors": [
+                "y de los judíos",
+                "y de los reyes",
+                "y del pueblo"
+              ],
+              "reference": "Hechos 9:15"
+            },
+            {
+              "id": "atos-u3-l1-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Este es un instrumento escogido para llevar mi nombre.",
+              "options": [
+                "Pablo será un gran apóstol",
+                "Instrumento escogido llevar mi nombre",
+                "Jesús lo eligió para algo"
+              ],
+              "answer": "Instrumento escogido llevar mi nombre",
+              "reference": "Hechos 9:15"
+            },
+            {
+              "id": "atos-u3-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia etapas de la conversión",
+              "pairs": [
+                {
+                  "left": "Visión de Jesús",
+                  "right": "Encuentro transformador"
+                },
+                {
+                  "left": "Ceguera",
+                  "right": "Símbolo de cambio"
+                },
+                {
+                  "left": "Visión restaurada",
+                  "right": "Regeneración espiritual"
+                },
+                {
+                  "left": "Bautismo",
+                  "right": "Sello de la conversión"
+                }
+              ]
+            },
+            {
+              "id": "atos-u3-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Este es un instrumento escogido para llevar mi nombre delante de los _____.\"",
+              "answer": "gentiles",
+              "reference": "Hechos 9:15",
+              "options": [
+                "gentiles",
+                "pueblos"
+              ]
+            },
+            {
+              "id": "atos-u3-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La conversión de Pablo fue solo un evento, sin cambio duradero.",
+              "isTrue": false,
+              "reference": "Hechos 9-28",
+              "explanation": "Pablo pasó el resto de su vida dedicado a Jesús y al evangelio."
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l2",
+          "title": "Los Tres Viajes Misioneros",
+          "icon": "tent.fill",
+          "exercises": [
+            {
+              "id": "atos-u3-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál era el método de Pablo en sus viajes?",
+              "text": "Pablo tenía una estrategia clara para evangelizar.",
+              "options": [
+                "Ir a las sinagogas de los judíos y luego a los gentiles",
+                "Solo hablar con personas ricas",
+                "Evitar completamente a los judíos",
+                "Predicar solo en ciudades grandes"
+              ],
+              "answer": "Ir a las sinagogas de los judíos y luego a los gentiles",
+              "reference": "Hechos 13:14, 17:22-23",
+              "explanation": "Pablo siempre comenzaba en las sinagogas, presentando a Jesús primero a los judíos."
+            },
+            {
+              "id": "atos-u3-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Pablo viajó solo en sus misiones.",
+              "isTrue": false,
+              "reference": "Hechos 13-21",
+              "explanation": "Pablo tenía compañeros como Bernabé, Silas y Timoteo en sus jornadas."
+            },
+            {
+              "id": "atos-u3-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Qué enfrentó Pablo durante sus viajes?",
+              "text": "Los viajes de Pablo fueron marcados por persecución continua.",
+              "options": [
+                "Persecución, encarcelamientos, azotes y naufragio",
+                "Bienestar material y reconocimiento",
+                "Silencio completo",
+                "Apoyo irrestricto de todos"
+              ],
+              "answer": "Persecución, encarcelamientos, azotes y naufragio",
+              "reference": "Hechos 14-28, 2 Corintios 11:24-27",
+              "explanation": "Pablo sufrió tremendamente por el evangelio, pero nunca se dio por vencido."
+            },
+            {
+              "id": "atos-u3-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Compromiso de Pablo en Hechos 20:24",
+              "tokens": [
+                "Pero de nada hago caso",
+                "ni estimo preciosa",
+                "mi vida para mí",
+                "con tal que termine"
+              ],
+              "distractors": [
+                "mi carrera",
+                "que el Señor me dio",
+                "para testificar"
+              ],
+              "reference": "Hechos 20:24"
+            },
+            {
+              "id": "atos-u3-l2-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Ni estimo preciosa mi vida para mí.",
+              "options": [
+                "Pablo valoraba su vida",
+                "Ni estimo vida por preciosa",
+                "La vida no tiene valor"
+              ],
+              "answer": "Ni estimo vida por preciosa",
+              "reference": "Hechos 20:24"
+            },
+            {
+              "id": "atos-u3-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia aspectos de los viajes",
+              "pairs": [
+                {
+                  "left": "Estrategia",
+                  "right": "Sinagoga y luego gentiles"
+                },
+                {
+                  "left": "Compañeros",
+                  "right": "Bernabé, Silas, Timoteo"
+                },
+                {
+                  "left": "Desafíos",
+                  "right": "Persecución continua"
+                },
+                {
+                  "left": "Motivación",
+                  "right": "Cumplir la carrera de Jesús"
+                }
+              ]
+            },
+            {
+              "id": "atos-u3-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Con tal que termine mi _____.\"",
+              "answer": "carrera",
+              "reference": "Hechos 20:24",
+              "options": [
+                "carrera",
+                "misión"
+              ]
+            },
+            {
+              "id": "atos-u3-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Pablo estableció iglesias en múltiples regiones durante sus viajes.",
+              "isTrue": true,
+              "reference": "Hechos 13-21",
+              "explanation": "Pablo fundó iglesias en Antioquía, Corinto, Éfeso y muchos otros lugares."
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l3",
+          "title": "Areópago: Predicación en Atenas",
+          "icon": "book.fill",
+          "exercises": [
+            {
+              "id": "atos-u3-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Dónde predicó Pablo su famoso discurso?",
+              "text": "Una ciudad conocida por la filosofía y múltiples dioses.",
+              "options": [
+                "En el Areópago en Atenas",
+                "En el templo de Éfeso",
+                "En la sinagoga de Corinto",
+                "En la prisión de Roma"
+              ],
+              "answer": "En el Areópago en Atenas",
+              "reference": "Hechos 17:22-31",
+              "explanation": "Atenas era un centro intelectual donde Pablo confrontó filosofías paganas."
+            },
+            {
+              "id": "atos-u3-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Pablo reconoció el altar al dios desconocido en Atenas.",
+              "isTrue": true,
+              "reference": "Hechos 17:23",
+              "explanation": "Pablo utilizó este altar como punto de partida para predicar a Jesús."
+            },
+            {
+              "id": "atos-u3-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál fue el mensaje central del discurso en el Areópago?",
+              "text": "Pablo presentó verdades sobre Dios a los griegos.",
+              "options": [
+                "Dios no habita en templos hechos de mano",
+                "Los ídolos son superiores a Dios",
+                "Dios necesita los sacrificios de los hombres",
+                "Los dioses griegos son verdaderos"
+              ],
+              "answer": "Dios no habita en templos hechos de mano",
+              "reference": "Hechos 17:24-25",
+              "explanation": "Pablo confrontó el politeísmo con la verdad sobre el único Dios verdadero."
+            },
+            {
+              "id": "atos-u3-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Verdad sobre Dios en Hechos 17:24-25",
+              "tokens": [
+                "El Dios que hizo el mundo",
+                "no habita en templos",
+                "hechos de mano",
+                "ni es servido por manos"
+              ],
+              "distractors": [
+                "humanas como si necesitara",
+                "de algo",
+                "pues él mismo"
+              ],
+              "reference": "Hechos 17:24-25"
+            },
+            {
+              "id": "atos-u3-l3-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "El Dios que hizo el mundo no habita en templos.",
+              "options": [
+                "Dios es espíritu y omnipresente",
+                "Dios no habita en templos",
+                "Los templos no contienen a Dios"
+              ],
+              "answer": "Dios no habita en templos",
+              "reference": "Hechos 17:24"
+            },
+            {
+              "id": "atos-u3-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia elementos del discurso",
+              "pairs": [
+                {
+                  "left": "Altar desconocido",
+                  "right": "Apertura para el evangelio"
+                },
+                {
+                  "left": "Creador",
+                  "right": "Dios único y verdadero"
+                },
+                {
+                  "left": "Templos",
+                  "right": "No contienen a Dios"
+                },
+                {
+                  "left": "Resurrección",
+                  "right": "Esperanza cristiana"
+                }
+              ]
+            },
+            {
+              "id": "atos-u3-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"El Dios que hizo el mundo no habita en ___ hechos de mano.\"",
+              "answer": "templos",
+              "reference": "Hechos 17:24",
+              "options": [
+                "templos",
+                "edificios"
+              ]
+            },
+            {
+              "id": "atos-u3-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Todos en Atenas aceptaron inmediatamente el mensaje de Pablo.",
+              "isTrue": false,
+              "reference": "Hechos 17:32-33",
+              "explanation": "Algunos se burlaban, pero otros creyeron y se unieron a Pablo."
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l4",
+          "title": "Camino a Roma",
+          "icon": "scroll.fill",
+          "exercises": [
+            {
+              "id": "atos-u3-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cómo fue traído Pablo a Roma?",
+              "text": "Un viaje dramático marcó el fin de los Hechos.",
+              "options": [
+                "Como prisionero bajo custodia romana",
+                "Como visitante invitado",
+                "Como emigrante voluntario",
+                "Como refugiado que escapaba"
+              ],
+              "answer": "Como prisionero bajo custodia romana",
+              "reference": "Hechos 27-28",
+              "explanation": "Pablo fue encarcelado, juzgado y enviado a Roma para apelar a César."
+            },
+            {
+              "id": "atos-u3-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Durante el viaje a Roma, Pablo enfrentó un naufragio.",
+              "isTrue": true,
+              "reference": "Hechos 27:39-44",
+              "explanation": "Un barco en el que viajaba Pablo naufragó durante una tormenta."
+            },
+            {
+              "id": "atos-u3-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál era la esperanza de Pablo en la prisión?",
+              "text": "Pablo mantenía postura de fe incluso encarcelado.",
+              "options": [
+                "Testificar en Roma y estar con Jesús",
+                "Escapar de la prisión",
+                "Olvido y retiro",
+                "Venganza contra sus enemigos"
+              ],
+              "answer": "Testificar en Roma y estar con Jesús",
+              "reference": "Hechos 28:30-31",
+              "explanation": "Pablo pasó dos años en Roma predicando y enseñando sobre Jesús."
+            },
+            {
+              "id": "atos-u3-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "El viaje final en Hechos 27:23-24",
+              "tokens": [
+                "Pero esta noche",
+                "se puso de mi lado",
+                "un ángel del Dios",
+                "de quien soy y sirvo"
+              ],
+              "distractors": [
+                "y dijo no temas",
+                "porque es necesario",
+                "que comparescas ante César"
+              ],
+              "reference": "Hechos 27:23-24"
+            },
+            {
+              "id": "atos-u3-l4-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Un ángel del Dios de quien soy y sirvo.",
+              "options": [
+                "Pablo solo sirve a Jesús",
+                "Ángel de Dios quien sirvo",
+                "La fe de Pablo es inquebrantable"
+              ],
+              "answer": "Ángel de Dios quien sirvo",
+              "reference": "Hechos 27:23"
+            },
+            {
+              "id": "atos-u3-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia eventos finales",
+              "pairs": [
+                {
+                  "left": "Encarcelamiento",
+                  "right": "Juicio por autoridades"
+                },
+                {
+                  "left": "Barco",
+                  "right": "Naufragio en la tormenta"
+                },
+                {
+                  "left": "Roma",
+                  "right": "Testimonio y predicación"
+                },
+                {
+                  "left": "Esperanza",
+                  "right": "Estar con Jesús"
+                }
+              ]
+            },
+            {
+              "id": "atos-u3-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Es necesario que comparescas ante _____.\"",
+              "answer": "César",
+              "reference": "Hechos 27:24",
+              "options": [
+                "César",
+                "emperador"
+              ]
+            },
+            {
+              "id": "atos-u3-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "El encarcelamiento de Pablo interrumpió su ministerio de predicación.",
+              "isTrue": false,
+              "reference": "Hechos 28:30-31",
+              "explanation": "Pablo continuó predicando incluso en la prisión, mostrando que nada puede silenciar el evangelio."
+            }
+          ]
+        },
+        {
+          "id": "atos-u3-l5",
+          "title": "Repaso - Conversión y Viajes",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "atos-u3-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cómo Jesús transformó a Saulo?",
+              "text": "Una transformación radical comenzó en el camino de Damasco.",
+              "options": [
+                "A través de un encuentro personal en el camino",
+                "Lentamente durante años",
+                "A través de amigos que lo evangelizaron",
+                "Nunca realmente se transformó"
+              ],
+              "answer": "A través de un encuentro personal en el camino",
+              "reference": "Hechos 9:1-18",
+              "explanation": "Jesús se le apareció personalmente a Saulo, transformándolo instantáneamente."
+            },
+            {
+              "id": "atos-u3-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Pablo enfrentó dificultades al compartir el evangelio.",
+              "isTrue": true,
+              "reference": "Hechos 13-28",
+              "explanation": "Pablo experimentó rechazo, persecución y encarcelamiento, pero nunca se dio por vencido."
+            },
+            {
+              "id": "atos-u3-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál era el propósito de Dios para Pablo?",
+              "text": "Dios tenía un plan específico para este apóstol.",
+              "options": [
+                "Ser instrumento escogido para llevar el evangelio a los gentiles",
+                "Ser rey de Israel",
+                "Ser sacerdote del templo",
+                "Ser filósofo griego"
+              ],
+              "answer": "Ser instrumento escogido para llevar el evangelio a los gentiles",
+              "reference": "Hechos 9:15",
+              "explanation": "Pablo fue especialmente llamado para alcanzar a los gentiles con el evangelio."
+            },
+            {
+              "id": "atos-u3-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo de repaso",
+              "text": "Resumen de la jornada de Pablo",
+              "tokens": [
+                "Este es para mí",
+                "un instrumento escogido",
+                "ni estimo preciosa mi vida",
+                "con tal que termine mi carrera"
+              ],
+              "distractors": [
+                "que Jesús me dio",
+                "para testificar",
+                "de Su gracia"
+              ],
+              "reference": "Hechos 9:15, 20:24"
+            },
+            {
+              "id": "atos-u3-l5-e5",
+              "kind": "listen",
+              "prompt": "¿Qué verdad escuchaste?",
+              "text": "Este es un instrumento escogido para llevar mi nombre.",
+              "options": [
+                "Dios elige instrumentos para Su reino",
+                "Instrumento escogido llevar mi nombre",
+                "Pablo es especial para Dios"
+              ],
+              "answer": "Instrumento escogido llevar mi nombre",
+              "reference": "Hechos 9:15"
+            },
+            {
+              "id": "atos-u3-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia fases de la vida de Pablo",
+              "pairs": [
+                {
+                  "left": "Conversión",
+                  "right": "Encuentro con Jesús"
+                },
+                {
+                  "left": "Viajes",
+                  "right": "Fundación de iglesias"
+                },
+                {
+                  "left": "Predicación",
+                  "right": "Llamada al evangelio"
+                },
+                {
+                  "left": "Encarcelamiento",
+                  "right": "Testimonio en Roma"
+                }
+              ]
+            },
+            {
+              "id": "atos-u3-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Ordena la jornada de Pablo",
+              "text": "Cronología apostólica",
+              "tokens": [
+                "Encuentro con Jesús en Damasco",
+                "Primeros viajes misioneros",
+                "Discurso en el Areópago",
+                "Viaje a Roma como prisionero"
+              ]
+            },
+            {
+              "id": "atos-u3-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La vida de Pablo demuestra que Dios puede transformar a cualquier persona.",
+              "isTrue": true,
+              "reference": "Hechos 9-28",
+              "explanation": "Pablo es el mayor ejemplo de transformación y dedicación a Jesús en la Biblia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atos-u4",
+      "title": "Unidad 4",
+      "subtitle": "Pablo en Roma y Sus Cartas",
+      "guide": {
+        "summary": "Las cartas de Pablo escritas durante su ministerio contienen la esencia de la fe cristiana. Romanos 8 habla de esperanza en Cristo, 1 Corintios 13 exalta el amor, Filipenses 4 enseña alegría, Gálatas 5 habla de libertad, Efesios 6 sobre la armadura de Dios. Estas continúan transformando vidas.",
+        "keyVerses": [
+          {
+            "reference": "Romanos 8:28",
+            "text": "Y sabemos que a los que aman a Dios, todas las cosas les ayudan a bien."
+          },
+          {
+            "reference": "1 Corintios 13:4",
+            "text": "El amor es sufrido, es benigno; el amor no tiene envidia."
+          },
+          {
+            "reference": "Efesios 6:10",
+            "text": "Por lo demás, hermanos míos, fortaleceos en el Señor y en el poder de su fuerza."
+          }
+        ]
+      },
+      "lessons": [
+        {
+          "id": "atos-u4-l1",
+          "title": "Esperanza en Cristo - Romanos 8",
+          "icon": "heart.fill",
+          "exercises": [
+            {
+              "id": "atos-u4-l1-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Y sabemos que a los que aman a Dios, todas las cosas les ayudan a _____.\"",
+              "speaker": "Pablo",
+              "options": [
+                "bien",
+                "Jesús",
+                "ley",
+                "Espíritu"
+              ],
+              "answer": "bien",
+              "reference": "Romanos 8:28",
+              "explanation": "Pablo afirma que Dios trabaja todas las circunstancias para el bien de los que Lo aman."
+            },
+            {
+              "id": "atos-u4-l1-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Romanos 8:28 significa que la vida cristiana no tendrá dificultades.",
+              "isTrue": false,
+              "reference": "Romanos 8:28",
+              "explanation": "El versículo no dice que no habrá dificultades, sino que Dios trabaja en ellas para el bien."
+            },
+            {
+              "id": "atos-u4-l1-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál es el mensaje central de Romanos 8?",
+              "text": "Pablo escribe sobre seguridad eterna en Cristo.",
+              "options": [
+                "Nada nos puede separar del amor de Dios en Cristo",
+                "Debemos obedecer la ley perfectamente",
+                "El cuerpo es malo y debe ser rechazado",
+                "Todos serán condenados en el juicio"
+              ],
+              "answer": "Nada nos puede separar del amor de Dios en Cristo",
+              "reference": "Romanos 8:35-39",
+              "explanation": "Romanos 8 es celebración de la seguridad y esperanza que tenemos en Jesús."
+            },
+            {
+              "id": "atos-u4-l1-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Seguridad en Cristo en Romanos 8:35",
+              "tokens": [
+                "¿Quién nos separará",
+                "del amor de Cristo?",
+                "¿La tribulación, o la angustia",
+                "o la persecución?"
+              ],
+              "distractors": [
+                "o la muerte",
+                "o la vida",
+                "o alguna otra criatura"
+              ],
+              "reference": "Romanos 8:35"
+            },
+            {
+              "id": "atos-u4-l1-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Todas las cosas les ayudan a bien.",
+              "options": [
+                "Dios controla todas las circunstancias",
+                "Todas cosas ayudan bien",
+                "Todo siempre es fácil"
+              ],
+              "answer": "Todas cosas ayudan bien",
+              "reference": "Romanos 8:28"
+            },
+            {
+              "id": "atos-u4-l1-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia verdades de Romanos 8",
+              "pairs": [
+                {
+                  "left": "Redención",
+                  "right": "En Cristo Jesús"
+                },
+                {
+                  "left": "Esperanza",
+                  "right": "Seguridad eterna"
+                },
+                {
+                  "left": "Amor",
+                  "right": "Inseparable de Cristo"
+                },
+                {
+                  "left": "Adopción",
+                  "right": "Hijos de Dios"
+                }
+              ]
+            },
+            {
+              "id": "atos-u4-l1-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Y sabemos que a los que aman a Dios, todas las cosas les ayudan a _____.\"",
+              "answer": "bien",
+              "reference": "Romanos 8:28",
+              "options": [
+                "bien",
+                "Señor"
+              ]
+            },
+            {
+              "id": "atos-u4-l1-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Nada nos puede separar del amor de Dios en Cristo.",
+              "isTrue": true,
+              "reference": "Romanos 8:35-39",
+              "explanation": "Pablo afirma con certeza que nada puede alejarnos del amor de Cristo."
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l2",
+          "title": "El Himno del Amor - 1 Corintios 13",
+          "icon": "heart.fill",
+          "exercises": [
+            {
+              "id": "atos-u4-l2-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"El amor es _____, es benigno; el amor no tiene envidia.\"",
+              "speaker": "Pablo",
+              "options": [
+                "sufrido",
+                "fuerte",
+                "eterno",
+                "verdadero"
+              ],
+              "answer": "sufrido",
+              "reference": "1 Corintios 13:4",
+              "explanation": "Pablo comienza describiendo el amor como paciente y gentil, no envidioso."
+            },
+            {
+              "id": "atos-u4-l2-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "1 Corintios 13 es solo sobre amor romántico.",
+              "isTrue": false,
+              "reference": "1 Corintios 13",
+              "explanation": "1 Corintios 13 trata del amor cristiano (ágape), que es más profundo que el romance."
+            },
+            {
+              "id": "atos-u4-l2-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál es la conclusión de 1 Corintios 13:13?",
+              "text": "Pablo termina con una afirmación memorable sobre virtudes cristianas.",
+              "options": [
+                "La caridad permanece, y es mayor que la caridad",
+                "La ley es el mayor mandamiento",
+                "El conocimiento es supremo",
+                "La fe nunca fallará"
+              ],
+              "answer": "La caridad permanece, y es mayor que la caridad",
+              "reference": "1 Corintios 13:13",
+              "explanation": "La fe, esperanza y caridad permanecen, pero la caridad es la mayor."
+            },
+            {
+              "id": "atos-u4-l2-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "El amor nunca falla en 1 Corintios 13:8",
+              "tokens": [
+                "La caridad nunca falla",
+                "pero si hay profecías",
+                "desaparecerán",
+                "si hay lenguas"
+              ],
+              "distractors": [
+                "cesarán",
+                "si hay conocimiento",
+                "pasará"
+              ],
+              "reference": "1 Corintios 13:8"
+            },
+            {
+              "id": "atos-u4-l2-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "El amor es sufrido y benigno.",
+              "options": [
+                "El amor tiene cualidades especiales",
+                "El amor sufrido y benigno",
+                "Paciencia y gentileza definen"
+              ],
+              "answer": "El amor sufrido y benigno",
+              "reference": "1 Corintios 13:4"
+            },
+            {
+              "id": "atos-u4-l2-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia cualidades del amor",
+              "pairs": [
+                {
+                  "left": "Paciencia",
+                  "right": "Sufrimiento largo"
+                },
+                {
+                  "left": "Benignidad",
+                  "right": "Gentileza para todos"
+                },
+                {
+                  "left": "Humildad",
+                  "right": "No se envanece"
+                },
+                {
+                  "left": "Eternidad",
+                  "right": "Nunca falla"
+                }
+              ]
+            },
+            {
+              "id": "atos-u4-l2-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"La caridad nunca _____.\"",
+              "answer": "falla",
+              "reference": "1 Corintios 13:8",
+              "options": [
+                "falla",
+                "cesa"
+              ]
+            },
+            {
+              "id": "atos-u4-l2-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "El amor cristiano es superior incluso a otras virtudes como la fe y la esperanza.",
+              "isTrue": true,
+              "reference": "1 Corintios 13:13",
+              "explanation": "Pablo afirma que la caridad permanece y es mayor que la fe y la esperanza."
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l3",
+          "title": "Alegría en Cristo - Filipenses 4",
+          "icon": "sparkles",
+          "exercises": [
+            {
+              "id": "atos-u4-l3-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál es el tema principal de Filipenses?",
+              "text": "Pablo escribe de manera personal y cálida a los filipenses.",
+              "options": [
+                "Alegría en Cristo a pesar de las circunstancias",
+                "Crítica severa de la comunidad",
+                "Instrucciones legales rígidas",
+                "Predicciones de castigo"
+              ],
+              "answer": "Alegría en Cristo a pesar de las circunstancias",
+              "reference": "Filipenses 1-4",
+              "explanation": "Filipenses es la carta más alegre de Pablo, escrita incluso de la prisión."
+            },
+            {
+              "id": "atos-u4-l3-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Pablo escribió Filipenses mientras era prisionero.",
+              "isTrue": true,
+              "reference": "Filipenses 1:7-14",
+              "explanation": "Aun en la prisión, Pablo escribe con alegría y esperanza."
+            },
+            {
+              "id": "atos-u4-l3-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál es el primer mandamiento en Filipenses 4:4?",
+              "text": "Pablo comienza con una exhortación simple pero poderosa.",
+              "options": [
+                "Regocijaos siempre en el Señor",
+                "Obedeced a las autoridades",
+                "Trabajad con diligencia",
+                "Guardad los mandamientos"
+              ],
+              "answer": "Regocijaos siempre en el Señor",
+              "reference": "Filipenses 4:4",
+              "explanation": "La alegría en el Señor es central en Filipenses, incluso en la adversidad."
+            },
+            {
+              "id": "atos-u4-l3-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Llamado a la paz en Filipenses 4:6-7",
+              "tokens": [
+                "No estéis ansiosos",
+                "de cosa alguna",
+                "sino que en toda oración",
+                "vuestras peticiones sean conocidas"
+              ],
+              "distractors": [
+                "delante de Dios",
+                "en oración",
+                "con acción de gracias"
+              ],
+              "reference": "Filipenses 4:6-7"
+            },
+            {
+              "id": "atos-u4-l3-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Regocijaos siempre en el Señor.",
+              "options": [
+                "Alegría permanente en Jesús",
+                "Regocijaos siempre Señor",
+                "Vuestra alegría se manifieste"
+              ],
+              "answer": "Regocijaos siempre Señor",
+              "reference": "Filipenses 4:4"
+            },
+            {
+              "id": "atos-u4-l3-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia ensinanzas de Filipenses",
+              "pairs": [
+                {
+                  "left": "Alegría",
+                  "right": "En Cristo siempre"
+                },
+                {
+                  "left": "Oración",
+                  "right": "Con acción de gracias"
+                },
+                {
+                  "left": "Paz",
+                  "right": "Guarda el corazón"
+                },
+                {
+                  "left": "Pensamientos",
+                  "right": "Sobre cosas nobles"
+                }
+              ]
+            },
+            {
+              "id": "atos-u4-l3-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Regocijaos siempre en el _____.\"",
+              "answer": "Señor",
+              "reference": "Filipenses 4:4",
+              "options": [
+                "Señor",
+                "Dios"
+              ]
+            },
+            {
+              "id": "atos-u4-l3-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La alegría cristiana depende de las circunstancias externas.",
+              "isTrue": false,
+              "reference": "Filipenses 4:4-7",
+              "explanation": "Pablo enseña que la verdadera alegría está en Cristo, independiente de las circunstancias."
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l4",
+          "title": "Armadura de Dios - Efesios 6",
+          "icon": "shield.fill",
+          "exercises": [
+            {
+              "id": "atos-u4-l4-e1",
+              "kind": "multipleChoice",
+              "prompt": "Completa el versículo",
+              "text": "\"Por lo demás, hermanos míos, fortaleceos en el Señor y en el poder de su _____.\"",
+              "speaker": "Pablo",
+              "options": [
+                "fuerza",
+                "mano",
+                "ley",
+                "verdad"
+              ],
+              "answer": "fuerza",
+              "reference": "Efesios 6:10",
+              "explanation": "Pablo comienza exhortando a los efesios a fortalecerse en el poder de Dios."
+            },
+            {
+              "id": "atos-u4-l4-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Efesios 6 describe la armadura espiritual del cristiano.",
+              "isTrue": true,
+              "reference": "Efesios 6:10-18",
+              "explanation": "Efesios 6 enumera siete piezas de la armadura espiritual para resistir al mal."
+            },
+            {
+              "id": "atos-u4-l4-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál es el arma más importante en la armadura?",
+              "text": "Pablo lista varias piezas, pero destaca una especialmente.",
+              "options": [
+                "La espada del Espíritu, que es la Palabra de Dios",
+                "El escudo de David",
+                "La armadura de Goliat",
+                "El hacha de guerra"
+              ],
+              "answer": "La espada del Espíritu, que es la Palabra de Dios",
+              "reference": "Efesios 6:17",
+              "explanation": "La Palabra de Dios es la única arma ofensiva completa en la armadura."
+            },
+            {
+              "id": "atos-u4-l4-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo",
+              "text": "Armadura completa en Efesios 6:14-17",
+              "tokens": [
+                "Estad pues firmes",
+                "con la verdad",
+                "ceñida vuestra cintura",
+                "y la peto de justicia"
+              ],
+              "distractors": [
+                "y vuestros pies calzados",
+                "con el evangelio de paz",
+                "tomando el escudo de la fe"
+              ],
+              "reference": "Efesios 6:14-17"
+            },
+            {
+              "id": "atos-u4-l4-e5",
+              "kind": "listen",
+              "prompt": "¿Qué escuchaste?",
+              "text": "Fortaleceos en el poder de su fuerza.",
+              "options": [
+                "Dios nos hace fuertes",
+                "Fortaleceos poder fuerza",
+                "El poder de Dios nos sustenta"
+              ],
+              "answer": "Fortaleceos poder fuerza",
+              "reference": "Efesios 6:10"
+            },
+            {
+              "id": "atos-u4-l4-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia piezas de la armadura",
+              "pairs": [
+                {
+                  "left": "Cinto",
+                  "right": "Verdad"
+                },
+                {
+                  "left": "Peto",
+                  "right": "Justicia"
+                },
+                {
+                  "left": "Escudo",
+                  "right": "Fe"
+                },
+                {
+                  "left": "Espada",
+                  "right": "Palabra de Dios"
+                }
+              ]
+            },
+            {
+              "id": "atos-u4-l4-e7",
+              "kind": "typeAnswer",
+              "prompt": "Completa la frase",
+              "text": "\"Fortaleceos en el Señor y en el poder de su _____.\"",
+              "answer": "fuerza",
+              "reference": "Efesios 6:10",
+              "options": [
+                "fuerza",
+                "poder"
+              ]
+            },
+            {
+              "id": "atos-u4-l4-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "La armadura de Dios nos protege de toda tentación espiritual.",
+              "isTrue": true,
+              "reference": "Efesios 6:10-18",
+              "explanation": "Cuando estamos vestidos con la armadura completa, estamos protegidos contra los ataques del enemigo."
+            }
+          ]
+        },
+        {
+          "id": "atos-u4-l5",
+          "title": "Repaso - Pablo en Roma y Sus Cartas",
+          "icon": "crown.fill",
+          "exercises": [
+            {
+              "id": "atos-u4-l5-e1",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál es la importancia de las cartas de Pablo?",
+              "text": "Sus escritos definieron la teología cristiana por siglos.",
+              "options": [
+                "Forman la mitad del Nuevo Testamento y guían la fe cristiana",
+                "Son solo historias personales",
+                "No tienen valor para cristianos modernos",
+                "Fueron descartadas por la Iglesia"
+              ],
+              "answer": "Forman la mitad del Nuevo Testamento y guían la fe cristiana",
+              "reference": "Romanos-Filemón",
+              "explanation": "Las 13 cartas de Pablo son esenciales para comprender la fe cristiana."
+            },
+            {
+              "id": "atos-u4-l5-e2",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Todas las cartas de Pablo tratan de problemas específicos en iglesias locales.",
+              "isTrue": true,
+              "reference": "Romanos-1 Timoteo",
+              "explanation": "Pablo escribió para iglesias e individuos específicos, pero sus lecciones son universales."
+            },
+            {
+              "id": "atos-u4-l5-e3",
+              "kind": "multipleChoice",
+              "prompt": "¿Cuál es el tema central de las cartas de Pablo?",
+              "text": "A pesar de la variedad, hay una unidad temática.",
+              "options": [
+                "Salvación en Cristo y vida transformada por el Espíritu",
+                "Crítica severa de las leyes judaicas",
+                "Instrucciones sobre gobierno político",
+                "Predicciones detalladas sobre el fin"
+              ],
+              "answer": "Salvación en Cristo y vida transformada por el Espíritu",
+              "reference": "Romanos 1:16, 1 Corintios 15:1-4",
+              "explanation": "Cristo y la transformación en Su Espíritu son el corazón de todo lo que Pablo escribe."
+            },
+            {
+              "id": "atos-u4-l5-e4",
+              "kind": "buildVerse",
+              "prompt": "Arma el versículo de repaso",
+              "text": "Resumen de la sabiduría paulina",
+              "tokens": [
+                "Todas las cosas ayudan",
+                "a bien",
+                "la caridad nunca falla",
+                "regocijaos en el Señor"
+              ],
+              "distractors": [
+                "y en Su gracia",
+                "fortaleceos",
+                "en el poder de Su fuerza"
+              ],
+              "reference": "Romanos 8:28, 1 Corintios 13:8, Filipenses 4:4"
+            },
+            {
+              "id": "atos-u4-l5-e5",
+              "kind": "listen",
+              "prompt": "¿Qué enseñanza escuchaste?",
+              "text": "Sabemos que todas las cosas les ayudan a bien.",
+              "options": [
+                "Dios cuida de los detalles",
+                "Todas cosas ayudan bien",
+                "Confianza en Dios siempre"
+              ],
+              "answer": "Todas cosas ayudan bien",
+              "reference": "Romanos 8:28"
+            },
+            {
+              "id": "atos-u4-l5-e6",
+              "kind": "matchPairs",
+              "prompt": "Asocia cartas y temas",
+              "pairs": [
+                {
+                  "left": "Romanos 8",
+                  "right": "Esperanza en Cristo"
+                },
+                {
+                  "left": "1 Corintios 13",
+                  "right": "Primacía del amor"
+                },
+                {
+                  "left": "Filipenses 4",
+                  "right": "Alegría siempre"
+                },
+                {
+                  "left": "Efesios 6",
+                  "right": "Armadura espiritual"
+                }
+              ]
+            },
+            {
+              "id": "atos-u4-l5-e7",
+              "kind": "orderEvents",
+              "prompt": "Ordena cronológicamente las cartas",
+              "text": "Período de correspondencia paulina",
+              "tokens": [
+                "Primeras cartas de Tesalónica",
+                "Grandes cartas: Romanos, Gálatas",
+                "Cartas de la prisión: Filipenses, Efesios",
+                "Cartas pastorales tardías"
+              ]
+            },
+            {
+              "id": "atos-u4-l5-e8",
+              "kind": "trueFalse",
+              "prompt": "¿Verdadero o falso?",
+              "statement": "Las cartas de Pablo continúan transformando vidas y guiando la fe cristiana.",
+              "isTrue": true,
+              "reference": "Romanos-Filemón",
+              "explanation": "Siglos después, las palabras de Pablo hablan al corazón y transforman a cristianos."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

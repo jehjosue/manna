@@ -1,0 +1,633 @@
+{
+  "id": "salmos-u2",
+  "title": "Unit 2",
+  "subtitle": "Praise and Gratitude",
+  "guide": {
+    "summary": "The Psalms of praise and gratitude teach us to celebrate God's wonderful works and to be grateful for the blessings received. Gratitude transforms us and brings us closer to God.",
+    "keyVerses": [
+      {
+        "reference": "Psalm 100:1",
+        "text": "Make a joyful noise to God, all the earth!"
+      },
+      {
+        "reference": "Psalm 103:1-2",
+        "text": "Bless the LORD, my soul; and all that is within me, bless his holy name."
+      },
+      {
+        "reference": "Psalm 150:4",
+        "text": "Praise him with tambourine and dance."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "salmos-u2-l1",
+      "title": "The Joy of Praise",
+      "icon": "music.note",
+      "exercises": [
+        {
+          "id": "salmos-u2-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Make a joyful noise to God, all the _____.\"",
+          "speaker": "Psalmist",
+          "options": [
+            "earth",
+            "nation",
+            "multitude",
+            "community"
+          ],
+          "answer": "earth",
+          "reference": "Psalm 100:1",
+          "explanation": "Praise to God should be universal and involve all of creation in genuine joy."
+        },
+        {
+          "id": "salmos-u2-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Psalm 100 is a psalm of praise that exhorts people to praise God with joy.",
+          "isTrue": true,
+          "reference": "Psalm 100",
+          "explanation": "Psalm 100 is entirely dedicated to joyful praise and gratitude to God."
+        },
+        {
+          "id": "salmos-u2-l1-e3",
+          "kind": "multipleChoice",
+          "prompt": "Why should we praise God according to Psalm 100:5?",
+          "text": "\"For the LORD is good; his mercy is _____.\"",
+          "options": [
+            "everlasting",
+            "matchless",
+            "sufficient",
+            "powerful"
+          ],
+          "answer": "everlasting",
+          "reference": "Psalm 100:5",
+          "explanation": "God's goodness and mercy are constant and never end, reason enough for praise."
+        },
+        {
+          "id": "salmos-u2-l1-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Call to praise in Psalm 100:1-2",
+          "tokens": [
+            "Make a joyful noise",
+            "to God, all the earth",
+            "Serve the LORD",
+            "with gladness"
+          ],
+          "distractors": [
+            "with fear",
+            "with reverence",
+            "with devotion"
+          ],
+          "reference": "Psalm 100:1-2"
+        },
+        {
+          "id": "salmos-u2-l1-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Serve the LORD with gladness!",
+          "options": [
+            "Praise the LORD with gladness",
+            "Serve the LORD with gladness",
+            "Sing to the LORD with power"
+          ],
+          "answer": "Serve the LORD with gladness",
+          "reference": "Psalm 100:2"
+        },
+        {
+          "id": "salmos-u2-l1-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the elements of praise",
+          "pairs": [
+            {
+              "left": "Joyful noise",
+              "right": "Expression of gladness"
+            },
+            {
+              "left": "Serve the LORD",
+              "right": "Active worship"
+            },
+            {
+              "left": "Know His goodness",
+              "right": "Reason for praise"
+            },
+            {
+              "left": "Enter His courts",
+              "right": "Drawing near to God"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l1-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"For the LORD is good; his mercy is _____.\"",
+          "answer": "everlasting",
+          "reference": "Psalm 100:5",
+          "options": [
+            "everlasting",
+            "eternal"
+          ]
+        },
+        {
+          "id": "salmos-u2-l1-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Praising God with gladness is only for the good times of life.",
+          "isTrue": false,
+          "reference": "Psalm 100",
+          "explanation": "Psalm 100 calls us to praise with joy regardless of circumstances, as an act of faith."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l2",
+      "title": "Endless Gratitude",
+      "icon": "heart.fill",
+      "exercises": [
+        {
+          "id": "salmos-u2-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Bless the LORD, my soul; and all that is within me bless his _____.\"",
+          "speaker": "David",
+          "options": [
+            "holy name",
+            "throne",
+            "kingdom",
+            "power"
+          ],
+          "answer": "holy name",
+          "reference": "Psalm 103:1",
+          "explanation": "All of our essence should praise and bless God's holy name."
+        },
+        {
+          "id": "salmos-u2-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Psalm 103 is an individual psalm that expresses gratitude for God's works.",
+          "isTrue": true,
+          "reference": "Psalm 103",
+          "explanation": "Psalm 103 is a powerful psalm of thanksgiving for God's blessings and mercies."
+        },
+        {
+          "id": "salmos-u2-l2-e3",
+          "kind": "multipleChoice",
+          "prompt": "According to Psalm 103, what is God's attitude toward us?",
+          "text": "\"The LORD is merciful and _____, slow to anger and abounding in steadfast love.\"",
+          "options": [
+            "gracious",
+            "just",
+            "wise",
+            "strong"
+          ],
+          "answer": "gracious",
+          "reference": "Psalm 103:8",
+          "explanation": "God's graciousness means His willingness to forgive and treat us with compassion."
+        },
+        {
+          "id": "salmos-u2-l2-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Call to gratitude in Psalm 103:1-2",
+          "tokens": [
+            "Bless the LORD, my soul",
+            "and do not forget",
+            "all his benefits",
+            "all the benefits"
+          ],
+          "distractors": [
+            "his mercy",
+            "his power",
+            "his works"
+          ],
+          "reference": "Psalm 103:1-2"
+        },
+        {
+          "id": "salmos-u2-l2-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Bless the LORD my soul.",
+          "options": [
+            "Praise the LORD forever",
+            "Bless the LORD my soul",
+            "Exalt the LORD's name"
+          ],
+          "answer": "Bless the LORD my soul",
+          "reference": "Psalm 103:1"
+        },
+        {
+          "id": "salmos-u2-l2-e6",
+          "kind": "matchPairs",
+          "prompt": "Match God's blessings",
+          "pairs": [
+            {
+              "left": "Forgiveness of sins",
+              "right": "Redemption"
+            },
+            {
+              "left": "Healing of diseases",
+              "right": "Restoration"
+            },
+            {
+              "left": "Crown of mercy",
+              "right": "Eternal love"
+            },
+            {
+              "left": "Renewal of youth",
+              "right": "New life"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l2-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"The LORD is merciful and _____, slow to anger.\"",
+          "answer": "gracious",
+          "reference": "Psalm 103:8",
+          "options": [
+            "gracious",
+            "kind"
+          ]
+        },
+        {
+          "id": "salmos-u2-l2-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "God wants us to forget none of His benefits.",
+          "isTrue": false,
+          "reference": "Psalm 103:2",
+          "explanation": "God wants us to remember ALL of His benefits to keep our gratitude and praise alive."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l3",
+      "title": "Jubilant Praise",
+      "icon": "sparkles",
+      "exercises": [
+        {
+          "id": "salmos-u2-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Praise the LORD! For it is good to sing ___ to our God.\"",
+          "speaker": "Psalmist",
+          "options": [
+            "hymns",
+            "melodies",
+            "songs",
+            "psalms"
+          ],
+          "answer": "hymns",
+          "reference": "Psalm 147:1",
+          "explanation": "Singing hymns of praise is a powerful way to express our worship to God."
+        },
+        {
+          "id": "salmos-u2-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Psalm 119 is the longest psalm of the Bible and deals with God's Law.",
+          "isTrue": true,
+          "reference": "Psalm 119",
+          "explanation": "Psalm 119 has 176 verses divided into 22 stanzas, each beginning with a letter of the Hebrew alphabet."
+        },
+        {
+          "id": "salmos-u2-l3-e3",
+          "kind": "multipleChoice",
+          "prompt": "What is the main theme of Psalm 119?",
+          "text": "This psalm speaks about the importance of meditating on God's Law.",
+          "options": [
+            "The value of God's Word",
+            "The history of Israel",
+            "The life of David",
+            "The creation of the world"
+          ],
+          "answer": "The value of God's Word",
+          "reference": "Psalm 119",
+          "explanation": "Psalm 119 celebrates God's Law and Word as a source of wisdom, direction, and life."
+        },
+        {
+          "id": "salmos-u2-l3-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Praise for God's Word in Psalm 119:105",
+          "tokens": [
+            "Your word is",
+            "a lamp to my feet",
+            "and a light",
+            "to my path"
+          ],
+          "distractors": [
+            "and a guide",
+            "to my life",
+            "and truth"
+          ],
+          "reference": "Psalm 119:105"
+        },
+        {
+          "id": "salmos-u2-l3-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "Your word is a lamp to my feet.",
+          "options": [
+            "Your word is truth",
+            "Your word is a lamp to my feet",
+            "I will keep your law"
+          ],
+          "answer": "Your word is a lamp to my feet",
+          "reference": "Psalm 119:105"
+        },
+        {
+          "id": "salmos-u2-l3-e6",
+          "kind": "matchPairs",
+          "prompt": "Match about God's Word",
+          "pairs": [
+            {
+              "left": "Lamp",
+              "right": "Illumination for living"
+            },
+            {
+              "left": "Truth",
+              "right": "Absolute reliability"
+            },
+            {
+              "left": "Direction",
+              "right": "Guide for the way"
+            },
+            {
+              "left": "Sweetness",
+              "right": "Delight in obeying"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l3-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"_____ is a lamp to my feet.\"",
+          "answer": "Your word",
+          "reference": "Psalm 119:105",
+          "options": [
+            "Your word",
+            "Word of God"
+          ]
+        },
+        {
+          "id": "salmos-u2-l3-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "God's Word illuminates and guides us on the right path.",
+          "isTrue": true,
+          "reference": "Psalm 119:105",
+          "explanation": "God's Word functions as a lamp that illuminates and guides our steps in life."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l4",
+      "title": "Eternal Praise",
+      "icon": "sun.max.fill",
+      "exercises": [
+        {
+          "id": "salmos-u2-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Complete the verse",
+          "text": "\"Praise the LORD, all peoples; praise him, all _____.\"",
+          "speaker": "Psalmist",
+          "options": [
+            "nations",
+            "lands",
+            "multitudes",
+            "souls"
+          ],
+          "answer": "nations",
+          "reference": "Psalm 117:1",
+          "explanation": "Praise to God is universal and should be shared by all peoples of the earth."
+        },
+        {
+          "id": "salmos-u2-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Psalm 117 is the shortest psalm of the Bible with only two verses.",
+          "isTrue": true,
+          "reference": "Psalm 117",
+          "explanation": "Psalm 117 is indeed the shortest of the 150 psalms, containing only two verses of universal praise."
+        },
+        {
+          "id": "salmos-u2-l4-e3",
+          "kind": "multipleChoice",
+          "prompt": "According to Psalm 136, what is the reason for each praise?",
+          "text": "Each verse ends with the same declaration.",
+          "options": [
+            "Because His mercy endures forever",
+            "Because He is worthy of praise",
+            "Because He created us",
+            "Because He is powerful"
+          ],
+          "answer": "Because His mercy endures forever",
+          "reference": "Psalm 136",
+          "explanation": "Psalm 136 repeats this statement 26 times, emphasizing the constancy of God's mercy."
+        },
+        {
+          "id": "salmos-u2-l4-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the verse",
+          "text": "Universal praise in Psalm 117",
+          "tokens": [
+            "For his mercy",
+            "is great over us",
+            "and the truth of the LORD",
+            "endures forever"
+          ],
+          "distractors": [
+            "and his grace",
+            "is infinite",
+            "and his love"
+          ],
+          "reference": "Psalm 117:2"
+        },
+        {
+          "id": "salmos-u2-l4-e5",
+          "kind": "listen",
+          "prompt": "What did you hear?",
+          "text": "His mercy endures forever.",
+          "options": [
+            "God is eternal",
+            "His mercy endures forever",
+            "His love is infinite"
+          ],
+          "answer": "His mercy endures forever",
+          "reference": "Psalm 136"
+        },
+        {
+          "id": "salmos-u2-l4-e6",
+          "kind": "matchPairs",
+          "prompt": "Match God's characteristics",
+          "pairs": [
+            {
+              "left": "Mercy",
+              "right": "Eternal compassion"
+            },
+            {
+              "left": "Truth",
+              "right": "Absolute faithfulness"
+            },
+            {
+              "left": "Grace",
+              "right": "Unmerited favor"
+            },
+            {
+              "left": "Love",
+              "right": "Supreme devotion"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l4-e7",
+          "kind": "typeAnswer",
+          "prompt": "Complete the phrase",
+          "text": "\"Because His mercy endures _____.\"",
+          "answer": "forever",
+          "reference": "Psalm 136",
+          "options": [
+            "forever",
+            "eternally"
+          ]
+        },
+        {
+          "id": "salmos-u2-l4-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Praise to God is relevant only at certain special moments.",
+          "isTrue": false,
+          "reference": "Psalm 136",
+          "explanation": "Psalm 136 emphasizes that we should praise God continuously because His mercy endures forever."
+        }
+      ]
+    },
+    {
+      "id": "salmos-u2-l5",
+      "title": "Review - Praise and Gratitude",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "salmos-u2-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "What is the central theme of the psalms of praise?",
+          "text": "These psalms encourage us to express joy and gratitude.",
+          "options": [
+            "Celebrating God's works and goodness",
+            "Asking God for favors",
+            "Confessing sins",
+            "Lamenting losses"
+          ],
+          "answer": "Celebrating God's works and goodness",
+          "reference": "Psalm 100, 103, 119, 150",
+          "explanation": "The psalms of praise focus on celebrating who God is and what He has done for us."
+        },
+        {
+          "id": "salmos-u2-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Gratitude protects us from falling into depression and despair.",
+          "isTrue": true,
+          "reference": "Psalm 100, 103, 136",
+          "explanation": "Recognizing God's blessings and expressing gratitude keeps us focused on His goodness."
+        },
+        {
+          "id": "salmos-u2-l5-e3",
+          "kind": "multipleChoice",
+          "prompt": "How should we praise according to Psalm 150?",
+          "text": "This psalm describes instruments and forms of praise.",
+          "options": [
+            "With instruments, dance, and joy",
+            "Only in silent meditation",
+            "Only during worship services",
+            "With reverence and fear"
+          ],
+          "answer": "With instruments, dance, and joy",
+          "reference": "Psalm 150",
+          "explanation": "Psalm 150 invites expressive and joyful praise through various means."
+        },
+        {
+          "id": "salmos-u2-l5-e4",
+          "kind": "buildVerse",
+          "prompt": "Build the review verse",
+          "text": "Summary of the call to praise",
+          "tokens": [
+            "Praise the LORD",
+            "for it is good",
+            "and his mercy",
+            "endures forever"
+          ],
+          "distractors": [
+            "is truth",
+            "is true",
+            "is infinite"
+          ],
+          "reference": "Psalm 100:5, 136:1"
+        },
+        {
+          "id": "salmos-u2-l5-e5",
+          "kind": "listen",
+          "prompt": "Which verse did you hear?",
+          "text": "Make a joyful noise to God all the earth.",
+          "options": [
+            "Praise the LORD with joy",
+            "Make a joyful noise to God",
+            "Sing to the LORD forever"
+          ],
+          "answer": "Make a joyful noise to God",
+          "reference": "Psalm 100:1"
+        },
+        {
+          "id": "salmos-u2-l5-e6",
+          "kind": "matchPairs",
+          "prompt": "Match the psalm to the praise theme",
+          "pairs": [
+            {
+              "left": "Psalm 100",
+              "right": "Joy and praise"
+            },
+            {
+              "left": "Psalm 103",
+              "right": "Gratitude for blessings"
+            },
+            {
+              "left": "Psalm 119",
+              "right": "Praise for God's Word"
+            },
+            {
+              "left": "Psalm 150",
+              "right": "Praise with joy"
+            }
+          ]
+        },
+        {
+          "id": "salmos-u2-l5-e7",
+          "kind": "orderEvents",
+          "prompt": "Order the forms of praise",
+          "text": "Progression of genuine praise",
+          "tokens": [
+            "Recognize God's works",
+            "Give thanks from the heart",
+            "Express praise in words",
+            "Celebrate with joy"
+          ]
+        },
+        {
+          "id": "salmos-u2-l5-e8",
+          "kind": "trueFalse",
+          "prompt": "True or false?",
+          "statement": "Praise to God should be a continuous part of our life, not just occasional.",
+          "isTrue": true,
+          "reference": "Psalm 136",
+          "explanation": "Psalm 136 emphasizes continuous praise because God's mercy is constant."
+        }
+      ]
+    }
+  ]
+}

@@ -8,10 +8,13 @@ struct StatCard: View {
     let unit: String
 
     @State private var displayValue = 0
+    @State private var cardScale: CGFloat = 0.8
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         VStack(spacing: 8) {
             GameIconView(icon: icon, size: 32)
+                .scaleEffect(cardScale)
 
             HStack(spacing: 4) {
                 Text("+\(displayValue)")
@@ -36,7 +39,16 @@ struct StatCard: View {
             RoundedRectangle(cornerRadius: Theme.corner)
                 .strokeBorder(Theme.line, lineWidth: 2)
         )
+        .scaleEffect(cardScale)
         .onAppear {
+            if !reduceMotion {
+                withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
+                    cardScale = 1.0
+                }
+            } else {
+                cardScale = 1.0
+            }
+
             withAnimation(.easeOut(duration: 1.0)) {
                 displayValue = finalValue
             }

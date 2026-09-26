@@ -1,0 +1,653 @@
+{
+  "id": "u4",
+  "title": "Unidad 4",
+  "subtitle": "Muerte y resurrección",
+  "guide": {
+    "summary": "El clímax de la vida de Jesús: su entrada triunfal en Jerusalén, última cena, juicio injusto y muerte sacrificial. Los discípulos lo abandonan en la cruz. Pero al tercer día resucita, venciendo la muerte y el pecado. Aparece a los discípulos, los comisiona y vuelve al Padre, dejando al Espíritu Santo como consolador.",
+    "keyVerses": [
+      {
+        "reference": "Juan 11:25-26",
+        "text": "Jesús le dijo: Yo soy la resurrección y la vida; el que cree en mí, aunque esté muerto, vivirá; y todo aquel que vive y cree en mí, no morirá eternamente."
+      },
+      {
+        "reference": "Romanos 6:9",
+        "text": "Sabiendo que Cristo, habiendo resucitado de los muertos, no muere más; la muerte no tiene dominio sobre él."
+      },
+      {
+        "reference": "1 Corintios 15:57",
+        "text": "Mas gracias sean dadas a Dios, que nos da la victoria por nuestro Señor Jesucristo."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u4-l1",
+      "title": "Entrada Triunfal",
+      "icon": "music.note",
+      "exercises": [
+        {
+          "id": "u4-l1-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Decid a la hija de Sión: He aquí, tu Rey viene a ti, manso, montado en un asno, y en un pollino, hijo de animal de carga.\"",
+          "options": [
+            "carga",
+            "trabajo",
+            "tirar",
+            "transporte"
+          ],
+          "answer": "carga",
+          "reference": "Mateo 21:5"
+        },
+        {
+          "id": "u4-l1-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "En la entrada triunfal, la gente extendió ramos de palmas y mantos en el camino.",
+          "isTrue": true,
+          "reference": "Juan 12:13",
+          "explanation": "La multitud tomó ramos de palmas y salió al encuentro de Jesús, gritando: ¡Hosana! (Juan 12:13)."
+        },
+        {
+          "id": "u4-l1-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La alabanza de las multitudes",
+          "tokens": [
+            "¡Hosana al Hijo",
+            "de David!",
+            "¡Bendito el que viene",
+            "en nombre del Señor!",
+            "de todos"
+          ],
+          "distractors": [
+            "al rey",
+            "al Mesías",
+            "que viene",
+            "al Altísimo"
+          ],
+          "reference": "Mateo 21:9"
+        },
+        {
+          "id": "u4-l1-e4",
+          "kind": "multipleChoice",
+          "prompt": "¿En qué día de la semana entró Jesús en Jerusalén?",
+          "text": "La entrada triunfal sucedió en ___.",
+          "options": [
+            "domingo",
+            "lunes",
+            "sábado",
+            "viernes"
+          ],
+          "answer": "domingo",
+          "reference": "Juan 12:1"
+        },
+        {
+          "id": "u4-l1-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los pares",
+          "pairs": [
+            {
+              "left": "Jesús",
+              "right": "Montado en asno"
+            },
+            {
+              "left": "Multitud",
+              "right": "¡Hosana!"
+            },
+            {
+              "left": "Ramos",
+              "right": "Extendidos"
+            },
+            {
+              "left": "Profecía",
+              "right": "Cumplida"
+            }
+          ],
+          "reference": "Mateo 21, Juan 12"
+        },
+        {
+          "id": "u4-l1-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La entrada triunfal cumplió las profecías del Mesías en Zacarías.",
+          "isTrue": true,
+          "reference": "Zacarías 9:9",
+          "explanation": "Zacarías profetizó que el Mesías entraría montado en un asno (Zacarías 9:9)."
+        },
+        {
+          "id": "u4-l1-e7",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué gritaba la gente a Jesús?",
+          "text": "La multitud gritaba: \"¡___ al Hijo de David!\"",
+          "options": [
+            "¡Hosana!",
+            "¡Aleluya!",
+            "¡Bendiciones!",
+            "¡Gloria!"
+          ],
+          "answer": "¡Hosana!",
+          "reference": "Mateo 21:9"
+        },
+        {
+          "id": "u4-l1-e8",
+          "kind": "multipleChoice",
+          "prompt": "Completa sobre la alabanza de los discípulos",
+          "text": "\"¡Bendito el que viene en nombre del ___!\"",
+          "options": [
+            "Señor",
+            "Padre",
+            "Dios",
+            "Rey"
+          ],
+          "answer": "Señor",
+          "reference": "Mateo 21:9"
+        }
+      ]
+    },
+    {
+      "id": "u4-l2",
+      "title": "Última Cena y Getsemaní",
+      "icon": "water.waves",
+      "exercises": [
+        {
+          "id": "u4-l2-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Y tomando el pan y dando gracias, lo partió y les dio, diciendo: Esto es mi ___, que por vosotros es dado; haced esto en memoria de mí.\"",
+          "speaker": "Jesús",
+          "options": [
+            "cuerpo",
+            "corazón",
+            "sangre",
+            "sacrificio"
+          ],
+          "answer": "cuerpo",
+          "reference": "Lucas 22:19"
+        },
+        {
+          "id": "u4-l2-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "En la última cena, Jesús instituyó la ceremonia de la comunión con sus discípulos.",
+          "isTrue": true,
+          "reference": "Lucas 22:19-20",
+          "explanation": "Jesús enseñó que el pan y el vino representan su cuerpo y su sangre derramada."
+        },
+        {
+          "id": "u4-l2-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La oración de Jesús en Getsemaní",
+          "tokens": [
+            "Abba",
+            "Padre",
+            "todas las cosas",
+            "te son posibles",
+            "aparta de mí",
+            "este cáliz"
+          ],
+          "distractors": [
+            "mi Padre",
+            "pasa este",
+            "la copa",
+            "ese sufrimiento"
+          ],
+          "reference": "Marcos 14:36"
+        },
+        {
+          "id": "u4-l2-e4",
+          "kind": "multipleChoice",
+          "prompt": "¿Para qué fiesta judía fue la última cena?",
+          "text": "La última cena de Jesús fue en la fiesta de la ___.",
+          "options": [
+            "Pascua",
+            "Pentecostés",
+            "Tabernáculos",
+            "Expiación"
+          ],
+          "answer": "Pascua",
+          "reference": "Lucas 22:15"
+        },
+        {
+          "id": "u4-l2-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los pares",
+          "pairs": [
+            {
+              "left": "Última cena",
+              "right": "Pascua"
+            },
+            {
+              "left": "Getsemaní",
+              "right": "Oración y angustia"
+            },
+            {
+              "left": "Pan",
+              "right": "Cuerpo de Cristo"
+            },
+            {
+              "left": "Vino",
+              "right": "Sangre de Cristo"
+            }
+          ],
+          "reference": "Lucas 22, Marcos 14"
+        },
+        {
+          "id": "u4-l2-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Jesús sudó gotas de sangre en Getsemaní de tanta angustia.",
+          "isTrue": true,
+          "reference": "Lucas 22:44",
+          "explanation": "Jesús oró con tanta intensidad que su sudor se convirtió en grandes gotas de sangre (Lucas 22:44)."
+        },
+        {
+          "id": "u4-l2-e7",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál era el nombre del lugar donde Jesús oró?",
+          "text": "Jesús fue a un lugar llamado ___ para orar.",
+          "options": [
+            "Getsemaní",
+            "Monte de los Olivos",
+            "Betania",
+            "Cafarnaum"
+          ],
+          "answer": "Getsemaní",
+          "reference": "Lucas 22:39"
+        },
+        {
+          "id": "u4-l2-e8",
+          "kind": "multipleChoice",
+          "prompt": "Completa sobre el vino de la alianza",
+          "text": "\"De igual manera, tomó el cáliz después de haber cenado, diciendo: Este cáliz es la nueva alianza en mi ___, que por vosotros se derrama.\"",
+          "options": [
+            "sangre",
+            "cuerpo",
+            "corazón",
+            "sacrificio"
+          ],
+          "answer": "sangre",
+          "reference": "Lucas 22:20"
+        }
+      ]
+    },
+    {
+      "id": "u4-l3",
+      "title": "La Crucifixión",
+      "icon": "cross.fill",
+      "exercises": [
+        {
+          "id": "u4-l3-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Cuando llegaron al lugar llamado Calvario, allí lo crucificaron, a él y a dos malhechores; uno a su derecha y otro a su ___\".",
+          "options": [
+            "izquierda",
+            "frente",
+            "espalda",
+            "cabeza"
+          ],
+          "answer": "izquierda",
+          "reference": "Lucas 23:33"
+        },
+        {
+          "id": "u4-l3-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Jesús murió solo, sin nadie a su lado.",
+          "isTrue": false,
+          "reference": "Juan 19:25-27",
+          "explanation": "María, madre de Jesús, y el discípulo amado estaban cerca de la cruz (Juan 19:25-27)."
+        },
+        {
+          "id": "u4-l3-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "Las últimas palabras de Jesús en la cruz",
+          "tokens": [
+            "Padre",
+            "en tus manos",
+            "encomiendo mi espíritu",
+            "y diciendo esto",
+            "expiró"
+          ],
+          "distractors": [
+            "mi Dios",
+            "encomienda",
+            "partió",
+            "se durmió",
+            "desistió"
+          ],
+          "reference": "Lucas 23:46"
+        },
+        {
+          "id": "u4-l3-e4",
+          "kind": "multipleChoice",
+          "prompt": "¿Por qué echaban suertes los soldados?",
+          "text": "Los soldados echaban suertes por la ___ de Jesús.",
+          "options": [
+            "ropa",
+            "capa",
+            "túnica",
+            "vida"
+          ],
+          "answer": "ropa",
+          "reference": "Lucas 23:34"
+        },
+        {
+          "id": "u4-l3-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los pares",
+          "pairs": [
+            {
+              "left": "Crucifixión",
+              "right": "Calvario"
+            },
+            {
+              "left": "Muerte de Jesús",
+              "right": "Salvación"
+            },
+            {
+              "left": "Velo del templo",
+              "right": "Rasgado"
+            },
+            {
+              "left": "Resurrección",
+              "right": "Poder de Dios"
+            }
+          ],
+          "reference": "Lucas 23, Juan 19"
+        },
+        {
+          "id": "u4-l3-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "El velo del templo se rasgó de arriba a abajo cuando Jesús murió.",
+          "isTrue": true,
+          "reference": "Lucas 23:45",
+          "explanation": "El velo del templo se rasgó por el medio cuando Jesús expiró (Lucas 23:45)."
+        },
+        {
+          "id": "u4-l3-e7",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál malhechor fue al paraíso?",
+          "text": "Uno de los malhechores confesó a Jesús y fue ___ aquel día.",
+          "options": [
+            "con Jesús en el paraíso",
+            "perdonado",
+            "resucitado",
+            "salvado"
+          ],
+          "answer": "con Jesús en el paraíso",
+          "reference": "Lucas 23:43"
+        },
+        {
+          "id": "u4-l3-e8",
+          "kind": "multipleChoice",
+          "prompt": "Completa sobre el sacrificio de Jesús",
+          "text": "\"Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree no se pierda, mas tenga vida ___\".",
+          "options": [
+            "eterna",
+            "sin fin",
+            "del Padre",
+            "infinita"
+          ],
+          "answer": "eterna",
+          "reference": "Juan 3:16"
+        }
+      ]
+    },
+    {
+      "id": "u4-l4",
+      "title": "Resurrección y Ascensión",
+      "icon": "moon.stars.fill",
+      "exercises": [
+        {
+          "id": "u4-l4-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Porque Cristo murió por nuestros pecados, conforme a las Escrituras; y que fue ___; conforme a las Escrituras.\"",
+          "options": [
+            "resucitado",
+            "elevado",
+            "ascendido",
+            "glorificado"
+          ],
+          "answer": "resucitado",
+          "reference": "1 Corintios 15:3-4"
+        },
+        {
+          "id": "u4-l4-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "María Magdalena fue una de las primeras en ver a Jesús resucitado.",
+          "isTrue": true,
+          "reference": "Juan 20:14-16",
+          "explanation": "María Magdalena fue al sepulcro y vio a Jesús resucitado, aunque inicialmente no lo reconoció (Juan 20:14-16)."
+        },
+        {
+          "id": "u4-l4-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La palabra de Jesús resucitado",
+          "tokens": [
+            "Paz os dejo",
+            "mi paz",
+            "os doy",
+            "no os la doy",
+            "como el mundo"
+          ],
+          "distractors": [
+            "os hago",
+            "ofrezco",
+            "por suerte",
+            "como la tierra"
+          ],
+          "reference": "Juan 14:27"
+        },
+        {
+          "id": "u4-l4-e4",
+          "kind": "multipleChoice",
+          "prompt": "¿Después de cuántos días resucitó Jesús?",
+          "text": "Jesús resucitó al ___ día.",
+          "options": [
+            "tercero",
+            "primero",
+            "segundo",
+            "cuarto"
+          ],
+          "answer": "tercero",
+          "reference": "1 Corintios 15:4"
+        },
+        {
+          "id": "u4-l4-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los pares",
+          "pairs": [
+            {
+              "left": "Resurrección",
+              "right": "Tercer día"
+            },
+            {
+              "left": "Ascensión",
+              "right": "Cielo"
+            },
+            {
+              "left": "Pentecostés",
+              "right": "Espíritu Santo"
+            },
+            {
+              "left": "Esperanza",
+              "right": "Vida eterna"
+            }
+          ],
+          "reference": "1 Corintios 15, Hechos 1"
+        },
+        {
+          "id": "u4-l4-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Jesús se apareció a sus discípulos después de la resurrección.",
+          "isTrue": true,
+          "reference": "Juan 20:19-22",
+          "explanation": "Jesús se apareció en medio de los discípulos y les mostró las manos y el costado (Juan 20:19-22)."
+        },
+        {
+          "id": "u4-l4-e7",
+          "kind": "multipleChoice",
+          "prompt": "¿A dónde fue llevado Jesús en la ascensión?",
+          "text": "Jesús fue llevado al ___ de los cielos.",
+          "options": [
+            "reino",
+            "lugar",
+            "trono",
+            "seno"
+          ],
+          "answer": "reino",
+          "reference": "Hechos 1:9-11"
+        },
+        {
+          "id": "u4-l4-e8",
+          "kind": "multipleChoice",
+          "prompt": "Completa sobre la promesa de Jesús",
+          "text": "\"Porque Cristo murió por nuestros pecados, conforme a las Escrituras; y que fue resucitado al tercer día, conforme a las Escrituras; y que apareció a Cefas, y después a los ___ apóstoles.\"",
+          "options": [
+            "doce",
+            "once",
+            "setenta",
+            "cincuenta"
+          ],
+          "answer": "doce",
+          "reference": "1 Corintios 15:5"
+        }
+      ]
+    },
+    {
+      "id": "u4-l5",
+      "title": "Gran Comisión y Despedida",
+      "icon": "crown.fill",
+      "exercises": [
+        {
+          "id": "u4-l5-e1",
+          "kind": "multipleChoice",
+          "prompt": "Completa el versículo",
+          "text": "\"Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu ___; enseñándoles que guarden todas las cosas que os he mandado.\"",
+          "speaker": "Jesús",
+          "options": [
+            "Santo",
+            "Divino",
+            "Celestial",
+            "Eterno"
+          ],
+          "answer": "Santo",
+          "reference": "Mateo 28:19-20"
+        },
+        {
+          "id": "u4-l5-e2",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "La Gran Comisión ordena a los discípulos ir a todas las naciones.",
+          "isTrue": true,
+          "reference": "Mateo 28:19",
+          "explanation": "Jesús ordenó que los discípulos fuesen e hicieran discípulos de todas las naciones (Mateo 28:19)."
+        },
+        {
+          "id": "u4-l5-e3",
+          "kind": "buildVerse",
+          "prompt": "Arma el versículo",
+          "text": "La promesa de Jesús hasta el fin de los tiempos",
+          "tokens": [
+            "Y he aquí yo",
+            "estoy con vosotros",
+            "todos los días",
+            "hasta el fin",
+            "del siglo"
+          ],
+          "distractors": [
+            "con ustedes",
+            "cada momento",
+            "fin del mundo",
+            "eternamente"
+          ],
+          "reference": "Mateo 28:20"
+        },
+        {
+          "id": "u4-l5-e4",
+          "kind": "multipleChoice",
+          "prompt": "¿A quién se le apareció Jesús en el Monte de los Olivos?",
+          "text": "Jesús se le apareció a los apóstoles en el Monte de los ___.",
+          "options": [
+            "Olivos",
+            "Calvario",
+            "Sión",
+            "Moriah"
+          ],
+          "answer": "Olivos",
+          "reference": "Hechos 1:12"
+        },
+        {
+          "id": "u4-l5-e5",
+          "kind": "matchPairs",
+          "prompt": "Asocia los pares",
+          "pairs": [
+            {
+              "left": "Gran Comisión",
+              "right": "Discipular naciones"
+            },
+            {
+              "left": "Ascensión",
+              "right": "Retorno al Padre"
+            },
+            {
+              "left": "Espíritu Santo",
+              "right": "Pentecostés"
+            },
+            {
+              "left": "Evangelio",
+              "right": "A todas las naciones"
+            }
+          ],
+          "reference": "Mateo 28, Hechos 1"
+        },
+        {
+          "id": "u4-l5-e6",
+          "kind": "trueFalse",
+          "prompt": "¿Verdadero o falso?",
+          "statement": "Jesús prometió estar con los discípulos todos los días hasta el fin de los tiempos.",
+          "isTrue": true,
+          "reference": "Mateo 28:20",
+          "explanation": "Jesús aseguró que estaría con los discípulos todos los días hasta el fin del siglo (Mateo 28:20)."
+        },
+        {
+          "id": "u4-l5-e7",
+          "kind": "multipleChoice",
+          "prompt": "¿Cuál fue el último mandamiento de Jesús?",
+          "text": "Jesús mandó bautizar en nombre del Padre, del Hijo y del ___.",
+          "options": [
+            "Espíritu Santo",
+            "Dios",
+            "Amor",
+            "Reino"
+          ],
+          "answer": "Espíritu Santo",
+          "reference": "Mateo 28:19"
+        },
+        {
+          "id": "u4-l5-e8",
+          "kind": "multipleChoice",
+          "prompt": "¿Qué significa hacer discípulos a las naciones?",
+          "text": "Hacer discípulos significa ___ y ___ a guardar los mandamientos de Jesús.",
+          "options": [
+            "enseñar y convencer",
+            "convertir y subyugar",
+            "predicar y convertir",
+            "condenar y salvar"
+          ],
+          "answer": "enseñar y convencer",
+          "reference": "Mateo 28:20"
+        }
+      ]
+    }
+  ]
+}
